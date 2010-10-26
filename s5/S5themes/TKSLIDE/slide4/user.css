@@ -1,0 +1,122 @@
+* {font-size:1em;line-height:120%;margin:0;padding:0;}
+body {
+ position:absolute;width:100%;height:100%;margin:0;padding:0;border:none;cursor:default;
+
+ background:#999;font-family:garamond,century,serif;letter-spacing:1px;font-weight:200;
+}
+
+.slide {background:#fff;border:1px solid #000;}
+
+h1,h2{text-align:center;width:100%;font-family:georgia;}
+.bad {color:#f00;}
+h1 {font-size:1.8em;}
+h2 {font-size:1.5em;}
+h3 {font-size:1.3em;}
+h4 {font-size:1.2em;}
+h5 {font-size:1.1em;}
+h6 {font-size:1.0em;}
+
+.layout {display:none;}
+#footer {display:none;}
+.ipage  {width:96%;height:96%;margin:2%;}
+.math   {}
+
+select {font-size:0.7em;line-height:100%;}
+code,pre {font-family:fixedsys,courier;font-size:0.9em;letter-spacing:0px;}
+
+/* TKSLIDE kernel Styles                                    */
+/* If you want to change the following stylesheets,         */
+/* Be sure that you know what you are doing.                */
+
+/* Dynamics like #ctrlpanel.ctrl_large not work in IE       */
+/* Control panel                                            */
+#ctrlpanel span {cursor:pointer;}
+.ctrl_large, .ctrl_small {
+ position:absolute;height:auto;z-index:21;display:none;
+ padding:0;margin:0;
+ font-family:lucida sans unicode; 
+ line-height:100%;letter-spacing:10px;text-align:center;
+ background:#000;color:#fff;
+}
+
+.ctrl_large {
+ top:0;left:30%;width:40%;
+ font-size:2.0em;
+}
+
+.ctrl_small {
+ top:auto;left:80%;bottom:2px;right:2px;width:20%;
+ font-size:0.8em;
+ overflow:hidden;
+}
+
+/* Property panel */
+#property .title {
+ width:100%;
+ background:#000;color:#fff;
+ padding:4px;margin:0;
+ text-align:center;
+}
+
+#property table{
+ width:98%;
+ text-align:left;line-height:100%;font-size:1em;
+ color:#000;cursor:pointer;
+ margin:1%;
+}
+
+
+.property_large, .property_small {
+ height:auto;display:none;
+ border:2px solid #000;
+ font-family:georgia;font-size:0.7em;
+ letter-spacing:0;line-height:100%;
+ background:#fff;
+ padding:0;margin:0;
+ overflow:hidden;
+}
+
+.property_small {
+ position:static;width:100%;
+}
+
+.property_large {
+ position:absolute;top:0;left:0;width:25%;z-index:21;
+}
+
+/* Index box */
+
+#indexbox { display:none;}
+.indexbox_large {
+ position:absolute;bottom:0;right:0;z-index:21;
+}
+
+.indexbox_small {
+ position:static;width:100%;
+ letter-spacing:0;
+}
+
+/* Container (div that contains all slides) */
+#container {
+ position:absolute;width:99%;height:99%;
+ margin:0;padding:0;
+}
+
+/* Page Number */
+#pagenumber {
+ position:absolute;bottom:2%;left:49%;z-index:23;
+ cursor:pointer;
+ font-size:0.7em;
+}
+
+/* slide */
+.slide {
+ position:absolute;width:100%;height:100%;visibility:visible;display:block;
+ margin:0;padding:0; 
+ page-break-after:always;
+ overflow:hidden;
+}
+
+.islide {
+ width:100%;height:100%;
+}

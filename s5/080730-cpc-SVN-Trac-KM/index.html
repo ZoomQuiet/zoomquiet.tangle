@@ -1,0 +1,1580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>版本管理 项目管理 知识管理 (via S5)</title>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+<!-- metadata -->
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.1" />
+<meta name="presdate" content="20050728" />
+<meta name="author" content="Eric A. Meyer" />
+<meta name="company" content="Complex Spiral Consulting" />
+
+<meta name="translate" content="Zoom.Quiet" />
+<meta name="presdate" content="20070727" />
+
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/sinamu/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/sinamu/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/sinamu/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/sinamu/opera.css" type="text/css" media="projection" id="operaFix" />
+<!-- embedded styles -->
+<style type="text/css" media="all">
+.imgcon {width: 525px; margin: 0 auto; padding: 0; text-align: center;}
+#anim {width: 270px; height: 320px; position: relative; margin-top: 0.5em;}
+#anim img {position: absolute; top: 42px; left: 24px;}
+img#me01 {top: 0; left: 0;}
+img#me02 {left: 23px;}
+img#me04 {top: 44px;}
+img#me05 {top: 43px;left: 36px;}
+</style>
+
+<!-- S5 JS -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+
+<div id="header"></div>
+<div id="footer">
+<h2></h2>
+<table>
+<tr>
+<td><a target="_blank"  href="http://www.zeuux.org/about/about.cn.html">
+ZEUUX.org</a> 
+哲思自由软件社区
+</td>
+<td rowspan="2">
+<a  target="_blank" href="http://creativecommons.cn/licenses/by-nc-sa/1.0/">
+<img src="img/CC1.0-by-nc-sa.png"/>
+</a>
+v0.9.6-080729
+<br/>
+推荐使用<a  target="_blank" 
+href="http://www.mozilla.org.cn">FireFox</a>获取最佳浏览体验!
+</td>
+</tr>
+<tr>
+<td>
+<a  target="_blank" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet">
+<img src="img/BPUGlableT.gif" /></a>
+<a  target="_blank" href="http://zoomquiet.org">
+Zoom.Quiet
+</a>
+</td>
+
+</tr>
+</table>
+</div>  
+<div class="presentation">
+
+<div class="slide">
+<center><img src="icon/080428-zeuux-logo-gb-h90.png"/></center>
+<br/>
+<h1>版本管理 项目管理 知识管理 导入浅谈</h1>
+
+<h5>~ <a href="mailto:Zoom.Quiet@gmail.com">Zoom.Quiet</a>
+</h5>
+</div>
+<div class="slide">
+<h1>概要</h1>
+
+<ul class="incremental">
+
+    <li>版本?到底什么是版本?</li>
+    <li>管理!CVS vs SVN</li>
+    <li>Trac!轻型集成项目管理环境</li>
+
+</ul>
+</div>
+<div class="slide">
+<h1>什么是"版"?</h1>
+
+
+<ul >
+<li><img src="foto/b_zgtsbbx.jpg"/>中所述
+
+<li>《说文解字》:
+    <ul>
+    <li>判也，从片，反声
+    </ul>
+</li>
+
+<li>《说文通训定声》:
+    <ul>
+    <li>判木为片，名之为版
+    </ul>
+</li>
+<li>最早是动词，后来变迁为文字载体的通称，在纸发明前，文字是记载在各种各样材质的“版”上的
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>什么是"本"?</h1>
+
+
+<ul >
+
+<li>《太平御览》:
+    <ul>
+    <li>定以杀青，可缮写，上素为定本
+    </ul>
+</li>
+
+<li>即，书之原本，
+
+<li>一部书在内容形式上的表现形式
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>什么是"版本"?</h1>
+
+
+<ul >
+
+<li>“版”，“本”合称在宋朝
+    <ul>
+    <li>初，专指雕版印本，即：刻本
+    </ul>
+</li>
+
+<li>用雕刻好的文字的木版印刷而成的图书本子
+
+<li>目的在与当时社会上流行的写本，拓本等等区分
+<li>1979年版《辞海》:
+    <ul>
+    <li>“版本”——书经过传写或是印刷而形成的各种不同本子
+    </ul>
+</li>
+<li>在出版业，“版本”就是指一部图书的具体表现形式
+</ul>
+
+</div>
+<div class="slide">
+<h1>PS."版本学"！？</h1>
+
+
+<ul >
+
+<li>“版本学”是一门以图书版本为研究对象的应用性学科,
+
+<li>目的和任务是探究版本变迁的特色和规律，总结版本鉴定的经验和方法
+
+<li>以准确揭示和正确鉴别版本，满足人们有关版本的各种需要
+
+
+<li>如果软件行业的“版本”混乱状态一直不能改进，
+<li>极有可能产生出“软件版本学”——这将是灾难！
+
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>软件工程中的“版”与“本”</h1>
+
+
+<ul >
+
+<li>印刷术是中国发明的，出版机制中的原理也自然的引用在软件工程中
+<li>《韦氏英语词典》
+
+<li>“版” -- version
+    <ul>
+    <li>原型的变型
+    </ul>
+</li>
+
+<li>“版本” -- revision
+    <ul>
+    <li>经过修改的“版”
+    </ul>
+</li>
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>用户看到的“版本”</h1>
+
+
+<ul >
+
+<li>版本1型车
+<br/>
+<img src="foto/VMcarV1.gif"/>
+<li>版本2型车
+<br/>
+<img src="foto/VMcarV2.gif"/>
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>开发成员看到的“版本”</h1>
+
+
+<ul >
+
+<li>模块1的成员关注
+<br/>
+<img src="foto/VMcarE1.gif"/>
+<li>其它各个模块开发成员关注的
+<br/>
+<img src="foto/VMcarE2.gif"/>
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>配置管理员 关注的“版本”</h1>
+
+
+<ul >
+
+<li>配置管理/发布管理关注“基线”
+
+<li>
+<img src="foto/baseline.png"/>
+
+<li>顾名思义，是基准线，是项目组是下阶工作的起点
+    <ul>
+    <li>Label--“版本标签” 其实就是基线的实际体现形式
+
+    </ul>
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>基线的建立</h1>
+
+<h2>建立基线的三大原因是：<h2>
+
+<ul>
+<li>重现性
+<li>可追踪性
+<li>差异报告
+</ul>
+<hr/>
+<ul class="incremental">
+    <li>基线是项目过程中每个工件版本在特定时期的一个“快照”。
+它提供一个正式标准，随后的工作基于此标准，并且只有经过授权后才能变更这个标准。
+    <li>建立一个初始基线后，以后每次对其进行的变更都将记录为一个差值，直到建成下一个基线。
+    </ul>
+
+</div>
+<div class="slide">
+<h1>“版本”的发布策略</h1>
+
+
+<ul >
+
+<li>总线模式 -- The Mainline Model
+
+
+<li><img src="foto/rmmod_mainline.gif"/>
+    <ul>
+    <li>主线 上永远进行最新开发
+    <li>每发布一成熟版本，使用“产品分支”进行维护
+
+    </ul>
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>“版本”的发布策略</h1>
+
+
+<ul >
+
+<li>增进模式 -- The Promotion Model
+
+
+<li><img src="foto/rmmod_promotion.gif"/>
+    <ul>
+    <li>主线 上只进行初始版本的开发和维护
+    <li>每一成熟版本，都在前一版本分支上进行维护
+
+    </ul>
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>“版本”的管理目标</h1>
+
+
+<ul class="incremental">
+
+<li>0. 识别产品所有工件
+<li>1. 将全部工件纳入版本管理系统中
+<li>2. 约定“版本标签”，和变更流程
+<li>3. 实现对基线的保卫！
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>在版本管理帮助下协同开发</h1>
+
+<ul>
+<li>解决文件共享的是协同的关键
+<li>锁定-修改-解锁 方案
+<li><img src="foto/ch02dia3.png"/>
+
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>拷贝-修改-合并 方案</h1>
+
+<ul>
+<li>在版本系统帮助下一般执行:
+<li>拷贝-修改-合并 方案
+
+<br/>
+<img src="foto/ch02dia5.png"/><sup>引发冲突</sup> 
+<img src="foto/ch02dia4.png"/> <sup>冲突消解</sup>
+
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>主流自由VM系统</h1>
+
+
+<ul>
+<li><a href="http://www.cvshome.org/">CVS</a> -- Concurrent Versions System
+    <ul>
+    <li><a href="http://tech.ccidnet.com/art/309/20041203/185163_1.html">
+    1993年由 Jim Kingdon 改写成基于网络的服务</a>; 是成熟,久经考验的版本管理系统   
+    </ul>
+</li>
+<li>SVN -- <a href="http://subversion.tigris.org/">Subversion</a>
+    <ul>
+    <li>2001年8月31日，SVN开始“自个儿管理自个儿”了
+    </ul>
+</li>
+<li>Bzr -- Bazaar NG
+    <ul>
+    <li><a href="http://www.canonical.com/">Canonical</a>开发的分布式版本管理系统
+    (<a href="http://www.ubuntulinux.org/">Ubuntu</a> 的维护者)
+    <li><a href="http://codebrowse.launchpad.net/~bzr/bzr/0.10/files/pqm%40pqm.ubuntu.com-20060904005919-d595cc974f859400?file_id=bzrlib-20050309040749-4ac9a0e211602846">使用Python 完成</a>;最新版本为 0.18(17 July 2007)
+    <li>是<a href="https://launchpad.net/">launchpad</a>的核心动力
+    </ul>
+</li>
+<li>Hg -- Mercurial
+    <ul>
+    <li><a href="http://www.selenic.com/pipermail/mercurial/">2005年</a>
+    才发布的分布式版本管理系统;
+    <a href="http://selenic.com/repo/hg/file/48ebd6a83994/mercurial/">
+    主体也是Python 完成的</a>
+    <li><a href="http://wiki.mozilla.org/Version_Control_System">2007年</a>
+    Mozilla 2 工程经过对比选择 Hg 作为版本环境:
+        <br/>
+    <a href="http://hg.mozilla.org/">hg.mozilla.org</a>
+    </ul>
+</li>
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>版本-目录</h1>
+
+<ul>
+<li>CVS 中
+    <ul>
+    <li>只对文件进行了版本控制
+    </ul>
+</li>
+<li>SVN 中
+    <ul>
+    <li>目录和文件一样有完整的版本追踪
+    </ul>
+</li>
+</ul>
+
+</div>
+<div class="slide">
+<h1>原子提交</h1>
+
+<ul >
+
+<li>在SVN中版本修订是全局性的！
+
+    <ul >
+    <li><img src="foto/ch02dia7.png"/>
+    <li>Subversion的修订号是针对整个目录树的,
+    每一个修订号代表了一次提交后版本库整个目录树的特定状态
+    <li>当Subversion用户讨论“foo.c的修订号5”时，
+    他们的实际意思是“在修订号5时的foo.c”
+    <li>即 ChangeSet -- 原子提交
+    </ul>
+
+</ul>
+
+</div>
+<div class="slide">
+<h1>可选网络层</h1>
+
+<ul>
+<li>CVS 中
+    <ul>
+    <li>对仓库的访问只能通CVS协议
+    </ul>
+</li>
+<li>SVN 中
+    <ul>
+    <li>使用独立接口，可以使用 SVN/HTTP/HTTPS/SSH 等等协议访问
+    </ul>
+</li>
+</ul>
+
+</div>
+<div class="slide">
+<h1>状态和更新的严密描述</h1>
+
+<ul >
+
+<li>在Subversion，我们已经设法抹去cvs status和cvs update之间的混乱
+<li>svn status打印所有本地文件的修改状态
+<pre>
+A    资源预定要添加
+D    资源预定要删除
+M    资源有本地修改
+C    资源发生冲突（修改不能完全在版本库和
+     工作拷贝之间合并）
+X    资源在工作拷贝之外（来自其他版本库，
+     见“svn:externals”一节）
+?    资源不在版本控制之下
+!    资源丢失或者不完整（被Subversion以外的工具删除）
+</pre>
+<li>详细命令说明参考:
+    <a href="http://www.subversion.org.cn/svnbook/1.1/svn-ch-3-sect-5.html#svn-ch-3-sect-5.3.1">SVNBook--“svn status”一节</a>
+</ul>
+
+</div>
+<div class="slide">
+<h1>分支和标签的简化</h1>
+
+<ul >
+
+<li>Subversion不区分文件系统空间和“分支”空间
+<li>分支和标签都是普通的文件系统目录
+
+    <ul >
+    <li>一直要记住检出项目的trunk
+    <br/>（http://svn.example.com/repos/calc/trunk/）
+    <li>而不是项目本身的
+    <br/>（http://svn.example.com/repos/calc/）
+    <li>如果你错误的检出了项目本身，你会紧张的发现你的项目拷贝包含了所有的分支和标签
+    </ul>
+
+<li>详细命令说明参考:
+    <a http://www.subversion.org.cn/svnbook/1.1/svn-ch-4.html1">SVNBook--第 4 章 分支与合并</a>
+</ul>
+
+</div>
+<div class="slide">
+<h1>其它指标对比</h1>
+
+<ul>
+<li>
+<table border="1">
+<tr>
+    <th>功能|说明\系统</th>
+    <th>CVS</th>
+    <th>SVN</th>
+</tr>
+<tr>
+    <td>存储</td>
+    <td>文件</td>
+    <td>文件/DB</td>
+</tr>
+<tr>
+    <td>文件/目录重命名</td>
+    <td>不支持</td>
+    <td>支持</td>
+</tr>
+
+<tr>
+    <td>权限控制</td>
+    <td>否<br/>依赖外部文件系统</td>
+    <td>是<br/>内置支持,且通过HOOKs可以扩展</td>
+</tr>
+
+<tr>
+    <td>差异传送</td>
+    <td>不支持</td>
+    <td>支持</td>
+</tr>
+<tr>
+    <td>二进制文件一致性处理</td>
+    <td>不支持</td>
+    <td>支持</td>
+</tr>
+
+<tr>
+    <td>冲突提示</td>
+    <td>简单可忽略</td>
+    <td>明确不可忽略</td>
+</tr>
+
+</table>
+
+</li>
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>整体架构</h1>
+
+<img src="foto/ch01dia1.png"/>
+
+
+</div>
+<div class="slide">
+<h1>有版本管理的开发协作</h1>
+
+
+<ul >
+<li><img src="foto/commitloop.gif"/>
+</ul>
+
+<ul  class="incremental">
+<li>0. 工作之前，恰当的检出属于自己的代码(co)
+<li>1. 检入之前，必须重新同步本地代码(update)
+<li>2. 检入之前，后检入的人有责任解决合并冲突(ci)
+<li>3. 若无合适的理由(例:改善可靠性/可读性等)不得随意回退别人做过的修改
+</ul>
+
+
+</div>
+
+<div class="slide">
+<h1>Trac</h1>
+
+
+<ul >
+<li><a href="http://trac.edgewall.org"><img src="foto/trac_logo.png"/></a>
+<li>由 <a href="http://www.edgewall.org/">
+    <img src="foto/edgewall.png"/></a> 开发
+<li>针对SVN,纯Python编写<b>集成维基和事务追踪等特性的项目管理系统</b>
+<li><a href="http://trac.edgewall.org/roadmap?show=all">
+    02/23/2004 发布 0.5.0</a>
+<li>最新发布版本 <a href="http://trac.edgewall.org/wiki/TracDownload">0.11</a>
+<li>当前最新版本 0.12
+
+</ul>
+
+
+</div>
+
+<div class="slide">
+<h1>TracWiki--系统信息组织核心</h1>
+
+
+
+<ul >
+<li><img src="foto/trac-menu_768X120_scrot.png"/>
+
+<li>TracWiki 是系统信息组织核心,基于MoinMoin 简化并深度定制的维基系统
+<li>主要组件
+    <ul >
+    <li>TracAdmin -- 命令行界面的管理模块
+    <li>TracLink -- 统一标注解析
+    <li>TracTicket -- 传票系统，紧密结合SVN 的事务追踪系统
+    <li>TracReport -- 可定制的传票视图
+    <li>TracBrowser -- 在线代码查阅系统
+    <li>TracTimeline -- 综合项目状态汇报
+    <li>TracRoadmap -- 简单里程碑管理系统
+    </ul>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>TracAdmin -- 命令行界面的管理模块</h1>
+
+
+
+<ul >
+
+<li>快捷的命令行界面:<img src="foto/trac-admin_510X119_scrot.png"/>
+<li>丰富的控制操作:
+
+</ul>
+<table id="inner"><tr>
+    <td><ul>
+        <li>>initenv;hotcopy;resync;upgrade
+        <li>>wiki <sup>list/export/remove/import/sump/load/upgrade</sup>
+        <li>>permission <sup>list/add/rename</sup>
+        <li>>component <sup>list/add/rename/remove/chown</sup>
+        <li>>ticket_type <sup>list/add/change/remove/order</sup>
+        <li>>priority <sup>list/add/change/remove/order</sup>
+        <li>>severity <sup>list/add/change/remove/order</sup>
+        <li>>version <sup>list/add/rename/timr/remove</sup>
+        <li>>milestone <sup>list/add/rename/due/remove/complet</sup>
+        </ul>
+    </td>
+    <td><img src="foto/trac-admin-permition_481X174_scrot.png"/>
+    </td>
+</tr></table>
+
+</div>
+
+<div class="slide">
+<h1>WebAdmin -- 在线综合管理插件</h1>
+
+
+<img src="foto/trac-admin_132514_771x399_scrot.png"/>
+
+</div>
+
+<div class="slide">
+<h1>TracLink -- 统一标注解析</h1>
+
+
+
+<ul >
+<li><img src="foto/trac-links_867X256_scrot.png"/>
+<li>统一应用在所有组件中
+<li>同时通过在 SVN 注释中使用，从而同 SVN 紧密联接起来
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>TracTicket -- 传票系统</h1>
+
+
+
+<ul >
+<li>核心流程<img src="foto/trac-ticket-state-chart-20060603DF.png"/>
+<li>可定制属性
+<br/>
+<img src="foto/trac-ticket-properties_851X225_scrot.png"/>
+
+
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>TracBrowser--在线代码查阅系统</h1>
+
+<ul >
+<li>自然的目录显示
+<img src="foto/trac-browser_265X219_scrot.png"/>
+<li>支持丰富语法色的代码显示<br/>
+<img src="foto/trac-browser-file_531X299_scrot.png"/>
+
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>TracBrowser--日志历史</h1>
+
+<ul >
+<li>日志历史<br/>
+<img src="foto/trac-browser-logs_729X379_scrot.png"/>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>TracBrowser--变更对比</h1>
+
+<ul >
+<li>变更对比<br/>
+<img src="foto/trac-browser-changeset_748X380_scrot.png"/>
+
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>TracReport -- 可定制的传票视图</h1>
+
+<ul >
+<li>类SQL的快速定制脚本: <img src="foto/trac-report_483X234_scrot.png"/>
+<li> 
+<pre>
+SELECT p.value AS __color__,
+   id AS ticket, summary, component, version, t.type AS type, 
+   (CASE status WHEN 'assigned' THEN owner||' *' ELSE owner END) AS owner,
+   changetime AS modified, 
+   time AS created,
+   description AS _description,
+   reporter AS _reporter
+  FROM ticket t, enum p
+  WHERE status IN ('closed') 
+AND p.name = t.priority AND p.type = 'priority'
+  ORDER BY  changetime DESC
+</pre>
+
+</ul >
+</div>
+
+<div class="slide">
+<h1>TracTimeline -- 综合项目状态汇报</h1>
+
+<ul >
+<li>汇报所有组件及SVN仓库内容变动<br/>
+<img src="foto/trac-timeline_736X261_scrot.png"/>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>TracRoadmap -- 简单里程碑管理系统</h1>
+
+<ul >
+<li>简易里程碑统计::
+<img src="foto/trac-roadmap-tickets_380X191_scrot.png"/>
+<br/>
+<img src="foto/trac-roadmap_577X314_scrot.png"/>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Trac过程</h1>
+
+<ul >
+<li><img src="foto/trac_kpi_flow.png"/>
+
+<li>利用Trac 的定制性约定自个儿的开发过程
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>TracHacking ...</h1>
+
+<ul >
+<li><a href="http://trac-hacks.org/">
+<img src="foto/trachacks_banner.png"/></a>
+
+<li>由于使用Python 开发，且SVN 提供丰富接口
+<li>已经由用户贡献/开发/积累了很多扩展
+    <ul>
+    <li>第三方应用
+    <li>宏
+    <li>插件
+    <li>样式
+    <li>补丁
+    <li>脚本
+    </ul>
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Trac- CodeReview</h1>
+
+
+
+<ul >
+<li>团队代码评审流程支持插件
+<br/>列表:<img src="foto/trac-cr-list_835X156_scrot.png"/>
+<br/>
+导航:<img src="foto/trac-cr_363X205_scrot.png"/>
+状态:<img src="foto/trac-cr-stat_264X238_scrot.png"/>
+
+</ul>
+
+</div>
+<div class="slide">
+<h1> 关于... </h1>
+
+<ul>
+<li>幻灯展示: 
+    <ul>
+    <li><a href="http://www.meyerweb.com/eric/tools/s5/">
+    <img src="img/S5icon.GIF" />
+    S<sup>5</sup></a> : A Simple Standards-Based Slide Show System
+    <li> 纯HTML 幻灯效果工具 <a href="s5-intro.html">本地介绍页面</a>
+    </ul>
+    </li>
+<li>编写环境: 
+    <span style="float:right;"><img src="img/snap-leoWrite.png" />
+    </span>
+    <ul>
+    <li><a href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment">
+    <img src="img/LeoProse.gif" />Leo</a> : 
+    <br/>文学编程环境
+    <li> 纯Python 编写的通用编辑环境
+
+
+    </ul>
+    </li>
+
+</ul>
+</div>
+<div class="slide">
+<h1> Thanx </h1>
+
+<br/><br/>
+<h3 style="text-align :center;font-size:150%;">谢谢!</h3>
+<br/><br/><br/>
+<h4 style="text-align :center;">提问时间...</h4>
+
+</div>
+<div class="slide">
+<h1>版本管理 之 SVN日常使用</h1>
+
+<ul>
+    <li>新浪音乐事业部版本仓库
+    <li>SVN 基本日常操作:
+        <ul>
+        <li> check out
+        <li> update
+        <li> check in
+        <li> rm
+        <li> add
+        <li> ....
+
+        </ul>
+    </li>
+
+</ul>
+</div>
+<div class="slide">
+<h1>新浪SVN</h1>
+
+<ul >
+<li>当前新浪SVN服务环境:
+    <ul >
+    <li>访问::svn://svn.内部域.sina.com.cn/仓库名
+    <li>音乐事业代码仓库::svn://svn.内部域.sina.com.cn/sinamu/
+    <li>目录分配情况::
+
+<pre>
++-- /         虚根
+   +--trunk     主码线
+   |  +--proj0  项目目录
+   |  +--proj1
+   |  +--...
+   |  \--projN
+   +--tags      标签
+   |  +--P0_A       项目标记版本目录
+   |  +--P0_B
+   |  +--...
+   |  \--P0_N
+   \--branches  分支
+      +--P0_R1.0    项目发布分支版本目录
+      +--P0_R1.1
+      +--...
+      \--PN_R1.x
+</pre>
+    </ul>
+</li>
+<li> 以项目为主导进行管理
+</ul>
+
+</div>
+<div class="slide">
+<h1>co -- 建立本地复本</h1>
+
+<ul>
+
+<li>检出活动是一定要先正确完成的
+
+    <ul >
+    <li>有很多
+<a href="http://wiki.internal.sina.com.cn/moin/SinaSvnSrv">
+客户端工具</a>
+可以协助快捷完成
+    <li>基本命令::
+
+    </ul>
+</ul>
+<pre>
+svn co svn://svn.内部域.sina.com.cn/sinamu/trunk/mu2006
+^   ^   ^       ^                    ^       ^   ^
+|   |   |       |                    |       |   +- 项目目录
+|   |   |       |                    |       +- 主线目录
+|   |   |       |                    +- 仓库名
+|   |   |       +- SVN服务域名
+|   |   +- 访问协议,SVN支持从HTTP到file 等多种访问模式!
+|   +- checkout 检出代码
++-- svn 主命令和cvs类似是我们日常工作的基础工具命令
+</pre>
+
+</div>
+
+<div class="slide">
+<h1>up&st -- 随时更新</h1>
+
+<ul>
+
+<li>每日工作前以及检入新版本前都应该进行更新操作!
+
+    <ul >
+    <li>只要进入有SVN管理的文档目录,执行命令就好
+    <li>基本命令::
+    </ul>
+</ul>
+<pre>
+svn up
+^   ^ 
+|   | 
+|   +- update 同步代码仓库
++-- svn 主命令
+</pre>
+
+<li>也可以不连接服务器,使用<b>status</b>子命令检查版本情况
+    <ul >
+    <li>基本命令::
+    </ul>
+</ul>
+<pre>
+svn st --show-updates [PATH]
+^   ^   ^
+|   |   +- 使用此选项才会连接服务器,添加工作修订版本和服务器过期信息
+|   +- status 命令的别名 stat, st
++-- svn 主命令
+</pre>
+
+</div>
+<div class="slide">
+<h1>ci -- 检入成果</h1>
+
+<ul>
+
+<li>检入时,SVN会自动发现各种情况,完整的检入一切修订!
+    <ul >
+    <li>只要进入有SVN管理的文档目录,执行命令就好
+    <li>基本命令::
+    </ul>
+</ul>
+<pre>
+svn ci
+^   ^ 
+|   | 
+|   +- commit 将修改从工作拷贝发送到版本库
++-- svn 主命令
+</pre>
+
+</div>
+<div class="slide">
+<h1>rm -- 删除对象</h1>
+
+<ul>
+
+<li>从工作拷贝或版本库删除一个对象或是一组对象
+    <ul >
+    <li>文件和目录都可以任意删除
+    <li>目录对象,需要再次 ci 一次才会从仓库真正删除
+    <li>基本命令::
+    </ul>
+</ul>
+<pre>
+svn rm PATH
+^   ^ 
+|   | 
+|   +- 删除操作可以使用别名:delete,del, remove, rm 
++-- svn 主命令
+</pre>
+
+</div>
+<div class="slide">
+<h1>add&revert -- 追加对象和反悔</h1>
+
+<ul>
+
+<li>添加文件、目录或符号链接
+    <ul >
+    <li>实际为预定添加对象到版本库,将在下次ci时才上传并添加
+    <li>基本命令::
+    </ul>
+</ul>
+<pre>
+svn add PATH...
+^   ^   ^
+|   |   +- 如果是目录,默认是递归追加
+|   +- 追加操作命令
++-- svn 主命令
+</pre>
+<ul>
+<li>如果你在提交之前改变主意，可用svn revert取消预定
+    <ul >
+    <li>如果你没有给svn revert提供了目标，它不会做任何事情
+    <li>基本命令::
+    </ul>
+</ul>
+<pre>
+svn revert PATH...
+^   ^   
+|   |   
+|   +- 追加操作命令
++-- svn 主命令
+</pre>
+
+</div>
+<div class="slide">
+<h1>cleanup -- 清理</h1>
+
+<ul>
+
+<li>有时候因为堵塞或是误操作,导致不可操作时,根据提示清理一下即可
+    <ul >
+    <li>递归清理工作拷贝，删除未完成的操作锁定
+    <li>没有输出，如果你没有传递路径，会使用“.”
+    <li>基本命令::
+    </ul>
+</ul>
+<pre>
+svn cleanup PATH
+^   ^ 
+|   | 
+|   +- 清除操作子命令
++-- svn 主命令
+</pre>
+
+</div>
+<div class="slide">
+<h1>cope:复制=分支和标签</h1>
+
+<ul>
+
+<li>拷贝工作拷贝的一个文件或目录到版本库
+    <ul >
+    <li>复制行为可以发生在工作拷贝（WC）路径也可以是URL
+<pre>
+WC -> WC    拷贝并且预定一个添加的项目（包含历史）。
+WC -> URL   将WC或URL的拷贝立即提交。
+URL -> WC   检出URL到WC，并且加入到添加计划。
+URL -> URL  完全的服务器端拷贝，通常用在分支和标签。
+</pre>
+
+    <li>基本命令::
+    </ul>
+</ul>
+<pre>
+svn cp 源 目标
+^   ^ 
+|   | 
+|   +- 复制操作命令可以使用别名: copy,cp
++-- svn 主命令
+</pre>
+
+<ul>
+    <li>SVN中“分支”和“标签”
+    <ul >
+    <li>是同类型的工作拷贝
+    <li>是直观可见的
+    <li>仅仅要求复制到指定目录以下
+    </ul>
+</ul>
+
+</div>
+<div class="slide">
+<h1>merge -- 合并</h1>
+
+<ul>
+
+<li>应用两组源文件的差别到工作拷贝路径
+    <ul >
+    <li>源URL可用修订版本号指定,如果省略，缺省是HEAD
+    <li>进一步说明参考:
+        <a href="http://www.subversion.org.cn/svnbook/1.1/svn-ch-9-sect-1.2-re-merge.html">SVNBook -- svn merge</a>
+
+    <li>基本命令::
+    </ul>
+</ul>
+<pre>
+svn merge -r 250:HEAD foo.py
+^   ^     ^  ^   ^    ^
+|   |     |  |   |    +- 接收变化的工作拷贝路径,缺省值“.”
+|   |     |  |   +- 目标版本，可以是修订号
+|   |     |  +- 来源版本
+|   |     +- revision (-r) 修订号操作
+|   +- 复合并操作子命令
++-- svn 主命令
+</pre>
+
+</div>
+<div class="slide">
+<h1>外一篇 KM概要</h1>
+
+<ul class="incremental">
+
+    <li>什么是知识?</li>
+    <li>知识如何管理?</li>
+    <li>什么是企业知识管理?</li>
+
+</ul>
+</div>
+
+<div class="slide">
+<h1>什么是知识?</h1>
+
+<ul>
+<li>什么是知识?什么是学习?这些概念离我们很近,却又十分的遥远.
+
+<ul>
+<li>哲学的视角
+    <ul>
+    <li>石中英老师(北师大教育学系主任,1967年出生)在《知识转型与教育改革》一书在导言(知识与教育)和第一章(知识、知识型与知识转型)以及第二章（人类历史上的三次知识转型）从哲学的层次对什么是知识做了系统的文献综述和深入分析
+        </li>
+    </ul>    
+    </li>
+<li>经济的视角
+    <ul>
+    <li>知识经济；知识管理
+        </li>
+    </ul>    
+    </li>
+<li>社会的视角
+    <ul>
+    <li>知识创新与知识传播；知识的社会性
+        </li>
+    </ul>    
+    </li>
+<li>计算的视角
+    <ul>
+    <li>中科院计算机语言信息中心董振东教授在2003年11月“知识的计算与 《知网》”讲座中说：
+“知识是一个系统，它揭示了概念与概念之间，以及概念的属性与属性之间的关系；...”
+        </li>
+    </ul>    
+    </li>
+</ul>    
+    </li>
+    <li>由此可见 知识、教育、学习 必须是同时思考的范畴
+</ul>
+</div>
+
+<div class="slide">
+<h1>奥苏贝尔论认知结构</h1>
+<ul>
+<li><img src="km/OsubillKnowMap.jpg" alt="奥苏贝尔论" title="奥苏贝尔论" />
+    </li>
+<li>个人的认知角度来分析知识管理的途经
+    </li>
+</ul>
+</div>
+
+
+<div class="slide">
+<h1>教育图谱</h1>
+<img src="km/edubylvzhou.jpg" alt="edubylvzhou" />
+<ul>
+<li>受教育并不代表拥有知识管理技术，技巧
+        </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>教育进化图谱</h1>
+<img src="km/elevolutionisaac.jpg" alt="edubylvzhou" />
+<ul>
+<li>受社会进步的影响，教育并不非永远不变
+        </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>知识陀螺！</h1>
+
+<table><tr>
+<td><img src="km/kmtranfer2.gif" alt="知识轮转" title="知识轮转" /></td>
+<td>
+
+    <ul>
+    <li>隐性知识 （Tacit Knowledge）：<br/>难以结构化表达的知识
+        </li>
+    <li>显性知识（Explicit Knowledge）：<br/>可以清晰结构化表达的知识
+        </li>
+    </ul>
+
+</td>
+</tr></table>
+
+</div>
+
+<div class="slide">
+<h1>信息生命</h1>
+<ul>
+<li><img src="km/how_news_travels_on_the_internet_infographic.jpg" alt="知识轮转" title="知识轮转" />
+
+    <ul>
+    <li>
+        </li>
+    <li>
+        </li>
+    </ul>
+
+    </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>知识（资源）维度</h1>
+
+<table><tr>
+<td>
+<li>时间维度:
+    <ul>
+    <li>新内容
+        </li>
+    <li>历史归档 
+        </li>
+    </ul>
+
+</td>
+<td>
+<img src="km/cmucls.GIF" alt="cmucls.GIF" />
+</td>
+</tr></table>
+
+<ul>
+<li> 公开/私有维度: 
+    <ul> 
+    <li>Link：个人联结
+        </li>   
+    <li>Content：内容
+        </li>    
+    <li>Personal：个人/私人服务
+        </li>    
+    <li>Public：公众/公共服务
+        </li>   
+    </ul>
+</ul>
+</div>
+
+<div class="slide">
+<h1>什么是知识管理?
+</h1>
+
+<ul>
+<li>整理自:<a href="http://ittimes.chinaunix.net/a1/b3/20010607/1200002.shtml">陈立辉编译..
+</a>
+
+<ul>
+<li>思路一：知识管理=对信息的管理
+    </li>
+<li>思路二：知识管理=对人的管理
+    </li>
+<li><img src="km/snap-KM.png">
+    </li>
+
+
+    <li>简单的说，现在对于知识管理是企业级别的综合性大型管理活动……
+        </li>    
+</ul>
+</div>
+
+<div class="slide">
+<h1>知识管理陀螺</h1>
+
+<ul><li>
+<img src="km/kmzl2.jpg" alt="" />
+</li></ul>
+
+</div>
+
+<div class="slide">
+<h1>KM公式</h1>
+
+
+
+<ul >
+<li><img src="km/km-map-0.7.png"/>
+<li>KM 的核心是分享
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>知识分享的原理</h1>
+
+<ul>
+<li><img src="km/know-me.gif" alt="edubylvzhou" />
+<li> 我们永远处于无边未知世界的包围中！
+        </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>知识分享的原理</h1>
+
+<ul>
+<li><img src="km/know-me1.gif" alt="edubylvzhou" />
+<li>  出于 对未知的天生恐惧，我们不断的学习！扩大自个儿的知识范围！
+        </li>
+<li>   但是直接的结果是我们感受到更多的未知世界 --- 知识边界周长扩大了！
+        </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>知识分享的原理</h1>
+
+<ul>
+<li><img src="km/know-we.gif" alt="edubylvzhou" />
+<li>   只有分享，联合，我们大家的知识边界才会有飞跃样的扩展!
+        </li>
+<li>    而且知识兴趣的重叠，只会得到加强，令求知路上不寂寞...
+        </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>知识分享的遐想</h1>
+
+<ul>
+<li><img src="km/know-dot.gif" alt="edubylvzhou" />
+<li>    也有反向的求索？
+        </li>
+<li>     佛的顿悟是放下一切迷惘,将知识边界缩小到一个点,反而获得全部的明了?
+        </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>CKO</h1>
+
+
+<h4>CKO - 首席知识官 的职责</h4>
+<ul class="incremental">
+
+    <li>为企业制定知识政策</li>
+    <li>为领导者提供决策支持</li>
+    <li>帮助员工成长</li>
+
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>知识的特性</h1>
+
+
+<h4>知识的以下特性导致难以管理</h4>
+<ul >
+
+    <li>1. 惊人的可多次复用和不断上升的价值</li>
+    <li>2. 散乱,遗漏和更新需要</li>
+    <li>3. 不确定的价值</li>
+    <li>4. 不确定的利益分成</li>
+
+
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>企业知识 在哪里?</h1>
+
+<ul><li>
+<img src="km/km-where-is-com-know.jpg" alt="" />
+</li></ul>
+
+
+</div>
+
+
+<div class="slide">
+<h1>企业KM结构</h1>
+
+<ul><li>
+<img src="km/km-com-km-frame.jpg" alt="" />
+</li></ul>
+
+
+</div>
+
+
+<div class="slide">
+<h1>企业KM战略</h1>
+
+
+<ul><li>
+<img src="km/km-com-km-flow.png" alt="" />
+</li></ul>
+
+</div>
+
+<div class="slide">
+<h1>企业KM的三大障碍</h1>
+
+<ul><li>
+<img src="km/km-glit4.jpg" alt="" />
+</li></ul>
+
+
+</div>
+
+<div class="slide">
+<h1>企业KM的五大转化</h1>
+
+
+<ul><li>
+<img src="km/km-glit5.jpg" />
+</li></ul>
+
+
+</div>
+
+<div class="slide">
+<h1>企业KM流程</h1>
+
+<ul><li>
+<img src="km/km-com-km-howto.jpg" />
+<br/>
+比照
+<img src="km/kmzl2.jpg" alt="" />
+</li></ul>
+
+</div>
+
+<div class="slide">
+<h1>企业KM层次</h1>
+
+<ul><li>
+<img src="km/km-com-km-shells.jpg" />
+</li></ul>
+
+</div>
+
+<div class="slide">
+<h1>企业KM实施</h1>
+
+<ul><li>
+<img src="km/km-com-km-steps.png" />
+</li></ul>
+
+
+
+</div>
+
+<div class="slide">
+<h1>企业KM收益</h1>
+
+
+<ul>
+<li>
+<img src="km/km-com-km-income.png" />
+</li>
+</ul>
+
+
+
+</div>
+
+<div class="slide">
+<h1>企业的 知识管理 架构</h1>
+
+<ul>
+<li><img src="km/KMent.gif" />
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>小结KM</h1>
+<img src="km/km-map-0.7.png" />
+<ul>
+<li>网络的社会化，软件的社会化，是趋势……
+    </li>
+<li>知识的网络化获取/传播/交流/再创造，更是趋势……
+    </li>
+<li>那么:
+    <ul>
+    <li>我们要如何学习？
+        </li>
+    <li>我们要如何管理知识？
+        </li>
+    <li>我们要如何分享知识？
+        </li>
+    <li>我们要如何....
+        </li>
+    </ul>
+    </li>
+</ul>
+</div>
+<div class="slide">
+<h1> 作者 </h1>
+
+<ul>
+
+    <li>
+<a href="http://wiki.internal.sina.com.cn/moin/ZoomQuiet">
+        <img src="id/zhouqi.gif" />
+        </a> 
+        <a href="mailto:zoomquiet+sns@gmail.cn">
+        Zoom.Quiet ＠ gmail.com</a>
+    <li> 负责此文档 与 涉及流程的:
+        <ul>
+        <li> 设计
+        <li> 修改
+        <li> 培训
+        <li> 维护
+        <li> ....
+
+        </ul>
+    </li>
+
+</ul>
+</div>
+<div class="slide">
+<h1> 文版本档 </h1>
+
+<ul>
+<li>版本历史::
+    <ul>
+    <li>v0.9.6 080729 upgrade for 蟒营
+    </li>
+    <li>v0.9.5 070812 根据讲演过程修订文字...
+    </li>
+    <li>v0.9.4 070810 微调相关文字；追加KM相关
+    </li>
+    <li>v0.9.3 070801 增补KM 相关提示
+    </li>
+    <li>v0.9.2 070730 增补trac-admin;其它自由版本管理系统 相关
+    </li>
+    <li>v0.9.1 070729 增补CVS，Trac 相关内容
+    </li>
+    <li>v0.9 070727 使用LEO组织,调整顺序
+    </li>    
+    <li>v0.8 070310 BOBO网内部培训用，强调版本管理概念
+    </li>
+    <li>v0.7 060712 新浪内部培训用，创立仅仅版本管理
+    </li>
+    </ul>
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</body>
+</html>

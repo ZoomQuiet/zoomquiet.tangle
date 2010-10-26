@@ -1,0 +1,1631 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>可爱的Python~初学者极速入门故事成书分享(powered by S5)</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+<meta name="editor" content="Leo 4.5 final"/>
+<!-- metadata -->
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.1" />
+<meta name="presdate" content="20050728" />
+<meta name="author" content="Eric A. Meyer" />
+<meta name="company" content="Complex Spiral Consulting" />
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+
+<!-- embedded styles -->
+<style type="text/css" media="all">
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for default*/
+img {border:0px;}    
+td { font-size: 80%; }
+H1 div#sup{
+    position :  absolute; top:0;right:3%;
+    margin-top: -20px;
+    font-size: 10px; font-style : italic ;
+    color: #385775;
+}
+li sup{display :  inline;
+    font-size: 80%; font-style : italic ;}
+li sub{display :  inline;
+    font-size: 80%; font-style : italic ;
+    color: #eeeeee; }
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for esp.*/
+b.alert{
+    color:#F5003D;
+}
+b{
+    font-size: 115%;
+}
+
+
+/*Zoomq::090401 ziped
+snap#takahashi {
+    font-size: 500%;
+    letter-spacing:20px;
+    color: #fff;
+    margin: 0 0 0 0;
+    padding: 0 0 .5em 0;
+    }
+div#float_logo{
+    position : absolute;
+    top:0px;
+    left:0px;
+}
+*/
+.incremental, .incremental *, .incremental *:after {color: #385775; visibility: visible;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for slide*/
+.slide .current {color: #F8B73E;}
+.slide H1{color:#B7B7DC;}
+DIV#slide0 h3{
+    font-size: 300%;
+}
+/* The esp. Effect support 
+    letter-spacing:-20px;
+    width:100%;
+    border : 1px dotter #fff;
+takahashi ~ 高桥流 大字演示
+*/
+#takahashi1 {
+    font-size: 150%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi2 {
+    font-size: 200%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi3 {
+    font-size: 300%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 10px 0 0 0;
+    padding: 0;
+    }
+#takahashi4 {
+    font-size: 400%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 20px 0 0 0;
+    padding: 0;
+    }
+#takahashi5 {
+    font-size: 500%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 30px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi {
+    font-size: 600%;font-weight :  bolder;
+    text-align: center; 
+    word-spacing: 0px;letter-spacing: -4px;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi7 {
+    font-size: 700%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+#takahashi8 {
+    font-size: 800%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+#takahashi9 {
+    font-size: 1000%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for UL*/
+ul#takahashi{
+    font-size: 180%;
+    letter-spacing:-2px;
+}
+ul.tinylist{
+    font-size: 80%;
+    letter-spacing:-2px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for PRE */
+PRE.takahashi{
+    font-size: 150%;
+}
+</style>
+
+<!-- S5 JS -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header"></div>
+
+<div id="footer">
+<table>
+<tr>
+<td ><a target="_blank"  href="http://wiki.s.kingsoft.net/moin/ZoomQuiet">
+Zoom.Quiet</a>
+<br/>
+090901
+</td><td>
+<a  target="_blank" style="background-color:;" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">
+<img src="ui/freedom/cc-byncnd-88x31.png"/>
+</a>
+</td><td>
+推荐使用<a  target="_blank"
+href="http://www.mozilla.org.cn">FireFox</a>
+<br/>
+兼容浏览器获得最佳体验;-)
+</td>
+</tr>
+</table>
+
+</div><!--id="footer"-->
+
+</div><!-- class="layout"-->
+
+
+<div class="presentation">
+
+<div class="slide" id="slide0">
+<br/>
+<h2 id="takahashi3">
+闲话<img src="icon/lovpy-title.png"/>
+</h2>
+<h4>主持大妈::<a href="mailto:zhouqi@kingsoft.com">Zoom.Quiet</a></h4>
+
+</div>
+
+
+<div class="slide">
+<h1> 免责聲明
+<div id="sup">
+山寨的，非业界公认的，个人体验为基础!
+</div>
+</h1>
+
+<center>
+<a href="http://wiki.s.kingsoft.net/moin/ZoomQuiet">
+        <img src="id/zoomquiet_1-1_outline.png">
+    </a>参考所有同好行为总结而得
+        ......
+    <br/><br/>
+    <ul>
+        <li> 一切资料来自网络互动挖掘
+        <li> 一切想法来自日常学习工作
+        <li> 一切体悟来自各种沟通交流
+        <li> 一切知识来自社区分享印证
+        <li> 一切经验来自个人失败体验
+        <br/> ......
+    </ul>
+</center>
+
+    <div class="handout">
+<center><img src="icon/080428-zeuux-logo-gb-h90.png"/></center>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+范畴::
+<div id="sup">
+成书趣事儿／体验／经验
+</div>
+</h1>
+
+<ul id="takahashi2">
+<li><sup>5'  </sup>成书助力:FLOSS</li>
+<li><sup>10'</sup>组织分布式图书工程</li>
+<li><sup>25'  </sup>自由交流...</li>
+</ul>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++OS
+<div id="sup">
+友好而自在...
+</div>
+</h1>
+
+<h2 id="takahashi8">
+Ubuntu
+</h2>
+
+    <div class="handout">
+    ...http://wiki.woodpecker.org.cn/moin/GraphViz
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++FF
+<div id="sup">
+统一窗口
+</div>
+</h1>
+
+<h2 id="takahashi">
+FireFox
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++<img src="icon/gmail_logo-140.jpg"/>
+<div id="sup">
+极高效能邮件管理环境
+</div>
+</h1>
+<br/>
+<h2 id="takahashi">
+<img src="pic/obpgg-2009-09-03-233948_481x419_scrot.png"/>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++FF
+<div id="sup">
+维基助手
+</div>
+</h1>
+
+<h2 id="takahashi4">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/4125">It's All Text!</a>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++FF
+<div id="sup">
+网页收集管理中心
+</div>
+</h1>
+
+<h2 id="takahashi5">
+<a href="https://addons.mozilla.org/zh-CN/firefox/addon/427">
+ScrapBook
+</a>
+
+</h2>
+
+    <div class="handout">
+    pidgin-2009-09-03-235116_403x337_scrot.png
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++<a href="http://pidgin.im/">Pidgin</a>
+<div id="sup">
+复合协议IM
+</div>
+</h1>
+
+<h2 id="takahashi5">
+<a href="http://pidgin.im/">
+<img src="pic/pidgin-2009-09-03-235116_403x337_scrot.png"/>
+</a>
+
+</h2>
+
+    <div class="handout">
+    edo-lovpy-2009-09-03-143051_612x291_scrot.png
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++Python
+<div id="sup">
+友好的调试环境..
+</div>
+</h1>
+
+<h2 id="takahashi5">
+<a href="http://ipython.scipy.org/">
+iPython
+</a>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++维基
+<div id="sup">
+最靠谱的知识汇集平台
+</div>
+</h1>
+
+<h2 id="takahashi">
+MoinMoin
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++版本管理
+<div id="sup">
+跨平台的主流版本管理系统
+</div>
+</h1>
+
+<h2 id="takahashi9">
+SVN
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++scrot
+<div id="sup">
+CLI的方便截屏工具...
+</div>
+</h1>
+
+<h2 id="takahashi9">
+<a href="http://linuxtoy.org/archives/mastering-scrot.html">
+scrot</a>
+</h2>
+
+    <div class="handout">
+    ...scrot
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++编辑环境
+<div id="sup">
+基于提纲的文学化编辑环境...
+</div>
+</h1>
+
+<h2 id="takahashi9">
+<a href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment">
+Leo</a>
+</h2>
+
+    <div class="handout">
+    ...scrot
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+＋S5
+<div id="sup">
+编辑环境特意选择了基于HTML的幻灯系统,来表达知识传播的媒介态度..
+</div>
+</h1>
+
+<ul>
+<li>幻灯展示: 
+    <ul>
+    <li><a href="http://www.meyerweb.com/eric/tools/s5/">
+    <img src="ui/freedom/S5icon.GIF" />
+    S<sup>5</sup></a> : A Simple Standards-Based Slide Show System
+    <li> 纯HTML 幻灯效果工具 <a href="s5.html">本地介绍页面</a>
+    </ul>
+    </li>
+<li>编写环境: 
+<table border="0"><tr>
+<td>
+<a href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment">
+    <img src="ui/freedom/LeoProse.gif" />Leo</a>  
+<br/>文学编程环境
+<br/>纯Py实现的通用编辑环境
+
+</td><td>
+<img src="ui/freedom/2008-snap-leoWrite_scrot.png" />
+</td>
+</tr></table>
+    </li>
+
+</ul>
+</div>
+
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++.mm
+<div id="sup">
+跨平台的思维及数据图谱...
+</div>
+</h1>
+
+<h2 id="takahashi5">
+freemind
+</h2>
+
+    <div class="handout">
+    ...http://wiki.woodpecker.org.cn/moin/GraphViz
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++.dot
+<div id="sup">
+自在快捷的图形化脚本...
+</div>
+</h1>
+
+<h2 id="takahashi">
+<a href="http://wiki.woodpecker.org.cn/moin/GraphViz">
+Graphviz
+</a>
+</h2>
+
+    <div class="handout">
+    ...http://wiki.woodpecker.org.cn/moin/GraphViz
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++矢量作图 <img src="icon/inkscape-logo.png"/>
+<div id="sup">
+跨平台的Illstrator
+</div>
+</h1>
+
+<h2 id="takahashi4">
+<img src="pic/inkscape-2009-09-03-234225_900x502_scrot.png"/>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++Python
+<div id="sup">
+维基机器人
+</div>
+</h1>
+
+<h2 id="takahashi9">
+<a href="http://twill.idyll.org/">
+twill
+</a>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
++ <a href="http://everydo.com/"><img src="icon/ed-logo.gif"/></a>
+<div id="sup">
+基于Plone 的敏捷SaaS式项目管理
+</div>
+</h1>
+
+<h2 id="takahashi5">
+<a href="http://obp.everydo.com/projects/599264/todos">
+<img src="pic/edobp-2009-09-03-235833_1091x361_scrot.png"/>
+</a>
+
+</h2>
+
+    <div class="handout">
+    edo-lovpy-2009-09-03-143051_612x291_scrot.png
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+在线图书工程
+<div id="sup">
+思想和经验,公开在OBP工程维基中！
+</div>
+</h1>
+
+<h2 id="takahashi">
+<a href="http://code.google.com/p/openbookproject/wiki/HowToBuildBookOnline">
+如何组织?
+</a>
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+工程基元素本
+<div id="sup">
+和正常的软件工程完全一致
+</div>
+</h1>
+
+<ul class="incremental" id="takahashi2">
+<li> 目标
+    </li>
+<li> 人
+    </li>
+<li> 环境
+    </li>
+<li> 过程
+    </li>
+</ul>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+<a href="http://code.google.com/p/openbookproject/">
+<b class="alert">O</b>pen<b class="alert">B</b>ook<b class="alert">P</b>roject
+</a>:目标
+
+<div id="sup">
+原创出一本很cool 且有用的图书!
+</div>
+</h1>
+
+<h2 id="takahashi9">
+COOL
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者s
+<div id="sup">
+创作分享！
+</div>
+</h1>
+
+<h2 id="takahashi7">
+人多
+<br/>
+力量大！
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.0
+<div id="sup">
+原创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">
+Zoom.Quiet
+</a><br/>
+<img src="id/zq-rms.png"/>
+</center>
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.1
+<div id="sup">
+老创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+清风
+<br/>
+<img src="id/qingfeng.jpg"/>
+</center>
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.2
+<div id="sup">
+豆创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://9.douban.com/subject/9000016/">xyb</a>
+<br/>
+<img src="id/xyb.jpg"/>
+</center>
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.3
+<div id="sup">
+教创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://zsp.javaeye.com/blog/activities">SZP</a>
+<br/>
+<img src="id/zsp.png"/>
+</center>
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.4
+<div id="sup">
+M创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://www.zeuux.com/friend/user/lizzie/">
+Lizzie</a>
+<br/>
+<img src="id/lizzie.jpeg"/>
+</center>
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.5
+<div id="sup">
+刘创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://blog.csdn.net/ccat">
+刘鑫</a>
+<br/>
+<img src="id/lx.png"/>
+</center>
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.6
+<div id="sup">
+黄创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+黄毅
+<br/>
+<img src="id/huangyi.jpg"/>
+</center>
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.7
+<div id="sup">
+CTO
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+洪强宁
+<br/>
+<img src="id/hongqn-mask.jpg"/>
+</center>
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.8
+<div id="sup">
+木创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://hi.baidu.com/limodou">
+Limodou</a>
+<br/>
+<img src="id/limodou.png"/>
+</center>
+
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.9
+<div id="sup">
+潘创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://www.czug.org/blog/panjy/">
+潘俊勇</a>
+<br/>
+<img src="id/panjy.png"/>
+</center>
+
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.10
+<div id="sup">
+侠创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://eishn.blog.163.com/blog/">
+沈崴</a>
+<br/>
+<img src="id/shen-0.png"/>
+</center>
+
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.10.1
+<div id="sup">
+侠创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://eishn.blog.163.com/blog/">
+沈崴</a>
+<br/>
+<img src="id/shen-1.png"/>
+</center>
+
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.11
+<div id="sup">
+哲创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://www.zeuux.com/friend/user/billxu/">
+BillXu</a>
+<br/>
+<img src="id/billxu.png"/>
+</center>
+
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.12
+<div id="sup">
+校创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+孔建军
+<br/>
+<img src="id/1-kongjianjun.jpg"/>
+</center>
+
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.13
+<div id="sup">
+校创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+高辉
+<br/>
+<img src="id/2-gaohui.jpg"/>
+</center>
+
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+作者.00
+<div id="sup">
+G创
+</div>
+</h1>
+
+<h2 id="takahashi2">
+<center>
+<a href="http://blog.csdn.net/gvanrossum">
+Guido van Rossum</a>
+<br/>
+<img src="id/guido.png"/>
+</center>
+
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>依托社区:
+<div id="sup">
+各种相关技术社区是根本动力！其中，最亲密的:
+</div>
+</h1>
+<ul>
+<li><img src="icon/zeuux-logov2red_90h.png"/>
+    </li>
+<li><img src="icon/CPUGlogo-100.png"/>+BPyUG+ZPyUG+SPyUG
+/
+<img src="icon/wp-www_banner.png"/>
+    </li>
+<li><img src="icon/2008-06-19-erl.china_scrot.png"/>
+    <a href="http://groups.google.com/group/ecug">ECUG.org</a>
+    </li>
+<li><a href="http://groups.google.com/group/pongba">TopLanguage</a>
+    </li>
+<li><a href="http://groups.google.com/group/BVtougao">博文视点专家团</a>
+    </li>
+<li>...
+    </li>
+</ul>
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+催生婆s:
+<div id="sup">
+专业／耐心／认真的编辑是个宝！
+</div>
+</h1>
+<ul class="incremental" id="takahashi2">
+<li>杨福川
+    </li>
+<li>方舟
+    </li>
+<li>周筠(Yeka)
+    </li>
+<li>彭俊
+    </li>
+<li>赵士威
+    </li>
+<li>杨绣国
+    </li>
+<li>何艳
+    </li>
+<li>...
+    </li>
+</ul>
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+架构源自:KM
+<div id="sup">
+从IT角度公认的KM系统理解公式..
+</div>
+</h1>
+<h2 id="takahashi8">
+<img src="pic/KMap-0.8-400.png"/>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+KM:核心理念
+<div id="sup">
+有知识可以分享,成员有分享的冲动/动力,组织有分享的平台...
+</div>
+</h1>
+<h2 id="takahashi9">
+分享
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+<a href="http://code.google.com/p/openbookproject/">
+<b class="alert">O</b>pen<b class="alert">B</b>ook<b class="alert">P</b>roject
+</a>:环境
+<div id="sup">
+都是公开免费服务...
+</div>
+</h1>
+<h2 id="takahashi">
+<img src="pic/obp-lovpy-env.png" usemap="#obp-lovpy-envmap"/>
+</h2>
+<map id="obp-lovpy-envmap" name="obp-lovpy-envmap">
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/" title="啄木鸟社区" alt="" coords="343,85,428,112"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/OBP" title="啄木鸟:图书计划" alt="" coords="271,133,385,160"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="华蠎用户组" alt="" coords="420,181,505,208"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython" title="啄木鸟:图书维基" alt="" coords="231,181,345,208"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/" title="OBP:工程空间" alt="" coords="188,262,287,289"/>
+<area shape="rect" href="http://groups&#45;beta.google.com/group/python&#45;cn" title="CPyUG列表" alt="" coords="311,262,396,289"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/BPUG" title="京蠎用户组" alt="" coords="420,262,505,289"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/ZPyUG" title="珠蠎用户组" alt="" coords="529,262,615,289"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/SPUG" title="长蠎用户组" alt="" coords="639,262,724,289"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/wiki/LovPyRush" title="OBP:工程维基" alt="" coords="27,310,125,337"/>
+<area shape="rect" href="http://openbookproject.googlecode.com/svn/trunk/LovelyPython/" title="OBP:版本仓库" alt="" coords="149,310,248,337"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/issues/list" title="OBP:提案追踪" alt="" coords="272,310,371,337"/>
+<area shape="rect" href="http://groups.google.com/group/openbookproject" title="OBP:邮件列表" alt="" coords="272,358,371,385"/>
+<area shape="rect" href="http://www.zeuux.org/" title="哲思:社区" alt="" coords="508,37,583,64"/>
+<area shape="rect" href="http://www.zeuux.com/" title="哲思:平台" alt="" coords="452,85,527,112"/>
+<area shape="rect" href="http://www.zeuux.org/mailman/listinfo/zeuux&#45;python" title="哲思:邮件列表" alt="" coords="551,85,652,112"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/wiki/UsageIrc" title="IRC频道" alt="" coords="676,85,748,112"/>
+<area shape="rect" href="http://obp.everydo.com/@@basecamp_dashboard" title="易度" alt="" coords="773,37,845,64"/>
+<area shape="rect" href="http://obp.everydo.com/projects/599264/todos" title="易度:图书" alt="" coords="772,85,847,112"/>
+</map>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+<a href="http://code.google.com/p/openbookproject/">
+<b class="alert">O</b>pen<b class="alert">B</b>ook<b class="alert">P</b>roject
+</a>:SNS驱动
+<div id="sup">
+都是自然形成的...
+</div>
+</h1>
+<h2 id="takahashi">
+<img src="pic/obp-lovpy-sns.png" usemap="#obp-lovpy-snsmap"/>
+</h2>
+
+<map id="obp-lovpy-snsmap" name="obp-lovpy-snsmap">
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/" title="啄木鸟社区" alt="" coords="447,114,532,141"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/OBP" title="啄木鸟:图书计划" alt="" coords="327,168,441,194"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="华蠎用户组" alt="" coords="528,168,613,194"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython" title="啄木鸟:图书维基" alt="" coords="252,226,367,253"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/" title="OBP:工程空间" alt="" coords="521,340,620,366"/>
+<area shape="rect" href="http://groups&#45;beta.google.com/group/python&#45;cn" title="CPyUG列表" alt="" coords="644,340,729,366"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/BPUG" title="京蠎用户组" alt="" coords="500,226,585,253"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/ZPyUG" title="珠蠎用户组" alt="" coords="708,226,793,253"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/SPUG" title="长蠎用户组" alt="" coords="391,226,476,253"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/wiki/LovPyRush" title="OBP:工程维基" alt="" coords="604,393,703,420"/>
+<area shape="rect" href="http://openbookproject.googlecode.com/svn/trunk/LovelyPython/" title="OBP:版本仓库" alt="" coords="359,393,457,420"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/issues/list" title="OBP:提案追踪" alt="" coords="481,393,580,420"/>
+<area shape="rect" href="http://groups.google.com/group/openbookproject" title="OBP:邮件列表" alt="" coords="481,446,580,473"/>
+<area shape="rect" href="http://www.zeuux.org/" title="哲思:社区" alt="" coords="181,42,256,69"/>
+<area shape="rect" href="http://www.zeuux.com/" title="哲思:平台" alt="" coords="297,114,372,141"/>
+<area shape="rect" href="http://www.zeuux.org/mailman/listinfo/zeuux&#45;python" title="哲思:邮件列表" alt="" coords="163,340,264,366"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/wiki/UsageIrc" title="IRC频道" alt="" coords="201,114,273,141"/>
+<area shape="rect" href="http://obp.everydo.com/@@basecamp_dashboard" title="易度" alt="" coords="991,226,1063,253"/>
+<area shape="rect" href="http://obp.everydo.com/projects/599264/todos" title="易度:图书" alt="" coords="916,340,991,366"/>
+</map>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+<a href="http://code.google.com/p/openbookproject/">
+<b class="alert">O</b>pen<b class="alert">B</b>ook<b class="alert">P</b>roject
+</a>:图书形成
+<div id="sup">
+都是自然演变的...
+</div>
+</h1>
+<h2 id="takahashi">
+<img src="pic/obp-lovpy-flow.png"/>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+<a href="http://code.google.com/p/openbookproject/">
+<b class="alert">O</b>pen<b class="alert">B</b>ook<b class="alert">P</b>roject
+</a>:角色参与
+<div id="sup">
+都是自然演变的...
+</div>
+</h1>
+<h2 id="takahashi">
+<img src="pic/obp-lovpy-flowact.png"/>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书的根本原因::
+<div id="sup">
+一切向靠谱，并坚持下来！
+</div>
+</h1>
+<h2 id="takahashi9">
+靠谱
+</h2>
+<h2 id="takahashi3">
+Kaopulity
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+靠谱::解析
+<div id="sup">
+令一个组织内所有过程都可用！
+</div>
+</h1>
+<br/>
+<ul class="incremental" id="takahashi2">
+<li><b class="alert">K</b>eep
+    </li>
+<li><b class="alert">a</b>ll
+    </li>
+<li><b class="alert">o</b>f
+    </li>
+<li><b class="alert">p</b>rocesses
+    </li>
+<li><b class="alert">u</b>sab<b class="alert">lity</b>
+    </li>
+</ul>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+靠谱::什么是过程?
+<div id="sup">
+任何一个有目标／限制／条件的行动组合都是过程!
+</div>
+</h1>
+<h2 id="takahashi">
+行动的
+<br/>
+顺序组合
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+靠谱::什么是可用?
+<div id="sup">
+全知／全认／全用／可善！ AKA~= All Know All!
+</div>
+</h1>
+<h2 id="takahashi9">
+AKA
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1> 
+<img src="icon/lovpy-icon-64x64.png"/>
+小结 
+<div id="sup">
+</div>
+</h1>
+
+<ul class="incremental" id="takahashi3">
+<li>FLOSS工具的高效使用</li>
+
+<li>动力源自社区</li>
+
+<li>Kaopulity</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+是也乎::
+<div id="sup">
+任何8g都可以...
+</div>
+
+</h1>
+<h2 id="takahashi">
+<a href="http://zoomquiet.org">
+<img src="pic/50ren-ZoomQuiet-090901-1kw.png"/>
+</a>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+提问时间;-)
+<div id="sup">
+任何8g都可以...
+</div>
+</h1>
+
+<h2 id="takahashi9">
+Q&A
+</h2>
+<center>
+<a href="http://www.zoomquiet.org/share/s5/090913-lovpy/">
+http://www.zoomquiet.org/share/s5/090913-lovpy/
+</a>
+</center>
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1> 
+<img src="icon/lovpy-icon-64x64.png"/>
+文档版本 
+<div id="sup">
+</div>
+</h1>
+<ul>
+<li>修订历史::
+    <ul>
+        <li>090919 广州技术沙龙No.2 增补礼品问题</li>
+        <li>090908 增补成书小史</li>
+        <li>090903 增补图片!</li>
+        <li>090902 增补流程图谱</li>
+        <li>090901 增补zeuux新logo</li>
+        <li>090831 确定演示结构</li>
+        <li>090828 创建</li>
+    </ul>
+</li>
+</ul>
+<h4><img src="icon/CPUGlogo-100.png"/>
+ 资深大妈:: <a href="mailto:Zoom.Quiet@gmail.com">Zoom.Quiet</a></h4>
+
+</div>
+
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书小传::KDay 故事先
+<div id="sup">
+源于在SINA中的真实工作实例...
+同时<a href="http://blog.donews.com/lemur/archive/2005/12/17/660973.aspx">
+"Python源码剖析"</a>开始连载
+</div>
+
+</h1>
+<h2 id="takahashi7">
+<a href="http://wiki.woodpecker.org.cn/moin/KarrigellWebDev">
+2005-12
+</a>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书小传::
+杨福川出现
+<div id="sup">
+本来是讨论MySQL 相关的图书...
+</div>
+
+</h1>
+<h2 id="takahashi5">
+2006-12-29
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书小传::
+    <a href="http://wiki.woodpecker.org.cn/moin/BPUG/2007-01-06">
+    BPUG第14次.豆瓣现场会课
+    </a>
+<div id="sup">
+首次公开讨论原创图书,1.20号周筠见面确认计划
+</div>
+
+</h1>
+<h2 id="takahashi5">
+<a href="http://www.zeuux.org/pipermail/zeuux-python/2007-January/034222.html">
+2007-01-06
+</a>
+</h2>
+    <div class="handout">
+    http://wiki.woodpecker.org.cn/moin/ObpBroadview
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书小传::
+    创立OBP入口
+<div id="sup">
+首次将出版社引入社区...方舟非常重要...
+</div>
+
+</h1>
+<h2 id="takahashi5">
+<a href="http://wiki.woodpecker.org.cn/moin/ObpBroadview">
+2007-01-11
+</a>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书小传::
+    <a href="http://groups.google.com/group/CPyUG/browse_thread/thread/db96d586ad263a82">
+    "建议给python新手指个明路..."
+    </a>
+<div id="sup">
+小白的心声，激发了俺 Mind Hacking 的欲望!
+</div>
+
+</h1>
+<h2 id="takahashi5">
+<a href="http://wiki.woodpecker.org.cn/moin/ObpBroadview/2007-02-01">
+2007-02-01
+</a>
+</h2>
+    <div class="handout">
+080601-pycode.jpg
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书小传::
+CPyUG总第20次会课
+<div id="sup">
+，方舟出现佐证原创图书计划...首本!
+</div>
+
+</h1>
+<h2 id="takahashi5">
+<a href="http://wiki.woodpecker.org.cn/moin/BPUG/2007-08-04">
+2007-08-04
+</a>
+</h2>
+    <div class="handout">
+080601-pycode.jpg
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书小传::
+开始波折...
+<div id="sup">
+不断的调整图书内容结构，深深体会生产的滋味...
+</div>
+
+</h1>
+<h2 id="takahashi5">
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPyEditorRule">
+2008-03-30
+</a><br/>
+<img src="pic/hopes_456x224_scrot.png"/>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书小传::
+首部原创中文Python相关技术图书出版
+<div id="sup">
+可恨哪...
+</div>
+
+</h1>
+<h2 id="takahashi4">
+<a href="http://wiki.woodpecker.org.cn/moin/ObpBroadview/2007-02-01">
+2008-06-01
+</a>
+<img src="pic/080601-pycode.jpg"/>
+</h2>
+    <div class="handout">
+090902-lovpy.jpg
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书小传::
+<a href="http://code.google.com/p/openbookproject/source/detail?r=2064">
+r2062
+</a> 是交付版本...
+<div id="sup">
+因为封面以及其它...继续坚持...
+</div>
+
+</h1>
+<h2 id="takahashi5">
+<a href="http://code.google.com/p/openbookproject/wiki/LovPyRush">
+2008-12-14
+</a>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+成书小传::
+出了!<a href="http://www.china-pub.com/195771">
+2009-09-02
+</a>
+
+<div id="sup">
+是也乎...
+</div>
+
+</h1>
+<h2 id="takahashi4">
+<img src="pic/090902-lovpy.jpg"/>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<img src="icon/lovpy-icon-64x64.png"/>
+反问::
+<div id="sup">
+可爱的Python 图书奖品
+</div>
+</h1>
+
+<h2 id="takahashi">
+Pythonic
+</h2>
+    <div class="handout">
+
+<center>
+<a href="http://www.zoomquiet.org/share/s5/090913-lovpy/">
+http://www.zoomquiet.org/share/s5/090913-lovpy/
+</a>
+</center>
+    </div>
+</div>
+
+
+
+</div><!--class="presentation"-->
+
+</body>
+</html>

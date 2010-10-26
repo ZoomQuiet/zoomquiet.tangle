@@ -1,0 +1,1027 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Wiki and MoinMoin(built by S5)</title>
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.0" />
+<meta name="presdate" content="20050701" />
+<meta name="author" content="Zoom.Quiet" />
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<meta name="company" content="Sina.com.cn" />
+
+<link rel="stylesheet" href="ui/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/opera.css" type="text/css" media="projection" id="operaFix" />
+<link rel="stylesheet" href="ui/print.css" type="text/css" media="print" id="slidePrint" />
+<script src="ui/slides.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<div class="layout">
+
+<div id="currentSlide"></div>
+<div id="header"></div>
+<div id="footer">
+<h1></h1>
+<h2>
+<table>
+<tr>
+<td>
+<a  target="_blank"  href="http://wiki.woodpecker.org.cn/moin/SkSig">SKSIG</a> 
+社会化知识兴趣小组
+
+</td>
+<td rowspan="2">
+
+<a  target="_blank" href="http://creativecommons.cn/licenses/by-nc-sa/1.0/">
+<img src="img/CC1.0-by-nc-sa.png" /></a>
+
+2005-07-19v1.1
+</td>
+</tr>
+<tr>
+<td>
+
+<a  target="_blank" href="http://wiki.woodpecker.org.cn/moin/BPUG">
+<img src="img/BPUGlableT.gif" /></a>
+<a  target="_blank" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet">
+Zoom.Quiet
+</a>
+</td>
+
+</tr>
+</table>
+</h2>
+
+<div id="controls"></div>
+</div>
+
+</div>
+
+<div class="presentation">
+<div class="slide">
+<h1>Wiki 导览 <sup>+从入门到精通 MoinMoin</sup></h1>
+
+
+
+<h3><a  target="_blank" href="http://wiki.internal.sina.com.cn/moin/">
+<img src="img/WikiTshirt-logo.gif" /></a>
+<br/>
+<a  target="_blank" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet">
+    Zoom.Quiet</a></h3>
+    <br/>
+
+
+</div>
+
+
+<div class="slide">
+<h1>提纲</h1>
+<img src="img/moinmoin.png" />
+<ul>
+<li>Wiki ! 到底什么是Wiki? 为什么要Wiki?
+    </li>
+<li>MoinMoin 轻便灵活，高效的 Wiki 系统！
+    </li>
+<li>我们现在已有的Wiki 应用情景...MoinMoin 中还可以作到的……
+    </li>
+<li>那么 怎么样使用MoinMoin:
+    <ul>
+    <li>开始，神说要有光……
+        </li>
+    <li>创建页面的N种方式
+        </li>
+    <li>修改页面的唯一方式
+        </li>
+    <li>组织页面的N种方式
+        </li>
+    <li>可爱的N种扩展....
+        </li>
+    </ul>
+    </li>
+</ul>
+</div>
+<div class="slide">
+<h1>What Is Wiki?</h1>
+<ul>
+<li>源自夏威夷语的“wee kee wee kee” 
+    <ul>
+<li>意为"quick"," 快点快点"
+    </li>
+<li>1995年 <a target="_blank"  href="http://zh.wikipedia.org/wiki/%E6%B2%83%E5%BE%B7%C2%B7%E5%9D%8E%E5%AF%A7%E5%AE%89">Ward Cunningham </a>
+发明并创建了全世界第一个wiki系统:
+<a target="_blank" href="http://c2.com/cgi/wiki"><img src="img/wiki.png"/>WikiWikiWeb</a>
+    </li>
+    <li>并用它建立了波特兰模式知识库
+    <a target="_blank"  href="http://c2.com/cgi/wiki?PortlandPatternRepository">（Portland Pattern Repository）</a>
+    </li>
+    
+    </ul>
+    </li>
+<li>从1996年至2000年间, Wiki 的概念不断得到丰富, 并传播开来!
+    </li>
+    <li>其中影响最大的莫过于 <img src="img/wikipedia.gif"/>
+</ul>
+</div>
+
+
+<div class="slide">
+<h1><img src="img/wikipedia.gif"/></h1>
+<br/><br/><br/>
+<ul>
+<li><a target="_blank"  href="http://zh.wikipedia.org/"> 维基百科全书 </a>
+<ul>
+<li>是目前世界上最大的Wiki系统
+<li>是一个基于Wiki的百科全书网站系统，致力于创建内容开放的百科全书
+    <ul>
+    <li>该系统于2001年1月开始投入运作
+        </li>
+    <li>2001年2月超过1,000条条目
+        </li>
+    <li>2001年7月超过10,000条条目
+        </li>
+    <li>2003年1月22日，英语维基百科达到了100,000条条目的里程碑
+        </li>
+        
+    <li>至2005年3月，英文条目已经超过500,000条
+        </li>
+    <li>2001年5月，12个非英语维基百科版本计划开始
+        </li>
+    <li>维基百科中文版始于2002年10月
+        </li>        
+    <li>现在中文版已经有 32,830 个条目
+        </li>
+    </ul>    
+    </li>
+    <li>而且…………
+</ul>
+</div><div class="slide">
+<h1>维基协作群落</h1>
+<ul>
+<li>一个成功的<a  target="_blank" href="http://zh.wikipedia.org/"> 维基百科 </a>项目
+<ul>
+<li>衍生出很多专门项目
+    <ul>
+    <li><img src="img/35px-Wikimedia-logo.png"/>
+    <a target="_blank"  href="http://meta.wikimedia.org/wiki/">元维基</a>
+    <br/>协调各维基项目
+        </li>
+    <li><img src="img/35px-Wikibooks-logo.png"/>
+    <a target="_blank"  href="http://zh.wikibooks.org/wiki/">维基教科书</a>
+    <br/>教科书与手册
+        </li>
+    <li><img src="img/35px-Commons-logo.png"/>
+    <a target="_blank"  href="http://commons.wikimedia.org/wiki/">维基共享资源</a>
+    <br/>共用的多媒体资料库
+        </li>
+    <li><img src="img/35px-Wikinews-logo.png"/>
+    <a target="_blank"  href="http://en.wikinews.org/wiki/Main_Page">维基新闻</a>
+    <br/>自由的新闻项目
+        </li>
+    <li><img src="img/35px-Wikiquote-logo.png"/>
+    <a target="_blank"  href="http://zh.wikiquote.org/wiki/">维基语录</a>
+    <br/>名人名言
+        </li>
+    <li><img src="img/35px-Wikisource-logo.png"/>
+    <a target="_blank"  href="http://wikisource.org/">维基文库</a>
+    <br/>自由的源文档库
+        </li>
+    <li><img src="img/35px-Wikispecies-logo.png"/>
+    <a target="_blank"  href="http://species.wikipedia.org/wiki/">维基物种</a>
+    <br/>自由的物种资源库
+        </li>
+    </ul>    
+    </li>
+    <li>等等…………
+</ul>
+</div><div class="slide">
+<h1>为什么Wiki?</h1>
+<ul>
+<li> Wiki 有如下公认的特性
+    <ul>
+    <li>使用方便
+        <ul>
+        <li>维护快捷：页面的增,删,改非常快捷
+        <br/>（这也是为什么叫作 "wiki wiki" 的原因）
+        <li>格式简单：用简单的结构化文本来取代 HTML 的标记
+        <li>链接方便：通过简单标记，直接以关键字名来建立链接
+        <br/>（页面、外部连接、图像等)
+        <li>命名平易：关键字名就是页面名称，会自动在其它地方生成对应的链接
+        <li>随机性强: 易用,随想随写!
+        <br/>(之所以称"森林"的原因)
+        </ul>
+        </li>
+    <li>可增长
+        <ul>
+        <li>可增长：链接目标可以尚未存在,通过点击创建新页面来增长系统内容
+        <li>修订历史：记录页面的修订历史，页面的各个版本都可以被获取
+        </ul>    
+        </li>
+    <li>开放性
+        <ul>
+        <li>开放的：社群内的成员可以任意创建、修改、或删除页面
+        <li>可观察：页面的变动可以被清楚观察得到
+        </ul>    
+        </li>
+    </ul>
+    </li>
+</ul>
+</div><div class="slide">
+<h1>原来这世上本无wiki,用的人多了,便成了wiki</h1>
+<ul>
+<li> Wiki 的特性通常在如下情景非常实用
+    <ul>
+    <li>文档的创建
+        <ul>
+        <li>软件设计阶段：技术人员之间,管理人员、技术人员和用户之间
+        <br/>可以通过共同起草的模式快速确定统一的任务文档
+        <li>大型的技术文档翻译：
+        <br/>通过Wiki组织,可以快速形成松散的翻译团队,不断的完善,修改,推行
+        <li>连载小说的创作：
+        <br/>通过Wiki 组织不同章节,线索的创作团队共同进行
+        <li>FAQ整理        
+        <li>...
+        </ul>    
+        </li>
+    <li> 创建词典，百科全书
+        <ul>
+        <li>新兴的文化现象流行的时候：
+        <br/>通过 Wiki 可以快捷的收集,组织,整理,发布各种缩写,专用词...
+        <li>...
+        </ul>    
+        </li>
+    <li> 团队blogs, team bloging
+        <ul>
+        <li>团队，社团活动的记录需要互动性：
+        <br/> 通过Wiki 组织页面,共同相互补充,记录同一事件的过程...
+        <li>...
+        </ul>    
+        </li>
+    <li>  使用 Wiki 的方式并没有固定模式,一切都可以想象,尝试!
+        </li>
+    </ul>
+    </li>
+</ul>
+</div><div class="slide">
+<h1>Wiki vs ... </h1>
+<ul>
+<li> 相对于Blog,BBS 等等其它流行的内容组织系统
+<li>Wiki 有着鲜明的文化特点
+    <ul>
+    <li>主体是明确的坚定的:
+        <ul>
+        <li> Wiki站点一般都有着一个严格的共同关注
+            </li>
+        </ul>    
+        </li>
+    <li>内容要求是高度相关的:
+        <ul>
+        <li> 因其确定的主旨，任何写作者和参与者都应当严肃地遵从
+            </li>
+        </ul>    
+        </li>
+    <li>个性是被漠视的:
+        <ul>
+        <li>Wiki非常适合于做一种 "All about something"的站点
+        <li>信息的完整性和充分性以及权威性才是真正的目标
+            </li>
+        </ul>    
+        </li>
+    </ul>
+</ul>
+</div><div class="slide">
+<h1>人之初，性本善 </h1>
+<ul>
+<li> Wiki 的核心精神
+    <ul>
+    <li>价值观在于
+        <ul>        
+        <li>人们产生文档的意义在于这些文档能对人有用，
+        应该鼓励任何人对文档中的任何信息自由修改和整理以对自己或他人更加有用
+        <li><a target="_blank"  href="http://blog.online-edu.org/zxl/005423.html">
+        一个人如果力求完善自己，他就会看到，为此也必须同时完善他人。
+        一个人如果不关心别人的完善，自己便不可能完善。
+        </a>
+        </ul>    
+        </li>
+    <li> 安全观点基于
+        <ul>
+        <li>流水不腐,户枢不蠹
+        <li>没有锁的门是最不怕被撬的门
+        </ul>    
+        </li>
+    <li> 目的意义
+        <ul>
+        <li>群笔
+        <li>共同写作
+        <li>知识型站点的快速创建,维护,管理
+        <li>指一种 内容的创建、更新、监控、审查和档案管理都非常自由开放，同时遵循一定技术规则的网站
+        </ul>    
+        </li>
+</ul>
+wiki的开放性是建立在强大的技术基础上的，更建立在革新性的安全观念基础上
+</div>
+<div class="slide">
+<h1>Wiki 的技术规范 </h1>
+<ul>
+<li> wiki在技术上和运行规则上做了一些规范
+<li>做到既持面向大宗公开参与的原则又尽量降低众多参与者带来的风险
+    <ul>
+    <li>1）<a target="_blank"  href="http://wiki.internal.sina.com.cn/moin/RecentChanges">
+    记录更动: </a>WIki 保留文章每一次更动的版本,
+    <br>并可以轻易的恢复到任何一个版本
+        </li>
+    <li>2）<a target="_blank"  href="http://wiki.internal.sina.com.cn/moin/FrontPage?action=diff&rev2=395&rev1=394">
+    版本对比: </a>Wiki 每个页面的任意两个版本之间都可以进行对比
+        </li>
+    <li>3）更新描述: 在更新一个页面时可以在描述栏中填写的内容，
+    <br>如你更新内容的概要,依据、或是跟管理员的对话等
+        </li>
+    <li>4）Sand Box(沙箱)测试: 一个合法的练习Wiki书写,涂鸦的页面
+        </li>
+    <li>5）编辑规则: 任何一个开放的wiki都有一套编辑规则，写明大家建设维护wiki站点的规则。
+    <br/><br/>(没有规矩不成方圆的道理任何地方都是适用的)
+        </li>
+    </ul>
+</ul>
+
+</div>
+<div class="slide">
+<h1>WYTIWYG</h1>
+<ul>
+<li> Wiki 关注内容和结构!
+    <ul>
+    <li>  WYSIWYG(Waht You See Is What You Get)所见即所得    
+    <ul>
+        <li> 富文本格式编辑
+        <li> 用户是排版设计者同时又是内容撰写者
+        <li> 用户思考定位模糊,分散精力
+    </ul>
+        </li>
+    <li>  WYTIWYG(Waht You Think Is What You Get)所想即所得    
+    <ul>
+        <li> 结构化文本编辑
+        <li> 用户仅仅内容撰写者
+        <li> 集中精力在内容的结构组织和措辞中,书写自然,效率高!
+        <li> 实际上高级Wiki 支持多种编辑规则:
+         <br/><br/> 比如说 Plone 中的 ZWiki:
+         <br/>      <img src="img/snap-ZWikiEdit.png" />
+    </ul>
+        </li>
+    </ul>
+    </li>
+</ul>
+</div>
+<div class="slide">
+<h1>结构化文本</h1>
+<ul>
+<li> 使用缩进和简单的符号来标识文档结构的文本!
+
+<span style="float:right"><img src="img/snap-moin-morden.jpg" />
+<img src="img/snap-moin-right.jpg" />
+<br><img src="img/snap-moin-mono.jpg" />
+<img src="img/snap-moin-blue.jpg" />
+</span>
+    <ul>
+    <li> 使用其它的方法来快速改变文档外观,比如说:
+        <ul>
+     <li><img src="img/snap-moin-orig.png" />
+通过模板可以:
+         
+     <li>有的结构化文本,通过精巧的工具,可以输出多种格式文档
+     ,如  <a target="_blank"  href="http://txt2tags.sourceforge.net/">txt2tags</a>:
+         <br/><img src="img/octus.gif" />
+        </ul>
+     </li>
+     </ul>
+</ul>
+
+</div>
+<div class="slide">
+<h1>Wiki系统</h1>
+<ul>
+<li>由于Wiki 的内容组织方式简单明晰,Wiki的不同风格的实现也非常的多
+    </li>
+<li> 甚至于很多系统中内置了完整的 Wiki 系统
+    <ul>
+    <li>trac 一个综合性的软件工程管理系统,内含了 Wiki 作为文档组织
+        </li>
+    <li><img src="img/snap-TracWiki.gif"/>
+        </li>
+    <li>Plone 一个Zope 平台的CMS系统,通过产品扩展可以轻易的使用Wiki
+        </li>
+    <li><img src="img/snap-ZWiki.gif"/>
+        </li>
+    </ul>
+    
+    </li>
+</ul>
+</div>
+<div class="slide">
+<h1>Wiki实现</h1>
+<ul>
+
+<li> 基于 PHP
+    <ul>
+    <li><a target="_blank"  href="http://zh.wikipedia.org/wiki/WikkiTikkiTavi">WikkiTikkiTavi</a>
+        </li>
+    <li><a target="_blank"  href="http://www.wakkawiki.com/WakkaWiki">WakkaWiki</a>
+        </li>
+    <li><a target="_blank"  href="http://www.hsfz.net.cn/coo/wiki/HomePage">CooCooWakka</a>
+    WakkaWiki 的中文Clone
+        </li>
+    <li>
+    <span style="float:right"><img src="img/snap-TiddlyWiki.gif"/>
+    </span>
+    <a target="_blank"  href="http://www.tiddlywiki.com/">TiddlyWiki</a> 
+        </li>
+    <li><a  target="_blank" href="http://wikipedia.sourceforge.net/">MediaWiki</a>
+    Wiki百科全书动力来源!
+        </li>
+    <li>...
+        </li>
+    </ul>    
+    </li>
+<li> 基于 Python
+    <ul>
+    <li><a target="_blank"  href="http://infomesh.net/pwyky/">pwyky</a>
+        </li>
+    <li><a target="_blank"  href="http://infomesh.net/2003/wypy/">wypy</a>
+        </li>
+    <li><a target="_blank"  href="http://zwiki.org/FrontPage">zwiki</a>
+        </li>
+    <li>...
+        </li>
+    </ul>    
+    </li>
+<li> 基于 JAVA
+    <ul>
+    <li><a target="_blank"  href="http://www.jassent.com/ebrain/wiki/wiki/html/FrontPage.htm">JASSwiki</a>
+        </li>
+    <li><a target="_blank"  href="http://www.jspwiki.org/">jspwiki</a>
+        </li>
+    </ul>    
+    </li>
+</ul>
+</div>
+<div class="slide">
+<h1><img src="img/moinmoin.png" /> 开始</h1>
+<br/><br/>
+<ul>
+<li>先注册吧您…………
+    <ul>
+    <li>加上角……
+        </li>
+    <li>使用"Modern" 摩登 样式！
+        </li>
+    </ul>
+    </li>
+<li>
+    </li>
+<li> 本来可以不注册就改的，但是……
+    </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1><img src="img/moinmoin.png" /> 创建页面</h1>
+<ul>
+<li>创建一个页面，不仅仅是创建了一个页面
+    <ul>
+    <li>使用标准的 WikiName 在正文中
+    <xmp>
+    """
+    NewPage -- 新页面
+    """</xmp> 
+        </li>
+    <li>在地址栏中直接输入新页面名称
+        </li>
+    <li>使用强制新页面声明
+    <xmp>
+    """
+    ["newpage1"] -- 新页面1
+    ["新页面2"] -- 中文也可以
+    """</xmp>  但是千万不要轻易使用中文！
+        </li>
+    </ul>
+    </li>
+<li> 页面/文章是 Wiki 站点的基本元素，可以方便的相互间指引的
+    </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1><img src="img/moinmoin.png" /> 修改内容</h1>
+<ul>
+<li>您就随便来吧！
+    <ul>
+    <li>点击"编辑"
+    <li>或是 双击，如果你设定了……
+        </li>
+    </ul>
+    </li>
+<li> 没有限制，但是有礼节！
+    <ul>
+    <li>他人明显的错误直接修改，在"备注"中说明一下子
+    <li>讨论，则在页面的反馈位置说明，或是使用
+    <xmp>
+    """
+    讨论，则在页面的反馈位置说明，
+    [[FootNote(这样一来你方我便)]]
+    """</xmp>  脚注
+        </li>
+    <li>别人好心作了错事儿，不要发火，从历史中恢复前说明吧
+    </ul>
+    </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1><img src="img/moinmoin.png" /> 组织内容</h1>
+<br/><br/><br/>
+<ul>
+<li>美观 vs 快捷记述
+    <xmp>
+    使用“模板”吧！
+    
+    这是众人智慧的结晶...
+    </xmp>
+    </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1><img src="img/moinmoin.png" /> 子页面</h1>
+<br/><br/>
+<ul>
+<li>让一串页面成为强连接！
+    <xmp>
+    /SupDoc1 - 分文档1
+    
+    ["/about"] - 有关说明
+    </xmp>
+    </li>
+
+<li>不过要谨慎……
+</ul>
+</div>
+
+<div class="slide">
+<h1><img src="img/moinmoin.png" /> 包含</h1>
+<br/><br/>
+<ul>
+<li>将其它页面包含到本地！
+    <xmp>
+    [[Include(/SupDoc1)]] - 包含子页面
+    [[Include(OtherPage)]] - 包含其它页面
+    </xmp>
+    </li>
+
+<li>不过还可以进一步的……
+    <xmp>
+[[Include(^WikiSandBox/.*
+          ,'页面提纲',4
+          ,sort=descending
+          ,items=30
+          ,titlesonly)]]
+    </xmp>
+      </li>
+</ul>
+</div>
+
+
+<div class="slide">
+<h1><img src="img/moinmoin.png" /> 月历</h1>
+<br/><br/>
+<ul>
+<li>自动化的子页面索引
+    <xmp>
+    [[MonthCalendar]]
+    </xmp>
+    </li>
+
+<li>与提纲式包含配合，真所谓相得益彰是也乎！
+    <xmp>
+[[MonthCalendar]]
+'''日志提要'''
+[[Include(^SKSIG/2005-.*,
+          '日志简报',4,
+          sort=descending,
+          items=30,titlesonly)]]
+    </xmp>
+      </li>
+</ul>
+</div>
+
+
+
+<div class="slide">
+<h1><img src="img/moinmoin.png" /> 还有………………</h1>
+<br/><br/>
+<ul>
+<li>表格？ 不要深究……
+<li>图片？ easy easy
+<li>InterWiki！！伟大的懒惰
+    <xmp>
+[wiki:JIRA/MAILRUNER-2575 MAILRUNER-2575]
+    自动解析为:    
+http://issue.internal.sina.com.cn/browse/MAILRUNER-2575
+    </xmp>可以想象为可定制的自动替换
+      </li>
+<li>还有………………
+<a  target="_blank"  href="http://wiki.internal.sina.com.cn/moin/WikiStandardization/2005-07-08">自学吧！
+</a>      
+</ul>
+</div>
+
+
+
+<div class="slide">
+<h1><img src="img/moinmoin.png" /> 但是！</h1>
+<br/><br/>
+<ul>
+<li>大家体会，想大规模的使用Wiki,必须:
+    <ul>
+    <li>搜索加强！！！
+    <li>TAG 支持！
+    <li>这样来平滑掺合的难度……
+    </ul>
+    </li>
+</ul>
+</div>
+
+
+<div class="slide">
+<h1>Moin<img src="img/moinmoin.png" />Moin</h1>
+<ul>
+<li>我们选择<a target="_blank"  href="http://moinmoin.wikiwikiweb.de/FrontPage">MoinMoin </a>
+作为 Wiki 系统组织进行 知识管理 
+    </li>
+
+<li>特点
+    <ul>    
+    <li>基于文件,不使用DB
+        </li>
+    <li>完整实用的 结构文本约定
+        <ul>    
+        <li>MoinMoin 的编辑规则是比较轻巧易学的
+            </li>
+         </ul>    
+        </li>
+    <li>实现全部 Wiki 规范
+        <ul>    
+        <li>Unicode 支持完备——页面名可以使用中文
+            </li>
+         </ul>    
+        </li>
+    <li>丰富的导航方式
+        <ul>    
+        <li>基于标题
+        <li>基于关键字
+        <li>基于分类
+        <li>基于孤悬
+         </ul>    
+        </li>
+    <li>多种扩展方式: 宏，插件，预处理……
+        </li>
+    <li>支持样式
+        </li>
+    <li>真正跨平台
+        </li>
+    <li>丰富运行方式
+        </li>
+    <li>.....
+        </li>
+    </ul>
+    </li>
+</ul>
+</div>
+<div class="slide">
+<h1>MoinMoin 的样子</h1>
+<ul>
+<li>可以是你喜欢的任何样子
+    </li>
+
+<li><img src="img/snap_modern.jpg"/>  <img src="img/snap_rightsidebar.jpg"/>   
+    </li>
+</ul>
+</div>
+<div class="slide">
+<h1>MoinMoin 的样子</h1>
+<ul>
+<li>具体使用的站点
+    </li>
+
+<li><img src="img/snap_python.org.jpg"/>   <img src="img/snap_druidwiki.jpg"/>
+    </li>
+</ul>
+</div>
+<div class="slide">
+<h1>MoinMoin 的样子</h1>
+<ul>
+<li>我们现在可以使用的样式
+    </li>
+
+</ul>
+<br/><br/>
+<img src="img/snap-sinaMatrix.gif"/><img src="img/snap-sinaWall.gif"/>
+</div>
+<div class="slide">
+<h1> MoinMoin 之于部门可以……</h1>
+<ul>
+<li>利用日历宏[[MonthCalendar]] 和 包含宏[[Include()]]
+<li><a target="_blank"  href="http://wiki.internal.sina.com.cn/moin/MediaTechDept/SupportTeam">
+媒体技术部·支持组工作日志</a> 
+<li> 依照时间线索记录事故响应处理
+    </li>
+<li><img src="img/moin-mediaSupport.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1> MoinMoin 之于团队可以……</h1>
+<ul>
+<li> 团队活动的整体报道
+<li>比如说:<a target="_blank" 
+ href="http://wiki.internal.sina.com.cn/moin/SOL%e6%8b%93%e5%b1%95%e6%b4%bb%e5%8a%a8">
+SOL拓展·蚂蚁奇兵队</a>
+
+<li><img src="img/moin-grpAnt.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1> MoinMoin 之于团队可以……</h1>
+<ul>
+<li>综合展示团队的学习研究活动 
+<li><a target="_blank"  href="http://wiki.internal.sina.com.cn/moin/SKSIG">
+SKSIG<br/>
+(Social Knowledge Special Interest Groups)</a>
+ 社会化知识兴趣小组 
+<li> 专题研讨小组，进行针对性 技术资料和想法的汇集
+    </li>
+<li><img src="img/moin-SKSIG.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin 之于项目可以……</h1>
+<ul>
+<li>快捷组织 汇聚式开发活动 
+<li>比如说:<a target="_blank"  href="http://wiki.internal.sina.com.cn/moin/NMS/FristNms">
+“代码换可乐” WebNMS Shell expend</a> 
+<li>仅仅利用简单表格和子页面的组合
+    </li>
+<li>方便的向所有成员征收工具脚本
+    </li>
+<li><img src="img/moin-NMS.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin  还可以……</h1>
+<ul>
+<li>利用子页面
+<li>汇集形成了
+<li><a target="_blank"  href="http://wiki.internal.sina.com.cn/moin/FreeBSD">
+FreeBSD</a> 
+<li> 专题资料专栏
+    </li>
+<li><img src="img/moin-freebsd.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin  还可以……</h1>
+<ul>
+<li>重复组织子页面和简单表格
+<li>汇集<a target="_blank"  href="http://wiki.internal.sina.com.cn/moin/SinaOreillyBooks">
+研发中心技术图书馆</a>  书目
+<li> 进行预订，记录，提醒等等图书管理活动
+    </li>
+<li><img src="img/moin-booklab.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin  还可以……</h1>
+<ul>
+<li>方便快捷的记录活动进程
+<li><a target="_blank"  href="http://wiki.internal.sina.com.cn/moin/WikiTshirt/SentList">
+WikiTshirt  设计与发送活动
+</a>
+<li> 
+    </li>
+<li><img src="img/moin-Tshirt2.gif"/>  <img src="img/moin-Tshirt.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin 还可以……</h1>
+<ul>
+<li>利用链接，标题，随手记要
+<li>自然形成了
+<li><a target="_blank"  href="http://wiki.internal.sina.com.cn/moin/DiscoverOnline/NowDiscovering">
+网际发现</a> 
+<li> 关注，讨论网络中的技术变化
+    </li>
+<li><img src="img/moin-discover.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin 的惊奇杂耍……</h1>
+<ul>
+<li>Drawing!
+<li><a target="_blank"  href="http://wiki.internal.sina.com.cn/moin/WikiSandBox">
+JAVA 的 TWikiDraw</a> 
+<li> 在线的快捷绘图……
+    </li>
+<li><img src="img/moin-drawing.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin 的惊奇杂耍……</h1>
+<ul>
+<li>可视化 Wiki
+<li><a target="_blank"  href="http://moinmoin.wikiwikiweb.de/VisualSiteMap">
+MindMapRecentChanges</a> 
+<li> 利用 <a target="_blank"  href="http://wiki.woodpecker.org.cn/moin/FreeMind">
+FreeMind </a> 思维图谱工具来展示 Wiki 的内容网络
+
+    </li>
+<li><img src="img/moin-mindWiki.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin 的惊奇杂耍……</h1>
+<ul>
+<li>可视化 Wiki:
+<li><a target="_blank"  href="http://moinmoin.wikiwikiweb.de/VisualSiteMap">
+VisualSiteMap 可视化站点地图</a> 
+<li> 利用 <a target="_blank"  href="http://www.graphviz.org/">
+GraphViz </a> 开放的图形脚本工具
+
+    </li>
+<li><img src="img/moin-SiteMap.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin 的惊奇杂耍……</h1>
+<ul>
+<li>结构图的文本式绘制:
+<li><a target="_blank"  href="http://spot.lip6.fr/wiki/LtlTranslationAlgorithms">
+历史谱系图</a> 
+<li> 同样利用 <a target="_blank"  href="http://www.graphviz.org/">
+GraphViz </a> 开放的图形脚本工具
+
+    </li>
+<li><img src="img/autogenerated-dot.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin 的惊奇杂耍……</h1>
+<ul>
+<li>科学排版:
+<li><a target="_blank"  href="http://moinmoin.wikiwikiweb.de/ProcessorMarket/LatexProcessor">
+Latex</a> 
+<li> 在MoinMoin 中直接使用 tex 来书写科学公式
+    </li>
+<li><img src="img/moin-latex.png"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin 的惊奇杂耍……</h1>
+<ul>
+<li>表格统计:
+<li><a target="_blank"  href="http://moinmoin.wikiwikiweb.de/ParserMarket/sctable">
+ParserMarket/sctable</a> 
+<li> 进行表格数据的统计
+
+    </li>
+<li><img src="img/moin-sctable.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>MoinMoin 的惊奇杂耍……</h1>
+<ul>
+<li>图表绘制:
+<li><a target="_blank"  href="http://biohackers.net/wiki/GnuPlotInMoinMoin">
+GnuPlotMoinMoin</a> 
+<li> 调用
+<a target="_blank"  href="http://www.gnuplot.info/">
+gnuplot</a> 
+轻便数据图表工具来绘图！！
+    </li>
+<li><img src="img/moin-GnuPlot.gif"/>
+</ul>
+<br/><br/>
+
+</div>
+<div class="slide">
+<h1>总结</h1>
+<img src="img/moinmoin.png" />
+<ul>
+<li>Wiki ! 快捷科学的公共写作模式！
+    </li>
+<li>MoinMoin 轻便灵活，高效的 Wiki 系统！
+    </li>
+<li>那么:
+    <ul>
+    <li>我们利用Wiki 可以进行怎样的知识整理？
+        </li>
+    <li>我们利用Wiki 可以进行怎样的知识管理？
+        </li>
+    <li>我们利用Wiki 可以进行怎样的知识分享？
+        </li>
+    <li>我们要如何....
+        </li>
+    </ul>
+    </li>
+</ul>
+</div><div class="slide">
+<h1> 关于... </h1>
+<ul>
+<li>幻灯展示: 
+    <ul>
+    <li><a target="_blank"  href="http://www.meyerweb.com/eric/tools/s5/">
+    <img src="S5icon.GIF" />
+    S<sup>5</sup></a> : A Simple Standards-Based Slide Show System
+    <li> 纯HTML 幻灯效果工具制作 <a href="s5-intro.html">本地介绍页面</a>
+    </ul>
+    </li>
+<li>编写环境:     <span style="float:right"><img src="img/snap-leoWrite.png">
+    </span>
+    <ul>
+    <li><a target="_blank"  href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment">
+    <img src="img/LeoProse.gif" />Leo</a> 
+    <br/>:: 文学编程环境
+    <li> 纯Python 实现的通用编辑环境 
+    </ul>
+    </li>
+    
+</ul>
+</div>
+<div class="slide">
+<h1> 制作免责 </h1>
+
+<ul>
+    <li><a href="http://wiki.internal.sina.com.cn/moin/ZoomQuiet">Zoom.Quiet 
+    </a>伙同所有打杂人士共同制作 
+        <ul>
+        <li> <img src="id/naiyue.gif" />,<img src="id/xiaoye.gif" />,<img src="id/xuehu.gif" />...
+        <li> 一切资料来自互联网
+        <li> 所有思想来自日常工作体验
+        <li> 所有经验来自失败的经历……        
+        </ul>
+    </li>
+        
+</ul>
+</div>
+<div class="slide">
+<h1> <img src="img/WikiTshirt-logo.gif" /> </h1>
+<br/><br/><br/>
+<ul>
+    <li>释放思想,
+        <ul>
+        <li> 让我们发挥想象力,利用Wiki 自由的汇集,总结,再创造我们的核心知识!       
+        </ul>
+    </li>
+    <li>无间协作!
+        <ul>
+        <li> 让我们运用 Wiki 的开放精神,培养合众联创的素质,不断创新!进步!
+        </ul>
+    </li>
+        
+</ul>
+</div>
+
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,94 @@
+digraph G {
+/*图片生成命令:: need:: apt-get install graphviz-cairo
+$ dot -Tpng:cairo obp-lovpy-flowact_v9.09.3.dot -o obp-lovpy-flowact.png
+        style=filled,
+        fillcolor=lightyellow,
+        size="12,9",
+        ratio=compress,fill
+        rankdir=LR,        
+*/
+    graph [label="可爱的Python 图书工程关系图谱 by ZQ[090903 18:01]",
+        labeljust="l",labelloc="t",
+        fontsize=12.0,
+        fontname="VeraSansYuanTi-Regular.ttf",        
+        center=1,
+        ranksep=0.2,
+        ratio=compress,
+        rankdir=LR,
+        ];
+
+    node[fontsize=10.0,
+        style=filled,fillcolor=snow,
+        color=darkolivegreen,fontcolor=darkolivegreen,
+        height=0.1,
+        shape=plaintext,
+        ];
+    /*dir=both,color=yellowgreen,*/
+    edge [fontsize=9.0,
+        fontcolor=gray25,
+        color=gray30,
+		arrowhead=vee,
+		arrowtail=none,
+        ];
+
+    /*图元声明
+    start       [label="流程开始/结束",shape=point];
+    end         [label="流程开始/结束",shape=point,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+    */
+    start       [label="开始",shape=point];
+    end         [label="结稿",shape=point,fillcolor=red];
+    brew        [label="酝酿阶段",shape=box3d];
+    design      [label="创意阶段",shape=box3d];
+    stuff       [label="草稿阶段",shape=box3d];
+    booking     [label="成书阶段",shape=box3d];
+    editing     [label="编辑阶段",shape=box3d];
+    fixing       [label="校对阶段",shape=box3d];
+    
+    published   [label="出版",shape=box];
+    losted      [label="消失",shape=box];
+    canceled    [label="放弃",shape=box];
+
+    mainwiter   [label="主创",shape=egg];
+    subwiter    [label="協创",shape=egg];
+    editor      [label="编辑",shape=egg];
+    techfixer    [label="技术校对",shape=egg];
+    arteditor   [label="美编",shape=egg];
+    
+
+    /*流程关系
+    */
+    start->brew->design->stuff->booking->editing->fixing->published->end    [color=yellowgreen,arrowhead=normal,style="setlinewidth(4)"];
+        brew->losted->end   [color=yellowgreen,arrowhead=normal,style="setlinewidth(2)"];
+        design->canceled    [color=yellowgreen,arrowhead=normal,style="setlinewidth(2)"];
+        stuff->canceled     [color=yellowgreen,arrowhead=normal,style="setlinewidth(2)"];
+        canceled->end       [color=yellowgreen,arrowhead=normal,style="setlinewidth(2)"];
+    
+    mainwiter->brew;
+        mainwiter->design;
+        mainwiter->stuff;
+        mainwiter->booking;
+        mainwiter->published;
+    subwiter->booking;
+        subwiter->editing;
+        subwiter->fixing;
+    editor->booking;
+        editor->editing;
+        editor->fixing;
+        editor->published;
+    techfixer->fixing;
+    arteditor->published;
+    
+   
+
+}
+

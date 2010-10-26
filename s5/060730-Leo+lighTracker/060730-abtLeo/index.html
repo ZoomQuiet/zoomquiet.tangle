@@ -1,0 +1,384 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>啄木鸟/CPUG 会课06年度第九次 (built by S5)</title>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.0" />
+<meta name="author" content="Zoom.Quiet" />
+
+
+<link rel="stylesheet" href="ui/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/opera.css" type="text/css" media="projection" id="operaFix" />
+<link rel="stylesheet" href="ui/print.css" type="text/css" media="print" id="slidePrint" />
+<script src="ui/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<div class="layout">
+
+<div id="currentSlide"></div>
+<div id="header"></div><div id="footer">
+<h2>
+<table>
+<tr>
+<td>
+<a target="_blank"  href="http://www.woodpecker.org.cn/CPUG/">
+CPUG</a> 
+中国Python用户组
+
+</td>
+<td rowspan="2">
+
+<a  target="_blank" href="http://creativecommons.cn/licenses/by-nc-sa/1.0/">
+<img src="img/CC1.0-by-nc-sa.png" /></a>
+
+060730 02:00
+</td>
+</tr>
+<tr>
+<td>
+
+<a  target="_blank" href="http://wiki.woodpecker.org.cn/moin/BPUG">
+<img src="img/BPUGlableT.gif" /></a>
+<a  target="_blank" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet">
+Zoom.Quiet
+</a>
+</td>
+
+</tr>
+</table>
+</h2>
+
+
+<div id="controls"></div>
+</div>
+
+</div>    
+
+<div class="presentation">
+
+<div class="slide">
+
+<h1><img src="img/CPUGlogo-150.gif" /></h1>
+
+<h1>
+啄木鸟/CPUG 第九次会课
+</h1>
+
+</div>
+
+<div class="slide">
+<h1>提纲</h1>
+
+<ul>
+<li> 1. 浅说Leo -- 文学化编辑环境体验 -- ZoomQuiet
+<li> 2. TurboGears 商用体验 -- AlbertLee
+ <li>3. × BitTorrent及tracker协议简介 -- alex.dong
+      
+<li>4. 其它…………
+
+</ul>
+</div>
+
+<div class="slide">
+<h1>Leo不是什么...</h1>
+
+<ul>
+<li> Leo 不是IDE！
+<li> Leo 不是排版软件
+<li>Leo 不是单纯的文本编辑器
+<li><br>那末…………
+<li><b>Leo 倒底是什么？</b>
+
+</ul>
+</div>
+                    
+<div class="slide">
+<h1>Leo其实是……</h1>
+
+<ul>
+<li><b>Leo 的使用完全看你的需要！</b>
+<li>e.g.
+<br>Leo 作为个人信息库
+<br><img src="foto/snap-leo-pdb.jpg" />
+</ul>
+
+</div>
+                    
+<div class="slide">
+<h1>Leo 在编程时</h1>
+
+<ul>
+<li> Leo 不是IDE！
+<li> 所以<ul>
+<li> Leo 不能自动完成
+<li> Leo 不能调用环境运行
+<li> Leo 不能单步追踪
+<li> Leo 不能自动重构代码
+<li> Leo 不能自动定位类定义
+<li> Leo 不能……
+</ul>
+<li>那么为什么我喜欢使用Leo来作一切?                               
+</ul>
+
+</div>
+
+<div class="slide">
+<h1>Leo不是什么...</h1>
+
+<ul>
+<li> Leo 不是IDE！
+<li> Leo 不是排版软件
+<li>Leo 不是单纯的文本编辑器
+<li><br>那末…………
+<li><b>Leo 倒底是什么？</b>
+
+</ul>
+</div>
+<div class="slide">
+<h1> Leo 的精神 </h1>
+
+<ul>
+<li> Leo 认为:"
+<pre>
+源代码只是构成程序的一小部分！
+程序的真正主体是对它的算法、结构、目的和用法的描述
+	——实现它的源代码并不是主要的
+</pre>"
+<li>这种概念怎么理解？
+</ul>
+</div>
+
+<div class="slide">
+<h1>编程时...</h1>
+
+<ul>
+<li> C时，常常迷失在命名相近的函式名中！
+<li> JAVA时，常常迷失在对象树中！
+<li> PHP时，常常迷失在分布到太多页面的函式！
+<li> Python 时，常常因为写的太高兴，造成过大的函式而要反复重构
+<li><br/>那末…………<br/>
+<li><b>那么，到底编程时什么最重要？</b>
+
+</ul>
+</div>
+
+<div class="slide">
+<h1>我的Leo体验</h1>
+
+<ul>
+<li> 花了很长时间才习惯Leo的思路，
+<li> 她的好处也是逐步才发现和接受的…………
+<li>首先是，工程管理:
+<li><br>编程不仅仅是代码
+	<ul>
+	<li>还有说明文档
+	<li>工作日志
+	<li>测试工程
+	<li>测试数据
+	<li>配置脚本
+	<li>....
+	</ul>
+<li><pre>Leo 通过简练的操作自由完成了！
+</pre>
+
+</ul>
+
+</div>
+
+
+<div class="slide">
+<h1>tangled网络</h1>
+
+<ul>
+<li> 何谓“tangled网络”?
+<pre>
+	人的自然思维是非线性的，是自由漫生的
+	
+	Leo 的节点树操作非常简单，支持我快速调整工程组织
+	
+	甚至形成类似“数据为中心,框架化开发”的
+	
+	“以结构为中心，模板化开发”的习惯
+
+</pre>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Leo 的操作...</h1>
+
+<ul>
+<li> 节点漫游:
+<pre>
+	Alt+Up|Down|Rigth|Left
+</pre>
+<li> 节点操作:
+<pre>
+	Ctrl+i
+	Ctrl+Shift+c|v
+	Ctrl+`
+	(伟大的 clone node 功能，
+	令我折服进而爱上她的主要理由！)
+
+</pre>
+<li> 文件操作:
+<pre>
+	Ctrl+s
+</pre>
+<br>
+当然是要配合不同的<a href="http://wiki.woodpecker.org.cn/moin/Leo?highlight=%28leo%29#head-f05329fba2b5ecfb243c98af000dc492c23132ca">
+动作关键词</a>来完成的…………
+
+</ul>
+
+
+
+</div>
+<div class="slide">
+<h1> <img src="img/WikiTshirt-logo.gif" /> </h1>
+<br/><br/>
+<ul>
+    <li><a href="http://wiki.woodpecker.org.cn/moin/CPUG">
+    <img src="img/CPUGlogo-100rc1.gif" />
+    </a>    共同的旗帜！
+        <ul>
+        <li> <a href="http://wiki.woodpecker.org.cn/moin/BPUG">
+        <img src="img/BPUGlogo90.gif" />
+        </a>
+        制度化的交流
+        </ul>
+    </li>
+    <li>新的开始:<a href="http://wiki.woodpecker.org.cn/moin/SPUG/">
+    <img src="img/SPUG-T.gif"/></a>
+    </li>
+    <li>……更多其它地区的 PUG 组织在筹备中！
+    </li>
+        
+</ul>
+</div>
+<div class="slide">
+<h1>总结</h1>
+
+<ul>
+
+<li>自由！高贵的精神支柱
+</li>
+<li>开源！神奇的软件开发模式
+</li>
+<li>Python！美好易用的脚本语言
+</li>
+
+<li>那未  :
+    <ul>
+    <li>我们从自由软件运动中可以印证哲学理念的力量
+    </li>
+    <li>我们从开源开发模式中可以学习社区的合作
+    <ul>
+        <li>我们相识相知的一般途径:
+            <ul>
+            <li>订阅列表……
+            <li>看不过眼，回复/指导/教导/讨论……
+            <li>在自个儿Blog 中深入讨论……
+            <li>加入Wiki 贡献文章
+            <li>被点名作事儿……
+            <li>被现实中对应上，加入项目团队…………
+            </ul>
+        </li> 
+    </ul>
+    </li>
+    <li>实际使用Python 来真正体验自由的力量
+    </li>
+    <li>....
+    </li>
+    </ul>
+</li>
+
+</ul>
+
+</div><div class="slide">
+<h1> 关于S<sup>5</sup> </h1>
+<ul>
+<li>幻灯展示: 
+    <ul>
+    <li><a target="_blank"  href="http://www.meyerweb.com/eric/tools/s5/">
+    <img src="S5icon.GIF" />
+    S<sup>5</sup></a> : A Simple Standards-Based Slide Show System
+    <li> 纯HTML 幻灯效果工具制作 <a href="s5-intro.html">本地介绍页面</a>
+    </ul>
+    </li>
+<li>编写环境:     <span style="float:right"><img src="snap-leoWrite.png">
+    </span>
+    <ul>
+    <li><a target="_blank"  href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment">
+    <img src="LeoProse.gif" />Leo</a> 
+    <br/>:: 文学编程环境
+    <li> 纯Python 实现的通用编辑环境 
+    </ul>
+    </li>
+    
+</ul>
+</div>
+<div class="slide">
+<h1> 制作免责 </h1>
+
+<ul>
+    <li><a href="http://wiki.internal.sina.com.cn/moin/ZoomQuiet">Zoom.Quiet 
+    </a>伙同所有热心的中国Pythoner共同制作 
+        <ul>
+        <li> <a href="http://www.donews.net/limodou">
+        <img src="id/limodou.gif" /></a>
+        ,<a href="http://blog.sina.com.cn/m/hdcola">
+        <img src="id/HD.gif" /></a>
+        ,<a href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet">
+        <img src="id/zhouqi.gif" /></a>
+        ,<a href="http://wiki.woodpecker.org.cn/moin/AlbertLee">
+        <img src="id/AlbertLee.gif" /></a>
+        ,<a href="http://www.xulei.org/">
+        <img src="id/eddyxu.gif" /></a>
+        ,<a href="http://www.livejournal.com/users/hongqn/">
+        <img src="id/QiangningHong.gif" /></a>
+        ,<a href="http://xyb.8800.org/">
+        <img src="id/xyb.gif" /></a>
+        ,<a href="http://blog.douban.com/">
+        <img src="id/beanABei.gif" /></a>
+        ,<a href="http://wiki.woodpecker.org.cn/moin/Hoxide">
+        <img src="id/hoxide.gif" /></a>
+        ,<a href="http://blog.sina.com.cn/u/1140330320">
+        <img src="id/rive4.gif" /></a>
+        
+        ,<a href="http://www.donews.net/changzheng/">
+        <img src="id/breeze.gif" /></a>
+        ,<a href="http://blog.donews.com/perrin/">
+        <img src="id/perrin.gif" /></a>
+        ,<a href="http://wiki.woodpecker.org.cn/moin/nEO">
+        <img src="id/neo.gif" /></a>
+        ......
+        
+        <li> 一切资料来自互联网
+        <li> 所有想法来自日常学习工作
+        <li> 所有体悟来自各种沟通分享
+        <li> 所有知识来自网络分享印证
+        <li> 所有经验来自个人失败经历……        
+        </ul>
+    </li>
+</ul>
+</div>
+</div><!--class="layout" -->
+</div><!-- class="presentation"-->
+
+</body>
+</html>

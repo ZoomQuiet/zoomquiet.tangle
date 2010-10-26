@@ -1,0 +1,160 @@
+/* Following are the presentation styles -- edit away! 
+Base Blue fixed for Chinese Slide show...
+##Zoom.Quiet    051106-DeepBlue #2E2E5A :: #000294
+##Zoom.Quiet    060502-update into S51.1
+*/
+
+body {background: #2E2E5A url(freedombottom.gif); 
+    color: #fff; font-size: 1.8em;}
+/*text-decoration: none;*/
+:link, :visited { color: #DDE;}
+#controls :active {color: #88A !important;}
+#controls :focus {outline: 1px dotted #227;}
+
+h1, h2, h3, h4 {
+    font-size: 100%; 
+    margin: 0; padding: 0; }
+h5{
+    font-size: 85%; 
+    margin: 0; padding: 0; font-weight: inherit;}
+
+ul, pre {margin: 0; line-height: 1em;}
+html, body {margin: 0; padding: 0;}
+
+img {border:0px;}    
+span #logo{float:left;}
+
+a {color:#0080C0;}
+a:hover{color:#FF8080;}
+
+blockquote, q {font-style: italic;}
+blockquote {padding: 0 2em 0.5em; margin: 0 1.5em 0.5em; text-align: center; font-size: 1em;}
+blockquote p {margin: 0;}
+blockquote i {font-style: normal;}
+blockquote b {display: block; margin-top: 0.5em; font-weight: normal; font-size: smaller; font-style: normal;}
+blockquote b i {font-style: italic;}
+
+kbd {font-weight: bold; font-size: 1em;}
+sup {font-size: smaller; line-height: 1px;}
+
+
+.slide {
+	font-family: georgia, Times, 'Times New Roman', serif;
+    background: transparent url(bluebg.gif) repeat-x;
+    padding: 0px;
+}
+/*position: absolute;  text-align: center;*/
+
+.slide h1 {position: absolute; left: 87px; z-index: 1;
+ white-space: nowrap;
+ text-transform: capitalize;
+ top: .5em; width: 80%;
+ margin: 0 0 1em 0; text-align: center; 
+ padding: 0px;
+ font: 150%/1em georgia, Times, 'Times New Roman', serif;
+ color: #fff; 
+ background: transparent; 
+ }
+.slide h3 {font-size: 130%;}
+/** default s5 1.1 code...
+.slide code {padding: 2px 0.25em; font-weight: bold; color: #533;}
+.slide code.bad, code del {color: red;}
+.slide code.old {color: silver;}
+.slide pre {padding: 0; 
+    margin: 0.25em 0 0.5em 0.5em; color: #533; font-size: 90%;}
+.slide pre code {display: block;}
+/**/
+code {padding: 2px 0.25em; font-weight: bold; color: #c30;}
+code.bad, code del {color: red;}
+code.old {color: silver;}
+pre {padding: 4px; margin: 0.25em 0 0.5em 0; 
+    background-color:#333; color: #00FF00; 
+    font-size: 84%;    
+    border: 4px dotted #2E2E5A;}
+pre code {display: block;}
+/** default s5 1.1
+.slide ul {margin-left: 5%; margin-right: 7%; list-style: disc;}
+.slide li {margin-top: 0.75em; margin-right: 0;}
+.slide ul ul {line-height: 1;}
+.slide ul ul li {margin: .2em; font-size: 85%; list-style: square;}
+/**/
+.slide ul {margin-left: 0.5em; list-style: disc;}
+.slide li {margin-top: 0.25em; margin-right: 0;
+    line-height: 1.2em;}
+/*Zoomq::051115 fixed as list*/
+.slide ul ul {line-height: 110%; padding: 0.5em;}
+.slide ul ul li {font-size: 85%; list-style: square;}
+
+.slide img.leader {display: block; margin: 0 auto;}
+.slide .current {color: #B02;}
+
+#slide0 {padding-top: 3.5em; font-size: 90%;}
+#slide0 h1 {
+    position: static; margin: 1em 0 1.33em; padding: 0;
+    white-space: normal;
+    background: transparent;
+    margin: 0 auto; width: 90%; height: 281px;
+    text-align: center;
+    font: 2.25em Georgia, Times, 'Times New Roman', serif; 
+   color: #fff;}
+#slide0 h3 {font-size: 1.5em;}
+#slide0 h4 {font-size: 1em;}
+#slide0 h3, #slide0 h4, #slide0 p {margin: 0; text-align: center; color: #fff;}
+#slide0 p {margin-top: 0.7em;}
+    
+/*Zoomq::060502 fixed base woodpecker deep blue*/
+div#header {background: #005 url(bodybg.gif) -16px 0 no-repeat;
+  line-height: 1px;}
+  
+/*border-top: 1px solid #08093F; font-weight: bold; */
+div#footer {font-size: 14px; font-weight: bold; 
+    padding: .5em 0; height: 36px; 
+    border-top: 1px solid #08093F; 
+    background: #17172F url(bluefooter.jpg) top right no-repeat; }
+#footer h1, #footer h2 {display: block; padding: 0 1em;}
+#footer h2 {font-style: italic;}
+#footer A{text-decoration: none;}
+
+div.long {font-size: 0.75em;}
+h1 abbr {font-variant: small-caps;}
+
+#currentSlide {text-align: center; 
+    font-size: 0.6em; 
+    color: #E6EAF0;}
+
+div#controls {position: absolute; left: 50%; bottom: 0;
+  width: 50%;
+  text-align: right; font: bold 0.8em Verdana, Helvetica, sans-serif;}
+html>body div#controls {position: fixed; padding: 0 0 1em 0;
+  top: auto;}
+  
+div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
+  margin: 0; padding: 0;}
+#controls #navLinks a {padding: 0; margin: 0 0.5em; 
+  background: #17172F; border: none; 
+  color: #F2F4F7; 
+  cursor: pointer;}
+
+#controls #navList {height: 1em;}
+#controls #navList #jumplist {
+    position: absolute; bottom: 0; right: 0; 
+    background: #204070; 
+    color: #F2F4F7;}
+
+
+ul.urls {list-style: none; display: inline; margin: 0;}
+.urls li {display: inline; margin: 0;}
+.note {display: none;}
+
+.external {border-bottom: 1px dotted gray;}
+html>body .external {border-bottom: none;}
+.external:after {content: " \274F"; font-size: smaller; color: #77B;}
+/*org color... #DDE*/
+.incremental, .incremental *, .incremental *:after {color: #4E4E6A; visibility: visible;}
+img.incremental {visibility: hidden;}
+
+
+/* diagnostics
+
+li:after {content: " [" attr(class) "]"; color: #F88;}
+ */

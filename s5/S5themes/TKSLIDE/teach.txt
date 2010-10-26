@@ -1,0 +1,200 @@
+----- 文件開始 ----- /* This document is a draft */
+
+0. 索引
+------------------
+1. 入門 - 如果你會 HTML ， 看完第一節就可以開始做投影片了。
+
+2. OSF  - 如果你用過 S5 ， 你可能會對移植你的舊投影片到 TKSLIDE 有興趣。
+3. 用 Markdown - 嫌用 HTML 寫投影片太囉唆不妨試試 Markdown。
+4. 設定 - TKSLIDE 有些預設設定你不見得喜歡。這邊教你改。
+5. 加入數學式 跟 使用 takahashi 
+6. 其它 - 一些小提示
+7. Write extension
+
+1. TKSLIDE 簡易教學
+------------------
+投影片操作請參考首頁上的簡介用投影片：
+
+ http://www.csie.ntu.edu.tw/~b88039/slide4/intro.xhtml
+
+TKSLIDE 處理用 HTML 語法寫成的投影片。最簡單的投影片如下：
+
+<html>
+ <head>
+  <meta http-equiv="Content-type" content="text/html; charset=big5"/>
+  <link rel="stylesheet" type="text/css" media="all" href="user.css"/>
+  <link rel="stylesheet" type="text/css" media="print" href="print.css"/>
+  <script type="text/javascript" src="slide.js"></script>
+ </head>
+ <body>
+  <h2>我的第一次 TKSLIDE</h2>
+ </body>
+</html>
+
+你可以把上面這段 HTML 碼當成製作你自己的投影片的起點。
+簡單的說，你至少要引入 user.css, print.css 跟 slide.js 這三個檔案。
+除了上面這些以外，全部都跟 HTML 一樣。只要注意一點，
+每個 <h2> 標籤都代表新的投影片一頁的開始。
+比方說一份兩頁的投影片如下(只寫出 body 的部份)：
+
+<body>
+ <h2>第一頁</h2>
+ <p>內容一</p>
+ <h2>第二頁</h2>
+ <p>內容二</p>
+</body>
+
+1.1 加入樣式
+=================
+你也可以自己設計投影片樣式，寫成 css 檔，然後自己引入。
+TKSLIDE 已經有些預設樣式可以用；你可以檢查一下 TKSLIDE 中 
+style 資料夾，裡面所有的 css 檔都是設計好的樣式；要使用他們，
+選一個引入到你的投影片中就行了，例如：
+
+<link rel="stylesheet" type="text/css" href="style/003/sakura.css"/>
+
+
+2. 用 Opera Show Format 作投影片
+-----------------------
+沒這個必要。不過你可以參考下面這個網址：
+ 
+ http://www.meyerweb.com/eric/tools/s5/
+
+完全照著他的指示設計的投影片將可以利用 TKSLIDE 播放，
+只要將其中的 CSS 樣式表跟 slide.js 換成 TKSLIDE 所提供的就可以。
+這邊強調一點，footer 跟 header 尚未支援，也不保證以後會支援。
+逐項顯示也不支援。不是我不行，是設計邏輯的問題(?)。
+
+
+3. 用 Markdown 作投影片
+----------------------
+Markdown 很容易學。
+我不打算教你怎麼用 Markdown 語法；太簡單而且已經有說明文件。
+請參考：
+
+ http://daringfireball.net/projects/markdown/syntax
+
+3.1 用 Markdown 產生 HTML
+======================
+第一節講到 TKSLIDE 用 h2 標籤做分頁。所以只要用 Markdown 的時候，
+也用 h2 當分頁標籤，比方說：
+
+## 第一頁
+ ...
+
+## 第二頁
+ ...
+
+那就可以了。現階段你要在產生的 HTML 檔中自己加上第一節所提到的那三個檔案。
+不久的將來我會寫包裝程式，讓大家更方便的產生投影片。
+
+3.2 用 Markdown 產生 HTML - 線上
+======================
+想用這個功能你必須使用火狐狸(Firefox)瀏覽器。
+到 TKSLIDE 首頁將 "online-make-slide" 這個連結加入你的書籤工具列。
+然後，把 favload.js 放到你那 Markdown 格式的投影片原始檔所在的資料夾。
+用火狐狸開啟你的投影片，然後按下書籤工具列上的 "online-make-slide"，
+然後稍待片刻 - 可能會暫時出現一些亂碼，放心，是正常的。
+
+請注意在投影片產生之後如果你按 reload ，會使得投影片變成亂碼；
+這時候請重新連結你的原始檔，重新按下 "online-make-slide"。
+這個功能由 js-Markdown 提供，感謝 Sam Angove ，有空我會寫信給他(淚)。
+
+3.3 用 Markdown 設定樣式
+=====================
+(ToDo : 用 config 一類的標籤替代)
+隨便找個地方塞你自己樣式表的連結就行了。不過這樣可能過不了 Validation。
+你可以參考這個範例：
+
+ http://www.csie.ntu.edu.tw/~b88039/slide4/markdown.text
+
+4. 自訂 TKSLIDE 
+----------------------
+你可以在投影片中更改 TKSLIDE 的一些預設值。
+只要你在 TKSLIDE 控制板中的屬性列表中看得到的選項都可以設定。
+將屬性列表中的描述一字不漏的抄下來，加個冒號，後面加你想給的設定值，就像這樣：
+
+<div id="config">
+Small Toolbar: on;
+Show Page No.: on;
+</div>
+
+設定以分號結尾，所有的設定都放在 id 為 config 的 div 標籤中。
+
+4.1 在 Markdown 中自訂 TKSLIDE
+======================
+隨便找個地方把 <div id="config">...</div> 塞進去就行了。
+你可以參考這個範例：
+
+ http://www.csie.ntu.edu.tw/~b88039/slide4/markdown.text
+
+
+5. 加入數學式
+---------------------
+如果你想在投影片中加入數學式，請在 slide.js 之後引入 math.js。
+接下來你就可以用 Tex 語法寫數學式，範例如下：
+
+<div class="math">
+`ax^2+bx+c=0`
+</div>
+
+只要注意將數學式用 ` 包住，放在 class="math" 的標籤裡就行了。
+math.js 用到了 Jipsen 的 ASCIIMathML，感謝他，我會找時間寫信給他的(淚)。
+如果你使用不支援 MathML 的瀏覽器(例如 IE)，那麼你必須要裝擴充套件(例如 IE 上的 MathPlayer)。
+介紹你一個支援 MathML 的瀏覽器 - Firefox : http://moztw.org
+給你一個完整的範例：
+
+<html>
+ <head>
+ <meta http-equiv="Content-type" content="text/html; charset=big5;"/>
+  <link rel="stylesheet" type="text/css" media="all" href="user.css"/>
+  <link rel="stylesheet" type="text/css" media="print" href="print.css"/>
+  <script type="text/javascript" src="slide.js"></script>
+  <script type="text/javascript" src="math.js"></script>
+ </head>
+ <body>
+  <h1>TKSLIDE v4</h1>
+  <div class="math">
+  `ax^2+bx+c=0`
+  </div>
+ </body>
+</html>
+
+
+5.1 使用 takahashi 模組
+=======================
+只要引入 takahashi.js 然後所有的文字都用 h2 來寫就行。範例：
+
+ http://www.csie.ntu.edu.tw/~b88039/slide4/takahashi.xhtml
+
+6. 其它功能
+---------------------
+a. 
+除了用 h2 分頁，你可以用 <div class="slidebreak"></div> 分頁。
+你可以參考這個範例，搜尋 slidebreak：
+
+ http://www.csie.ntu.edu.tw/~b88039/slide4/markdown.text
+
+這在你不想在投影片上加標題時特別有用。
+
+b.
+<div class="slide">...</div> 本身會被視為一頁投影片，
+此投影片的內容就是這個標籤的內容。
+
+c.
+如果整個投影片裡找不到 h1 標籤， h2 才會被當成分頁標籤；不然會用 h1 分頁。
+如果 h2 跟 h1 都找不到，那就只能靠 <div class="slidebreak"> 
+跟 <div class="slide"> 分頁了。
+
+d.
+第一張投影片之前的 HTML 內容將會被刪除，而且不會被顯示出來。
+
+e.
+雖然 TKSLIDE 之前版本支援逐項顯示，TKSLIDE v4 目前沒有這個功能。
+將來會做。不久的將來(!?)。
+
+7. 寫 extension
+--------------------
+自己看 slide.js 吧。你可以參考 takahashi.js，他算是一種 extension。
+
+----- 文件結束 -----

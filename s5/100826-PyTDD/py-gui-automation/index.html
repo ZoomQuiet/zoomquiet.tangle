@@ -1,0 +1,304 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Python UI Automation Testing</title>
+<!-- metadata -->
+<meta http-equiv="content-type" content="text/html;charset=gb2312">
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.1" />
+<meta name="presdate" content="20100818" />
+<meta name="author" content="CoderZh" />
+<meta name="company" content="Kingsoft" />
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+<!-- embedded styles -->
+<style type="text/css" media="all">
+.imgcon {width: 525px; margin: 0 auto; padding: 0; text-align: center;}
+#anim {width: 270px; height: 320px; position: relative; margin-top: 0.5em;}
+#anim img {position: absolute; top: 42px; left: 24px;}
+img#me01 {top: 0; left: 0;}
+img#me02 {left: 23px;}
+img#me04 {top: 44px;}
+img#me05 {top: 43px;left: 36px;}
+</style>
+<!-- S5 JS -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header"></div>
+<div id="footer">
+<h1>Python UI Automation Testing</h1>
+<h2>Follow me, So Easy!</h2>
+</div>
+</div>
+
+<div class="presentation">
+
+<div class="slide">
+<h1>Python UI Automation Testing</h1>
+<img src="image/avatar.jpg" title="avatar" />
+<ul>
+<li>Name: 张长荣(CoderZh)</li>
+<li>Blog: <a href="http://www.cnblogs.com/coderzh" rel="external">http://www.cnblogs.com/coderzh</a></li>
+<li>Email: coderzh@gmail.com</li>
+<li>Twitter: @coderzh</li>
+</ul>
+<div class="handout"></div>
+</div>
+
+<div class="slide">
+<div class="huge3">测试开发</div>
+</div>
+
+<div class="slide">
+<h1>测试开发</h1>
+<ul>
+<li>好玩</li>
+<li>花样多</li>
+</ul>
+</div>
+
+<div class="slide">
+<div class="huge3">美之测试</div>
+</div>
+
+<div class="slide">
+<h1>美之测试</h1>
+<div class="huge5">尽可能多的执行</div>
+<ul class="incremental show-first">
+<li>每天执行，每次构件自动执行，每次入库代码前执行……</li>
+<li>如果你的测试案例每年执行一次……</li>
+<li>如果你的测试案例几个月执行一次……</li>
+<li>如果你的测试案例每天执行一次……</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>美之测试</h1>
+<div class="huge5">稳定是根本</div>
+<ul class="incremental">
+<li>要保证自身的稳定</li>
+<li>要保证测试结果的稳定</li>
+<li>好好想想：你的测试案例能活多久?</li>
+<li>个人观点：执行了<font color="red">一年</font>的案例才叫好案例</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>美之测试</h1>
+<div class="huge5">精准是要求</div>
+<ul>
+<li>精准是指，<font color="red">你把Bug揪出来，并且准确的知道它从哪里来。</font></li>
+<li>将Bug定位到具体的代码，具体哪一行，甚至，给出修复意见！</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>美之测试</h1>
+<div class="huge5">简洁是追求</div>
+<ul>
+<li>测试案例是最好的文档！</li>
+<li>测试案例清晰三件事：
+	<ul>
+		<li>测什么</li>
+		<li>怎么测</li>
+		<li>预期结果</li>
+	</ul>
+</li>
+</ul>
+</div>
+
+<div class="slide">
+<div class="huge1">Python</div>
+</div>
+
+<div class="slide">
+<h1>Python</h1>
+<ul>
+<li>简单</li>
+<li>轻便</li>
+<li>快速</li>
+</ul>
+</div>
+
+<div class="slide">
+<div class="huge3">GUI测试</div>
+</div>
+
+<div class="slide">
+<h1>GUI测试</h1>
+<div class="huge3">又爱又恨</div>
+</div>
+
+<div class="slide">
+<h1>GUI测试</h1>
+<div class="huge3">恨，是因为……</div>
+<ul>
+<li>开发老改代码，日子没法过啦！</li>
+<li>实际环境太复杂，有太多不稳定的因素。</li>
+<li>与底层实现脱离，无法直接定位到代码。</li>
+<li>每天都在做单调枯燥的事情，感觉没有技术含量。</li>
+<li>投资回报率不一定高</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>GUI测试</h1>
+<div class="huge3">爱，是因为……</div>
+<ul>
+<li>GUI测试最接近用户，单元测试和模块测试都无法代替。</li>
+<li>GUI测试能将手工测试解放出来，做更有意义的事情，而不是每天重复做一样的事情</li>
+<li>实际环境非常复杂，难道很高，有挑战性</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Python GUI自动化测试</h1>
+<div class="huge5">现有框架或库：</div>
+<ul>
+<li>unittest</li>
+<li>pywin32</li>
+<li>ctypes</li>
+<li><a href="http://www.tizmoi.net/watsup/intro.html" target="_blank">Watsup</a></li>
+<li><a href="http://www.brunningonline.net/simon/blog/archives/winGuiAuto.py.html" target="_blank">winGuiAuto</a></li>
+<li><a href="pywinauto.openqa.org" target="_blank">PyWinAuto</a></li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>Watsup</h1>
+<div class="huge5">Watsup Example</div>
+<div style="text-align:left;"><br /><br />
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0);" class="source"> <span style="color: rgb(0, 0, 0);">window</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">findwindow</span>(<span style="color: rgb(0, 0, 0);">title</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 255);">&quot;Untitled - Notepad&quot;</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 128); font-weight: bold;">class</span> <span style="color: rgb(166, 23, 23); background-color: rgb(227, 210, 210);">= &quot;</span><span style="color: rgb(0, 0, 0);">Notepad</span><span style="color: rgb(0, 0, 255);">&quot;)</span><br> <span style="color: rgb(0, 0, 0);">SendKeys</span>(<span style="color: rgb(0, 0, 0);">window</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 255);">&quot;%OF&quot;</span>)&nbsp; <span style="color: rgb(0, 136, 0); font-style: italic;"># Format -&gt; Font</span><br> <span style="color: rgb(0, 0, 0);">fontdialog</span>&nbsp; <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">findwindow</span>(<span style="color: rgb(0, 0, 255);">&quot;title = &quot;</span><span style="color: rgb(0, 0, 0);">Font</span><span style="color: rgb(0, 0, 255);">&quot;)</span><br> <span style="color: rgb(0, 0, 0);">buttonClick</span>(<span style="color: rgb(0, 0, 0);">fontdialog</span><span style="color: rgb(0, 0, 0);">,</span> <span style="color: rgb(0, 0, 255);">&quot;OK&quot;</span>)<br></div>
+<div>
+</div>
+
+<div class="slide">
+<h1>PyWinAuto</h1>
+<div class="huge5">PyWinAuto Example</div>
+<div style="text-align: left;"><br /><br />
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0);" class="source"> <span style="color: rgb(0, 0, 0);">win</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">app</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">UntitledNotepad</span><br> <span style="color: rgb(0, 0, 0);">win</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">MenuSelect</span>(<span style="color: rgb(0, 0, 255);">&quot;Format-&gt;Font&quot;</span>)<br> <span style="color: rgb(0, 0, 0);">app</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Font</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">OK</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Click</span>()<br></div>
+</div>
+</div>
+
+<div class="slide">
+<h1>PyWinAuto</h1>
+<div class="huge5">PyWinAuto Example</div>
+<div style="text-align:left;">
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0);" class="source"> <span style="color: rgb(0, 0, 0);">app</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Notepad</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">MenuSelect</span>(<span style="color: rgb(0, 0, 255);">&quot;File-&gt;SaveAs&quot;</span>)<br> <span style="color: rgb(0, 0, 0);">app</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">SaveAs</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">ComboBox5</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Select</span>(<span style="color: rgb(0, 0, 255);">&quot;UTF-8&quot;</span>)<br> <span style="color: rgb(0, 0, 0);">app</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">SaveAs</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">edit1</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">SetText</span>(<span style="color: rgb(0, 0, 255);">&quot;Example-utf8.txt&quot;</span>)<br> <span style="color: rgb(0, 0, 0);">app</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">SaveAs</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Save</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Click</span>()<br></div>
+</div>
+</div>
+
+<div class="slide">
+<h1>PyWinAuto</h1>
+<div class="huge3">特点</div>
+<ul>
+<li>Pythonic</li>
+<li>简单</li>
+<li>易读</li>
+<li>Localization</li>
+<li>Control Identifiers</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>PyWinAuto</h1>
+<div class="huge3">不足</div>
+<div><br /><br />
+对其他非标准控件支持不好。比如：微软的IE控件以及其他的第三方自定义控件。
+</div>
+</div>
+
+<div class="slide">
+<h1>KWinAuto</h1>
+<div class="huge3">KWinAuto</div>
+<ul>
+<li>Kingsoft Windows UI Automation Testing Framework</li>
+<li>借鉴了PyWinAuto的优点</li>
+<li>弥补了PyWinAuto的不足</li>
+<li>简单适用就好</li>
+<li>还在继续完善中……</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>PyWinAuto</h1>
+<div class="huge3">特点</div>
+<ul>
+<li>Pythonic</li>
+<li>Control Identifiers</li>
+<li>IE控件的完美支持</li>
+<li>IAccessable接口，为支持更多第三方控件提供可能</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>KWinAuto</h1>
+<div class="huge5">KWinAuto Example</div>
+<div style="text-align:left">
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0);" class="source"> <span style="color: rgb(0, 0, 0);">kismain</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">Window</span>(<span style="color: rgb(0, 0, 255);">u&#39;金山毒霸&#39;</span><span style="color: rgb(0, 0, 0);">)[</span><span style="color: rgb(0, 0, 255);">&#39;Internet Explorer_Server&#39;</span><span style="color: rgb(0, 0, 0);">]</span><br> <br> <span style="color: rgb(0, 0, 0);">kismain</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">scan_virus_tag_id</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Click</span>()<br> <span style="color: rgb(0, 0, 0);">kismain</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">alldisk_scan_btn</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Click</span>()<br> <span style="color: rgb(0, 0, 0);">kismain</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">start_scan_btn_id</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Click</span>()<br> <br> <span style="color: rgb(0, 0, 0);">time</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">sleep</span>(<span style="color: rgb(0, 0, 255);">5</span>)<br> <br> <span style="color: rgb(0, 0, 0);">kismain</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Img_Scan_Stop</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Click</span>(<span style="color: rgb(0, 0, 0);">False</span>)<br> <br> <span style="color: rgb(0, 0, 0);">Window</span>(<span style="color: rgb(0, 0, 255);">u&#39;金山毒霸&#39;</span><span style="color: rgb(0, 0, 0);">)[</span><span style="color: rgb(0, 0, 255);">u&#39;是(&amp;Y)&#39;</span><span style="color: rgb(0, 0, 0);">]</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Click</span>()<br> <br> <span style="color: rgb(0, 0, 0);">kismain</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Btn_Window_Close</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Click</span>()<br></div>
+</div>
+</div>
+
+<div class="slide">
+<h1>KWinAuto</h1>
+<div class="huge5">Control Identifiers</div>
+<img src="image/kislive.jpg" />
+</div>
+
+<div class="slide">
+<h1>KWinAuto</h1>
+<div class="huge5">Control Identifiers</div>
+<div style="text-align:left">
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0);" class="source"> <span style="color: rgb(0, 0, 0);">&gt;&gt;&gt;</span> <span style="color: rgb(0, 0, 0);">kislive</span> <span style="color: rgb(0, 0, 0);">=</span> <span style="color: rgb(0, 0, 0);">Window</span>(<span style="color: rgb(0, 0, 255);">u&#39;金山毒霸在线升级程序&#39;</span>)<br> <span style="color: rgb(0, 0, 0);">&gt;&gt;&gt;</span> <span style="color: rgb(0, 0, 0);">kislive</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">DisplayAllControls</span>()<br></div>
+     --------------------<br />
+Button 取消 132962<br />
+&nbsp; identifiers: Button5, Button1003, Button_4, 取消<br />
+--------------------<br />
+Button &lt;上一步(&amp;B) 132964<br />
+&nbsp; identifiers: &lt;上一步(&amp;B), Button4, Button1000, Button_3 &nbsp;<br />
+</div>
+</div>
+
+<div class="slide">
+<h1>KWinAuto</h1>
+<div class="huge5">Control Identifiers</div>
+<div style="text-align:left">
+     <div style="font-family: &quot;[object HTMLOptionElement]&quot;,&quot;Consolas&quot;,&quot;Lucida Console&quot;,&quot;Courier New&quot;; color: rgb(0, 0, 0);" class="source"> <span style="color: rgb(0, 0, 0);">kislive</span><span style="color: rgb(0, 0, 0);">[</span><span style="color: rgb(0, 0, 255);">u&#39;上一步(&amp;B)&gt;&#39;</span><span style="color: rgb(0, 0, 0);">]</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Click</span>()<br> <br> <span style="color: rgb(0, 0, 0);">//</span> <span style="color: rgb(0, 0, 0);">Or</span><br> <span style="color: rgb(0, 0, 0);">kislive</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Button4</span><span style="color: rgb(0, 0, 0);">.</span><span style="color: rgb(0, 0, 0);">Click</span>()<br></div>
+</div>
+</div>
+
+<div class="slide">
+<h1>KWinAuto - PySpy</h1>
+<div class="huge5">Control Identifiers</div>
+<img src="image/pyspy.jpg" /><br />
+<a href="http://www.cnblogs.com/coderzh/archive/2010/05/02/python-cookbook-pyspy.html" target="_blank">Python 天天美味(36) - 用Python实现Spy++</a>
+</div>
+
+<div class="slide">
+<h1>KWinAuto - PySpy</h1>
+<p>比Spy++更强的地方：识别IE控件</p>
+<img src="image/pyspy2.jpg" />
+</div>
+
+<div class="slide">
+<div class="huge3">
+Q&A
+</div>
+
+</div>
+</div>
+</body>
+</html>

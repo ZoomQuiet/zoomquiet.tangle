@@ -1,0 +1,20 @@
+h1,h2,p,ul,ol,pre {margin-left:120px;}
+h2 {
+ text-align:left;background:none;
+ display:inline;width:auto;
+ border-bottom:1px solid #090;
+ color:#060;
+}
+.ipage {
+ margin:0;
+ height:100%;width:100%;
+ border-top:1px solid #000;
+ background:url(leaf.jpg) left top repeat-x;
+}
+.slide {
+ background:url(leaf.jpg) right bottom repeat-x #fff;border:none;
+}
+body {background:#000;}
+
+a {color:#294}
+.pager {color:#000;}

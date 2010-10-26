@@ -1,0 +1,137 @@
+digraph zqtools_mapping {
+    /*生成命令:
+$ dot -Tjpeg zqtools_mapping.dot -o zqtools_mapping.jpg -Tcmapx -o zqtools_mapping.map
+$ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.map
+    全局设定
+    */
+    graph [label="Zoom.Quiet 工具箱关联图谱"
+        ,fontsize=12.0,fontcolor=snow
+        ,labeljust="l",labelloc="b",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+    import [label="</import>",shape=folder];
+
+        zim [label="Zim"
+            ,URL="http://zim-wiki.org/"];
+        sff [label="SwiftFox"
+            ,URL="http://getswiftfox.org/"];
+            scrb [label="ScrapBook"
+                ,URL="https://addons.mozilla.org/firefox/addon/427"];
+            autop [label="AutoPage"
+                ,URL="https://addons.mozilla.org/en-US/firefox/addon/4925/"];
+            chmr [label="SHMreader"
+                ,URL="https://sourceforge.net/projects/chmreader/"];
+
+
+        gtd [label="GTD"
+            ,URL="http://www.gtdstudy.com/?p=828"];
+
+            gmail [label="gmail"
+                ,URL="http://mail.google.com/support/?hl=cn"];
+            lightning [label="lightning"
+                ,URL="http://www.mozilla.org/projects/calendar/releases/lightning1.0b2.html/"];
+
+        moc [label="moc"
+            ,URL="http://moc.daper.net/"];
+        mplayer [label="mplayer"
+            ,URL="http://www.mplayerhq.hu/"];
+        comix [label="Comix"
+            ,URL="http://comix.sourceforge.net/"];
+    think [label="</think>",shape=folder
+        ,URL="http://en.wikipedia.org/wiki/Mind_map"];
+
+        xmind [label="XMind"
+            ,URL="http://www.xmind.net/"];
+        dot [label="Graphvizs"
+            ,URL="http://www.graphviz.org/About.php"];
+        wsd [label="web\nSequence\nDiagrams"
+            ,URL="http://www.websequencediagrams.com/"];
+        hand [label="手绘"
+            ,URL="http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping"];
+
+    export [label="</export>",shape=folder];
+
+        bxm [label="表形码"
+            ,URL="http://blog.zoomquiet.org/pyblosxom/Zen/Chinese/winbx-IMEstory-2006-05-15-12-00.html"];
+
+        s5 [label="S5"
+            ,URL="http://www.meyerweb.com/eric/tools/s5/"];
+
+
+        wyt [label="WYTIWYG"
+            ,URL="http://wiki.woodpecker.org.cn/moin/WyTiWyG"];
+
+            t2t [label="txt2tags"
+                ,URL="http://txt2tags.sourceforge.net/"];
+            rst [label="reStructuredText"
+                ,URL="http://docutils.sourceforge.net/rst.html"];
+
+                sphinx [label="Sphinx"
+                    ,URL="http://sphinx.pocoo.org/"];
+
+
+        py [label="Python"
+            ,URL="http://python.org/"];
+
+            leo [label="Leo"
+                ,URL="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"];
+            moin [label="MoinMoin"
+                ,URL="http://wiki.s.kingsoft.net/moin"];
+            pyb [label="PyBlosxom"
+                ,URL="http://pyblosxom.sourceforge.net/"];
+
+        iat [label="It's\nAll\nText!"
+            ,URL="file:///home/zoomq/workspace/3hg/zqlib-hg/tangle/zoomquiet.leo/s5/100918-MyTools/rst2s5/index.html#"];
+
+
+
+
+
+    misc [label="</misc>",shape=folder];
+        pen [label="纸+笔"
+            ,URL="http://www.moleskineasia.com/"];
+        pomodoro [label="蕃茄时间"
+            ,URL="http://www.pomodorotechnique.com/"];
+        workrave [label="Workrave"
+            ,URL="http://www.workrave.org/"];
+
+
+    /*
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    */
+
+    {zim sff gtd moc mplayer comix}->import;
+        {scrb autop chmr iat}->sff;
+        {gmail lightning}->gtd;
+
+    import->think->export;
+        misc->export;
+            misc->{pen pomodoro workrave};
+
+    think->{xmind dot wsd hand};
+        hand->pen;
+
+    export->{bxm s5 wyt py};
+        wyt->{t2t rst};
+        rst->sphinx;
+        py->{leo moin pyb sphinx};
+            iat->moin;
+
+    edge [style=invis];
+
+}

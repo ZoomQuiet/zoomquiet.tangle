@@ -1,0 +1,9 @@
+body {background:#000;}
+.slide {
+ background:url(bkred.png) left top #600;
+ color:#fff;
+}
+h1,h2,h3 {color:#fd9;}
+a { color:#ff9; }
+
+#pagenumber {color:#fff;}

@@ -1,0 +1,16 @@
+body {background:#000;}
+.slide {
+ background:url(sakura.jpg) left bottom no-repeat #fff;
+ color:#000;
+}
+
+h1,h2,h3 {color:#d88;}
+a { color:#f66; }
+
+#pagenumber {color:#000;width:42%;text-align:right;}
+
+.ipage {
+ width:100%;height:100%;margin:0;
+ background:url(sakuratop.jpg) 100% -65px no-repeat;
+ border:1px solid #000;
+}

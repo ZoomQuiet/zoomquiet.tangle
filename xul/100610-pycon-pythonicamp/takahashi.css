@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd" [
+	<!ENTITY % XLINK.xmlns.attrib "xmlns:xhtml2 CDATA #FIXED 'http://www.w3.org/2002/06/xhtml2'">
+	<!ENTITY % Inline.extra "| xhtml2:l | iframe">
+
+	<!ENTITY % newInlineContents "(#PCDATA|br|span|em|strong|dfn|code|samp|kbd|var|cite|abbr|acronym|q|sub|sup|bdo|a|img|map|object|input|select|textarea|label|button|ruby|ins|del|script|noscript|xhtml2:l)*">
+	<!ENTITY % coreAttributes "
+	  id    ID    #IMPLIED
+	  class CDATA #IMPLIED
+	  style CDATA #IMPLIED
+	  title CDATA #IMPLIED">
+
+	<!ELEMENT xhtml2:l %newInlineContents;>
+	<!ATTLIST xhtml2:l %coreAttributes;>
+
+	<!ELEMENT iframe %newInlineContents;>
+	<!ATTLIST iframe
+	      %coreAttributes;
+	      longdesc     CDATA               #IMPLIED
+	      src          CDATA               #IMPLIED
+	      frameborder  ( 1 | 0 )           '1'
+	      marginwidth  CDATA               #IMPLIED
+	      marginheight CDATA               #IMPLIED
+	      scrolling    ( yes | no | auto ) 'auto'
+	      height       CDATA               #IMPLIED
+	      width        CDATA               #IMPLIED
+	>
+]>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:xhtml2="http://www.w3.org/2002/06/xhtml2"
+	xml:lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=Shift_JIS" /><!-- for old implementations -->
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<meta name="Author" content="Piro(SHIMODA Hiroshi)" />
+	<link rev="made" title="Piro(SHIMODA Hiroshi)" href="mailto:piro@p.club.ne.jp" />
+	<link rel="start" title="Home" href="/" />
+	<link rel="contents" title="Contents" href="/#ContentsList" />
+	<link rel="alternate contents" title="Sitemap" href="/entrance/entrance.html#sitemap" />
+	<link rel="chapter" href="/latest/latest.html" title="Latest topics" />
+	<link rel="chapter" href="/pics/pics.html" title="Pictures" />
+	<link rel="chapter" href="/xul/xul.html" title="XUL Apps" />
+	<link rel="chapter" href="/w3cg/w3cg.html" title="Project W3C-Girl" />
+	<link rel="chapter" href="/cgi-bin/bbs.cgi" title="Board" />
+	<link rel="chapter" href="/links/links.html" title="Links" />
+	<link rel="help" title="Help" href="/entrance/entrance.html#info" />
+	<link rel="meta" title="Description of This Site" href="/common/or.rdf" />
+	<link rel="shortcut icon" href="/common/favicon.ico" />
+	<link rel="icon" href="/common/favicon.png" />
+	<meta name="description" content="自作絵、Netscape 7/Mozilla用XULアプリケーションの配布、W3C子など。" />
+	<meta name="keywords" content="関西弁,辞書,関西クン,CG,イラスト,版権もの,CSS,HTML,日記,Project W3C-Girl,W3C子,渡瀬三智子,Mozilla,ContextMenu,Extensions,コンテキストメニュー,拡張,拡張機能,XUL,Mozilla用,XULアプリ,XULアプリケーション" />
+	<script type="text/javascript" src="/common/scripts/header.js"></script>
+	<script type="text/javascript" src="/common/scripts/prototype.js"></script>
+
+<!--
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/">
+<rdf:Description rdf:about="http://piro.sakura.ne.jp/">
+   <foaf:maker rdf:parseType="Resource">
+     <foaf:holdsAccount>
+       <foaf:OnlineAccount foaf:accountName="piro_or">
+         <foaf:accountServiceHomepage rdf:resource="http://www.hatena.ne.jp/" />
+       </foaf:OnlineAccount>
+     </foaf:holdsAccount>
+   </foaf:maker>
+</rdf:Description>
+</rdf:RDF>
+-->
+
+<link rel="stylesheet" title="Limited" href="/common/styles/limited/style.css" type="text/css" media="screen,projection,tv,print" />
+<link rel="stylesheet" href="/common/styles/system/accesskey.css" type="text/css" media="print" />
+<link rel="stylesheet" href="/common/styles/system/print.css" type="text/css" media="print" />
+<!--
+selected : Limited (1)
+  No-Style (0)
+  Limited (1)
+  Limited with のあ＆あやの (2)
+  反転Limited (3)
+  豆字Limited (4)
+  Purple (5)
+  Orange (6)
+  Flat (7)
+  Strict (8)
+  Windows (9)
+  Limited@BoxView (10)
+  Purple@BoxView (11)
+  Orange@BoxView (12)
+  Flat@BoxView (13)
+  Strict@BoxView (14)
+  Windows@BoxView (15)
+   (16)
+-->
+
+	<title>404 Not Found - outsider reflex</title>
+
+</head>
+<body>
+
+<div class="section root" id="section-root">
+
+<div class="sec-content root" id="section-root-content">
+	<h1>404 Not Found</h1>
+</div>
+
+
+
+<div class="sec-children root" id="section-root-children">
+
+	<div class="section topic" id="author">
+	<div class="sec-content">
+		<p>そんなファイルないです。<a href="javascript:history.back()">前のページに戻る</a>か<a href="/">トップページから再挑戦</a>してくだちい。</p>
+	</div>
+	</div>
+
+</div></div>
+
+
+<address id="footer">&copy; 1999-2007 <a href="mailto:piro@p.club.ne.jp">Piro</a>:<a href="http://piro.sakura.ne.jp/">outsider reflex</a>, some rights reserved.</address>
+
+<script type="text/javascript" src="/common/scripts/access.js"></script>
+<noscript>
+	<p class="AccessLog"><img src="/cgi-bin/access/report.cgi?dir=default&amp;pix=0x0&amp;ref=unknown" width="1" height="1" alt="" title="AccessLog" /></p>
+</noscript>
+
+
+</body>
+</html>

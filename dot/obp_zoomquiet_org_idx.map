@@ -1,0 +1,19 @@
+<map id="obp_zoomquiet_org_idx" name="obp_zoomquiet_org_idx">
+<area shape="poly" href="http://zoomquiet.org" title="zoomquiet.org" alt="" coords="395,349 390,343 377,337 357,333 332,330 304,329 276,330 251,333 231,337 218,343 213,349 218,356 231,362 251,366 276,369 304,370 332,369 357,366 377,362 390,356"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/" title="OBP\n~OpenBookProjects\n开放图书计划" alt="" coords="371,224,539,291"/>
+<area shape="rect" href="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot" title="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!" alt="" coords="153,395,455,461"/>
+<area shape="poly" href="mailto:zoomquiet+sns@gmail.com?subject=obp.zoomquiet.org mapping feedback" title="电俺" alt="" coords="491,349 490,343 484,337 476,333 466,330 455,329 443,330 433,333 425,337 420,343 418,349 420,356 425,362 433,366 443,369 455,370 466,369 476,366 484,362 490,356"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="CPyUG\n~ChinesePythonUserGroup\n~华蟒用户组" alt="" coords="615,395,833,461"/>
+<area shape="rect" href="http://www.zeuux.org" title="ZEUUX.org\n~哲思社区" alt="" coords="489,404,591,452"/>
+<area shape="poly" href="http://zoomquiet.org" title="Zoom.Quiet" alt="" coords="593,146 622,145 646,141 661,136 668,130 665,124 654,117 639,112 620,108 600,105 580,105 560,106 541,110 524,114 511,120 504,127 505,133 516,139 536,143 563,146"/>
+<area shape="poly" href="http://code.google.com/p/openbookproject/wiki/YanWu" title="Yan Wu" alt="" coords="67,146 86,145 103,141 113,136 117,130 115,124 108,117 98,112 85,108 72,105 58,105 44,106 31,110 19,114 10,120 6,127 6,133 14,139 28,143 46,146"/>
+<area shape="poly" href="http://code.google.com/p/openbookproject/wiki/LinLuxiang" title="林路翔" alt="" coords="195,146 213,145 228,141 237,136 241,130 239,124 233,117 223,112 212,108 200,105 188,105 175,106 164,110 153,114 145,120 141,127 142,133 148,139 160,143 177,146"/>
+<area shape="poly" href="http://code.google.com/p/openbookproject/wiki/JeanToe" title="JeanToe" alt="" coords="327,146 347,145 363,141 374,136 378,130 376,124 369,117 358,112 346,108 332,105 318,105 304,106 291,110 279,114 269,120 265,127 265,133 273,139 287,143 306,146"/>
+<area shape="poly" href="http://code.google.com/u/shengyan1985/" title="盛艳" alt="" coords="445,146 459,145 470,141 478,136 480,130 479,124 474,117 467,112 458,108 449,105 439,105 429,106 420,110 412,114 406,120 402,127 403,133 408,139 418,143 431,146"/>
+<area shape="rect" href="/w2py_manual_zh" title="Web2py手册" alt="" coords="255,15,364,44"/>
+<area shape="rect" href="/leo_doc_zh" title="Leo手册\nv4.7" alt="" coords="647,5,724,53"/>
+<area shape="rect" href="/pyblosxom_zh" title="PyBlosxom手册\nv1.5&#45;rc1" alt="" coords="884,5,1015,53"/>
+<area shape="rect" href="/tpipy_zh" title="TPiPy 中文版" alt="" coords="513,15,623,44"/>
+<area shape="rect" href="/pywdwpy" title="蟒样web开发\n基于web.py" alt="" coords="748,5,860,53"/>
+<area shape="rect" href="/sphnix_zh" title="Sphnix手册" alt="" coords="388,15,489,44"/>
+</map>

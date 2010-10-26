@@ -1,0 +1,132 @@
+
+Instruction
+--------------
+
+* Escape               : Toggle Toolbar
+* Arrow Keys           : Move around in slides
+* PageUp/Down          : Jump to previous/next fifth page.
+* Home/End             : Jump to first/last page (not work in Opera)
+* Num keys+Space/Enter : Jump to a specific page
+* '`'                  : Jump to Last viewed page
+* 'P'                  : Full text mode
+* 'S'                  : Change style
+* '[' / ']'            : decrease / increase font size
+* Mouse Left Click     : Next page
+
+Features
+-------------
+
+### Syntax
+
+* Pages separated by h1 or h2, much simpler then before
+* One can also use [Opera Show Format][OSF] as slide source
+* Supports [Markdown][Markdown] and other text-html translator
+  once they generate h1/h2
+* Bookmarklet for translating markdown to TKSLIDE online
+  by one click (only in Firefox, powered by [js-Markdown][jsMarkdown])
+
+[OSF]:        http://my.opera.com/community/dev/operashow/documentation/doc_fileformat.html
+[Markdown]:   http://daringfireball.net/projects/markdown/
+[jsMarkdown]: http://rephrase.net/box/js-markdown/
+
+## #
+
+### Example In XHTML
+
+    <body>
+     <h1>MY First Slide</h1>
+     <p>I am Bond, James Bond</p>
+     <img src="my_photo.jpg" alt="Me"/>
+
+     <h1>Second Slide</h1>
+     <p>Thank you</p>
+    </body>
+
+## #
+### Example In Markdown
+
+    My First Slide
+    ----------------
+
+    I am Bond, James Bond
+    ![Me](my_photo.jpg)
+
+    Second Slide
+    ----------------
+
+    Thank you
+
+
+(* You need off-line Markdown parser if you do not 
+use online translating bookmarklet)
+
+## Features
+
+### Formatting
+
+* Resize image and text by window size (configurable)
+* Auto content spacing and centering (configurable)
+* You can manually adjust font size by [ / ]
+* Fixed but configurable slide width/height ratio
+* Supports math formula by additional module (Powered by ASCIIMathML)
+
+## Minimal Source Code
+
+    <html>
+     <head>
+      <meta http-equiv="Content-type" content="text/html; charset=utf-8;"/>
+      <title>Blank Slide</title>
+      <link rel="stylesheet" type="text/css" media="all" href="user.css"/>
+      <script type="text/javascript" src="slide.js"></script>
+     </head>
+     <body>
+      <!-- Put your Slide source here -->
+     </body>
+    </html>
+
+(Try to use [ / ] when code blocks extend out of the slide)
+
+## Minimal Code with Math
+
+    <html xmlns:mml="http://www.w3.org/1998/Math/MathML">
+     <head>
+      <meta http-equiv="Content-type" content="text/html; charset=utf-8;"/>
+      <object id="mathplayer" 
+       classid="clsid:32F66A20-7614-11D4-BD11-00104BD3F987"></object>
+      <?import namespace="mml" implementation="#mathplayer"?>
+      <title>Blank Slide</title>
+      <link rel="stylesheet" type="text/css" media="all" href="user.css"/>
+      <script type="text/javascript" src="math.js"></script>
+      <script type="text/javascript" src="slide.js"></script>
+     </head>
+     <body>
+      <!-- Put your Slide source here -->
+     </body>
+    </html>
+
+## TKSLIDE Files
+
+To use them, put everything with source file in the same directory.
+
+### Required
+
+* [slide.js][slide.js]   - TKSLIDE kernel(required)
+* [user.css][user.css]   - necessary stylesheet(required)
+
+<br />
+### Optional
+
+* [print.css][print.css]  - Stylesheet(required in printing)
+* [math.js][math.js]    - Translate tex into MathML
+               (required when using Mathematical Formula)
+* [favload.js][favload.js] - online-slide-maker
+               (required when using bookmarklet to generate slides)
+* [m2t.sh][m2t.sh]     - Wrapper of Markdown parser to generate TKSLIDE document
+
+
+[slide.js]: slide.js
+[user.css]: user.css
+[print.css]: print.css
+[math.js]: math.js
+[favload.js]: favload.js
+[m2t.sh]: m2t.sh_

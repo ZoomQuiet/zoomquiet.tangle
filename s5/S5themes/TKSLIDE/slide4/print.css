@@ -1,0 +1,41 @@
+body  { 
+ position:static!important;
+ background:#fff!important;
+ color:#000!important;
+ overflow:visible!important;
+ font-size:20px!important; /* fontSize Ratio 50/1 in 1024x768 screen mode */
+}
+
+#container {
+ position:static!important;
+ display:block!important;
+ overflow:visible!important;
+}
+
+.pager {
+ display:none!important;
+}
+
+.slide {
+ border:1px solid #000;
+ border:none;
+ visibility:visible!important;
+ display:block!important;
+ position:static!important;
+ width:26.0cm!important;
+ height:auto!important;
+ margin:0!important;
+ background:#fff!important;
+ page-break-after:always!important;
+}
+
+.ipage {
+ position:static!important;
+ margin:0!important;
+ border:none!important;
+}
+.slide * {
+ visibility:visible!important;
+}
+
+#ctrlpanel,#property,#pagenumber,#indexbox {display:none!important;}

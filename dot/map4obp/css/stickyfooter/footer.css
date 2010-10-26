@@ -1,0 +1,24 @@
+img {
+    border: 0;
+    }
+#mapping {text-align:center;
+    border: 1px solid #eee;
+    }
+
+#powerby { text-align:right; 
+    border: 1px solid #eee;
+    }
+#blueprintbutton { float:left; margin-top:3px; margin-right:24px; vertical-align:middle; 
+    }
+
+/*usage http://www.cssstickyfooter.com/cn/using-sticky-footer-code.html 
+zip hight 150->90px*/
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#main {padding-bottom: 90px;}  /* must be same height as the footer */
+#footer {position: relative;
+	margin-top: -90px; /* negative value of footer height */
+	height: 90px;
+	clear:both;
+	} 
+

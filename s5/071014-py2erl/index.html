@@ -1,0 +1,564 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>think abt. Py 2 Erl </title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+<meta name="generator" content="Bluefish 1.0.7"/>
+<meta name="version" content="S5 1.0" />
+<meta name="presdate" content="20041007" />
+<meta name="author" content="Zoom.Quiet"/>
+<meta name="company" content="Complex Spiral Consulting" />
+<link rel="stylesheet" href="ui/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/opera.css" type="text/css" media="projection" id="operaFix" />
+<link rel="stylesheet" href="ui/print.css" type="text/css" media="print" id="slidePrint" />
+
+<script src="ui/slides.js" type="text/javascript"></script>
+<!-- embedded styles -->
+<style type="text/css" media="all">
+/* The esp. Effect support */
+ul#largerwd{
+    font-size: 200%; 
+}
+h2#largerwd {
+    width:100%;
+    font-size: 600%; 
+    text-align: center;
+    color: #fff;
+    margin: 50px 0 0 0; padding: 0;
+    }
+
+</style>
+
+
+</head>
+<body>
+
+<div class="layout">
+
+<div id="currentSlide"></div>
+<div id="header"></div>
+<div id="footer">
+<table>
+<tr>
+<td><a target="_blank"  href="http://wiki.woodpecker.org.cn/moin/CPUG">
+CPyUG</a> 
+</td>
+<td rowspan="2">
+<a  target="_blank" style="background-color:;" href="http://cn.creativecommons.org/index.php/licenses/licenses_exp">
+<img src="img/by-24.gif"/>
+<img src="img/nc-24.gif"/>
+<img src="img/sa-24.gif"/>
+</a>
+v0.9.2 071013
+<br/>
+推荐使用<a  target="_blank" 
+href="http://www.mozilla.org.cn">FireFox</a>获取最佳浏览体验!
+</td>
+</tr>
+<tr>
+<td>
+<a  target="_blank" href="http://zoomquiet.org">
+Zoom.Quiet
+</a>
+</td>
+
+</tr>
+</table>
+
+<div id="controls"></div>
+</div>
+
+</div>
+
+<div class="presentation">
+<div class="slide" id="slide0">
+<h1>Py 2 Erl</h1>
+<h3>Zom.Quiet</h3>
+</div>
+<div class="slide">
+<h1> 文档版本 </h1>
+<ul>
+<li>版本历史::
+    <ul>
+    <li>v0.9.2 071013 完善思考路径，补充刚刚了解的技术理解
+    </li>
+    <li>v0.9.1 071012 补充诘问论述
+    </li>
+    <li>v0.9 071011 发现新内容！
+    </li>
+    <li>v0.8 071010 完善主体内容
+    </li>
+    <li>v0.7 071009 创建,调节模板CSS
+    </li>
+    </ul>
+</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">我是Pythoner</h2>    
+</div>
+
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Python <br/>之妙</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Pythonic</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">垂涎<br/>Erlang</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">迸发响应</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">天然<br/>分布式</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">热部署</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">结合!<br/>何如?</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Py<->Erl <br/><b>?</b> </h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">困难!</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">OOP<br/>vs FP</h2>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">名称空间<br/>vs消息</h2>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Erl->Py<br/><b>?</b> </h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Socket?</h2>    
+</div>
+
+<div class="slide">
+<h1>Erl Srv.</h1>
+<h3>声明</h3>
+<pre>
+-module(eserver).
+-export([startd/0, start/0,start/1,process/1]).
+-define(defPort,2000).
+startd() ->
+    register(eserverp, spawn(?MODULE, start, [])).   
+start() -> start(?defPort).
+start(Port) ->
+    case gen_tcp:listen(Port, [binary, {packet, 0}, {active, false}]) of
+        {ok, LSock}  -> server_loop(LSock);
+        {error, Reason} -> exit({Port,Reason})
+    end.
+...
+</pre>    
+</div>
+
+<div class="slide">
+<h1>Erl Srv..</h1>
+<h3>main loop</h3>
+<pre>
+%% main server loop - wait for next connection, spawn child to process it
+server_loop(LSock) ->
+    case gen_tcp:accept(LSock) of
+        {ok, Sock}        ->
+            spawn(?MODULE,process,[Sock]),
+            server_loop(LSock);
+        {error, Reason}        ->
+            exit({accept,Reason})
+    end.
+...
+</pre>
+</div>
+
+<div class="slide">
+<h1>Erl Srv....</h1>
+<h3>连接处理</h3>
+<pre>
+%% process current connection
+process(Sock) ->
+    Req = do_recv(Sock),
+    Resp = "hello world",
+    do_send(Sock,Resp),
+    gen_tcp:close(Sock).
+%% send a line of text to the socket
+do_send(Sock,Msg) ->
+    case gen_tcp:send(Sock, Msg) of
+        ok                -> ok;
+        {error, Reason}        -> exit(Reason)
+    end.
+...
+</pre>
+</div>
+
+<div class="slide">
+<h1>Erl Srv.....</h1>
+<h3>请求响应</h3>
+<pre>
+%% receive data from the socket
+do_recv(Sock) ->
+    case gen_tcp:recv(Sock, 0) of
+        {ok, Bin}        -> binary_to_list(Bin);
+        {error, closed}        -> exit(closed);
+        {error, Reason}        -> exit(Reason)
+    end.
+</pre>
+</div>
+
+<div class="slide">
+<h1>Py Client</h1>
+<h3>简要客户端</h3>
+<pre>
+import socket
+HOST = 'localhost' # The remote host
+PORT = 6889  # The same port as used by the server
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((HOST, PORT))
+s.send('Hello, world')
+data = s.recv(1024)
+s.close()
+print 'Received', repr(data)
+</pre>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">中间文件?</h2>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">XML-RPC?</h2>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">erst-> <br/> port?</h2>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">婆烦！</h2>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Py->Erl <br/><b>?</b> </h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">线程-><br/>进程</h2>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">勉强!</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd"><a href="http://www.python.net/crew/gandalf/PyErlang/">PyErlang</a> <br/> 已死</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">面向线程</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">增强！</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Stackless <br/> Python</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">惊喜!</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Py+Erl =<br/><a href="http://sourceforge.net/projects/candygram/">Candygram</a></h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">面向消息</h2>    
+</div>
+
+<div class="slide">
+<h1>Candygram e.g.</h1>
+<pre>
+import candygram as cg
+class Thread:
+    ...
+# Create new thread.
+counter = cg.spawn(Thread().run)
+response = cg.Receiver()
+response.addHandler((counter, int), lambda msg: msg[1], cg.Message)
+# Tell thread to increment twice.
+counter.send('increment')
+counter.send('increment')
+# Request thread's current value.
+counter.send((cg.self(), 'value'))
+# Print the response
+print response.receive()
+# Tell thread to increment one more time.
+counter.send('increment')
+counter.send((cg.self(), 'value'))
+print response.receive()
+counter.send('stop')
+</pre>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Py仿<br/>Erlang</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Jython</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">线程 <br/>(+__+)</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Py2Erl<br/>图什么</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">for<br/>并发</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">for<br/>分布计算</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">for<br/>热部署!</h2>    
+</div>
+
+<div class="slide">
+<h1>自问</h1>
+<ul id="largerwd">
+<li>Py 和 Erl 都N强大
+    </li>
+<li>但是结合?!:
+    <ul>
+    <li>要如何辨别合适的情景?
+        </li>
+    <li>要如何处理互眹互通?
+        </li>
+    <li>要如何发挥双方特点?
+        </li>
+    <li>要如何....
+        </li>
+    </ul>
+    </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Python<br/>擅长...</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">I/O</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">事务逻辑</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Erlang<br/>特长...</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Py,Erl<br/>互补场景</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">要求容错</h2>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">高度<br/>可扩展</h2>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">嗯嗯...</h2>
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">游戏!<br/>网络的</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">短信增值业务</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">SocialNet<br/>Service</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Python<br/>主外</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">Erlang<br/>主内</h2>    
+</div>
+
+<div class="slide">
+<h1></h1>
+<h2 id="largerwd">融合<br/>何如?!</h2>    
+</div>
+
+<div class="slide">
+<h1> Thanx ... 提问时间</h1>
+<ul id="largerwd">
+<li><a href="mailto:zoomquiet+sns@gmail.cn">
+        Zoom.Quiet ＠ gmail.com</a>
+    </li>
+<li>
+    <ul>        
+	<li> 一切资料来自互联网
+	<li> 所有想法来自日常学习工作
+	<li> 所有体悟来自各种沟通分享
+	<li> 所有知识来自网络分享印证
+	<li> 所有经验来自个人失败经历……        
+    </ul>
+</li>
+</ul>
+
+<div class="handout">
+[any material that should appear in print but not on the slide]
+</div>
+
+</div>
+
+
+<div class="slide">
+<h1> 参考 </h1>
+
+<ul>
+<li>网络文章::
+    <ul>
+    <li><a href="http://www.cublog.cn/u/4614/showart.php?id=187574">Python如何获得Erlang的威力?</a>
+    </li>
+    <li><a href="http://darrint.wordpress.com/2006/11/26/erlang-in-python/">Erlang in Python</a>
+    </li>
+    <li><a href="http://erlang.lupaworld.cn/forum/viewthread.php?tid=13">
+    用Erlang实现一个简单的Web服务器</a><sup>die</sup>
+    </li>
+    <li><a href="http://www.agiletao.com/simple/index.php?t213.html">
+    泼点Erlang的冷水</a>
+    </li>
+    <li><a href="http://blog.absolute2.cn/posts/43">
+    Python中的Erlang－Candygram</a>
+    </li>
+    
+    <li>...
+    </li>
+    
+    </ul>
+</li>
+
+</ul>
+
+</div>
+
+<div class="slide">
+<h1> 关于... </h1>
+<ul>
+<li>幻灯展示: 
+    <ul>
+    <li><a href="http://www.meyerweb.com/eric/tools/s5/">
+    <img src="img/S5icon.GIF" />
+    S<sup>5</sup></a> : A Simple Standards-Based Slide Show System
+    <li> 纯HTML 幻灯效果工具 <a href="s5-intro.html">本地介绍页面</a>
+    </ul>
+    </li>
+<li>编写环境: 
+    <span style="float:right;"><img src="img/snap-leoWrite.png" />
+    </span>
+    <ul>
+    <li><a href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment">
+    <img src="img/LeoProse.gif" />Leo</a> : 
+    <br/>文学编程环境
+    <li> 纯Python 编写的通用编辑环境
+    
+    
+    </ul>
+    </li>
+    
+</ul>
+</div>
+
+
+</div>
+
+</body>
+</html>

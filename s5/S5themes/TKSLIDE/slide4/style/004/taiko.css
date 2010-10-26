@@ -1,0 +1,17 @@
+body {background:#000;}
+.slide {
+ background:url(bktaiko.png) left top #fff;
+ color:#000;
+}
+
+.ipage {
+ width:100%;height:100%;margin:0;
+ border:1px solid #000;
+ background:url(taiko.gif) right bottom no-repeat;
+}
+
+h1,h2,h3 {color:#a97422;}
+h1 {background:url(soul.gif) center center no-repeat;}
+a { color:#c95; }
+
+#pagenumber {color:#000;}

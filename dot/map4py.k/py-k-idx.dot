@@ -1,0 +1,100 @@
+digraph mainmap {
+/*图片生成命令:: need:: apt-get install graphviz-cairo
+$ dot py-k-idx.dot -Tpng -o py-k-idx.png -Tcmapx -o py-k-idx.map
+        style=filled,
+        fillcolor=lightyellow,
+        fontname="VeraSansYuanTi-Regular.ttf",        
+        WenQuanYi Zen Hei
+        ratio=compress,fill size="12,9",
+*/
+    graph [label="py.kingsoft.net 网站索引图谱 {by Zoom.Quiet}",
+        labeljust="r",labelloc="b",
+        fontsize=13.0,
+        fontname="WenQuanYi Zen Hei",
+        ranksep=0.2,center=1,ratio=compress,
+        rankdir=TB,
+        ];
+    node[fontsize=10,height=0.1,
+        style=filled,fillcolor=lightyellow,
+        color=gray30,
+        shape=component,
+        ];
+    /*dir=both,shape=plaintext shape=folder*/
+    edge [fontsize=9.0,
+        fontcolor=gray25,
+        color=gray30,
+		arrowsize=0.5,arrowhead=vee,arrowtail=none,
+        ];
+
+    /*服务元素
+    kspeg    [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0">  
+            <TR><TD><IMG src="res/kspeg-logo-s5-72.png"/></TD></TR>
+            </TABLE>>,URL="http://www.zoomquiet.org/share/s5/080524-easy-spe/"
+            ,shape=box3d,fillcolor=white];
+                pytut25  [label="Py手册中文版\nv2.5",fillcolor=gray80,URL="/obp/pytut/25/"];
+    */
+    pyk      [label="py.kingsoft.net\n金山Pythonic分享站",shape=box3d,];
+
+    author   [label="有",shape=plaintext];
+    include  [label="含",shape=plaintext];
+    
+    LJ       [label="richard.liao",shape=egg,fillcolor=none,
+        URL="http://trac-hacks.org/wiki/richard"];
+    ZQ       [label="Zoom.Quiet",shape=egg,fillcolor=none,
+        URL="http://zoomquiet.org"];
+        zqblog   [label="pythonic livin\nby PyBlosxom",URL="http://blog.zoomquiet.org/"];
+        zqscrap  [label="ScrapBook\n网页收集分享",shape=tab,URL="#"];
+            zqfloss   [label="FLOSS",shape=tab,URL="/zq/scrap/floss/"];
+            zqskm    [label="SKM",shape=tab,URL="/zq/scrap/skm/"];
+    blog     [label="Blogging",shape=tab,URL="#"];
+    WPWIKI   [label="啄木鸟维基\n只读镜像",fillcolor=gray80,URL="#"];
+    
+    DEMO     [label="作品集锦",shape=tab,URL="#"];
+        ktrac    [label="KTRAC",URL="http://trac-hacks.org/wiki/KTRAC"];
+        TEPs     [label="TEPs\n~Trac改进集",color=tomato,
+            URL="/ktrac/"];
+        MSG      [label="MSG\n消息服务精灵",fillcolor=gray80,URL="#"];
+
+    KM      [label="资料分享",shape=tab,URL="#"];
+    OBP      [label="O.B.P",shape=tab,URL="http://code.google.com/p/openbookproject/"];
+    pydocs   [label="Python官方文档",shape=tab,URL="/obp/pydocs/"];
+        pydocs26 [label="Py文档v2.6\n中文版",fillcolor=gray80,URL="/obp/pydocs/26/"];
+        pydocs3k [label="Py文档v3.x\n中文版",fillcolor=gray80,URL="/obp/pydocs/3000/"];
+        pytut    [label="Python Tutorial\nPy教程",shape=tab,URL="#"];
+            pytut26  [label="Py教程v2.6\n中文版",fillcolor=gray80,URL="/obp/pydocs/26/tutorial/"];
+            pytut3k  [label="Py教程v3.x\n中文版",fillcolor=gray80,URL="/obp/pydocs/3000/tutorial/"];
+    tbook   [label="技术图书",shape=tab,URL="#"];
+        web2py   [label="web2py手册中文版",URL="/obp/web2py/"];
+        tpip     [label="TPiP中文版",fillcolor=gray80,URL="/obp/tpip_zh/"];
+        leodoc   [label="Leo手册中文版",fillcolor=gray80,URL="http://obp.stdyun.com/leo_doc_zh/"];
+
+    /*服务关系
+    DEMO->TB;
+    DEMO->AMB;
+    */
+    URL="http://py.kingsoft.net/";
+    
+    pyk->include    [label="发布",];
+    include->DEMO;
+        DEMO->ktrac->TEPs;
+        DEMO->MSG   [label="准备ing...",];
+    include->KM;
+        KM->OBP    [label="night build",];
+            OBP->pydocs  [label="筹备ing...",];
+                pydocs->pydocs26; pydocs->pydocs3k;
+                pytut->pytut26; pytut->pytut3k;
+                    pydocs26->pytut26; pydocs3k->pytut3k;
+            OBP->tbook [label="筹备ing...",];
+                tbook->web2py;
+                tbook->tpip;
+                tbook->leodoc;
+        KM->blog->zqblog;
+        KM->WPWIKI [label="筹备ing...",];
+
+    pyk->author      [label="运维",];
+    author->LJ;
+    author->ZQ;
+        ZQ->zqblog  [label="分享",];
+        ZQ->zqscrap->zqfloss; zqscrap->zqskm;
+ }
+

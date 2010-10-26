@@ -1,0 +1,10 @@
+body {background:#000;}
+.slide {
+ background:url(bkgreen.png) right top repeat-y #003700;
+ color:#fff;
+}
+
+h1,h2,h3 {color:#ff9;}
+a { color:#bfe; }
+
+#pagenumber {color:#fff;}

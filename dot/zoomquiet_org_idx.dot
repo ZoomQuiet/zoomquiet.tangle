@@ -1,0 +1,121 @@
+digraph zoomquiet_org_idx {
+    /*生成命令:
+$ dot -Tjpeg zoomquiet_org_idx.dot -o zoomquiet_org_idx.jpg -Tcmapx -o zoomquiet_org_idx.map
+$ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.map
+    全局设定
+    */
+    graph [label=""
+        ,fontsize=12.0,fontcolor=snow
+        ,labeljust="l",labelloc="b",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+    ZQ [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="4">  
+            <TR><TD><IMG src="zoomquiet-dot-10901_h85.png"/></TD></TR></TABLE>>
+            ,URL="http://zoomquiet.org"
+            ];
+    title [label="zoomquiet.org资源图谱\n{gen. by Graphviz}\nTime is unimprtant,only life important!"
+        URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/zoomquiet_org_idx.dot"];
+
+    mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="mailto:zoomquiet+sns@gmail.com?subject=zoomquiet.org mapping feedback"];
+
+    share [label="扯ing",shape=folder];
+        wiki [label="维基"
+            ,URL="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"];
+        douban [label="豆瓣"
+            ,URL="http://www.douban.com/group/zoomquiet/"];
+        haokanbu [label="好看"
+            ,URL="http://zoomq.haokanbu.com/"];
+        haokanbu [label="Flickr"
+            ,URL="http://www.flickr.com/photos/zoomq/"];
+
+        bloging [label="bloging",shape=tab
+            ,URL="#"];
+            gb [label="@blogger"
+                ,URL="http://zoomquiet.blogspot.com/"];
+            lj [label="@livejournal"
+                ,URL="http://zoomq.livejournal.com/"];
+            pyb [label="PyBlosxom"
+                ,URL="http://blog.zoomquiet.org/pyblosxom/"];
+
+        sb [label="ScrapBook",shape=tab
+            ,URL="https://addons.mozilla.org/zh-CN/firefox/addon/427/"];
+            oss [label="FLOSS"
+                ,URL="http://floss.zoomquiet.org/"];
+            skm [label="SKM"
+                ,URL="http://skm.zoomquiet.org/"];
+    doing [label="整ing",shape=folder
+        ,URL="http://code.google.com/u/Zoom.Quiet/"];
+        OBP [label="OBP",shape=box3d
+            ,URL="http://zoomquiet.org/obp/"];
+        PiC [label="蟒营",shape=box3d
+            ,URL="http://code.google.com/p/kcpycamp/"];
+        trac [label="KTRAC",shape=box3d
+            ,URL="http://py.kingsoft.net/ktrac"];
+        WK [label="WeKnow",shape=box3d,style="dashed",height=0.5
+            ,URL="http://wiki.woodpecker.org.cn/moin/WeKnow"];
+    learn [label="掺ing",shape=folder];
+        cpug [label="CPyUG"
+            ,URL="http://wiki.woodpecker.org.cn/moin/CPUG"];
+            zpug [label="ZPyUG"
+                ,URL="http://wiki.woodpecker.org.cn/moin/ZPyUG"];
+        tparty [label="TechParty"
+            ,URL="http://techparty.org/"];
+
+        zeuux [label="哲思"
+            ,URL="http://www.zeuux.org/community/zeuux-activist.cn.html"];
+        ecug [label="ECUG"
+            ,URL="http://code.google.com/p/ecug/wiki/FrontPage"];
+            erlb [label="恶狼战役"
+                ,URL="http://code.google.com/p/erlbattle/"];
+        sll [label="教育大发现"
+            ,URL="http://code.google.com/p/sociallearnlab/"];
+
+    /*
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    */
+    ZQ->{share learn doing };
+    share->{sb douban haokanbu};
+    share->wiki [style="setlinewidth(2)"];
+
+    share->bloging [style="setlinewidth(1)"];
+        bloging->pyb [style="setlinewidth(3)"];
+        bloging->lj [style="dotted"];
+        bloging->gb [label="和谐ing",style="dotted"];
+
+        sb->{oss skm} [style="setlinewidth(1)"];
+
+    doing->trac;
+        doing->WK [label="构思ing"];
+        doing->{PiC OBP}[style="setlinewidth(3)"];
+
+    learn->{ecug zeuux};
+        learn->cpug [style="setlinewidth(2)"];
+            cpug->zpug [style="setlinewidth(1)"];
+        learn->tparty [style="setlinewidth(1)"];
+        learn->sll [style="setlinewidth(1)"];
+        ecug->erlb;
+
+
+    edge [style=invis];
+    title->share;
+    mailme->learn;
+
+
+}

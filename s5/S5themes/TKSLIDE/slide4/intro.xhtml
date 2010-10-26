@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="big5"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://www.w3.org/2000/08/w3c-synd/#">
+ <meta http-equiv="Content-type" content="text/html; charset=big5;"/>
+ <link rel="stylesheet" type="text/css" media="all" href="user.css"/>
+ <link rel="stylesheet" type="text/css" media="all" href="style/rose/main.css"/>
+ <link rel="stylesheet" type="text/css" media="print" href="print.css"/>
+ <title></title>
+ <script type="text/javascript" src="slide.js"></script>
+</head>
+<body>
+<h2>Instruction</h2>
+
+<ul>
+<li>Escape               : Toggle Toolbar</li>
+<li>Arrow Keys           : Move around in slides</li>
+<li>PageUp/Down          : Jump to previous/next fifth page.</li>
+<li>Home/End             : Jump to first/last page (not work in Opera)</li>
+<li>Num keys+Space/Enter : Jump to a specific page</li>
+<li>'`'                  : Jump to Last viewed page</li>
+<li>'P'                  : Full text mode</li>
+<li>'S'                  : Change style</li>
+<li>'[' / ']'            : decrease / increase font size</li>
+<li>Mouse Left Click     : Next page</li>
+</ul>
+
+<h2>Features</h2>
+
+<h3>Syntax</h3>
+
+<ul>
+<li>Pages separated by h1 or h2, much simpler then before</li>
+<li>One can also use <a href="http://my.opera.com/community/dev/operashow/documentation/doc_fileformat.html">Opera Show Format</a> as slide source</li>
+<li>Supports <a href="http://daringfireball.net/projects/markdown/">Markdown</a> and other text-html translator
+once they generate h1/h2</li>
+<li>Bookmarklet for translating markdown to TKSLIDE online
+by one click (only in Firefox, powered by <a href="http://rephrase.net/box/js-markdown/">js-Markdown</a>)</li>
+</ul>
+
+<h2>#</h2>
+
+<h3>Example In XHTML</h3>
+
+<pre><code>&lt;body&gt;
+ &lt;h1&gt;MY First Slide&lt;/h1&gt;
+ &lt;p&gt;I am Bond, James Bond&lt;/p&gt;
+ &lt;img src="my_photo.jpg" alt="Me"/&gt;
+
+ &lt;h1&gt;Second Slide&lt;/h1&gt;
+ &lt;p&gt;Thank you&lt;/p&gt;
+&lt;/body&gt;
+</code></pre>
+
+<h2>#</h2>
+
+<h3>Example In Markdown</h3>
+
+<pre><code>My First Slide
+----------------
+
+I am Bond, James Bond
+![Me](my_photo.jpg)
+
+Second Slide
+----------------
+
+Thank you
+</code></pre>
+
+<p>(* You need off-line Markdown parser if you do not 
+use online translating bookmarklet)</p>
+
+<h2>Features</h2>
+
+<h3>Formatting</h3>
+
+<ul>
+<li>Resize image and text by window size (configurable)</li>
+<li>Auto content spacing and centering (configurable)</li>
+<li>You can manually adjust font size by - / =</li>
+<li>Fixed but configurable slide width/height ratio</li>
+<li>Supports math formula by additional module (Powered by ASCIIMathML)</li>
+</ul>
+
+<h2>Minimal Source Code</h2>
+
+<pre><code>&lt;html&gt;
+ &lt;head&gt;
+  &lt;meta http-equiv="Content-type" content="text/html; charset=utf-8;"/&gt;
+  &lt;title&gt;Blank Slide&lt;/title&gt;
+  &lt;link rel="stylesheet" type="text/css" media="all" href="user.css"/&gt;
+  &lt;script type="text/javascript" src="slide.js"&gt;&lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;!-- Put your Slide source here --&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<p>(Try to use [ / ] when code blocks extend out of the slide)</p>
+
+<h2>Minimal Code with Math</h2>
+
+<pre><code>&lt;html xmlns:mml="http://www.w3.org/1998/Math/MathML"&gt;
+ &lt;head&gt;
+  &lt;meta http-equiv="Content-type" content="text/html; charset=utf-8;"/&gt;
+  &lt;object id="mathplayer" 
+   classid="clsid:32F66A20-7614-11D4-BD11-00104BD3F987"&gt;&lt;/object&gt;
+  &lt;?import namespace="mml" implementation="#mathplayer"?&gt;
+  &lt;title&gt;Blank Slide&lt;/title&gt;
+  &lt;link rel="stylesheet" type="text/css" media="all" href="user.css"/&gt;
+  &lt;script type="text/javascript" src="math.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript" src="slide.js"&gt;&lt;/script&gt;
+ &lt;/head&gt;
+ &lt;body&gt;
+  &lt;!-- Put your Slide source here --&gt;
+ &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h2>TKSLIDE Files</h2>
+
+<p>To use them, put everything with source file in the same directory.</p>
+
+<h3>Required</h3>
+
+<ul>
+<li><a href="slide.js">slide.js</a>   - TKSLIDE kernel(required)</li>
+<li><a href="user.css">user.css</a>   - necessary stylesheet(required)</li>
+</ul>
+
+<p><br /></p>
+
+<h3>Optional</h3>
+
+<ul>
+<li><a href="print.css">print.css</a>  - Stylesheet(required in printing)</li>
+<li><a href="math.js">math.js</a>    - Translate tex into MathML
+           (required when using Mathematical Formula)</li>
+<li><a href="favload.js">favload.js</a> - online-slide-maker
+           (required when using bookmarklet to generate slides)</li>
+<li><a href="m2t.sh_">m2t.sh</a>     - Wrapper of Markdown parser to generate TKSLIDE document</li>
+</ul>
+
+</body>
+</html>

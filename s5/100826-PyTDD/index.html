@@ -1,0 +1,2801 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Pythonic TDD (powered by S5 v1.1)</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+<meta name="editor" content="Leo 4.7.1 final"/>
+<!-- metadata -->
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.1" />
+<meta name="presdate" content="20070322" />
+<meta name="author" content="Eric A. Meyer" />
+<meta name="company" content="Complex Spiral Consulting" />
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+
+<!-- embedded styles -->
+<style type="text/css" media="all">
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for default*/
+img {border:0px;}    
+td { font-size: 80%; }
+H1 div#sup{
+    position :  absolute; top:0;right:3%;
+    margin-top: -20px;
+    font-size: 16px; font-style : italic ;
+    color: #385775;
+}
+ul#resource{
+    font-size: 80%; font-style : italic ;font-weight : lighter;
+    line-height : 70%;
+    }
+
+li sup{display :  inline;
+    font-size: 80%; font-style : italic ;}
+
+li sub{display :  inline;
+    font-size: 80%; font-style : italic ;
+    color: #eeeeee; }
+
+sup.tiny{display :  inline;
+    font-size: 0.4em; font-style : italic ;
+    color: #eeeeee; }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for esp.*/
+b{
+    font-size: 115%;
+    font-weight : lighter;
+}
+b.alert{
+    color:#F5003D;
+}
+b.focus{
+    color:#FFCC33;
+}
+
+snap.logo {
+    background-color:#fff;
+    padding: 10px 5px 2px 5px;
+}
+
+.said {font-size: 90%;  color: #bcbcbc; text-decoration :  line-through;}
+.next {font-size: 105%; color: #F8B73E; }
+.wait { color: #385775; font-style : italic ;}
+
+.incremental, .incremental *, .incremental *:after {color: #385775; visibility: visible;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for slide*/
+.slide .current {color: #F8B73E;}
+.slide H1{color:#B7B7DC;}
+
+DIV#slide0 h3{
+    font-size: 2em;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+
+}
+
+#slide0 h1 {
+    position: static; margin: 1em 0 1.33em; padding: 0;
+    white-space: normal;
+    background: transparent;
+    margin: 0 auto; width: 90%; height: 281px;
+    text-align: center;
+    font-size: 4em;
+    color: #fff;
+    font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    }
+
+/* The esp. Effect support 
+    letter-spacing:-20px;
+    width:100%;
+    border : 1px dotter #fff;
+takahashi ~ 高桥流 大字演示
+*/
+#takahashi0 {
+    font-size: 120%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    line-height : 100%;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi1 {
+    font-size: 150%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi2 {
+    font-size: 200%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi3 {
+    font-size: 300%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 10px 0 0 0;
+    padding: 0;
+    }
+#takahashi4 {
+    font-size: 400%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 20px 0 0 0;
+    padding: 0;
+    }
+#takahashi5 {
+    font-size: 500%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 30px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi {
+    font-size: 600%;font-weight :  bolder;
+    line-height : 100%;
+    text-align: center; 
+    word-spacing: 0px;letter-spacing: -4px;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi7 {
+    font-size: 700%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+#takahashi8 {
+    font-size: 800%;font-weight :  bolder;
+    line-height : 90%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+#takahashi9 {
+    font-size: 1000%;font-weight :  bolder;
+    line-height : 80%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi10 {
+    font-size: 1200%;font-weight :  bolder;
+    line-height : 80%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for UL*/
+ul#takahashi{
+    font-size: 180%;
+    letter-spacing:-2px;
+}
+ul#takahashi0{
+    font-size: 130%;
+    letter-spacing:-2px;
+    text-align: left;
+}
+
+ul.tinylist{
+    font-size: 80%;
+    letter-spacing:-2px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for PRE 
+font-size: 90%;line-height : 105%;
+pre.takahashi{
+    font-size: 150%;
+}
+*/
+.syntaxhighlighter table tbody{
+    font-size: 84%;
+}
+div.highlightcode{
+    padding: 0; 
+    margin: -50px 0 0 0;
+}
+.slide pre#code0 {
+    font-size: 72%;line-height : 105%;
+    font-family: "Courier New",Georgia,helvetica, sans-serif;  
+    background-color: #323232;
+    color:#9AEF3F;    
+    border-left: 2px solid #AEBDCC;
+    padding: 0.5em; margin: 0.25em 0 0.5em 0.5em;
+    white-space: pre;
+}
+.slide pre#code1 {
+    font-size: 90%;line-height : 105%;
+    font-family: "Courier New",Georgia,helvetica, sans-serif;  
+    background-color: #323232;
+    color:#9AEF3F;    
+    border-left: 2px solid #AEBDCC;
+    padding: 0.5em; margin: 0.25em 0 0.5em 0.5em;
+    white-space: pre;
+}
+</style>
+
+<!-- Include *at least* the core style and default theme 
+<link type="text/css" rel="Stylesheet" href="ui/syntaxhighlighter/styles/shThemeRDark.css"/>
+<link type="text/css" rel="Stylesheet" href="ui/syntaxhighlighter/styles/shThemeEmacs.css"/>
+<link type="text/css" rel="Stylesheet" href="ui/syntaxhighlighter/styles/shThemeDefault.css"/>
+-->    
+<link href="ui/syntaxhighlighter/styles/shCore.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="Stylesheet" href="ui/syntaxhighlighter/styles/shThemeFadeToGrey.css"/>
+<!-- S5 JS -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header"></div>
+
+
+<div id="footer">
+<table>
+<tr>
+<td><a target="_blank"  href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">
+Zoom.Quiet</a>
+<br/>
+v10.8.26
+</td>
+<td rowspan="2">
+<a  target="_blank" style="background-color:;" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">
+<img src="i/icon/cc-byncnd-88x31.png"/>
+</a>
+强烈推荐使用 <a  target="_blank"
+href="http://www.mozilla.org.cn">FireFox</a>获得最佳体验!
+</td>
+</tr>
+</table>
+
+    <div id="controls"></div>
+    </div>
+
+
+
+</div><!-- class="layout"-->
+<div class="presentation">
+
+<div class="slide" id="slide0">
+
+<h1>
+<a href="http://en.wikipedia.org/wiki/Test-driven_development">
+TDD
+</a>@
+<snap class="logo"><img src="i/logo/Python_300px-logo.svg.png"/></snap>
+</h1>
+<h3>
+~ 粗谈 Pythonic 测试
+</h3>
+
+<br/>
+<h4><a href="mailto:zhouqi@kingsoft.com">Zoom.Quiet</a>
+
+</h4>
+
+<br/>
+
+</div>
+
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+是也乎...
+<div id="sup">
+
+</div>
+</h1>
+<br/>
+<center>
+<a href="http://zoomquiet.org">
+<img src="i/logo/50ren-ZoomQuiet-s5-v800.png"/>
+</a>
+<br/>
+<br/>
+<br/>
+幻灯地址:<a href="http://py.kingsoft.net/s5/100826-PyTDD/">http://py.kingsoft.net/s5/100826-PyTDD/
+</a>
+
+</center>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<div class="slide">
+<h1> S5 </h1>
+
+<ul>
+<li>幻灯展示: 
+    <ul>
+    <li><a href="http://www.meyerweb.com/eric/tools/s5/">
+    <img src="pix/S5icon.GIF" />
+    S<sup>5</sup></a> : A <b class="alert">S</b>imple <b class="alert">S</b>tandards-Based <b class="alert">S</b>lide <b class="alert">S</b>how <b class="alert">S</b>ystem
+    <li> 纯HTML 幻灯效果工具 <a href="s5.html">本地介绍页面</a>
+    </ul>
+    </li>
+<li>编写环境: 
+    <span style="float:right;"><img src="pix/2010-01-18-230729_605x421_leo.png" />
+    </span>
+    <ul>
+    <li><a href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment">
+    <img src="pix/LeoProse.gif" />Leo</a> : 
+
+
+    <br/>文学编程环境
+    <li> 纯Python 编写的通用编辑环境
+
+
+    </ul>
+    </li>
+
+</ul>
+</div>
+
+<div class="slide">
+<h1> 免责聲明
+<div id="sup">
+山寨的，非业界公认的，个人体验为基础!
+</div>
+</h1>
+
+<center>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">
+        <img src="i/id/zoomquiet_1-1_outline.png">
+    </a>伙同所有同好行者总结而得
+    <br/><br/>
+    <ul>
+        <li> 一切资料来自网络互动挖掘
+        <li> 一切想法来自日常学习工作
+        <li> 一切体悟来自各种沟通交流
+        <li> 一切知识来自社区分享印证
+        <li> 一切经验来自个人失败体验
+        <br/> ......
+    </ul>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< /7+-2>
+<div id="sup">
+单位时间可以记住的只有7+-2 个
+</div>
+</h1>
+
+<ol class="incremental" id="takahashi2">
+<li>just Test now!
+    </li>
+<li>咋想测试这事儿
+    </li>
+<li>Py相关测试工具
+    </li>
+<li>TDD不是玩笑...
+    </li>
+<li>代码复审比测试靠谱
+    </li>
+</ol>
+
+    <div class="handout">
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< TDD>
+<div id="sup">
+本质->工具->实例->思考
+</div>
+</h1>
+
+<ul class="" id="takahashi2">
+<li class="next"><sup>15'</sup> 测试本质 </li>
+<li class="wait"><sup>10'</sup> Py测试工具 </li>
+<li class="wait"><sup>15'</sup> 测试的Pythonic </li>
+<li class="wait"><sup>15'</sup> Discussing </li>
+</ul>
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+Test-driven development:by example
+</h1>
+    <center>
+<a href="http://book.douban.com/subject/1230036/">
+<img src="i/s1441607-tdd.jpg"/>
+</a>
+
+    </center>
+
+    <div class="handout">
+<pre id="code" class="brush: js; highlight: [2, ]">
+$(document).ready(function() {
+	$("img[class='attachment']").each(function(){
+	    $(this).attr("usemap","#"+$(this).attr("alt"));
+    });
+});
+</pre>
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+
+<a href="http://www.agiledata.org/essays/tdd.html">
+< TDD流程>
+</a>
+    <div id="sup">
+    </div>
+</h1>
+
+<h2  id="takahashi5">
+<img src="i/tddstates.jpg"/>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+起意...
+    <div id="sup">
+    </div>
+</h1>
+
+<h2  id="takahashi5">
+求素数
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+起意...
+    <div id="sup">
+    创建 primenu.py 
+    </div>
+</h1>
+
+<pre id="code" class="brush: py; highlight: [3,5,11,12]">
+# -*- coding: utf-8 -*-
+'''判定是否素数
+>>> chkPrime(5)
+True
+>>> chkPrime(4)
+False
+'''
+def chkPrime(N):
+    pass
+if __name__ == '__main__':# this way the module can be
+    import doctest
+    doctest.testmod()
+</pre>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+败!先...
+    <div id="sup">
+    </div>
+</h1>
+
+<pre id="code" class="brush: py; highlight: [4,11,19]">
+$ python primenu.py 
+**********************************************************************
+File "primenu.py", line 3, in __main__
+Failed example:
+    chkPrime(5)
+Expected:
+    True
+Got nothing
+**********************************************************************
+File "primenu.py", line 5, in __main__
+Failed example:
+    chkPrime(4)
+Expected:
+    False
+Got nothing
+**********************************************************************
+1 items had failures:
+   2 of   2 in __main__
+***Test Failed*** 2 failures.
+</pre>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://ipython.scipy.org/">
+<img src="i/logo/IPy-transparent-120-flush.png"/>
+</a>
+    <div id="sup">
+    最友好的实验环境 ;-)
+    </div>
+</h1>
+<div class="highlightcode">
+<pre id="code" class="brush: py; highlight: [1,7,8,19,15,25]">
+IPython 0.10 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object'. ?object also works, ?? prints more.
+
+In [1]: %doctest_mode
+*** Pasting of code with ">>>" or "..." has been enabled.
+Exception reporting mode: Plain
+Doctest mode is: ON
+>>> %
+%Exit       %debug        %logstop   %prun      %runlog
+%Pprint     %dhist        %lsmagic   %psearch   %save
+%Quit       %dirs         %macro     %psource   %sc
+%alias      %doctest_mode %magic     %pushd     %store
+%autocall   %ed           %p         %pwd       %sx
+%autoindent %edit         %page      %pycat     %system_verbose
+%automagic  %env          %paste     %quickref  %time
+%bg         %exit         %pdb       %quit      %timeit
+%bookmark   %hist         %pdef      %r         %unalias
+%cd         %history      %pdoc      %rehash    %upgrade
+%clear      %logoff       %pfile     %rehashx   %who
+%color_info %logon        %pinfo     %rep       %who_ls
+%colors     %logstart     %popd      %reset     %whos
+%cpaste     %logstate     %profile   %run       %xmode
+</pre>
+</div>
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://ipython.scipy.org/">
+<img src="i/logo/IPy-transparent-120-flush.png"/>
+</a>
+    <div id="sup">
+    素数是除1和自个儿外都不能整除的数...
+    </div>
+</h1>
+
+<pre id="code" class="brush: py; highlight: [5,7,10,11]">
+>>> N=5
+>>> N%4
+1
+>>> N%5
+0
+>>> range(2,5)
+[2, 3, 4]
+>>> [N%d for d in range(2,N)]
+[1, 2, 1]
+>>> 0 not in [N%d for d in range(2,N)]
+True
+>>> N =4
+>>> 0 not in [N%d for d in range(2,N)]
+False
+</pre>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+完善代码
+    <div id="sup">
+    使用iPython 探查出的成果 ;-)
+    </div>
+</h1>
+
+<pre id="code" class="brush: py; highlight: [9]">
+# -*- coding: utf-8 -*-
+'''判定是否素数
+>>> chkPrime(5)
+True
+>>> chkPrime(4)
+False
+'''
+def chkPrime(N):
+    return 0 not in [N%d for d in range(2,N)]
+if __name__ == '__main__':# this way the module can be
+    import doctest
+    doctest.testmod()
+</pre>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+通过测试!
+    <div id="sup">
+    </div>
+</h1>
+
+<pre id="code" class="brush: py; highlight: [2,7,12,16,19]">
+$ python primenu.py 
+$ python primenu.py -v
+Trying:
+    chkPrime(5)
+Expecting:
+    True
+ok
+Trying:
+    chkPrime(4)
+Expecting:
+    False
+ok
+1 items had no tests:
+    __main__.chkPrime
+1 items passed all tests:
+   2 tests in __main__
+2 tests in 2 items.
+2 passed and 0 failed.
+Test passed.
+</pre>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+需求变更
+    <div id="sup">
+    找出指定范畴中的所有素数!?
+    </div>
+</h1>
+
+<pre id="code" class="brush: py; highlight: [9,14]">
+# -*- coding: utf-8 -*-
+'''判定是否素数
+>>> chkPrime(5)
+True
+>>> chkPrime(4)
+False
+
+#   找出所有素数
+>>> foundPrime(10)
+[2, 3, 5, 7]
+'''
+def foundPrime(N):
+    pass
+def chkPrime(N):
+    return 0 not in [N%d for d in range(2,N)]
+if __name__ == '__main__':# this way the module can be
+    import doctest
+    doctest.testmod()
+</pre>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+当然要败!
+    <div id="sup">
+
+    </div>
+</h1>
+<pre id="code" class="brush: py; highlight: [5,11,12]">
+$ python primenu.py 
+**********************************************************************
+File "primenu.py", line 9, in __main__
+Failed example:
+    foundPrime(10)
+Expected:
+    [2, 3, 5, 7]
+Got nothing
+**********************************************************************
+1 items had failures:
+   1 of   3 in __main__
+***Test Failed*** 1 failures.
+</pre>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://ipython.scipy.org/">
+<img src="i/logo/IPy-transparent-120-flush.png"/>
+</a>
+    <div id="sup">
+    通过就地定义函式进行探测
+    </div>
+</h1>
+
+<pre id="code" class="brush: py; highlight: [1,6,8,9,11]">
+>>> def chkPrime(N):return 0 not in [N%d for d in range(2,N)]
+... 
+>>> N=5
+>>> chkPrime(N)
+True
+>>> [P for P in range(2,N) if chkPrime(P)]
+[2, 3]
+>>> def foundPrime(N):
+...     return [P for P in range(2,N) if chkPrime(P)]
+... 
+>>> foundPrime(5)
+[2, 3]
+>>> foundPrime(10)
+[2, 3, 5, 7]
+</pre>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+增补代码
+    <div id="sup">
+    从iPython 的实验成果直接利用!
+    </div>
+</h1>
+<pre id="code" class="brush: py; highlight: [13]">
+# -*- coding: utf-8 -*-
+'''判定是否素数
+>>> chkPrime(5)
+True
+>>> chkPrime(4)
+False
+
+#   找出所有素数
+>>> foundPrime(10)
+[2, 3, 5, 7]
+'''
+def foundPrime(N):
+    return [P for P in range(2,N) if chkPrime(P)]
+def chkPrime(N):
+    return 0 not in [N%d for d in range(2,N)]
+if __name__ == '__main__':# this way the module can be
+    import doctest
+    doctest.testmod()
+</pre>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+再次成功!
+    <div id="sup">
+    之前的测试确保了原有代码靠谱!
+    </div>
+</h1>
+<div class="highlightcode">
+<pre id="code" class="brush: py; highlight: [2,13,18,24]">
+$ python primenu.py
+$ python primenu.py -v
+Trying:
+    chkPrime(5)
+Expecting:
+    True
+ok
+Trying:
+    chkPrime(4)
+Expecting:
+    False
+ok
+Trying:
+    foundPrime(10)
+Expecting:
+    [2, 3, 5, 7]
+ok
+2 items had no tests:
+    __main__.chkPrime
+    __main__.foundPrime
+1 items passed all tests:
+   3 tests in __main__
+3 tests in 3 items.
+3 passed and 0 failed.
+Test passed.
+</pre>
+</div>
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+对应到各个函式的聲明区
+    <div id="sup">
+    </div>
+</h1>
+<pre id="code" class="brush: py; highlight: [2,5,13]">
+# -*- coding: utf-8 -*-
+'''素数相关模块
+'''
+def chkPrime(N):
+    '''判定是否素数
+    >>> chkPrime(5)
+    True
+    >>> chkPrime(4)
+    False
+    '''
+    return 0 not in [N%d for d in range(2,N)]
+def foundPrime(N):
+    '''找出所有素数
+    >>> foundPrime(10)
+    [2, 3, 5, 7]
+    '''
+    return [P for P in range(2,N) if chkPrime(P)]
+if __name__ == '__main__':      # this way the module can be
+    import doctest
+    doctest.testmod()
+</pre>
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试相应变化
+    <div id="sup">
+    有利于测试业务分离...
+    </div>
+</h1>
+<div class="highlightcode">
+<pre id="code" class="brush: py; highlight: [17,20,21,23]">
+$ python primenu.py -v
+Trying:
+    chkPrime(5)
+Expecting:
+    True
+ok
+Trying:
+    chkPrime(4)
+Expecting:
+    False
+ok
+Trying:
+    foundPrime(10)
+Expecting:
+    [2, 3, 5, 7]
+ok
+1 items had no tests:
+    __main__
+2 items passed all tests:
+   2 tests in __main__.chkPrime
+   1 tests in __main__.foundPrime
+3 tests in 3 items.
+3 passed and 0 failed.
+Test passed.
+</pre>
+</div>
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://www.agiledata.org/essays/tdd.html">
+< /TDD流程>
+</a>
+    <div id="sup">
+    </div>
+</h1>
+
+<h2  id="takahashi5">
+<img src="i/graphviz-G4TDDflow.png"/>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<div id="sup">
+究竟什么是测试?
+</div>
+</h1>
+<h2  id="takahashi8">
+测试?
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<div id="sup">
+究竟什么是测试?
+</div>
+</h1>
+<h2  id="takahashi8">
+测<b class="focus">量</b>
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<div id="sup">
+究竟什么是测试?
+</div>
+</h1>
+<h2  id="takahashi8">
+<b class="focus">试</b>验
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试的本原思路
+<div id="sup">
+
+</div>
+</h1>
+<h2  id="takahashi8">
+< 5W>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试主体
+<div id="sup">
+人!
+</div>
+</h1>
+<h2 id="takahashi8">
+什么
+</h2>
+</center>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试实施
+<div id="sup">
+所有人!
+</div>
+</h1>
+<h2  id="takahashi9">
+谁
+</h2>
+</center>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试时机
+<div id="sup">
+单元
+</div>
+</h1>
+<h2 id="takahashi8">
+何时
+</h2>
+</center>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试地点
+<div id="sup">
+就地!
+</div>
+</h1>
+<h2 id="takahashi8">
+在哪
+</h2>
+</center>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试动机
+<div id="sup">
+懒...
+</div>
+</h1>
+<h2 id="takahashi8">
+为嘛
+</h2>
+</center>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试的本原思路
+<div id="sup">
+
+</div>
+</h1>
+<h2  id="takahashi7">
+< /5W>
+</h2>
+</center>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<div id="sup">
+重在衡量工程质量的话...
+</div>
+</h1>
+<h2  id="takahashi8">
+<b class="focus">测</b>试
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<div id="sup">
+重在探查隐藏问题的...
+</div>
+</h1>
+<h2  id="takahashi8">
+测<b class="focus">试</b>
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://blog.csdn.net/KerryZhu/archive/2007/05/23/1623069.aspx">测试全景...</a>
+    <div id="sup">
+
+    </div>
+</h1>
+<center>
+<img src="i/SoftwareTestFullPanoramicChart-1.gif"/>
+</center>
+
+    <div class="handout">
+    SoftwareTestFullPanoramicChart-1.gif
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://blog.csdn.net/KerryZhu/archive/2007/05/23/1623069.aspx">测试全景...</a>
+    <div id="sup">
+
+    </div>
+</h1>
+<h2 id="takahashi7">
+(*_*)b
+</h2>
+
+    <div class="handout">
+    SoftwareTestFullPanoramicChart-1.gif
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< TDD>
+<div id="sup">
+本质->工具->实例->思考
+</div>
+</h1>
+
+<ul class="" id="takahashi2">
+<li class="said"><sup>15'</sup> 测试本质 </li>
+<li class="next"><sup>10'</sup> Py测试工具 </li>
+<li class="wait"><sup>15'</sup> 测试的Pythonic </li>
+<li class="wait"><sup>15'</sup> Discussing </li>
+</ul>
+    <div class="handout">
+
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+不屌代码
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+< 黑盒>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi4">
+< Browser>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+JavaScript 
+<div id="sup">
+一个跨浏览器 (IE, Firefox, Safari) JavaScript 程序，记录浏览器事件 (点击和输入文字等) 
+<br/>以及测试断言 (这个文本框应包含这个文字，那个复选框应不应被勾选等)
+<br/>依赖 Zope/<a href="http://www.openqa.org/selenium/"><img src="i/logo/selenium_h55.png"></a>
+</div>
+</h1>
+
+<h2  id="takahashi4">
+<a href="http://pypi.python.org/pypi/zope.testrecorder">zope<br/> .testrecorder</a>
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+模拟浏览器 
+<div id="sup">
+脱离 Zope 单独使用。支持简单 DOM (含表单)、Cookie、定制 HTTP 请求
+</div>
+</h1>
+
+<h2  id="takahashi4">
+<a href="http://pypi.python.org/pypi/zope.testbrowser">zope<br/> .testbrowser</a>
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+模拟浏览器 
+<div id="sup">
+配合 PyUnit:DOM 方面仅支持表单，其他能力与 zope.testbrowser 相当
+</div>
+</h1>
+
+<h2  id="takahashi5">
+<a href="http://webunit.sourceforge.net/">WebUnit</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+驱动IE
+<div id="sup">
+从 M$ OS
+</div>
+</h1>
+<h2  id="takahashi3">
+<a href="http://www.evilbitz.com/2006/10/22/python-ie-automation-thorough-tutorial/">Py IE Automation</a>
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+stands for Python Automated Module For I.E.
+<div id="sup">
+
+</div>
+</h1>
+<h2  id="takahashi5">
+<a href="http://pamie.sourceforge.net/">PAMIE</a>
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+Python 与 XPCOM通信!
+<div id="sup">
+for Gecko
+</div>
+</h1>
+<h2  id="takahashi5">
+<a href="https://developer.mozilla.org/en/PyXPCOM">PyXPCOM</a>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+脚本化操作浏览器
+<div id="sup">
+a simple scripting language for Web browsing
+</div>
+</h1>
+<h2  id="takahashi7">
+<a href="http://twill.idyll.org/">twill</a>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://www.openqa.org/selenium/"><img src="i/logo/selenium_h55.png"></a>
+=>
+<a href="http://code.google.com/p/telluriumdoc/">
+<img src="i/logo/tellurium.png">
+</a>
+<div id="sup">
+UI测试框架
+</div>
+</h1>
+<h2  id="takahashi5">
+<a href="http://code.google.com/p/telluriumdoc/">
+Tellurium
+</a>
+
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+...
+<div id="sup">
+宏记录鼠标点击坐标和时间然后重放 
+</div>
+</h1>
+<h2  id="takahashi7">
+商用
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi4">
+< /Browser>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://en.wikipedia.org/wiki/Performance_testing">Performance testing</a>
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+< 性能>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< 专有/>
+    <div id="sup">
+金山在使用的...
+    </div>
+</h1>
+<h2  id="takahashi2">
+<b class="focus">LoadRunner</b><sup>HP</sup>
+<sub>;</sub>SilkPerformer
+<sub>;</sub>Rational Performance Tester<sup>IBM</sup>
+<sub>;</sub>WebLoad
+<sub>;</sub>QALoad
+<sub>;</sub>OpenSTA
+<sub>;</sub>WSA<sup>M$</sup>
+....
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< 开源/>
+    <div id="sup">
+金山在使用的...
+    </div>
+</h1>
+<h2  id="takahashi2">
+Jmeter<sup>JAVA</sup>
+<sub>;</sub>WebBench
+<sub>;</sub>Apache ab
+<sub>;</sub>http_load
+<sub>;</sub>Siege
+<sub>;</sub>Curl-Loader
+<sub>;</sub>p-unit
+<sub>;</sub>WebStone
+<sub>;</sub><a href="http://www.pylot.org/"><snap class="logo"><img src="i/logo/pylot.gif"></snap></a>
+....
+</h2>
+    <div class="handout">
+    VisualPyTune.png
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://en.wikipedia.org/wiki/Performance_testing">Performance testing</a>
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+< /性能>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+GUI in Linux
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi7">
+    <a href="https://fedorahosted.org/dogtail//">
+    <img src="i/logo/dogtail.png"/></a>
+</h2>
+
+    <div class="handout">
+KWinAuto
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+自制GUI测试工具
+    <div id="sup">
+    张长荣作品...
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+<a href="py-gui-automation/">
+KWinAuto
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+不屌代码
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+< /黑盒>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+恨屌代码
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+< 白盒>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+文档化测试
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi7">
+<a href="http://docs.python.org/library/doctest.html">doctest</a>
+
+</h2>
+
+    <div class="handout">
+                            list of:
++------+                   +---------+
+|module| --DocTestFinder-> | DocTest | --DocTestRunner-> results
++------+    |        ^     +---------+     |       ^    (printed)
+            |        |     | Example |     |       |
+            v        |     |   ...   |     v       |
+           DocTestParser   | Example |   OutputChecker
+                           +---------+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://onlypython.group.javaeye.com/group/blog/515585">doctest写测试非常爽:)</a>
+    <div id="sup">
+    </div>
+</h1>
+
+
+<pre id="code0">
+                            list of:
++------+                   +---------+
+|module| --DocTestFinder-> | DocTest | --DocTestRunner-> results
++------+    |        ^     +---------+     |       ^    (printed)
+            |        |     | Example |     |       |
+            v        |     |   ...   |     v       |
+           DocTestParser   | Example |   OutputChecker
+                           +---------+
+
+</pre>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+xUnit 家族
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+< <a href="http://docs.python.org/library/unittest.html">unittest</a>>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<img src="i/logo/robotframwork.png"/>
+    <div id="sup">
+    acceptance test-driven development (ATDD)
+    </div>
+</h1>
+
+
+<h2 id="takahashi3">
+<a href="http://code.google.com/p/robotframework/">
+robotframework</a>
+</h2>
+
+    <div class="handout">
+<a href="http://www.getwindmill.com/">Windmill Testing Framework</a>
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+面向web测试框架
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+<a href="http://www.getwindmill.com/">Windmill</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+框架自测
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi7">
+<a href="http://www.anexperimentinscotch.com/2008/10/tdd-with-python-and-pylons/">Pylons</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+框架自测
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi7">
+<a href="http://docs.djangoproject.com/en/dev/topics/testing/?from=olddocs">Django</a>
+</h2>
+
+    <div class="handout">
+    <a href="http://www.anexperimentinscotch.com/2008/10/tdd-with-python-and-pylons/">TDD With Python and Pylons – An Experiment in Scotch</a>
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试框架
+    <div id="sup">
+extends unittest to make testing easier
+    </div>
+</h1>
+
+
+<h2 id="takahashi8">
+    <a href="http://somethingaboutorange.com/mrl/projects/nose/0.11.2/">nose</a>
+</h2>
+
+    <div class="handout">
+<a href="http://codespeak.net/py/dist/test/index.html">py.test index</a>
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试框架
+    <div id="sup">
+extends unittest to make testing easier
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+    <a href="http://codespeak.net/py/dist/test/index.html">py.test</a>
+</h2>
+
+    <div class="handout">
+<a href="http://pythonpaste.org/deploy/">Paste Deployment — Paste Deploy v1.3.3 documentation</a>
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+覆盖测试
+    <div id="sup">
+表入迷...
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+<a href="http://code.google.com/p/thumbpy/">thumbpy</a>
+</h2>
+
+    <div class="handout">
+    <a href="http://code.google.com/p/robotframework/">robotframework - Project Hosting on Google Code</a>
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+....
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+< /<a href="http://docs.python.org/library/unittest.html">unittest</a>>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi4">
+< Checker>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+静态檢驗
+<div id="sup">
+
+</div>
+</h1>
+<h2  id="takahashi">
+<a href="http://www.logilab.org/card/pylintfeatures">PyLint</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+静态檢驗
+<div id="sup">
+
+</div>
+</h1>
+<h2  id="takahashi">
+<a href="http://www.divmod.org/trac/wiki/DivmodPyflakes">Pyflakes</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+静态檢驗
+<div id="sup">
+
+</div>
+</h1>
+<h2  id="takahashi4">
+<a href="http://pychecker.sourceforge.net/">PyChecker</a>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+静态檢驗
+<div id="sup">
+ＵＭＬ输出
+</div>
+</h1>
+
+<h2  id="takahashi4">
+<a href="http://www.andypatterns.com/index.php/products/pynsource_-_uml_tool_for_python/">PyNSource</a>
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+静态檢驗
+<div id="sup">
+检查Python Coding风格
+</div>
+</h1>
+<h2  id="takahashi7">
+<a href="http://www.douhua.im/2010/02/25/pep8-python-coding-style/">PEP8</a>
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi4">
+< /Checker>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+    <div id="sup">
+模拟器
+    </div>
+</h1>
+
+
+<h2 id="takahashi4">
+< Mocks>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<div id="sup">
+模拟DB
+</div>
+</h1>
+<h2  id="takahashi3">
+<a href="http://xper.org/seminar/upload/PythonMock.htm">The Python Mock Class</a>
+</h2>
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<div id="sup">
+DB模拟
+</div>
+</h1>
+<h2  id="takahashi">
+<a href="http://www.xper.org/wiki/seminar/MockObjects?action=highlight&value=MockObject">Mock Objects</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<div id="sup">
+基于模拟的框架
+</div>
+</h1>
+<h2  id="takahashi8">
+<a href="http://farmdev.com/projects/fudge/">Fudge</a>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<div id="sup">
+Mocks的依赖
+</div>
+</h1>
+<center>
+<img src="i/snap/mocks-dependency_scrot.png"/>
+</center>
+    <div class="handout">
+<a href="http://bitbucket.org/haypo/python-ptrace/wiki/Home">haypo / python-ptrace / wiki / Home — bitbucket.org</a>
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+    <div id="sup">
+模拟器
+    </div>
+</h1>
+
+
+<h2 id="takahashi4">
+< /Mocks>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+    <div id="sup">
+深入调试
+    </div>
+</h1>
+
+
+<h2 id="takahashi4">
+< Debug>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+追踪机
+<div id="sup">
+Linux/BSD/Darwin 都使用的进程追踪机制
+</div>
+</h1>
+<h2  id="takahashi5">
+<a href="http://bitbucket.org/haypo/python-ptrace/wiki/Home">python-ptrace</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+宇宙牌!
+<div id="sup">
+可以对C/C++ 的程序轻松注入各种回调勾子！是Python 这一胶水的倍增器！依赖 <a href="http://www.ollydbg.de/">OllyDbg v</a> 又一德制武器... 
+</div>
+</h1>
+<h2  id="takahashi5">
+<a href="http://oss.coresecurity.com/uhooker/doc/index.html">Universal Hooker</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+for M$!
+<div id="sup">
+对Microsoft Debug Engine 的Py包装，可以使用py脚本来自动化分析调试结果了 
+</div>
+</h1>
+<h2  id="takahashi5">
+<a href="http://pydbgeng.sourceforge.net/">PyDbgEng</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://sqlmap.sourceforge.net/">sqlmap</a>
+    <div id="sup">
+: automatic SQL injection and database takeover tool
+    </div>
+</h1>
+
+
+<h2 id="takahashi7">
+<img src="i/logo/sqlmap.png"/>
+</h2>
+
+    <div class="handout">
+    <a href="http://code.google.com/p/sulley/">sulley - Project Hosting on Google Code</a>
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< 可视化性能>
+<div id="sup">
+<a href="http://www.vrplumber.com/programming/runsnakerun/">
+RunSnakRun
+</a>    </div>
+</h1>
+
+<center>
+<a href="http://www.vrplumber.com/programming/runsnakerun/">
+<img src="i/snap/runsnakrun.gif">
+</a>
+</center>
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< 国产/>
+<div id="sup">
+<a href="http://blog.csdn.net/lanphaday/archive/2008/04/01/2239445.aspx">“Python性能优化”讲稿分享 - 赖勇浩的编程私伙局 - CSDN博客</a>
+    </div>
+</h1>
+<center>
+<a href="http://code.google.com/p/visualpytune/">
+<img src="i/snap/VisualPyTune.gif">
+</a>
+</center>
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< /可视化性能>
+<div id="sup">
+<a href="http://kcachegrind.sourceforge.net/html/Home.html">
+KCacheGrind
+</a>
+    </div>
+</h1>
+<h2  id="takahashi2">
+<a href="http://kcachegrind.sourceforge.net/html/Home.html">
+<img src="i/snap/KcgShot3.gif">
+</a>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+    <div id="sup">
+深入调试
+    </div>
+</h1>
+
+<h2 id="takahashi4">
+< /Debug>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+恨屌代码
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+< /白盒>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+屌不屌？
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+< 灰盒>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+模糊测试
+    <div id="sup">
+<a href="http://www.51testing.com/html/28/n-130928.html">漫谈Fuzz测试技术...</a>
+    </div>
+</h1>
+
+
+<h2 id="takahashi7">
+    <a href="http://code.google.com/p/sulley/">sulley</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+屌不屌？
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+< /灰盒>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+持续集成
+    <div id="sup">
+<a href="http://en.wikipedia.org/wiki/Continuous_integration">Continuous integration</a>
+    </div>
+</h1>
+
+
+<h2 id="takahashi7">
+< CI>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+集成到CI平台...
+    <div id="sup">
+    </div>
+</h1>
+
+
+<h2 id="takahashi2">
+<a href="http://bitten.edgewall.org/">
+<img src="i/logo/bitten.png"/></a>
+<br/>
+<sub>;</sub>
+<a href="http://cruisecontrol.sourceforge.net/">CruiseControl</a>
+<sup>
+<a href="https://oss.werkbold.de/trac-cc/">和Trac</a>
+</sup>
+<br/>
+<sub>;</sub>
+<a href="http://buildbot.net/trac"><img src="i/logo/buildbot.png"/></a>
+<sup>
+<a href="http://buildbot.net/buildbot/docs/current/Python-BuildSteps.html">和Py</a>
+</sup>
+<br/>
+<sub>;</sub>
+<a href="http://wiki.hudson-ci.org/display/HUDSON/Meet+Hudson">
+<img src="i/logo/hudson.png"/></a>
+<sup>
+<a href="http://trac-hacks.org/wiki/HudsonTracPlugin">HudsonTracPlugin</a>
+</sup>
+
+...
+
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://bitten.edgewall.org/">
+<img src="i/logo/bitten.png"/></a>
+
+    <div id="sup">
+<a href="http://blog.opensource.org.cn/hdcola/2007/11/post-10.html">开始持续集成之旅 - 老黄纸条箱</a>
+    </div>
+</h1>
+
+
+<center>
+<img src="i/snap/bitten@202.png"/>
+
+</center>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://bitten.edgewall.org/">
+<img src="i/logo/bitten.png"/></a>
+
+    <div id="sup">
+<a href="http://blog.opensource.org.cn/hdcola/2007/11/post-10.html">开始持续集成之旅 - 老黄纸条箱</a>
+    </div>
+</h1>
+
+
+<center>
+<img src="i/snap/buildview.png"/>
+
+</center>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+自动化部署
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+    < Deploy>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+Paste
+    <div id="sup">
+Configuring WSGI applications and servers.
+    </div>
+</h1>
+
+
+<h2 id="takahashi8">
+    <a href="http://pythonpaste.org/deploy/">Paste</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+Fabric
+    <div id="sup">
+<a href="http://www.capify.org/index.php/Capistrano">Capistrano</a>样的部署工具
+    </div>
+</h1>
+
+
+<h2 id="takahashi8">
+    <a href="http://docs.fabfile.org/0.9.1/">Fabric</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+pip
+    <div id="sup">
+原名pyinstall
+    </div>
+</h1>
+
+
+<h2 id="takahashi9">
+    <a href="http://pip.openplans.org/">pip</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://peak.telecommunity.com/DevCenter/EasyInstall">EasyInstall</a>
+    <div id="sup">
+setuptools 通过 .ege 进行统一部署
+    </div>
+</h1>
+
+
+<h2 id="takahashi9">
+    <a href="http://pip.openplans.org/">
+    <img src="i/logo/peak3.gif"/>
+    </a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+虚拟化环境
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+    <a href="http://virtualenv.openplans.org/">virtualenv</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+自动化部署
+    <div id="sup">
+
+    </div>
+</h1>
+
+<h2 id="takahashi5">
+    < /Deploy>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+持续集成...
+    <div id="sup">
+<a href="http://en.wikipedia.org/wiki/Comparison_of_Continuous_Integration_Software">Comparison of Continuous Integration Softwarea</a>
+    </div>
+</h1>
+
+
+<h2 id="takahashi7">
+< /CI>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< /TDD>
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi7">
+\(^o^)/
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< TDD>
+<div id="sup">
+本质->工具->实例->思考
+</div>
+</h1>
+
+<ul class="" id="takahashi2">
+<li class="said"><sup>15'</sup> 测试本质 </li>
+<li class="said"><sup>10'</sup> Py测试工具 </li>
+<li class="next"><sup>15'</sup> 测试的Pythonic </li>
+<li class="wait"><sup>15'</sup> Discussing </li>
+</ul>
+    <div class="handout">
+
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+测试的目标忒多:
+    <div id="sup">
+太多 -ability
+    </div>
+</h1>
+
+
+<h2 id="takahashi2">
+scal<b class="focus">ability</b>
+<sub>;</sub>distribut<b class="focus">ability</b>
+<sub>;</sub>maintain<b class="focus">ability</b>
+<sub>;</sub>us<b class="focus">ability</b>
+<sub>;</sub>port<b class="focus">ability</b>
+<sub>;</sub>compat<b class="focus">ability</b>
+<sub>;</sub>avail<b class="focus">ability</b>
+<sub>;</sub>configur<b class="focus">ability</b>
+...
+</h2>
+
+    <div class="handout">
+distributable
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+可测性!
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi5">
+<b class="focus">testability</b>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+无依赖!
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi3">
+<b class="focus">No-</b>dependency
+</h2>
+
+    <div class="handout">
+maintainable
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+幸福的给劲模块s!
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<snap id="takahashi2">
+sys
+<sub>;</sub>os
+<sub>;</sub>String<b class="focus">IO</b>
+<sub>;</sub>tempfile
+<sub>;</sub><b class="focus">opt</b>parse
+<sub>;</sub>get<b class="focus">opt</b>
+<sub>;</sub><b class="focus">Config</b>Parser
+<sub>;</sub><a href="http://docs.python.org/dev/library/importlib.html">importlib</a>
+<sub>;</sub><a href="http://packages.python.org/importers/">importers</a>
+
+<sub>;</sub>logging
+<sub>;</sub>at<b class="focus">exit</b>
+<sub>;</sub><b class="focus">trace</b>back
+
+<sub>;</sub>c<b class="focus">Profile</b>
+<sub>;</sub>p<b class="focus">stats</b>
+<sub>;</sub><b class="focus">hot</b>shot
+<sub>;</sub><b class="focus">time</b>it
+
+<sub>;</sub>get<b class="focus">opt</b>
+...
+
+</snap>
+
+    <div class="handout">
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+Google内部原则
+    <div id="sup">
+70%底层接口测试和单元测试
+20%集成测试,10%界面测试
+    </div>
+</h1>
+
+
+<h2 id="takahashi8">
+7:2:1
+</h2>
+
+    <div class="handout">
+
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://en.wikipedia.org/wiki/Code_review">Code review</a>
+    <div id="sup">
+<a href="http://www.programmer.com.cn/1310/">敏捷开发中的Code Review</a>
+    </div>
+</h1>
+
+
+<h2 id="takahashi8">
+代码<br/>复审
+</h2>
+
+    <div class="handout">
+trac-codereview_scrot.png
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<a href="http://py.kingsoft.net/ktrac/browser/trunk/TEPs/own/TracYetAnotherCodeReview/0.11/yacr/readme_zh.txt">
+YACR</a>
+    <div id="sup">
+TracYetAnotherCodeReview
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+
+<img src="i/snap/trac-codereview_scrot.png"/>
+
+</h2>
+
+    <div class="handout">
+
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< /TDD>
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi7">
+(~_~)\\
+</h2>
+
+    <div class="handout">
+70%的测试工作集中在底层接口测试和单元测试，20%的测试工作为集成测试，其他10%的测试即为界面测试
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< Discussing>
+<div id="sup">
+本质->工具->实例->思考
+</div>
+</h1>
+
+<ul class="" id="takahashi2">
+<li class="said"><sup>15'</sup> 测试本质 </li>
+<li class="said"><sup>10'</sup> Py测试工具 </li>
+<li class="said"><sup>15'</sup> 测试的Pythonic </li>
+<li class="next"><sup>15'</sup> Discussing </li>
+</ul>
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< 参考/>
+<div id="sup">
+<a href="http://powertwenty.com/kpd/downloads/TestDrivenDevelopmentInPython.pdf">Test Driven Development in Python</a>
+<br/>
+<a href="http://us.pycon.org/2010/conference/schedule/event/17/">Import this, that, and the other thing: custom importers</a>
+</div>
+</h1>
+<ul>
+
+<li><ul id="resource">
+    <li><a href="http://www.ibm.com/developerworks/cn/linux/l-cptest.html">Python 中的测试框架</a></i>
+    <li><a href="http://www.ibm.com/developerworks/cn/linux/l-pyunit/index.html">Python自动单元测试框架</a></i>
+    <li><a href="http://www.ibm.com/developerworks/cn/aix/library/au-pythontesting3/">Python 测试框架: 选择和运行测试</a></i>
+    <li><a href="http://www.infoq.com/cn/articles/levison-TDD-adoption-strategy">InfoQ: 如何坚持TDD</a></i>
+    </ul></li>
+
+    <li><a href="http://us.pycon.org/2010/conference/schedule/">PyCon 2010 Atlanta</a><ul id="resource">
+        <li><a href="http://us.pycon.org/2010/conference/schedule/event/80/">The other kind of testing</a></li>
+        <li><a href="http://us.pycon.org/2010/conference/schedule/event/109/">Why not run all your tests all the time? </a></li>
+        <li><a href="http://us.pycon.org/2010/conference/schedule/event/114/">Tests and Testability</a></li>
+        <li><a href="http://elem.com/~btilly/effective-ab-testing/">Effective A/B Testing</a></li>
+    </ul></li>
+
+    <li><a href="http://us.pycon.org/2009/conference/schedule/">PyCon 2009 Chicago</a><ul id="resource">
+        <li><a href="http://us.pycon.org/2009/conference/schedule/event/22/">Building an Automated QA Infrastructure using Open-Source Python Tools</a></li>
+        <li><a href="http://us.pycon.org/2009/conference/schedule/event/26/">Coverage testing, the good and the bad.</a></li>
+        <li><a href="http://us.pycon.org/2009/conference/schedule/event/9/">Using Windmill</a></li>
+        <li><a href="http://us.pycon.org/2009/conference/schedule/event/88/">Panel: Functional Testing Tools in Python</a></li>
+        <li><a href="http://us.pycon.org/2009/conference/schedule/event/61/">All I really need to know about [testable, maintainable, packagable] "scripts" .... </a></li>
+        <li><a href="http://us.pycon.org/2009/conference/schedule/event/18/">Strategies For Testing Ajax Web Applications</a></li>
+        <li><a href="http://us.pycon.org/2009/conference/schedule/event/87/">Making games in Python - Tools and techniques at CCP</a></li>
+        <li><a href="http://us.pycon.org/2009/conference/schedule/event/13/">Building a Simple Configuration-driven Web Testing Framework With Twill </a></li>
+        <li><a href="http://elem.com/~btilly/effective-ab-testing/">Effective A/B Testing</a></li>
+
+    </ul></li>
+
+</ul>
+
+    <div class="handout">
+
+
+<pre id="code" class="brush: js; highlight: [2, ]">
+$(document).ready(function() {
+	$("img[class='attachment']").each(function(){
+	    $(this).attr("usemap","#"+$(this).attr("alt"));
+    });
+});
+</pre>
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+<div id="sup">
+山寨的，非业界公认的，个人体验为基础的...
+</div>
+</h1>
+<h2  id="takahashi8">
+Q&A
+</h2>
+<br/>
+<center>
+<a href="http://py.kingsoft.net/s5/100826-PyTDD/">http://py.kingsoft.net/s5/100826-PyTDD/
+</a>
+</center>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< /7+-2>
+<div id="sup">
+单位时间可以记住的只有7+-2 个
+</div>
+</h1>
+
+<ol class="incremental" id="takahashi2">
+<li>just Test now!
+    </li>
+<li>咋想测试这事儿
+    </li>
+<li>Py相关测试工具
+    </li>
+<li>TDD不是玩笑...
+    </li>
+<li>代码复审比测试靠谱
+    </li>
+</ol>
+
+    <div class="handout">
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"><img src="i/id/zoomquiet_1-1_outline.png"></a>
+< 版本 />
+</h1>
+    <center>修订历史::</center>
+<ul>
+    <li>100826 ZQ 增补TDD代码演示</li>
+    <li>100825 ZQ 增补性能/CI 相关</li>
+    <li>100824 ZQ 增补<a href="http://alexgorbatchev.com/SyntaxHighlighter/">SyntaxHighlighter</a>支持</li>
+    <li>100821 ZQ 创建</li>
+
+</ul>
+
+    <div class="handout">
+<a href="http://book.douban.com/subject/1230036/">测试驱动开发（中文版） (豆瓣)</a>
+<pre id="code" class="brush: js; highlight: [2, ]">
+$(document).ready(function() {
+	$("img[class='attachment']").each(function(){
+	    $(this).attr("usemap","#"+$(this).attr("alt"));
+    });
+});
+</pre>
+    </div>
+</div>
+
+
+</div><!--class="presentation"-->
+
+<!-- for syntaxhighlighter_2.1.364_zh Include required JS files -->
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shCore.js"></script>
+<!-- At least one brush, here we choose JS. You need to include a brush for every language you want to highlight -->
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shBrushJScript.js"></script>
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shBrushCss.js"></script>
+
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shBrushPhp.js"></script>
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shBrushPython.js"></script>
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shBrushErlang.js"></script>
+
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shBrushXml.js"></script>
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shBrushPlain.js"></script>
+
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shBrushSql.js"></script>
+
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shBrushBash.js"></script>
+
+<script type="text/javascript" src="ui/syntaxhighlighter/scripts/shBrushDiff.js"></script>
+<!-- Finally, to actually run the highlighter, you need to include this JS on your page 
+SyntaxHighlighter.defaults['gutter'] = false;
+-->
+<script type="text/javascript">
+SyntaxHighlighter.defaults['toolbar'] = false;
+
+SyntaxHighlighter.all();
+</script>
+
+</body>
+</html>

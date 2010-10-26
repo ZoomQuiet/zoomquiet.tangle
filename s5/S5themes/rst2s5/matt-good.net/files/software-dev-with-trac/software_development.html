@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.4.1: http://docutils.sourceforge.net/" />
+<meta name="version" content="S5 1.1" />
+<title>Software Development With Trac</title>
+<meta name="author" content="Matt Good" />
+<meta name="date" content="2007-02-25" />
+<style type="text/css">
+
+/*
+:Author: David Goodger
+:Contact: goodger@users.sourceforge.net
+:Date: $Date$
+:Revision: $Revision$
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin-left: 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left {
+  clear: left }
+
+img.align-right {
+  clear: right }
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font-family: serif ;
+  font-size: 100% }
+
+pre.literal-block, pre.doctest-block {
+  margin-left: 2em ;
+  margin-right: 2em ;
+  background-color: #eeeeee }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+tt.docutils {
+  background-color: #eeeeee }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+<link rel="stylesheet" href="ui/default/slides.css"
+      type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css"
+      type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css"
+      type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css"
+      type="text/css" media="projection" id="operaFix" />
+
+<style type="text/css">
+#currentSlide {display: none;}
+</style>
+</head>
+<body>
+<div class="layout">
+<div id="controls"></div>
+<div id="currentSlide"></div>
+<div id="header">
+
+</div>
+<div id="footer">
+<h1>Software Development With Trac</h1>
+
+</div>
+</div>
+<div class="presentation">
+<div class="slide" id="slide0">
+<h1 class="title">Software Development With Trac</h1>
+<table class="docinfo" frame="void" rules="none">
+<col class="docinfo-name" />
+<col class="docinfo-content" />
+<tbody valign="top">
+<tr><th class="docinfo-name">Author:</th>
+<td>Matt Good</td></tr>
+<tr><th class="docinfo-name">Date:</th>
+<td>2007-02-25</td></tr>
+</tbody>
+</table>
+<!-- Definitions of interpreted text roles (classes) for S5/HTML data. -->
+<!-- This data file has been placed in the public domain. -->
+<!-- Colours
+======= -->
+<!-- Text Sizes
+========== -->
+<!-- Display in Slides (Presentation Mode) Only
+========================================== -->
+<!-- Display in Outline Mode Only
+============================ -->
+<!-- Display in Print Only
+===================== -->
+<!-- Incremental Display
+=================== -->
+
+</div>
+<div class="slide" id="what-is-trac">
+<h1>What is Trac?</h1>
+<blockquote>
+Trac is an enhanced wiki and issue tracking system for software development
+projects. Trac uses a minimalistic approach to web-based software project
+management. Our mission is to help developers write great software while
+staying out of the way.</blockquote>
+</div>
+<div class="slide" id="who-uses-trac">
+<h1>Who uses Trac?</h1>
+<ul class="incremental simple">
+<li>Python web frameworks<ul>
+<li>Pylons</li>
+<li>TurboGears</li>
+<li>Django</li>
+<li>Pyjamas</li>
+<li>Twisted</li>
+<li>CherryPy</li>
+<li>web.py</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="slide" id="id1">
+<h1>Who uses Trac?</h1>
+<ul class="incremental simple">
+<li>PHP web frameworks<ul>
+<li>CakePHP</li>
+<li>Jelix</li>
+<li>Symfony</li>
+</ul>
+</li>
+<li>Perl web framework<ul>
+<li>Catalyst</li>
+</ul>
+</li>
+<li>ColdFusion web framework<ul>
+<li>ColdBox</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="slide" id="id2">
+<h1>Who uses Trac?</h1>
+<img alt="ruby_on_rails.png" src="ruby_on_rails.png" />
+</div>
+<div class="slide" id="id3">
+<h1>Who uses Trac?</h1>
+<p>Next Python web framework?</p>
+</div>
+<div class="slide" id="software-project-management">
+<h1>Software project management</h1>
+<p>Common tools for managing software projects</p>
+<ul class="simple">
+<li>Bug tracker</li>
+<li>Version control</li>
+<li>Wiki</li>
+</ul>
+<p class="incremental">Problem: Information is scattered across different systems</p>
+</div>
+<div class="slide" id="trac-s-purpose">
+<h1>Trac's Purpose</h1>
+<p>Provide a consistent/integrated interface to this project information</p>
+<ul class="simple">
+<li>built-in Bug tracker</li>
+<li>built-in Wiki</li>
+<li>Version control integration<ul>
+<li>includes Subversion support</li>
+<li>others available as plugins</li>
+</ul>
+</li>
+<li>extensible through plugins</li>
+</ul>
+</div>
+<div class="slide" id="integration-timeline">
+<h1>Integration: Timeline</h1>
+<ul class="simple">
+<li>all events in one place</li>
+<li>RSS feed</li>
+</ul>
+<img alt="timeline.png" src="timeline.png" />
+</div>
+<div class="slide" id="consistency">
+<h1>Consistency</h1>
+<p>Wiki syntax used throughout Trac</p>
+<ul class="simple">
+<li>Wiki pages</li>
+<li>tickets (bugs/issues)</li>
+<li>version control commit messages</li>
+<li>milestone descriptions</li>
+</ul>
+</div>
+<div class="slide" id="integration-linking">
+<h1>Integration: Linking</h1>
+<p>Wiki's key feature is linking</p>
+<ul class="incremental simple">
+<li>WikiPageNames -&gt; Wiki</li>
+<li>#123 -&gt; ticket</li>
+<li>r123 -&gt; revision</li>
+<li>source:/filename -&gt; source code</li>
+<li>etc.</li>
+</ul>
+</div>
+<div class="slide" id="linking-example">
+<h1>Linking example</h1>
+<div class="animation container">
+<img alt="workflow/commit.png" class="hidden slide-display" src="workflow/commit.png" />
+<img alt="workflow/close-ticket.png" class="incremental hidden slide-display" src="workflow/close-ticket.png" />
+<img alt="workflow/fixed.png" class="incremental hidden slide-display" src="workflow/fixed.png" />
+<img alt="workflow/fix-changeset.png" class="incremental hidden slide-display" src="workflow/fix-changeset.png" />
+<img alt="workflow/annotate.png" class="incremental" src="workflow/annotate.png" />
+</div>
+</div>
+<div class="slide" id="extending">
+<h1>Extending</h1>
+<p>Different organizations have different needs</p>
+<p>Write extensions in Python</p>
+<dl class="docutils">
+<dt>Macros</dt>
+<dd>Define function for use in the wiki</dd>
+<dt>Plugins</dt>
+<dd>Extend current components or add new ones</dd>
+</dl>
+<p>Existing macros and plugins at <a class="reference" href="http://trac-hacks.org">http://trac-hacks.org</a></p>
+</div>
+<div class="slide" id="macro-example">
+<h1>Macro Example</h1>
+<p>Save as &quot;plugins/whoami.py&quot;</p>
+<div class="highlight"><pre><span style="color: #AA22FF; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">trac.wiki.macros</span> <span style="color: #AA22FF; font-weight: bold">import</span> WikiMacroBase
+
+<span style="color: #AA22FF; font-weight: bold">class</span> <span style="color: #0000FF">WhoAmIMacro</span>(WikiMacroBase):
+    <span style="color: #BB4444; font-style: italic">&quot;&quot;&quot; Usage: `[[WhoAmI]]` &quot;&quot;&quot;</span>
+    <span style="color: #AA22FF; font-weight: bold">def</span> <span style="color: #00A000">render_macro</span>(<span style="color: #AA22FF">self</span>, formatter,
+                     name, content):
+        user <span style="color: #666666">=</span> formatter<span style="color: #666666">.</span>req<span style="color: #666666">.</span>authname
+        <span style="color: #AA22FF; font-weight: bold">return</span> <span style="color: #BB4444">&#39;You are: &#39;</span> <span style="color: #666666">+</span> user
+</pre></div>
+</div>
+<div class="slide" id="plugins">
+<h1>Plugins</h1>
+<ul class="simple">
+<li>administration</li>
+<li>spam filtering</li>
+<li>account management</li>
+<li>version control backends</li>
+<li>LDAP integration</li>
+<li>continuous integration</li>
+</ul>
+</div>
+<div class="slide" id="plugins-bitten">
+<h1>Plugins: Bitten</h1>
+<img alt="bitten-builds.png" src="bitten-builds.png" />
+</div>
+<div class="slide" id="links">
+<h1>Links</h1>
+<ul class="simple">
+<li><a class="reference" href="http://trac.edgewall.org">http://trac.edgewall.org</a></li>
+<li><a class="reference" href="http://trac-hacks.org">http://trac-hacks.org</a></li>
+<li><a class="reference" href="http://bitten.cmlenz.net">http://bitten.cmlenz.net</a></li>
+<li><a class="reference" href="http://us.pycon.org/TX2007/TracSprint">http://us.pycon.org/TX2007/TracSprint</a></li>
+</ul>
+</div>
+</div>
+</body>
+</html>

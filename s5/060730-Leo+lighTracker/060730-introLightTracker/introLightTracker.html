@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>lightTracker: same tracker, only lighter</title><!-- metadata -->
+
+
+
+
+
+
+<meta name="generator" content="S5">
+<meta name="version" content="S5 1.1">
+<meta name="presdate" content="20060730">
+<meta name="author" content="Alex Dong">
+<meta name="company" content="Beijing Python User Group"><!-- configuration parameters -->
+
+<meta name="defaultView" content="slideshow">
+<meta name="controlVis" content="hidden"><!-- style sheet links -->
+
+<link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj">
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle">
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint">
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix"><!-- S5 JS -->
+
+<script src="ui/default/slides.js" type="text/javascript"></script></head><body>
+
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header">lightTracker</div>
+<div id="footer">
+<h1>Alex Dong presented at Beijing Python User Group #9 Meetup</h1>
+<h2>http://www.alexdong.com/</h2>
+</div>
+
+</div>
+
+
+<div class="presentation">
+
+<div class="slide">
+<h1>lightTracker: BitTorrent Tracker Implementation using web.py</h1>
+<h3>Alex Dong</h3>
+<h4>http://www.alexdong.com/</h4>
+</div>
+
+
+<div class="slide">
+<h1>Self introduction</h1>
+<ul>
+    <li>Chinese name: 董洵</li>
+    <li>Sr. Architect from Objectiva Software Solution</li>
+    <li>Microsoft "Solution Architect" MVP for 2005-2007</li>
+    <li>Experience: .NET, Java and C++</li>
+    <li>Python Experience: 2 years with limited hands-on experience</li>
+    <ul>
+        <li>Python as algorithm language: <a href="http://www.wufeihua.com/">无废话阅读</a></li>
+        <li>lightTracker to learn web frameworks. <a href="http://webpy.org/">web.py</a> and <a href="http://www.djangoproject.com/">django</a></li>
+    </ul>
+</ul>
+
+<div class="slide">
+    <h1>Project Logistics</h1>
+    <ul>
+        <li><a href="http://sourceforge.net/projects/lighttracker">http://sourceforge.net/projects/lighttracker</a></li>
+        <li>Beta Status</li>
+        <li>SVN coming soon</li>
+        <ul>
+            <li>database schema: db.sql</li>
+            <li>main source code: lightTracker.py</li>
+            <li>wrapper: runserver.py</li>
+            <li>automated integration test: testtracker.py</li>
+        </ul>
+        <li>A quick demo</li>
+        <li>Contribution is encouraged. (CSDN competition?)</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>BitTorrent 101: Components</h1>
+    <ul>
+        <li>peers</li>
+        <li>torrent file</li>
+        <li>seeding</li>
+        <li>tracker</li>
+        <li>True P2P with DHT</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>BitTorrent 101: Scenario</h1>
+    <ol>
+        <li>create .torrent file</li>
+        <li>initial seeding</li>
+        <li>peers contacts tracker</li>
+        <li>inter-peer communication</li>
+        <li>seeding after completion</li>
+    </ol>
+    <li>Reference: <a href="http://www.bittorrent.com/bittorrentecon.pdf">bitTorrent Economics Paper[PDF]</a></li>
+</div>
+
+<div class="slide">
+    <h1>Tracker Protocol Specification</h1>
+    <ul>
+        <li><a href="file:///tmp/wiki.theory.org/BitTorrentSpecification">Recommended: Technical Specification</a></li>
+        <li><a href="http://www.bittorrent.org/protocol.html">Official Protocol Specification</a></li>
+        <li>Announce: info_hash, peer_id, port, status, and downloaded</li>
+        <li>Scrap: info_hash</li>
+        <li>bencode: Python specification encoding spec</li>
+    </ul>
+</div>
+
+<div class="slide">
+    <h1>Why lightTracker</h1>
+    <ul>
+        <li>Not scalable: local pickled file.</li>
+        <li>Twisted based: powerful but difficult to understand</li>
+        <li>Tracker is a typical web application</li>
+        <li>Which web framework then?</li>
+        <ul>
+            <li>web.py: one single very light web framework.</li>
+            <li>django: great community support. comprehensive. </li>
+        </ul>
+        <li>We choose web.py because easy to deploy and its lightweight nature. </li>
+    </ul>
+</div>
+
+
+<div class="slide">
+    <h1>web.py 101</h1>
+    <ul>
+        <li>Three fundamental elements:</li>
+        <ol>
+            <li>How data is retrieved and passed around.</li>
+            <li>How presentation layer works with data. </li>
+            <li>How URL, cookie, and session are supported.</li>
+        </ol>
+        <li>web.py's 'Pythonic' answer:</li>
+        <ol>
+            <li>lightweight database gateway and the magic storify</li>
+            <li>HTML based "cheetah" template, bound with objects</li>
+            <li>Thinnly wrapped via storify objects.</li>
+        </ol>
+    </ul>
+</div>
+
+
+<div class="slide">
+    <h1>Code Walkthrough</h1>
+    <ul>
+        <li>database schema</li>
+        <li>runserver.py</li>
+        <li>lightTracker.py</li>
+        <ol>
+            <li>Section: Book keeping</li>
+            <li>Section: Prepare response</li>
+        </ol>
+        <li>testtracker.py: unittest based. </li>
+        <ol>
+            <li>class MetaInstruction</li>
+            <li>_status_assertion (idea to make it less verbose?)</li>
+        </ol>
+    </ul>
+</div>
+
+
+<div class="slide">
+    <h1>Questions?</h1>
+</div>
+
+</div></div></body></html>

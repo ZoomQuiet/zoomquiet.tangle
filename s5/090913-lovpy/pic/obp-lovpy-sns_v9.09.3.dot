@@ -1,0 +1,115 @@
+digraph G {
+/*图片生成命令:: need:: apt-get install graphviz-cairo
+$ dot -Tpng:cairo obp-lovpy-sns_v9.09.3.dot -o obp-lovpy-sns.png -Tcmapx -o obp-lovpy-sns.map
+        style=filled,
+        fillcolor=lightyellow,
+        size="12,9",
+        ratio=compress,fill
+        rankdir=LR,        
+*/
+    graph [label="可爱的Python 图书工程SNS图谱 by ZQ[090903 16:31]",
+        labeljust="l",labelloc="t",
+        fontsize=12.0,
+        fontname="VeraSansYuanTi-Regular.ttf",        
+        center=1,
+        ranksep=0.2,
+        ratio=compress,
+        rankdir=TB,
+        ];
+
+    node[fontsize=10.0,
+        style=filled,fillcolor=snow,
+        color=darkolivegreen,fontcolor=darkolivegreen,
+        height=0.1,
+        shape=plaintext,
+        ];
+    /*dir=both,color=yellowgreen,*/
+    edge [fontsize=9.0,
+        fontcolor=darkolivegreen,
+        color=gray30,
+		arrowhead=vee,
+		arrowtail=vee,
+        ];
+
+    /*图元声明
+    start       [label="流程开始/结束",shape=point];
+    end         [label="流程开始/结束",shape=point,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+    */
+    
+    woodwiki    [label="啄木鸟社区",shape=component,URL="http://wiki.woodpecker.org.cn/moin/"];
+        woodlovpy   [label="啄木鸟:图书维基",shape=component,URL="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"];
+        woodobp     [label="啄木鸟:图书计划",shape=component,URL="http://wiki.woodpecker.org.cn/moin/OBP"];
+    cpug        [label="华蠎用户组",shape=component,URL="http://wiki.woodpecker.org.cn/moin/CPUG"];
+        cpugml      [label="CPyUG列表",shape=component,URL="http://groups-beta.google.com/group/python-cn"];
+        bpug        [label="京蠎用户组",shape=component,URL="http://wiki.woodpecker.org.cn/moin/BPUG"];
+        zpug        [label="珠蠎用户组",shape=component,URL="http://wiki.woodpecker.org.cn/moin/ZPyUG"];
+        spug        [label="长蠎用户组",shape=component,URL="http://wiki.woodpecker.org.cn/moin/SPUG"];
+    obpsite     [label="OBP:工程空间",shape=component,URL="http://code.google.com/p/openbookproject/"];
+        obpwiki     [label="OBP:工程维基",shape=component,URL="http://code.google.com/p/openbookproject/wiki/LovPyRush"];
+        obpsvn      [label="OBP:版本仓库",shape=component,URL="http://openbookproject.googlecode.com/svn/trunk/LovelyPython/"];
+        obpissue    [label="OBP:提案追踪",shape=component,URL="http://code.google.com/p/openbookproject/issues/list"];
+        obpml       [label="OBP:邮件列表",shape=component,URL="http://groups.google.com/group/openbookproject"];
+    zeuuxorg    [label="哲思:社区",shape=component,URL="http://www.zeuux.org/"];
+        zeuuxcom    [label="哲思:平台",shape=component,URL="http://www.zeuux.com/"];
+        lovpyml     [label="哲思:邮件列表",shape=component,URL="http://www.zeuux.org/mailman/listinfo/zeuux-python"];
+    obpirc      [label="IRC频道",shape=component,URL="http://code.google.com/p/openbookproject/wiki/UsageIrc"];
+    edoobp      [label="易度",shape=component,URL="http://obp.everydo.com/@@basecamp_dashboard"];
+        edolovpy    [label="易度:图书",shape=component,URL="http://obp.everydo.com/projects/599264/todos"];
+
+    witer       [label="作者",shape=egg];
+    editor      [label="编辑",shape=egg];
+    reader      [label="读者",shape=egg];
+
+    /*流程关系
+    */
+    witer->cpug     [label="讨论",color=green];
+        witer->obpsite     [label="協作",color=green];
+        witer->woodwiki    [label="汇聚",color=green];
+        witer->obpirc      [label="会议",color=green];
+        witer->edolovpy    [label="管理",color=green];
+    editor->obpsite [label="協作",color=green];
+        editor->edolovpy   [label="協同",color=green];
+    witer->zeuuxcom [label="交流",color=green];
+        witer->lovpyml  [label="改进",color=green];
+        editor->lovpyml [label="追踪",color=green];
+
+    reader->lovpyml [label="反馈",color=green];
+        reader->obpsvn      [label="学习代码",color=green];
+        reader->obpissue    [label="投述建议",color=green];
+        
+    woodwiki->woodobp->woodlovpy->obpsite;
+        woodwiki->cpug;
+    zeuuxorg->zeuuxcom;
+        zeuuxorg->lovpyml;
+        zeuuxorg->woodwiki;
+        zeuuxorg->obpirc;
+        
+    edoobp->edolovpy;
+    cpug->bpug;
+        cpug->zpug;
+        cpug->spug;
+        cpug->cpugml        [label=""];
+        
+    subgraph clusterG {
+        label="Google 提供的服务s"; color=blue;fontcolor=blue;
+        cpugml;
+        obpsite->obpwiki    [label=""];
+            obpsite->obpsvn     [label=""];
+            obpsite->obpissue   [label=""];
+            obpsite->obpml      [label=""];
+        obpsvn->obpml;
+        obpissue->obpml;
+      }
+
+}
+

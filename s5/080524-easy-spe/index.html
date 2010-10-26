@@ -1,0 +1,662 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Easy SPE (powered by S5)v1.0~080524</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+<meta name="generator" content="Kate 2.5.8"/>
+<meta name="version" content="S5 1.0" />
+<meta name="presdate" content="20080521" />
+<meta name="author" content="Zoom.Quiet"/>
+<meta name="company" content="Complex Spiral Consulting" />
+<link rel="stylesheet" href="ui/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/opera.css" type="text/css" media="projection" id="operaFix" />
+<link rel="stylesheet" href="ui/print.css" type="text/css" media="print" id="slidePrint" />
+
+<script src="ui/slides.js" type="text/javascript"></script>
+<!-- embedded styles -->
+<style type="text/css" media="all">
+/* The esp. Effect support */
+ul#largerwd{
+    font-size: 200%;
+    letter-spacing:-18px;
+}
+h2#largerwd {
+    width:100%;
+    font-size: 600%;
+    text-align: center;
+    letter-spacing:-20px;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+b.alert{
+    color:#F5003D;
+    font-size: 105%;
+}
+div#float_logo{
+    position : absolute;
+    top:0px;
+    left:0px;
+}
+/*080524 append for slide0*/
+DIV#slide0 h3{
+    font-size: 300%;
+}
+PRE#biger{
+    font-size: 150%;
+}
+</style>
+
+
+</head>
+<body>
+
+<div class="layout">
+
+<div id="currentSlide"></div>
+<div id="header"></div>
+
+<div id="footer">
+<table>
+<tr>
+<td><a target="_blank"  href="http://www.zeuux.org/about/about.cn.html">
+ZEUUX</a>
+</td>
+<td rowspan="2">
+<a  target="_blank" style="background-color:;" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">
+<img src="icon/cc-byncnd-88x31.png"/>
+</a>
+推荐使用<a  target="_blank"
+href="http://www.mozilla.org.cn">FireFox</a>兼容浏览器获得最佳体验!
+</td>
+</tr>
+</table>
+
+    <div id="controls"></div>
+    </div>
+</div><!-- class="layout"-->
+
+<div class="presentation">
+
+
+<div class="slide" id="slide0">
+<center><img src="icon/080428-zeuux-logo-gb-h90.png"/></center>
+<br/>
+<h3>
+白话过程改进
+</h3>
+<br/>
+<h4> ~ <a href="mailto:Zoom.Quiet@gmail.com">Zoom.Quiet</a></h4>
+
+</div>
+
+
+<div class="slide">
+<h1> 制作免责 </h1>
+
+<ul>
+    <li><a href="http://wiki.internal.sina.com.cn/moin/ZoomQuiet">
+        <img src="id/zoomquiet_1-1_outline.png">
+    </a>伙同所有热心的
+    <a href="http://www.zeuux.org/community/zeuux-team.cn.html">ZEUUX.org</a>
+    成员共同制作
+        ......
+    <ul>
+        <li> 一切资料来自互联网
+        <li> 所有想法来自日常学习工作
+        <li> 所有体悟来自各种沟通分享
+        <li> 所有知识来自网络分享印证
+        <li> 所有经验来自个人失败经历……
+    </ul>
+    </li>
+</ul>
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+Software Process Enhancement!
+</h1>
+<h2 id="largerwd">
+哪有?!
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+过程改进!
+</h1>
+<h2 id="largerwd">
+到处<br/>皆有
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+实例故事:筹备:
+</h1>
+
+
+<ul>
+<li>16:00
+    <ul>
+    <li>小莉接到小周电话，说晚上父母要来视察，得准备好晚饭
+        </li>
+    </ul>
+<li>17:00
+    <ul>
+    <li>小莉电话确认人数/小周父母的饮食习惯，花5分钟确认了菜谱并计划采购清单
+        </li>
+    </ul>
+<li>19:00
+    <ul>
+    <li>在超市接到小周电话，说妹妹小琪临时也来，立即调整菜谱追加一只乌骨鸡
+        </li>
+    </ul>
+<li>19:15
+    <ul>
+    <li>小莉到家，先淘好米，将饭闷上；然后开始洗菜；优先处理好汤料，大火先滚着；
+        </li>
+    </ul>
+
+</ul>
+
+    <div class="handout">
+16:00 小莉接到小周电话，说晚上父母要来视察，得准备好晚饭
+17:00 小莉空出时间电话确认了一下人数，小周父母的饮食习惯，花5分钟，确认了晚上的菜谱，并想好要买什么来补充
+19:00 小莉在超市采购时接到小周电话，说临时追加小周妹妹小琪也来家宴，立即調整菜谱追加了只乌骨鸡
+19:15 小莉到家，先淘好米，将饭闷上；然后开始洗菜；优先处理好汤料，大火先滚着；
+19:30 小周到家，先帮忙试味，确认汤的咸淡是否吻合小周父母的习惯，然后小火开始煲着；
+19:45 从邻居家借了个老式高压锅，将乌骨鸡剔出胸肉，其余剁块儿扮料入锅焖香辣鸡；
+	焖鸡的时候，准备好凉拌菜，果盘入冰箱；
+20:00 小周家人到达，先出冷菜和香辣鸡; 坐定后，取鸡胸肉切丁和预留的黄瓜丁爆炒鸡丁上桌;
+20:45 米饭，鸡汤同时好，盛饭盛汤；
+21:00 出果盘,聊天,评论今天小莉的手艺.
+22:00 小周完成清理，结束家宴;
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+实例故事:执行:
+</h1>
+
+
+<ul>
+<li>19:30
+    <ul>
+    <li>小周到家，先帮忙试味，确认汤的咸淡是否吻合小周父母的习惯，然后小火煲着；
+        </li>
+    </ul>
+<li>19:45
+    <ul>
+    <li>从邻居借个老式高压锅，将乌骨鸡剔出胸肉，其余剁块儿扮料入锅焖香辣鸡；<br/>
+	焖鸡的时候，准备好凉拌菜，果盘入冰箱；
+        </li>
+    </ul>
+<li>20:00
+    <ul>
+    <li>小周家人到达，先出冷菜和香辣鸡上桌;<br/>
+     坐定后，取鸡胸肉切丁和预留的黄瓜丁爆炒鸡丁作热菜;
+        </li>
+    </ul>
+<li>20:45
+    <ul>
+    <li>米饭，鸡汤同时好，盛饭盛汤；
+        </li>
+    </ul>
+
+</ul>
+
+    <div class="handout">
+19:45 从邻居家借了个老式高压锅，将乌骨鸡剔出胸肉，其余剁块儿扮料入锅焖香辣鸡；
+	焖鸡的时候，准备好凉拌菜，果盘入冰箱；
+20:00 小周家人到达，先出冷菜和香辣鸡; 坐定后，取鸡胸肉切丁和预留的黄瓜丁爆炒鸡丁上桌;
+20:45 米饭，鸡汤同时好，盛饭盛汤；
+21:00 出果盘,聊天,评论今天小莉的手艺.
+22:00 小周完成清理，结束家宴;
+
+    </div>
+</div>
+
+<div class="slide">
+<h1>
+实例故事:结束:
+</h1>
+
+
+<ul>
+<li>21:20
+    <ul>
+    <li>出果盘,聊天,评论今天小莉的手艺.
+        </li>
+    </ul>
+<li>22:00
+    <ul>
+    <li>小周完成清理，结束家宴;
+        </li>
+    </ul>
+<li>23:00
+    <ul>
+    <li>小周送走家人，表扬小莉的辛苦，然后OOXX..
+        </li>
+    </ul>
+
+</ul>
+
+    <div class="handout">
+..
+    </div>
+</div>
+
+
+<div class="slide">
+<h1>
+厨房＝最成熟的过程团队！
+</h1>
+
+<pre>
+项目经理+开发团队+配置管理 = 小莉
+产品经理+客户代表+测试团队 = 小周
+客   户 = 小周家人
+项目需求 = 电话通知准备晚饭
+需求分析 = 电话确认饮食习惯
+项目计划 = 确认了晚上的菜谱
+需求变更 = 临时追加小周妹妹小琪
+变更管理 = 调整采购清单/菜单,追加乌骨鸡
+项目预研 = 先淘好米，将饭闷上；然后开始洗菜；优先处理好汤料，大火先滚着
+TDD,XP = 小周到家，先帮忙试味
+模块复用 = 邻居家借了个老式高压锅
+模块化/并行开发 = 焖鸡的时候，准备好凉拌菜，果盘入冰箱
+集成测试，beta版本发布 = 取鸡胸肉切丁和预留的黄瓜丁爆炒鸡丁上桌
+集成迭代,小版本发布 = 米饭，鸡汤同时好，盛饭盛汤
+检   收 = 聊天,评论今天小莉的手艺
+版本发布 = 小周完成清理，结束家宴
+结   项 = 小周总家宴，夸奖小莉
+</pre>
+
+    <div class="handout">
+..
+    </div>
+</div>
+
+
+<div class="slide">
+<h1>
+过程改进,浅说
+</h1>
+<ul>
+ <li>对比:高效!频繁!按期!按质! 不断成功交付的厨房系统!
+    </li>
+ <li>所以:过程改进 就是:
+    </li>
+</ul>
+
+<h2 id="largerwd">
+沟通&协调
+</h2>
+    <div class="handout">
+浅说 ==
+好吧，世界上效率和复杂度同时最好的，真的应该算厨房系统了，
+这一系统每天三次,都得完全成功,否则,就给人非常不愉快的体验(食不好的人,脾气都大)……
+而其中的确涉及到了同软件工程完全对等的各个层面的控制和管理。
+
+不过，拿作饭来完全比对软件开发工程，只是想说明，软件管理/过程改进其实不是什么非常非常精尖的不可理解的活动，
+而是恰恰相反，是我们日常就可以接触到的，非常平常，朴素的活动：沟通和协调！
+软件项目之所以，复杂，正是复杂在沟通的层面和涉及的团队的巨大的不同；
+但是长久以来，我们又不自觉的使用了越來越复杂的沟通渠道和协调方式来对应同样越來越复杂的软件项目；所以，形成了各个软件公司都完全不同，但是同样越发复杂的项目管理过程；
+
+其实，只要作到有效的沟通～任何人可以在最短时间内获得任何团队内外的关键信息；
+有效的协调～任何问题／矛盾都可以在第一时间发觉并协商解决，那么，这个软件项目就很难失败！
+
+但是，想作到如同作饭一般顺畅无碍，软件组织还是有很多人为的障碍要跨越的。
+
+不过，既然是白话过程改进，那么，我就不深入探讨软件过程改进的各个方面，
+而是比照我们日常可以接触得到的最优化过程~烹调进行畅想过程改进的目标:
+##状态（我的个人体验）过程改进乃是开始催生可促生靠谱的人的组织!
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+过程改进,白话
+</h1>
+<br/><br/>
+<table align="center" border="1" cellpadding="4" cellspacing="0">
+<tr>
+    <th/>
+    <th>烹调
+    </th>
+    <th>软件
+    </th>
+    <th/>
+</tr>
+<tr>
+    <td><img src="bad.png"/></td>
+    <td>高级食材
+    </td>
+    <td>开源代码
+    </td>
+    <td><img src="good.png"/></td>
+</tr>
+<tr>
+    <td><img src="bad.png"/></td>
+    <td>把握温度/作料/时间
+    </td>
+    <td>设计模式,测试框架...
+    </td>
+    <td><img src="good.png"/></td>
+</tr>
+<tr>
+    <td><img src="good.png"/></td>
+    <td>作熟
+    </td>
+    <td>按时交付
+    </td>
+    <td><img src="bad.png"/></td>
+</tr>
+<tr>
+    <td><img src="good.png"/></td>
+    <td>好味道
+    </td>
+    <td>用户认同
+    </td>
+    <td><img src="bad.png"/></td>
+</tr>
+<tr>
+    <td><img src="good.png"/></td>
+    <td>协同好帮厨
+    </td>
+    <td>ERP/CRM/CMM<br/>无数项目管理系统,流程,规范...
+    </td>
+    <td><img src="bad.png"/></td>
+</tr>
+</table>
+
+    <div class="handout">
+== 白话 ==
+回想烹调技艺的精进,最困难的有两方面:
+ 1. 高级食材的获得~龙肝凤髄不是任何人都可以随意获得来给自个儿老爸老妈作菜的!
+ 1. 对温度/作料/时间的把握~五味均衡那是厨艺入道后的境界,不是我们斗升小民可以轻易达到的!
+比照软件开发,反而是最容易的:
+ 1. 高级食材 ~ 那么多自由软件/开源软件的源代码是公开的,是那些聪慧通明的先辈的智慧结晶,媲美龙肝凤髄的高级材料可以任我们程序员使用！
+ 1. 对温度/作料/时间的把握 ~ 那么多设计模式,测试框架,都是以往大师们的心血凝成,我们可以随意使用!
+
+但是,烹调最简单的部分:
+ * i. 将食物作熟~保证营养容易吸收
+ * ii. 烹调出好味道来~这么多调味品,而且对于食客的口味了解也非常简单,中国8大菜系基本可以够定9成9的国人了
+ * iii. 和帮厨的协同好~就是将食材洗净切好扮好淹好...不要太easy 哪,按照方便的形式整理好就成
+比照软件开发,却是最最最困难的:
+ * i. 将食物作熟~项目成功按时完成,这简直是每个项目经理的噩梦,不论准备的多充分总有意外从而导致项目失败或是部分失败
+ * ii. 烹调出好味道来~让用户认同我们的软件产品?! 用户是恶魔! 想讨好所有用户是根本不可能的!最可恨的是:用户根本不知道自个儿需要什么,只有你作出来成品后才好整似睱的挑刺,反正用户永远正确有理...
+ * iii. 和帮厨的协同好~ERP/CRM/CMM无数项目管理系统,流程,规范,想干的是什么?就是想让同作一份菜的厨房师傅们协同好哪! 可是结果呢?
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+过程改进!目标
+</h1>
+
+
+<h2 id="largerwd">
+保证项目
+<br/>
+完成
+</h2>
+
+    <div class="handout">
+ 保证项目完成::
+ * 这有关风险和变更管理,因为每个项目的时间/人力/物力是有限的,而且市场/用户永远在快速变化
+ * 如同菜价,食客的心情口味一直在变动
+ * 那么,如何在有限的时间/人力/物力中,将项目完成?
+ * 控制好时间和目标而已:
+  * 如果时间不够就减少功能点
+  * 如果功能点增加了,就放弃不重要的功能点
+ * 如何控制好? -- 加强信息反馈!
+ * 如同掌勺:及时精确的获得当前菜价,结合时令掌握受众的口味偏向,就可以在已知预算中选择合理的配菜,处理出讨巧的菜式,获得认可
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+过程改进!目标
+</h1>
+
+
+<h2 id="largerwd">
+确保用户
+<br/>
+认可
+</h2>
+
+    <div class="handout">
+ 确保用户认可::
+ * 这有关需求和配置管理,用户的需求应该从一开始就被完好的追踪和管理
+ * 如果象家常菜制作过程中,受众本身就掺合了制作,随时可以提出改进建议并迅速得到实施
+ * 这产品就成了开发和用户共同完成的作品,如何不得到认可?
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+过程改进!目标
+</h1>
+
+
+<h2 id="largerwd">
+确实团队
+<br/>
+协同
+</h2>
+
+    <div class="handout">
+ 确实团队协同::
+ * 这有关版本和发布管理,软件每个部件的来由都应该得到精确的记录和追踪
+ * 如果象作菜过程中,每个人都明白最终结果和自个儿处理的食材的标准
+ * 那么,协同的团队中,每个人都应该明白所有相关成员的作用,控制范畴,自个儿的功能点上下文,任何问题都明确和谁商定可以得到正确的回复
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+过程改进!小结
+</h1>
+<center>
+<pre id="biger">
+
+目标来自计划;风险源于变化!
+
+进度受限资源;任务支撑进度!
+
+态度决定质量;效率受制管理!
+
+</pre>
+</center>
+
+    <div class="handout">
+== 小结 ==
+{{{
+目标来自预估;风险源于变化!
+进度受限资源;任务支撑进度!
+态度决定质量;效率受制管理!
+}}}
+    </div>
+</div>
+<div class="slide">
+<h1>
+成熟团队?
+</h1>
+
+<h2 id="largerwd">
+勇于
+<br/>
+拥抱变化
+</h2>
+
+    <div class="handout">
+ 拥抱变化::
+ * 想想作菜时任何一次失误~比如不小心盐洒多了~立即得到修正(多放点水/糖)
+ * 我们不能禁止变化,所以,一定要适应它,但是一定要以最小成本和时间来处理掉它,否则,总会在一个月圆之夜它会变身成人狼将你的一切工作破坏光的!
+
+ 良好心态::
+ * 战略上轻视,战术上重视
+ * 老毛的经验是绝对实用的!
+ * 在过程改进中,调整心态,开放思想,重视自个儿的劳动成果,为了确保自个儿的代码有最多的人关心和使用,不惜一切代价!
+
+ 认清未来和现在哪个重要?!::
+ * 不要幻想未来一下子可以得到一个神奇的运行良好的产品
+ * 一个朴素的但是可以稳定运行的产品永远比一个华丽的但是错误百出的产品要好上万倍!
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+成熟团队 ;)
+</h1>
+
+<h2 id="largerwd">
+保持
+<br/>
+良好心态
+</h2>
+
+    <div class="handout">
+ 良好心态::
+ * 战略上轻视,战术上重视
+ * 老毛的经验是绝对实用的!
+ * 在过程改进中,调整心态,开放思想,重视自个儿的劳动成果,为了确保自个儿的代码有最多的人关心和使用,不惜一切代价!
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+成熟团队!
+</h1>
+
+<h2 id="largerwd">
+Simple
+<br/>
+is better!
+</h2>
+
+    <div class="handout">
+
+ 认清未来和现在哪个重要?!::
+ * 不要幻想未来一下子可以得到一个神奇的运行良好的产品
+ * 一个朴素的但是可以稳定运行的产品永远比一个华丽的但是错误百出的产品要好上万倍!
+
+    </div>
+</div>
+<div class="slide">
+<h1>
+定义!过程改进:
+</h1>
+<br/>
+<br/>
+<h3>
+过程改进乃是催生可促生靠谱的人的组织!
+
+<br/>
+<br/>
+
+PE keeps evolving organizations <br/>
+which promoting people be good!
+</h3>
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+过程改进?定义解析...
+</h1>
+<br/>
+
+<pre id="biger">
+        过程改进
+            乃是催生  
+                可促生        
+                    靠谱的人
+                的
+            组织!
+</pre>
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+Kaopulity
+</h1>
+<br/>
+<h2 id="largerwd">
+向靠谱!
+<br/>
+反脑残!
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1>
+Kaopulity?
+</h1>
+<h2 id="largerwd">
+靠谱!
+</h2>
+<center>
+<h3>是主动的,是经验的,是深入性格的</h3>
+<br/>
+<h4>对比“专业”</h4>
+是被动的,是训练的,是外在表现的
+</center>
+    <div class="handout">
+    ...
+    </div>
+</div>
+<div class="slide">
+<h1> 文档版本 </h1>
+<ul>
+<li>版本历史::
+    <ul>
+        <li>v1.1 080821 修订文字错，为蟒营重整细节</li>
+        <li>v1.0 080524 修订文字追加细节</li>
+        <li>v0.9 080523 补充主体内容</li>
+        <li>v0.8 080522 确认原则</li>
+        <li>v0.7 080519 创建</li>
+    </ul>
+</li>
+</ul>
+</div>
+
+<div class="slide">
+<h1>
+白话 过程改进!
+</h1>
+<h2 id="largerwd">
+Q&A
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+
+
+</div><!--class="presentation"-->
+
+</body>
+</html>

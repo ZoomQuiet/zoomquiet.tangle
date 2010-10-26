@@ -1,0 +1,1281 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>自由与开源 (built by S5)</title>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+<meta name="generator" content="Bluefish 1.0.7"/>
+<meta name="version" content="S5 1.0" />
+<meta name="author" content="Zoom.Quiet"/>
+
+
+<link rel="stylesheet" href="ui/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/opera.css" type="text/css" media="projection" id="operaFix" />
+<link rel="stylesheet" href="ui/print.css" type="text/css" media="print" id="slidePrint" />
+<script src="ui/slides.js" type="text/javascript"></script>
+<!-- embedded styles -->
+<style type="text/css" media="all">
+/* The esp. Effect support */
+ul#largerwd{
+    font-size: 200%; 
+}
+h2#largerwd {
+    width:100%;
+    font-size: 400%; 
+    text-align: center;
+    color: #fff;
+    margin: 50px 0 0 0; padding: 0;
+    }
+
+</style>
+
+</head>
+<body>
+
+<div class="layout">
+
+<div id="currentSlide"></div>
+<div id="header"></div>
+<div id="footer">
+<table>
+<tr>
+<td><a target="_blank"  href="http://wiki.woodpecker.org.cn/moin/ZPyUG">
+ZPyUG</a> 
+</td>
+<td rowspan="2">
+<a  target="_blank" style="background-color:;" href="http://cn.creativecommons.org/index.php/licenses/licenses_exp">
+<img src="img/by-24.gif"/>
+<img src="img/nc-24.gif"/>
+<img src="img/sa-24.gif"/>
+</a>
+v0.9.1 071017
+<br/>
+推荐使用<a  target="_blank" 
+href="http://www.mozilla.org.cn">FireFox</a>获取最佳浏览体验!
+</td>
+</tr>
+<tr>
+<td>
+<a  target="_blank" href="http://zoomquiet.org">
+Zoom.Quiet
+</a>
+</td>
+
+</tr>
+</table>
+
+<div id="controls"></div>
+</div>
+
+</div>    <div class="presentation">
+
+<div class="slide">
+
+<h1><img src="img/CPUGlogo-150.gif" /></h1>
+
+<h3>
+漫谈自由与开源
+<br/><sup>++ ZPyUG/ZEUUX社区介绍</sup>
+</h3>
+
+</div>
+
+<div class="slide">
+<h1>提纲</h1>
+
+<ul>
+
+<li>软件？怎么自由的？
+    <ul>
+    <li>圣·RMS..
+    <li>软件战争？自由软件的成果
+    <li>这一切怎么来的？GNU世界的结构
+    </ul>
+</li>
+<li>开源？开放的是什么？
+    <ul>
+    <li>为“黑客”正名！
+    <li>黑客们创造的软件奇迹
+    <li>自由软件到开源开发的分裂
+    <li>感谢老天，我们有丰富的自由/开源软件使用
+    </ul>
+</li>
+<li>中国自由社区
+    <ul>
+    <li>Python！啄木鸟社区:社区创立的历史
+    <li>CPyUG~ZPyUG 中国Python 发展的格局
+    <li>ZEUUX 计划 ~ 纯粹自由软件的呼声
+    </ul>
+</li>
+
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>有这么一个人...</h1>
+
+<ul>
+
+<li><img src="foto/philosophical-gnu-sm.jpg" />
+ <ul>
+<li>邋遢，固执，还肥胖……
+</li>
+<li>不是官员，但是游历世界，不论在哪里都可能受到热烈的接待或是臭骂;-)
+</li>
+<li>不是明星，但是凡通互联网的地方就有人在传颂他的事迹
+</li>
+<li>他所讲过的话，他作过的事儿，都被记录下来被人们研究……
+
+</li>
+
+<li>有<a href="http://mswidows.blogchina.com/675391.html">列传
+</a>叹服:
+    <ul>
+    <li>“算史公赞曰： 天下熙熙，皆为利来；天下攘攘，皆为利往，电算界亦若是。然斯氏独不以利为要，举自由之旗，破奸利之弊，不亦宜乎！吾辈今可用自由软体，悉有斯氏之功。伟哉，理查德斯多曼。”
+    </ul>
+</li>
+
+</ul>
+
+</li>
+
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>RMS</h1>
+
+<ul>
+
+<li>这是个专用词，在软件界，唯有一个人专用的缩写！
+<a href="http://solidot.org/article.php?story=20050918102203215&query=RMS">
+<img src="foto/RMS.gif" />
+</a>
+
+</li>
+<li>瑞查得·马修·斯托曼 <b>Richard Matthew Stallman</b>（1953--）
+ <ul>
+<li>Emacs 软件的作者！
+<br/>凡是对这软件有意见，在世界任何地方都会激起剧烈的回应！
+</li>
+<li>GCC 组织开发者
+<br/>提供了坚强的几乎所有开源软件的母体！
+</li>
+<li>GNU 项目的发起人
+<br/>一个人成功组织，并成功开发了上千种软件
+</li>
+<li>FSF 基金会的发起人，
+<br/>仅仅靠个人理想，造就全球所有商用软件公司的重大的恶梦
+</li>
+<li>有<a href="http://mswidows.blogchina.com/675391.html">《理查德斯多曼列传》
+</a>曰:“斯氏，性简易，无妻女，无恒产，士于此多敬之。
+其独慕荣名。天下人视斯氏，褒者以之为圣贤，贬者以之为疯悖。”
+</li>
+</ul>
+
+</li>
+
+
+<li>一切是如何开始的？
+</li>
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>自由软件传奇</h1>
+
+<ul>
+
+<li>UNIX!
+    <ul>
+    <li>1969年，AT&T贝尔实验室的Ken Thompson编写了UINX的第一个版本
+    </li>
+    <li>整个70年代UINX以免费形式传播,直到1979年AT&T宣布UINX商业化
+    </li>
+    <li>同年 加州伯克利的学生Eric Allman,开发了sendmail,
+    <br/>今天Internet上75%的E-mail服务使用这个开放源码的程序来发送邮件
+    </li>
+    </ul>
+</li>
+
+<li>GNU!
+    <ul>
+    <li>1984年1月,RMS发表
+    <a href="http://www.cnic.org/wiki/GNU%E5%AE%A3%E8%A8%80">GNU宣言</a>
+    启动计划
+    </li>
+    <li>1987年，Andrew Tanenbaum公布了Minix,一个作为教学的类UNIX系统
+    </li>
+    <li>1991年，在RMS领导下GNU 基本完成所有UNIX 软件的替代开发
+    </li>
+    </ul>
+</li>
+
+
+<li>Linux!
+    <ul>
+    <li>1989年，芬兰赫尔辛基大学的学生Linus Torvalds为学习OS，发布了一个UINX的变种——Linux
+    </li>
+    <li>1992年，Linux接受了GPL，与GNU软件包绑定成为 GNU/Linux极速流行开
+    </li>
+    </ul>
+</li>
+<li>而且…………
+
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>软件战争</h1>
+
+<ul>
+
+<li>事实上
+    <ul>
+    <li>在电子世界中早已爆发了一场激烈的软件之战：
+    </li>
+    <li>    
+<a target=""
+ href="foto/SoftWareWar.gif">
+<img src="foto/SoftWareWar.png" />
+ </a>
+    </li>
+    
+    </ul>
+</li>
+<li>2005年微软件也承认：<a href="http://www.linuxaid.com.cn/infos/4/3/431741362.shtml">
+“已经学会与自由软件共生共存”</a>
+    </li>
+    
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>《操作系统革命》</h1>
+
+<ul>
+
+<li>在微软垄断下有一件东西永远它永远不会给你――真正的自由。
+    <ul>
+    <li>也正是因为这个原因，不少先锋人物站出来反抗微软帝国，并努力建立一种新的操作系统――没有人为的限制，任何人都可以自由地使用。
+    <li>为了记录这些人的艰苦历程，J.T.S. Moore拍摄了全新的记录片
+    <li><sup>
+    <a href="http://lib.verycd.com/2005/08/16/0000061272.html">
+ eMule 下载</a>;
+<a target="_blank"
+ href="http://wiki.woodpecker.org.cn/moin/SaintRMS">
+ 啄木鸟下载</a>
+ </sup>
+<img src="foto/RvOS.jpg" />
+ 
+    </ul>
+
+</li>
+    
+    
+</ul>
+
+
+</div>
+<div class="slide">
+<h1><img src="foto/linux-logo.jpg"/></h1>
+
+<ul>
+
+<br/><br/>
+<li>1998年 更是成为Linux的“品牌认知年”
+    <ul>
+    <li>1998年7月21日，Oracle决定向Linux平台的Oracle8提供正式技术支持
+    </li>
+    <li>1998年7月22日，Informix推出Linux版本的InformixSE
+    </li>
+    <li>1998年9月27日，IBM和Sybase宣布支持Linux
+    </li>
+    <li>同年，Windows98 发布同期，
+    <br/>由于 DebianLinux2.0正式发布,
+    <br/>就连世界上最大的文件下载服务器（http://ftp.cdrom.com）
+    <br/>也常常由于达到了它的最大用户数而拒绝向后来的网络浏览者提供服务
+    </li>
+    
+    </ul>
+</li>
+
+    <li>2000年，IBM发表“全面拥抱Linux”战略
+    </li>
+    <li>到今天全球大约已有2000万Linux用户，1亿多计算机在运行GNU/Liux，
+    </li>
+
+</ul>
+
+
+</div>
+<div class="slide">
+<h1><img src="foto/reiss-head.64.gif" /> 的精神</h1>
+Free as in Freedom
+<br/>
+<ul>
+
+<li>GNU == Gnu's Not Unix
+    <ul>    
+    <li><a href="http://www.oreilly.com/openbook/freedom/">
+    一切开始于一台 Xerox 打印机…………
+    </a>
+    </li>
+       
+    <li>如果我喜欢一个程序的话，那我就应该分享给其他喜欢这个程序的人
+    <ul>
+    <li>幼儿园时,老师教我们要学会分享,老师说:“如果你有糖， 
+你不能独吃，而应该和别的孩子分着吃。 ”
+但是现在如果你带了一些软件到学校，“喔！不，不要共享它！
+共享意味着你在偷窃，共享意味着你要坐牢。” 
+社会不应该是这样，我们需要好的风气 
+    </ul>
+    </li>     
+    <li>...为了能继续使用电脑而不感到羞愧，
+    </li>      
+    <li>...只要收集足够数量的自由软件，就可以不使用那些没有自由的软件来工作
+    </li>      
+        
+    </ul>
+    
+</li>
+<li><br/> <img src="foto/fsf-bk.jpg"/><br/>
+从此，法律上、哲学上以及技术上全面挺进的自由软件运动开始了...
+
+    </li> 
+    
+
+</ul>
+
+
+</div>
+
+<div class="slide">
+<h1><img src="foto/reiss-head.64.gif" /> 的哲学</h1>
+
+
+<ul>
+
+<li><a target="_blank"
+ href="http://www.gnu.org/philosophy/philosophy.zh.html">
+ GNU 的哲学
+ </a>
+ <ul>
+<li><a target="_blank"
+ href="http://www.gnu.org/philosophy/free-sw.html">
+ 什么是自由软件?
+ </a> 
+    <ul>
+    <li>0. 不论目的为何，有使用该软件的自由
+    <li>1. 有研究它的原代码自由，并且可自由去改动这个原代码
+    <li>2. 有重新散布该软件的自由
+    <li>3. 有改善再利用该软件的自由，可以发表改写版供公众使用，以使他人能从中受益
+    </ul>
+
+</li>
+<li><a target="_blank"
+ href="http://www.cnic.org/wiki/GNU:%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BD%AF%E4%BB%B6%E5%BA%94%E8%AF%A5%E6%98%AF%E8%87%AA%E7%94%B1%E7%9A%84">
+ 为什么软件应该是自由的</a> 
+    <ul>
+    <li>软件的开发应该和限制它们使用的所有者联系在一起吗？
+    <li>开发软件的影响(不论以何方式发布) 和 限制它使用的影响 的比较
+    <li>竞争变成战争时——“让最优秀的人获胜” 就让位于 “让我赢！不管是否是最优秀的”
+    </ul>
+</li>
+
+<li><a target="_blank"
+ href="http://www.cnic.org/wiki/GNU:%E4%B8%BA%E4%BB%80%E4%B9%88%E8%BD%AF%E4%BB%B6%E4%B8%8D%E5%BA%94%E8%AF%A5%E6%9C%89%E6%89%80%E6%9C%89%E8%80%85">
+ 为什么软件不应该有所有者?
+ </a> 
+</li>
+
+<li><a target="_blank"
+ href="http://www.cnic.org/wiki/GNU:%E8%87%AA%E7%94%B1%E4%B8%8E%E9%9D%9E%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6%E5%88%86%E7%B1%BB">
+ 自由与非自由软件的分类
+ </a>
+</li>
+<li><a target="_blank"
+ href="http://www.cnic.org/wiki/GNU:%E8%87%AA%E7%94%B1%E4%B8%8E%E9%9D%9E%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6%E5%88%86%E7%B1%BB">
+ 自由软件比较可靠
+ </a>
+</li>
+
+<li><a target="_blank"
+ href="http://www.cnic.org/wiki/GNU:%E8%B4%A9%E5%8D%96%E8%87%AA%E7%94%B1%E8%BD%AF%E4%BB%B6">
+ 贩卖自由软件 (是可以的！)
+ </a>
+</li>
+ 
+
+
+</ul>
+</li>
+<li> 自由软件是关乎自由，而不是价格!
+</ul>
+
+
+</div>
+<div class="slide">
+<h1><img src="foto/reiss-head.64.gif" /> 的法律</h1>
+
+<br/>
+<ul>
+
+<li>通过<a target="_blank"
+ href="http://www.opensource.org/licenses/">
+ 许可证
+ </a>的有法律效应的声明来保卫自由软件的<b>自由</b>
+    <ul>
+    <li>许可证是作者其他开发者以及用户之间的社会契约
+    </li>
+    <li>许可证是受版权保护的
+    </li>
+    <li>自由软件类许可证有:
+<ul>    
+<li>软件许可证
+    <ul>
+    <li>GPL兼容性许可证: 
+    <a href="http://www.gnu.org/licenses/gpl.html">
+    GPL</a>
+    ;<a href="http://www.gnu.org/copyleft/lesser.html">
+    LGPL</a>
+    ;<a href="    shttp://www.w3.org/Consortium/Legal/2002/copyright-software-20021231">
+    WSC</a>
+    ...
+    
+    <li>GPL不兼容性许可证:     
+    Apache License 
+    ,<a href="http://www.apache.org/LICENSE-1.0">v 1.0</a>
+    ,<a href="http://www.apache.org/LICENSE-1.1">v 1.1</a>
+    ,<a href="http://www.apache.org/licenses/LICENSE-2.0">v 2.0</a>
+    ;<a href="http://www.opensource.apple.com/apsl/2.0.txt">
+    Apple Public Source License (APSL)</a>,v 2
+    ;<a href="http://www.xfree86.org/3.3.6/COPYRIGHT2.html#6">
+    BSD</a>
+    ;<a href="http://www.netbeans.org/about/legal/spl.html">
+    Sun Public License</a>
+    ;<a href="http://oss.software.ibm.com/developerworks/opensource/license10.html">
+    IBM Public License</a>,v 1.0
+    ...
+    
+    </ul>
+</li>
+<li>自由文档许可证
+    <ul>
+    <li><a href="http://www.gnu.org/copyleft/fdl.html">
+    GNU Free Documentation License</a>
+    <li><a href="http://www.freebsd.org/copyright/freebsd-doc-license.html">
+    FreeBSD Documentation License</a>
+    <li><a href="http://www.opensource.apple.com/cdl/">
+    Apple's Common Documentation License, Version 1.0
+    </a>
+    <li><a href="http://opencontent.org/openpub/">
+    Open Publication License, Version 1.0
+    </a>
+    </ul>
+</li>
+
+<li>通用许可证
+    <ul>
+    <li><a href="http://www.gnu.org/licenses/gpl.html">
+    GNU General Public License</a>(GPL)
+    <li><a href="http://creativecommons.org/licenses/by-sa/2.0/legalcode">
+    Creative Commons Attribution-Sharealike 2.0 license</a>(CC 创作共用许可证) 
+    <sup><a href="http://www.creativecommons.cn/">
+    中文版
+    </a></sup>
+    <li>...
+    </ul>
+</li>
+</ul>
+    </li>
+    <li><a href="http://mswidows.blogchina.com/671593.html">
+    盗用开源软件代码的法律责任分析
+    </a>
+    </li>
+    </ul>
+</li>
+
+
+</li>
+
+
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>“黑客”与“骇客”</h1>
+
+<ul>
+
+<li>开源软件的斗士——<a href="http://www.ossw.com.cn/bencandy.php?id=76">
+Eric Steven Raymond </a>
+</li>
+<li>如果把Richard Stallman比喻为自由软件王国的教皇，
+<br/>Linus则为掌管大权的国王，
+<br/>而Raymond则是一名兢兢业业的宰相
+</li>
+<li><a href="http://joyfire.net/jln/project/7.html">
+Eric S. Raymond 五部曲</a>系统有力的阐述了黑客的世界
+    <ul>   
+    <li><a href="http://www.catb.org/~esr/faqs/hacker-hist.html">
+     《Hacker文化简史》</a>
+    </li>   
+    
+    <li><a href="http://www.catb.org/~esr/faqs/hacker-howto.html">
+     《如何成为一名Hacker》</a>
+     <sup><a href="http://wiki.woodpecker.org.cn/moin/HackerHowto">
+     中译</a></sup>    
+     <ul>
+     <li>Hacker -- 黑客们建设 
+     <li>Cracker -- 骇客们破坏 
+     </ul>
+    </li>   
+    
+    <li><a href="http://www.catb.org/~esr/writings/cathedral-bazaar/">
+     《大教堂和市集》</a>
+直接导致当年Netscape作出<a href="http://wp.netscape.com/newsref/pr/newsrelease558.html">
+投身自由软件的惊人之举</a>
+    </li> 
+    <li><a href="http://www.catb.org/~esr/writings/openmind.html">
+     《开拓智域》</a>
+
+    </li>   
+    <li><a href="http://www.catb.org/~esr/writings/magic-cauldron/">
+     《魔法大锅炉》</a>
+    </li>   
+    </li>   
+    <li>还有很多其它的著名文章:
+        <ul>
+        <li><a href="http://www.catb.org/~esr/faqs/smart-questions.html">
+     《提问的智慧》</a>
+     <sup><a href="http://wiki.woodpecker.org.cn/moin/AskForHelp">
+     中译图谱</a></sup>
+     </ul>
+    </li>   
+      
+    </ul>
+    
+</li>
+
+
+</ul>
+
+
+</div>
+
+<div class="slide">
+<h1>开源魔法</h1>
+
+<ul>
+
+<li>软件危机
+    <ul>
+    <li>硬件！“莫尔定律”
+    <ul>
+        <li>1965年，美国仙童公司的研发人员高登·莫尔(Gordon Moore)提及:
+            <br/>“单位面积芯片中晶体管数量大约每隔1年就会增加1倍”
+        <li>1975年，莫尔自己修订为“..每隔2年大约会增加1倍"”
+        <li>同年Intel公司高层 David House 指出：“计算机的性能每隔18个月就会增长1倍”
+    </ul>
+    
+    <li>软件！刚刚阅读硬件独立发展的软件，却没有吻合“莫尔定律”
+    
+    <ul>
+    <li>1968年NATO（北大西洋公约组织），人们意识到“软件危机”
+    <li>IBM公司在1963~1966年开发的OS IBM360...bug泥潭
+    </ul>
+    
+    <li>针对性的提出“软件工程”
+        <sup>相关阅读：软件与中国古代史-
+        <a href="http://mental.mentsu.com/root/entry.php?id=18">
+        大历史观</a>；
+        <a href="http://mental.mentsu.com/root/entry.php?id=19">
+        政界往事</a>；
+        <a href="http://mental.mentsu.com/root/entry.php?id=17">
+        程序员豫让</a>
+        </sup>
+    <ul>
+    <li>但是！“人们至今尚未找到象神话中能够制服“狼人”(软件危机的本质问题)的银弹”,
+    1987 Fred Brroks《没有银弹》
+    <li>“瀑布法”，原核法，OOP，TDD，XP…………
+    </ul>
+    </li>
+    
+    </ul>
+</li>
+
+<li>但是！开源软件却生机勃发的高速开发出了无数高品质软件！
+    <ul>
+    <li>大集市……
+    <li>弱肉强食……
+    <li>简单即是美！即是强大！
+    </ul>
+</li>
+ 
+</ul>
+
+
+</div>
+
+<div class="slide">
+<h1>软件工程概述</h1>
+
+
+<ul>
+
+<li>量变到质变的飞跃
+    <ul>
+    <li>软件开发不能简单的按照制造业的工程方法来组织
+    <li>模块的被信任/复用，在软件中很难
+    <li>团队中的沟通，如果掺杂了利益，代价将指数性上升
+    <li>....
+    </ul>
+</li>
+<li><img src="foto/softwareproject.jpg" />
+<sup>图自:Aimingoo"从编辑到工程"
+<br/><sup>《程序员》2005-7月</sup></sup>
+</ul>
+
+<br/>
+
+
+<h5>自由软件中自发形成的开源模式的软件工程管理，却魔法般的高效生产出美妙的软件……
+</h5>
+
+</div>
+<div class="slide">
+<h1>自由软件vs开放源码</h1>
+<h5>
+斯氏于自由，属意甚坚，人多以之为过苛，斯氏独不然也。有黑客文士瑞蒙德，及林纳士，皆曰过甚，另起事曰开源。其本意与自由软体同，惟利与众商和。
+</h5>
+
+<br/><br/>
+<ul>
+
+<li>基于两种不同哲学理念而发起的运动
+    <ul>
+    <li>自由软件的目的在于自由的“分享”与“协作”
+    <li>开源目的是提高技术等级,带来的价值跟微软所提倡的一样，都是狭窄的实际价值（narrowly practical values）    
+    </ul>
+</li>
+<li>为什么哲学理念会产生影响？ 
+    <ul>
+    <li>因为人们不重视他们的自由必将失去自由
+    <li>如果你给人们自由而不告诉他们重视自由，他们所拥有的自由必不长久
+    
+    </ul>
+</li>
+</ul>
+
+
+</div>
+<div class="slide">
+<h1><img src="foto/CLvsCR.gif" /></h1>
+
+
+<ul>
+<li>1970年4月26日《伯尔尼公约》--版权条约,开始实施
+
+<li>1976年1月31日,署名为Bill Gates，Micro-Soft合伙人 的公开信
+<ul>
+<li>向社区逐点阐述了软件产权相关的新观念
+<li>因为直到那时，计算机用户仍然保持着自由分发传递软件的习惯
+
+</ul>
+<li>1979年，AT&T宣布使UINX商业化
+<ul>
+<li>专利法的概念应用于软件产品之上使软件行业迅速发展成为一个巨型的市场
+<li>Copyright 开始征服电子世界..
+</ul>
+
+<li>1984年RMS提出GNU 计划，并定义自由软件
+    <ul>
+    <li>Copyleft 开始解放人们的创造力
+    </ul>
+<li>1985年RMS创立自由软件基金会（FSF）
+
+<li>1998年2月Eric Raymond和他的朋友们一起提出“开放源码”这个术语 
+    <ul>
+    <li>Open-Source 为商人们解释他们可以理解的“自由”...
+    </ul>
+</ul>
+
+
+</div>
+<div class="slide">
+<h1><img src="foto/CLvsCR.gif" /> </h1>
+
+
+<ul>
+
+<li><a target="_blank"
+ href="http://www.douban.com/subject/1236778/">
+<img src="foto/OPENSOURCESbook.jpg" />
+《开源软件文集》
+</a>——<sup>开源革命之声</sup>
+
+    <ul>
+    <li>关乎历史
+    <li>自由软件与共产主义
+    <li>经济重要还是道德重要
+    <li>自由与质量
+    <li>“我自豪，我用盗版！” 的投降本质
+    <li>Freeware VS FreeSoftware
+    <li>Copyright VS Copyleft
+    <li>...
+    
+    </ul>
+</li>
+
+
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>Open-Source 商业模式</h1>
+
+<ul>
+
+<li>
+<img src="foto/opensource-110x95.png" />
+<img src="foto/logo_flosspols_kleur2.png" />
+<img src="foto/logo_floss.gif" />
+<img src="foto/logo_flossworld.gif" />
+...已经有丰富的开源组织在运营中
+</li>
+
+<li>开源商业模式的优势:
+    <ul>
+    <li>是一种高效，节约的生产模式
+    <li>能够获得用户的广泛的接受
+    <li>是一种高生产力模式
+    </ul>
+</li>
+<li>开源商业模式存在的问题:
+    <ul>
+    <li>易复制
+    <li>知识产权冲突
+    <li>社区依赖
+    </ul>
+</li>
+<li>成果丰富:
+<a href="http://www.linuxeden.com/edu/doctext.php?docid=3034">
+Windows 软件的免费替代品列表
+</a>
+</li>
+ 
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>Open Source 在中国 ~特征</h1>
+
+
+<ul>
+
+<li>还处于早期阶段，其特征在于：
+    <ul>
+    <li>1. 没有形成一个自由程序员阶层  
+        <ul>
+        <li>中国程序员目前的经济情况还处于温饱状态
+        <li>不熟悉自由软件开发的通行模式
+        <li>基于Unix系统的程序员不多
+        <li>中国对开源软件的贡献很有限……
+        
+        <li>例如：<a href="http://www.spinellis.gr/freebsd-devmap.png">
+        FreeBSD开发者全球分布统计</a>
+            <img src="foto/freebsd-devmap.png" />
+        </ul>
+
+        </ul>
+    </ul>
+</li>
+ 
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>Open Source 在中国 ~社区</h1>
+
+
+<ul>
+<li>2. 没有形成完整的自由软件社区   
+    <ul>
+    <li>具社会影响力的自由软件社区:
+    <li>新闻论坛 <a href="http://slashdot.org/">slashdot.org</a> 
+        <ul>
+        <li><a href="http://solidot.org/">
+        solidot.org 奇客新闻</a>        
+        <img src="foto/Solidot-88x31-white-2.gif" />
+        <sup>原 slashdotcn.org</sup>
+        </ul>        
+    <li>自由软件下载基地 <a href="http://freshmeat.net">freshmeat.net</a>     
+        <ul>
+        <li><a href="http://freesoft.cei.gov.cn/">
+        中国自由软件库(中经网) 常常停机</a>
+        <li>除了各自由软件项目的中国镜像
+        <li>中国只有免费/D版软件下载
+        </ul>
+    <li>软件项目管理基地 <a href="http://sourceforge.net">
+    <img src="foto/sfnet.png" /></a> ;
+    <a href="http://www.tigris.org/">
+    <img src="foto/tigris-logo.png" />tigris.org
+    </a>..        
+        <ul>
+        <li><a href="https://gro.clinux.org/">GRO</a>
+        ;<a href="http://cosoft.org.cn/html/">
+        <img src="foto/cosoft-logo.gif" />
+        </a> 管理不善 都不成功
+        </ul>
+    <li>Linux 杂志，如:<a href="http://www.linuxjournal.com/">Linux Journal</a> 
+    ,<a href="http://www.linuxmagazine.com/">Linux Magazine</a> 
+    ,<a href="http://www.linuxpromagazine.com/">Linux Pro Magazine Magazine</a>
+    <ul>
+        <li>在中国各种程序员杂志常常 充斥M$,JAVA等等“时尚”技术的介绍
+        </ul>
+    </ul>
+
+</li>
+ 
+</ul>
+
+
+</div>
+<div class="slide">
+<h1>Open Source 在中国 ~社会认同</h1>
+
+
+<ul>
+    <li>3. 社会对如何利用和回馈自由软件社区的力量了解不足    
+        <ul>
+        <li><a href="http://business.newsforge.com/article.pl?sid=05/11/04/1727259&from=rss">Linux在中国的病症</a> 指出Chinese Rules 的影响
+        <li>纯开源模式运作的软件公司，在中国极少
+        <li>受到关注的事件:
+        <a href="http://solidot.org/article.php?story=20050924151739488&query=%25CD%25CB%25D1%25A7">
+        "王垠退学"</a>
+        <a href="http://www.woodpecker.org.cn/share/graspOnline/learn.tsinghua.edu.cn/homepage/2001315450/">事件</a>
+        
+        <sup>
+        <a href="http://learn.tsinghua.edu.cn/homepage/2001315450/linux_adv.html">
+        《完全用 GNU/Linux 工作》</a> 成就的
+        <a href="http://learn.tsinghua.edu.cn/homepage/2001315450/thought-20040827.html">名气
+        </a>
+        </sup>
+        <ul>
+        <li>社区对自由软件的宣传 -- 
+        <a href="https://czug.org/">CZUG.org
+        <img src="foto/blackDragon-ico-02.png" /></a>
+        ;<a href="http://www.chinaunix.net/">
+        <img src="foto/CU.gif" /></a>
+        ;<a href="http://www.aka.org.cn/index.shtml">
+        <img src="foto/aka.gif" /></a>
+        ..
+        <li>个人对自由软件的宣传 -- 
+        <a href="http://www.douzhe.com/">
+        ★窦哲的主页::unix中文宝库</a>
+        ;<a href="http://www.rons.net.cn/">MNM</a>
+        ;<a href="http://www.baow.com/news/show/1">baow.com</a>
+        ;<a href="http://fanqiang.chinaunix.net/">
+        <img src="foto/fanqiangUNIX.gif" /></a>
+        ..
+        
+        <li>网站对自由软件的宣传 --         
+        ;<a href="http://www.linuxforum.net/index.php">
+        中国LINUX论坛</a>...
+        
+        </ul>
+
+        </ul>
+    </ul>
+</li>
+ 
+</ul>
+
+
+</div>
+
+
+<div class="slide">
+<h1>LAMP<sup>s</sup></h1>
+
+
+<ul>
+
+<li>LAMP<sup>s</sup> 自由之灯！ 
+    <ul>
+    <li><a href="http://www.linux.org/">
+    <b>L</b>inux</a> - unbreakable 的企鹅，操作系统中的明星
+    
+    <li><a href="http://www.apache.org/">
+    <b>A</b>pache</a> - 印地安武士般强捍的Web服务器
+    
+    <li><a href="http://dev.mysql.com/">
+    <b>M</b>ySQL</a> - 海豚样明快聪慧的轻型数据库系统
+    
+    <li><a href="http://www.perl.org/">
+    <b>P</b>erl</a> - 骆驼般坚忍耐用的脚本语言
+    
+    <li><a href="http://www.php.net/">
+    <b>P</b>hp</a> - 大象般安稳好使的专用动态页面脚本语言
+    
+    <li><a href="http://python.org/">
+    <b>P</b>ython</a> - 巨蟒!强大简洁灵活的高级动态脚本语言
+    
+    <li><a href="http://www.postgresql.org/">
+    <b>P</b>ostgreSQL</a> - 又一以象为吉祥物的稳定高效且开源的大型数据系统
+    <li>....
+    <ui>
+    <li> 还有 <a href="http://zope.org">Zope</a>
+     ,集以上所有之大成的强力发布/开发/管理平台
+    </ul>
+    </ul>
+</li>
+<li>"I am because we are"
+    <ul>
+        <li><a href="http://www.ubuntu.org.cn/niche">
+        <img src="foto/ubuntu_banner_468x60.png"/>
+        </a>
+    </ul>    
+</ul>
+
+
+</div>
+
+
+<div class="slide">
+<h1>灵蟒！ Python</h1>
+
+<ul>
+<li><a href="http://python.org"><img src="foto/python.jpg" /></a>
+<li><a href="http://www.woodpecker.org.cn/share/classes/0904-tutpy/tutpython001/">
+Python 介绍
+</a>
+<sup>
+--<a href="http://www.donews.net/limodou/">limodou</a>
+</sup>
+    <ul>
+    <li><a href="http://www.douban.com/subject/1239501/">
+    <img src="foto/learnpython.jpg"/>《Python语言入门》
+    </a>
+    </ul>
+</li>
+
+</ul>
+
+
+</div>
+
+<div class="slide">
+<h1><img src="img/_wp-www_banner.png" /></h1>
+<br/>
+<ul>
+<li>回顾啄木鸟社区创立历程
+    <ul>
+    <li>2001年4月 <a href="http://www.linuxforum.net/forum/postlist.php?Cat=&Board=python">
+    中国Linux论坛 Python 编程 版块
+    </a>
+    <li>2002年4月 <a href="http://www.chinesepython.org/">
+    <img src="foto/cpylogo.gif"/></a>发布 
+    <li>2003年2月 <a href="http://www.chinesepython.org/">
+    CZUG.org</a> 开通
+    <li>2004年1月 <a href="http://python.cn/pipermail/python-chinese/">
+    python.cn 邮件列表</a>开通
+    <li>2004年3月30日 在上海发布Python知识的Wiki 
+    <br/>http://220.248.2.35:7080
+    <sup>反向代理发布 MoinMoin 1.2系统</sup>
+    <li>2004年7月2日 HD <a href="http://python.cn/pipermail/python-chinese/2004-July/002072.html">
+    "高性能分布式网络存储系统的想法"
+    </a> 促成一个以项目为中心的实践型社区的计划
+    <li> 2005年5月 HD进入新浪，并提供专用主机资源，开启 
+    <a href="http://www.woodpecker.org.cn/">woodpecker.org.cn</a>
+    <li>2005年6月1日 <a href="http://wiki.woodpecker.org.cn/moin/CnPyUniteLayout">
+    经讨论</a> 决定整合资源建立 CPUG
+    <li> 2005年7月30日<a href="http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30">
+    <img src="img/CPUGlogo-100.gif" /></a>成立..
+    </ul>
+</li>
+
+</ul>
+
+
+</div>
+
+<div class="slide">
+<h1><img src="img/_wp-www_banner.png" /></h1>
+
+<br/>
+<ul>
+<li>啄木鸟自由开发社区资源
+    <ul>
+    <li><a href="http://wiki.woodpecker.org.cn/moin/CPUG">
+    <img src="img/_wp-wiki_banner.png"/>
+    </a> <sup>-- 知识管理</sup>
+    
+    <li><a href="http://wiki.woodpecker.org.cn/moin/CPUG">
+    <img src="img/_wp-trac_banner.png"/>
+    </a> <sup>-- 项目管理</sup>
+    <li><img src="img/groups_medium_zh-CN.gif"/>
+    <sup><a href="http://groups.google.com/group/CPUG/aboutG">
+    CPUG 邮件列表</a>;
+    <a href="http://groups.google.com/group/bpug/about">
+    BPUG 邮件列表</a>;
+    <a href="http://groups.google.com/group/python-cn/about">
+    python.cn 邮件列表</a>;
+    <a href="http://groups.google.com/group/cpug-eastchina/about">
+    cpug-eastchina 邮件列表</a>;...
+    </sup> 
+    
+    <li><a href="hhttp://python.cn/">    
+    <img src="img/plone_powered.gif"/>
+    社区门户</a> <sup>域名<a href="http://www.exoweb.net/">Exoweb捐赠</a>,主机由啄木鸟社区提供</sup>
+    
+    
+    <li> 会课制度 -- <sup>让我们互为老师</sup>
+    <ul>
+    <li> <a href="http://wiki.woodpecker.org.cn/moin/WoodpeckerClass">
+    啄木鸟会课</a>
+    
+    <li> <a href="http://wiki.woodpecker.org.cn/moin/BPUG">
+    CPUG会课</a>
+    
+    </ul>
+    
+    <li> 其它各种<a href="http://wiki.woodpecker.org.cn/moin/CPUGres">实用资源</a>不断补充中……
+    </ul>
+</li>
+
+</ul>
+
+
+</div>
+
+
+<div class="slide">
+<h1> <img src="img/WikiTshirt-logo.gif" /> </h1>
+<br/><br/>
+<ul>
+    <li><a href="http://wiki.woodpecker.org.cn/moin/CPUG">
+    <img src="img/CPUGlogo-100rc1.gif" />
+    </a>    共同的旗帜！
+        <ul>
+        <li> <a href="http://wiki.woodpecker.org.cn/moin/BPUG">
+        <img src="img/BPUGlogo90.gif" />
+        </a>
+        制度化的交流
+        </ul>
+    </li>
+    <li>新的开始:<a href="http://wiki.woodpecker.org.cn/moin/SPUG/">
+    <img src="img/SPUG-T.gif"/></a>
+    </li>
+    <li>再次开始:<a href="http://wiki.woodpecker.org.cn/moin/ZPyUG/">
+    ZPyUG</a><sup>--珠江三角洲地区Python用户组</sup>
+    </li>
+    <li>……更多其它地区的 *PUG 组织在筹备中！
+    </li>
+        
+</ul>
+</div>
+
+
+<div class="slide">
+<h1> <img src="img/zeuux-logo.gif"/>
+<a href="http://www.zeuux.org/campaign/campaign.cn.html">
+ 行动</a> </h1>
+<ul>
+    <li><a href="http://www.zeuux.com/">"致招商银行的公开信"行动</a>
+    <ul>
+        <li>2007年1月31日~6月30日 阅读、讨论、传播<a href="http://www.billxu.com/friend/rms/an.open.letter.to.cmb.html">"致招商银行的公开信"</a>
+            </li>
+        <li>2007年7月1日－9月30日 正式提交给招商银行
+            </li>
+        <li>2007年10月1日~~ 发表此次公开行动的声明
+            </li>
+    </ul>
+    </li>
+    <li><img src="foto/sfd-2007-xian.jpg"/>
+    
+        </li>
+    <li><a href="http://www.zeuux.org/fashion/fashion.cn.html">
+        自由软件T恤＆饰品    
+    </a> <sup>自制发售</sup><br/>
+    <img src="foto/fashion-python-kuduan-black-small.jpg"/>
+        </li>
+    
+</ul>
+</div>
+
+<div class="slide">
+<h1> <img src="img/zeuux-logo.gif"/><a href="http://www.zeuux.org/">
+ 计划</a> </h1>
+<br/>
+<h2 id="largerwd">
+介绍自由软件
+<br/>推广自由软件
+<br/>生产自由软件
+</h2>
+
+</div>
+
+<div class="slide">
+<h1> <img src="img/zeuux-logo.gif"/><a href="http://www.zeuux.org/">
+ 历史</a> </h1>
+<br/>
+<ul>
+    <li> 由<a href="http://www.billxu.com/">徐继哲</a>在 2006年5月创立主导思想,并申请域名
+        </li>
+    <li> 于2006年12月正式在京成立
+        </li>
+    <li> 于2007-01-31 15:47:27<a href="http://www.zeuux.com/">哲思维基</a>上线
+<sup>借用啄木鸟主机</sup>
+        </li>
+    <li> 于2007年5月2日 拥有独立主机,迁移维基成功
+    <li> 于2007年8月开通 @zeuux.org 邮箱
+        </li>
+    <li> 于2007年9月开通 <a href="http://www.zeuux.org/mailman/listinfo/zeuux-universe">
+    zeuux-universe 邮件列表</a> 开通
+        </li>
+    <li> 2007-09-01 参加<a href="http://wiki.woodpecker.org.cn/moin/BPUG/2007-09-01">CPyUG总第21次会课</a><sup>录音下载<a href="http://www.woodpecker.org.cn/share/classes/classes2007/070901-py-zeuux/V013-dip-haokan-zeuux.ogg">V013-dip-haokan-zeuux.ogg 128';41M</a></sup>
+        </li>
+    <li> 2007/09/16 同西安邮电学院联合主办 <a href="http://blog.csdn.net/arthur5933/archive/2007/09/16/1787034.aspx">第四届国际软件自由日(西安)</a>
+    <sup><a href="http://shiyuhang.org/articles/free.html"> 演讲视频</a></sup>
+        </li>
+    <li> ...
+        </li>
+</ul>
+</div>
+http://shiyuhang.org/articles/free.html
+
+<div class="slide">
+<h1>总结</h1>
+
+<ul>
+
+<li>自由！高贵的精神支柱
+</li>
+<li>开源！神奇的软件开发模式
+</li>
+<li>Python！美好易用的脚本语言
+</li>
+<li><a href="http://wiki.woodpecker.org.cn/moin/RouseChina">我们的奋起宣言！</a>
+<pre>
+每日至少抽一刻钟,解答邮件列表中初学者的问题，
+每周至少抽两小时,整理新学知识将体验发表/分享出去，
+    通过Blog/Wiki/MaiList/个人网站……
+每旬至少抽四个小时, 来翻译自个儿喜爱的自由软件的文档，
+每月至少抽八小时, 快乐的编程，推进自个儿的项目，
+每年至少参加一次, 自由软件的活动，传播自由软件思想，
+    发展一名“自由人”……
+只要我们每个人都坚持下去……
+10年！就足以改变中国软件的整体风貌！
+</pre>引发自<a href="http://python.cn/pipermail/python-chinese/2005-September/015675.html">
+圣・RMS ！！！
+</a>
+</li>
+</ul>
+
+</div><div class="slide">
+<h1> 关于S<sup>5</sup> </h1>
+<ul>
+<li>幻灯展示: 
+    <ul>
+    <li><a target="_blank"  href="http://www.meyerweb.com/eric/tools/s5/">
+    <img src="S5icon.GIF" />
+    S<sup>5</sup></a> : A Simple Standards-Based Slide Show System
+    <li> 纯HTML 幻灯效果工具制作 <a href="s5-intro.html">本地介绍页面</a>
+    </ul>
+    </li>
+<li>编写环境:     <span style="float:right"><img src="snap-leoWrite.png">
+    </span>
+    <ul>
+    <li><a target="_blank"  href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment">
+    <img src="LeoProse.gif" />Leo</a> 
+    <br/>:: 文学编程环境
+    <li> 纯Python 实现的通用编辑环境 
+    </ul>
+    </li>
+    
+</ul>
+</div>
+<div class="slide">
+<h1> 制作免责 </h1>
+
+<ul>
+    <li><a href="http://wiki.internal.sina.com.cn/moin/ZoomQuiet">Zoom.Quiet 
+    </a>伙同所有热心的中国Pythoner共同制作 
+        <ul>
+        <li> <a href="http://www.donews.net/limodou">
+        <img src="id/limodou.gif" /></a>
+        ,<a href="http://blog.sina.com.cn/m/hdcola">
+        <img src="id/HD.gif" /></a>
+        ,<a href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet">
+        <img src="id/zhouqi.gif" /></a>
+        ,<a href="http://wiki.woodpecker.org.cn/moin/AlbertLee">
+        <img src="id/AlbertLee.gif" /></a>
+        ,<a href="http://www.xulei.org/">
+        <img src="id/eddyxu.gif" /></a>
+        ,<a href="http://www.livejournal.com/users/hongqn/">
+        <img src="id/QiangningHong.gif" /></a>
+        ,<a href="http://xyb.8800.org/">
+        <img src="id/xyb.gif" /></a>
+        ,<a href="http://blog.douban.com/">
+        <img src="id/beanABei.gif" /></a>
+        ,<a href="http://wiki.woodpecker.org.cn/moin/Hoxide">
+        <img src="id/hoxide.gif" /></a>
+        ,<a href="http://blog.sina.com.cn/u/1140330320">
+        <img src="id/rive4.gif" /></a>
+        
+        ,<a href="http://www.donews.net/changzheng/">
+        <img src="id/breeze.gif" /></a>
+        ,<a href="http://blog.donews.com/perrin/">
+        <img src="id/perrin.gif" /></a>
+        ,<a href="http://wiki.woodpecker.org.cn/moin/nEO">
+        <img src="id/neo.gif" /></a>
+        ......
+        
+        <li> 一切资料来自互联网
+        <li> 所有想法来自日常学习工作
+        <li> 所有体悟来自各种沟通分享
+        <li> 所有知识来自网络分享印证
+        <li> 所有经验来自个人失败经历……        
+        </ul>
+    </li>
+</ul>
+</div>
+
+<div class="slide">
+<h1> 文档版本 </h1>
+<ul>
+<li>版本历史::
+    <ul>
+    <li>v0.9.1 071017 补充ZEUUX 社区情景
+    </li>
+    <li>v0.9 051119 发现新内容！补充BSD社区内容
+    </li>
+    <li>v0.8 051117 生日，完善开源的对比内容
+    </li>
+    <li>v0.7 051116 创建,调节模板CSS
+    </li>
+    </ul>
+</li>
+</ul>
+</div>
+
+</div><!--class="layout" -->
+</div><!-- class="presentation"-->
+
+</body>
+</html>

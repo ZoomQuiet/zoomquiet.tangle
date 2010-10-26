@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/" title="啄木鸟社区" alt="" coords="447,114,532,141"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/OBP" title="啄木鸟:图书计划" alt="" coords="327,168,441,194"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="华蠎用户组" alt="" coords="528,168,613,194"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython" title="啄木鸟:图书维基" alt="" coords="252,226,367,253"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/" title="OBP:工程空间" alt="" coords="521,340,620,366"/>
+<area shape="rect" href="http://groups&#45;beta.google.com/group/python&#45;cn" title="CPyUG列表" alt="" coords="644,340,729,366"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/BPUG" title="京蠎用户组" alt="" coords="500,226,585,253"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/ZPyUG" title="珠蠎用户组" alt="" coords="708,226,793,253"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/SPUG" title="长蠎用户组" alt="" coords="391,226,476,253"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/wiki/LovPyRush" title="OBP:工程维基" alt="" coords="604,393,703,420"/>
+<area shape="rect" href="http://openbookproject.googlecode.com/svn/trunk/LovelyPython/" title="OBP:版本仓库" alt="" coords="359,393,457,420"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/issues/list" title="OBP:提案追踪" alt="" coords="481,393,580,420"/>
+<area shape="rect" href="http://groups.google.com/group/openbookproject" title="OBP:邮件列表" alt="" coords="481,446,580,473"/>
+<area shape="rect" href="http://www.zeuux.org/" title="哲思:社区" alt="" coords="181,42,256,69"/>
+<area shape="rect" href="http://www.zeuux.com/" title="哲思:平台" alt="" coords="297,114,372,141"/>
+<area shape="rect" href="http://www.zeuux.org/mailman/listinfo/zeuux&#45;python" title="哲思:邮件列表" alt="" coords="163,340,264,366"/>
+<area shape="rect" href="http://code.google.com/p/openbookproject/wiki/UsageIrc" title="IRC频道" alt="" coords="201,114,273,141"/>
+<area shape="rect" href="http://obp.everydo.com/@@basecamp_dashboard" title="易度" alt="" coords="991,226,1063,253"/>
+<area shape="rect" href="http://obp.everydo.com/projects/599264/todos" title="易度:图书" alt="" coords="916,340,991,366"/>
+</map>

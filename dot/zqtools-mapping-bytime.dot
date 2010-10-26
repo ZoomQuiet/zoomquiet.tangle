@@ -1,0 +1,93 @@
+digraph ZqBookG {
+    /*生成命令:
+$ dot -Tpng zqtools-mapping.dot -o zqtools-mapping.png -Tcmapx -o zqtools-mapping.map
+    全局设定
+    color:dimgrey white whitesmoke snow azure yellowgreen darkolivegreen skyblue navy orange indigo khaki
+    */
+    graph [label="大妈工具箱 用途分析图谱\n {by Zoom.Quiet}",
+        labeljust="r",labelloc="t",center=1,
+        ranksep=0.2,ratio=compress,
+        rankdir=TB,
+        ];
+
+    node[fontsize=10.5,
+        height=0.1,
+        style=filled,fillcolor=snow,
+        color=gray70,fontcolor=darkolivegreen,
+        shape=plaintext,
+        ];
+
+    edge [fontsize=9.0,fontcolor=dimgrey,
+        color=dimgrey,arrowsize=0.5,arrowhead=vee,arrowtail=none,
+        ];
+
+
+    /*图元声明
+        start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+    */
+    ttag [label="时间轴",shape=box,];
+    ctag [label="",shape=plaintext,];
+    1974 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1978 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1981 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1986 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1987 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1990 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1993 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1994 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1996 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1998 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1999 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2000 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2001 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2003 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2004 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2005 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2006 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2007 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2008 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2009 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+
+    1974->1978->1981->1986->1987->1990->1993->1994->1996->1998->1999->2000->2001->2003->2004->2005->2006->2007->2008->2009 [color=gray,style="setlinewidth(4)"];
+
+
+
+    { rank=same; ttag   ; }
+    { rank=same; ctag   ; }
+    { rank=same; 1974   ; }
+    { rank=same; 1978       ; }
+    { rank=same; 1981   ; }
+    { rank=same; 1986   ; }
+    { rank=same; 1987   ; }
+    { rank=same; 1990       ; }
+    { rank=same; 1993   ; }
+    { rank=same; 1994   ; }
+    { rank=same; 1996   ; }
+    { rank=same; 1998   ; }
+    { rank=same; 1999   ; }
+    { rank=same; 2000   ; }
+    { rank=same; 2001   ; }
+    { rank=same; 2003   ; }
+    { rank=same; 2004   ; }
+    { rank=same; 2005   ; }
+    { rank=same; 2006   ; }
+    { rank=same; 2007   ; }
+    { rank=same; 2008   ; }
+    { rank=same; 2009   ; }
+
+    edge [style=invis];
+        ttag->ctag->1974;
+
+
+}

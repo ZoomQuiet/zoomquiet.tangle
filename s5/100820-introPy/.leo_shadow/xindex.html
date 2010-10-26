@@ -1,0 +1,3956 @@
+<!--@+leo-ver=4-thin-->
+<!--@+node:zoomq.20100819090507.7894:@shadow index.html-->
+<!--@@language html-->
+<!--@@tabwidth -4-->
+
+<!--@<<DOCTYPE>>-->
+<!--@+node:zoomq.20100818100255.10588:<<DOCTYPE>>-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!--@-node:zoomq.20100818100255.10588:<<DOCTYPE>>-->
+<!--@nl-->
+<title>Python 快速通介 (powered by S5)</title>
+
+<!--@<<s5head>>-->
+<!--@+node:zoomq.20100818100255.10589:<<s5head>>-->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+
+<meta name="editor" content="Leo 4.7.1 final"/>
+<!-- metadata -->
+<meta name="generator" content="S5" />
+<meta name="version" content="S5 1.1" />
+<meta name="presdate" content="20070322" />
+<meta name="author" content="Eric A. Meyer" />
+<meta name="company" content="Complex Spiral Consulting" />
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" />
+
+<!-- embedded styles -->
+<style type="text/css" media="all">
+<!--@+others-->
+<!--@+node:zoomq.20100818100255.10590:embedded styles-->
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for default*/
+img {border:0px;}    
+td { font-size: 80%; }
+H1 div#sup{
+    position :  absolute; top:0;right:3%;
+    margin-top: -20px;
+    font-size: 16px; font-style : italic ;
+    color: #385775;
+}
+li sup{display :  inline;
+    font-size: 80%; font-style : italic ;}
+
+li sub{display :  inline;
+    font-size: 80%; font-style : italic ;
+    color: #eeeeee; }
+
+sup.tiny{display :  inline;
+    font-size: 0.4em; font-style : italic ;
+    color: #eeeeee; }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for esp.*/
+b.alert{
+    color:#F5003D;
+}
+b{
+    font-size: 115%;
+}
+
+snap.logo {
+    background-color:#fff;
+    padding: 10px 5px 2px 5px;
+}
+/*Zoomq::090401 ziped
+snap#takahashi {
+    font-size: 500%;
+    letter-spacing:20px;
+    color: #fff;
+    margin: 0 0 0 0;
+    padding: 0 0 .5em 0;
+    }
+div#float_logo{
+    position : absolute;
+    top:0px;
+    left:0px;
+}
+*/
+<!--@-node:zoomq.20100818100255.10590:embedded styles-->
+<!--@+node:zoomq.20100818100255.10591:.slide+.incremental-->
+.said {font-size: 90%;  color: #bcbcbc; text-decoration :  line-through;}
+.next {font-size: 105%; color: #F8B73E; }
+.wait { color: #385775; font-style : italic ;}
+
+.incremental, .incremental *, .incremental *:after {color: #385775; visibility: visible;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for slide*/
+.slide .current {color: #F8B73E;}
+.slide H1{color:#B7B7DC;}
+
+DIV#slide0 h3{
+    font-size: 2em;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+
+}
+
+#slide0 h1 {
+    position: static; margin: 1em 0 1.33em; padding: 0;
+    white-space: normal;
+    background: transparent;
+    margin: 0 auto; width: 90%; height: 281px;
+    text-align: center;
+    font-size: 4em;
+    color: #fff;
+    font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    }
+
+<!--@-node:zoomq.20100818100255.10591:.slide+.incremental-->
+<!--@+node:zoomq.20100818100255.10592:takahashi-->
+/* The esp. Effect support 
+    letter-spacing:-20px;
+    width:100%;
+    border : 1px dotter #fff;
+takahashi ~ 高桥流 大字演示
+*/
+#takahashi0 {
+    font-size: 120%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    line-height : 100%;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi1 {
+    font-size: 150%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi2 {
+    font-size: 200%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi3 {
+    font-size: 300%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 10px 0 0 0;
+    padding: 0;
+    }
+#takahashi4 {
+    font-size: 400%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 20px 0 0 0;
+    padding: 0;
+    }
+#takahashi5 {
+    font-size: 500%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 30px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi {
+    font-size: 600%;font-weight :  bolder;
+    line-height : 100%;
+    text-align: center; 
+    word-spacing: 0px;letter-spacing: -4px;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi7 {
+    font-size: 700%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+#takahashi8 {
+    font-size: 800%;font-weight :  bolder;
+    line-height : 90%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+#takahashi9 {
+    font-size: 1000%;font-weight :  bolder;
+    line-height : 80%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi10 {
+    font-size: 1200%;font-weight :  bolder;
+    line-height : 80%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for UL*/
+ul#takahashi{
+    font-size: 180%;
+    letter-spacing:-2px;
+}
+ul#takahashi0{
+    font-size: 130%;
+    letter-spacing:-2px;
+    text-align: left;
+}
+
+ul.tinylist{
+    font-size: 80%;
+    letter-spacing:-2px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for PRE */
+PRE.takahashi{
+    font-size: 150%;
+}
+
+<!--@-node:zoomq.20100818100255.10592:takahashi-->
+<!--@-others-->
+</style>
+
+<!-- S5 JS -->
+<script src="ui/default/slides.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div class="layout">
+<div id="controls"><!-- DO NOT EDIT --></div>
+<div id="currentSlide"><!-- DO NOT EDIT --></div>
+<div id="header"></div>
+
+<!--@-node:zoomq.20100818100255.10589:<<s5head>>-->
+<!--@nl-->
+<!--@<<footer>>-->
+<!--@+node:zoomq.20100818100255.10593:<<footer>>-->
+
+<div id="footer">
+<table>
+<tr>
+<td><a target="_blank"  href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">
+Zoom.Quiet</a>
+<br/>
+v10.8.19
+</td>
+<td rowspan="2">
+<a  target="_blank" style="background-color:;" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh">
+<img src="i/icon/cc-byncnd-88x31.png"/>
+</a>
+Recommend <a  target="_blank"
+href="http://www.mozilla.org.cn">FireFox</a> for the best experience!
+</td>
+</tr>
+</table>
+
+    <div id="controls"></div>
+    </div>
+
+
+<!--@-node:zoomq.20100818100255.10593:<<footer>>-->
+<!--@nl-->
+</div><!-- class="layout"-->
+<div class="presentation">
+
+<!--@+others-->
+<!--@+node:zoomq.20100818100255.10594:page0-->
+<div class="slide" id="slide0">
+
+<h1>
+<snap class="logo"><img src="i/logo/Python_300px-logo.svg.png"/></snap>?!
+</h1>
+<h3>
+~通介:<a href="http://www.woodpecker.org.cn/share/doc/abyteofpython_cn/chinese/">
+进入畅快的脚本世界!
+</a>
+</h3>
+
+<br/>
+<h4><a href="mailto:zhouqi@kingsoft.com">Zoom.Quiet</a>
+
+</h4>
+
+<br/>
+
+</div>
+
+
+<!--@+node:zoomq.20100820140119.6443:ZQ-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+是也乎...
+<div id="sup">
+
+</div>
+</h1>
+<br/>
+<center>
+<a href="http://zoomquiet.org">
+<img src="i/logo/50ren-ZoomQuiet-s5-v800.png"/>
+</a>
+</center>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100820140119.6443:ZQ-->
+<!--@+node:zoomq.20100818100255.10602:免责-->
+<div class="slide">
+<h1> 免责聲明
+<div id="sup">
+山寨的，非业界公认的，个人体验为基础!
+</div>
+</h1>
+
+<center>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">
+        <img src="i/id/zoomquiet_1-1_outline.png">
+    </a>伙同所有同好行者总结而得
+    <br/><br/>
+    <ul>
+        <li> 一切资料来自网络互动挖掘
+        <li> 一切想法来自日常学习工作
+        <li> 一切体悟来自各种沟通交流
+        <li> 一切知识来自社区分享印证
+        <li> 一切经验来自个人失败体验
+        <br/> ......
+    </ul>
+
+    <div class="handout">
+    class="incremental"...
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--@-node:zoomq.20100818100255.10602:免责-->
+<!--@+node:zoomq.20100818100255.10812:总结7+-2-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+总之,期望可以记住的::
+<div id="sup">
+单位时间可以记住的只有7+-2 个
+</div>
+</h1>
+
+<ol class="incremental" id="takahashi2">
+<li>Python 很靠谱
+    </li>
+<li>Python 不用学
+    </li>
+<li>Pythonic 值得钻研
+    </li>
+<li>知识必须流动起来才有用!
+    </li>
+<li>坚持写技术博客吧!
+    </li>
+<li>坚持自主小工程吧!
+    </li>
+</ol>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10812:总结7+-2-->
+<!--@+node:zoomq.20100818100255.10595:Takahashi-->
+<div class="slide">
+<h1> <a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">注意！</a>
+<div id="sup">
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+</div>
+</h1>
+
+<center>
+<h2 id="takahashi4">
+<img src="pix/Takahashi-method.jpg"><br/><a href="http://book.douban.com/subject/4326862/">高橋流</a>
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--@+node:zoomq.20100818100255.10596:Takahashi0-->
+<div class="slide">
+<h1> <a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">特点:文字</a>
+<div id="sup">
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+</div>
+</h1>
+
+<center>
+<h2 id="takahashi9">
+巨大
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--@-node:zoomq.20100818100255.10596:Takahashi0-->
+<!--@+node:zoomq.20100818100255.10597:Takahashi1-->
+<div class="slide">
+<h1> <a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">特点:幻灯片</a>
+<div id="sup">
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+</div>
+</h1>
+
+<center>
+<h2 id="takahashi9">
+很多
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--@-node:zoomq.20100818100255.10597:Takahashi1-->
+<!--@+node:zoomq.20100818100255.10598:Takahashi2-->
+<div class="slide">
+<h1> <a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">特点:播放</a>
+<div id="sup">
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+</div>
+</h1>
+
+<center>
+<h2 id="takahashi10">
+快!
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--@-node:zoomq.20100818100255.10598:Takahashi2-->
+<!--@+node:zoomq.20100818100255.10599:Takahashi3-->
+<div class="slide">
+<h1> <a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">特点:速度</a>
+<div id="sup">
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+</div>
+</h1>
+
+<center>
+<h2 id="takahashi10">
+很快
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--@-node:zoomq.20100818100255.10599:Takahashi3-->
+<!--@+node:zoomq.20100818100255.10600:Takahashi4-->
+<div class="slide">
+<h1> <a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">特点:速度</a>
+<div id="sup">
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+</div>
+</h1>
+
+<center>
+<h2 id="takahashi8">
+非常快
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--@-node:zoomq.20100818100255.10600:Takahashi4-->
+<!--@+node:zoomq.20100818100255.10601:Takahashi!-->
+<div class="slide">
+<h1> <a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">所以...</a>
+<div id="sup">
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+</div>
+</h1>
+
+<center>
+<h2 id="takahashi10">
+听!
+</h2>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+<!--@-node:zoomq.20100818100255.10601:Takahashi!-->
+<!--@-node:zoomq.20100818100255.10595:Takahashi-->
+<!--@+node:zoomq.20100818100255.10999:S5-->
+<div class="slide">
+<h1> S5 </h1>
+
+<ul>
+<li>幻灯展示: 
+    <ul>
+    <li><a href="http://www.meyerweb.com/eric/tools/s5/">
+    <img src="pix/S5icon.GIF" />
+    S<sup>5</sup></a> : A <b class="alert">S</b>imple <b class="alert">S</b>tandards-Based <b class="alert">S</b>lide <b class="alert">S</b>how <b class="alert">S</b>ystem
+    <li> 纯HTML 幻灯效果工具 <a href="s5.html">本地介绍页面</a>
+    </ul>
+    </li>
+<li>编写环境: 
+    <span style="float:right;"><img src="pix/2010-01-18-230729_605x421_leo.png" />
+    </span>
+    <ul>
+    <li><a href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment">
+    <img src="pix/LeoProse.gif" />Leo</a> : 
+
+
+    <br/>文学编程环境
+    <li> 纯Python 编写的通用编辑环境
+
+
+    </ul>
+    </li>
+
+</ul>
+</div>
+
+<!--@-node:zoomq.20100818100255.10999:S5-->
+<!--@-node:zoomq.20100818100255.10594:page0-->
+<!--@+node:zoomq.20100818100255.10619:brief0-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+
+< Historic>
+<div id="sup">
+历史->世界->中国->我
+</div>
+</h1>
+
+<ul class="" id="takahashi2">
+<li class="next"><sup>10'</sup> 历史上的Py </li>
+<li class="wait"><sup>30'</sup> 世界中的Py </li>
+<li class="wait"><sup>10'</sup> 中国里的Py </li>
+<li class="wait"><sup>30'</sup> 怎么学习Py </li>
+</ul>
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10821:开场白-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+开场白
+<div id="sup">
+打油诗///
+</div>
+</h1>
+<center><img src="i/powered_python.jpg"/></center>
+
+<ul class="incremental" id="takahashi0">
+    <li>侧咖啡，后宝石；还是巨蟒最贴心！</li>
+    <li>最贴心，不费心， 用好还要想清楚。</li>
+    <li>想清楚，就清楚， 一切清楚才清爽;</li>
+    <li>要清爽，常重构！ 刚刚够用是王道。</li>
+
+</ul>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10821:开场白-->
+<!--@+node:zoomq.20100819090507.6457:OT:蛇-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< OT>
+<div id="sup">
+脊索动物门>脊椎动物亚门>爬行纲>有鳞目>蛇亚目>>
+</div>
+</h1>
+
+<h2 id="takahashi9">
+蛇<img src="i/snake-eyes.jpg"/>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100819090507.6459:OT:蚺-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Boa
+<div id="sup">
+一类体型巨大的蛇>蚺科(Boidae)/蚺亚科(Boinae);是卵胎生;
+</div>
+</h1>
+
+<h2 id="takahashi9">
+蚺<img src="i/snake-boa.jpg"/>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100819090507.6459:OT:蚺-->
+<!--@+node:zoomq.20100819090507.6461:OT:蟒-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Python
+<div id="sup">
+蛇亚目 SERPENTES → 原蛇下目 Henophidia → 蟒科 Pythonidae;无毒
+</div>
+</h1>
+
+<h2 id="takahashi9">
+蟒<img src="i/snake-python.jpg"/>
+</h2>
+
+    <div class="handout">
+snake-dior-bag.jpg
+    </div>
+</div>
+<!--@-node:zoomq.20100819090507.6461:OT:蟒-->
+<!--@+node:zoomq.20100819090507.6463:OT:蟒皮-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+蟒皮制品
+<div id="sup">
+女士好选!
+</div>
+</h1>
+
+<h2 id="takahashi9">
+<img src="i/snake-dior-bag.jpg"/>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100819090507.6463:OT:蟒皮-->
+<!--@+node:zoomq.20100819090507.6467:OT:抗议-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+抗议!
+<div id="sup">
+...
+</div>
+</h1>
+
+<h2 id="takahashi5">
+<a href="http://initiative.yo2.cn/archives/629555">
+<img src="i/anti-python.jpg"/>
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100819090507.6467:OT:抗议-->
+<!--@+node:zoomq.20100819090507.6465:OT:性福-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+比喻
+<div id="sup">
+女士性福
+</div>
+</h1>
+
+<h2 id="takahashi5">
+python.com
+</h2>
+
+    <div class="handout">
+Monty Python's Flying Circus
+    </div>
+</div>
+<!--@-node:zoomq.20100819090507.6465:OT:性福-->
+<!--@+node:zoomq.20100819090507.6471:OT:Monty Python's Flying Circus-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://en.wikipedia.org/wiki/Monty_Python%27s_Flying_Circus">Monty Python's Flying Circus</a>
+<div id="sup">
+1969年10月5日BBC启航的文化现象级 喜剧!
+影片:<a href="http://movie.douban.com/subject/1294917/">巨蟒与圣杯</a>
+,<a href="http://movie.douban.com/subject/1292881/">万世魔星</a>
+,<a href="http://movie.douban.com/subject/1293175/">人生七部曲</a>
+...
+</div>
+</h1>
+
+<h2 id="takahashi5">
+<a href="http://www.verycd.com/topics/2778831/">
+<img src="i/Monty-Python.jpg"/>
+</a>
+
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100819090507.6471:OT:Monty Python's Flying Circus-->
+<!--@+node:zoomq.20100818100255.10823:读音-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< /OT>
+<div id="sup">
+</div>
+</h1>
+<ul id="takahashi1">
+  <li>派森?</li>
+  <li>派三?</li>
+  <li>派山?</li>
+  <li>派松?</li>
+  <li>标准发音:: <a href="http://www.m-w.com/dictionary/python">韦氏词典</a></li>
+</ul>
+
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10823:读音-->
+<!--@-node:zoomq.20100819090507.6457:OT:蛇-->
+<!--@+node:zoomq.20100818100255.10825:历史时点-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Python在历史洪流中的位置
+    <div id="sup">
+    </div>
+</h1>
+
+<table><tr>
+<td><img src="i/snap/python_in_prog_language_history.png"></td>
+<td><ul>
+    <li>自从 1954 FORTRAN语言发明至今已有<a href="http://people.ku.edu/%7Enkinners/LangList/Extras/langlist.htm">2500多种计算机开发语言</a>存在!
+    <li><a href="http://www.oreilly.com/pub/a/oreilly/news/languageposter_0504.html">O'Reilly版本开发语言图谱</a></li>
+    <li><a href="http://www.levenez.com/lang/">开发语言历史研究站版本图谱</a>
+    </li>
+</ul>
+</td>
+</tr></table>
+
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10825:历史时点-->
+<!--@+node:zoomq.20100818100255.10819:诞生故事-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Python的诞生
+    <div id="sup">
+    </div>
+</h1>
+
+<table><tr>
+<td><img src="i/foto/Guido_van_Rossum.jpg">
+<br/>创始人
+<br/><a href="http://blog.csdn.net/gvanrossum/archive/2006/06/23/824656.aspx">Guido van Rossum</a>
+</td>
+<td><ul>
+    <li>1989年圣诞节期间，在阿姆斯特丹</li>
+    <li>Guido为了打发圣诞节的无趣，决心开发一个新的脚本解释程序，做为ABC语言的一种继承
+    <ul>
+        <li>实际上，第一个Python实现是运行在Mac机</li>
+        <li>使用Python作为语言的名字，因为是英国幽默剧团:"<a href="http://www.douban.com/subject/1293175/">Monty Python飞行马戏团</a>"的fans</li>
+        <li>ABC是由Guido参加设计的一种教学语言非常优美和强大，是专门为非专业程序员设计的</li>
+    </ul>
+    </li>
+
+    <li>原在荷兰，现在<a href="http://www.joyloft.net/?p=248"><img src="i/logo/google_thumbnail.png"/></a></li>
+    <li>因为Python,Guido 02-02-16 荣获FSF颁发的<a href="http://www.gnu.org/press/2002-02-16-FSF-Award.html">第四届自由软件进步大奖</a></li>
+</ul>
+</td>
+</tr></table>
+
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10819:诞生故事-->
+<!--@+node:zoomq.20100818100255.10827:tiob07-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Python 的江湖地位
+    <div id="sup">
+    <a href="http://www.tiobe.com/tiobe_index/index.htm">TIOBE Programming Community</a> 世界开发语言排名
+    </div>
+</h1>
+<center>
+2007-03 统计: 
+<br/><img src="i/snap/tiobe_index_0703.png"/>
+</center>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10827:tiob07-->
+<!--@+node:zoomq.20100818100255.10831:tiob10-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Python 的江湖地位
+    <div id="sup">
+    <a href="http://www.tiobe.com/tiobe_index/index.htm">TIOBE Programming Community</a> 世界开发语言排名
+    </div>
+</h1>
+<center>
+2010-08 统计: 
+<br/><img src="i/snap/tiobe-zq_2010-08-18-161341_645x374_scrot.png"/>
+</center>
+
+    <div class="handout">
+tiobe-historic-zq_2010-08-18-161949_657x549_scrot.png
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10831:tiob10-->
+<!--@+node:zoomq.20100818100255.10833:tiob趋势-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Python 的江湖地位
+    <div id="sup">
+    <a href="http://www.tiobe.com/index.php/paperinfo/tpci/Python.html">TIOBE Programming Community</a> 世界开发语言排名
+    </div>
+</h1>
+<center>
+趋势 统计: 
+<br/><img src="i/snap/tiobe-historic-zq_2010-08-18-161949_657x549_scrot.png"/>
+</center>
+
+    <div class="handout">
+tiobe-s-d-zq_2010-08-18-162208_662x528_scrot.png
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10833:tiob趋势-->
+<!--@+node:zoomq.20100818100255.10835:tiob动静趋势-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+开发语言宏观发展
+    <div id="sup">
+    <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">TIOBE Programming Community</a> 世界开发语言排名
+    </div>
+</h1>
+<center>
+趋势 统计: 
+<br/><img src="i/snap/tiobe-s-d-zq_2010-08-18-162208_662x528_scrot.png"/>
+</center>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10835:tiob动静趋势-->
+<!--@+node:zoomq.20100818100255.10829:小结Py历史-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< /Historic>
+    <div id="sup">
+    </div>
+</h1>
+
+<ul class="incremental" id="takahashi2">
+    <li>历史上的Python...
+    <li>很早就成功创造出来</li>
+    <li>江湖地位非常稳固</li>
+    <li>点解<b>国人不识?</b></li>
+</ul>
+
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10829:小结Py历史-->
+<!--@-node:zoomq.20100818100255.10619:brief0-->
+<!--@+node:zoomq.20100818100255.10801:brief1-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< in World>
+<div id="sup">
+历史->世界->中国->我
+</div>
+</h1>
+
+<ul class="" id="takahashi2">
+<li class="said"><sup>10'</sup> 历史上的Py </li>
+<li class="next"><sup>30'</sup> 世界中的Py </li>
+<li class="wait"><sup>10'</sup> 中国里的Py </li>
+<li class="wait"><sup>30'</sup> 怎么学习Py </li>
+</ul>
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10879:<领域>-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< /App. Domains>
+    <div id="sup">
+    <a href="http://www.python.org/about/apps/">Py应用领域</a>
+    </div>
+</h1>
+
+<center>
+<img src="i/snap/070320_python_org_usage.png"/>
+</center>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10962:图形-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+图形处理
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+<a href="http://wiki.python.org/moin/GuiProgramming">
+< Graph>
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10969:2D-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+平面图形
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+< 2D>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10970:PIL-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Python Imaging Library:图片处理
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://www.pythonware.com/products/pil/">PIL</a>
+</h2>
+
+    <div class="handout">
+    <a href="http://www.gimp.org/docs/python/index.html">
+<img src="i/logo/gimp_reading.png"/></a>
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10970:PIL-->
+<!--@+node:zoomq.20100818100255.10981:Gimp-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Gimp~点阵图片处理平台
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://www.gimp.org/docs/python/index.html">
+        <img src="i/logo/gimp.jpg"/></a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10981:Gimp-->
+<!--@+node:zoomq.20100818100255.10983:Inkscape-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Inkscap~矢量绘图引擎
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://wiki.inkscape.org/wiki/index.php/PythonModules">
+        <img src="i/logo/inkscape.jpg"/></a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10983:Inkscape-->
+<!--@+node:zoomq.20100818100255.10985:Dia-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<img src="i/logo/dia.jpg"/>~关系图快速引擎
+    <div id="sup">
+    Visio 的开源替代品
+    </div>
+</h1>
+
+<center>
+<br/>
+<a href="http://www.gnome.org/projects/dia/python.html">
+        <img src="i/demo-dia-uml.png"/>
+        </a>
+</center>
+
+    <div class="handout">
+<a href="http://www.gnome.org/projects/dia/python.html">Dia Python Plugin</a>
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10985:Dia-->
+<!--@+node:zoomq.20100818100255.10987:图表-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://matplotlib.sourceforge.net/">
+<img src="i/logo/matplotlib.png"/>
+</a>
+    <div id="sup">
+    制式科学图表库
+    </div>
+</h1>
+
+<center>
+<br/>
+    <a href="http://book.douban.com/subject/4246969/">
+<img src="i/demo_matplot.png"/>
+<img src="i/s4272120-py-matplotlib.jpg"/>
+        </a>
+</center>
+
+    <div class="handout">
+s3129694-gnuplot.jpg
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10987:图表-->
+<!--@+node:zoomq.20100818100255.10989:gnuplot-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://gnuplot-py.sourceforge.net/">
+gnuplot-py
+</a>
+    <div id="sup">
+    通用图表引擎
+    </div>
+</h1>
+
+<center>
+<br/>
+    <a href="http://book.douban.com/subject/3102730/">
+<img src="i/demo-gnuplot.png"/>
+<img src="i/s3129694-gnuplot.jpg"/>
+        </a>
+</center>
+
+    <div class="handout">
+logo-ofchart.png
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10989:gnuplot-->
+<!--@+node:zoomq.20100818100255.10995:Flash-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://btbytes.github.com/pyofc2/index.html">
+pyOFC2
+</a>
+    <div id="sup">
+    Flash图表模块
+    </div>
+</h1>
+
+<center>
+<a href="http://teethgrinder.co.uk/open-flash-chart-2/">
+<img src="i/logo/ofchart.png"/>
+<br/>
+        <img src="i/demo-ofc-zq_2010-08-18-191509_300x270_scrot.png"/>
+        </a>
+</center>
+
+    <div class="handout">
+svgfig_logo.png
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10995:Flash-->
+<!--@+node:zoomq.20100818100255.10997:SVG-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://www.w3.org/Graphics/SVG/">
+SVG:交互式动态可伸缩向量图形
+</a>
+    <div id="sup">
+    SVG绘制模块:<a href="http://pypi.python.org/pypi/svglib/">svglib</a>;<a href="http://grigoriev.ru/svgmath/">SVGMath</a>;<a href="http://pypi.python.org/pypi/svg.charts">svg.charts</a>...
+    </div>
+</h1>
+
+<center>
+<a href="http://code.google.com/p/svgfig/">
+<img src="i/logo/svgfig.png"/>
+<br/>
+        <snap class="logo">
+<img src="i/demo-ExamplePoincare-200.png"/>
+<img src="i/demo-ExampleRadialPlot-200.png"/>
+        </snap.
+
+        </a>
+</center>
+
+    <div class="handout">
+svgfig_logo.png
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10997:SVG-->
+<!--@+node:zoomq.20100818100255.10979:/2D-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+丰富的图形模块
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+
+< /2D>
+</h2>
+
+    <div class="handout">
+Amazon.com: Twisted Network Programming Essentials (9780596100322): Abe Fettig: Books
+http://www.amazon.com/Twisted-Network-Programming-Essentials-Fettig/dp/0596100329/
+
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10979:/2D-->
+<!--@-node:zoomq.20100818100255.10969:2D-->
+<!--@+node:zoomq.20100818100255.10976:3D-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+3维图形
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+<a href="http://www.vrplumber.com/py3d.py">< 3D>
+</a>
+</h2>
+
+    <div class="handout">
+3D for iPhone Apps with Blender - Blender Store
+http://www.blender3d.org/e-shop/product_info_n.php?products_id=123&PHPSESSID=bf31cae35a97423845c8ad1bb534a86f
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.11002:Blender-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://www.blender.org/tutorials-help/python/">
+<img src="i/logo/blender-home.png"/></a>
+    <div id="sup">
+    高能3D工程平台
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+<a href="http://www.blender3d.org/e-shop/product_info_n.php?products_id=123&PHPSESSID=bf31cae35a97423845c8ad1bb534a86f">
+
+<img src="i/iphone-blender.jpg"/>
+</a>
+</h2>
+
+    <div class="handout">
+3D for iPhone Apps with Blender - Blender Store
+http://www.blender3d.org/e-shop/product_info_n.php?products_id=123&PHPSESSID=bf31cae35a97423845c8ad1bb534a86f
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.11005:大象之梦-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://www.blender.org/tutorials-help/python/">
+<img src="i/logo/blender-home.png"/></a>
+    <div id="sup">
+    CC许可电影:大象之梦
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+<a href="http://www.elephantsdream.org/">
+<img src="i/ep-elephantsdream.jpg"/>
+</a>
+</h2>
+
+    <div class="handout">
+3D for iPhone Apps with Blender - Blender Store
+http://www.blender3d.org/e-shop/product_info_n.php?products_id=123&PHPSESSID=bf31cae35a97423845c8ad1bb534a86f
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11005:大象之梦-->
+<!--@+node:zoomq.20100818100255.11007:大雄兔-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://www.blender.org/tutorials-help/python/">
+<img src="i/logo/blender-home.png"/></a>
+    <div id="sup">
+    CC许可电影:大雄兔
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+<a href="http://www.bigbuckbunny.org/index.php/download/">
+<img src="i/ep-bigbuckbunny.jpg"/>
+</a>
+</h2>
+
+    <div class="handout">
+3D for iPhone Apps with Blender - Blender Store
+http://www.blender3d.org/e-shop/product_info_n.php?products_id=123&PHPSESSID=bf31cae35a97423845c8ad1bb534a86f
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11007:大雄兔-->
+<!--@-node:zoomq.20100818100255.11002:Blender-->
+<!--@+node:zoomq.20100818100255.11008:引擎们-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+主流3D创作平台都有Python接口
+    <div id="sup">
+
+    </div>
+</h1>
+<h2 id="takahashi2">
+    <a href="http://cgkit.sourceforge.net/maya_tutorials/intro/">
+<img src="i/logo/maya.gif"/></a>,
+        <a href="http://www.newtek.com/lightwave/core/techfaq.php">LightWave</a>, 
+        <a href="http://code.google.com/p/blur-dev/wiki/Py3dsMax">
+<img src="i/logo/3ds.gif"/></a>, 
+        <A HREF="http://wiki.cgsociety.org/index.php/Blender#Importer_and_Exporters">
+        Biovision,Collada,Nendo,OpenFlightm,
+        OpenInventor,Raw Faces,Radiosity, 
+        Raw Triangle, TrueSpace and Wings 3d</A>,
+        <br/>
+        <a href="http://panda3d.org/wiki/index.php/A_Panda_%22Hello_World%22_using_Python">Panda3D </a><sup><a href="http://panda3d.org/what.php">Disney 开发</a></sup>...
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11008:引擎们-->
+<!--@+node:zoomq.20100818100255.11009:Pixar-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="https://renderman.pixar.com">
+        <img src="i/logo/pixar_bw.gif"/></a>
+    <div id="sup">
+    渲染牧场平台...
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+
+</a href="https://renderman.pixar.com/products/whats_renderman/index.html">
+<img src="i/pixar-tenderman.jpg"/>
+</a>
+<sup class="tiny"><a href="http://www.lysator.liu.se/~ture/terry.html">terry</a></sup>
+
+<br>
+<a href="https://renderman.pixar.com/products/tools/tractor.html">
+<img src="i/pixar-tractor.png"/>
+</a>
+</h2>
+
+    <div class="handout">
+3D for iPhone Apps with Blender - Blender Store
+http://www.blender3d.org/e-shop/product_info_n.php?products_id=123&PHPSESSID=bf31cae35a97423845c8ad1bb534a86f
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11009:Pixar-->
+<!--@+node:zoomq.20100818100255.10977:/3D-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://hi.baidu.com/lxfinter/blog/item/a76e4adb8e0c4662d1164efe.html/cmtid/db5fdc5189793c888d543030">工业级3D处理</a>
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://www.vrplumber.com/py3d.py">< /3D>
+</a>
+
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10977:/3D-->
+<!--@-node:zoomq.20100818100255.10976:3D-->
+<!--@+node:zoomq.20100818100255.10973:/图形-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+全面支持!
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi5">
+< /Graph>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10973:/图形-->
+<!--@-node:zoomq.20100818100255.10962:图形-->
+<!--@+node:zoomq.20100818100255.10993:multimedia-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< MultiMedia/ >
+    <div id="sup">
+    </div>
+</h1>
+<ul class="incremental" id="takahashi1">
+	<li>支持包
+	<ul>
+		<li><a href="http://www.pygame.org">
+<img src="i/logo/pygame_h50.png"/></a>,
+		<a href="http://pysonic.sourceforge.net/">PySonic</a>...</li>
+		</ul>
+	</li>
+	<li>网游
+	<ul>
+		<li><a href="http://games.sina.com.cn/o/n/2006-03-18/1039145594.shtml">
+<img src="i/logo/eve-online.png"/></a>
+		<sup>使用<a href="http://www-128.ibm.com/developerworks/cn/linux/sdk/python/python-7/">Stackless Python</a></sup></li>
+		<li><a href="http://www.douban.com/subject/1940567/">
+<img src="i/MMP.jpg"/>
+			大型多人在线游戏开发</a></li>
+	</ul>
+
+    <div class="handout">
+
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10993:multimedia-->
+<!--@+node:zoomq.20100818100255.10991:科学-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://wiki.python.org/moin/NumericAndScientific">
+< Science/>
+</a>
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi4">
+<img src="i/logo/scipy.gif"/>:
+<br/>
+<a href="http://docs.scipy.org/doc/">
+Numpy</a>
+,<a href="http://pentangle.net/python/handbook/">in Physics</a>
+,<a href="http://www.pasteur.fr/recherche/unites/sis/formation/python/">in Bioinformatics</a>
+.....
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10991:科学-->
+<!--@+node:zoomq.20100818100255.11011:doc-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< Doncument/>
+
+    <div id="sup">
+    </div>
+</h1>
+
+<ul class="incremental">
+	<li><a href="http://acronyms.thefreedictionary.com/WYTIWYG">WYTIWYG</a>的结构化文本支持
+	<ul>
+		<li><a href="http://wiki.woodpecker.org.cn/moin/reST">reStructuredText</a></li>
+		<li><a href="http://wiki.woodpecker.org.cn/moin/PyTextile">PyTextile</a></li>
+		<li><a href="http://wiki.woodpecker.org.cn/moin/txt2tags">
+<img src="i/logo/t2tpowered-white.png"/>txt2tags</a></li>
+		<li><a href="http://www.methods.co.nz/asciidoc/index.html">AsciiDoc</a></li>
+		<li>...</li>
+			</ul>
+	</li>
+    <li>epydoc 生成Python API文档</li>
+    <li>reportlab 生成PDF文件</li>
+    <li>moinmoin wiki系统，共同写作</li>
+    <li>办公软件支持<ul>
+        <li><a href="http://udk.openoffice.org/python/python-bridge.html">
+<img src="i/logo/OOo_logonew.gif">
+		 Python-UNO bridge</a></li>
+	 <li>M$ Office:<a href="http://sourceforge.net/projects/pyexcelerator">PyExcelerator</a>;
+	 <a href="http://sourceforge.net/projects/pyxlwriter">PyXlwriter</a>;
+	 <a href="http://czug.org/blog/panjy/python-word/">win32com</a>;
+	 </li>
+	</ul>
+	</li>
+<li>....</li>
+</ul>
+
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11011:doc-->
+<!--@+node:zoomq.20100818100255.10883:GUI-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+桌面软件
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://wiki.python.org/moin/GuiProgramming">
+< GUI>
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10885:Tk-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+GUI:开发框架
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://wiki.python.org/moin/TkInter">tcl/tk</a>
+</h2>
+
+    <div class="handout">
+Python and Tkinter Programming (豆瓣)
+http://book.douban.com/subject/1886782/
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10899:TkBook-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+tk
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://book.douban.com/subject/1886782/">
+<img src="i/s4089167-py-tk.jpg">
+</a>
+</h2>
+
+    <div class="handout">
+Python and Tkinter Programming (豆瓣)
+http://book.douban.com/subject/1886782/
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10899:TkBook-->
+<!--@-node:zoomq.20100818100255.10885:Tk-->
+<!--@+node:zoomq.20100818100255.10887:wx-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+GUI:开发框架
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+<a href="http://wiki.python.org/moin/WxPython">wxPython</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10901:wxBook-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+wxPython
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://book.douban.com/subject/1482279/">
+<img src="i/s3880459-wxpy.jpg">
+</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10901:wxBook-->
+<!--@-node:zoomq.20100818100255.10887:wx-->
+<!--@+node:zoomq.20100818100255.10889:GTK-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+GUI:开发框架
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://www.pygtk.org/">
+<img src="i/pygtk-splash.jpg"/>
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10889:GTK-->
+<!--@+node:zoomq.20100818100255.10891:Qt-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+GUI:开发框架
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+pyQt
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10905:QtkBook-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+pyQt
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://book.douban.com/subject/3053232/">
+<img src="i/s3936330-py-qt.jpg">
+</a>
+</h2>
+
+    <div class="handout">
+Python Programming on WIN32 (豆瓣)
+http://book.douban.com/subject/1748392/    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10905:QtkBook-->
+<!--@-node:zoomq.20100818100255.10891:Qt-->
+<!--@+node:zoomq.20100818100255.10895:win32-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+GUI:开发框架...
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+pyWin32
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10907:32Book-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+pyWin32
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://book.douban.com/subject/1748392/">
+<img src="i/s4245250-py-win32.jpg">
+</a>
+</h2>
+
+    <div class="handout">
+Python Programming on WIN32 (豆瓣)
+http://book.douban.com/subject/1748392/    
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10907:32Book-->
+<!--@-node:zoomq.20100818100255.10895:win32-->
+<!--@+node:zoomq.20100818100255.10897:/GUI-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+GUI:开发框架....
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+< /GUI>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10897:/GUI-->
+<!--@-node:zoomq.20100818100255.10883:GUI-->
+<!--@+node:zoomq.20100818100255.10919:Net-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+网络应用
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+<a href="http://wiki.python.org/moin/GuiProgramming">
+< NET>
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10929:内置-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+内置支持
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+< 内置>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10935:XML解析-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+HTML解析
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+<a href="http://docs.python.org/library/markup">
+类XML
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10935:XML解析-->
+<!--@+node:zoomq.20100818100255.10939:RSS-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+RSS解析
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+<a href="http://wiki.python.org/moin/RssLibraries">
+聚合
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10939:RSS-->
+<!--@+node:zoomq.20100818100255.10937:email-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+邮件解析
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+<a href="http://docs.python.org/library/email">
+email
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10937:email-->
+<!--@+node:zoomq.20100818100255.10941:协议-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+各类常见协议
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+<a href="http://docs.python.org/library/internet">
+Internet
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10941:协议-->
+<!--@+node:zoomq.20100818100255.10933:/内置-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+常见网络事务支持
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+< /内置>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10933:/内置-->
+<!--@-node:zoomq.20100818100255.10929:内置-->
+<!--@+node:zoomq.20100818100255.10943:Twisted-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<img src="i/logo/twisted.png">
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+<a href="http://twistedmatrix.com/trac/">
+Twisted
+</a>
+</h2>
+
+    <div class="handout">
+Amazon.com: Twisted Network Programming Essentials (9780596100322): Abe Fettig: Books
+http://www.amazon.com/Twisted-Network-Programming-Essentials-Fettig/dp/0596100329/
+
+s3752043-xmpp.jpg
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10945:Twisted-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Twisted图书
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://www.amazon.com/Twisted-Network-Programming-Essentials-Fettig/dp/0596100329/">
+<img src="i/book-twisted.jpg">
+</a>
+</h2>
+
+    <div class="handout">
+Amazon.com: Twisted Network Programming Essentials (9780596100322): Abe Fettig: Books
+http://www.amazon.com/Twisted-Network-Programming-Essentials-Fettig/dp/0596100329/
+
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10945:Twisted-->
+<!--@-node:zoomq.20100818100255.10943:Twisted-->
+<!--@+node:zoomq.20100818100255.10948:Jabber-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<img src="i/logo/jabber.png">
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+<a href="http://www.jabber.org/">
+Jabber
+</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10949:Jabber-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Jabber图书
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi8">
+<a href="http://book.douban.com/subject/3291772/">
+<img src="i/s3752043-xmpp.jpg">
+</a>
+</h2>
+
+    <div class="handout">
+XMPP：The Definitive Guide (豆瓣)
+http://book.douban.com/subject/3291772/
+
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10949:Jabber-->
+<!--@-node:zoomq.20100818100255.10948:Jabber-->
+<!--@+node:zoomq.20100818100255.10931:/NET-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+全面支持!
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+< /NET>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10931:/NET-->
+<!--@-node:zoomq.20100818100255.10919:Net-->
+<!--@+node:zoomq.20100819213607.6380:SA-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+系统管理
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+< SA>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100819213607.6393:Py在系统管理-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Python UNIX和Linux系统管理指南
+<div id="sup">
+
+</div>
+</h1>
+<h2 id="takahashi">
+<a href="http://book.douban.com/subject/4031965/">
+<img src="i/s3997511-py-unix-sa.jpg"/>
+</a>
+</h2>
+    <div class="handout">
+
+
+    </div>
+</div>
+<!--@-node:zoomq.20100819213607.6393:Py在系统管理-->
+<!--@+node:zoomq.20100819213607.6387:Nagios-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://www.ibm.com/developerworks/aix/library/au-nagios/">
+Nagios plug-ins
+</a>
+    <div id="sup">
+
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+<a href="http://www.nagios.org/">
+<img src="i/logo/nagios.png"/>
+</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100819213607.6387:Nagios-->
+<!--@+node:zoomq.20100819213607.6397:Ganglia-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://ganglia.info/?p=37">
+ganglia-python
+</a>
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi7">
+<a href="http://ganglia.info/">
+<img src="i/logo/ganglia.jpg"/>
+</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100819213607.6397:Ganglia-->
+<!--@+node:zoomq.20100819213607.6395:Zenoss-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://en.wikipedia.org/wiki/Zenoss">
+<img src="i/logo/zenoos_no_tagline.gif"/>
+</a>
+<div id="sup">
+企業级专业跨平台系统监控服务引擎，基于Zope/Twisted,
+</div>
+</h1>
+<h2 id="takahashi">
+
+<a href="http://www.zenoss.com/">
+<img src="i/snap/snap-zenoss_form_small.jpg"/>
+<img src="i/snap/snap-Zenoss_Core_Dashboard.png"/>
+
+</a>
+</h2>
+    <div class="handout">
+
+
+    </div>
+</div>
+<!--@+node:zoomq.20100819213607.6399:ZenossBook-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://en.wikipedia.org/wiki/Zenoss">
+<img src="i/logo/zenoos_no_tagline.gif"/>
+</a>
+<div id="sup">
+Open Source Network Management Software (豆瓣)
+</div>
+</h1>
+<h2 id="takahashi">
+
+<a href="http://book.douban.com/subject/4920836/">
+<img src="i/s4421486-floss-sa.jpg"/>
+</a>
+</h2>
+    <div class="handout">
+
+
+    </div>
+</div>
+<!--@-node:zoomq.20100819213607.6399:ZenossBook-->
+<!--@-node:zoomq.20100819213607.6395:Zenoss-->
+<!--@+node:zoomq.20100819213607.6391:/SA-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+全面渗入!
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+< /SA>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100819213607.6391:/SA-->
+<!--@-node:zoomq.20100819213607.6380:SA-->
+<!--@+node:zoomq.20100820140119.6411:SCM-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+配置管理
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+< SCM>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100820140119.6412:DSCM-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+分布式配置管理
+<div id="sup">
+</div>
+</h1>
+<h2 id="takahashi8">
+<a href="http://wiki.woodpecker.org.cn/moin/DistributedScm">
+DSCM
+</a>
+</h2>
+    <div class="handout">
+
+
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6412:DSCM-->
+<!--@+node:zoomq.20100820140119.6413:Mecurial-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://www.selenic.com/mercurial">
+<img src="i/logo/mercurial-droplets-200.png"/>
+</a>
+    <div id="sup">
+<a href="http://www.selenic.com/mercurial/wiki/index.cgi/ProjectsUsingMercurial">用户列表</a>:
+Mozilla;Open Solaris;Xen;wget;ZFS...
+    </div>
+</h1>
+
+<h2 id="takahashi9">
+<a href="http://www.selenic.com/mercurial">
+Hg
+</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6413:Mecurial-->
+<!--@+node:zoomq.20100820140119.6419:bazaar-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://bazaar.canonical.com/en/">
+<img src="i/logo/bazaar.png"/>Bazaar
+</a>
+    <div id="sup">
+<a href="http://bazaar-vcs.org/BzrGlossary">用户列表</a>:
+Ubuntu; Launchpad;moin-1.6;Drupal...
+    </div>
+</h1>
+
+<h2 id="takahashi9">
+<a href="http://www.selenic.com/mercurial">
+Bzr
+</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6419:bazaar-->
+<!--@+node:zoomq.20100820140119.6415:Trac-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://trac.edgewall.org/">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+<div id="sup">
+轻量的专注解决团队基础问题的管理平台...
+</div>
+</h1>
+<h2 id="takahashi8">
+
+Trac
+
+</h2>
+    <div class="handout">
+
+
+    </div>
+</div>
+<!--@+node:zoomq.20100820140119.6416:TracBook-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<div id="sup">
+Managing Software Development with Trac and Subversion (豆瓣)
+</div>
+</h1>
+<h2 id="takahashi">
+
+<a href="http://book.douban.com/subject/3148474/">
+<img src="i/s4281046-trac-svn.jpg"/>
+</a>
+</h2>
+    <div class="handout">
+
+
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6416:TracBook-->
+<!--@+node:zoomq.20100820140119.6392:TracNowUsage-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+现状
+<div id="sup">
+国际形势
+</div>
+</h1>
+
+<center>
+<img src="i/snap/2010-01-16-153317_trends_scrot.png"/>
+</center>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@+node:zoomq.20100820140119.6395:TracUser2-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+用户:CherryPy
+<div id="sup">
+老牌Py web框架社区
+</div>
+</h1>
+
+<center>
+<img src="i/snap/2010-01-17-214614_user-cherrypy_scrot.png"/>
+</center>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6395:TracUser2-->
+<!--@+node:zoomq.20100820140119.6396:TracUser3-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+用户:Twisted
+<div id="sup">
+电信级网络协议框架!
+</div>
+</h1>
+
+<center>
+<img src="i/snap/2010-01-17-214648_user-twisted_scrot.png"/>
+</center>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6396:TracUser3-->
+<!--@+node:zoomq.20100820140119.6397:TracUser4-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+用户:Plone
+<div id="sup">
+企业级CMS 平台!
+</div>
+</h1>
+
+<center>
+<img src="i/snap/2010-01-17-214724_user-plone_scrot.png"/>
+</center>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6397:TracUser4-->
+<!--@+node:zoomq.20100820140119.6399:TracUser6-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+用户:Django
+<div id="sup">
+最火Py Web 应用框架
+</div>
+</h1>
+
+<center>
+<img src="i/snap/2010-01-17-214853_user-djano_scrot.png"/>
+</center>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6399:TracUser6-->
+<!--@+node:zoomq.20100820140119.6394:TracUser1-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+用户:jQuery
+<div id="sup">
+知名Ajax 框架社区
+</div>
+</h1>
+
+<center>
+<img src="i/snap/2010-01-17-214519_user-jquery_scrot.png"/>
+</center>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6394:TracUser1-->
+<!--@+node:zoomq.20100820140119.6398:TracUser5-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+用户:OLPC
+<div id="sup">
+每童一电脑,上网教育本原创集团!
+</div>
+</h1>
+
+<center>
+<img src="i/snap/2010-01-17-214805_user-olpc_scrot.png"/>
+</center>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6398:TracUser5-->
+<!--@+node:zoomq.20100820140119.6400:TracUser7-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+用户:Pidgin (Gaim)
+<div id="sup">
+制式多协议即时通讯工具
+</div>
+</h1>
+
+<center>
+<img src="i/snap/2010-01-17-214933_user-pidgin_scrot.png"/>
+</center>
+
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6400:TracUser7-->
+<!--@+node:zoomq.20100820140119.6401:TracUser8-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+用户:VirtualBox
+<div id="sup">
+最易用虚拟机作品!
+</div>
+</h1>
+
+<center>
+<img src="i/snap/2010-01-17-215149_user-virtualbox_scrot.png"/>
+</center>
+
+    <div class="handout">
+2010-01-22-194900_user-sikuli_scrot.png
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6401:TracUser8-->
+<!--@+node:zoomq.20100820140119.6402:TracUser9-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+用户:<a href="http://sikuli.csail.mit.edu/trac/wiki/HelloWorld">
+Sikuli
+</a>
+<div id="sup">
+用截屏来编辑的脚本语言
+</div>
+</h1>
+
+<center>
+<img src="i/snap/2010-01-22-194900_user-sikuli_scrot.png"/>
+</center>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6402:TracUser9-->
+<!--@+node:zoomq.20100820140119.6393:TracUser0-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+用户列表...
+<div id="sup">
+内部的没有公开....
+</div>
+</h1>
+</br>
+
+<h2>
+<a href="http://trac.edgewall.org/wiki/TracUsers">
+http://trac.edgewall.org/wiki/TracUsers
+</a>
+</br>
+</h2>
+
+<center>
+        <img src="i/snap/2010-01-17-user-nasa_scrot.png"/>
+</center>
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6393:TracUser0-->
+<!--@+node:zoomq.20100820140119.6403:TracChina-->
+<div class="slide">
+<h1>
+<a href="http://trac-hacks.org/wiki/KTRAC">
+<img src="i/logo/trac_s5_h70.png"/>
+</a>
+中国企业用户
+<div id="sup">
+早已在列表中吼过...
+</div>
+</h1>
+
+<ul class="incremental" id="takahashi2">
+<li> <a href="http://wiki.woodpecker.org.cn/moin/BPUG/2007-01-06">
+    豆瓣</a> </li>
+<li> 好看薄</li>
+<li> <a href="https://contrib.exoweb.net/wiki/CodeReviewPlugin">
+    ExoWeb</a></li>
+<li> <a href="http://py.kingsoft.net/ktrac">
+    <img src="i/logo/kupp-ms-ktrac-s5_h60.png"/>
+    </a></li>
+<li> ......</li>
+</ul>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6403:TracChina-->
+<!--@-node:zoomq.20100820140119.6392:TracNowUsage-->
+<!--@-node:zoomq.20100820140119.6415:Trac-->
+<!--@+node:zoomq.20100820140119.6417:/SCM-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+全线支持!
+    <div id="sup">
+    </div>
+</h1>
+
+<h2 id="takahashi">
+< /SCM>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100820140119.6417:/SCM-->
+<!--@-node:zoomq.20100820140119.6411:SCM-->
+<!--@+node:zoomq.20100818100255.11013:Web-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://wiki.woodpecker.org.cn/moin/PyWebFrameList">
+< Web app./></a>
+
+    <div id="sup">
+    </div>
+</h1>
+
+<ul>
+	<li><a href="http://wiki.woodpecker.org.cn/moin/PyWebFrameList">
+		<img src="i/logo/pywebframwork_logos.png"/> .... </a></li>
+<li><a href="http://xlp223.yculblog.com/post.2566634226.html">为什么Python 有如此多的框架?!</a></li>
+</ul>
+
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11013:Web-->
+<!--@+node:zoomq.20100818100255.11015:Mobile-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://wiki.woodpecker.org.cn/moin/PyWebFrameList">
+< Mobile app./></a>
+
+    <div id="sup">
+    </div>
+</h1>
+<h2 id="takahashi3">
+<a href="http://www.forum.nokia.com/info/sw.nokia.com/id/ee447e84-2851-471a-8387-3434345f2eb0/Python_for_S60.html">Nokia <img src="i/logo/s60_medium.jpg"></a>
+<br/>
+
+<a href="http://www.awaretek.com/pymo.html">Palm
+,Sharp Zaurus
+,arm-linux
+,Apple iPod
+,PyMedia
+,Pocket PC (WinCE)...</a>
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11015:Mobile-->
+<!--@+node:zoomq.20100818100255.11019:DB-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://wiki.woodpecker.org.cn/moin/PyWebFrameList">
+< DataBase/></a>
+
+    <div id="sup">
+    </div>
+</h1>
+	<ul id="takahashi1">
+    <li><a href="http://www.iodbc.org">iODBC</a>,<a href="http://phplens.com/lens/adodb/adodb-py-docs.htm">ADOdb</a> ado..
+    <li>对象数据库:
+        <br/><a href="http://www.zope.org/Products/StandaloneZODB">ZODB</a>,
+        <a href="http://quentel.pierre.free.fr/PyDbLite/index.html">PyDbLite</a>,
+        <a href="http://gadfly.sourceforge.net/l">GadflyB5</a>,
+        <a href="http://buzhug.sourceforge.net/performance.html">buzhug</a>...			
+        </li>
+    <li>ORM:
+        <br/><a href="http://www.sqlalchemy.org">
+<img src="i/logo/sqlalchemy.gif"/></a>,
+        <a href="http://sqlobject.org/">SQLObject</a>
+        ....</li>
+    <li>NoSQL:
+        <br/><a href="http://code.google.com/p/couchdb-python/">CouchDB</a>
+        ,<a href="http://packages.python.org/tokyocabinet-python/">Tokyo Cabinet</a>
+        ,<a href="http://api.mongodb.org/python/">MongoDB</a>
+        ,<a href="http://github.com/andymccurdy/redis-py">Redis</a>
+        ,<a href="http://incubator.apache.org/cassandra/">Cassandra</a>
+        ,<a href="http://www.tummy.com/Community/software/python-memcached/">Memcached</a>
+        ....</li>
+    <li>......</li>
+	</ul>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11019:DB-->
+<!--@+node:zoomq.20100818100255.11017:Embedded-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://wiki.woodpecker.org.cn/moin/PyWebFrameList">
+< Embedded/></a>
+
+    <div id="sup">
+    </div>
+</h1>
+	<ul id="takahashi1">
+		<li><sup>(Delphi)</sup>p4d</li>
+		<li><sup>(C/C++)</sup>
+		<a href="http://www.cosc.canterbury.ac.nz/greg.ewing/python/Pyrex/version/Doc/About.html">Pyrex</a>,
+
+		<a href="http://python.net/crew/theller/ctypes/">ctypes</a>,
+		<a href="http://www.swig.org">SWIG</a>,
+		<a href="http://www.riverbankcomputing.co.uk/sip/">SIP</a>,
+		bgen<sup>Macintosh</sup>,
+		<a href="http://cxx.sourceforge.net">cxx</a>,
+		<a href="http://www.cgl.ucsf.edu/home/gregc/wrappy/index.html">WrapPy</a>,
+		<a href="http://www.boost.org/libs/python/doc">Boost Python Library</a>,
+		</li>
+		<li><sup>(Fortran)</sup><a href="http://pyfortran.sourceforge.net">pyfort</a></li>
+        <li>......</li>
+	</ul>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11017:Embedded-->
+<!--@+node:zoomq.20100818100255.10881:</领域>-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< App. Domains>
+    <div id="sup">
+    <a href="http://www.python.org/about/apps/">Py应用领域</a>
+    </div>
+</h1>
+
+<h2  id="takahashi8">
+<sup class="tiny">基本上是</sup>
+<br/>
+一切
+</h2>
+
+    <div class="handout">
+    Embedded
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10881:</领域>-->
+<!--@-node:zoomq.20100818100255.10879:<领域>-->
+<!--@+node:zoomq.20100818100255.11021:影响-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< 影响/>
+    <div id="sup">
+    <a href="http://www.python.org/about/apps/">Py应用领域</a>
+    </div>
+</h1>
+
+<ul>
+	<li>Java平台
+		<ul>
+    <li>Jython</li>
+	<li>groovy</li>
+	<li>...</li>
+		</ul>
+  </li>
+  <li>.net平台
+		<ul>
+    <li>python.net</li>
+    <li>IronPython</li>
+	<li>boo</li>
+	<li>...</li>
+	</ul>
+	</li>
+ <li>动能:<a href="http://www.python.org/psf/">PSF</a></li>
+</ul>
+
+    <div class="handout">
+    Embedded
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11021:影响-->
+<!--@+node:zoomq.20100818100255.11023:小结Py世界-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< /in World>
+    <div id="sup">
+    <a href="http://www.python.org/about/apps/">Py应用领域</a>
+    </div>
+</h1>
+
+<ul class="incremental" id="takahashi2">
+    <li>世界中的Python...</li>
+    <li>应用非常广泛和深入</li>
+    <li>支持软件包混厚无比</li>
+    <li>为什么<b>国人不用?</b></li>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11023:小结Py世界-->
+<!--@-node:zoomq.20100818100255.10801:brief1-->
+<!--@+node:zoomq.20100818100255.10803:brief2-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< in China>
+<div id="sup">
+历史->世界->中国->我
+</div>
+</h1>
+
+<ul class="" id="takahashi2">
+<li class="said"><sup>10'</sup> 历史上的Py </li>
+<li class="said"><sup>30'</sup> 世界中的Py </li>
+<li class="next"><sup>10'</sup> 中国里的Py </li>
+<li class="wait"><sup>30'</sup> 怎么学习Py </li>
+</ul>
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.11058:小结Py中国-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< /in China>
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi9">
+囧rz
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11058:小结Py中国-->
+<!--@-node:zoomq.20100818100255.10803:brief2-->
+<!--@+node:zoomq.20100818100255.10783:brief3-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+
+< Learnning>
+<div id="sup">
+历史->世界->中国->我
+</div>
+</h1>
+
+<ul class="" id="takahashi2">
+<li class="said"><sup>10'</sup> 历史上的Py </li>
+<li class="said"><sup>30'</sup> 世界中的Py </li>
+<li class="said"><sup>10'</sup> 中国里的Py </li>
+<li class="next"><sup>30'</sup> 怎么学习Py </li>
+</ul>
+    <div class="handout">
+    class="incremental"...
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.11034:Py-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+到底Py...
+<div id="sup">
+</div>
+</h1>
+
+<pre>
+Python是一种
+
+    语法优美的，
+
+    面向对象的，
+
+    内置高级数据结构，
+        支持模块和包
+        支持多种平台，
+
+    可扩展的,
+
+    解释型(脚本)
+
+通用高级开发语言
+</pre>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.11036:Py运行-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Py:运行
+<div id="sup">
+</div>
+</h1>
+
+<ul id="takahashi2">
+<li>丰富直观的运行方式...
+    <ul class="incremental" id="">
+
+    <li>命令行,</li>
+    <li>图形窗口,</li>
+    <li>交互方式<sup><a href="http://ipython.scipy.org/moin/About">iPython</a> =) </sup>,</li>
+    <li>嵌入方式</li>
+    <li>......</li>
+    </ul>
+    </li>
+</ul>
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11036:Py运行-->
+<!--@+node:zoomq.20100818100255.11038:Py动态-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Py:动态
+<div id="sup">
+</div>
+</h1>
+
+<ul class="incremental" id="takahashi2">
+    <li>赋值时进行名字绑定</li>
+    <li>无须数据类型声明</li>
+    <li>垃圾自动回收</li>
+
+    <li>......</li>
+</ul>
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11038:Py动态-->
+<!--@+node:zoomq.20100818100255.11040:Py语法-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Py:语法
+<div id="sup">
+</div>
+</h1>
+
+<ul class="" id="takahashi2">
+    <li>有大爱的语法::
+    <ul class="incremental" id="">
+
+        <li><b class="alert">缩进</b> </li>
+        <li>变量交换</li>
+        <li>高级数据结构<sup>字串,数组,元组,字典,集合,文件...</sup>,</li>
+        <li>不定参数与关键字参数</li>
+        <li>__变量 </li>
+        <li> ...... </li>
+        </ul>
+    </li>
+    </ul>
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11040:Py语法-->
+<!--@+node:zoomq.20100818100255.11042:Py发布-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Py:发布
+<div id="sup">
+</div>
+</h1>
+
+<ul class="incremental" id="takahashi2">
+    <li> 包/模块发布管理标准 </li>
+    <li> __init__.py </li>
+    <li> 专用的打包工具 </li>
+    <li> <sup>
+					<a href="http://webmaster.iu.edu/tool_guide_info/python/inst/inst.html">disutils</a>,
+					<a href="http://peak.telecommunity.com/DevCenter/setuptools">setuptools</a>,
+					<a href="http://py2exe.sf.net">py2exe</a>,
+					<a href="http://codereactor.net/projects/pypack/index.html">PyPackage</a>,
+					<a href="http://www.pythonapocrypha.com/projects/pyco/">Pyco</a>,
+					<a href="http://starship.python.net/crew/atuining/cx_Freeze/">cx_Freeze</a>,
+					<a href="http://www.voidspace.org.uk/python/movpy/">MovPy</a>...
+				</sup> </li>
+    <li> ...... </li>
+</ul>
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11042:Py发布-->
+<!--@+node:zoomq.20100818100255.11044:PyOOP-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Py:OO
+<div id="sup">
+</div>
+</h1>
+
+<ul class="" id="takahashi2">
+    <li> 真正面向对象的:: 
+    <ul class="incremental" id="">    
+        <li><b>一切皆对象</b>,
+        <li> 操作符重载 </li>
+        <li> 自省 </li>
+        <li> <a href="http://blog.donews.com/limodou/archive/2004/10/03/118184.aspx">MixIn</a>, </li>
+        <li> <a href="http://www-128.ibm.com/developerworks/cn/linux/l-pymeta/index.html">元类(metaclass)</a></li>
+        </ui>
+    </li>
+    <li> ...... </li>
+</ul>
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11044:PyOOP-->
+<!--@+node:zoomq.20100818100255.11046:Py!-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Py 更多便利
+<div id="sup">
+</div>
+</h1>
+
+<ul class="incremental" id="takahashi2">
+	<li>内置支持Unicode</li>
+    <li> 自动编译成字节文件 </li>
+    <li> 对象序列化 </li>
+    <li> 测试框架 </li>
+    <li> 多线程 </li>
+    <li> ...... </li>
+</ul>
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11046:Py!-->
+<!--@-node:zoomq.20100818100255.11034:Py-->
+<!--@+node:zoomq.20100818100255.11048:Pythonic-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< Pythonic>
+<div id="sup">
+</div>
+</h1>
+<snap class="logo"><image src="i/logo/pythonology.gif"alt="Python的哲学"/> </snap>
+~ Python的哲学 
+<ul>
+	<li><img src="i/batteries-included.jpg"/></li>
+	<li><span id="alert"><a href="http://wiki.woodpecker.org.cn/moin/PythonIc">Pythonic</a></span>
+	<sup><a href="http://blog.donews.com/limodou/archive/2005/08/07/498175.aspx">What is Pythonic?</a></sup>
+		<ul>
+			<li>Think in Python</li>
+			<li>保持<a href="http://whatis.techtarget.com/definition/0,,sid9_gci521694,00.html">KISS</a>
+			<sup>--简单即是美</sup></li>
+			<li><a href="http://blog.donews.com/limodou/archive/2005/08/15/510622.aspx">面向数据</a>
+			<sup><a href="http://blog.donews.com/limodou/archive/2005/08/16/511130.aspx">续一</a></sup></li>
+			</ul>
+	</li>
+	<li>随时可读:
+<pre>import this</pre></li>
+</ul>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.11050:Pythonic-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Zen of Python
+<div id="sup">
+	<a href="http://wiki.woodpecker.org.cn/moin/PythonZen">蟒之禅<sup><i> 其它译本</i></sup></a>
+</div>
+</h1>
+<pre>
+优美胜过丑陋 明确胜过含蓄
+简单胜过复杂 复杂胜过难懂
+扁平胜过嵌套 稀疏胜过密集
+易读亦有价
+尽管实用会击败纯洁 特例也不能特殊到打破规则
+除非明确地使其沉默 错误永远不应默默地溜掉
+
+面对着不确定，要拒绝猜测的诱惑
+
+应该有一个--宁肯只有一个--明显的实现方法
+也许这个方法开始不是很明显，除非你是荷兰人
+
+尽管不做通常好过立刻做 但现在做也要胜过不去做
+
+如果实现很难解释，那它就是一个坏想法
+如果实现容易解释，那它可能就是一个好想法
+
+名字空间是一个响亮的出色想法--就让我们多加利用吧
+</pre>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11050:Pythonic-->
+<!--@+node:zoomq.20100819090507.6481:Pythonic 八荣八耻-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Pythonic 八荣八耻
+<div id="sup">
+	<a href="http://wiki.woodpecker.org.cn/moin/Py8Rong8Chi">啄木鸟社区发明并收集</a>
+</div>
+</h1>
+<pre>
+以动手实践为荣 , 以只看不练为耻;
+以打印日志为荣 , 以单步跟踪为耻;
+以空格缩进为荣 , 以制表缩进为耻;
+以单元测试为荣 , 以人工测试为耻;
+
+以模块复用为荣 , 以复制粘贴为耻;
+以多态应用为荣 , 以分支判断为耻;
+以Pythonic为荣 , 以冗余拖沓为耻;
+以总结分享为荣 , 以跪求其解为耻;
+</pre>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100819090507.6481:Pythonic 八荣八耻-->
+<!--@-node:zoomq.20100818100255.11048:Pythonic-->
+<!--@+node:zoomq.20100818100255.10877:为什么学?-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+为什么学习Python?
+    <div id="sup">
+    <a href="http://www.loudthinking.com/about.html">David Heinemeier Hansson</a>
+   <i>(<a href="http://www.rubyonrails.org/">Ruby on Rails</a>创造人)</i>
+   在<a href="http://wiki.woodpecker.org.cn/moin/WhyPython">一次对话</a>中表示:
+    </div>
+</h1>
+<pre>
+    人们学习PHP是因为要得到一份工作；
+    人们学习Java是因为他们选修了计算机科学这门课；
+    人们学习Python是因为他们爱这门语言，因为他们追寻美...
+</pre>
+
+<ul id="takahashi1" class="incremental">
+  <li>轻易实现快<b>速学</b>习的梦想</li>
+  <li>深入体会<b>动态</b>语言的妙处</li>
+  <li>立即体验<b>快速开发</b>的快感</li>
+  <li>获得<b>快速验证</b>想法的能力</li>
+</ul>
+
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10877:为什么学?-->
+<!--@+node:zoomq.20100818100255.11052:怎么学?-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+怎么学习Python?
+    <div id="sup">
+
+    </div>
+</h1>
+<table><tr>
+		<td>
+<ul class="incremental">
+<li><a href="http://blog.donews.com/limodou/archive/2006/04/02/808281.aspx">实践是检验真理的唯一标准</a></li>
+<li>学习/体验 自由精神
+	<ul>
+	<li>强调钻研精神</li>
+	<li>强调知识的分享</li>
+	</ul>
+</li>
+<li>在工作和学习中主动应用</li>
+<li><a href="http://groups.google.com/group/python-cn/browse_thread/thread/4f8642be7ec6df5a">订阅邮件列表与人交流</a></li>
+<li><a href="http://blog.donews.com/limodou/archive/2004/12/10/199174.aspx">参与项目</a></li>
+<li><a href="http://blog.donews.com/limodou/archive/2005/04/26/352565.aspx">多看源代码</a>
+<sup><a href="http://blog.donews.com/lemur/category/70797.aspx">CPython源码剖析</a></sup></li>
+<li><a href="http://blog.donews.com/limodou/archive/2004/12/14/202590.aspx">勤写作、勤积累</a></li>
+</ul>
+		</td>
+		<td>
+			<a href="http://wiki.woodpecker.org.cn/moin/SkSig/MindMap">
+				<img src="i/km-tranfer2.gif"/></a>
+		</td>
+	</tr>
+</table>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11052:怎么学?-->
+<!--@+node:zoomq.20100818100255.11054:学习资源-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+学习资源...
+    <div id="sup">
+
+    </div>
+</h1>
+<ul>
+	<li><a href="http://python.org">
+    <snap class="logo">
+<img src="i/logo/python-logo.gif"/></snap>
+    </a>
+	~<sup>
+		<a href="http://www.python.org/community/lists/">邮件列表</a>,
+		<a href="http://www.python.org/pypi">PyPi</a>,
+		<a href="http://www.python.org/dev/peps/">PEPs</a>,
+		<a href="http://www.python.org/community/sigs/">PSIG</a>,
+		<a href="http://www.python.org/community/irc/">IRC</a>,
+		<a href="http://wiki.python.org/moin/LocalUserGroups">世界Py用户组</a>
+	</sup>
+	</li>
+<li><a href="http://planetpython.org">http://planetpython.org</a></li>
+<li><a href="http://wiki.woodpecker.org.cn/moin/CPUG">CPyUG</a><sup>中文Python用户组</sup>
+</li>
+<li>...</li>
+</ul>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11054:学习资源-->
+<!--@+node:zoomq.20100818100255.10784:期望-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< HOPE>
+<div id="sup">
+持续改进才有效果！
+</div>
+</h1>
+<h2 id="takahashi9">
+坚持
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10785:PKM-->
+<div class="slide">
+<h1>
+个人知识管理!
+<div id="sup">
+从尊重自个儿掌握的知识开始!
+</div>
+</h1>
+
+<h2 id="takahashi9">
+<a href="http://blog.sina.com.cn/s/blog_493a84550100c4ug.html">
+PKM
+</a>
+</h2>
+
+    <div class="handout">
+TLH项目 – 学校并非学习之地 | 益学会 
+http://fanyi.edu2do.org/2010/04/05/tlh-school-is-not-for-learning.html
+
+
+    </div>
+</div>
+<!--@nonl-->
+<!--@+node:zoomq.20100818100255.10786:KM:SECI模型-->
+<div class="slide">
+<h1>
+SECI模型
+<div id="sup">
+野中郁次郎（Ikujiro Nonaka）和竹内弘高（Hirotaka Takeuchi）认为
+</div>
+</h1>
+<center>
+<a href="http://www.12manage.com/methods_nonaka_seci_zh.html">
+<img src="i/KMsys-Seci20m1.jpg"/>
+</a>
+</center>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@+node:zoomq.20100819090507.6472:知识之轮-->
+<div class="slide">
+<h1>
+知识之轮
+<div id="sup">
+知识只有流动才有价值...
+</div>
+</h1>
+<center>
+<a href="http://www.12manage.com/methods_nonaka_seci_zh.html">
+<img src="i/KMsys-pattern-SECIba_528x389_scrot.png"/>
+</a>
+</center>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100819090507.6472:知识之轮-->
+<!--@+node:zoomq.20100818100255.10787:WeKnow:1-->
+<div class="slide"><h1>
+SNS学习原理:1
+<div id="sup">
+小时的我...
+</div></h1>
+
+<h2 id="takahashi">
+<img src="i/_know-me.gif"/>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@+node:zoomq.20100818100255.10788:WeKnow:2-->
+<div class="slide"><h1>
+SNS学习原理:2
+<div id="sup">
+成长的我...
+</div></h1>
+
+<h2 id="takahashi">
+<img src="i/_know-me1.gif"/>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100818100255.10788:WeKnow:2-->
+<!--@+node:zoomq.20100818100255.10789:WeKnow:3-->
+<div class="slide"><h1>
+SNS学习原理:3
+<div id="sup">
+成为一体的大家...
+</div></h1>
+
+<h2 id="takahashi">
+<img src="i/_know-we.gif"/>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100818100255.10789:WeKnow:3-->
+<!--@+node:zoomq.20100818100255.10790:WeKnow:0-->
+<div class="slide"><h1>
+SNS学习原理:反証
+<div id="sup">
+成为一体的大家...
+</div></h1>
+
+<h2 id="takahashi">
+<img src="i/_know-dot.gif"/>
+</h2>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100818100255.10790:WeKnow:0-->
+<!--@-node:zoomq.20100818100255.10787:WeKnow:1-->
+<!--@-node:zoomq.20100818100255.10786:KM:SECI模型-->
+<!--@+node:zoomq.20100818100255.10791:学习的层级-->
+<div class="slide"><h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython/0Days">
+学习的层级</a>
+<div id="sup">
+也是个人总结
+</div></h1>
+
+<ol class="incremental" id="takahashi3">
+<li>不知己不知
+    </li>
+<li>不知己知何
+    </li>
+<li>知己何已知
+    </li>
+<li>知己何不知
+    </li>
+</ol>
+
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100818100255.10791:学习的层级-->
+<!--@+node:zoomq.20100818100255.10792:KM:持续改进-->
+<div class="slide">
+<h1> KM持续改进
+<div id="sup">
+最终目标是:基于知识的企业文化！
+</div>
+</h1>
+<pre class="takahashi">
+知识管理乃是
+    培育
+        可摧生自学习型组织的
+    文化氛围
+</pre>
+<ul id="takahashi" class="incremental">
+<li>自学习型<sup>  主动改进自身行为的</sup>
+</li>
+<li>氛围<sup>  即所有成员的共通心理</sup>
+</li>
+</ul>
+</div>
+
+<!--@-node:zoomq.20100818100255.10792:KM:持续改进-->
+<!--@-node:zoomq.20100818100255.10785:PKM-->
+<!--@+node:zoomq.20100818100255.10793:做项目吧-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+做项目吧
+<div id="sup">
+<a href="http://blog.donews.com/limodou/archive/2004/12/10/199174.aspx">[编程杂谈]做个项目吧 - limodou的学习记录 </a>
+</div>
+</h1>
+
+<h2 id="takahashi9">
+下海
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10793:做项目吧-->
+<!--@+node:zoomq.20100818100255.10794:写博客吧-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+写博客吧
+<div id="sup">
+A:练习表述;B:进入知识圈<a href="http://blog.donews.com/limodou/archive/2004/12/14/202590.aspx">[编程杂谈]写写Blog吧 - limodou的学习记录 </a>
+</div>
+</h1>
+
+<h2 id="takahashi9">
+入圏
+</h2>
+
+    <div class="handout">
+某个著名软件公司里，开发组的桌上会放着一只小熊，大家互相问问题之前，先对着小熊把问题说一遍，看能不能把问题描述的清晰，基本上说的比较有条理以后，答案也就随之而来了，大家可以试试这个办法
+
+    </div>
+</div>
+<!--@+node:zoomq.20100818100255.10795:沟通法则-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<a href="http://www.xmind.net/share/zoomquiet/33-session/">会议33制</a>
+<div id="sup">
+一切有关沟通！也是通用的软件工程核心行为模式...
+</div>
+</h1>
+
+<h2 id="takahashi9">
+<img src="i/snap/3x3steps_zq-2010-04-17-201715_scrot.png"/>
+</h2>
+
+    <div class="handout">
+
+    什么是软件工程！？
+        － 沟通！ 和电脑
+        － 沟通！！ 和他人
+        － 沟通！！！ 和自个儿
+会议33制 - XMind - Social Brainstorming and Mind Mapping
+http://www.xmind.net/share/zoomquiet/33-session/
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10795:沟通法则-->
+<!--@-node:zoomq.20100818100255.10794:写博客吧-->
+<!--@+node:zoomq.20100818100255.10796:读代码吧-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+读代码吧
+<div id="sup">
+<a href="http://blog.donews.com/limodou/archive/2005/04/26/352565.aspx">[编程杂谈]开始读源码吧 - limodou的学习记录</a>
+</div>
+</h1>
+
+<h2 id="takahashi9">
+反刍
+</h2>
+<br/>
+正如,斯坦尼斯拉夫斯基在《演员的自我修养》里说过：
+<br/><span>    </span>"感情应该是由外而内，再由内而外的"...
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10796:读代码吧-->
+<!--@+node:zoomq.20100818100255.10797:宅点东西吧-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+专注点程序之外的东西吧
+<div id="sup">
+功夫在诗外！拓展有益的社会关系，有利于...
+</div>
+</h1>
+
+<h2 id="takahashi9">
+宅
+</h2>
+<h2 id="takahashi4">
+<a href="http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F">OTAKU</a>
+</h2>
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10797:宅点东西吧-->
+<!--@+node:zoomq.20100818100255.10798:关注经济学吧-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+专注点程序之外的东西吧
+<div id="sup">
+经济是一切社会活动的基本法则，作为社会个体，应该有所觉悟...
+</div>
+</h1>
+
+<ul class="incremental" id="takahashi4">
+<li>不想当会计
+    </li>
+<li>的程序员
+    </li>
+<li>不是好CTO;-}
+    </li>
+</ul>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10798:关注经济学吧-->
+<!--@+node:zoomq.20100818100255.10799:典章常推-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< / HOPE>
+<div id="sup">
+典章常读
+</div>
+</h1>
+
+<ul class="incremental" id="takahashi1">
+<li><a href="http://wiki.woodpecker.org.cn/moin/AskForHelp">
+    提问的智慧</a>
+    </li>
+<li><a href="http://www.woodpecker.org.cn/share/classes/050730-CPUG/usMaillist/">
+    邮件列表的规范和礼节</a>
+    </li>
+<li><a href="http://wiki.woodpecker.org.cn/moin/WyTiWyG">
+    WYTIWYG</a>
+    </li>
+<li><a href="http://www.woodpecker.org.cn/share/doc/SKSIG/DriveIntoMoinPub/">
+    Wiki导览</a> <sup>+从入门到享用MoinMoin</sup>
+    </li>
+<li><a href="http://www.zreading.cn/archives/1629.html">
+    “假学习”和“真学习” - 左岸读书</a>
+    </li>
+<li><a href="http://www.mifengtd.cn/about">褪墨</a>
+<sup>专注GTD</sup>
+    </li>
+<li><a href="http://hi.baidu.com/wikicc/blog/item/388012f398f2efca0a46e0ac.html">如何进行人脉管理</a>
+    </li>
+
+</ul>
+
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10799:典章常推-->
+<!--@-node:zoomq.20100818100255.10784:期望-->
+<!--@+node:zoomq.20100818100255.11056:小结Py学习-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< Learnning/>
+    <div id="sup">
+
+    </div>
+</h1>
+
+
+<h2 id="takahashi9">
+用之
+</h2>
+
+    <div class="handout">
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.11056:小结Py学习-->
+<!--@-node:zoomq.20100818100255.10783:brief3-->
+<!--@+node:zoomq.20100820140119.6430:Q&A-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<div id="sup">
+山寨的，非业界公认的，个人体验为基础的...
+</div>
+</h1>
+<h2  id="takahashi8">
+Q&A
+</h2>
+<br/>
+<center>
+<a href="http://doc.s.kingsoft.net/share/s5/100820-introPy/">
+http://doc.s.kingsoft.net/share/s5/100820-introPy/
+</a>
+<br/>
+<a href="http://py.kingsoft.net/s5/100820-introPy/">
+http://py.kingsoft.net/s5/100820-introPy/
+</a>
+</center>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100820140119.6430:Q&A-->
+<!--@+node:zoomq.20100818100255.10813:preA-->
+<!--@+node:zoomq.20100819090507.6482:A0-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+在高性能web?
+<div id="sup">
+...
+</div>
+</h1>
+<h2  id="takahashi8">
+靠谱
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100819090507.6482:A0-->
+<!--@+node:zoomq.20100819090507.6484:A1-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+在MySQL?
+<div id="sup">
+ookie/session会话处理，Socket通信，登录验证处理方式...
+</div>
+</h1>
+<h2  id="takahashi8">
+框架
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100819090507.6484:A1-->
+<!--@+node:zoomq.20100819090507.6486:A2-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+在网络系统开发中的地位?
+<div id="sup">
+
+</div>
+</h1>
+<h2  id="takahashi8">
+随便
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100819090507.6486:A2-->
+<!--@+node:zoomq.20100819090507.6488:A3-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+从PHP转向Python应该做什么?
+<div id="sup">
+
+</div>
+</h1>
+<h2  id="takahashi8">
+<a href="http://www.ibm.com/developerworks/cn/opensource/os-php-pythonbasics/?ca=drs-tp4608">
+自在
+</a>
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100819090507.6488:A3-->
+<!--@+node:zoomq.20100819090507.6490:A4-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+相比于传统脚本?
+<div id="sup">
+系统脚本vs高级脚本
+</div>
+</h1>
+<h2  id="takahashi8">
+多范式
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100819090507.6490:A4-->
+<!--@+node:zoomq.20100819090507.6492:A5-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+代码组织结构?
+<div id="sup">
+存乎一心
+</div>
+</h1>
+<h2  id="takahashi8">
+<a href="http://wiki.woodpecker.org.cn/moin/PyIOP">
+IOP
+</a>
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100819090507.6492:A5-->
+<!--@+node:zoomq.20100819090507.6494:A6-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+vs其它?
+<div id="sup">
+Funny+易用
+</div>
+</h1>
+<h2  id="takahashi9">
+爽!
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100819090507.6494:A6-->
+<!--@+node:zoomq.20100819090507.6496:A7-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+魅力?
+<div id="sup">
+没有惊奇的朴素的靠谱的...
+</div>
+</h1>
+<h2  id="takahashi">
+Pythonic
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100819090507.6496:A7-->
+<!--@+node:zoomq.20100819090507.6498:A8-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+低封装性?
+<div id="sup">
+为什么要OO?
+</div>
+</h1>
+<h2  id="takahashi8">
+OOP?!
+</h2>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100819090507.6498:A8-->
+<!--@-node:zoomq.20100818100255.10813:preA-->
+<!--@+node:zoomq.20100819090507.6473:Books-->
+<!--@+node:zoomq.20100819090507.6477:Py教程-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Python教程
+<div id="sup">
+v2.5 刘鑫 中文版
+</div>
+</h1>
+<h2 id="takahashi">
+<a href="http://www.woodpecker.org.cn/share/projects/pythontutorial/py2.5/html/tut/tut.html">
+Python Tutorial</a>
+</h2>
+    <div class="handout">
+
+
+    </div>
+</div>
+<!--@-node:zoomq.20100819090507.6477:Py教程-->
+<!--@+node:zoomq.20100819090507.6479:学习Py-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+Python语言入门
+<div id="sup">
+
+</div>
+</h1>
+<h2 id="takahashi">
+<a href="http://book.douban.com/subject/1239501/">
+<img src="i/s1318070-learnning-py.jpg"/>
+</a>
+</h2>
+    <div class="handout">
+<a href="http://www.woodpecker.org.cn/share/projects/pythontutorial/py2.5/html/tut/tut.html">Python Tutorial</a>
+
+    </div>
+</div>
+<!--@-node:zoomq.20100819090507.6479:学习Py-->
+<!--@+node:zoomq.20100818100255.10817:ZQ2009-->
+<div class="slide">
+<h1>
+<a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">
+<img src="i/id/zoomquiet_1-1_outline.png"/></a>
+2009-09-01 出版
+<div id="sup">
+spreading Python everywhere to everyone...
+</div>
+</h1>
+<h2 id="takahashi">
+<a href="http://book.douban.com/subject/3884108/">
+<img src="i/090902-lovpy.jpg"/>
+</a>
+</h2>
+    <div class="handout">
+- 将多年的体验,集中到一本入门图书 "可爱的Python"
+- 并主持ZPyUG 10次技术分享
+<a href="http://book.douban.com/subject/4031965/">Python UNIX和Linux系统管理指南 (豆瓣)</a>
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10817:ZQ2009-->
+<!--@+node:zoomq.20100818100255.10814:小小鸟-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+最后
+<div id="sup">
+好书再推荐
+</div>
+</h1>
+<h2 id="takahashi">
+<a href="http://book.douban.com/subject/4006425/">
+<img src="i/s3958139-itbird.jpg"/>
+</a>
+</h2>
+
+    <div class="handout">
+s4279952-zen4talk.jpg
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10814:小小鸟-->
+<!--@+node:zoomq.20100818100255.10815:讲演之禅-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+最后的最后
+<div id="sup">
+好书再推荐
+</div>
+</h1>
+<h2 id="takahashi">
+<a href="http://book.douban.com/subject/4760725/">
+<img src="i/s4279952-zen4talk.jpg"/>
+</a>
+</h2>
+
+    <div class="handout">
+
+    </div>
+</div>
+<!--@-node:zoomq.20100818100255.10815:讲演之禅-->
+<!--@-node:zoomq.20100819090507.6473:Books-->
+<!--@+node:zoomq.20100820140119.6441:Q&A-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+<div id="sup">
+山寨的，非业界公认的，个人体验为基础的...
+</div>
+</h1>
+<h2  id="takahashi8">
+Q&A
+</h2>
+<br/>
+<center>
+<a href="http://doc.s.kingsoft.net/share/s5/100820-introPy/">
+http://doc.s.kingsoft.net/share/s5/100820-introPy/
+</a>
+<br/>
+<a href="http://py.kingsoft.net/s5/100820-introPy/">
+http://py.kingsoft.net/s5/100820-introPy/
+</a>
+</center>
+    <div class="handout">
+    ...
+    </div>
+</div>
+
+<!--@-node:zoomq.20100820140119.6441:Q&A-->
+<!--@+node:zoomq.20100818100255.10685:version-->
+<div class="slide">
+<h1>
+<a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython"><img src="i/icon/lovpy-icon-64x64.png"/></a>
+< 版本 /></h1>
+<ul>
+    <li> 共同起草::
+    <ul>
+    <li><a href="http://wiki.internal.sina.com.cn/moin/limodou">
+        <img src="i/id/limodou.gif" /></a>  
+        <a href="mailto:limodou@gmail.cn">
+        Limodou</a>: 
+         <a href="http://wiki.woodpecker.org.cn/moin/UliPad">UliPad</a>,<a href="http://code.google.com/p/uliweb/">UliWeb</a> 作者，中国Py社区核心成员；
+    <li><a href="http://wiki.internal.sina.com.cn/moin/ZoomQuiet">
+        <img src="i/id/zhouqi.gif" /> </a> 
+        <a href="mailto:zoomquiet+sns@gmail.cn">
+        Zoom.Quiet</a>: 啄木鸟/CPyUG/ZPyUG/ECUG/SLL 等社区大妈;
+        </ul>
+    </li>
+    <li>修订历史::<ul>
+        <li>100819 增补SA领域/图书和问题精要</li>
+        <li>100818 样式迁移到S51.1</li>
+	   <li>100611 <a href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet/2010-06-10">PCAP2010新加坡SMU当地社区交流</a></li>
+	   <li>070322 新浪互动社区-内部技术交流</li>
+	   <li>070318 BoBo.com.cn 内部技术培训</li>
+	   <li> <a href="http://wiki.woodpecker.org.cn/moin/BPUG/2006-12-02">061010 中科院研究生院</a></li>
+        <li> <a href="http://wiki.woodpecker.org.cn/moin/BPUG/2005-09-04">050904 北京Python 学习沙龙</a></li>
+
+    </ul></li>
+
+
+    <div class="handout">
+    </div>
+
+</div>
+
+<!--@-node:zoomq.20100818100255.10685:version-->
+<!--@-others-->
+
+</div><!--class="presentation"-->
+</body>
+</html>
+<!--@-node:zoomq.20100819090507.7894:@shadow index.html-->
+<!--@-leo-->

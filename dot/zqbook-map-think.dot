@@ -1,0 +1,213 @@
+digraph ZqBookG {
+    /*生成命令:
+$ dot -Tpng zqbook-map-think.dot -o zqbook-map-think.png -Tcmapx -o zqbook-map-think.map
+    全局设定
+    */
+    graph [label="<大妈书>选题分析图谱\n {by Zoom.Quiet}",
+        fontsize=12.0,
+        labeljust="r",labelloc="b",center=1,
+        ranksep=0.2,center=1,ratio=compress,
+        rankdir=TB,
+        ];
+
+    node[fontsize=10.0,height=0.1,
+        style=filled,fillcolor=snow,
+        color=darkolivegreen,fontcolor=darkolivegreen,
+        shape=tab,
+        ];
+
+    edge [fontsize=9.0,fontcolor=yellowgreen,
+        fontcolor=gray25,
+        color=gray30,
+		arrowsize=0.5,arrowhead=vee,arrowtail=none,
+        ];
+    /*图元声明
+        start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+    */
+    ttag [label="时间轴",shape=box,];
+    ctag [label="",shape=plaintext,];
+    1974 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1978 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1981 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1986 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1987 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1990 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1993 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1994 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1996 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1998 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    1999 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2000 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2001 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2003 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2004 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2005 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2006 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2007 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2008 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2009 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+
+    1974->1978->1981->1986->1987->1990->1993->1994->1996->1998->1999->2000->2001->2003->2004->2005->2006->2007->2008->2009 [color=gray,style="setlinewidth(4)"];
+
+
+    core [label="核心主题\n依从追求的决择",shape=egg,fontcolor=navy,fillcolor=skyblue,color=skyblue];
+    life [label="个人生存住事"];
+        step0 [label="幼年环境"];
+        step1 [label="少年心智"];
+        step2 [label="沉默大学"];
+        step3 [label="职场初哥"];
+        step4 [label="社会态度"];
+
+        sf [label="SiFi"];
+            sfw [label="科幻世界"];
+        maga [label="maga"];
+        lomo [label="lomo"];
+        job [label="工作机会"];
+            lz [label="兰州"];
+            cz [label="常州"];
+            sh [label="上海"];
+            bj [label="北京"];
+            zh [label="珠海"];
+    tech [label="技术信仰发展"];
+        asp [label="asp"];
+        floss [label="FLOSS"];
+            php [label="php",fontcolor=snow,fillcolor=darkgreen];
+                mysql [label="mysql"];
+                cms [label="CMS"];
+                    nu [label="Nucleus"];
+                    xo [label="Xoops"];
+                    dr [label="Drupal"];
+                    pyb[label="PyBlosxom"];
+            py [label="python"];
+                zope [label="zope"];
+                plone [label="plone"];
+                cherry [label="CherryPy"];
+                karrigell [label="karrigell"];
+                web2py [label="web2py"];
+            erl [label="Erlang"];
+        os [label="OS"];
+        ms [label="M$"];
+            ms95 [label="M$95"];
+            ms98 [label="M$98"];
+            msnt [label="M$NT"];
+            ms2000 [label="M$2000"];
+            ms2003 [label="M$2003"];
+        unix [label="unix"];
+            rh [label="RedHat"];
+            bsd [label="FreeBSD"];
+            ub [label="Ubuntu"];
+                ubdd [label="6.06 LTS Dapper Drake"];
+                ubhh [label="8.04 LTS Hardy Heron"];
+                ubkk [label="9.10 Karmic Koala"];
+    pkm [label="知识管理"];
+        paper [label="纸"];
+        page [label="HTML/PDF"];
+        scrap [label="ScrapBook"];
+        leo [label="Leo"];
+        wiki [label="维基"];
+            tw [label="TiddlyWiki"];
+            zim [label="zim"];
+            mm [label="MoinMoin"];
+        spe [label="过程改进",fontcolor=snow,fillcolor=darkgreen];
+        sns [label="SNS"];
+            wp [label="啄木鸟",fontcolor=snow,fillcolor=darkgreen];
+                obp [label="OpenBookProject"];
+            czug [label="CZUG"];
+            cpug [label="CPyUG"];
+            ecug [label="ECUG"];
+                erlo [label="Erloung"];
+            cbc [label="网志年会"];
+            sll [label="SLL.org"];
+            zeuux [label="哲思"];
+            pts [label="珠三角技术沙龙"];
+        gtd [label="GTD"];
+
+
+    /*图例关系    
+    ksso2->ksso [arrowtail=none,arrowhead=none,style=dashed]    
+    proxy->staff->pg    [arrowtail=normal];
+    s904->staff        [arrowhead=dot];
+    */
+    life->lz->cz;
+    life->step0->step1->step2->step3->step4 [color=green,style="setlinewidth(3)"];
+        step0->lz;
+        step1->sf->sfw;
+            step1->maga;
+            step1->lomo;
+        step2->cz;
+        lz->cz->job->sh->bj->zh [color=blue,style="setlinewidth(3)"];
+            bj->spe->zh;
+        lomo->sh;
+    tech->asp->php->floss;
+    floss->py->zope->plone;
+        py->cherry->karrigell->pyb->web2py;
+
+        php->mysql->cms->nu->xo->dr;
+            cms->plone;
+            nu->pyb;
+    tech->os->ms->ms95->ms98->msnt->ms2000->ms2003;
+        os->unix->rh->bsd->ub;
+            ub->ubdd->ubhh->ubkk;
+    pkm->paper->page->scrap->leo->wiki;
+        wiki->mm->tw->zim;
+    wiki->sns;
+        sns->czug->wp->cpug->sll->zeuux->ecug->pts;
+            wp->obp;
+            erl->erlo->ecug;
+    pkm->gtd->paper;
+
+
+    core->tech;
+    core->life;
+    /*时间/地域关联关系*/
+    cz->rh;
+    bj->bsd;
+    zh->erl;
+    /*FLOSS引发关系*/
+    step4->floss;
+    czug->plone;
+    /*PKM引发关系*/
+    step4->pkm;
+        nu->cbc;
+    spe->sll;
+    { rank=same; ttag   core; }
+    { rank=same; ctag       life tech; }
+    { rank=same; 1974   lz; }
+    { rank=same; 1978       ; }
+    { rank=same; 1981   step0 ; }
+    { rank=same; 1986       sf; }
+    { rank=same; 1987       sfw; }
+    { rank=same; 1990       ; }
+    { rank=same; 1993   step1 ; }
+    { rank=same; 1994   step2 cz; }
+    { rank=same; 1996       ms95 unix; }
+    { rank=same; 1998   step3 job msnt asp; }
+    { rank=same; 1999       rh floss php; }
+    { rank=same; 2000       sh; }
+    { rank=same; 2001       ms2000 py wiki; }
+    { rank=same; 2003   step4 ; }
+    { rank=same; 2004       bj ms2003 wp cpug; }
+    { rank=same; 2005       cbc; }
+    { rank=same; 2006       ubdd pyb ; }
+    { rank=same; 2007       zh erl erlo; }
+    { rank=same; 2008       ecug pts; }
+    { rank=same; 2009       ubkk; }
+
+    edge [style=invis];
+        ttag->ctag->1974;
+        ctag->life->tech;
+        1998->step3->job->ms98->msnt->asp;
+
+
+}
