@@ -1,0 +1,31 @@
+participant "学生" as fresher
+participant "蟒营" as pyicamp
+participant "团队" as team
+participant "作品" as item
+participant "导师" as tutor
+
+fresher->pyicamp: 0.报名
+activate pyicamp
+pyicamp->team: 1.组成
+activate team
+team->item: 2.设计/认领
+activate item
+item-->tutor: 3.0.发布计划
+activate tutor
+tutor->item: 3.1.审定
+activate item
+item->team: 4.0.开发
+activate team
+team->item: 4.1.定期发布
+activate team
+item->tutor: 4.2.版本核定
+activate tutor
+item-->team: 5.0.准时结束
+activate team
+tutor->pyicamp: 5.1.发布终版
+activate pyicamp
+tutor-->team: 持续引导
+deactivate team
+pyicamp-->fresher: 闭营
+deactivate pyicamp
+
