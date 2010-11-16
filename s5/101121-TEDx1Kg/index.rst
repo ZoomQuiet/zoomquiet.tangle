@@ -51,7 +51,7 @@
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v10.11.9 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v10.11.12 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 
 <进度/>
 =========
@@ -64,8 +64,8 @@
 .. class:: takahashi3
 
     - :orange:`1' 我`
-    - :silver:`3' 分享书成`
-    - :silver:`7' 开放讨论`
+    - :silver:`7' 创书`
+    - :silver:`3' 回顾成书`
 
 
 
@@ -99,7 +99,7 @@
    |zqeye|
 
 
-.. class:: takahashi8
+.. class:: takahashi10
 
     36
 
@@ -196,8 +196,8 @@
 .. class:: takahashi3
 
     - :gray:`1' 我`
-    - :orange:`3' 分享书成`
-    - :silver:`7' 开放讨论`
+    - :orange:`7' 创书`
+    - :silver:`3' 回顾成书`
 
 
 
@@ -224,641 +224,6 @@
    - 不过,今天说的和内容无关,是和怎么写出这样一本挺厚的书相关的
    - 写成一本书,真的不是难事儿...
 
-
-
-
-最大的特点
-==================
-
-.. container:: handout
-
-    人多力量大!   
-
-
-.. class:: takahashi8
-
-    人多
-
-
-.. container:: notes
-
-   - 这个是有别其它图书的最大特色了
-   - 当然也有专门更多的人编写的百科全书
-   - 我是说,同类型的图书中,我们这本的作者是最多的;-)
-
-
-作者.1~清风
-==================
-
-.. container:: handout
-
-   老创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/qingfeng.jpg
-        :align: center
-        :scale: 200 %
-        :target: #
-
-
-.. container:: notes
-
-   - 比我小近10岁,现在北京,豆瓣公司
-
-
-作者.2~xyb
-==================
-
-.. container:: handout
-
-   豆创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/xyb.jpg
-        :align: center
-        :scale: 200%
-        :target: http://9.douban.com/subject/9000016/
-
-
-.. container:: notes
-
-   - 比我小5岁,现在北京,豆瓣公司
-
-
-
-
-
-作者.3~张沈鹏
-==================
-
-.. container:: handout
-
-   教创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/zsp.png
-        :align: center
-        :scale: 200 %
-        :target: http://zsp.javaeye.com/blog/activities
-
-
-.. container:: notes
-
-   - 比我小10岁以上,现在上海,曾经在豆瓣公司
-
-
-
-
-
-
-作者.4~盛艳
-==================
-
-.. container:: handout
-
-   M创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/lizzie.jpg
-        :align: center
-        :scale: 150 %
-        :target: http://www.zeuux.com/friend/user/lizzie/
-
-
-.. container:: notes
-
-   - 比我小11岁,现在杭州,淘宝公司
-
-
-
-
-
-
-作者.5~刘鑫
-==================
-
-.. container:: handout
-
-   刘创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/lx.png
-        :align: center
-        :scale: 100 %
-        :target: http://blog.csdn.net/ccat
-
-
-.. container:: notes
-
-   - 比我小4岁,但是有个3岁的儿子了,现在珠海和我同在金山软件
-
-
-
-
-
-作者.6~黄毅
-==================
-
-.. container:: handout
-
-   黄创
-
-
-.. class:: takahashi
-
-    .. image:: i/id/huangyi.jpg
-        :align: center
-        :scale: 100 %
-        :target: #
-
-
-.. container:: notes
-
-   - 比我小10岁以上,现在深圳工作
-
-
-
-
-
-
-作者.7~洪强宁
-==================
-
-.. container:: handout
-
-   CTO
-
-
-.. class:: takahashi
-
-    .. image:: i/id/hongqn_mask.jpg
-        :align: center
-        :scale: 100 %
-        :target: #
-
-
-.. container:: notes
-
-   - 比我小3岁,现在北京豆瓣,女儿也快2岁了
-
-
-
-
-
-
-作者.8~Limodou
-==================
-
-.. container:: handout
-
-   木创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/limodou.png
-        :align: center
-        :scale: 100 %
-        :target: http://hi.baidu.com/limodou
-
-
-.. container:: notes
-
-   - 比我大一岁,现在北京某银行工作,女儿都上小学了...
-
-
-
-
-
-
-作者.9~潘俊勇
-==================
-
-.. container:: handout
-
-   潘创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/panjy.png
-        :align: center
-        :scale: 100 %
-        :target: http://www.czug.org/blog/panjy
-
-
-.. container:: notes
-
-   - 比我小2岁,虽然看着老,现在广州,运营润普公司
-
-
-
-
-
-
-作者.10~沈崴
-==================
-
-.. container:: handout
-
-   侠创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/shen-0.png
-        :align: center
-        :scale: 100 %
-        :target: http://eishn.blog.163.com/blog/
-
-
-.. container:: notes
-
-   - 比我大2岁,现在上海,女儿有3岁了,照片是多年前結婚时的艺术照
-
-
-
-
-
-
-作者.10~真像
-==================
-
-.. container:: handout
-
-   侠创 |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/id/shen-1.png
-        :align: center
-        :scale: 100 %
-        :target: http://eishn.blog.163.com/blog/
-
-
-.. container:: notes
-
-   - 现在的样子完全不象的...吸烟不好,他现在很听话,已经不吸了 ;-)
-
-
-
-
-
-
-作者.11~徐继哲
-==================
-
-.. container:: handout
-
-   哲创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/billxu.png
-        :align: center
-        :scale: 100 %
-        :target: http://www.zeuux.com/friend/user/billxu/
-
-
-.. container:: notes
-
-   - 小我5岁,现居北京,哲思社区创始人
-
-
-
-
-
-
-
-作者.12~孔建军
-==================
-
-.. container:: handout
-
-   校创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/1-kongjianjun.jpg
-        :align: center
-        :scale: 100 %
-        :target: #
-
-
-.. container:: notes
-
-   - 比我小10岁,刚刚毕业,现在北京,RedHat 公司
-
-
-
-
-
-作者.13~高辉
-==================
-
-.. container:: handout
-
-   校创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/2-gaohui.jpg
-        :align: center
-        :scale: 100 %
-        :target: #
-
-
-.. container:: notes
-
-   - 是孔建军的同学,留在西安工作
-
-
-
-
-
-作者.0
-==================
-
-.. container:: handout
-
-   G创 |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/id/guido.png
-        :align: center
-        :scale: 100 %
-        :target: http://blog.csdn.net/gvanrossum
-
-
-.. container:: notes
-
-   - 大我20多岁,是Python 语言的创造人,现在美国,Google 公司工作
-
-
-
-
-
-
-催生婆们
-==================
-
-.. container:: handout
-
-    编辑团队  
-
-
-.. class:: takahashi2
-
-    .. class:: incremental
-
-    - 杨福川
-    - 方舟
-    - 周筠(Yeka)
-    - 彭俊
-    - 赵士威
-    - 杨绣国
-    - 何艳
-
-
-.. container:: notes
-
-   - 专业／耐心／认真的编辑是个宝！
-   - 杨姐在怀孕期间完成了校对
-   - 这书几乎是和宝宝一齐出生的
-
-成书小传
-====================================
-
-.. container:: handout
-
-   图书出版回顾
-
-
-.. class:: takahashi7
-
-    :orange:`四年`
-
-
-.. container:: notes
-
-   - 前后其实用了1500天左右的时间才印刷出来的
-
-
-成书小传::KDay 故事
-====================================
-
-.. container:: handout
-
-   只是先自个儿记录心得
-
-
-.. class:: takahashi
-
-    2005-12
-
-
-.. container:: notes
-
-   - 源于在SINA中的真实工作实例...
-   - 同时"Python源码剖析"开始连载
-   - http://blog.donews.com/lemur/archive/2005/12/17/660973.aspx
-
-
-成书小传::杨福川出现
-====================================
-
-.. container:: handout
-
-   一个偶然的机会
-
-
-.. class:: takahashi5
-
-    2006-12-29
-
-
-.. container:: notes
-
-   - 本来是讨论MySQL 相关的图书...
-   - 结果我提及了Python 的现状,就鼓励我可以写本书来介绍
-
-
-成书小传::豆瓣现场会课
-====================================
-
-.. container:: handout
-
-   一个偶然的机会
-
-
-.. class:: takahashi5
-
-    `2007-01-06 <http://www.zeuux.org/pipermail/zeuux-python/2007-January/034222.html>`__
-
-
-.. container:: notes
-
-   - http://wiki.woodpecker.org.cn/moin/BPUG/2007-01-06
-   - BPUG第14次.豆瓣现场会课
-   - 首次公开讨论原创图书,1.20号周筠见面确认计划,并启动维基
-   - http://wiki.woodpecker.org.cn/moin/ObpBroadview
-   - 周筠 是出版社的负责人...
-
-
-
-成书小传::小白心声
-====================================
-
-.. container:: handout
-
-   是群众的需要激发了大家的欲望
-
-
-.. class:: takahashi5
-
-    `2007-02-01 <http://wiki.woodpecker.org.cn/moin/ObpBroadview/2007-02-01>`__
-
-
-.. container:: notes
-
-   - "建议给python新手指个明路..."
-   - http://groups.google.com/group/CPyUG/browse_thread/thread/db96d586ad263a82
-   - 小白的心声，激发了俺 Mind Hacking 的欲望!
-   - http://wiki.woodpecker.org.cn/moin/ObpBroadview
-
-
-成书小传::CPyUG总第20次会课
-====================================
-
-.. container:: handout
-
-   是群众的需要激发了大家的欲望
-
-
-.. class:: takahashi5
-
-    `2007-08-04 <http://wiki.woodpecker.org.cn/moin/BPUG/2007-08-04>`__
-
-
-.. container:: notes
-
-   - 方舟出现佐证原创图书计划...首本!
-
-
-
-成书小传::开始波折...
-====================================
-
-.. container:: handout
-
-   出版不是简单的事儿....
-
-
-.. class:: takahashi
-
-
-    .. image:: i/snap/hopes_456x224_scrot.png
-        :align: center
-        :scale: 150 %
-        :target: http://wiki.woodpecker.org.cn/moin/ObpLovelyPyEditorRule
-
-
-.. container:: notes
-
-   - 不断的调整图书内容结构，深深体会生产的滋味...
-
-
-成书小传::压缩内容
-====================================
-
-.. container:: handout
-
-   内容也不是越多越好...
-
-
-.. class:: takahashi7
-
-    592
-    ~462
-
-
-.. container:: notes
-
-   - 图书是得有个中心选题,不是什么都讲才好的
-
-
-成书小传:: 交付版本
-====================================
-
-.. container:: handout
-
-   出版不是简单的事儿....
-
-
-.. class:: takahashi5
-
-
-    `2008-12-14 <http://code.google.com/p/openbookproject/wiki/LovPyRush>`__
-
-
-.. container:: notes
-
-   - r2062 http://code.google.com/p/openbookproject/source/detail?r=2064
-   - 因为封面以及其它...继续折腾...
-
-成书小传:: 成了!
-==================
-
-.. container:: handout
-
-   2009-09-02
-
-
-.. class:: takahashi
-
-    .. image:: i/090902-lovpy.jpg
-        :align: center
-        :scale: 100 %
-        :alt: 封面
-        :target: http://www.china-pub.com/195771
-
-
-.. container:: notes
-
-   - 拿到图书时,非常高兴,因为这不是我一个人的图书
-   - 在印刷出来之前,就已经成为大家共有的图书了,
-
-
-
-<进度/>
-=========
-
-.. container:: handout
-
-   俺->成书->使劲交流 |zqeye|
-
-
-.. class:: takahashi3
-
-    - :gray:`1' 我`
-    - :gray:`3' 分享书成`
-    - :orange:`7' 开放讨论`
 
 
 
@@ -952,7 +317,7 @@
 
 .. class:: takahashi8
 
-    感谢
+    感激
 
 
 .. container:: notes
@@ -982,6 +347,75 @@
    - 怎么分享?
    - 分享什么?
    - 最重要的是要快乐的分享,分享不应该成为束缚/要求,只有自然的分享,才能够有效的分享...
+
+
+
+为什么分享?
+==================
+
+.. container:: handout
+
+   知识管理的简单原理:
+
+
+.. class:: takahashi
+
+    .. image:: i/know-me0.gif
+        :align: center
+        :scale: 150 %
+        :alt: 开始
+
+
+.. container:: notes
+
+   - 我们的知识领域开始很小
+
+
+
+
+为什么分享?
+==================
+
+.. container:: handout
+
+   随着学习...
+
+
+.. class:: takahashi
+
+    .. image:: i/know-me1.gif
+        :align: center
+        :scale: 150 %
+        :alt: 然后
+
+
+.. container:: notes
+
+   - 我们知道的越多，意识着，我们不知道的也越多
+
+
+
+
+为什么分享?
+==================
+
+.. container:: handout
+
+   最高效的学习就是分享！
+
+
+.. class:: takahashi
+
+    .. image:: i/know-we.gif
+        :align: center
+        :scale: 150 %
+        :alt: 分享并联合
+
+
+.. container:: notes
+
+   - 快速到达我们永远无法积累到的高度！
+
 
 
 
@@ -1027,6 +461,662 @@
 
 
 
+<进度/>
+=========
+
+.. container:: handout
+
+   俺->成书->使劲交流 |zqeye|
+
+
+.. class:: takahashi3
+
+    - :gray:`1' 我`
+    - :gray:`7' 创书`
+    - :orange:`3' 回顾成书`
+
+
+
+最大的特点
+==================
+
+.. container:: handout
+
+    人多力量大!   
+
+
+.. class:: takahashi8
+
+    人多
+
+
+.. container:: notes
+
+   - 这个是有别其它图书的最大特色了
+   - 当然也有专门更多的人编写的百科全书
+   - 我是说,同类型的图书中,我们这本的作者是最多的;-)
+
+
+作者.1~清风
+==================
+
+.. container:: handout
+
+   老创 
+
+
+.. class:: takahashi
+
+    .. image:: i/id/qingfeng.jpg
+        :align: center
+        :scale: 200 %
+        :target: #
+
+
+.. container:: notes
+
+   - 比我小8岁,现在北京,豆瓣公司
+
+
+作者.2~xyb
+==================
+
+.. container:: handout
+
+   豆创 
+
+
+.. class:: takahashi
+
+    .. image:: i/id/xyb.jpg
+        :align: center
+        :scale: 200%
+        :target: http://9.douban.com/subject/9000016/
+
+
+.. container:: notes
+
+   - 比我小5岁,现在北京,豆瓣公司
+
+
+
+
+
+作者.3~张沈鹏
+==================
+
+.. container:: handout
+
+   教创 
+
+
+.. class:: takahashi
+
+    .. image:: i/id/zsp.png
+        :align: center
+        :scale: 200 %
+        :target: http://zsp.javaeye.com/blog/activities
+
+
+.. container:: notes
+
+   - 比我小10岁以上,现在上海,曾经在豆瓣公司
+
+
+
+
+
+
+作者.4~盛艳
+==================
+
+.. container:: handout
+
+   M创 
+
+
+.. class:: takahashi
+
+    .. image:: i/foto/100327-SL730437.JPG
+        :align: center
+        :scale: 150 %
+        :target: http://www.zeuux.com/friend/user/lizzie/
+
+
+.. container:: notes
+
+   - 比我小11岁,现在杭州,淘宝公司
+
+
+
+
+
+
+作者.5~刘鑫
+==================
+
+.. container:: handout
+
+   刘创 
+
+
+.. class:: takahashi
+
+    .. image:: i/id/lx.png
+        :align: center
+        :scale: 100 %
+        :target: http://blog.csdn.net/ccat
+
+
+.. container:: notes
+
+   - 比我小4岁,但是有个3岁的儿子了,现在珠海和我同在金山软件
+
+
+
+
+
+作者.6~黄毅
+==================
+
+.. container:: handout
+
+   黄创
+
+
+.. class:: takahashi
+
+    .. image:: i/id/huangyi.jpg
+        :align: center
+        :scale: 150 %
+        :target: #
+
+
+.. container:: notes
+
+   - 比我小10岁以上,现在深圳工作
+
+
+
+
+
+
+作者.7~洪强宁
+==================
+
+.. container:: handout
+
+   CTO
+
+
+.. class:: takahashi
+
+    .. image:: i/id/hongqn_mask.jpg
+        :align: center
+        :scale: 120 %
+        :target: #
+
+
+.. container:: notes
+
+   - 比我小3岁,现在北京豆瓣,女儿也快2岁了
+
+
+
+
+
+
+作者.8~Limodou
+==================
+
+.. container:: handout
+
+   木创 
+
+
+.. class:: takahashi
+
+    .. image:: i/id/limodou.png
+        :align: center
+        :scale: 100 %
+        :target: http://hi.baidu.com/limodou
+
+
+.. container:: notes
+
+   - 比我大一岁,现在北京某银行工作,女儿都上小学了...
+
+
+
+
+
+
+作者.9~潘俊勇
+==================
+
+.. container:: handout
+
+   潘创 
+
+
+.. class:: takahashi
+
+    .. image:: i/id/panjy.png
+        :align: center
+        :scale: 100 %
+        :target: http://www.czug.org/blog/panjy
+
+
+.. container:: notes
+
+   - 比我小2岁,虽然看着老,现在广州,运营润普公司
+
+
+
+
+
+
+作者.10~沈崴
+==================
+
+.. container:: handout
+
+   侠创 
+
+
+.. class:: takahashi
+
+    .. image:: i/id/shen-0.png
+        :align: center
+        :scale: 100 %
+        :target: http://eishn.blog.163.com/blog/
+
+
+.. container:: notes
+
+   - 比我小7岁,可是女儿有比牛妞大一个月! 照片是多年前結婚时的艺术照
+
+
+
+
+
+
+作者.10~真像
+==================
+
+.. container:: handout
+
+   侠创 |zqeye|
+
+
+.. class:: takahashi1
+
+   .. class:: borderless
+
+   =============  ==============
+   |wileishnage|  |wileishnow|
+   -------------  --------------
+   5年前          现在
+   =============  ==============
+
+
+.. |wileishnage| image:: i/id/wileishn-school.jpg
+    :align: top
+    :scale: 100 %
+    :alt: 大学时的
+    :target: http://eishn.blog.163.com/album/#m=1&aid=87591402&p=1
+
+.. |wileishnow| image:: i/id/wileishn-R0025951-1.jpg
+    :align: top
+    :scale: 100 %
+    :alt: 现在的
+    :target: http://www.flickr.com/photos/zoomq/5141018649/
+
+
+.. container:: notes
+
+   - 现在上海,样子完全不同的...吸烟不好,他现在很听话,已经不吸了 ;-)
+   - 而且一直自称是90后
+
+    .. image:: i/id/shen-1.png
+        :align: center
+        :scale: 100 %
+        :target: http://eishn.blog.163.com/blog/
+
+
+
+
+
+作者.11~徐继哲
+==================
+
+.. container:: handout
+
+   哲创 
+
+
+.. class:: takahashi
+
+    .. image:: i/id/billxu.png
+        :align: center
+        :scale: 120 %
+        :target: http://www.zeuux.com/friend/user/billxu/
+
+
+.. container:: notes
+
+   - 小我5岁,现居北京,哲思社区创始人
+
+
+
+
+
+
+
+作者.12~孔建军
+==================
+
+.. container:: handout
+
+   校创 
+
+
+.. class:: takahashi
+
+    .. image:: i/id/1-kongjianjun.jpg
+        :align: center
+        :scale: 100 %
+        :target: #
+
+
+.. container:: notes
+
+   - 比我小13岁,刚刚毕业,现在北京,RedHat 公司
+
+
+
+
+
+作者.13~高辉
+==================
+
+.. container:: handout
+
+   校创 
+
+
+.. class:: takahashi
+
+    .. image:: i/id/2-gaohui.jpg
+        :align: center
+        :scale: 150 %
+        :target: #
+
+
+.. container:: notes
+
+   - 是孔建军的同学比他大一岁,现在深圳工作
+
+
+
+
+
+作者.0
+==================
+
+.. container:: handout
+
+   G创 |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/id/guido.png
+        :align: center
+        :scale: 100 %
+        :target: http://blog.csdn.net/gvanrossum
+
+
+.. container:: notes
+
+   - 大我近20岁,是Python 语言的创造人,现在美国,Google 公司工作
+
+
+
+
+
+
+催生婆们
+==================
+
+.. container:: handout
+
+    编辑团队  
+
+
+.. class:: takahashi2
+
+    .. class:: incremental
+
+    - 杨福川
+    - 方舟
+    - 周筠(Yeka)
+    - 彭俊
+    - 赵士威
+    - 杨绣国
+    - 何艳
+
+
+.. container:: notes
+
+   - 专业／耐心／认真的编辑是个宝！
+   - 杨姐在怀孕期间完成了校对
+   - 这书几乎是和宝宝一齐出生的
+
+成书小传
+====================================
+
+.. container:: handout
+
+   图书出版回顾
+
+
+.. class:: takahashi7
+
+    :orange:`四年`
+
+
+.. container:: notes
+
+   - 前后其实用了1500天左右的时间才印刷出来的
+
+
+成书小传::KDay 故事
+====================================
+
+.. container:: handout
+
+   只是先自个儿记录心得
+
+
+.. class:: takahashi
+
+    2005-12
+
+
+.. container:: notes
+
+   - 源于在SINA中的真实工作实例...
+   - 同时"Python源码剖析"开始连载
+   - http://blog.donews.com/lemur/archive/2005/12/17/660973.aspx
+
+
+成书小传::杨福川出现
+====================================
+
+.. container:: handout
+
+   一个偶然的机会
+
+
+.. class:: takahashi5
+
+    2006-12-29
+
+
+.. container:: notes
+
+   - 本来是讨论MySQL 相关的图书...
+   - 结果我提及了Python 的现状,就鼓励我可以写本书来介绍
+
+
+成书小传::小白心声
+====================================
+
+.. container:: handout
+
+   是群众的需要激发了大家的欲望
+
+
+.. class:: takahashi5
+
+    `2007-02-01 <http://wiki.woodpecker.org.cn/moin/ObpBroadview/2007-02-01>`__
+
+
+.. container:: notes
+
+   - "建议给python新手指个明路..."
+   - http://groups.google.com/group/CPyUG/browse_thread/thread/db96d586ad263a82
+   - 小白的心声，激发了俺 Mind Hacking 的欲望!
+   - http://wiki.woodpecker.org.cn/moin/ObpBroadview
+
+
+成书小传::CPyUG总第20次会课
+====================================
+
+.. container:: handout
+
+   集体智慧完成图书的设计
+
+
+.. class:: takahashi5
+
+    `2007-08-04 <http://wiki.woodpecker.org.cn/moin/BPUG/2007-08-04>`__
+
+
+.. container:: notes
+
+   - 方舟出现佐证原创图书计划...首本!
+
+
+
+成书小传::开始波折...
+====================================
+
+.. container:: handout
+
+   出版不是简单的事儿....
+
+
+.. class:: takahashi
+
+
+    .. image:: i/snap/hopes_456x224_scrot.png
+        :align: center
+        :scale: 150 %
+        :target: http://wiki.woodpecker.org.cn/moin/ObpLovelyPyEditorRule
+
+
+.. container:: notes
+
+   - 不断的调整图书内容结构，深深体会生产的滋味...
+
+
+成书小传::压缩内容
+====================================
+
+.. container:: handout
+
+   内容也不是越多越好...
+
+
+.. class:: takahashi7
+
+    592
+    ~462
+
+
+.. container:: notes
+
+   - 图书是得有个中心选题,不是什么都讲才好的
+
+
+成书小传:: 交付版本
+====================================
+
+.. container:: handout
+
+   出版不是简单的事儿....
+
+
+.. class:: takahashi5
+
+
+    `2008-12-14 <http://code.google.com/p/openbookproject/wiki/LovPyRush>`__
+
+
+.. container:: notes
+
+   - r2062 http://code.google.com/p/openbookproject/source/detail?r=2064
+   - 因为封面以及其它...继续折腾...
+
+成书小传:: 成了!
+==================
+
+.. container:: handout
+
+   2009-09-02
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/lovpy-cover-girl.jpg
+        :align: center
+        :scale: 120 %
+        :alt: 封面
+        :target: http://www.china-pub.com/195771
+
+
+.. container:: notes
+
+   - 拿到图书时,非常高兴,因为这不是我一个人的图书
+   - 在印刷出来之前,就已经成为大家共有的图书了,
+
+
+
+成书小传:: 其实
+==================
+
+.. container:: handout
+
+   有另外的设计的..
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/lovpy-cover-boy.jpg
+        :align: center
+        :scale: 120 %
+        :alt: 封面
+        :target: http://www.china-pub.com/195771
+
+
+.. container:: notes
+
+   - 都是一个意思,,,象游戏一样,历险!快乐!
+
+
+
 <版本/>
 =========
 
@@ -1035,8 +1125,9 @@
    |zqeye|
 
 
-- 101010 增补讲演提示样式,填充主要内容
-- 101009 设计讲演时间结构
+- 101112 获得授权,修订相关照片
+- 101110 增补讲演提示样式,填充主要内容
+- 101109 设计讲演时间结构
 - 101108 为TEDx1Kg 讲演定制高桥流白样式
 
 

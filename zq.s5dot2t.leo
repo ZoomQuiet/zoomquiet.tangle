@@ -131,8 +131,8 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20100817123015.6207"><vh>101121-TEDx1Kg</vh>
-<v t="zoomq.20100915085348.9352"><vh>@nosent index.rst</vh>
+<v t="zoomq.20100817123015.6207" a="E"><vh>101121-TEDx1Kg</vh>
+<v t="zoomq.20100915085348.9352" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20100915085348.9451"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20100915085348.9453"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20100916160230.6827"><vh>brief0</vh>
@@ -143,8 +143,23 @@
 </v>
 <v t="zoomq.20100917085258.6875"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20101110104454.7022"><vh>brief1</vh>
+<v t="zoomq.20101110104454.7022" a="E"><vh>brief1</vh>
 <v t="zoomq.20101110104454.7252"><vh>LovPy</vh></v>
+<v t="zoomq.20101110104454.7282" a="E"><vh>如何成书?</vh>
+<v t="zoomq.20101110104454.7283"><vh>目标</vh></v>
+<v t="zoomq.20101110104454.7285"><vh>人</vh></v>
+<v t="zoomq.20101110104454.7287"><vh>坚持</vh></v>
+<v t="zoomq.20101110104454.7289"><vh>感谢</vh></v>
+<v t="zoomq.20101110104454.7291" a="E"><vh>分享</vh>
+<v t="zoomq.20101115141429.8635"><vh>WeKnow:0</vh></v>
+<v t="zoomq.20101115141429.8637"><vh>WeKnow:1</vh></v>
+<v t="zoomq.20101115141429.8639"><vh>WeKnow:2</vh></v>
+</v>
+<v t="zoomq.20101110104454.7293"><vh>创造?</vh></v>
+<v t="zoomq.20101110104454.7295"><vh>快乐</vh></v>
+</v>
+</v>
+<v t="zoomq.20101110104454.7032"><vh>brief2</vh>
 <v t="zoomq.20101110104454.7214"><vh>people</vh>
 <v t="zoomq.20101110104454.7216"><vh>作者.1</vh></v>
 <v t="zoomq.20101110104454.7217"><vh>作者.2</vh></v>
@@ -166,41 +181,20 @@
 <v t="zoomq.20101110104454.7263"><vh>LovPy小史:4年</vh>
 <v t="zoomq.20101110104454.7273"><vh>成书小传::KDay 故事</vh></v>
 <v t="zoomq.20101110104454.7264"><vh>LovPy小史:博文</vh></v>
-<v t="zoomq.20101110104454.7265"><vh>LovPy小史:豆瓣</vh></v>
 <v t="zoomq.20101110104454.7267"><vh>LovPy小史:明路</vh></v>
 <v t="zoomq.20101110104454.7268"><vh>LovPy小史:框架</vh></v>
 <v t="zoomq.20101110104454.7269"><vh>LovPy小史:发愿</vh></v>
 <v t="zoomq.20101110104454.7277"><vh>LovPy小史:页数</vh></v>
 <v t="zoomq.20101110104454.7271"><vh>LovPy小史:校对</vh></v>
 <v t="zoomq.20101110104454.7272"><vh>LovPy小史:LovPy</vh></v>
+<v t="zoomq.20101112084256.7373"><vh>LovPy小史:boy</vh></v>
 </v>
 </v>
-<v t="zoomq.20101110104454.7032"><vh>brief2</vh>
-<v t="zoomq.20101110104454.7282"><vh>如何成书?</vh>
-<v t="zoomq.20101110104454.7283"><vh>目标</vh></v>
-<v t="zoomq.20101110104454.7285"><vh>人</vh></v>
-<v t="zoomq.20101110104454.7287"><vh>坚持</vh></v>
-<v t="zoomq.20101110104454.7289"><vh>感谢</vh></v>
-<v t="zoomq.20101110104454.7291"><vh>分享</vh></v>
-<v t="zoomq.20101110104454.7293"><vh>创造?</vh></v>
-<v t="zoomq.20101110104454.7295"><vh>快乐</vh></v>
-</v>
-</v>
-<v t="zoomq.20100915085348.9450" a="E"><vh>version</vh>
+<v t="zoomq.20100915085348.9450"><vh>version</vh>
 <v t="zoomq.20101110104454.7275"><vh>TEDx1Kg</vh></v>
 </v>
 </v>
-<v t="zoomq.20100916141802.6812"><vh>免责</vh>
-<v t="zoomq.20100916141802.6805"><vh>Takahashi</vh>
-<v t="zoomq.20100916141802.6814"><vh>Takahashi</vh></v>
-<v t="zoomq.20100916160230.6802"><vh>Takahashi</vh></v>
-<v t="zoomq.20100916160230.6804"><vh>Takahashi</vh></v>
-<v t="zoomq.20100916160230.6806"><vh>Takahashi</vh></v>
-<v t="zoomq.20100916160230.6808"><vh>Takahashi</vh></v>
-<v t="zoomq.20100916160230.6810"><vh>Takahashi</vh></v>
-</v>
-</v>
-<v t="zoomq.20101110104454.7297"><vh>曾在北京</vh></v>
+<v t="zoomq.20101112084256.7371"><vh>_chaos</vh>
 <v t="zoomq.20101110104454.7119"><vh>~~ index.html</vh>
 <v t="zoomq.20101110104454.7120"><vh>&lt;&lt;DOCTYPE&gt;&gt;</vh></v>
 <v t="zoomq.20101110104454.7121"><vh>&lt;&lt;s5head&gt;&gt;</vh>
@@ -290,9 +284,22 @@
 </v>
 <v t="zoomq.20101110104454.7196"><vh>Q-Pythonic?</vh></v>
 </v>
+<v t="zoomq.20100916141802.6812"><vh>免责</vh>
+<v t="zoomq.20100916141802.6805"><vh>Takahashi</vh>
+<v t="zoomq.20100916141802.6814"><vh>Takahashi</vh></v>
+<v t="zoomq.20100916160230.6802"><vh>Takahashi</vh></v>
+<v t="zoomq.20100916160230.6804"><vh>Takahashi</vh></v>
+<v t="zoomq.20100916160230.6806"><vh>Takahashi</vh></v>
+<v t="zoomq.20100916160230.6808"><vh>Takahashi</vh></v>
+<v t="zoomq.20100916160230.6810"><vh>Takahashi</vh></v>
 </v>
-<v t="zoomq.20100819090507.6357" a="E"><vh>101111-pythonicamp-go</vh>
-<v t="zoomq.20101111091948.7374" a="E"><vh>@nosent index.rst</vh>
+</v>
+<v t="zoomq.20101110104454.7265"><vh>LovPy小史:豆瓣</vh></v>
+<v t="zoomq.20101110104454.7297"><vh>曾在北京</vh></v>
+</v>
+</v>
+<v t="zoomq.20100819090507.6357"><vh>101111-pythonicamp-go</vh>
+<v t="zoomq.20101111091948.7374"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101111091948.7375"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101111091948.7376"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101111091948.7508"><vh>免责</vh>
@@ -325,8 +332,8 @@
 </v>
 <v t="zoomq.20101111091948.7474"><vh>&lt;/Flow&gt;</vh></v>
 </v>
-<v t="zoomq.20101111091948.7432" a="E"><vh>brief2</vh>
-<v t="zoomq.20101111091948.7487" a="E"><vh>突破</vh>
+<v t="zoomq.20101111091948.7432"><vh>brief2</vh>
+<v t="zoomq.20101111091948.7487"><vh>突破</vh>
 <v t="zoomq.20101111091948.7489"><vh>工具</vh></v>
 <v t="zoomq.20101111091948.7495"><vh>沟通</vh></v>
 <v t="zoomq.20101111091948.7493"><vh>版本</vh></v>
@@ -40112,8 +40119,9 @@ mailme-&gt;OBP;
    |zqeye|
 
 
-- 101010 增补讲演提示样式,填充主要内容
-- 101009 设计讲演时间结构
+- 101112 获得授权,修订相关照片
+- 101110 增补讲演提示样式,填充主要内容
+- 101109 设计讲演时间结构
 - 101108 为TEDx1Kg 讲演定制高桥流白样式
 
 
@@ -40166,7 +40174,7 @@ mailme-&gt;OBP;
 </t>
 <t tx="zoomq.20100915085348.9453">.. footer:: 
 
-   `Zoom.Quiet`_ v10.11.9 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v10.11.12 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 </t>
 <t tx="zoomq.20100916094556.6791">图书相关图谱</t>
 <t tx="zoomq.20100916094556.6792">zoomquiet.org 网站图谱
@@ -40315,8 +40323,8 @@ mailme-&gt;OBP;
 .. class:: takahashi3
 
     - :orange:`1' 我`
-    - :silver:`3' 分享书成`
-    - :silver:`7' 开放讨论`
+    - :silver:`7' 创书`
+    - :silver:`3' 回顾成书`
 
 
 
@@ -40352,7 +40360,7 @@ mailme-&gt;OBP;
    |zqeye|
 
 
-.. class:: takahashi8
+.. class:: takahashi10
 
     36
 
@@ -42793,8 +42801,8 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. class:: takahashi3
 
     - :gray:`1' 我`
-    - :orange:`3' 分享书成`
-    - :silver:`7' 开放讨论`
+    - :orange:`7' 创书`
+    - :silver:`3' 回顾成书`
 
 
 
@@ -42810,8 +42818,8 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. class:: takahashi3
 
     - :gray:`1' 我`
-    - :gray:`3' 分享书成`
-    - :orange:`7' 开放讨论`
+    - :gray:`7' 创书`
+    - :orange:`3' 回顾成书`
 
 
 
@@ -44643,7 +44651,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: notes
 
-   - 比我小近10岁,现在北京,豆瓣公司
+   - 比我小8岁,现在北京,豆瓣公司
 
 
 </t>
@@ -44708,7 +44716,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. class:: takahashi
 
-    .. image:: i/id/lizzie.jpg
+    .. image:: i/foto/100327-SL730437.JPG
         :align: center
         :scale: 150 %
         :target: http://www.zeuux.com/friend/user/lizzie/
@@ -44761,7 +44769,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
     .. image:: i/id/huangyi.jpg
         :align: center
-        :scale: 100 %
+        :scale: 150 %
         :target: #
 
 
@@ -44787,7 +44795,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
     .. image:: i/id/hongqn_mask.jpg
         :align: center
-        :scale: 100 %
+        :scale: 120 %
         :target: #
 
 
@@ -44871,7 +44879,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: notes
 
-   - 比我大2岁,现在上海,女儿有3岁了,照片是多年前結婚时的艺术照
+   - 比我小7岁,可是女儿有比牛妞大一个月! 照片是多年前結婚时的艺术照
 
 
 
@@ -44887,18 +44895,39 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
    侠创 |zqeye|
 
 
-.. class:: takahashi
+.. class:: takahashi1
+
+   .. class:: borderless
+
+   =============  ==============
+   |wileishnage|  |wileishnow|
+   -------------  --------------
+   5年前          现在
+   =============  ==============
+
+
+.. |wileishnage| image:: i/id/wileishn-school.jpg
+    :align: top
+    :scale: 100 %
+    :alt: 大学时的
+    :target: http://eishn.blog.163.com/album/#m=1&amp;aid=87591402&amp;p=1
+
+.. |wileishnow| image:: i/id/wileishn-R0025951-1.jpg
+    :align: top
+    :scale: 100 %
+    :alt: 现在的
+    :target: http://www.flickr.com/photos/zoomq/5141018649/
+
+
+.. container:: notes
+
+   - 现在上海,样子完全不同的...吸烟不好,他现在很听话,已经不吸了 ;-)
+   - 而且一直自称是90后
 
     .. image:: i/id/shen-1.png
         :align: center
         :scale: 100 %
         :target: http://eishn.blog.163.com/blog/
-
-
-.. container:: notes
-
-   - 现在的样子完全不象的...吸烟不好,他现在很听话,已经不吸了 ;-)
-
 
 
 
@@ -44917,7 +44946,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
     .. image:: i/id/billxu.png
         :align: center
-        :scale: 100 %
+        :scale: 120 %
         :target: http://www.zeuux.com/friend/user/billxu/
 
 
@@ -44950,7 +44979,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: notes
 
-   - 比我小10岁,刚刚毕业,现在北京,RedHat 公司
+   - 比我小13岁,刚刚毕业,现在北京,RedHat 公司
 
 
 
@@ -44969,13 +44998,13 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
     .. image:: i/id/2-gaohui.jpg
         :align: center
-        :scale: 100 %
+        :scale: 150 %
         :target: #
 
 
 .. container:: notes
 
-   - 是孔建军的同学,留在西安工作
+   - 是孔建军的同学比他大一岁,现在深圳工作
 
 
 
@@ -45000,7 +45029,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: notes
 
-   - 大我20多岁,是Python 语言的创造人,现在美国,Google 公司工作
+   - 大我近20岁,是Python 语言的创造人,现在美国,Google 公司工作
 
 
 
@@ -45125,7 +45154,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-   是群众的需要激发了大家的欲望
+   集体智慧完成图书的设计
 
 
 .. class:: takahashi5
@@ -45193,9 +45222,9 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. class:: takahashi
 
-    .. image:: i/090902-lovpy.jpg
+    .. image:: i/snap/lovpy-cover-girl.jpg
         :align: center
-        :scale: 100 %
+        :scale: 120 %
         :alt: 封面
         :target: http://www.china-pub.com/195771
 
@@ -45398,7 +45427,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. class:: takahashi8
 
-    感谢
+    感激
 
 
 .. container:: notes
@@ -46301,13 +46330,110 @@ go!蟒营
 
 .. class:: takahashi9
 
-    100
+    :orange:`100h`
 
 .. container:: notes
 
    - 100小时~2周全职工作时间
    - 期望持续的每天花一定时间在蟒营
    - 每天1小时,3个月,完成进化!
+
+
+
+</t>
+<t tx="zoomq.20101112084256.7371"></t>
+<t tx="zoomq.20101112084256.7373">成书小传:: 其实
+==================
+
+.. container:: handout
+
+   有另外的设计的..
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/lovpy-cover-boy.jpg
+        :align: center
+        :scale: 120 %
+        :alt: 封面
+        :target: http://www.china-pub.com/195771
+
+
+.. container:: notes
+
+   - 都是一个意思,,,象游戏一样,历险!快乐!
+
+
+
+</t>
+<t tx="zoomq.20101115141429.8635">为什么分享?
+==================
+
+.. container:: handout
+
+   知识管理的简单原理:
+
+
+.. class:: takahashi
+
+    .. image:: i/know-me0.gif
+        :align: center
+        :scale: 150 %
+        :alt: 开始
+
+
+.. container:: notes
+
+   - 我们的知识领域开始很小
+
+
+
+
+</t>
+<t tx="zoomq.20101115141429.8637">为什么分享?
+==================
+
+.. container:: handout
+
+   随着学习...
+
+
+.. class:: takahashi
+
+    .. image:: i/know-me1.gif
+        :align: center
+        :scale: 150 %
+        :alt: 然后
+
+
+.. container:: notes
+
+   - 我们知道的越多，意识着，我们不知道的也越多
+
+
+
+
+</t>
+<t tx="zoomq.20101115141429.8639">为什么分享?
+==================
+
+.. container:: handout
+
+   最高效的学习就是分享！
+
+
+.. class:: takahashi
+
+    .. image:: i/know-we.gif
+        :align: center
+        :scale: 150 %
+        :alt: 分享并联合
+
+
+.. container:: notes
+
+   - 快速到达我们永远无法积累到的高度！
+
 
 
 

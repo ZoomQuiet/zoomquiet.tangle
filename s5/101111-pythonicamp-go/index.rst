@@ -627,7 +627,7 @@ go!蟒营
 
 .. class:: takahashi9
 
-    100
+    :orange:`100h`
 
 .. container:: notes
 
