@@ -26,7 +26,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
             <TR><TD><IMG src="zoomquiet-dot-10901_h85.png"/></TD></TR></TABLE>>
             ,URL="http://zoomquiet.org"
             ];
-    title [label="zoomquiet.org资源图谱\n{gen. by Graphviz}\nTime is unimprtant,only life important!"
+    title [label="zoomquiet.org资源图谱\n{gen. by Graphviz}\nTime is unimportant,only life important!"
         URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/zoomquiet_org_idx.dot"];
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"

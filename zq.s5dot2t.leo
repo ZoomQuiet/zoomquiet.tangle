@@ -117,7 +117,7 @@
 </v>
 </v>
 <v t="zoomq.20100903105555.6572" a="E"><vh>幻灯</vh>
-<v t="zoomq.20080523161605" a="E"><vh>s5:public</vh>
+<v t="zoomq.20080523161605"><vh>s5:public</vh>
 <v t="zoomq.20100726095759.6175"><vh>_stuff</vh>
 <v t="zoomq.20100726095759.6174"><vh>brief0</vh></v>
 <v t="zoomq.20100726130819.5995"><vh>PKM</vh>
@@ -132,7 +132,7 @@
 </v>
 </v>
 <v t="zoomq.20100817123015.6207" a="E"><vh>101121-TEDx1Kg</vh>
-<v t="zoomq.20100915085348.9352" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20100915085348.9352"><vh>@nosent index.rst</vh>
 <v t="zoomq.20100915085348.9451"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20100915085348.9453"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20100916160230.6827"><vh>brief0</vh>
@@ -143,14 +143,14 @@
 </v>
 <v t="zoomq.20100917085258.6875"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20101110104454.7022" a="E"><vh>brief1</vh>
+<v t="zoomq.20101110104454.7022"><vh>brief1</vh>
 <v t="zoomq.20101110104454.7252"><vh>LovPy</vh></v>
-<v t="zoomq.20101110104454.7282" a="E"><vh>如何成书?</vh>
+<v t="zoomq.20101110104454.7282"><vh>如何成书?</vh>
 <v t="zoomq.20101110104454.7283"><vh>目标</vh></v>
 <v t="zoomq.20101110104454.7285"><vh>人</vh></v>
 <v t="zoomq.20101110104454.7287"><vh>坚持</vh></v>
 <v t="zoomq.20101110104454.7289"><vh>感谢</vh></v>
-<v t="zoomq.20101110104454.7291" a="E"><vh>分享</vh>
+<v t="zoomq.20101110104454.7291"><vh>分享</vh>
 <v t="zoomq.20101115141429.8635"><vh>WeKnow:0</vh></v>
 <v t="zoomq.20101115141429.8637"><vh>WeKnow:1</vh></v>
 <v t="zoomq.20101115141429.8639"><vh>WeKnow:2</vh></v>
@@ -551,8 +551,8 @@
 <v t="zoomq.20101111091948.7291"><vh>@shadow index.html</vh></v>
 <v t="zoomq.20101111091948.7324"><vh>summary</vh></v>
 </v>
-<v t="zoomq.20100726094342.5994"><vh>100729-TimeMana</vh>
-<v t="zoomq.20100726094342.5995"><vh>@shadow index.html</vh></v>
+<v t="zoomq.20101118103232.10223"><vh>100729-TimeMana</vh>
+<v t="zoomq.20101118103232.10224"><vh>@shadow index.html</vh></v>
 </v>
 <v t="zoomq.20100602201453.5832"><vh>100423-QCon2010-T&amp;D</vh>
 <v t="zoomq.20100602201453.5833"><vh>@nosent index.html</vh>
@@ -1742,9 +1742,11 @@
 <v t="zoomq.20091204150544.4881"><vh>s5:KIS</vh>
 <v t="zoomq.20100312132537.9039"><vh>SPE必须有后路</vh></v>
 <v t="zoomq.20100726094342.5915"><vh>4KiT</vh>
-<v t="zoomq.20100726094342.5994"></v>
+<v t="zoomq.20100726094342.5994"><vh>100729-TimeMana</vh>
+<v t="zoomq.20100726094342.5995"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20091204150544.9625"><vh>4KsPEG</vh>
+</v>
+<v t="zoomq.20091204150544.9625" a="E"><vh>4KsPEG</vh>
 <v t="zoomq.20091204150544.9867"><vh>goal4kspeg</vh>
 <v t="zoomq.20091204150544.9868"><vh>_stuff</vh>
 <v t="zoomq.20091204150544.9869"><vh>080807-kspeg-intro-cpc</vh>
@@ -2096,13 +2098,16 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100329224802.5547"><vh>PyCon</vh>
-<v t="zoomq.20100603095331.5850"><vh>100610-pycon-pythonicamp@OBP</vh>
-<v t="zoomq.20100527142434.6474"><vh>@shadow index.html</vh></v>
+<v t="zoomq.20100329224802.5547" a="E"><vh>PyCon</vh>
+<v t="zoomq.20100527142434.6470" a="E"><vh>100610-pycon-pythonicamp@ZqLib</vh>
+<v t="zoomq.20101118103232.9986"
+expanded="zoomq.20101118103232.10067,"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20100527142434.6470"><vh>100610-pycon-pythonicamp@ZqLib</vh>
-<v t="zoomq.20100527142434.6474"></v>
+<v t="zoomq.20100603095331.5850" a="E"><vh>100610-pycon-pythonicamp@OBP</vh>
+<v t="zoomq.20101118103232.9986"
+expanded="zoomq.20101118103232.10067,"></v>
 </v>
+<v t="zoomq.20101118103232.10073"><vh>wiki</vh>
 <v t="zoomq.20100329224802.5548"><vh>@nosent PythoniCampMonograph.rst</vh>
 <v t="zoomq.20100329224802.5549"><vh>概述</vh></v>
 <v t="zoomq.20100329224802.5550"><vh>作者</vh></v>
@@ -2115,6 +2120,7 @@
 <v t="zoomq.20100329224802.5557"><vh>蟒营之北京</vh></v>
 <v t="zoomq.20100329224802.5558"><vh>结论 和 设想</vh></v>
 <v t="zoomq.20100329224802.5559"><vh>参考</vh></v>
+</v>
 </v>
 </v>
 <v t="zoomq.20091204150544.8544"><vh>KM</vh>
@@ -34793,7 +34799,8 @@ http://wiki.woodpecker.org.cn/moin/PythonicCamp 这次PyCon 亚洲大会俺的�
 大家都尝试一下,还有希望的,大家都等,那就永远没有什么希望了
 
 </t>
-<t tx="zoomq.20100329224802.5547">@path wiki
+<t tx="zoomq.20100329224802.5547">
+
 </t>
 <t tx="zoomq.20100329224802.5548">##language:zh
 #format rst
@@ -37292,7 +37299,8 @@ ctag [label="",shape=plaintext,];
 
 
 </t>
-<t tx="zoomq.20100527142434.6470">@path 100610-pycon-pythonicamp
+<t tx="zoomq.20100527142434.6470">@path s5/100610-pycon-pythonicamp
+
 
 </t>
 <t tx="zoomq.20100602201453.5832">@path 100528-qcon-t-d
@@ -37754,7 +37762,8 @@ Q&amp;A
 &lt;/div&gt;
 
 </t>
-<t tx="zoomq.20100603095331.5850">@path /home/zoomq/workspace/0penproj.s/googlecode.com/OBP/tasks/PyCon2010asia/100610-pycon-pythonicamp
+<t tx="zoomq.20100603095331.5850">@path /home/zoomq/workspace/obp/tasks/PyCon2010asia/100610-pycon-pythonicamp
+
 
 TBL SMU 老师，对于团队学习的体验:
 #pyconsg cboesch@smu.edu.sg @cboesch 嗯嗯嗯，同道中人，得请教一下...
@@ -46436,6 +46445,10 @@ go!蟒营
 
 
 
+
+</t>
+<t tx="zoomq.20101118103232.10073">@path wiki/</t>
+<t tx="zoomq.20101118103232.10223">@path 100729-ks-timemana
 
 </t>
 </tnodes>
