@@ -197,7 +197,6 @@
 
     - :gray:`1' 我`
     - :orange:`7' 创书`
-    - :silver:`3' 回顾成书`
 
 
 
@@ -224,256 +223,6 @@
    - 不过,今天说的和内容无关,是和怎么写出这样一本挺厚的书相关的
    - 写成一本书,真的不是难事儿...
 
-
-
-
-如何?
-==================
-
-.. container:: handout
-
-    成书...
-
-
-.. class:: takahashi8
-
-    图书?
-
-
-.. container:: notes
-
-   - 什么是图书?
-   - 写本图书很累嘛?
-
-
-
-
-目标
-==================
-
-.. container:: handout
-
-    有趣并有用
-
-
-.. class:: takahashi8
-
-    COOL
-
-
-.. container:: notes
-
-   - 这个单词念 裤!
-   - 意思就是与众不同,非常独特,令人骄傲
-
-
-
-聚集
-==================
-
-.. container:: handout
-
-    自然的
-
-
-.. class:: takahashi8
-
-    朋友
-
-
-.. container:: notes
-
-   - 是得,只有认同目标的人,才可能共同在一起坚持付出,直到成功,
-   - 这时,就已经是朋友了,
-
-
-
-困难
-==================
-
-.. container:: handout
-
-    唯一的
-
-
-.. class:: takahashi8
-
-    坚持!
-
-
-.. container:: notes
-
-   - 不论简单还是困难,任何事儿,都是有终点的,但是不坚持永远到达不了
-
-
-
-解决困难
-==================
-
-.. container:: handout
-
-    要坚持..
-
-
-.. class:: takahashi8
-
-    感激
-
-
-.. container:: notes
-
-   - 只有怀着感谢之心,才可能坚持,才可能協調起大家,
-   - 因为都是为了共同的目标,任何误解,偏差都不是故意的,都有原因的,只要解决了就过去了
-   - 任何一点进展,都是值得感谢的,因为我们在创造从来没有过的事物
-
-
-
-解决困难
-==================
-
-.. container:: handout
-
-    要坚持..
-
-
-.. class:: takahashi9
-
-    :orange:`分享`
-
-
-.. container:: notes
-
-   - 什么是分享?
-   - 怎么分享?
-   - 分享什么?
-   - 最重要的是要快乐的分享,分享不应该成为束缚/要求,只有自然的分享,才能够有效的分享...
-
-
-
-为什么分享?
-==================
-
-.. container:: handout
-
-   知识管理的简单原理:
-
-
-.. class:: takahashi
-
-    .. image:: i/know-me0.gif
-        :align: center
-        :scale: 150 %
-        :alt: 开始
-
-
-.. container:: notes
-
-   - 我们的知识领域开始很小
-
-
-
-
-为什么分享?
-==================
-
-.. container:: handout
-
-   随着学习...
-
-
-.. class:: takahashi
-
-    .. image:: i/know-me1.gif
-        :align: center
-        :scale: 150 %
-        :alt: 然后
-
-
-.. container:: notes
-
-   - 我们知道的越多，意识着，我们不知道的也越多
-
-
-
-
-为什么分享?
-==================
-
-.. container:: handout
-
-   最高效的学习就是分享！
-
-
-.. class:: takahashi
-
-    .. image:: i/know-we.gif
-        :align: center
-        :scale: 150 %
-        :alt: 分享并联合
-
-
-.. container:: notes
-
-   - 快速到达我们永远无法积累到的高度！
-
-
-
-
-那么...
-==================
-
-.. container:: handout
-
-    就会发现
-
-
-.. class:: takahashi8
-
-    创造 :orange:`?`
-
-
-.. container:: notes
-
-   - 图书的内容是自然积累而成的,每个人其实花费的时间不多,
-   - 对我来说,平均那4年,每天用在图书上的时间不超过9分钟;
-   - 而且近一半的时间写的信/说的话,并不是在图书上,而是沟通/协调
-
-
-
-真正的!
-==================
-
-.. container:: handout
-
-    就会发现
-
-
-.. class:: takahashi8
-
-    = :orange:`快乐`
-
-
-.. container:: notes
-
-   - 但是,这种无中生有,从我们的知识/经验中组合结出的成果,是真正的快乐呢
-   - 因为,这种快乐不会被任何外部条件所限制,产生自我们的内心!
-
-
-
-
-<进度/>
-=========
-
-.. container:: handout
-
-   俺->成书->使劲交流 |zqeye|
-
-
-.. class:: takahashi3
-
-    - :gray:`1' 我`
-    - :gray:`7' 创书`
-    - :orange:`3' 回顾成书`
 
 
 
@@ -1070,6 +819,240 @@
    - r2062 http://code.google.com/p/openbookproject/source/detail?r=2064
    - 因为封面以及其它...继续折腾...
 
+如何?
+==================
+
+.. container:: handout
+
+    成书...
+
+
+.. class:: takahashi8
+
+    图书?
+
+
+.. container:: notes
+
+   - 什么是图书?
+   - 写本图书很累嘛?
+
+
+
+
+目标
+==================
+
+.. container:: handout
+
+    有趣并有用
+
+
+.. class:: takahashi8
+
+    COOL
+
+
+.. container:: notes
+
+   - 这个单词念 裤!
+   - 意思就是与众不同,非常独特,令人骄傲
+
+
+
+聚集
+==================
+
+.. container:: handout
+
+    自然的
+
+
+.. class:: takahashi8
+
+    朋友
+
+
+.. container:: notes
+
+   - 是得,只有认同目标的人,才可能共同在一起坚持付出,直到成功,
+   - 这时,就已经是朋友了,
+
+
+
+困难
+==================
+
+.. container:: handout
+
+    唯一的
+
+
+.. class:: takahashi8
+
+    坚持!
+
+
+.. container:: notes
+
+   - 不论简单还是困难,任何事儿,都是有终点的,但是不坚持永远到达不了
+
+
+
+解决困难
+==================
+
+.. container:: handout
+
+    要坚持..
+
+
+.. class:: takahashi8
+
+    感激
+
+
+.. container:: notes
+
+   - 只有怀着感谢之心,才可能坚持,才可能協調起大家,
+   - 因为都是为了共同的目标,任何误解,偏差都不是故意的,都有原因的,只要解决了就过去了
+   - 任何一点进展,都是值得感谢的,因为我们在创造从来没有过的事物
+
+
+
+解决困难
+==================
+
+.. container:: handout
+
+    要坚持..
+
+
+.. class:: takahashi9
+
+    :orange:`分享`
+
+
+.. container:: notes
+
+   - 什么是分享?
+   - 怎么分享?
+   - 分享什么?
+   - 最重要的是要快乐的分享,分享不应该成为束缚/要求,只有自然的分享,才能够有效的分享...
+
+
+
+为什么分享?
+==================
+
+.. container:: handout
+
+   知识管理的简单原理:
+
+
+.. class:: takahashi
+
+    .. image:: i/know-me0.gif
+        :align: center
+        :scale: 150 %
+        :alt: 开始
+
+
+.. container:: notes
+
+   - 我们的知识领域开始很小
+
+
+
+
+为什么分享?
+==================
+
+.. container:: handout
+
+   随着学习...
+
+
+.. class:: takahashi
+
+    .. image:: i/know-me1.gif
+        :align: center
+        :scale: 150 %
+        :alt: 然后
+
+
+.. container:: notes
+
+   - 我们知道的越多，意识着，我们不知道的也越多
+
+
+
+
+为什么分享?
+==================
+
+.. container:: handout
+
+   最高效的学习就是分享！
+
+
+.. class:: takahashi
+
+    .. image:: i/know-we.gif
+        :align: center
+        :scale: 150 %
+        :alt: 分享并联合
+
+
+.. container:: notes
+
+   - 快速到达我们永远无法积累到的高度！
+
+
+
+
+那么...
+==================
+
+.. container:: handout
+
+    就会发现
+
+
+.. class:: takahashi8
+
+    创造 :orange:`?`
+
+
+.. container:: notes
+
+   - 图书的内容是自然积累而成的,每个人其实花费的时间不多,
+   - 对我来说,平均那4年,每天用在图书上的时间不超过9分钟;
+   - 而且近一半的时间写的信/说的话,并不是在图书上,而是沟通/协调
+
+
+
+真正的!
+==================
+
+.. container:: handout
+
+    就会发现
+
+
+.. class:: takahashi8
+
+    = :orange:`快乐`
+
+
+.. container:: notes
+
+   - 但是,这种无中生有,从我们的知识/经验中组合结出的成果,是真正的快乐呢
+   - 因为,这种快乐不会被任何外部条件所限制,产生自我们的内心!
+
+
+
+
 成书小传:: 成了!
 ==================
 
@@ -1125,6 +1108,7 @@
    |zqeye|
 
 
+- 101118 根据试讲，重构幻灯
 - 101112 获得授权,修订相关照片
 - 101110 增补讲演提示样式,填充主要内容
 - 101109 设计讲演时间结构
