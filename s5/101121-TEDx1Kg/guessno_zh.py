@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 从 random 导入 uniform
-
 我的数字 = 整数(uniform(2,99))
 没猜中 = 真
 当 没猜中:

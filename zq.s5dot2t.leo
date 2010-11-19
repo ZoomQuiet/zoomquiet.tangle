@@ -146,20 +146,6 @@
 <v t="zoomq.20101110104454.7022" a="E"><vh>brief1</vh>
 <v t="zoomq.20101110104454.7252"><vh>LovPy</vh></v>
 <v t="zoomq.20101110104454.7214"><vh>people</vh>
-<v t="zoomq.20101110104454.7216"><vh>作者.1</vh></v>
-<v t="zoomq.20101110104454.7217"><vh>作者.2</vh></v>
-<v t="zoomq.20101110104454.7218"><vh>作者.3</vh></v>
-<v t="zoomq.20101110104454.7219"><vh>作者.4</vh></v>
-<v t="zoomq.20101110104454.7220"><vh>作者.5</vh></v>
-<v t="zoomq.20101110104454.7221"><vh>作者.6</vh></v>
-<v t="zoomq.20101110104454.7222"><vh>作者.7</vh></v>
-<v t="zoomq.20101110104454.7223"><vh>作者.8</vh></v>
-<v t="zoomq.20101110104454.7224"><vh>作者.9</vh></v>
-<v t="zoomq.20101110104454.7225"><vh>作者.10</vh></v>
-<v t="zoomq.20101110104454.7226"><vh>作者.10.1</vh></v>
-<v t="zoomq.20101110104454.7227"><vh>作者.11</vh></v>
-<v t="zoomq.20101110104454.7228"><vh>作者.12</vh></v>
-<v t="zoomq.20101110104454.7229"><vh>作者.13</vh></v>
 <v t="zoomq.20101110104454.7230"><vh>作者.s</vh></v>
 </v>
 <v t="zoomq.20101110104454.7279"><vh>editors</vh></v>
@@ -167,12 +153,14 @@
 <v t="zoomq.20101110104454.7273"><vh>成书小传::KDay 故事</vh></v>
 <v t="zoomq.20101110104454.7264"><vh>LovPy小史:博文</vh></v>
 <v t="zoomq.20101110104454.7267"><vh>LovPy小史:明路</vh></v>
-<v t="zoomq.20101110104454.7268"><vh>LovPy小史:框架</vh></v>
 <v t="zoomq.20101110104454.7269"><vh>LovPy小史:发愿</vh></v>
 <v t="zoomq.20101110104454.7277"><vh>LovPy小史:页数</vh></v>
 <v t="zoomq.20101110104454.7271"><vh>LovPy小史:校对</vh></v>
 </v>
-<v t="zoomq.20101110104454.7282"><vh>如何成书?</vh>
+<v t="zoomq.20101110104454.7272"><vh>LovPy小史:LovPy</vh>
+<v t="zoomq.20101112084256.7373"><vh>LovPy小史:boy</vh></v>
+</v>
+<v t="zoomq.20101110104454.7282" a="E"><vh>如何成书?</vh>
 <v t="zoomq.20101110104454.7283"><vh>目标</vh></v>
 <v t="zoomq.20101110104454.7285"><vh>人</vh></v>
 <v t="zoomq.20101110104454.7287"><vh>坚持</vh></v>
@@ -185,15 +173,12 @@
 <v t="zoomq.20101110104454.7293"><vh>创造?</vh></v>
 <v t="zoomq.20101110104454.7295"><vh>快乐</vh></v>
 </v>
-<v t="zoomq.20101110104454.7272"><vh>LovPy小史:LovPy</vh>
-<v t="zoomq.20101112084256.7373"><vh>LovPy小史:boy</vh></v>
-</v>
 </v>
 <v t="zoomq.20100915085348.9450"><vh>version</vh>
 <v t="zoomq.20101110104454.7275"><vh>TEDx1Kg</vh></v>
 </v>
 </v>
-<v t="zoomq.20101118103232.10421"><vh>旧版 index.rst</vh>
+<v t="zoomq.20101118103232.10421"><vh>@nosent old.rst</vh>
 <v t="zoomq.20101118103232.10422"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101118103232.10423"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101118103232.10424"><vh>brief0</vh>
@@ -1807,7 +1792,7 @@
 <v t="zoomq.20100726094342.5995"><vh>@shadow index.html</vh></v>
 </v>
 </v>
-<v t="zoomq.20091204150544.9625" a="E"><vh>4KsPEG</vh>
+<v t="zoomq.20091204150544.9625"><vh>4KsPEG</vh>
 <v t="zoomq.20091204150544.9867"><vh>goal4kspeg</vh>
 <v t="zoomq.20091204150544.9868"><vh>_stuff</vh>
 <v t="zoomq.20091204150544.9869"><vh>080807-kspeg-intro-cpc</vh>
@@ -2160,13 +2145,11 @@
 </v>
 </v>
 <v t="zoomq.20100329224802.5547"><vh>PyCon</vh>
-<v t="zoomq.20100527142434.6470" a="E"><vh>100610-pycon-pythonicamp@ZqLib</vh>
-<v t="zoomq.20101118103232.9986"
-expanded="zoomq.20101118103232.10067,"><vh>@shadow index.html</vh></v>
+<v t="zoomq.20100527142434.6470"><vh>100610-pycon-pythonicamp@ZqLib</vh>
+<v t="zoomq.20101118103232.9986"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20100603095331.5850" a="E"><vh>100610-pycon-pythonicamp@OBP</vh>
-<v t="zoomq.20101118103232.9986"
-expanded="zoomq.20101118103232.10067,"></v>
+<v t="zoomq.20100603095331.5850"><vh>100610-pycon-pythonicamp@OBP</vh>
+<v t="zoomq.20101118103232.9986"></v>
 </v>
 <v t="zoomq.20101118103232.10073"><vh>wiki</vh>
 <v t="zoomq.20100329224802.5548"><vh>@nosent PythoniCampMonograph.rst</vh>
@@ -40189,7 +40172,7 @@ mailme-&gt;OBP;
    |zqeye|
 
 
-- 101118 根据试讲，重构幻灯
+- 101118 根据试讲，重构精简幻灯
 - 101112 获得授权,修订相关照片
 - 101110 增补讲演提示样式,填充主要内容
 - 101109 设计讲演时间结构
@@ -40245,7 +40228,7 @@ mailme-&gt;OBP;
 </t>
 <t tx="zoomq.20100915085348.9453">.. footer:: 
 
-   `Zoom.Quiet`_ v10.11.12 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v10.11.18 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 </t>
 <t tx="zoomq.20100916094556.6791">图书相关图谱</t>
 <t tx="zoomq.20100916094556.6792">zoomquiet.org 网站图谱
@@ -40393,9 +40376,8 @@ mailme-&gt;OBP;
 
 .. class:: takahashi3
 
-    - :orange:`1' 我`
-    - :silver:`7' 创书`
-    - :silver:`3' 回顾成书`
+    - :gray:`1' 我`
+    - :orange:`11' 创书`
 
 
 
@@ -42861,19 +42843,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 </t>
-<t tx="zoomq.20101110104454.7022">&lt;进度/&gt;
-=========
-
-.. container:: handout
-
-   俺-&gt;成书-&gt;使劲交流 |zqeye|
-
-
-.. class:: takahashi3
-
-    - :gray:`1' 我`
-    - :orange:`7' 创书`
-
+<t tx="zoomq.20101110104454.7022">
 
 
 </t>
@@ -44675,7 +44645,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. class:: takahashi8
 
-    人多
+    14
 
 
 .. container:: notes
@@ -44683,384 +44653,6 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
    - 这个是有别其它图书的最大特色了
    - 当然也有专门更多的人编写的百科全书
    - 我是说,同类型的图书中,我们这本的作者是最多的;-)
-
-
-</t>
-<t tx="zoomq.20101110104454.7216">作者.1~清风
-==================
-
-.. container:: handout
-
-   老创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/qingfeng.jpg
-        :align: center
-        :scale: 200 %
-        :target: #
-
-
-.. container:: notes
-
-   - 比我小8岁,现在北京,豆瓣公司
-
-
-</t>
-<t tx="zoomq.20101110104454.7217">作者.2~xyb
-==================
-
-.. container:: handout
-
-   豆创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/xyb.jpg
-        :align: center
-        :scale: 200%
-        :target: http://9.douban.com/subject/9000016/
-
-
-.. container:: notes
-
-   - 比我小5岁,现在北京,豆瓣公司
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7218">作者.3~张沈鹏
-==================
-
-.. container:: handout
-
-   教创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/zsp.png
-        :align: center
-        :scale: 200 %
-        :target: http://zsp.javaeye.com/blog/activities
-
-
-.. container:: notes
-
-   - 比我小10岁以上,现在上海,曾经在豆瓣公司
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7219">作者.4~盛艳
-==================
-
-.. container:: handout
-
-   M创 
-
-
-.. class:: takahashi
-
-    .. image:: i/foto/100327-SL730437.JPG
-        :align: center
-        :scale: 150 %
-        :target: http://www.zeuux.com/friend/user/lizzie/
-
-
-.. container:: notes
-
-   - 比我小11岁,现在杭州,淘宝公司
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7220">作者.5~刘鑫
-==================
-
-.. container:: handout
-
-   刘创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/lx.png
-        :align: center
-        :scale: 100 %
-        :target: http://blog.csdn.net/ccat
-
-
-.. container:: notes
-
-   - 比我小4岁,但是有个3岁的儿子了,现在珠海和我同在金山软件
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7221">作者.6~黄毅
-==================
-
-.. container:: handout
-
-   黄创
-
-
-.. class:: takahashi
-
-    .. image:: i/id/huangyi.jpg
-        :align: center
-        :scale: 150 %
-        :target: #
-
-
-.. container:: notes
-
-   - 比我小10岁以上,现在深圳工作
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7222">作者.7~洪强宁
-==================
-
-.. container:: handout
-
-   CTO
-
-
-.. class:: takahashi
-
-    .. image:: i/id/hongqn_mask.jpg
-        :align: center
-        :scale: 120 %
-        :target: #
-
-
-.. container:: notes
-
-   - 比我小3岁,现在北京豆瓣,女儿也快2岁了
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7223">作者.8~Limodou
-==================
-
-.. container:: handout
-
-   木创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/limodou.png
-        :align: center
-        :scale: 100 %
-        :target: http://hi.baidu.com/limodou
-
-
-.. container:: notes
-
-   - 比我大一岁,现在北京某银行工作,女儿都上小学了...
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7224">作者.9~潘俊勇
-==================
-
-.. container:: handout
-
-   潘创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/panjy.png
-        :align: center
-        :scale: 100 %
-        :target: http://www.czug.org/blog/panjy
-
-
-.. container:: notes
-
-   - 比我小2岁,虽然看着老,现在广州,运营润普公司
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7225">作者.10~沈崴
-==================
-
-.. container:: handout
-
-   侠创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/shen-0.png
-        :align: center
-        :scale: 100 %
-        :target: http://eishn.blog.163.com/blog/
-
-
-.. container:: notes
-
-   - 比我小7岁,可是女儿有比牛妞大一个月! 照片是多年前結婚时的艺术照
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7226">作者.10~真像
-==================
-
-.. container:: handout
-
-   侠创 |zqeye|
-
-
-.. class:: takahashi1
-
-   .. class:: borderless
-
-   =============  ==============
-   |wileishnage|  |wileishnow|
-   -------------  --------------
-   5年前          现在
-   =============  ==============
-
-
-.. |wileishnage| image:: i/id/wileishn-school.jpg
-    :align: top
-    :scale: 100 %
-    :alt: 大学时的
-    :target: http://eishn.blog.163.com/album/#m=1&amp;aid=87591402&amp;p=1
-
-.. |wileishnow| image:: i/id/wileishn-R0025951-1.jpg
-    :align: top
-    :scale: 100 %
-    :alt: 现在的
-    :target: http://www.flickr.com/photos/zoomq/5141018649/
-
-
-.. container:: notes
-
-   - 现在上海,样子完全不同的...吸烟不好,他现在很听话,已经不吸了 ;-)
-   - 而且一直自称是90后
-
-    .. image:: i/id/shen-1.png
-        :align: center
-        :scale: 100 %
-        :target: http://eishn.blog.163.com/blog/
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7227">作者.11~徐继哲
-==================
-
-.. container:: handout
-
-   哲创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/billxu.png
-        :align: center
-        :scale: 120 %
-        :target: http://www.zeuux.com/friend/user/billxu/
-
-
-.. container:: notes
-
-   - 小我5岁,现居北京,哲思社区创始人
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7228">作者.12~孔建军
-==================
-
-.. container:: handout
-
-   校创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/1-kongjianjun.jpg
-        :align: center
-        :scale: 100 %
-        :target: #
-
-
-.. container:: notes
-
-   - 比我小13岁,刚刚毕业,现在北京,RedHat 公司
-
-
-
-
-
-</t>
-<t tx="zoomq.20101110104454.7229">作者.13~高辉
-==================
-
-.. container:: handout
-
-   校创 
-
-
-.. class:: takahashi
-
-    .. image:: i/id/2-gaohui.jpg
-        :align: center
-        :scale: 150 %
-        :target: #
-
-
-.. container:: notes
-
-   - 是孔建军的同学比他大一岁,现在深圳工作
-
-
-
 
 
 </t>
@@ -45199,26 +44791,6 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
    - http://groups.google.com/group/CPyUG/browse_thread/thread/db96d586ad263a82
    - 小白的心声，激发了俺 Mind Hacking 的欲望!
    - http://wiki.woodpecker.org.cn/moin/ObpBroadview
-
-
-</t>
-<t tx="zoomq.20101110104454.7268">成书小传::CPyUG总第20次会课
-====================================
-
-.. container:: handout
-
-   集体智慧完成图书的设计
-
-
-.. class:: takahashi5
-
-    `2007-08-04 &lt;http://wiki.woodpecker.org.cn/moin/BPUG/2007-08-04&gt;`__
-
-
-.. container:: notes
-
-   - 方舟出现佐证原创图书计划...首本!
-
 
 
 </t>
@@ -45363,7 +44935,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-    编辑团队  
+    编辑团队+7
 
 
 .. class:: takahashi2
