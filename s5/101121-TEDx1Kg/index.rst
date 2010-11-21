@@ -199,7 +199,7 @@
 
     .. image:: i/090902-lovpy.jpg
         :align: center
-        :scale: 100 %
+        :scale: 120 %
         :alt: 封面
         :target: http://www.china-pub.com/195771
 

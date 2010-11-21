@@ -143,7 +143,7 @@
 </v>
 <v t="zoomq.20100917085258.6875"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20101110104454.7022"><vh>brief1</vh>
+<v t="zoomq.20101110104454.7022" a="E"><vh>brief1</vh>
 <v t="zoomq.20101110104454.7252"><vh>LovPy</vh></v>
 <v t="zoomq.20101110104454.7214"><vh>people</vh>
 <v t="zoomq.20101110104454.7230"><vh>作者.0</vh></v>
@@ -44714,7 +44714,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
     .. image:: i/090902-lovpy.jpg
         :align: center
-        :scale: 100 %
+        :scale: 120 %
         :alt: 封面
         :target: http://www.china-pub.com/195771
 
