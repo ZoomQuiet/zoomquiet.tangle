@@ -590,7 +590,30 @@
 
 .. container:: handout
 
-   知识管理的简单原理:
+   最初什么也不知道
+
+
+.. class:: takahashi
+
+    .. image:: i/know-dot.gif
+        :align: center
+        :scale: 150 %
+        :alt: 最初
+
+
+.. container:: notes
+
+   - 我们的知识领域开始很小
+
+
+
+
+为什么分享?
+==================
+
+.. container:: handout
+
+   因为学习,建立起自个儿的知识领域
 
 
 .. class:: takahashi

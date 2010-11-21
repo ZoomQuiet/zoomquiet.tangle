@@ -143,7 +143,7 @@
 </v>
 <v t="zoomq.20100917085258.6875"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20101110104454.7022" a="E"><vh>brief1</vh>
+<v t="zoomq.20101110104454.7022"><vh>brief1</vh>
 <v t="zoomq.20101110104454.7252"><vh>LovPy</vh></v>
 <v t="zoomq.20101110104454.7214"><vh>people</vh>
 <v t="zoomq.20101110104454.7230"><vh>作者.0</vh></v>
@@ -161,15 +161,16 @@
 <v t="zoomq.20101112084256.7373"><vh>LovPy小史:boy</vh></v>
 </v>
 </v>
-<v t="zoomq.20101110104454.7282"><vh>如何成书?</vh>
+<v t="zoomq.20101110104454.7282" a="E"><vh>如何成书?</vh>
 <v t="zoomq.20101110104454.7283"><vh>目标</vh></v>
 <v t="zoomq.20101110104454.7285"><vh>人</vh></v>
 <v t="zoomq.20101110104454.7287"><vh>坚持</vh></v>
 <v t="zoomq.20101110104454.7289"><vh>感谢</vh></v>
-<v t="zoomq.20101110104454.7291"><vh>分享</vh>
+<v t="zoomq.20101110104454.7291" a="E"><vh>分享</vh>
 <v t="zoomq.20101115141429.8635"><vh>WeKnow:0</vh></v>
-<v t="zoomq.20101115141429.8637"><vh>WeKnow:1</vh></v>
-<v t="zoomq.20101115141429.8639"><vh>WeKnow:2</vh></v>
+<v t="zoomq.20101121095437.7664"><vh>WeKnow:1</vh></v>
+<v t="zoomq.20101115141429.8637"><vh>WeKnow:2</vh></v>
+<v t="zoomq.20101115141429.8639"><vh>WeKnow:3</vh></v>
 </v>
 <v t="zoomq.20101110104454.7293"><vh>创造?</vh></v>
 <v t="zoomq.20101110104454.7295"><vh>快乐</vh></v>
@@ -46013,15 +46014,15 @@ go!蟒营
 
 .. container:: handout
 
-   知识管理的简单原理:
+   最初什么也不知道
 
 
 .. class:: takahashi
 
-    .. image:: i/know-me0.gif
+    .. image:: i/know-dot.gif
         :align: center
         :scale: 150 %
-        :alt: 开始
+        :alt: 最初
 
 
 .. container:: notes
@@ -47778,6 +47779,30 @@ go!蟒营
    - 出于这样一个认识,自个儿的身体是自个儿最大的广告位!
 
 
+
+
+
+
+</t>
+<t tx="zoomq.20101121095437.7664">为什么分享?
+==================
+
+.. container:: handout
+
+   因为学习,建立起自个儿的知识领域
+
+
+.. class:: takahashi
+
+    .. image:: i/know-me0.gif
+        :align: center
+        :scale: 150 %
+        :alt: 开始
+
+
+.. container:: notes
+
+   - 我们的知识领域开始很小
 
 
 
