@@ -143,7 +143,7 @@
 </v>
 <v t="zoomq.20100917085258.6875"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20101110104454.7022" a="E"><vh>brief1</vh>
+<v t="zoomq.20101110104454.7022"><vh>brief1</vh>
 <v t="zoomq.20101110104454.7252"><vh>LovPy</vh></v>
 <v t="zoomq.20101110104454.7214"><vh>people</vh>
 <v t="zoomq.20101110104454.7230"><vh>作者.0</vh></v>
@@ -160,7 +160,8 @@
 <v t="zoomq.20101110104454.7272"><vh>LovPy小史:LovPy</vh>
 <v t="zoomq.20101112084256.7373"><vh>LovPy小史:boy</vh></v>
 </v>
-<v t="zoomq.20101110104454.7282"><vh>如何成书?</vh>
+</v>
+<v t="zoomq.20101110104454.7282" a="E"><vh>如何成书?</vh>
 <v t="zoomq.20101110104454.7283"><vh>目标</vh></v>
 <v t="zoomq.20101110104454.7285"><vh>人</vh></v>
 <v t="zoomq.20101110104454.7287"><vh>坚持</vh></v>
@@ -173,10 +174,9 @@
 <v t="zoomq.20101110104454.7293"><vh>创造?</vh></v>
 <v t="zoomq.20101110104454.7295"><vh>快乐</vh></v>
 </v>
-</v>
-<v t="zoomq.20100915085348.9450"><vh>version</vh>
+<v t="zoomq.20100915085348.9450" a="E"><vh>version</vh>
 <v t="zoomq.20101110104454.7275"><vh>TEDx1Kg</vh></v>
-<v t="zoomq.20101121095437.7641"><vh>people</vh>
+<v t="zoomq.20101121095437.7641" a="E"><vh>people</vh>
 <v t="zoomq.20101121095437.7642"><vh>作者.1</vh></v>
 <v t="zoomq.20101121095437.7643"><vh>作者.2</vh></v>
 <v t="zoomq.20101121095437.7644"><vh>作者.3</vh></v>
@@ -44980,7 +44980,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-    成书...
+    什么是图书?写书很复杂嘛?...
 
 
 .. class:: takahashi8
@@ -45002,7 +45002,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-    有趣并有用
+    "裤"!有趣并有用
 
 
 .. class:: takahashi8
@@ -45023,7 +45023,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-    自然的
+    自然的/成为朋友/凝聚到一起...
 
 
 .. class:: takahashi8
@@ -45039,17 +45039,17 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 
 </t>
-<t tx="zoomq.20101110104454.7287">困难
+<t tx="zoomq.20101110104454.7287">困难?
 ==================
 
 .. container:: handout
 
-    唯一的
+    唯一的/不能急/象庄稼...
 
 
 .. class:: takahashi8
 
-    坚持!
+    坚持
 
 
 .. container:: notes
@@ -45059,12 +45059,12 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 
 </t>
-<t tx="zoomq.20101110104454.7289">解决困难
+<t tx="zoomq.20101110104454.7289">解决!
 ==================
 
 .. container:: handout
 
-    要坚持..
+    也要坚持/动力/保持成就感...
 
 
 .. class:: takahashi8
@@ -45081,12 +45081,12 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 
 </t>
-<t tx="zoomq.20101110104454.7291">解决困难
+<t tx="zoomq.20101110104454.7291">秘决;-)
 ==================
 
 .. container:: handout
 
-    要坚持..
+    同样要坚持/什么是?怎么?什么?...
 
 
 .. class:: takahashi9
@@ -45109,7 +45109,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-    就会发现
+    就会发现/创造的状态/自然积累/质变(鸡毛...)
 
 
 .. class:: takahashi8
@@ -45131,7 +45131,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-    就会发现
+    就会发现/不受外物限制/发自内心的...
 
 
 .. class:: takahashi8
@@ -47360,10 +47360,10 @@ go!蟒营
 
 .. class:: takahashi
 
-    .. image:: i/id/xyb.jpg
+    .. image:: i/foto/xyb-42qu_300x300.jpg
         :align: center
-        :scale: 200%
-        :target: http://9.douban.com/subject/9000016/
+        :scale: 120%
+        :target: http://42qu.com/-10001291
 
 
 .. container:: notes

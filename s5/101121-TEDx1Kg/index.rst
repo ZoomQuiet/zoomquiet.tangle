@@ -467,7 +467,7 @@
 
 .. container:: handout
 
-    成书...
+    什么是图书?写书很复杂嘛?...
 
 
 .. class:: takahashi8
@@ -488,7 +488,7 @@
 
 .. container:: handout
 
-    有趣并有用
+    "裤"!有趣并有用
 
 
 .. class:: takahashi8
@@ -508,7 +508,7 @@
 
 .. container:: handout
 
-    自然的
+    自然的/成为朋友/凝聚到一起...
 
 
 .. class:: takahashi8
@@ -523,17 +523,17 @@
 
 
 
-困难
+困难?
 ==================
 
 .. container:: handout
 
-    唯一的
+    唯一的/不能急/象庄稼...
 
 
 .. class:: takahashi8
 
-    坚持!
+    坚持
 
 
 .. container:: notes
@@ -542,12 +542,12 @@
 
 
 
-解决困难
+解决!
 ==================
 
 .. container:: handout
 
-    要坚持..
+    也要坚持/动力/保持成就感...
 
 
 .. class:: takahashi8
@@ -563,12 +563,12 @@
 
 
 
-解决困难
+秘决;-)
 ==================
 
 .. container:: handout
 
-    要坚持..
+    同样要坚持/什么是?怎么?什么?...
 
 
 .. class:: takahashi9
@@ -659,7 +659,7 @@
 
 .. container:: handout
 
-    就会发现
+    就会发现/创造的状态/自然积累/质变(鸡毛...)
 
 
 .. class:: takahashi8
@@ -680,7 +680,7 @@
 
 .. container:: handout
 
-    就会发现
+    就会发现/不受外物限制/发自内心的...
 
 
 .. class:: takahashi8
@@ -800,10 +800,10 @@
 
 .. class:: takahashi
 
-    .. image:: i/id/xyb.jpg
+    .. image:: i/foto/xyb-42qu_300x300.jpg
         :align: center
-        :scale: 200%
-        :target: http://9.douban.com/subject/9000016/
+        :scale: 120%
+        :target: http://42qu.com/-10001291
 
 
 .. container:: notes
