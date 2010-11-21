@@ -90,7 +90,7 @@
    - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
 
 
-本命年
+今年是我
 ==================
 
 .. container:: handout
@@ -98,9 +98,9 @@
    |zqeye|
 
 
-.. class:: takahashi10
+.. class:: takahashi7
 
-    36
+    本命年
 
 
 .. container:: notes
@@ -168,7 +168,7 @@
 
 .. container:: handout
 
-    非常高兴和大家分享有关创造的体验! |zqeye|
+    高兴/紧张;分享创造的体验!/想知道大家的梦想 |zqeye|
 
 
 .. class:: takahashi8
@@ -192,7 +192,7 @@
 
 .. container:: handout
 
-   2009-09-02
+   2009-09-02出版,
 
 
 .. class:: takahashi
@@ -221,7 +221,7 @@
     人多力量大!   
 
 
-.. class:: takahashi8
+.. class:: takahashi9
 
     14
 
@@ -238,7 +238,7 @@
 
 .. container:: handout
 
-   G创 |zqeye|
+   创始人,Guido van Rossum,现在google |zqeye|
 
 
 .. class:: takahashi
@@ -263,20 +263,12 @@
 
 .. container:: handout
 
-    编辑团队+7
+    编辑;杨绣国/怀孕间校对/几乎同时出生
 
 
-.. class:: takahashi2
+.. class:: takahashi9
 
-    .. class:: incremental
-
-    - 杨福川
-    - 方舟
-    - 周筠(Yeka)
-    - 彭俊
-    - 赵士威
-    - 杨绣国
-    - 何艳
+    7
 
 
 .. container:: notes
@@ -290,7 +282,7 @@
 
 .. container:: handout
 
-   图书出版回顾
+   1500天...
 
 
 .. class:: takahashi7
@@ -328,12 +320,12 @@
 
 .. container:: handout
 
-   一个偶然的机会
+   博文出版社/一个偶然的机会->MySQL
 
 
-.. class:: takahashi5
+.. class:: takahashi
 
-    2006-12-29
+    06.12.29
 
 
 .. container:: notes
@@ -350,9 +342,9 @@
    是群众的需要激发了大家的欲望
 
 
-.. class:: takahashi5
+.. class:: takahashi
 
-    `2007-02-01 <http://wiki.woodpecker.org.cn/moin/ObpBroadview/2007-02-01>`__
+    `07.02.01 <http://wiki.woodpecker.org.cn/moin/ObpBroadview/2007-02-01>`__
 
 
 .. container:: notes
@@ -412,10 +404,10 @@
    出版不是简单的事儿....
 
 
-.. class:: takahashi5
+.. class:: takahashi
 
 
-    `2008-12-14 <http://code.google.com/p/openbookproject/wiki/LovPyRush>`__
+    `08.12.14 <http://code.google.com/p/openbookproject/wiki/LovPyRush>`__
 
 
 .. container:: notes
@@ -712,6 +704,7 @@
    |zqeye|
 
 
+- 101121 根据"说故事的力量"增补细节
 - 101118 根据试讲，重构精简幻灯
 - 101112 获得授权,修订相关照片
 - 101110 增补讲演提示样式,填充主要内容
@@ -740,13 +733,476 @@
     .. image:: i/logo/tedx1kg_logo.gif
         :align: center
         :scale: 100 %
-        :alt: 封面
+        :alt: TEDx1Kg
         :target: http://www.tedx1kg.com/
 
+    .. image:: i/logo/logo-ks.jpg
+        :align: center
+        :scale: 150 %
+        :alt: kingsoft.com
+        :target: http://kingsoft.com
 
 .. container:: notes
 
    - ...
+
+
+
+
+作者们
+==================
+
+.. container:: handout
+
+    那些生出好蛋的...
+
+
+.. class:: takahashi8
+
+    样子
+
+
+.. container:: notes
+
+   - 这个是有别其它图书的最大特色了
+   - 当然也有专门更多的人编写的百科全书
+   - 我是说,同类型的图书中,我们这本的作者是最多的;-)
+
+
+作者.1~清风
+==================
+
+.. container:: handout
+
+   小8岁/北京/豆瓣
+
+
+.. class:: takahashi
+
+    .. image:: i/id/qingfeng.jpg
+        :align: center
+        :scale: 200 %
+        :target: #
+
+
+.. container:: notes
+
+   - 比我小8岁,现在北京,豆瓣公司
+
+
+作者.2~xyb
+==================
+
+.. container:: handout
+
+   小5岁/北京/豆瓣公司
+
+
+.. class:: takahashi
+
+    .. image:: i/id/xyb.jpg
+        :align: center
+        :scale: 200%
+        :target: http://9.douban.com/subject/9000016/
+
+
+.. container:: notes
+
+   - 比我小5岁,现在北京,豆瓣公司
+
+
+
+
+
+作者.3~张沈鹏
+==================
+
+.. container:: handout
+
+   小10岁以上/上海/独立创业
+
+
+.. class:: takahashi
+
+    .. image:: i/id/zsp.png
+        :align: center
+        :scale: 200 %
+        :target: http://zsp.javaeye.com/blog/activities
+
+
+.. container:: notes
+
+   - 比我小10岁以上,现在上海,曾经在豆瓣公司
+
+
+
+
+
+
+作者.4~盛艳
+==================
+
+.. container:: handout
+
+   小11岁/杭州/淘宝
+
+
+.. class:: takahashi
+
+    .. image:: i/foto/100327-SL730437.JPG
+        :align: center
+        :scale: 150 %
+        :target: http://www.zeuux.com/friend/user/lizzie/
+
+
+.. container:: notes
+
+   - 比我小11岁,现在杭州,淘宝公司
+
+
+
+
+
+
+作者.5~刘鑫
+==================
+
+.. container:: handout
+
+   小4岁/3岁的儿子/金山软件
+
+
+.. class:: takahashi
+
+    .. image:: i/id/lx.png
+        :align: center
+        :scale: 100 %
+        :target: http://blog.csdn.net/ccat
+
+
+.. container:: notes
+
+   - 比我小4岁,但是有个3岁的儿子了,现在珠海和我同在金山软件
+
+
+
+
+
+作者.6~黄毅
+==================
+
+.. container:: handout
+
+   小10岁以上/深圳
+
+
+.. class:: takahashi
+
+    .. image:: i/id/huangyi.jpg
+        :align: center
+        :scale: 150 %
+        :target: #
+
+
+.. container:: notes
+
+   - 比我小10岁以上,现在深圳工作
+
+
+
+
+
+
+作者.7~洪强宁
+==================
+
+.. container:: handout
+
+   小3岁/北京/豆瓣CTO/女儿快2岁
+
+
+.. class:: takahashi
+
+    .. image:: i/id/hongqn_mask.jpg
+        :align: center
+        :scale: 120 %
+        :target: #
+
+
+.. container:: notes
+
+   - 比我小3岁,现在北京豆瓣,女儿也快2岁了
+
+
+
+
+
+
+作者.8~Limodou
+==================
+
+.. container:: handout
+
+   大一岁/北京/女儿都上小学了...
+
+
+.. class:: takahashi
+
+    .. image:: i/id/limodou.png
+        :align: center
+        :scale: 100 %
+        :target: http://hi.baidu.com/limodou
+
+
+.. container:: notes
+
+   - 比我大一岁,现在北京某银行工作,女儿都上小学了...
+
+
+
+
+
+
+作者.9~潘俊勇
+==================
+
+.. container:: handout
+
+   小2岁/广州/润普公司
+
+
+.. class:: takahashi
+
+    .. image:: i/id/panjy.png
+        :align: center
+        :scale: 100 %
+        :target: http://www.czug.org/blog/panjy
+
+
+.. container:: notes
+
+   - 比我小2岁,虽然看着老,现在广州,润普公司创始人
+
+
+
+
+
+
+作者.10~沈崴
+==================
+
+.. container:: handout
+
+   小7岁/女儿比牛妞大一个月/用艺术照
+
+
+.. class:: takahashi
+
+    .. image:: i/id/shen-0.png
+        :align: center
+        :scale: 100 %
+        :target: http://eishn.blog.163.com/blog/
+
+
+.. container:: notes
+
+   - 比我小7岁,可是女儿有比牛妞大一个月! 照片是多年前結婚时的艺术照
+
+
+
+
+
+
+作者.10~真像
+==================
+
+.. container:: handout
+
+   一直自称是90后 |zqeye|
+
+
+.. class:: takahashi1
+
+   .. class:: borderless
+
+   =============  ==============
+   |wileishnage|  |wileishnow|
+   -------------  --------------
+   5年前          现在
+   =============  ==============
+
+
+.. |wileishnage| image:: i/id/wileishn-school.jpg
+    :align: top
+    :scale: 100 %
+    :alt: 大学时的
+    :target: http://eishn.blog.163.com/album/#m=1&aid=87591402&p=1
+
+.. |wileishnow| image:: i/id/wileishn-R0025951-1.jpg
+    :align: top
+    :scale: 100 %
+    :alt: 现在的
+    :target: http://www.flickr.com/photos/zoomq/5141018649/
+
+
+.. container:: notes
+
+   - 现在上海,样子完全不同的...吸烟不好,他现在很听话,已经不吸了 ;-)
+   - 而且一直自称是90后
+
+    .. image:: i/id/shen-1.png
+        :align: center
+        :scale: 100 %
+        :target: http://eishn.blog.163.com/blog/
+
+
+
+
+
+作者.11~徐继哲
+==================
+
+.. container:: handout
+
+   小5岁/北京/哲思社区创始人
+
+
+.. class:: takahashi
+
+    .. image:: i/id/billxu.png
+        :align: center
+        :scale: 120 %
+        :target: http://www.zeuux.com/friend/user/billxu/
+
+
+.. container:: notes
+
+   - 小我5岁,现居北京,哲思社区创始人
+
+
+
+
+
+
+
+作者.12~孔建军
+==================
+
+.. container:: handout
+
+   小13岁/北京/RedHat 公司
+
+
+.. class:: takahashi
+
+    .. image:: i/id/1-kongjianjun.jpg
+        :align: center
+        :scale: 100 %
+        :target: #
+
+
+.. container:: notes
+
+   - 比我小13岁,刚刚毕业,现在北京,RedHat 公司
+
+
+
+
+
+作者.13~高辉
+==================
+
+.. container:: handout
+
+   小12岁/深圳
+
+
+.. class:: takahashi
+
+    .. image:: i/id/2-gaohui.jpg
+        :align: center
+        :scale: 150 %
+        :target: #
+
+
+.. container:: notes
+
+   - 是孔建军的同学比他大一岁,现在深圳工作
+
+
+
+
+
+作者.0和我们
+==================
+
+.. container:: handout
+
+   2007GDT 合影 |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/foto/GDD07-beijing-allwithGuido.jpg
+        :align: center
+        :scale: 100 %
+        :target: http://wiki.woodpecker.org.cn/moin/BPUG/2007-05-31
+
+
+.. container:: notes
+
+   - 大我近20岁,是Python 语言的创造人,现在美国,Google 公司工作
+
+
+
+
+
+
+Pythonic服饰
+==================
+
+.. container:: handout
+
+   哲思设计;-) |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/foto/beginning-1-zeuux-fashion-guido.jpg
+        :align: center
+        :scale: 100 %
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+T裇设计人
+==================
+
+.. container:: handout
+
+   2007在北京时 |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/foto/070808-lifeshort-zq-sina.jpg
+        :align: center
+        :scale: 100 %
+        :target: http://www.zeuux.com/shop/
+
+
+.. container:: notes
+
+   - 出于这样一个认识,自个儿的身体是自个儿最大的广告位!
+
+
 
 
 
