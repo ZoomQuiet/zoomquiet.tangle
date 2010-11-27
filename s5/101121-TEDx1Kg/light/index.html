@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.7: http://docutils.sourceforge.net/" />
+<meta name="version" content="S5 1.1" />
+<title>图书 ;-) 创造</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id$
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: left }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<script src="ui/freedom/slides.js" type="text/javascript"></script>
+<link rel="stylesheet" href="ui/freedom/slides.css"
+      type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/freedom/outline.css"
+      type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/freedom/print.css"
+      type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/freedom/opera.css"
+      type="text/css" media="projection" id="operaFix" />
+</head>
+<body>
+<div class="layout">
+<div id="controls"></div>
+<div id="currentSlide"></div>
+<div id="header">
+
+</div>
+<div id="footer">
+<h1>图书 <span class="orange">;-)</span> 创造</h1>
+<h2><a class="reference external" href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">Zoom.Quiet</a> v10.11.25 <a class="reference external" href="http://creativecommons.org/licenses/by-nc-sa/2.5/cn/"><img alt="(CC)by-nc-sa 许可证" src="i/icon/cc-byncnd-80x15.png" /></a> 推荐用 <a class="reference external" href="http://www.mozilla.com/firefox/">FireFox</a> 获得最佳游览效果</h2>
+</div>
+</div>
+<div class="presentation">
+<div class="slide" id="slide0">
+<h1 class="title">图书 <span class="orange">;-)</span> 创造</h1>
+
+<!-- Definitions of interpreted text roles (classes) for S5/HTML data. -->
+<!-- This data file has been placed in the public domain. -->
+<!-- Colours
+======= -->
+<!-- Text Sizes
+========== -->
+<!-- Display in Slides (Presentation Mode) Only
+========================================== -->
+<!-- Display in Outline Mode Only
+============================ -->
+<!-- Display in Print Only
+===================== -->
+<!-- Display in Handout Mode Only
+============================ -->
+<!-- Incremental Display
+=================== -->
+<p>～如何分享快乐成一本图书?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">作者:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+sns&#64;gmai.com">周琦</a> (Zoom.Quiet)</td>
+</tr>
+<tr class="field"><th class="field-name">URL:</th><td class="field-body"><a class="reference external" href="http://zoomquiet.org/res/s5/101121-TEDx1Kg/">http://zoomquiet.org/res/s5/101121-TEDx1Kg/</a></td>
+</tr>
+</tbody>
+</table>
+<!-- This document has been placed in the CC domain. -->
+<!-- 图片定义区 -->
+
+</div>
+<div class="slide" id="id4">
+<h1>&lt;进度/&gt;</h1>
+<div class="handout container">
+俺-&gt;成书-&gt;使劲交流 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="takahashi3 simple">
+<li><span class="gray">1' 我</span></li>
+<li><span class="orange">11' 创书</span></li>
+</ul>
+</div>
+<div class="slide" id="id5">
+<h1>&lt;Zoom.Quiet&gt;</h1>
+<div class="handout container">
+全家;-)</div>
+<a class="takahashi7 reference external image-reference" href="http://blog.sina.com.cn/momokobb"><img alt="Zoom.Quiet" class="align-center" src="i/foto/20100710-niuniu-all-38.jpg" style="width: 800.0px; height: 642.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id6">
+<h1>牛妞</h1>
+<div class="handout container">
+\ (^o^) /</div>
+<img alt="表情牛妞" class="align-center" src="i/foto/faces-niuniu.jpg" style="width: 913.75px; height: 685.1px;" />
+<div class="notes container">
+<ul class="simple">
+<li>我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id7">
+<h1>今年是我</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7">本命年</p>
+<div class="notes container">
+<ul class="simple">
+<li>刚刚过了生日,应该说已经37岁了</li>
+<li>已经工作了12年</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id8">
+<h1>来自珠海</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="#"><img alt="Google Earth" class="align-center" src="i/snap/101110-105937_ge-zh-sc_scrot.png" style="width: 906.0px; height: 541.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>我来自中国南方的广东省,珠海市</li>
+<li>距离大家有 1300公里以上</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id9">
+<h1>家乡兰州</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="#"><img alt="Google Earth" class="align-center" src="i/snap/101110-110534_ge-lz-zh_scrot.png" style="width: 732.0px; height: 580.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>我出生的地方,在北边甘肃省兰州市</li>
+<li>距离工作的地方有 1800公里以上</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id10">
+<h1>&lt;/Zoom.Quiet&gt;</h1>
+<div class="handout container">
+高兴/紧张;分享创造的体验!/想知道大家的梦想 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">(^.^)</p>
+<div class="notes container">
+<ul class="simple">
+<li>这次可以和大家见面,并高兴的聊天非常高兴!</li>
+<li>不仅高兴可以和大家分享我认为很好玩的事儿,</li>
+<li>更加高兴可以从大家这儿听到从前的自个儿可能都没有想到的事儿</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="python">
+<h1>可愛的Python</h1>
+<div class="handout container">
+2009-09-02出版,</div>
+<a class="takahashi reference external image-reference" href="http://www.china-pub.com/195771"><img alt="封面" class="align-center" src="i/090902-lovpy.jpg" style="width: 591.6px; height: 660.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>这本书,是有关开发语言 Python 的,</li>
+<li>不过,今天说的和内容无关,是和怎么写出这样一本挺厚的书相关的</li>
+<li>写成一本书,真的不是难事儿...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id11">
+<h1>最大的特点</h1>
+<div class="handout container">
+人多力量大!</div>
+<p class="takahashi9">14</p>
+<div class="notes container">
+<ul class="simple">
+<li>这个是有别其它图书的最大特色了</li>
+<li>当然也有专门更多的人编写的百科全书</li>
+<li>我是说,同类型的图书中,我们这本的作者是最多的;-)</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id12">
+<h1>作者.1~清风</h1>
+<div class="handout container">
+小8岁/北京/豆瓣</div>
+<a class="takahashi reference external image-reference" href="#"><img alt="i/id/qingfeng.jpg" class="align-center" src="i/id/qingfeng.jpg" style="width: 356.0px; height: 356.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我小8岁,现在北京,豆瓣公司</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="xyb">
+<h1>作者.2~xyb</h1>
+<div class="handout container">
+小5岁/北京/豆瓣公司</div>
+<a class="takahashi reference external image-reference" href="http://42qu.com/-10001291"><img alt="i/foto/xyb-42qu_300x300.jpg" class="align-center" src="i/foto/xyb-42qu_300x300.jpg" style="width: 360.0px; height: 360.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我小5岁,现在北京,豆瓣公司</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id13">
+<h1>作者.3~张沈鹏</h1>
+<div class="handout container">
+小10岁以上/上海/独立创业</div>
+<a class="takahashi reference external image-reference" href="http://zsp.javaeye.com/blog/activities"><img alt="i/id/zsp.png" class="align-center" src="i/id/zsp.png" style="width: 240.0px; height: 240.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我小10岁以上,现在上海,曾经在豆瓣公司</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id14">
+<h1>作者.4~盛艳</h1>
+<div class="handout container">
+小11岁/杭州/淘宝</div>
+<a class="takahashi reference external image-reference" href="http://www.zeuux.com/friend/user/lizzie/"><img alt="i/foto/100327-SL730437.JPG" class="align-center" src="i/foto/100327-SL730437.JPG" style="width: 960.0px; height: 549.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我小11岁,现在杭州,淘宝公司</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id15">
+<h1>作者.5~刘鑫</h1>
+<div class="handout container">
+小4岁/3岁的儿子/金山软件</div>
+<a class="takahashi reference external image-reference" href="http://blog.csdn.net/ccat"><img alt="i/id/lx.png" class="align-center" src="i/id/lx.png" style="width: 396.0px; height: 450.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我小4岁,但是有个3岁的儿子了,现在珠海和我同在金山软件</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id16">
+<h1>作者.6~黄毅</h1>
+<div class="handout container">
+小10岁以上/深圳</div>
+<a class="takahashi reference external image-reference" href="#"><img alt="i/id/huangyi.jpg" class="align-center" src="i/id/huangyi.jpg" style="width: 319.5px; height: 417.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我小10岁以上,现在深圳工作</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id17">
+<h1>作者.7~洪强宁</h1>
+<div class="handout container">
+小3岁/北京/豆瓣CTO/女儿快2岁</div>
+<a class="takahashi reference external image-reference" href="#"><img alt="i/id/hongqn_mask.jpg" class="align-center" src="i/id/hongqn_mask.jpg" style="width: 432.0px; height: 432.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我小3岁,现在北京豆瓣,女儿也快2岁了</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="limodou">
+<h1>作者.8~Limodou</h1>
+<div class="handout container">
+大一岁/北京/女儿都上小学了...</div>
+<a class="takahashi reference external image-reference" href="http://hi.baidu.com/limodou"><img alt="i/id/limodou.png" class="align-center" src="i/id/limodou.png" style="width: 532.0px; height: 450.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我大一岁,现在北京某银行工作,女儿都上小学了...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id18">
+<h1>作者.9~潘俊勇</h1>
+<div class="handout container">
+小2岁/广州/润普公司</div>
+<a class="takahashi reference external image-reference" href="http://www.czug.org/blog/panjy"><img alt="i/id/panjy.png" class="align-center" src="i/id/panjy.png" style="width: 584.0px; height: 450.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我小2岁,虽然看着老,现在广州,润普公司创始人</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id19">
+<h1>作者.10~沈崴</h1>
+<div class="handout container">
+小7岁/女儿比牛妞大一个月/用艺术照</div>
+<a class="takahashi reference external image-reference" href="http://eishn.blog.163.com/blog/"><img alt="i/id/shen-0.png" class="align-center" src="i/id/shen-0.png" style="width: 475.0px; height: 450.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我小7岁,可是女儿有比牛妞大一个月! 照片是多年前結婚时的艺术照</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id20">
+<h1>作者.10~真像</h1>
+<div class="handout container">
+一直自称是90后 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<table border="1" class="takahashi1 borderless docutils">
+<colgroup>
+<col width="48%" />
+<col width="52%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><a class="reference external" href="http://eishn.blog.163.com/album/#m=1&amp;aid=87591402&amp;p=1"><img alt="大学时的" class="align-top" src="i/id/wileishn-school.jpg" style="width: 304.0px; height: 367.0px;" /></a></td>
+<td><a class="reference external" href="http://www.flickr.com/photos/zoomq/5141018649/"><img alt="现在的" class="align-top" src="i/id/wileishn-R0025951-1.jpg" style="width: 350.0px; height: 390.0px;" /></a></td>
+</tr>
+<tr><td>5年前</td>
+<td>现在</td>
+</tr>
+</tbody>
+</table>
+<div class="notes container">
+<ul class="simple">
+<li>现在上海,样子完全不同的...吸烟不好,他现在很听话,已经不吸了 ;-)</li>
+<li>而且一直自称是90后</li>
+</ul>
+<blockquote>
+<a class="reference external image-reference" href="http://eishn.blog.163.com/blog/"><img alt="i/id/shen-1.png" class="align-center" src="i/id/shen-1.png" style="width: 467.0px; height: 450.0px;" /></a>
+</blockquote>
+</div>
+</div>
+<div class="slide" id="id21">
+<h1>作者.11~徐继哲</h1>
+<div class="handout container">
+小5岁/北京/哲思社区创始人</div>
+<a class="takahashi reference external image-reference" href="http://www.zeuux.com/friend/user/billxu/"><img alt="i/id/billxu.png" class="align-center" src="i/id/billxu.png" style="width: 678.0px; height: 469.2px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>小我5岁,现居北京,哲思社区创始人</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id22">
+<h1>作者.12~孔建军</h1>
+<div class="handout container">
+小13岁/北京/RedHat 公司</div>
+<a class="takahashi reference external image-reference" href="#"><img alt="i/id/1-kongjianjun.jpg" class="align-center" src="i/id/1-kongjianjun.jpg" style="width: 275.0px; height: 341.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>比我小13岁,刚刚毕业,现在北京,RedHat 公司</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id23">
+<h1>作者.13~高辉</h1>
+<div class="handout container">
+小12岁/深圳</div>
+<a class="takahashi reference external image-reference" href="#"><img alt="i/id/2-gaohui.jpg" class="align-center" src="i/id/2-gaohui.jpg" style="width: 301.5px; height: 355.5px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>是孔建军的同学比他大一岁,现在深圳工作</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id24">
+<h1>作者.0</h1>
+<div class="handout container">
+创始人,Guido van Rossum,现在google <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi reference external image-reference" href="http://blog.csdn.net/gvanrossum"><img alt="i/id/guido.png" class="align-center" src="i/id/guido.png" style="width: 391.0px; height: 450.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>大我近20岁,是Python 语言的创造人,现在美国,Google 公司工作</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id25">
+<h1>作者.0和我们</h1>
+<div class="handout container">
+2007GDT 合影 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/BPUG/2007-05-31"><img alt="i/foto/GDD07-beijing-allwithGuido.jpg" class="align-center" src="i/foto/GDD07-beijing-allwithGuido.jpg" style="width: 800.0px; height: 476.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>大我近20岁,是Python 语言的创造人,现在美国,Google 公司工作</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="pythonic">
+<h1>Pythonic服饰</h1>
+<div class="handout container">
+哲思设计;-) <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="i/foto/beginning-1-zeuux-fashion-guido.jpg" class="takahashi align-center" src="i/foto/beginning-1-zeuux-fashion-guido.jpg" style="width: 800.0px; height: 533.0px;" />
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="t">
+<h1>T裇设计人</h1>
+<div class="handout container">
+2007在北京时 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi reference external image-reference" href="http://www.zeuux.com/shop/"><img alt="i/foto/070808-lifeshort-zq-sina.jpg" class="align-center" src="i/foto/070808-lifeshort-zq-sina.jpg" style="width: 600.0px; height: 392.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>出于这样一个认识,自个儿的身体是自个儿最大的广告位!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id26">
+<h1>成书小传</h1>
+<div class="handout container">
+1500天...</div>
+<p class="takahashi7"><span class="orange">四年</span></p>
+<div class="notes container">
+<ul class="simple">
+<li>前后其实用了1500天左右的时间才印刷出来的</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="kday">
+<h1>成书小传::KDay 故事</h1>
+<div class="handout container">
+只是先自个儿记录心得</div>
+<p class="takahashi">2005-12</p>
+<div class="notes container">
+<ul class="simple">
+<li>源于在SINA中的真实工作实例...</li>
+<li>同时&quot;Python源码剖析&quot;开始连载</li>
+<li><a class="reference external" href="http://blog.donews.com/lemur/archive/2005/12/17/660973.aspx">http://blog.donews.com/lemur/archive/2005/12/17/660973.aspx</a></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id27">
+<h1>成书小传::杨福川出现</h1>
+<div class="handout container">
+博文出版社/一个偶然的机会-&gt;MySQL</div>
+<p class="takahashi">06.12.29</p>
+<div class="notes container">
+<ul class="simple">
+<li>本来是讨论MySQL 相关的图书...</li>
+<li>结果我提及了Python 的现状,就鼓励我可以写本书来介绍</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id28">
+<h1>成书小传::压缩内容</h1>
+<div class="handout container">
+内容也不是越多越好...</div>
+<p class="takahashi7">592
+~462</p>
+<div class="notes container">
+<ul class="simple">
+<li>图书是得有个中心选题,不是什么都讲才好的</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id29">
+<h1>成书小传:: 交付版本</h1>
+<div class="handout container">
+出版不是简单的事儿....</div>
+<p class="takahashi"><a class="reference external" href="http://code.google.com/p/openbookproject/wiki/LovPyRush">08.12.14</a></p>
+<div class="notes container">
+<ul class="simple">
+<li>r2062 <a class="reference external" href="http://code.google.com/p/openbookproject/source/detail?r=2064">http://code.google.com/p/openbookproject/source/detail?r=2064</a></li>
+<li>因为封面以及其它...继续折腾...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id30">
+<h1>成书小传:: 成了!</h1>
+<div class="handout container">
+2009-09-02</div>
+<a class="takahashi reference external image-reference" href="http://www.china-pub.com/195771"><img alt="封面" class="align-center" src="i/snap/lovpy-cover-girl.jpg" style="width: 622.8px; height: 600.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>拿到图书时,非常高兴,因为这不是我一个人的图书</li>
+<li>在印刷出来之前,就已经成为大家共有的图书了,</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id31">
+<h1>成书小传:: 其实</h1>
+<div class="handout container">
+有另外的设计的..</div>
+<a class="takahashi reference external image-reference" href="http://www.china-pub.com/195771"><img alt="封面" class="align-center" src="i/snap/lovpy-cover-boy.jpg" style="width: 634.8px; height: 600.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>都是一个意思,,,象游戏一样,历险!快乐!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id32">
+<h1>如何?</h1>
+<div class="handout container">
+什么是图书?写书很复杂嘛?...</div>
+<p class="takahashi8">图书?</p>
+<div class="notes container">
+<ul class="simple">
+<li>什么是图书?</li>
+<li>写本图书很累嘛?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id33">
+<h1>目标</h1>
+<div class="handout container">
+&quot;裤&quot;!有趣并有用</div>
+<p class="takahashi8">COOL</p>
+<div class="notes container">
+<ul class="simple">
+<li>这个单词念 裤!</li>
+<li>意思就是与众不同,非常独特,令人骄傲</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id34">
+<h1>聚集</h1>
+<div class="handout container">
+自然的/成为朋友/凝聚到一起...</div>
+<p class="takahashi8">朋友</p>
+<div class="notes container">
+<ul class="simple">
+<li>是得,只有认同目标的人,才可能共同在一起坚持付出,直到成功,</li>
+<li>这时,就已经是朋友了,</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id35">
+<h1>困难?</h1>
+<div class="handout container">
+唯一的/不能急/象庄稼...</div>
+<p class="takahashi8">坚持</p>
+<div class="notes container">
+<ul class="simple">
+<li>不论简单还是困难,任何事儿,都是有终点的,但是不坚持永远到达不了</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id36">
+<h1>解决!</h1>
+<div class="handout container">
+也要坚持/动力/保持成就感...</div>
+<p class="takahashi8">感激</p>
+<div class="notes container">
+<ul class="simple">
+<li>只有怀着感谢之心,才可能坚持,才可能協調起大家,</li>
+<li>因为都是为了共同的目标,任何误解,偏差都不是故意的,都有原因的,只要解决了就过去了</li>
+<li>任何一点进展,都是值得感谢的,因为我们在创造从来没有过的事物</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id37">
+<h1>秘决;-)</h1>
+<div class="handout container">
+同样要坚持/什么是?怎么?什么?...</div>
+<p class="takahashi9"><span class="orange">分享</span></p>
+<div class="notes container">
+<ul class="simple">
+<li>什么是分享?</li>
+<li>怎么分享?</li>
+<li>分享什么?</li>
+<li>最重要的是要快乐的分享,分享不应该成为束缚/要求,只有自然的分享,才能够有效的分享...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id38">
+<h1>为什么分享?</h1>
+<div class="handout container">
+因为学习,建立起自个儿的知识领域</div>
+<img alt="开始" class="takahashi align-center" src="i/know-me0.gif" style="width: 450.0px; height: 450.0px;" />
+<div class="notes container">
+<ul class="simple">
+<li>我们的知识领域开始很小</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id39">
+<h1>为什么分享?</h1>
+<div class="handout container">
+随着学习...</div>
+<img alt="然后" class="takahashi align-center" src="i/know-me1.gif" style="width: 450.0px; height: 450.0px;" />
+<div class="notes container">
+<ul class="simple">
+<li>我们知道的越多，意识着，我们不知道的也越多</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id40">
+<h1>为什么分享?</h1>
+<div class="handout container">
+最高效的学习就是分享！</div>
+<img alt="分享并联合" class="takahashi align-center" src="i/know-we.gif" style="width: 450.0px; height: 450.0px;" />
+<div class="notes container">
+<ul class="simple">
+<li>快速到达我们永远无法积累到的高度！</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id41">
+<h1>那么...</h1>
+<div class="handout container">
+就会发现/创造的状态/自然积累/质变(鸡毛...)</div>
+<p class="takahashi8">创造 <span class="orange">?</span></p>
+<div class="notes container">
+<ul class="simple">
+<li>图书的内容是自然积累而成的,每个人其实花费的时间不多,</li>
+<li>对我来说,平均那4年,每天用在图书上的时间不超过9分钟;</li>
+<li>而且近一半的时间写的信/说的话,并不是在图书上,而是沟通/协调</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id42">
+<h1>真正的!</h1>
+<div class="handout container">
+就会发现/不受外物限制/发自内心的...</div>
+<p class="takahashi8">= <span class="orange">快乐</span></p>
+<div class="notes container">
+<ul class="simple">
+<li>但是,这种无中生有,从我们的知识/经验中组合结出的成果,是真正的快乐呢</li>
+<li>因为,这种快乐不会被任何外部条件所限制,产生自我们的内心!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id43">
+<h1>总之</h1>
+<div class="handout container">
+期望可以记住的 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="incremental takahashi simple">
+<li>写书不是难事儿</li>
+<li>万事难的只在坚持</li>
+<li>要坚持,就分享;-)</li>
+<li>分享的快乐是真正的快乐!</li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li>~单位时间可以记住的只有7+-2 个</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id44">
+<h1>最后:感谢一切!</h1>
+<div class="handout container">
+无意间进入这一片天空的</div>
+<a class="takahashi5 reference external image-reference" href="http://www.tedx1kg.com/"><img alt="TEDx1Kg" class="align-center" src="i/logo/tedx1kg_logo.gif" style="width: 372.0px; height: 209.0px;" /></a>
+<a class="takahashi5 reference external image-reference" href="http://kingsoft.com"><img alt="kingsoft.com" class="align-center" src="i/logo/logo-ks.jpg" style="width: 156.0px; height: 61.5px;" /></a>
+<img alt="kingsoft.com" class="takahashi5 align-center" src="i/logo/ks-volunteer_h90.jpg" style="width: 125.0px; height: 90.0px;" />
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id45">
+<h1>&lt;Zoom.Quiet/&gt;</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="是也乎,是也乎" class="takahashi2 align-center" src="i/id/100514-zq-eye.png" style="width: 387.6px; height: 360.0px;" />
+<p class="takahashi2"><a class="reference external" href="mailto:Zoom.Quiet&#64;gmail.com">Zoom.Quiet&#64;gmail.com</a></p>
+</div>
+<div class="slide" id="id46">
+<h1>&lt;版本/&gt;</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="simple">
+<li>101124 根据花溪乡中心小学的讲演效果增补照片</li>
+<li>101123 根据高升中心小学的讲演效果调整次序</li>
+<li>101121 根据&quot;说故事的力量&quot;增补细节</li>
+<li>101118 根据试讲，重构精简幻灯</li>
+<li>101112 获得授权,修订相关照片</li>
+<li>101110 增补讲演提示样式,填充主要内容</li>
+<li>101109 设计讲演时间结构</li>
+<li>101108 为TEDx1Kg 讲演定制高桥流白样式</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">反馈:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+sns&#64;gmai.com">Zoom.Quiet&#64;gmail.com</a></td>
+</tr>
+<tr class="field"><th class="field-name">查阅:</th><td class="field-body"><a class="reference external" href="http://zoomquiet.org/res/s5/101121-TEDx1Kg/">http://zoomquiet.org/res/s5/101121-TEDx1Kg/</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>
