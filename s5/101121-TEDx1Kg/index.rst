@@ -1,12 +1,12 @@
 .. include:: <s5defs.txt>
 
 ==================================================================
-图书;-)创造
+图书 :orange:`;-)` 创造
 ==================================================================
 
 ～如何分享快乐成一本图书?
 
-:作者: `周琦 <zoomquiet+sns@gmai.com>`__ (Zoom.Quiet)
+:作者: 周琦(Zoom.Quiet)
 :URL:   http://zoomquiet.org/res/s5/101121-TEDx1Kg/
 
 .. This document has been placed in the CC domain.
@@ -51,22 +51,7 @@
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v10.11.18 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
-
-<进度/>
-=========
-
-.. container:: handout
-
-   俺->成书->使劲交流 |zqeye|
-
-
-.. class:: takahashi3
-
-    - :gray:`1' 我`
-    - :orange:`11' 创书`
-
-
+   `Zoom.Quiet`_ v10.11.24 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 
 <Zoom.Quiet>
 ==================
@@ -88,6 +73,27 @@
 .. container:: notes
 
    - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+
+
+牛妞
+==================
+
+.. container:: handout
+
+   \ (^o^) /
+
+
+
+.. image:: i/foto/faces-niuniu.jpg
+    :align: center
+    :scale: 85 %
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+
 
 
 今年是我
@@ -233,543 +239,6 @@
    - 我是说,同类型的图书中,我们这本的作者是最多的;-)
 
 
-作者.0
-==================
-
-.. container:: handout
-
-   创始人,Guido van Rossum,现在google |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/id/guido.png
-        :align: center
-        :scale: 100 %
-        :target: http://blog.csdn.net/gvanrossum
-
-
-.. container:: notes
-
-   - 大我近20岁,是Python 语言的创造人,现在美国,Google 公司工作
-
-
-
-
-
-
-催生婆们
-==================
-
-.. container:: handout
-
-    编辑;杨绣国/怀孕间校对/几乎同时出生
-
-
-.. class:: takahashi9
-
-    7
-
-
-.. container:: notes
-
-   - 专业／耐心／认真的编辑是个宝！
-   - 杨姐在怀孕期间完成了校对
-   - 这书几乎是和宝宝一齐出生的
-
-成书小传
-====================================
-
-.. container:: handout
-
-   1500天...
-
-
-.. class:: takahashi7
-
-    :orange:`四年`
-
-
-.. container:: notes
-
-   - 前后其实用了1500天左右的时间才印刷出来的
-
-
-成书小传::KDay 故事
-====================================
-
-.. container:: handout
-
-   只是先自个儿记录心得
-
-
-.. class:: takahashi
-
-    2005-12
-
-
-.. container:: notes
-
-   - 源于在SINA中的真实工作实例...
-   - 同时"Python源码剖析"开始连载
-   - http://blog.donews.com/lemur/archive/2005/12/17/660973.aspx
-
-
-成书小传::杨福川出现
-====================================
-
-.. container:: handout
-
-   博文出版社/一个偶然的机会->MySQL
-
-
-.. class:: takahashi
-
-    06.12.29
-
-
-.. container:: notes
-
-   - 本来是讨论MySQL 相关的图书...
-   - 结果我提及了Python 的现状,就鼓励我可以写本书来介绍
-
-
-成书小传::小白心声
-====================================
-
-.. container:: handout
-
-   是群众的需要激发了大家的欲望
-
-
-.. class:: takahashi
-
-    `07.02.01 <http://wiki.woodpecker.org.cn/moin/ObpBroadview/2007-02-01>`__
-
-
-.. container:: notes
-
-   - "建议给python新手指个明路..."
-   - http://groups.google.com/group/CPyUG/browse_thread/thread/db96d586ad263a82
-   - 小白的心声，激发了俺 Mind Hacking 的欲望!
-   - http://wiki.woodpecker.org.cn/moin/ObpBroadview
-
-
-成书小传::开始波折...
-====================================
-
-.. container:: handout
-
-   出版不是简单的事儿....
-
-
-.. class:: takahashi
-
-
-    .. image:: i/snap/hopes_456x224_scrot.png
-        :align: center
-        :scale: 150 %
-        :target: http://wiki.woodpecker.org.cn/moin/ObpLovelyPyEditorRule
-
-
-.. container:: notes
-
-   - 不断的调整图书内容结构，深深体会生产的滋味...
-
-
-成书小传::压缩内容
-====================================
-
-.. container:: handout
-
-   内容也不是越多越好...
-
-
-.. class:: takahashi7
-
-    592
-    ~462
-
-
-.. container:: notes
-
-   - 图书是得有个中心选题,不是什么都讲才好的
-
-
-成书小传:: 交付版本
-====================================
-
-.. container:: handout
-
-   出版不是简单的事儿....
-
-
-.. class:: takahashi
-
-
-    `08.12.14 <http://code.google.com/p/openbookproject/wiki/LovPyRush>`__
-
-
-.. container:: notes
-
-   - r2062 http://code.google.com/p/openbookproject/source/detail?r=2064
-   - 因为封面以及其它...继续折腾...
-
-成书小传:: 成了!
-==================
-
-.. container:: handout
-
-   2009-09-02
-
-
-.. class:: takahashi
-
-    .. image:: i/snap/lovpy-cover-girl.jpg
-        :align: center
-        :scale: 120 %
-        :alt: 封面
-        :target: http://www.china-pub.com/195771
-
-
-.. container:: notes
-
-   - 拿到图书时,非常高兴,因为这不是我一个人的图书
-   - 在印刷出来之前,就已经成为大家共有的图书了,
-
-
-
-成书小传:: 其实
-==================
-
-.. container:: handout
-
-   有另外的设计的..
-
-
-.. class:: takahashi
-
-    .. image:: i/snap/lovpy-cover-boy.jpg
-        :align: center
-        :scale: 120 %
-        :alt: 封面
-        :target: http://www.china-pub.com/195771
-
-
-.. container:: notes
-
-   - 都是一个意思,,,象游戏一样,历险!快乐!
-
-
-
-如何?
-==================
-
-.. container:: handout
-
-    什么是图书?写书很复杂嘛?...
-
-
-.. class:: takahashi8
-
-    图书?
-
-
-.. container:: notes
-
-   - 什么是图书?
-   - 写本图书很累嘛?
-
-
-
-
-目标
-==================
-
-.. container:: handout
-
-    "裤"!有趣并有用
-
-
-.. class:: takahashi8
-
-    COOL
-
-
-.. container:: notes
-
-   - 这个单词念 裤!
-   - 意思就是与众不同,非常独特,令人骄傲
-
-
-
-聚集
-==================
-
-.. container:: handout
-
-    自然的/成为朋友/凝聚到一起...
-
-
-.. class:: takahashi8
-
-    朋友
-
-
-.. container:: notes
-
-   - 是得,只有认同目标的人,才可能共同在一起坚持付出,直到成功,
-   - 这时,就已经是朋友了,
-
-
-
-困难?
-==================
-
-.. container:: handout
-
-    唯一的/不能急/象庄稼...
-
-
-.. class:: takahashi8
-
-    坚持
-
-
-.. container:: notes
-
-   - 不论简单还是困难,任何事儿,都是有终点的,但是不坚持永远到达不了
-
-
-
-解决!
-==================
-
-.. container:: handout
-
-    也要坚持/动力/保持成就感...
-
-
-.. class:: takahashi8
-
-    感激
-
-
-.. container:: notes
-
-   - 只有怀着感谢之心,才可能坚持,才可能協調起大家,
-   - 因为都是为了共同的目标,任何误解,偏差都不是故意的,都有原因的,只要解决了就过去了
-   - 任何一点进展,都是值得感谢的,因为我们在创造从来没有过的事物
-
-
-
-秘决;-)
-==================
-
-.. container:: handout
-
-    同样要坚持/什么是?怎么?什么?...
-
-
-.. class:: takahashi9
-
-    :orange:`分享`
-
-
-.. container:: notes
-
-   - 什么是分享?
-   - 怎么分享?
-   - 分享什么?
-   - 最重要的是要快乐的分享,分享不应该成为束缚/要求,只有自然的分享,才能够有效的分享...
-
-
-
-为什么分享?
-==================
-
-.. container:: handout
-
-   最初什么也不知道
-
-
-.. class:: takahashi
-
-    .. image:: i/know-dot.gif
-        :align: center
-        :scale: 150 %
-        :alt: 最初
-
-
-.. container:: notes
-
-   - 我们的知识领域开始很小
-
-
-
-
-为什么分享?
-==================
-
-.. container:: handout
-
-   因为学习,建立起自个儿的知识领域
-
-
-.. class:: takahashi
-
-    .. image:: i/know-me0.gif
-        :align: center
-        :scale: 150 %
-        :alt: 开始
-
-
-.. container:: notes
-
-   - 我们的知识领域开始很小
-
-
-
-
-为什么分享?
-==================
-
-.. container:: handout
-
-   随着学习...
-
-
-.. class:: takahashi
-
-    .. image:: i/know-me1.gif
-        :align: center
-        :scale: 150 %
-        :alt: 然后
-
-
-.. container:: notes
-
-   - 我们知道的越多，意识着，我们不知道的也越多
-
-
-
-
-为什么分享?
-==================
-
-.. container:: handout
-
-   最高效的学习就是分享！
-
-
-.. class:: takahashi
-
-    .. image:: i/know-we.gif
-        :align: center
-        :scale: 150 %
-        :alt: 分享并联合
-
-
-.. container:: notes
-
-   - 快速到达我们永远无法积累到的高度！
-
-
-
-
-那么...
-==================
-
-.. container:: handout
-
-    就会发现/创造的状态/自然积累/质变(鸡毛...)
-
-
-.. class:: takahashi8
-
-    创造 :orange:`?`
-
-
-.. container:: notes
-
-   - 图书的内容是自然积累而成的,每个人其实花费的时间不多,
-   - 对我来说,平均那4年,每天用在图书上的时间不超过9分钟;
-   - 而且近一半的时间写的信/说的话,并不是在图书上,而是沟通/协调
-
-
-
-真正的!
-==================
-
-.. container:: handout
-
-    就会发现/不受外物限制/发自内心的...
-
-
-.. class:: takahashi8
-
-    = :orange:`快乐`
-
-
-.. container:: notes
-
-   - 但是,这种无中生有,从我们的知识/经验中组合结出的成果,是真正的快乐呢
-   - 因为,这种快乐不会被任何外部条件所限制,产生自我们的内心!
-
-
-
-
-最后...
-==================
-
-.. container:: handout
-
-   无意间进入这一片天空的
-
-
-.. class:: takahashi5
-
-    感谢一切
-
-    .. image:: i/logo/tedx1kg_logo.gif
-        :align: center
-        :scale: 100 %
-        :alt: TEDx1Kg
-        :target: http://www.tedx1kg.com/
-
-    .. image:: i/logo/logo-ks.jpg
-        :align: center
-        :scale: 150 %
-        :alt: kingsoft.com
-        :target: http://kingsoft.com
-
-.. container:: notes
-
-   - ...
-
-
-
-
-作者们
-==================
-
-.. container:: handout
-
-    那些生出好蛋的...
-
-
-.. class:: takahashi8
-
-    样子
-
-
-.. container:: notes
-
-   - 这个是有别其它图书的最大特色了
-   - 当然也有专门更多的人编写的百科全书
-   - 我是说,同类型的图书中,我们这本的作者是最多的;-)
-
-
 作者.1~清风
 ==================
 
@@ -782,7 +251,7 @@
 
     .. image:: i/id/qingfeng.jpg
         :align: center
-        :scale: 200 %
+        :scale: 250 %
         :target: #
 
 
@@ -803,7 +272,7 @@
 
     .. image:: i/foto/xyb-42qu_300x300.jpg
         :align: center
-        :scale: 120%
+        :scale: 150%
         :target: http://42qu.com/-10001291
 
 
@@ -827,7 +296,7 @@
 
     .. image:: i/id/zsp.png
         :align: center
-        :scale: 200 %
+        :scale: 250 %
         :target: http://zsp.javaeye.com/blog/activities
 
 
@@ -1014,7 +483,7 @@
 
 
 
-作者.10~真像
+作者.10~真相
 ==================
 
 .. container:: handout
@@ -1086,31 +555,7 @@
 
 
 
-作者.12~孔建军
-==================
-
-.. container:: handout
-
-   小13岁/北京/RedHat 公司
-
-
-.. class:: takahashi
-
-    .. image:: i/id/1-kongjianjun.jpg
-        :align: center
-        :scale: 100 %
-        :target: #
-
-
-.. container:: notes
-
-   - 比我小13岁,刚刚毕业,现在北京,RedHat 公司
-
-
-
-
-
-作者.13~高辉
+作者.12~高辉
 ==================
 
 .. container:: handout
@@ -1122,7 +567,7 @@
 
     .. image:: i/id/2-gaohui.jpg
         :align: center
-        :scale: 150 %
+        :scale: 180 %
         :target: #
 
 
@@ -1134,20 +579,44 @@
 
 
 
-作者.0和我们
+作者.13~孔建军
 ==================
 
 .. container:: handout
 
-   2007GDT 合影 |zqeye|
+   小13岁/北京/RedHat 公司
 
 
 .. class:: takahashi
 
-    .. image:: i/foto/GDD07-beijing-allwithGuido.jpg
+    .. image:: i/id/1-kongjianjun.jpg
         :align: center
-        :scale: 100 %
-        :target: http://wiki.woodpecker.org.cn/moin/BPUG/2007-05-31
+        :scale: 150 %
+        :target: #
+
+
+.. container:: notes
+
+   - 比我小13岁,刚刚毕业,现在北京,RedHat 公司
+
+
+
+
+
+作者.0
+==================
+
+.. container:: handout
+
+   创始人,Guido van Rossum,现在google |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/id/guido.png
+        :align: center
+        :scale: 120 %
+        :target: http://blog.csdn.net/gvanrossum
 
 
 .. container:: notes
@@ -1195,7 +664,7 @@ T裇设计人
 
     .. image:: i/foto/070808-lifeshort-zq-sina.jpg
         :align: center
-        :scale: 100 %
+        :scale: 150 %
         :target: http://www.zeuux.com/shop/
 
 
@@ -1208,6 +677,443 @@ T裇设计人
 
 
 
+成书小传
+====================================
+
+.. container:: handout
+
+   1500天...
+
+
+.. class:: takahashi7
+
+    :orange:`四年`
+
+
+.. container:: notes
+
+   - 前后其实用了1500天左右的时间才印刷出来的
+
+
+成书小传::KDay 故事
+====================================
+
+.. container:: handout
+
+   只是先自个儿记录心得
+
+
+.. class:: takahashi
+
+    2005-12
+
+
+.. container:: notes
+
+   - 源于在SINA中的真实工作实例...
+   - 同时"Python源码剖析"开始连载
+   - http://blog.donews.com/lemur/archive/2005/12/17/660973.aspx
+
+
+成书小传::杨福川出现
+====================================
+
+.. container:: handout
+
+   博文出版社/一个偶然的机会->MySQL
+
+
+.. class:: takahashi
+
+    06.12.29
+
+
+.. container:: notes
+
+   - 本来是讨论MySQL 相关的图书...
+   - 结果我提及了Python 的现状,就鼓励我可以写本书来介绍
+
+
+成书小传::2008
+====================================
+
+.. container:: handout
+
+   内容也不是越多越好...
+
+
+.. class:: takahashi7
+
+    592
+    ~462
+
+
+.. container:: notes
+
+   - 图书是得有个中心选题,不是什么都讲才好的
+
+
+成书小传:: 成了!
+==================
+
+.. container:: handout
+
+   2009-09-02
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/lovpy-cover-girl.jpg
+        :align: center
+        :scale: 120 %
+        :alt: 封面
+        :target: http://www.china-pub.com/195771
+
+
+.. container:: notes
+
+   - 拿到图书时,非常高兴,因为这不是我一个人的图书
+   - 在印刷出来之前,就已经成为大家共有的图书了,
+
+
+
+成书小传:: 其实
+==================
+
+.. container:: handout
+
+   有另外的设计的..
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/lovpy-cover-boy.jpg
+        :align: center
+        :scale: 120 %
+        :alt: 封面
+        :target: http://www.china-pub.com/195771
+
+
+.. container:: notes
+
+   - 都是一个意思,,,象游戏一样,历险!快乐!
+
+
+
+如何?
+==================
+
+.. container:: handout
+
+    什么是图书?写书很复杂嘛?...
+
+
+.. class:: takahashi8
+
+    图书?
+
+
+.. container:: notes
+
+   - 什么是图书?
+   - 写本图书很累嘛?
+
+
+
+
+目标
+==================
+
+.. container:: handout
+
+    "裤"!有趣并有用
+
+
+.. class:: takahashi8
+
+    COOL
+
+
+.. container:: notes
+
+   - 这个单词念 裤!
+   - 意思就是与众不同,非常独特,令人骄傲
+
+
+
+聚集
+==================
+
+.. container:: handout
+
+    自然的/成为朋友/凝聚到一起...
+
+
+.. class:: takahashi8
+
+    朋友
+
+
+.. container:: notes
+
+   - 是得,只有认同目标的人,才可能共同在一起坚持付出,直到成功,
+   - 这时,就已经是朋友了,
+
+
+
+困难?
+==================
+
+.. container:: handout
+
+    唯一的/不能急/象庄稼...
+
+
+.. class:: takahashi8
+
+    坚持
+
+
+.. container:: notes
+
+   - 不论简单还是困难,任何事儿,都是有终点的,但是不坚持永远到达不了
+
+
+
+解决!
+==================
+
+.. container:: handout
+
+    也要坚持/动力/保持成就感...
+
+
+.. class:: takahashi8
+
+    感激
+
+
+.. container:: notes
+
+   - 只有怀着感谢之心,才可能坚持,才可能協調起大家,
+   - 因为都是为了共同的目标,任何误解,偏差都不是故意的,都有原因的,只要解决了就过去了
+   - 任何一点进展,都是值得感谢的,因为我们在创造从来没有过的事物
+
+
+
+秘决;-)
+==================
+
+.. container:: handout
+
+    同样要坚持/什么是?怎么?什么?...
+
+
+.. class:: takahashi9
+
+    :orange:`分享`
+
+
+.. container:: notes
+
+   - 什么是分享?
+   - 怎么分享?
+   - 分享什么?
+   - 最重要的是要快乐的分享,分享不应该成为束缚/要求,只有自然的分享,才能够有效的分享...
+
+
+
+为什么分享?
+==================
+
+.. container:: handout
+
+   因为学习,建立起自个儿的知识领域
+
+
+.. class:: takahashi
+
+    .. image:: i/know-me0.gif
+        :align: center
+        :scale: 150 %
+        :alt: 开始
+
+
+.. container:: notes
+
+   - 我们的知识领域开始很小
+
+
+
+
+为什么分享?
+==================
+
+.. container:: handout
+
+   随着学习...
+
+
+.. class:: takahashi
+
+    .. image:: i/know-me1.gif
+        :align: center
+        :scale: 150 %
+        :alt: 然后
+
+
+.. container:: notes
+
+   - 我们知道的越多，意识着，我们不知道的也越多
+
+
+
+
+为什么分享?
+==================
+
+.. container:: handout
+
+   最高效的学习就是分享！
+
+
+.. class:: takahashi
+
+    .. image:: i/know-we.gif
+        :align: center
+        :scale: 150 %
+        :alt: 分享并联合
+
+
+.. container:: notes
+
+   - 快速到达我们永远无法积累到的高度！
+
+
+
+
+那么...
+==================
+
+.. container:: handout
+
+    就会发现/创造的状态/自然积累/质变(鸡毛...)
+
+
+.. class:: takahashi8
+
+    创造 :orange:`?`
+
+
+.. container:: notes
+
+   - 图书的内容是自然积累而成的,每个人其实花费的时间不多,
+   - 对我来说,平均那4年,每天用在图书上的时间不超过9分钟;
+   - 而且近一半的时间写的信/说的话,并不是在图书上,而是沟通/协调
+
+
+
+真正的!
+==================
+
+.. container:: handout
+
+    就会发现/不受外物限制/发自内心的...
+
+
+.. class:: takahashi8
+
+    = :orange:`快乐`
+
+
+.. container:: notes
+
+   - 但是,这种无中生有,从我们的知识/经验中组合结出的成果,是真正的快乐呢
+   - 因为,这种快乐不会被任何外部条件所限制,产生自我们的内心!
+
+
+
+
+总之
+=========
+
+.. container:: handout
+
+   期望可以记住的~单位时间可以记住的只有7+-2 个 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    * 写书不是难事儿
+    * 万事难的只在坚持
+    * 要坚持,就分享;-)
+    * 分享的快乐是真正的快乐!
+
+
+
+
+
+
+
+
+最后:感谢一切!
+==================
+
+.. container:: handout
+
+   无意间进入这一片天空的
+
+
+.. class:: takahashi5
+
+    .. image:: i/logo/tedx1kg_logo.gif
+        :align: center
+        :scale: 100 %
+        :alt: TEDx1Kg
+        :target: http://www.tedx1kg.com/
+
+    .. image:: i/logo/logo-ks.jpg
+        :align: center
+        :scale: 150 %
+        :alt: kingsoft.com
+        :target: http://kingsoft.com
+
+    .. image:: i/logo/ks-volunteer_h90.jpg
+        :align: center
+        :scale: 100 %
+        :alt: kingsoft.com
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+
+
+
+
+<Zoom.Quiet/>
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi2
+
+    .. image:: i/id/100514-zq-eye.png
+        :align: center
+        :scale: 120 %
+        :alt: 是也乎,是也乎
+
+    Zoom.Quiet@gmail.com
+
+
+
 <版本/>
 =========
 
@@ -1216,6 +1122,8 @@ T裇设计人
    |zqeye|
 
 
+- 101124 根据花溪乡中心小学的讲演效果增补照片
+- 101123 根据高升中心小学的讲演效果调整次序
 - 101121 根据"说故事的力量"增补细节
 - 101118 根据试讲，重构精简幻灯
 - 101112 获得授权,修订相关照片

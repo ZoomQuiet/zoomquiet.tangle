@@ -132,11 +132,13 @@
 </v>
 </v>
 <v t="zoomq.20100817123015.6207" a="E"><vh>101121-TEDx1Kg</vh>
+<v t="zoomq.20101127113000.7663" a="E"><vh>dark</vh>
 <v t="zoomq.20100915085348.9352" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20100915085348.9451"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20100915085348.9453"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
-<v t="zoomq.20100916160230.6827"><vh>brief0</vh>
-<v t="zoomq.20100916224556.6844"><vh>abt.ZQ</vh>
+<v t="zoomq.20100916160230.6827" a="E"><vh>brief0</vh>
+<v t="zoomq.20100916224556.6844" a="E"><vh>abt.ZQ</vh>
+<v t="zoomq.20101127113000.7668"><vh>牛妞</vh></v>
 <v t="zoomq.20100916224556.6890"><vh>本命年</vh></v>
 <v t="zoomq.20100916224556.6892"><vh>来自珠海</vh></v>
 <v t="zoomq.20101110104454.7038"><vh>家乡兰州</vh></v>
@@ -145,37 +147,6 @@
 </v>
 <v t="zoomq.20101110104454.7022"><vh>brief1</vh>
 <v t="zoomq.20101110104454.7252"><vh>LovPy</vh></v>
-<v t="zoomq.20101110104454.7214"><vh>people</vh>
-<v t="zoomq.20101110104454.7230"><vh>作者.0</vh></v>
-</v>
-<v t="zoomq.20101110104454.7279"><vh>editors</vh></v>
-<v t="zoomq.20101110104454.7263"><vh>LovPy小史:4年</vh>
-<v t="zoomq.20101110104454.7273"><vh>成书小传::KDay 故事</vh></v>
-<v t="zoomq.20101110104454.7264"><vh>LovPy小史:博文</vh></v>
-<v t="zoomq.20101110104454.7267"><vh>LovPy小史:明路</vh></v>
-<v t="zoomq.20101110104454.7269"><vh>LovPy小史:发愿</vh></v>
-<v t="zoomq.20101110104454.7277"><vh>LovPy小史:页数</vh></v>
-<v t="zoomq.20101110104454.7271"><vh>LovPy小史:校对</vh></v>
-</v>
-<v t="zoomq.20101110104454.7272"><vh>LovPy小史:LovPy</vh>
-<v t="zoomq.20101112084256.7373"><vh>LovPy小史:boy</vh></v>
-</v>
-</v>
-<v t="zoomq.20101110104454.7282" a="E"><vh>如何成书?</vh>
-<v t="zoomq.20101110104454.7283"><vh>目标</vh></v>
-<v t="zoomq.20101110104454.7285"><vh>人</vh></v>
-<v t="zoomq.20101110104454.7287"><vh>坚持</vh></v>
-<v t="zoomq.20101110104454.7289"><vh>感谢</vh></v>
-<v t="zoomq.20101110104454.7291" a="E"><vh>分享</vh>
-<v t="zoomq.20101115141429.8635"><vh>WeKnow:0</vh></v>
-<v t="zoomq.20101121095437.7664"><vh>WeKnow:1</vh></v>
-<v t="zoomq.20101115141429.8637"><vh>WeKnow:2</vh></v>
-<v t="zoomq.20101115141429.8639"><vh>WeKnow:3</vh></v>
-</v>
-<v t="zoomq.20101110104454.7293"><vh>创造?</vh></v>
-<v t="zoomq.20101110104454.7295"><vh>快乐</vh></v>
-</v>
-<v t="zoomq.20101110104454.7275"><vh>TEDx1Kg</vh>
 <v t="zoomq.20101121095437.7641"><vh>people</vh>
 <v t="zoomq.20101121095437.7642"><vh>作者.1</vh></v>
 <v t="zoomq.20101121095437.7643"><vh>作者.2</vh></v>
@@ -191,12 +162,43 @@
 <v t="zoomq.20101121095437.7653"><vh>作者.11</vh></v>
 <v t="zoomq.20101121095437.7654"><vh>作者.12</vh></v>
 <v t="zoomq.20101121095437.7655"><vh>作者.13</vh></v>
+<v t="zoomq.20101110104454.7230"><vh>作者.0</vh></v>
 <v t="zoomq.20101121095437.7656"><vh>作者.g</vh></v>
 <v t="zoomq.20101121095437.7660"><vh>8卦</vh></v>
 <v t="zoomq.20101121095437.7662"><vh>设计者</vh></v>
 </v>
+<v t="zoomq.20101110104454.7263"><vh>LovPy小史:4年</vh>
+<v t="zoomq.20101110104454.7273"><vh>成书小传::KDay 故事</vh></v>
+<v t="zoomq.20101110104454.7264"><vh>LovPy小史:博文</vh></v>
+<v t="zoomq.20101110104454.7277"><vh>LovPy小史:页数</vh></v>
+<v t="zoomq.20101110104454.7271"><vh>LovPy小史:校对</vh></v>
+</v>
+<v t="zoomq.20101110104454.7272"><vh>LovPy小史:Girl</vh>
+<v t="zoomq.20101112084256.7373"><vh>LovPy小史:boy</vh></v>
+</v>
+</v>
+<v t="zoomq.20101110104454.7282"><vh>如何成书?</vh>
+<v t="zoomq.20101110104454.7283"><vh>目标</vh></v>
+<v t="zoomq.20101110104454.7285"><vh>人</vh></v>
+<v t="zoomq.20101110104454.7287"><vh>坚持</vh></v>
+<v t="zoomq.20101110104454.7289"><vh>感谢</vh></v>
+<v t="zoomq.20101110104454.7291"><vh>分享</vh>
+<v t="zoomq.20101121095437.7664"><vh>WeKnow:1</vh></v>
+<v t="zoomq.20101115141429.8637"><vh>WeKnow:2</vh></v>
+<v t="zoomq.20101115141429.8639"><vh>WeKnow:3</vh></v>
+</v>
+<v t="zoomq.20101110104454.7293"><vh>创造?</vh></v>
+<v t="zoomq.20101110104454.7295"><vh>快乐</vh></v>
+</v>
+<v t="zoomq.20101110104454.7275"><vh>TEDx1Kg</vh>
+<v t="zoomq.20101127113000.7667"><vh>Thanx</vh></v>
+<v t="zoomq.20101127113000.7666"><vh>ZQ</vh></v>
 <v t="zoomq.20100915085348.9450"><vh>version</vh></v>
 </v>
+</v>
+</v>
+<v t="zoomq.20101127113000.7665"><vh>light</vh>
+<v t="zoomq.20100915085348.9352" a="E"></v>
 </v>
 <v t="zoomq.20101118103232.10421"><vh>@nosent old.rst</vh>
 <v t="zoomq.20101118103232.10422"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -40169,7 +40171,7 @@ mailme-&gt;OBP;
 .. include:: &lt;s5defs.txt&gt;
 
 ==================================================================
-图书;-)创造
+图书 :orange:`;-)` 创造
 ==================================================================
 
 ～如何分享快乐成一本图书?
@@ -40192,6 +40194,8 @@ mailme-&gt;OBP;
    |zqeye|
 
 
+- 101124 根据花溪乡中心小学的讲演效果增补照片
+- 101123 根据高升中心小学的讲演效果调整次序
 - 101121 根据"说故事的力量"增补细节
 - 101118 根据试讲，重构精简幻灯
 - 101112 获得授权,修订相关照片
@@ -40249,7 +40253,7 @@ mailme-&gt;OBP;
 </t>
 <t tx="zoomq.20100915085348.9453">.. footer:: 
 
-   `Zoom.Quiet`_ v10.11.18 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v10.11.25 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 </t>
 <t tx="zoomq.20100916094556.6791">图书相关图谱</t>
 <t tx="zoomq.20100916094556.6792">zoomquiet.org 网站图谱
@@ -44656,27 +44660,6 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
     &lt;/div&gt;
 &lt;/div&gt;
 </t>
-<t tx="zoomq.20101110104454.7214">最大的特点
-==================
-
-.. container:: handout
-
-    人多力量大!   
-
-
-.. class:: takahashi9
-
-    14
-
-
-.. container:: notes
-
-   - 这个是有别其它图书的最大特色了
-   - 当然也有专门更多的人编写的百科全书
-   - 我是说,同类型的图书中,我们这本的作者是最多的;-)
-
-
-</t>
 <t tx="zoomq.20101110104454.7230">作者.0
 ==================
 
@@ -44793,51 +44776,6 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 
 </t>
-<t tx="zoomq.20101110104454.7267">成书小传::小白心声
-====================================
-
-.. container:: handout
-
-   是群众的需要激发了大家的欲望
-
-
-.. class:: takahashi
-
-    `07.02.01 &lt;http://wiki.woodpecker.org.cn/moin/ObpBroadview/2007-02-01&gt;`__
-
-
-.. container:: notes
-
-   - "建议给python新手指个明路..."
-   - http://groups.google.com/group/CPyUG/browse_thread/thread/db96d586ad263a82
-   - 小白的心声，激发了俺 Mind Hacking 的欲望!
-   - http://wiki.woodpecker.org.cn/moin/ObpBroadview
-
-
-</t>
-<t tx="zoomq.20101110104454.7269">成书小传::开始波折...
-====================================
-
-.. container:: handout
-
-   出版不是简单的事儿....
-
-
-.. class:: takahashi
-
-
-    .. image:: i/snap/hopes_456x224_scrot.png
-        :align: center
-        :scale: 150 %
-        :target: http://wiki.woodpecker.org.cn/moin/ObpLovelyPyEditorRule
-
-
-.. container:: notes
-
-   - 不断的调整图书内容结构，深深体会生产的滋味...
-
-
-</t>
 <t tx="zoomq.20101110104454.7271">成书小传:: 交付版本
 ====================================
 
@@ -44904,35 +44842,26 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 
 </t>
-<t tx="zoomq.20101110104454.7275">最后...
-==================
+<t tx="zoomq.20101110104454.7275">总之
+=========
 
 .. container:: handout
 
-   无意间进入这一片天空的
+   期望可以记住的 |zqeye|
 
 
-.. class:: takahashi5
+.. class:: incremental takahashi
 
-    感谢一切
+    * 写书不是难事儿
+    * 万事难的只在坚持
+    * 要坚持,就分享;-)
+    * 分享的快乐是真正的快乐!
 
-    .. image:: i/logo/tedx1kg_logo.gif
-        :align: center
-        :scale: 100 %
-        :alt: TEDx1Kg
-        :target: http://www.tedx1kg.com/
 
-    .. image:: i/logo/logo-ks.jpg
-        :align: center
-        :scale: 150 %
-        :alt: kingsoft.com
-        :target: http://kingsoft.com
 
 .. container:: notes
 
-   - ...
-
-
+   - ~单位时间可以记住的只有7+-2 个
 
 
 </t>
@@ -44954,26 +44883,6 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
    - 图书是得有个中心选题,不是什么都讲才好的
 
-
-</t>
-<t tx="zoomq.20101110104454.7279">催生婆们
-==================
-
-.. container:: handout
-
-    编辑;杨绣国/怀孕间校对/几乎同时出生
-
-
-.. class:: takahashi9
-
-    7
-
-
-.. container:: notes
-
-   - 专业／耐心／认真的编辑是个宝！
-   - 杨姐在怀孕期间完成了校对
-   - 这书几乎是和宝宝一齐出生的
 
 </t>
 <t tx="zoomq.20101110104454.7282">如何?
@@ -46005,30 +45914,6 @@ go!蟒营
 .. container:: notes
 
    - 都是一个意思,,,象游戏一样,历险!快乐!
-
-
-
-</t>
-<t tx="zoomq.20101115141429.8635">为什么分享?
-==================
-
-.. container:: handout
-
-   最初什么也不知道
-
-
-.. class:: takahashi
-
-    .. image:: i/know-dot.gif
-        :align: center
-        :scale: 150 %
-        :alt: 最初
-
-
-.. container:: notes
-
-   - 我们的知识领域开始很小
-
 
 
 
@@ -47308,17 +47193,17 @@ go!蟒营
 
 
 </t>
-<t tx="zoomq.20101121095437.7641">作者们
+<t tx="zoomq.20101121095437.7641">最大的特点
 ==================
 
 .. container:: handout
 
-    那些生出好蛋的...
+    人多力量大!   
 
 
-.. class:: takahashi8
+.. class:: takahashi9
 
-    样子
+    14
 
 
 .. container:: notes
@@ -47805,6 +47690,88 @@ go!蟒营
    - 我们的知识领域开始很小
 
 
+
+
+</t>
+<t tx="zoomq.20101127113000.7663">@path dark
+</t>
+<t tx="zoomq.20101127113000.7665">@path light
+</t>
+<t tx="zoomq.20101127113000.7666">&lt;Zoom.Quiet/&gt;
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi2
+
+    .. image:: i/id/100514-zq-eye.png
+        :align: center
+        :scale: 120 %
+        :alt: 是也乎,是也乎
+
+    Zoom.Quiet@gmail.com
+
+</t>
+<t tx="zoomq.20101127113000.7667">
+最后:感谢一切!
+==================
+
+.. container:: handout
+
+   无意间进入这一片天空的
+
+
+.. class:: takahashi5
+
+    .. image:: i/logo/tedx1kg_logo.gif
+        :align: center
+        :scale: 100 %
+        :alt: TEDx1Kg
+        :target: http://www.tedx1kg.com/
+
+    .. image:: i/logo/logo-ks.jpg
+        :align: center
+        :scale: 150 %
+        :alt: kingsoft.com
+        :target: http://kingsoft.com
+
+    .. image:: i/logo/ks-volunteer_h90.jpg
+        :align: center
+        :scale: 100 %
+        :alt: kingsoft.com
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20101127113000.7668">牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) /
+
+
+
+.. image:: i/foto/faces-niuniu.jpg
+    :align: center
+    :scale: 85 %
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
 
 
 </t>
