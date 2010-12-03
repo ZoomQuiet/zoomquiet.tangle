@@ -136,11 +136,14 @@
 <v t="zoomq.20101202214157.8164"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101202214157.8165"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101202214157.8225"><vh>免责</vh></v>
-<v t="zoomq.20101202214157.8167"><vh>abt.ZQ</vh>
+<v t="zoomq.20101202214157.8167" a="E"><vh>abt.ZQ</vh>
 <v t="zoomq.20101202214157.8168"><vh>牛妞</vh></v>
 <v t="zoomq.20101202214157.8172"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20101202214157.8234"><vh>CS..</vh></v>
+<v t="zoomq.20101202214157.8234" a="E"><vh>CloudS..</vh>
+<v t="zoomq.20101203231403.7690"><vh>KCS结构</vh></v>
+<v t="zoomq.20101203231403.7692"><vh>KCS开源体系</vh></v>
+</v>
 <v t="zoomq.20101202214157.8212" a="E"><vh>Summary</vh>
 <v t="zoomq.20101202214157.8213"><vh>Thanx</vh></v>
 <v t="zoomq.20101202214157.8215"><vh>version</vh></v>
@@ -383,7 +386,7 @@
 <v t="zoomq.20101202214157.8109"><vh>曾在北京</vh></v>
 </v>
 </v>
-<v t="zoomq.20100819090507.6357" a="E"><vh>101111-pythonicamp-go</vh>
+<v t="zoomq.20100819090507.6357"><vh>101111-pythonicamp-go</vh>
 <v t="zoomq.20101111091948.7374"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101111091948.7375"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101111091948.7376"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -47861,7 +47864,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 </t>
 <t tx="zoomq.20101202214157.8165">.. footer:: 
 
-   `Zoom.Quiet`_ v10.12.02 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
+   `Zoom.Quiet`_ v10.12.03 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
 </t>
 <t tx="zoomq.20101202214157.8167">&lt;Zoom.Quiet&gt;
 ==================
@@ -47888,7 +47891,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-   \\ (^o^) /
+   \\ (^o^) / 564d
 
 
 
@@ -47909,7 +47912,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-    高兴/紧张;分享云安全的思考 |zqeye|
+    高兴/紧张... 分享云安全的个人思考 |zqeye|
 
 
 .. class:: takahashi8
@@ -47980,8 +47983,9 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
    |knoss|
 
 
-- 101202 调整讲演策略,精简所有页面
-- 101129 增补图片
+- 101203 追加开源相关
+- 101129 调整讲演策略,精简所有页面
+- 101120 增补图片
 - 101115 起草
 
 
@@ -48034,7 +48038,17 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
    - 杀毒
    - 查毒
    - 防毒
-   - 
+   - 云安全能力:
+
+    - 每日可承载文件安全查询30亿次以上,可同时并发接受200万个文件的安全查询;平均每文件完成鉴定&lt;0.2秒;任意新增病毒样本将在一分钟之内完成鉴定,使全体用户获得免疫!
+    - 每日可承载网址安全查询10亿次,可同时并发接受20万个可疑网址的查询;平均每网页分析完成&lt;0.03秒;任意新增恶意网址能在90秒之内完成分析,使全体用户获得免疫!
+
+   - 开源后,任何人可以:
+
+    - 自动化同步金山云安全各类特征库,在客户端本地通过黑+白特征库,实时识别98%以上的常见/热点病毒;
+    - 自动化向金山云安全平台提交查询,进一步在黑+白特征全库中,及时确认最新病毒/恶意网址;
+    - 自动化上报最新可疑文件/网址,在金山云安全平台完成自动化鉴定,实时发布,从而形成一人发现全体免疫的全网实时病毒监察的云安全态势!
+
 
 </t>
 <t tx="zoomq.20101202214157.8236">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
@@ -48054,6 +48068,57 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
     :align: center
     :scale: 100 %
     :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+
+</t>
+<t tx="zoomq.20101203231403.7690">"云"端结构
+==================
+
+.. container:: handout
+
+   现在... |knoss|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/kcs-structure-map.gif
+        :align: center
+        :scale: 100 %
+        :alt: 云端结构
+
+
+.. container:: notes
+
+   - 依然得有客户端的配合
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20101203231403.7692">金山卫士开源
+==================
+
+.. container:: handout
+
+   未来... |knoss|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/system_arch_pic.gif
+        :align: center
+        :scale: 100 %
+        :alt: 开源范畴
+        :target: http://code.ijinshan.com
+
+
+.. container:: notes
+
+   - 扶助开源,共同成长!
+   - 
+
+
 
 
 </t>
