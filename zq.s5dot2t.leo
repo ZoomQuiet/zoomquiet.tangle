@@ -131,20 +131,320 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20100817123015.6207" a="E"><vh>101204-YOCSEF</vh>
+<v t="zoomq.20101214094417.7839" a="E"><vh>101217-TimeMana</vh>
+<v t="zoomq.20101215104953.9379" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20101215104953.9380"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
+<v t="zoomq.20101215104953.9381"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20101215104953.9489"><vh>&lt;/Randy&gt;</vh></v>
+<v t="zoomq.20101215104953.9382"><vh>免责</vh>
+<v t="zoomq.20101215104953.9383"><vh>Takahashi</vh>
+<v t="zoomq.20101215104953.9384"><vh>Takahashi</vh></v>
+<v t="zoomq.20101215104953.9385"><vh>Takahashi</vh></v>
+<v t="zoomq.20101215104953.9386"><vh>Takahashi</vh></v>
+<v t="zoomq.20101215104953.9387"><vh>Takahashi</vh></v>
+<v t="zoomq.20101215104953.9388"><vh>Takahashi</vh></v>
+<v t="zoomq.20101215104953.9389"><vh>Takahashi</vh></v>
+</v>
+</v>
+<v t="zoomq.20101215104953.9390"><vh>brief0</vh>
+<v t="zoomq.20101215104953.9391"><vh>abt.ZQ</vh>
+<v t="zoomq.20101215104953.9392"><vh>本命年</vh></v>
+<v t="zoomq.20101215104953.9486"><vh>牛妞</vh></v>
+<v t="zoomq.20101215104953.9393"><vh>ZQ1999</vh></v>
+<v t="zoomq.20101215104953.9394"><vh>ZQsh</vh></v>
+<v t="zoomq.20101215104953.9395"><vh>ZQ社区</vh>
+<v t="zoomq.20101215104953.9396"><vh>ZQ2003</vh></v>
+<v t="zoomq.20101215104953.9397"><vh>ZQ2004</vh></v>
+<v t="zoomq.20101215104953.9398"><vh>ZQ2005</vh></v>
+<v t="zoomq.20101215104953.9399"><vh>ZQ2007</vh></v>
+<v t="zoomq.20101215104953.9400"><vh>ECUG</vh></v>
+<v t="zoomq.20101215104953.9401"><vh>ZQ2008</vh></v>
+<v t="zoomq.20101215104953.9402"><vh>ZQ2009</vh></v>
+<v t="zoomq.20101215104953.9403"><vh>ZQ2010</vh></v>
+</v>
+<v t="zoomq.20101215104953.9404"><vh>ZQ大妈</vh>
+<v t="zoomq.20101215104953.9405"><vh>吼</vh></v>
+</v>
+</v>
+<v t="zoomq.20101215104953.9406"><vh>&lt;/ZQ&gt;</vh></v>
+</v>
+<v t="zoomq.20101215104953.9407"><vh>brief1</vh>
+<v t="zoomq.20101215104953.9490"><vh>TM?</vh>
+<v t="zoomq.20101215104953.9492"><vh>时间?</vh></v>
+<v t="zoomq.20101215104953.9500"><vh>时</vh></v>
+<v t="zoomq.20101215104953.9502"><vh>间</vh></v>
+<v t="zoomq.20101215104953.9496"><vh>管</vh></v>
+<v t="zoomq.20101215104953.9498"><vh>理!</vh></v>
+<v t="zoomq.20101215104953.9494"><vh>/TM?</vh></v>
+</v>
+<v t="zoomq.20101215104953.9504"><vh>TM!</vh>
+<v t="zoomq.20101215104953.9508"><vh>点解?!</vh>
+<v t="zoomq.20101215104953.9510"><vh>学生本质</vh></v>
+<v t="zoomq.20101215104953.9570"><vh>职员本质</vh></v>
+<v t="zoomq.20101215104953.9572"><vh>计算</vh>
+<v t="zoomq.20101215104953.9574"><vh>周息</vh></v>
+<v t="zoomq.20101215104953.9576"><vh>每日工作</vh></v>
+<v t="zoomq.20101215104953.9579"><vh>每日上网</vh></v>
+<v t="zoomq.20101215104953.9581"><vh>每日午饭</vh></v>
+<v t="zoomq.20101215104953.9583"><vh>年度病休</vh></v>
+<v t="zoomq.20101215104953.9585"><vh>年度法定</vh></v>
+<v t="zoomq.20101215104953.9587"><vh>公司年假</vh></v>
+</v>
+<v t="zoomq.20101215104953.9589"><vh>核心原因</vh></v>
+</v>
+<v t="zoomq.20101215104953.9590"><vh>悲慘</vh></v>
+<v t="zoomq.20101215104953.9594"><vh>对策</vh>
+<v t="zoomq.20101215104953.9596"><vh>Who</vh></v>
+<v t="zoomq.20101215104953.9598"><vh>When</vh></v>
+<v t="zoomq.20101215104953.9600"><vh>What</vh></v>
+<v t="zoomq.20101215104953.9608"><vh>Where</vh></v>
+<v t="zoomq.20101215104953.9610"><vh>Why</vh></v>
+<v t="zoomq.20101215104953.9612"><vh>How</vh></v>
+<v t="zoomq.20101215104953.9614"><vh>否则!</vh></v>
+</v>
+<v t="zoomq.20101215104953.9592"><vh>层级工作</vh></v>
+<v t="zoomq.20101215104953.9732"><vh>管理对象</vh>
+<v t="zoomq.20101215104953.9734"><vh>管理对象1</vh></v>
+<v t="zoomq.20101215104953.9736"><vh>管理对象2</vh></v>
+<v t="zoomq.20101215104953.9738"><vh>管理对象3</vh></v>
+</v>
+<v t="zoomq.20101215104953.9506"><vh>/TM!</vh></v>
+</v>
+<v t="zoomq.20101215104953.9661"><vh>TM...</vh>
+<v t="zoomq.20101215104953.9683"><vh>把时间当作朋友</vh></v>
+<v t="zoomq.20101215104953.9686"><vh>矩阵</vh></v>
+<v t="zoomq.20101215104953.9684"><vh>时间帐单</vh>
+<v t="zoomq.20101215104953.9690"><vh>帐单妙处0</vh></v>
+<v t="zoomq.20101215104953.9692"><vh>帐单妙处1</vh></v>
+<v t="zoomq.20101215104953.9694"><vh>帐单妙处2</vh></v>
+<v t="zoomq.20101215104953.9696"><vh>奇特的一生</vh></v>
+<v t="zoomq.20101215104953.9698"><vh>ZQ帐单</vh></v>
+<v t="zoomq.20101215104953.9700"><vh>ZQ帐单分析</vh></v>
+</v>
+<v t="zoomq.20101215104953.9702"><vh>GMail</vh>
+<v t="zoomq.20101215104953.9712"><vh>GTD</vh></v>
+<v t="zoomq.20101215104953.9714"><vh>GTD流程v2</vh></v>
+<v t="zoomq.20101215104953.9716"><vh>空收件箱</vh></v>
+</v>
+<v t="zoomq.20101215104953.9688"><vh>/TM...</vh></v>
+</v>
+<v t="zoomq.20101215104953.9463"><vh>期望</vh>
+<v t="zoomq.20101215104953.9464"><vh>PKM</vh>
+<v t="zoomq.20101215104953.9465"><vh>WeKnow:1</vh>
+<v t="zoomq.20101215104953.9466"><vh>WeKnow:2</vh></v>
+<v t="zoomq.20101215104953.9467"><vh>WeKnow:3</vh></v>
+<v t="zoomq.20101215104953.9468"><vh>WeKnow:0</vh></v>
+</v>
+</v>
+<v t="zoomq.20101215104953.9472"><vh>写博客吧</vh></v>
+<v t="zoomq.20101215104953.9473"><vh>宅点东西吧</vh></v>
+<v t="zoomq.20101215104953.9474"><vh>/期望</vh></v>
+</v>
+</v>
+<v t="zoomq.20101215104953.9475"><vh>brief2</vh>
+<v t="zoomq.20101215104953.9476"><vh>总结7+-2</vh></v>
+<v t="zoomq.20101215104953.9477"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20101215104953.9478"><vh>小小鸟</vh></v>
+<v t="zoomq.20101215104953.9479"><vh>讲演之禅</vh></v>
+</v>
+<v t="zoomq.20101215104953.9480"><vh>version</vh>
+<v t="zoomq.20101215104953.9481"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20101214094417.7840" a="E"><vh>index.html</vh>
+<v t="zoomq.20101214094417.7841"><vh>&lt;&lt;DOCTYPE&gt;&gt;</vh></v>
+<v t="zoomq.20101214094417.7842"><vh>&lt;&lt;s5head&gt;&gt;</vh>
+<v t="zoomq.20101214094417.7843"><vh>embedded styles</vh></v>
+<v t="zoomq.20101214094417.7844"><vh>.slide+.incremental</vh></v>
+<v t="zoomq.20101214094417.7845"><vh>takahashi</vh></v>
+</v>
+<v t="zoomq.20101214094417.7846"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20101214094417.7847"><vh>page0</vh>
+<v t="zoomq.20101214094417.7848"><vh>Takahashi</vh>
+<v t="zoomq.20101214094417.7849"><vh>Takahashi0</vh></v>
+<v t="zoomq.20101214094417.7850"><vh>Takahashi1</vh></v>
+<v t="zoomq.20101214094417.7851"><vh>Takahashi2</vh></v>
+<v t="zoomq.20101214094417.7852"><vh>Takahashi3</vh></v>
+<v t="zoomq.20101214094417.7853"><vh>Takahashi4</vh></v>
+<v t="zoomq.20101214094417.7854"><vh>Takahashi!</vh></v>
+</v>
+<v t="zoomq.20101214094417.7855"><vh>免责</vh></v>
+</v>
+<v t="zoomq.20101214094417.7856"><vh>brief1</vh>
+<v t="zoomq.20101214094417.7857"><vh>Randy</vh></v>
+<v t="zoomq.20101214094417.7858"><vh>abt.ZQ</vh>
+<v t="zoomq.20101214094417.7859"><vh>本命年</vh></v>
+<v t="zoomq.20101214094417.7860"><vh>ZQ1999</vh></v>
+<v t="zoomq.20101214094417.7861"><vh>ZQsh</vh></v>
+<v t="zoomq.20101214094417.7862"><vh>ZQ社区</vh>
+<v t="zoomq.20101214094417.7863"><vh>ZQ2003</vh></v>
+<v t="zoomq.20101214094417.7864"><vh>ZQ2004</vh></v>
+<v t="zoomq.20101214094417.7865"><vh>ZQ2005</vh></v>
+<v t="zoomq.20101214094417.7866"><vh>ZQ2007</vh></v>
+<v t="zoomq.20101214094417.7867"><vh>ECUG</vh></v>
+<v t="zoomq.20101214094417.7868"><vh>ZQ2008</vh></v>
+<v t="zoomq.20101214094417.7869"><vh>ZQ2009</vh></v>
+<v t="zoomq.20101214094417.7870"><vh>ZQ2010</vh></v>
+</v>
+<v t="zoomq.20101214094417.7871"><vh>ZQ大妈</vh>
+<v t="zoomq.20101214094417.7872"><vh>吼</vh></v>
+</v>
+</v>
+<v t="zoomq.20101214094417.7873"><vh>时间管理</vh>
+<v t="zoomq.20101214094417.7874"><vh>时间?!</vh></v>
+<v t="zoomq.20101214094417.7875"><vh>管理?!</vh></v>
+<v t="zoomq.20101214094417.7876"><vh>心智</vh></v>
+</v>
+<v t="zoomq.20101214094417.7877"><vh>Why TM</vh>
+<v t="zoomq.20101214094417.7878" a="E"><vh>为什么?</vh>
+<v t="zoomq.20101214094417.7879"><vh>学生本质</vh></v>
+<v t="zoomq.20101214094417.7880"><vh>在公司!</vh></v>
+<v t="zoomq.20101214094417.7881"><vh>时间计算</vh>
+<v t="zoomq.20101214094417.7882"><vh>周息</vh></v>
+<v t="zoomq.20101214094417.7883"><vh>每日工作</vh></v>
+<v t="zoomq.20101214094417.7884"><vh>每日上网</vh></v>
+<v t="zoomq.20101214094417.7885"><vh>每日午饭</vh></v>
+<v t="zoomq.20101214094417.7886"><vh>年度病休</vh></v>
+<v t="zoomq.20101214094417.7887"><vh>年度法定</vh></v>
+<v t="zoomq.20101214094417.7888"><vh>公司年假</vh></v>
+</v>
+<v t="zoomq.20101214094417.7889"><vh>核心原因</vh></v>
+</v>
+<v t="zoomq.20101214094417.7890"><vh>靠谱？</vh>
+<v t="zoomq.20101214094417.7891"><vh>Kaopulity</vh></v>
+<v t="zoomq.20101214094417.7892"><vh>defKaopulity</vh></v>
+<v t="zoomq.20101214094417.7893"><vh>AKA</vh></v>
+<v t="zoomq.20101214094417.7894"><vh>anti脑残</vh></v>
+<v t="zoomq.20101214094417.7895"><vh>学校非学</vh></v>
+</v>
+<v t="zoomq.20101214094417.7896"><vh>悲惨工作</vh>
+<v t="zoomq.20101214094417.7897"><vh>对策</vh>
+<v t="zoomq.20101214094417.7898"><vh>Who</vh></v>
+<v t="zoomq.20101214094417.7899"><vh>When</vh></v>
+<v t="zoomq.20101214094417.7900"><vh>What</vh></v>
+<v t="zoomq.20101214094417.7901"><vh>Where</vh></v>
+<v t="zoomq.20101214094417.7902"><vh>Why</vh></v>
+<v t="zoomq.20101214094417.7903"><vh>How</vh></v>
+<v t="zoomq.20101214094417.7904"><vh>烈士</vh></v>
+</v>
+<v t="zoomq.20101214094417.7905"><vh>工作的层级</vh></v>
+</v>
+</v>
+<v t="zoomq.20101214094417.7906"><vh>Why/&gt;</vh></v>
+</v>
+<v t="zoomq.20101214094417.7907"><vh>brief2</vh>
+<v t="zoomq.20101214094417.7908"><vh>&lt;TM运用</vh>
+<v t="zoomq.20101214094417.7909"><vh>把时间当作朋友</vh></v>
+<v t="zoomq.20101214094417.7910"><vh>矩阵</vh></v>
+<v t="zoomq.20101214094417.7911"><vh>账单</vh>
+<v t="zoomq.20101214094417.7912"><vh>账单妙处0</vh></v>
+<v t="zoomq.20101214094417.7913"><vh>账单妙处1</vh></v>
+<v t="zoomq.20101214094417.7914"><vh>账单妙处2</vh></v>
+<v t="zoomq.20101214094417.7915"><vh>奇特的一生</vh></v>
+<v t="zoomq.20101214094417.7916"><vh>ZQ帐单</vh></v>
+<v t="zoomq.20101214094417.7917"><vh>ZQ帐单分析</vh></v>
+</v>
+<v t="zoomq.20101214094417.7918"><vh>TM运用/&gt;</vh></v>
+</v>
+<v t="zoomq.20101214094417.7919"><vh>&lt;我的工具箱</vh>
+<v t="zoomq.20101214094417.7920"><vh>&lt;import&gt;</vh>
+<v t="zoomq.20101214094417.7921"><vh>ScrapBook</vh></v>
+<v t="zoomq.20101214094417.7922"><vh>Zim</vh></v>
+<v t="zoomq.20101214094417.7923"><vh>SwiftFox</vh></v>
+<v t="zoomq.20101214094417.7924"><vh>SwiftFox:AutoPage</vh></v>
+<v t="zoomq.20101214094417.7925"><vh>SwiftFox:CHM Reader</vh></v>
+<v t="zoomq.20101214094417.7926"><vh>SwiftFox:GMail</vh>
+<v t="zoomq.20101214094417.7927"><vh>GTD</vh></v>
+<v t="zoomq.20101214094417.7928"><vh>GTD流程v2</vh></v>
+<v t="zoomq.20101214094417.7929"><vh>空收件箱</vh></v>
+</v>
+<v t="zoomq.20101214094417.7930"><vh>moc</vh></v>
+<v t="zoomq.20101214094417.7931"><vh>mplayer</vh></v>
+<v t="zoomq.20101214094417.7932"><vh>comix</vh></v>
+</v>
+<v t="zoomq.20101214094417.7933"><vh>&lt;/import&gt;</vh></v>
+<v t="zoomq.20101214094417.7934"><vh>&lt;think&gt;</vh>
+<v t="zoomq.20101214094417.7935"><vh>MindMap</vh></v>
+<v t="zoomq.20101214094417.7936"><vh>xMind</vh></v>
+<v t="zoomq.20101214094417.7937"><vh>dot</vh></v>
+<v t="zoomq.20101214094417.7938"><vh>doxygen</vh></v>
+<v t="zoomq.20101214094417.7939"><vh>hand</vh></v>
+</v>
+<v t="zoomq.20101214094417.7940"><vh>&lt;/think&gt;</vh></v>
+<v t="zoomq.20101214094417.7941"><vh>&lt;export&gt;</vh>
+<v t="zoomq.20101214094417.7942"><vh>BXM</vh></v>
+<v t="zoomq.20101214094417.7943"><vh>WYTIWYG</vh>
+<v t="zoomq.20101214094417.7944"><vh>t2t</vh></v>
+<v t="zoomq.20101214094417.7945"><vh>rST</vh></v>
+<v t="zoomq.20101214094417.7946"><vh>Sphinx</vh></v>
+</v>
+<v t="zoomq.20101214094417.7947"><vh>Python</vh>
+<v t="zoomq.20101214094417.7948"><vh>Leo</vh>
+<v t="zoomq.20101214094417.7949"><vh>S5</vh></v>
+</v>
+<v t="zoomq.20101214094417.7950"><vh>MoinMoin</vh>
+<v t="zoomq.20101214094417.7951"><vh>it's all text</vh></v>
+</v>
+<v t="zoomq.20101214094417.7952"><vh>Pyb</vh></v>
+</v>
+</v>
+<v t="zoomq.20101214094417.7953"><vh>&lt;/export&gt;</vh></v>
+<v t="zoomq.20101214094417.7954"><vh>&lt;misc&gt;</vh>
+<v t="zoomq.20101214094417.7955"><vh>antiRSI</vh></v>
+<v t="zoomq.20101214094417.7956"><vh>蕃茄时间</vh></v>
+<v t="zoomq.20101214094417.7957"><vh>小时间</vh></v>
+<v t="zoomq.20101214094417.7958"><vh>切换任务</vh></v>
+<v t="zoomq.20101214094417.7959"><vh>纸笔</vh></v>
+<v t="zoomq.20101214094417.7960"><vh>&lt;/misc&gt;</vh></v>
+</v>
+<v t="zoomq.20101214094417.7961"><vh>MOO</vh></v>
+</v>
+<v t="zoomq.20101214094417.7962"><vh>我的工具箱/&gt;</vh></v>
+<v t="zoomq.20101214094417.7963"><vh>期望</vh>
+<v t="zoomq.20101214094417.7964"><vh>PKM</vh>
+<v t="zoomq.20101214094417.7965"><vh>KM</vh>
+<v t="zoomq.20101214094417.7966"><vh>WeKnow:1</vh>
+<v t="zoomq.20101214094417.7967"><vh>WeKnow:2</vh></v>
+<v t="zoomq.20101214094417.7968"><vh>WeKnow:3</vh></v>
+<v t="zoomq.20101214094417.7969"><vh>WeKnow:0</vh></v>
+</v>
+</v>
+<v t="zoomq.20101214094417.7970"><vh>学习的层级</vh></v>
+<v t="zoomq.20101214094417.7971"><vh>KM:持续改进</vh></v>
+</v>
+<v t="zoomq.20101214094417.7972"><vh>做项目吧</vh></v>
+<v t="zoomq.20101214094417.7973"><vh>写博客吧</vh>
+<v t="zoomq.20101214094417.7974"><vh>沟通法则</vh></v>
+</v>
+<v t="zoomq.20101214094417.7975"><vh>读代码吧</vh></v>
+<v t="zoomq.20101214094417.7976"><vh>宅点东西吧</vh></v>
+<v t="zoomq.20101214094417.7977"><vh>关注经济学吧</vh></v>
+<v t="zoomq.20101214094417.7978"><vh>典章常推</vh></v>
+</v>
+</v>
+<v t="zoomq.20101214094417.7979"><vh>brief3</vh>
+<v t="zoomq.20101214094417.7980"><vh>总结7+-2</vh></v>
+<v t="zoomq.20101214094417.7981"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20101214094417.7982"><vh>小小鸟</vh></v>
+<v t="zoomq.20101214094417.7983"><vh>讲演之禅</vh></v>
+</v>
+<v t="zoomq.20101214094417.7984"><vh>version</vh></v>
+</v>
+</v>
+<v t="zoomq.20100817123015.6207"><vh>101204-YOCSEF</vh>
 <v t="zoomq.20101202214157.8163" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101202214157.8164"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101202214157.8165"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101202214157.8225"><vh>免责</vh></v>
-<v t="zoomq.20101202214157.8167" a="E"><vh>abt.ZQ</vh>
+<v t="zoomq.20101202214157.8167"><vh>abt.ZQ</vh>
 <v t="zoomq.20101202214157.8168"><vh>牛妞</vh></v>
 <v t="zoomq.20101202214157.8172"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20101202214157.8234" a="E"><vh>CloudS..</vh>
+<v t="zoomq.20101202214157.8234"><vh>CloudS..</vh>
 <v t="zoomq.20101203231403.7690"><vh>KCS结构</vh></v>
 <v t="zoomq.20101203231403.7692"><vh>KCS开源体系</vh></v>
 </v>
-<v t="zoomq.20101202214157.8212" a="E"><vh>Summary</vh>
+<v t="zoomq.20101202214157.8212"><vh>Summary</vh>
 <v t="zoomq.20101202214157.8213"><vh>Thanx</vh></v>
 <v t="zoomq.20101202214157.8215"><vh>version</vh></v>
 <v t="zoomq.20101202214157.8236"><vh>S5</vh></v>
@@ -478,13 +778,13 @@
 </v>
 <v t="zoomq.20100819090507.6366"><vh>summary</vh></v>
 </v>
-<v t="zoomq.20101109214756.7198"><vh>100918-MyTools</vh>
+<v t="zoomq.20101109214756.7198" a="E"><vh>100918-MyTools</vh>
 <v t="zoomq.20101109214756.7199"><vh>盛大讲演回顾</vh></v>
 <v t="zoomq.20101109214756.7200"><vh>html-s5</vh>
 <v t="zoomq.20101109214756.7201"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20101109214756.7300"><vh>rst2s5</vh>
-<v t="zoomq.20101109214756.7301"><vh>@nosent index.rst</vh>
+<v t="zoomq.20101109214756.7300" a="E"><vh>rst2s5</vh>
+<v t="zoomq.20101109214756.7301" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101109214756.7302"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101109214756.7303"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101109214756.7304"><vh>免责</vh>
@@ -640,7 +940,8 @@
 <v t="zoomq.20101111091948.7324"><vh>summary</vh></v>
 </v>
 <v t="zoomq.20101118103232.10223"><vh>100729-TimeMana</vh>
-<v t="zoomq.20101118103232.10224"><vh>@shadow index.html</vh></v>
+<v t="zoomq.20101118103232.10224" a="E"
+expanded="zoomq.20101118103232.10240,"><vh>@shadow index.html</vh></v>
 </v>
 <v t="zoomq.20100602201453.5832"><vh>100423-QCon2010-T&amp;D</vh>
 <v t="zoomq.20100602201453.5833"><vh>@nosent index.html</vh>
@@ -48118,6 +48419,5331 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
    - 扶助开源,共同成长!
    - 
 
+
+
+
+</t>
+<t tx="zoomq.20101214094417.7839">@path 101217-TimeMana
+
+</t>
+<t tx="zoomq.20101214094417.7840">@language html
+@tabwidth -4
+
+&lt;&lt;DOCTYPE&gt;&gt;
+
+&lt;title&gt;时间管理～持续的心智进化之旅 (powered by S5)&lt;/title&gt;
+
+&lt;&lt;s5head&gt;&gt;
+&lt;&lt;footer&gt;&gt;
+&lt;/div&gt;&lt;!-- class="layout"--&gt;
+&lt;div class="presentation"&gt;
+
+@others
+
+&lt;/div&gt;&lt;!--class="presentation"--&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</t>
+<t tx="zoomq.20101214094417.7841">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+
+&lt;head&gt;
+</t>
+<t tx="zoomq.20101214094417.7842">&lt;META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"&gt;
+
+&lt;meta name="editor" content="Leo 4.6.3 final"/&gt;
+&lt;!-- metadata --&gt;
+&lt;meta name="generator" content="S5" /&gt;
+&lt;meta name="version" content="S5 1.1" /&gt;
+&lt;meta name="presdate" content="20100405" /&gt;
+&lt;meta name="author" content="Eric A. Meyer" /&gt;
+&lt;meta name="company" content="Complex Spiral Consulting" /&gt;
+&lt;!-- configuration parameters --&gt;
+&lt;meta name="defaultView" content="slideshow" /&gt;
+&lt;meta name="controlVis" content="hidden" /&gt;
+&lt;!-- style sheet links --&gt;
+&lt;link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" /&gt;
+&lt;link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" /&gt;
+&lt;link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" /&gt;
+&lt;link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" /&gt;
+
+&lt;!-- embedded styles --&gt;
+&lt;style type="text/css" media="all"&gt;
+@others
+&lt;/style&gt;
+
+&lt;!-- S5 JS --&gt;
+&lt;script src="ui/default/slides.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div class="layout"&gt;
+&lt;div id="controls"&gt;&lt;!-- DO NOT EDIT --&gt;&lt;/div&gt;
+&lt;div id="currentSlide"&gt;&lt;!-- DO NOT EDIT --&gt;&lt;/div&gt;
+&lt;div id="header"&gt;&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7843">/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for default*/
+img {border:0px;}    
+td { font-size: 80%; }
+H1 div#sup{
+    position :  absolute; top:0;right:3%;
+    margin-top: -20px;
+    font-size: 16px; font-style : italic ;
+    color: #385775;
+}
+li sup{display :  inline;
+    font-size: 80%; font-style : italic ;}
+
+li sub{display :  inline;
+    font-size: 80%; font-style : italic ;
+    color: #eeeeee; }
+
+sup.tiny{display :  inline;
+    font-size: 0.4em; font-style : italic ;
+    color: #eeeeee; }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for esp.*/
+b.alert{
+    color:#F5003D;
+}
+b{
+    font-size: 115%;
+}
+
+/*Zoomq::090401 ziped
+snap#takahashi {
+    font-size: 500%;
+    letter-spacing:20px;
+    color: #fff;
+    margin: 0 0 0 0;
+    padding: 0 0 .5em 0;
+    }
+div#float_logo{
+    position : absolute;
+    top:0px;
+    left:0px;
+}
+*/
+</t>
+<t tx="zoomq.20101214094417.7844">.said {font-size: 90%;  color: #bcbcbc; text-decoration :  line-through;}
+.next {font-size: 105%; color: #F8B73E; }
+.wait { color: #385775; font-style : italic ;}
+
+.incremental, .incremental *, .incremental *:after {color: #385775; visibility: visible;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for slide*/
+.slide .current {color: #F8B73E;}
+.slide H1{color:#B7B7DC;}
+
+DIV#slide0 h3{
+    font-size: 2em;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+
+}
+
+#slide0 h1 {
+    position: static; margin: 1em 0 1.33em; padding: 0;
+    white-space: normal;
+    background: transparent;
+    margin: 0 auto; width: 90%; height: 281px;
+    text-align: center;
+    font-size: 4em;
+    color: #fff;
+    font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    }
+
+</t>
+<t tx="zoomq.20101214094417.7845">/* The esp. Effect support 
+    letter-spacing:-20px;
+    width:100%;
+    border : 1px dotter #fff;
+takahashi ~ 高桥流 大字演示
+*/
+#takahashi0 {
+    font-size: 120%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    line-height : 100%;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi1 {
+    font-size: 150%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi2 {
+    font-size: 200%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi3 {
+    font-size: 300%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 10px 0 0 0;
+    padding: 0;
+    }
+#takahashi4 {
+    font-size: 400%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 20px 0 0 0;
+    padding: 0;
+    }
+#takahashi5 {
+    font-size: 500%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 30px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi {
+    font-size: 600%;font-weight :  bolder;
+    line-height : 100%;
+    text-align: center; 
+    word-spacing: 0px;letter-spacing: -4px;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi7 {
+    font-size: 700%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+#takahashi8 {
+    font-size: 800%;font-weight :  bolder;
+    line-height : 90%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+#takahashi9 {
+    font-size: 1000%;font-weight :  bolder;
+    line-height : 80%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi10 {
+    font-size: 1200%;font-weight :  bolder;
+    line-height : 80%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for UL*/
+ul#takahashi{
+    font-size: 180%;
+    letter-spacing:-2px;
+}
+ul#takahashi0{
+    font-size: 130%;
+    letter-spacing:-2px;
+    text-align: left;
+}
+
+ul.tinylist{
+    font-size: 80%;
+    letter-spacing:-2px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for PRE */
+PRE.takahashi{
+    font-size: 150%;
+}
+
+</t>
+<t tx="zoomq.20101214094417.7846">
+&lt;div id="footer"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a target="_blank"  href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+Zoom.Quiet&lt;/a&gt;
+&lt;br/&gt;
+v10.7.28
+&lt;/td&gt;
+&lt;td rowspan="2"&gt;
+&lt;a  target="_blank" style="background-color:;" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh"&gt;
+&lt;img src="icon/cc-byncnd-88x31.png"/&gt;
+&lt;/a&gt;
+Recommend &lt;a  target="_blank"
+href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt; for the best experience!
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+    &lt;div id="controls"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+
+</t>
+<t tx="zoomq.20101214094417.7847">&lt;div class="slide" id="slide0"&gt;
+
+&lt;h1&gt;
+时间管理杂谈
+&lt;/h1&gt;
+&lt;h3&gt;
+＋&lt;a href="http://wiki.woodpecker.org.cn/moin/ZqStudy/MyLearningSkill"&gt;
+分享私人工具箱
+&lt;/a&gt;
+&lt;/h3&gt;
+
+&lt;br/&gt;
+&lt;h4&gt;&lt;a href="mailto:zhouqi@kingsoft.com"&gt;Zoom.Quiet&lt;/a&gt;
+
+&lt;/h4&gt;
+
+&lt;br/&gt;
+
+&lt;/div&gt;
+
+
+</t>
+<t tx="zoomq.20101214094417.7848">&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/"&gt;注意！&lt;/a&gt;
+&lt;div id="sup"&gt;
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;h2 id="takahashi4"&gt;
+&lt;img src="pix/Takahashi-method.jpg"&gt;&lt;br/&gt;&lt;a href="http://book.douban.com/subject/4326862/"&gt;高橋流&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20101214094417.7849">&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/"&gt;特点:文字&lt;/a&gt;
+&lt;div id="sup"&gt;
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;h2 id="takahashi9"&gt;
+巨大
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20101214094417.7850">&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/"&gt;特点:幻灯片&lt;/a&gt;
+&lt;div id="sup"&gt;
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;h2 id="takahashi9"&gt;
+很多
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20101214094417.7851">&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/"&gt;特点:播放&lt;/a&gt;
+&lt;div id="sup"&gt;
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;h2 id="takahashi10"&gt;
+快!
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20101214094417.7852">&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/"&gt;特点:速度&lt;/a&gt;
+&lt;div id="sup"&gt;
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;h2 id="takahashi10"&gt;
+很快
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20101214094417.7853">&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/"&gt;特点:速度&lt;/a&gt;
+&lt;div id="sup"&gt;
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;h2 id="takahashi8"&gt;
+非常快
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20101214094417.7854">&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;a href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/"&gt;所以...&lt;/a&gt;
+&lt;div id="sup"&gt;
+Takahashi-method 幻灯风格，发源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;h2 id="takahashi10"&gt;
+听!
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20101214094417.7855">&lt;div class="slide"&gt;
+&lt;h1&gt; 免责聲明
+&lt;div id="sup"&gt;
+山寨的，非业界公认的，个人体验为基础!
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+        &lt;img src="id/zoomquiet_1-1_outline.png"&gt;
+    &lt;/a&gt;参考所有同好行为总结而得
+    &lt;br/&gt;&lt;br/&gt;
+    &lt;ul&gt;
+        &lt;li&gt; 一切资料来自网络互动挖掘
+        &lt;li&gt; 一切想法来自日常学习工作
+        &lt;li&gt; 一切体悟来自各种沟通交流
+        &lt;li&gt; 一切知识来自社区分享印证
+        &lt;li&gt; 一切经验来自个人失败体验
+        &lt;br/&gt; ......
+    &lt;/ul&gt;
+
+    &lt;div class="handout"&gt;
+    class="incremental"...
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20101214094417.7856">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; brief/&gt;
+&lt;div id="sup"&gt;
+mov-&gt;时间-&gt;效能工具
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul id="takahashi2"&gt;
+&lt;li class="said"&gt;&lt;sup&gt;90'&lt;/sup&gt; Randy Pausch 演讲录像&lt;/li&gt;
+&lt;li class="next"&gt;&lt;sup&gt;45'&lt;/sup&gt; 时间管理心态 &lt;/li&gt;
+&lt;li class="wait"&gt;&lt;sup&gt;45'&lt;/sup&gt; 效能工具箱 &lt;/li&gt;
+&lt;li class="wait"&gt;&lt;sup&gt;30'&lt;/sup&gt; 自由沟通 &lt;/li&gt;
+&lt;/ul&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7857">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+录像背景
+&lt;div id="sup"&gt;
+人工智能专家，終身不懈追求高效生活的牛人...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi4"&gt;
+
+&lt; 
+&lt;a href="http://en.wikipedia.org/wiki/Randy_Pausch"&gt;
+Randy Pausch&lt;/a&gt;/&gt;&lt;br/&gt;
+&lt;sup class="tiny"&gt;(1960.10.23~2008.6.25)&lt;/sup&gt;
+
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+- 2007年十二月 維吉尼亞大學
+- 1997 同樣内容有讲
+- 1998 維吉尼亞大學拿到終身聘，隨後跳槽到卡內基美隆大學，充滿了希望與衝勁的學術界的新星
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7858">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; Zoom.Quiet&gt;
+&lt;div id="sup"&gt;
+anything is GEEK
+&lt;/div&gt;
+
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://zoomquiet.org"&gt;
+&lt;img src="id/100514-zq-eye.png"/&gt;
+&lt;br/&gt;
+&lt;img src="icon/50ren-ZoomQuiet-s5-v800.png"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7859">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+abt. 周琦
+&lt;div id="sup"&gt;
+本命年
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+36
+&lt;br/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7860">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+广告@常州
+&lt;div id="sup"&gt;
+大学时代入错行，浪费两year...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+1999
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7861">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+开发@上海
+&lt;div id="sup"&gt;
+战上海:HTML-&gt;JS-&gt;PHP-&gt;XSL-&gt;Py
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+~2004
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7862">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+过程改进@北京
+&lt;div id="sup"&gt;
+混北京:SINA-&gt;CPyUG-&gt;SLL
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+~2007
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7863">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+2003:CZUG.org
+&lt;div id="sup"&gt;
+learnning Zope/Plone...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi3"&gt;
+&lt;a href="http://czug.org/"&gt;
+China&lt;br/&gt;
+Zope&lt;br/&gt;
+User&lt;br/&gt;
+Group
+&lt;br/&gt;&lt;img src="logo/logo-czug.png"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7864">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+2004:woodpecker.org.cn
+&lt;div id="sup"&gt;
+admin. MoinMoin 1.2.4
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;center&gt;
+&lt;a href="http://www.woodpecker.org.cn/"&gt;
+&lt;img src="logo/logo-wpwww_banner.png"/&gt;
+&lt;/a&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin"&gt;
+&lt;img src="logo/logo_wpwiki_banner.gif"/&gt; &lt;sup&gt;1.4.*&lt;/sup&gt;
+&lt;br/&gt;
+&lt;img src="logo/logo_wp-wiki_banner.png"/&gt;&lt;sup&gt;1.7.*&lt;/sup&gt;
+&lt;br/&gt;
+&lt;img src="logo/logo_wiki-wp_zoomq_scrot.png"/&gt;&lt;sup&gt;1.9.*&lt;/sup&gt;
+&lt;/a&gt;
+&lt;/center&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7865">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+2005:CPyUG-&gt; BPyUG
+&lt;div id="sup"&gt;
+working with Python,in SINA.com
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30"&gt;
+&lt;img src="logo/CPUGlogo.png"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7866">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/ZPyUG"&gt;
+2007:ZPyUG
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+spreading Python everywhere to everyone...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi3"&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/ZPyUG"&gt;
+珠三角
+&lt;br/&gt;Python
+&lt;br/&gt;用户组
+&lt;/a&gt;
+&lt;br/&gt;
+&lt;img src="logo/logo_163_game.gif"/&gt;
+&lt;img src="logo/logo_sina_home.gif"/&gt;
+&lt;img src="logo/logo-ks.jpg"/&gt;
+
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+- 在北京,主持完成了25次技术分享
+- 进入金山,
+- 使用Python 进行了各种平台的构建
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7867">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/ZPyUG"&gt;
+ECUG.org
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+spreading Python everywhere to everyone...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;a href="http://ecug.org/"&gt;
+&lt;img src="logo/ecug-logo_67bw.jpg"/&gt;
+&lt;/a&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7868">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/ZPyUG"&gt;
+2008:SLL.org
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+spreading Python everywhere to everyone...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://sociallearnlab.org/"&gt;
+教育&lt;br/&gt;大发现
+&lt;/a&gt;&lt;img src="img/2018-gz-sll.png"/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+- 在北京,主持完成了25次技术分享
+- 进入金山,
+- 使用Python 进行了各种平台的构建
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7869">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+2009-09-01 出版
+&lt;div id="sup"&gt;
+spreading Python everywhere to everyone...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://book.douban.com/subject/3884108/"&gt;
+&lt;img src="img/090902-lovpy.jpg"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+- 将多年的体验,集中到一本入门图书 "可爱的Python"
+- 并主持ZPyUG 10次技术分享
+cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7870">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/CPUG"&gt;
+&lt;img src="logo/CPUGlogo-100.png"/&gt;2010
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+社区在不断发展...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+&lt;img src="img/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png"/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+??
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7871">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+综上...
+&lt;div id="sup"&gt;
+基调是沟通探讨
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+俺就一&lt;br/&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"&gt;
+社区大妈&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7872">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt; / Zoom.Quiet&gt;
+&lt;div id="sup"&gt;
+基调练习...基调是沟通探讨
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+大妈！
+&lt;br/&gt;你错了！
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7873">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; init.Time Management&gt;
+&lt;div id="sup"&gt;
+只能用生命来实证的时生活状态...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+时间管理?
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7874">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+什么是时间？
+&lt;div id="sup"&gt;
+从1915之后，时间已经失去了所有意义...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+幻觉!
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7875">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+什么是管理?
+&lt;div id="sup"&gt;
+对内外的信息管道和整理控制...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+管,理!
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7876">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; / init.Time Management&gt;
+&lt;div id="sup"&gt;
+心灵和智慧的力量外在表现...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+关乎&lt;br/&gt;心智
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7877">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; why Time Management&gt;
+&lt;div id="sup"&gt;
+学生不是没知识，只是...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+不靠谱
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+&lt;h2 id="takahashi3"&gt;
+Kaopulity
+&lt;/h2&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7878">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+为嘛这么讲？！
+&lt;div id="sup"&gt;
+;-}
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+点解?!
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7879">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+学生本质::
+&lt;div id="sup"&gt;
+就职以前的生活状态...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+消费者
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7880">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+职员本质::
+&lt;div id="sup"&gt;
+在企業,一切以赢利为目标导向，一切都成本化了...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+销售者
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7881">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+BOSS视角..
+&lt;div id="sup"&gt;
+时间是必须计算的..
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+365天
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7882">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+每周休2天
+&lt;div id="sup"&gt;
+- 104天! 时间是必须计算的..
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+261天
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7883">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+每日工作8小时
+&lt;div id="sup"&gt;
+- 174天! 时间是必须计算的..
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+87天
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7884">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+－每日上网0.5小时
+&lt;div id="sup"&gt;
+0.5*261/8 = 16天! 时间是必须计算的..
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+71天
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7885">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+－每日午饭1小时
+&lt;div id="sup"&gt;
+1*261/8 = 32天! 时间是必须计算的..
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+39天
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7886">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+－年度病休
+&lt;div id="sup"&gt;
+- 2天! 时间是必须计算的..
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+37天
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7887">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+－年度法定假期
+&lt;div id="sup"&gt;
+- 10天! 时间是必须计算的..
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+27天
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7888">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+－公司年假
+&lt;div id="sup"&gt;
+- 10天! 时间是必须计算的..
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+17天
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7889">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+一切要有个交待
+&lt;div id="sup"&gt;
+时间作为沉没成本必须高度经营...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+回报率!
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7890">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+那么...
+&lt;div id="sup"&gt;
+这个方言怎么盛行起来的?
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi9"&gt;
+靠谱?
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7891">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+靠谱::定义
+&lt;div id="sup"&gt;
+E文定义是ZQ的个人体验的总结
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/KaoPulity"&gt;
+Kaopulity
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7892">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+靠谱::解析
+&lt;div id="sup"&gt;
+令一个组织内所有过程都可用！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;ul class="incremental" id="takahashi2"&gt;
+&lt;li&gt;&lt;b class="alert"&gt;K&lt;/b&gt;eep
+    &lt;/li&gt;
+&lt;li&gt;&lt;b class="alert"&gt;a&lt;/b&gt;ll
+    &lt;/li&gt;
+&lt;li&gt;&lt;b class="alert"&gt;o&lt;/b&gt;f
+    &lt;/li&gt;
+&lt;li&gt;&lt;b class="alert"&gt;p&lt;/b&gt;rocesses
+    &lt;/li&gt;
+&lt;li&gt;&lt;b class="alert"&gt;u&lt;/b&gt;sabi&lt;b class="alert"&gt;lity&lt;/b&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div class="handout"&gt;
+# ~ 令一切过程可用的 ...
+
+    * 一切过程!包含各个层面的行动序列:
+         1. 思考问题的过程
+         2. 解决问题的过程
+         3. 个体学习的过程
+         4. 团队学习的过程
+         5. 组织学习的过程
+         6. 项目管理的过程
+         7. 发布上线的过程
+         8. 测试修订的过程
+         9. 沟通交流的过程
+        10. 应对变化的过程
+        11. 需求管理的过程
+        12. ...的过程 
+    * 而可用(usablity)则至少是:
+         1. 所有人知道过程是怎么样的
+         2. 所有人知道过程节点的标准是怎么样的
+         3. 所有人知道自个儿在过程中哪个环节
+         4. 所有人认同当前过程
+         5. 所有人根据过程约定在协同
+         6. 所有过程是有记录的
+         7. 所有过程是可追踪的
+         8. 所有过程是可复用的
+         9. 所有过程是能优化的!
+        10. ...     
+    &lt;/div&gt;
+&lt;/div&gt;</t>
+<t tx="zoomq.20101214094417.7893">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+靠谱::什么是可用?
+&lt;div id="sup"&gt;
+全知/全认/全用/可善！ AKA~= All Know All!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi10"&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/KaoPulity"&gt;
+AKA
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7894">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+向靠谱!
+&lt;div id="sup"&gt;
+靠谱 的个性/行为/思路； 比专业 的技艺/团队/流程/认证，要实在的多
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+反脑残
+&lt;/h2&gt;
+&lt;h2 id="takahashi3"&gt;
+&lt;a href="http://hi.baidu.com/mczone/blog/item/c915b83e015607f3838b135e.html"&gt;zhuangbility&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+TLH项目 – 学校并非学习之地 | 益学会 
+http://fanyi.edu2do.org/2010/04/05/tlh-school-is-not-for-learning.html
+
+    &lt;/div&gt;
+&lt;/div&gt;</t>
+<t tx="zoomq.20101214094417.7895">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+怎么向?
+&lt;div id="sup"&gt;
+学校只是在灌输,靠谱的学习环境要自个儿创造!
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi5"&gt;
+&lt;a href="http://fanyi.edu2do.org/2010/04/05/tlh-school-is-not-for-learning.html"&gt;
+学校并非
+&lt;br/&gt;
+学习之地
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+TLH项目 – 学校并非学习之地 | 益学会 
+http://fanyi.edu2do.org/2010/04/05/tlh-school-is-not-for-learning.html
+
+
+    &lt;/div&gt;
+&lt;/div&gt;</t>
+<t tx="zoomq.20101214094417.7896">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+悲惨工作三征兆!
+&lt;sup&gt;&lt;a href="http://www.amazon.cn/dp/enbk612613"&gt;The Three Signs of a Miserable Job&lt;/a&gt;&lt;/sup&gt;
+&lt;div id="sup"&gt;
+...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ol class="incremental" id="takahashi4"&gt;
+&lt;li&gt;无闻性
+    &lt;/li&gt;
+&lt;li&gt;不可测
+    &lt;/li&gt;
+&lt;li&gt;无关性
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7897">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://trac-hacks.org/wiki/KTRAC"&gt;
+&lt;img src="logo/trac-log-s5-h70.png"/&gt;
+&lt;/a&gt;
+任意时刻,不背黑锅,就得！
+&lt;div id="sup"&gt;
+必须明确的工程元素!在第一时间!
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+5W&lt;br/&gt;1H
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7898">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://trac-hacks.org/wiki/KTRAC"&gt;
+&lt;img src="logo/trac-log-s5-h70.png"/&gt;
+&lt;/a&gt;
+任意任务须知:
+&lt;div id="sup"&gt;
+Who ...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi10"&gt;
+谁
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7899">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://trac-hacks.org/wiki/KTRAC"&gt;
+&lt;img src="logo/trac-log-s5-h70.png"/&gt;
+&lt;/a&gt;
+任意任务须知:
+&lt;div id="sup"&gt;
+When 任务限期
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+何时
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7900">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://trac-hacks.org/wiki/KTRAC"&gt;
+&lt;img src="logo/trac-log-s5-h70.png"/&gt;
+&lt;/a&gt;
+任意任务须知:
+&lt;div id="sup"&gt;
+What 问题集...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+要什么
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7901">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://trac-hacks.org/wiki/KTRAC"&gt;
+&lt;img src="logo/trac-log-s5-h70.png"/&gt;
+&lt;/a&gt;
+任意任务须知:
+&lt;div id="sup"&gt;
+环境/背景...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+在哪
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7902">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://trac-hacks.org/wiki/KTRAC"&gt;
+&lt;img src="logo/trac-log-s5-h70.png"/&gt;
+&lt;/a&gt;
+任意任务须知:
+&lt;div id="sup"&gt;
+Why ...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+咋算&lt;br/&gt;作好
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7903">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://trac-hacks.org/wiki/KTRAC"&gt;
+&lt;img src="logo/trac-log-s5-h70.png"/&gt;
+&lt;/a&gt;
+任意任务须知:
+&lt;div id="sup"&gt;
+过程
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+具体&lt;br/&gt;咋做
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7904">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+否则!
+&lt;div id="sup"&gt;
+你的宿命必须是...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+&lt;b class="alert"&gt;烈士&lt;/b&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7905">&lt;div class="slide"&gt;&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+工作的层级
+&lt;div id="sup"&gt;
+出自:&lt;a href="http://vip.book.sina.com.cn/book/index_72252.html"&gt;从员工到总经理的成长笔记：自慢&lt;/a&gt;
+&lt;/div&gt;&lt;/h1&gt;
+
+&lt;ol class="incremental" id="takahashi2"&gt;
+&lt;li&gt;做了
+    &lt;/li&gt;
+&lt;li&gt;做完
+    &lt;/li&gt;
+&lt;li&gt;做对
+    &lt;/li&gt;
+&lt;li&gt;做好
+    &lt;/li&gt;
+&lt;li&gt;能帮他人做好!
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7906">&lt;div class="slide"&gt;&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; / why Time Management&gt;
+&lt;div id="sup"&gt;
+出自:&lt;a href="http://vip.book.sina.com.cn/book/index_72252.html"&gt;从员工到总经理的成长笔记：自慢&lt;/a&gt;
+&lt;/div&gt;&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+时间管理!
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7907">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; brief/&gt;
+&lt;div id="sup"&gt;
+mov-&gt;时间-&gt;效能工具
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul class="" id="takahashi2"&gt;
+&lt;li class="said"&gt;&lt;sup&gt;90'&lt;/sup&gt; Randy Pausch 演讲录像&lt;/li&gt;
+&lt;li class="said"&gt;&lt;sup&gt;45'&lt;/sup&gt; 时间管理心态 &lt;/li&gt;
+&lt;li class="next"&gt;&lt;sup&gt;45'&lt;/sup&gt; 效能工具箱 &lt;/li&gt;
+&lt;li class="wait"&gt;&lt;sup&gt;30'&lt;/sup&gt; 自由沟通 &lt;/li&gt;
+&lt;/ul&gt;
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7908">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; Time Management base usage&gt;
+&lt;div id="sup"&gt;
+只有适合自己的方法／工具，没有银弹式的方法／工具!
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+冇最好!
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7909">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+图书推荐!
+&lt;div id="sup"&gt;
+李笑来的真心分享...己再版4次了..
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://book.douban.com/subject/3609132/"&gt;
+&lt;img src="img/s3778613-friendtime.jpg"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7910">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+时间效率矩阵
+&lt;div id="sup"&gt;
+最基础工具
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;center&gt;
+&lt;img src="img/PrioritizationMatrix.png"/&gt;
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7911">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+最神奇工具
+&lt;div id="sup"&gt;
+坚持才有效果！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+时间账单
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7912">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+时间账单妙处:0
+&lt;div id="sup"&gt;
+唤醒原有的宝物...自动的工作节拍器
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi7"&gt;
+生体&lt;br/&gt;
+节拍
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7913">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+时间账单妙处:1
+&lt;div id="sup"&gt;
+人的记忆是最不靠谱的东西,只有数据才是可分析的
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi7"&gt;
+发现&lt;br/&gt;
+黑洞
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7914">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+时间账单妙处:2
+&lt;div id="sup"&gt;
+自身工作/学习/生活... 时间经验的积累和复用!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi7"&gt;
+效能&lt;br/&gt;
+经验
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+zq-tilog.jpg
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7915">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+奇特的一生
+&lt;div id="sup"&gt;
+亚力山大.亚力山德罗维奇.柳比歇夫...分析学,生物分类学,昆虫学的非天才一生...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://book.douban.com/subject/1115353/"&gt;
+&lt;img src="img/s1093496-stronglife.jpg"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7916">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+俺的时间账单...
+&lt;div id="sup"&gt;
+美式速记薄...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;center&gt;
+
+&lt;table&gt;&lt;tr&gt;
+&lt;td&gt;&lt;a href="http://wiki.s.kingsoft.net/moin/ZoomQuiet/2009-01-08"&gt;
+&lt;img src="img/zq-tilog.jpg"/&gt;&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;&lt;img src="img/zq-talog.jpg"/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7917">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+俺的时间账单数据分析 9.02
+&lt;div id="sup"&gt;
+简单分析后就可以获得一些效率改进点...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;center&gt;
+&lt;a href="http://wiki.s.kingsoft.net/moin/COFFEEtime/2009-03-05"&gt;
+&lt;img src="img/zq-ti-line-day-0902.png"/&gt;
+&lt;/a&gt;
+&lt;table&gt;&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="img/zq-ti-month-pie-0902.png"/&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;img src="img/zq-ti-month-radar-0902.png"/&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7918">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; / Time Management base usage&gt;
+&lt;div id="sup"&gt;
+只有适合自己的方法／工具，没有银弹式的方法／工具!
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+合适才好
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7919">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; ZQ's tool box&gt;
+&lt;div id="sup"&gt;
+持续改进才有效果！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+14年...
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7920">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+有关输入...
+&lt;div id="sup"&gt;
+持续改进才有效果！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi5"&gt;
+&lt; import&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7921">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="https://addons.mozilla.org/firefox/addon/427"&gt;ScrapBook&lt;/a&gt;
+&lt;div id="sup"&gt;
+易用离线网页抓取管理插件!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool_scrapbook_716x332_scrot.png"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7922">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+Zim &lt;a href="http://zim-wiki.org/"&gt;&lt;img src="img/logo-zim-h90.gif"/&gt;&lt;/a&gt;
+&lt;div id="sup"&gt;
+桌面维基,perl 实现,易用信息速记平台...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-zim_1065x398_scrot.png"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7923">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://getswiftfox.com/"&gt;
+SwiftFox
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+Linux 平台专用加速火狐!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-swiftfox_986x483_scrot.png"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7924">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/4925/"&gt;
+&lt;img src="img/logo-autopager.png"/&gt;AutoPage
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+省时杀器~自动翻页机!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-autopager_1027x406_scrot.png"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7925">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="https://sourceforge.net/projects/chmreader/"&gt;
+CHM Reader
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+帮助文档最爱插件!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-chmreader_973x433_scrot.png"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7926">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://mail.google.com/support/?hl=cn"&gt;
+&lt;img src="img/logo-gmail.gif"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+核心的核心沟通平台!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-gmail_1014x497_scrot.png"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7927">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+面对复杂
+&lt;div id="sup"&gt;
+要形成靠谱的反射性的应对...
+&lt;/div&gt;
+
+&lt;/h1&gt;
+&lt;h2 id="takahashi9"&gt;
+&lt;a href="http://www.gtdstudy.com/?p=828"&gt;
+GTD
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7928">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+GTD总流程
+&lt;div id="sup"&gt;
+get things done 是种生活态度...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/GTD_v2CN.JPG"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7929">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+工作邮件态度:收件箱...
+&lt;div id="sup"&gt;
+GTD分类配合定期处置／回顾，以及固化的处理行为！
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi7"&gt;
+&lt;table&gt;&lt;tr&gt;
+&lt;td&gt;空!&lt;/td&gt;
+&lt;td&gt;&lt;img src="img/zqtool-thunderbird_583x444_scrot.png"/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7930">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://moc.daper.net/"&gt;
+moc ~ &lt;b class="alert"&gt;M&lt;/b&gt;usic 
+&lt;b class="alert"&gt;O&lt;/b&gt;n 
+&lt;b class="alert"&gt;C&lt;/b&gt;onsole
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+命令行中的音乐播放器
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-moc_931x489_scrot.png"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7931">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.mplayerhq.hu/"&gt;mplayer&lt;/a&gt;
+&lt;div id="sup"&gt;
+无敌强力播放平台!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-mplayer-xgl-compiz-01.jpg"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7932">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://comix.sourceforge.net/"&gt;
+comix &lt;img src="img/logo-comix.png"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+越用越好的轻便漫画浏览器!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;center&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;img src="img/zqtool-comix_809x419_scrot.png"/&gt;
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7933">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+有关输入...
+&lt;div id="sup"&gt;
+9+ 输入加速 只要愿意任何一个常用行为,都有可提升效率的工具来支持!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi5"&gt;
+&lt; / import&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7934">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+有关思考...
+&lt;div id="sup"&gt;
+持续改进才有效果！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi5"&gt;
+&lt; think&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7935">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://book.douban.com/subject/3691437/"&gt;思维导图&lt;/a&gt;
+&lt;div id="sup"&gt;
+TONY.BUZAN发明的思維工具,极靠谱的风行全球...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://en.wikipedia.org/wiki/Mind_map"&gt;Maind Map&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7936">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.xmind.net"&gt;
+&lt;img src="img/logo-xmind.png"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+最新开源跨平台思維导图工具,支持快速分享空间!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://www.xmind.net/share/zoomquiet/"&gt;
+&lt;img src="img/zqtool-xmind_809x494_scrot.png"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7937">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.graphviz.org/About.php"&gt;Graphviz&lt;/a&gt;
+&lt;div id="sup"&gt;
+来自AT&amp;T 的绝佳图形脚本工具!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-dot-moin_761x433_scrot.png"/&gt;
+
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7938">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.doxygen.org"&gt;
+&lt;img src="img/logo-doxygen.png"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+早已结合到文档化开发工具中...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://www.graphviz.org/pub/graphviz/development/doxygen/html/dot_8c.html"&gt;
+&lt;img src="img/dot_8c__incl.png"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7939">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+思维导图
+&lt;div id="sup"&gt;
+2+ 思考工具  持续改进才有效果！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/handarw-mindmap.gif"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7940">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+有关思考...
+&lt;div id="sup"&gt;
+在任何情况下坚持使用思维导图才能积累出分析型思維...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi5"&gt;
+&lt; / think&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7941">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+有关输出...
+&lt;div id="sup"&gt;
+输出相关成果,具效率最应该打磨...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi5"&gt;
+&lt; export&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7942">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://zh.wikipedia.org/zh/%E8%A1%A8%E5%BD%A2%E7%A0%81"&gt;
+&lt;img src="img/logo_bxm.gif"/&gt;表形码
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+消失在历史中的优秀输入法!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;center&gt;
+&lt;table&gt;&lt;tr&gt;
+&lt;td&gt;&lt;img src="img/bxm-3.gif"/&gt;
+    &lt;/td&gt;
+&lt;td&gt;&lt;a href="http://blog.zoomquiet.org/pyblosxom/Zen/Chinese/winbx-IMEstory-2006-05-15-12-00.html"&gt;
+&lt;img src="img/zqtool-bxm-selfdesine_463x380_scrot.png"/&gt;
+&lt;/a&gt;
+    &lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7943">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+anti&lt;a href="http://en.wikipedia.org/wiki/WYSIWYG"&gt;WYSIWYG&lt;/a&gt;
+&lt;div id="sup"&gt;
+单纯的角色才有助于卓越的成果生产!任何所见即所得的撰写环境都是扯...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/WyTiWyG"&gt;
+所想
+&lt;br/&gt;即所得
+&lt;/a&gt;
+
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7944">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://txt2tags.sourceforge.net/"&gt;
+txt2tags
+&lt;/a&gt;&lt;sup&gt;t2t&lt;/sup&gt;
+&lt;div id="sup"&gt;
+撰写一次,任意格式输出的轻快结构化文本单脚本工具!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-t2t-octus.gif"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7945">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;snap style="padding: 20px 10px 5px 10px;background-color:#fff;"&gt;
+&lt;a href="http://docutils.sourceforge.net/rst.html"&gt;&lt;img src="img/logo-rst.png"/&gt;
+&lt;/a&gt;
+&lt;/snap&gt;
+&lt;div id="sup"&gt;
+最标准和强大的结构化文本协议!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-rst_853x423_scrot.png"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7946">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;br/&gt;
+&lt;a href="http://sphinx.pocoo.org/"&gt;
+&lt;img src="img/sphinx_barnner.png"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+图书／帮助／网站，rST 内容组织／发布工具集..
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;center&gt;
+&lt;a href="http://obp.stdyun.com/w2py_manual_zh/"&gt;
+&lt;img src="img/zqtool-sphinx_942x520_scrot.png"/&gt;
+&lt;/a&gt;
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7947">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;img src="img/Py-super-black-v0.9.1-h90.png"/&gt;
+&lt;div id="sup"&gt;
+高级通用脚本语言...随身的军刀!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;center&gt;
+&lt;a href="http://python.org"&gt;
+&lt;img src="img/zqtool-pythonic_647x184_scrot.png"/&gt;
+&lt;br/&gt;
+&lt;img src="img/python-logo_200x700.png"/&gt;
+&lt;/a&gt;
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7948">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://webpages.charter.net/edreamleo/front.html"&gt;
+Leo&lt;/a&gt;~ &lt;b class="alert"&gt;L&lt;/b&gt;iterate &lt;b class="alert"&gt;e&lt;/b&gt;ditor with &lt;b class="alert"&gt;o&lt;/b&gt;utlines
+&lt;div id="sup"&gt;
+奇异的文学化编辑环境，释放编程思维的自在!
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;center&gt;
+&lt;table&gt;&lt;tr&gt;
+&lt;td&gt;
+&lt;/a href="http://www-cs-faculty.stanford.edu/~knuth/index.html"&gt;
+&lt;img src="img/head-knuth-don.gif"/&gt;
+&lt;br/&gt;
+Donald E. Knuth &lt;img src="img/chop-knuth.jpeg"/&gt;
+&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+&lt;img src="img/s4093193-TAOCP.jpg"/&gt;
+&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+--&gt;&lt;a href="http://en.wikipedia.org/wiki/Literate_programming"&gt;Literate programming&lt;/a&gt;
+
+
+&lt;img src="img/zqtool-leo_890x237_scrot.png"/&gt;
+
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7949">&lt;div class="slide"&gt;
+&lt;h1&gt; S5 &lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;幻灯展示: 
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.meyerweb.com/eric/tools/s5/"&gt;
+    &lt;img src="pix/S5icon.GIF" /&gt;
+    S&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; : A &lt;b class="alert"&gt;S&lt;/b&gt;imple &lt;b class="alert"&gt;S&lt;/b&gt;tandards-Based &lt;b class="alert"&gt;S&lt;/b&gt;lide &lt;b class="alert"&gt;S&lt;/b&gt;how &lt;b class="alert"&gt;S&lt;/b&gt;ystem
+    &lt;li&gt; 纯HTML 幻灯效果工具 &lt;a href="s5.html"&gt;本地介绍页面&lt;/a&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;li&gt;编写环境: 
+    &lt;span style="float:right;"&gt;&lt;img src="pix/2010-01-18-230729_605x421_leo.png" /&gt;
+    &lt;/span&gt;
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"&gt;
+    &lt;img src="pix/LeoProse.gif" /&gt;Leo&lt;/a&gt; : 
+
+
+    &lt;br/&gt;文学编程环境
+    &lt;li&gt; 纯Python 编写的通用编辑环境
+
+
+    &lt;/ul&gt;
+    &lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7950">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://moinmoin.in"&gt;
+MoinMoin &lt;img src="logo/logo-moinmoin.png"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+主流维基引擎，无DB，纯Py 扩展丰富...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://wiki.s.kingsoft.net/moin"&gt;
+&lt;img src="img/zqtool-moinmoin_930x404_scrot.png"&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+zqtool-isalltext_953x507_scrot.png
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7951">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://addons.mozilla.org/firefox/4125"&gt;
+It's All Text!
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+最好用编辑插件...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/zqtool-isalltext_953x507_scrot.png"&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7952">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;snap style="padding: 20px 10px 5px 10px;background-color:#fff;"&gt;
+&lt;a href="http://pyblosxom.sourceforge.net/"&gt;
+&lt;img src="img/pb_pyblosxom.gif"/&gt;
+&lt;/a&gt;
+&lt;/snap&gt;
+&lt;div id="sup"&gt;
+纯geek 的blogging 系統
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;center&gt;
+&lt;img src="img/zqtool-t2t_1114x533_scrot.png"/&gt;
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7953">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+有关输出...
+&lt;div id="sup"&gt;
++8 输出工具 持续改进才有效果！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi5"&gt;
+&lt; / export&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7954">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+其它
+&lt;div id="sup"&gt;
+
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi5"&gt;
+&lt; misc&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7955">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;snap style="padding: 20px 10px 5px 10px;background-color:#fff;"&gt;
+&lt;a href="http://www.workrave.org/"&gt;
+&lt;img src="img/logo-workrave.png"/&gt;
+&lt;/a&gt;
+&lt;/snap&gt;
+&lt;div id="sup"&gt;
+预防::重复性压力伤害 (Repetitive Strain Injury RSI) 
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;br/&gt;&lt;br/&gt;
+&lt;center&gt;
+&lt;img src="img/workrave-exercises.gif"/&gt;
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7956">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.infoq.com/cn/articles/pomodoro-practices"&gt;
+&lt;img src="img/PomodoroTimer.png"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+转变时间使用观点和习惯...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;a href="http://www.pomodorotechnique.com/"&gt;
+&lt;img src="img/zqtool-pomodorotechnique_665x540_scrot.png"/&gt;
+&lt;/a&gt;
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+Moleskine_barnner.jpg
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7957">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.infoq.com/cn/articles/pomodoro-practices"&gt;
+&lt;img src="img/PomodoroTimer.png"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+挤出来的时间怎么用?
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi7"&gt;
+小时间?
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7958">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.infoq.com/cn/articles/pomodoro-practices"&gt;
+&lt;img src="img/PomodoroTimer.png"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+小时间发现后,怎么产出?
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+集中&lt;br/&gt;精神
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7959">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+纸+笔
+&lt;div id="sup"&gt;
+永远无法替代的记录工具！
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;a href="http://www.moleskineasia.com/"&gt;
+&lt;img src="img/Moleskine_barnner.jpg"/&gt;
+&lt;/a&gt;
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7960">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+其它
+&lt;div id="sup"&gt;
+
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi5"&gt;
+&lt; / misc&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7961">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+工具选择原则::面向肌肉的操作
+&lt;div id="sup"&gt;
+持续改进才有效果！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi4"&gt;
+&lt;b class="alert"&gt;M&lt;/b&gt;uscle
+&lt;br/&gt;&lt;b class="alert"&gt;O&lt;/b&gt;riented
+&lt;br/&gt;&lt;b class="alert"&gt;O&lt;/b&gt;perating
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7962">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; / ZQ's tool box&gt;
+&lt;div id="sup"&gt;
+持续改进才有效果！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/ZqStudy/MyLearningSkill"&gt;
+完善ing
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7963">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; HOPE&gt;
+&lt;div id="sup"&gt;
+持续改进才有效果！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi9"&gt;
+坚持
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7964">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+个人知识管理!
+&lt;div id="sup"&gt;
+从尊重自个儿掌握的知识开始!
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+&lt;a href="http://blog.sina.com.cn/s/blog_493a84550100c4ug.html"&gt;
+PKM
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+TLH项目 – 学校并非学习之地 | 益学会 
+http://fanyi.edu2do.org/2010/04/05/tlh-school-is-not-for-learning.html
+
+
+    &lt;/div&gt;
+&lt;/div&gt;</t>
+<t tx="zoomq.20101214094417.7965">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+知识之轮::SECI模型
+&lt;div id="sup"&gt;
+知识只有流动才有价值...野中郁次郎（Ikujiro Nonaka）和竹内弘高（Hirotaka Takeuchi）认为...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;center&gt;
+&lt;a href="http://www.12manage.com/methods_nonaka_seci_zh.html"&gt;
+&lt;table&gt;&lt;tr&gt;
+&lt;td&gt;
+&lt;img src="img/KMsys-Seci20m1.jpg"/&gt;
+    &lt;/td&gt;
+&lt;td&gt;
+&lt;img src="img/KMsys-pattern-SECIba_528x389_scrot.png"/&gt;
+    &lt;/td&gt;
+
+&lt;/tr&gt;&lt;/table&gt;
+&lt;/a&gt;
+&lt;/center&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7966">&lt;div class="slide"&gt;&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+SNS学习原理:1
+&lt;div id="sup"&gt;
+小时的我...
+&lt;/div&gt;&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/_know-me.gif"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7967">&lt;div class="slide"&gt;&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+SNS学习原理:2
+&lt;div id="sup"&gt;
+成长的我...
+&lt;/div&gt;&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/_know-me1.gif"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7968">&lt;div class="slide"&gt;&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+SNS学习原理:3
+&lt;div id="sup"&gt;
+成为一体的大家...
+&lt;/div&gt;&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/_know-we.gif"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7969">&lt;div class="slide"&gt;&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+SNS学习原理:反証
+&lt;div id="sup"&gt;
+成为一体的大家...
+&lt;/div&gt;&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/_know-dot.gif"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7970">&lt;div class="slide"&gt;&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/ObpLovelyPython/0Days"&gt;
+学习的层级&lt;/a&gt;
+&lt;div id="sup"&gt;
+也是个人总结
+&lt;/div&gt;&lt;/h1&gt;
+
+&lt;ol class="incremental" id="takahashi3"&gt;
+&lt;li&gt;不知己不知
+    &lt;/li&gt;
+&lt;li&gt;不知己知何
+    &lt;/li&gt;
+&lt;li&gt;知己何已知
+    &lt;/li&gt;
+&lt;li&gt;知己何不知
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7971">&lt;div class="slide"&gt;
+&lt;h1&gt; KM持续改进
+&lt;div id="sup"&gt;
+最终目标是:基于知识的企业文化！
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;pre class="takahashi"&gt;
+知识管理乃是
+    培育
+        可摧生自学习型组织的
+    文化氛围
+&lt;/pre&gt;
+&lt;ul id="takahashi" class="incremental"&gt;
+&lt;li&gt;自学习型&lt;sup&gt;  主动改进自身行为的&lt;/sup&gt;
+&lt;/li&gt;
+&lt;li&gt;氛围&lt;sup&gt;  即所有成员的共通心理&lt;/sup&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101214094417.7972">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+做项目吧
+&lt;div id="sup"&gt;
+&lt;a href="http://blog.donews.com/limodou/archive/2004/12/10/199174.aspx"&gt;[编程杂谈]做个项目吧 - limodou的学习记录 &lt;/a&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+下海
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7973">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+写博客吧
+&lt;div id="sup"&gt;
+A:练习表述;B:进入知识圈&lt;a href="http://blog.donews.com/limodou/archive/2004/12/14/202590.aspx"&gt;[编程杂谈]写写Blog吧 - limodou的学习记录 &lt;/a&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+入圏
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+某个著名软件公司里，开发组的桌上会放着一只小熊，大家互相问问题之前，先对着小熊把问题说一遍，看能不能把问题描述的清晰，基本上说的比较有条理以后，答案也就随之而来了，大家可以试试这个办法
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7974">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.xmind.net/share/zoomquiet/33-session/"&gt;会议33制&lt;/a&gt;
+&lt;div id="sup"&gt;
+一切有关沟通！也是通用的软件工程核心行为模式...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+&lt;img src="img/zoomq-2010-04-17-201715_3x3steps_scrot.png"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    什么是软件工程！？
+        － 沟通！ 和电脑
+        － 沟通！！ 和他人
+        － 沟通！！！ 和自个儿
+会议33制 - XMind - Social Brainstorming and Mind Mapping
+http://www.xmind.net/share/zoomquiet/33-session/
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7975">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+读代码吧
+&lt;div id="sup"&gt;
+&lt;a href="http://blog.donews.com/limodou/archive/2005/04/26/352565.aspx"&gt;[编程杂谈]开始读源码吧 - limodou的学习记录&lt;/a&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+反刍
+&lt;/h2&gt;
+&lt;br/&gt;
+正如,斯坦尼斯拉夫斯基在《演员的自我修养》里说过：
+&lt;br/&gt;&lt;span&gt;    &lt;/span&gt;"感情应该是由外而内，再由内而外的"...
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7976">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+专注点程序之外的东西吧
+&lt;div id="sup"&gt;
+功夫在诗外！拓展有益的社会关系，有利于...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+宅
+&lt;/h2&gt;
+&lt;h2 id="takahashi4"&gt;
+&lt;a href="http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F"&gt;OTAKU&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7977">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+专注点程序之外的东西吧
+&lt;div id="sup"&gt;
+经济是一切社会活动的基本法则，作为社会个体，应该有所觉悟...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul class="incremental" id="takahashi4"&gt;
+&lt;li&gt;不想当会计
+    &lt;/li&gt;
+&lt;li&gt;的程序员
+    &lt;/li&gt;
+&lt;li&gt;不是好CTO;-}
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7978">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; / HOPE&gt;
+&lt;div id="sup"&gt;
+典章常读
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul class="incremental" id="takahashi1"&gt;
+&lt;li&gt;&lt;a href="http://wiki.woodpecker.org.cn/moin/AskForHelp"&gt;
+    提问的智慧&lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.woodpecker.org.cn/share/classes/050730-CPUG/usMaillist/"&gt;
+    邮件列表的规范和礼节&lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://wiki.woodpecker.org.cn/moin/WyTiWyG"&gt;
+    WYTIWYG&lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.woodpecker.org.cn/share/doc/SKSIG/DriveIntoMoinPub/"&gt;
+    Wiki导览&lt;/a&gt; &lt;sup&gt;+从入门到享用MoinMoin&lt;/sup&gt;
+    &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.zreading.cn/archives/1629.html"&gt;
+    “假学习”和“真学习” - 左岸读书&lt;/a&gt;
+    &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.mifengtd.cn/about"&gt;褪墨&lt;/a&gt;
+&lt;sup&gt;专注GTD&lt;/sup&gt;
+    &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://hi.baidu.com/wikicc/blog/item/388012f398f2efca0a46e0ac.html"&gt;如何进行人脉管理&lt;/a&gt;
+    &lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7979">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt; brief/&gt;
+&lt;div id="sup"&gt;
+mov-&gt;时间-&gt;效能工具
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul class="" id="takahashi2"&gt;
+&lt;li class="said"&gt;&lt;sup&gt;90'&lt;/sup&gt; Randy Pausch 演讲录像&lt;/li&gt;
+&lt;li class="said"&gt;&lt;sup&gt;45'&lt;/sup&gt; 时间管理心态 &lt;/li&gt;
+&lt;li class="said"&gt;&lt;sup&gt;45'&lt;/sup&gt; 效能工具箱 &lt;/li&gt;
+&lt;li class="next"&gt;&lt;sup&gt;30'&lt;/sup&gt; 自由沟通 &lt;/li&gt;
+&lt;/ul&gt;
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7980">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+总之,期望可以记住的::
+&lt;div id="sup"&gt;
+单位时间可以记住的只有7+-2 个
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ol class="incremental" id="takahashi2"&gt;
+&lt;li&gt;时间管理关乎心智！
+    &lt;/li&gt;
+&lt;li&gt;时间帐单最易行
+    &lt;/li&gt;
+&lt;li&gt;邮件管理最常用
+    &lt;/li&gt;
+&lt;li&gt;知识必须流动起来才有用!
+    &lt;/li&gt;
+&lt;li&gt;坚持写技术博客吧!
+    &lt;/li&gt;
+&lt;li&gt;坚持自主小工程吧!
+    &lt;/li&gt;
+&lt;/ol&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7981">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+山寨的，非业界公认的，个人体验为基础的...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2  id="takahashi8"&gt;
+Q&amp;A
+&lt;/h2&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;center&gt;
+
+&lt;a href="http://py.kingsoft.net/s5/100729-ks-timemana/"&gt;
+http://py.kingsoft.net/s5/100729-ks-timemana/
+&lt;/a&gt;
+&lt;/center&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7982">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+最后的最后
+&lt;div id="sup"&gt;
+好书再推荐
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://book.douban.com/subject/4006425/"&gt;
+&lt;img src="img/s3958139-itbird.jpg"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+s4279952-zen4talk.jpg
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7983">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+最后的最后
+&lt;div id="sup"&gt;
+好书再推荐
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://book.douban.com/subject/4760725/"&gt;
+&lt;img src="img/s4279952-zen4talk.jpg"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20101214094417.7984">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+版本&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;historic::
+    &lt;ul&gt;
+        &lt;li&gt;100729 增补PKM精要... &lt;/li&gt;
+        &lt;li&gt;100728 增补髙桥流以及蕃茄时间说明 &lt;/li&gt;
+        &lt;li&gt;100727 增补各种截屏 &lt;/li&gt;
+        &lt;li&gt;100726 重构时间矩阵 &lt;/li&gt;
+        &lt;li&gt;100724 为金山新人培训重构 &lt;/li&gt;
+        &lt;li&gt;100331 为珠三角技术沙龙创建&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20101215104953.9379">@language rest
+@tabwidth -4
+.. include:: &lt;s5defs.txt&gt;
+
+==================================================================
+时间管理杂谈
+==================================================================
+
+～持续的效率进化之旅 (powered by rst2S5)
+
+:Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:URL:    http://zoomquiet.org/res/s5/101217-TimeMana
+
+&lt;&lt;DOCDEFINE&gt;&gt;
+
+&lt;&lt;footer&gt;&gt;
+
+@others
+
+</t>
+<t tx="zoomq.20101215104953.9380">.. This document has been placed in the CC domain.
+.. _Docutils: http://docutils.sourceforge.net/
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+.. _S5: http://meyerweb.com/eric/tools/s5/
+.. _Firefox: http://www.mozilla.com/firefox/
+
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+.. _(CC)by-nc-sa:
+    http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. _FireFox:
+    http://www.mozilla.com/firefox/
+.. _S5介绍:
+    http://zoomquiet.org/res/s5/100826-PyTDD/s5.html
+.. _WYTIWYG:
+    http://wiki.woodpecker.org.cn/moin/WyTiWyG
+
+.. 图片定义区
+.. |bullet| unicode:: U+02022
+.. |mode| unicode:: U+00D8 .. capital o with stroke
+
+.. |KTRAC| image:: i/logo/trac-log-s5-h70.png
+    :scale: 100 %
+    :target: http://trac-hacks.org/wiki/KTRAC
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: top
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+.. |LeoProse| image:: pix/LeoProse.gif
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+   :alt: 是也乎;-)
+   :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+</t>
+<t tx="zoomq.20101215104953.9381">.. footer:: 
+
+    `Zoom.Quiet`_ v10.12.13 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
+</t>
+<t tx="zoomq.20101215104953.9382">&lt;免责/&gt;
+=========
+
+.. container:: handout
+
+   山寨的，非业界公认的，个人体验为基础!
+   |zqeye|
+
+
+.. class:: takahashi1
+
+    参考所有同好行为总结而得
+
+
+    .. class:: incremental
+
+    - 一切资料来自网络互动挖掘
+    - 一切想法来自日常学习工作
+    - 一切体悟来自各种沟通交流
+    - 一切知识来自社区分享印证
+    - 一切经验来自个人失败体验
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9383">高橋流!
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center
+
+    .. image:: pix/Takahashi-method.jpg
+        :scale: 150 %
+        :alt: 高橋流
+        :align: center
+        :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
+
+</t>
+<t tx="zoomq.20101215104953.9384">文字
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    巨大
+
+
+</t>
+<t tx="zoomq.20101215104953.9385">幻灯
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    很多
+
+
+</t>
+<t tx="zoomq.20101215104953.9386">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    快!
+
+
+</t>
+<t tx="zoomq.20101215104953.9387">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi8
+
+    很快!
+
+
+</t>
+<t tx="zoomq.20101215104953.9388">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi7
+
+    非常快!
+
+
+</t>
+<t tx="zoomq.20101215104953.9389">所以:
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi10
+
+    :orange:`听`
+
+
+</t>
+<t tx="zoomq.20101215104953.9390">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   俺-&gt;工具-&gt;持续完善 |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`60' Randy Pausch`
+    - :orange:`3' 有关ZQ`
+    - :silver:`42' 追求时间管理`
+    - :silver:`13'自由沟通`
+
+
+
+.. container:: notes
+
+   - 刚刚过了生日,应该说已经37岁了
+   - 已经工作了12年
+
+
+</t>
+<t tx="zoomq.20101215104953.9391">&lt;Zoom.Quiet&gt;
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/id/100514-zq-eye.png
+        :align: center
+        :scale: 80 %
+        :alt: 是也乎,是也乎
+
+    .. image:: i/map/50ren-ZoomQuiet-s5-v800.png
+        :align: center
+        :scale: 100 %
+        :alt: Zoom.Quiet
+        :target: http://zoomquiet.org
+
+
+
+.. container:: notes
+
+   - 刚刚过了生日,应该说已经37岁了
+   - 已经工作了12年
+
+
+</t>
+<t tx="zoomq.20101215104953.9392">年龄
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi7
+
+    本命年
+
+
+.. container:: notes
+
+   - 刚刚过了生日,应该说已经37岁了
+   - 已经工作了12年
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9393">广告@常州
+==================
+
+.. container:: handout
+
+   大学时代入错行，浪费两年;-{ |zqeye|
+
+
+
+.. class:: takahashi8
+
+    1999
+
+</t>
+<t tx="zoomq.20101215104953.9394">开发@上海
+==================
+
+.. container:: handout
+
+   战上海:HTML-&gt;JS-&gt;PHP-&gt;XSL-&gt;Py |zqeye|
+
+
+
+.. class:: takahashi8
+
+    ~2004
+
+</t>
+<t tx="zoomq.20101215104953.9395">PI@北京
+==================
+
+.. container:: handout
+
+   混北京:SINA-&gt;CPyUG-&gt;SLL |zqeye|
+
+
+.. class:: takahashi8
+
+    ~2007
+
+</t>
+<t tx="zoomq.20101215104953.9396">`2003:CZUG.org &lt;http://czug.org/&gt;`__
+======================================================
+
+.. container:: handout
+
+   learnning Zope/Plone... |zqeye|
+
+
+
+.. class:: takahashi1
+
+    - **C** hina
+    - **Z** ope
+    - **U** ser
+    - **G** roup
+
+    .. image:: i/logo/logo-czug.png
+        :align: center
+        :scale: 100 %
+        :alt: http://czug.org
+
+</t>
+<t tx="zoomq.20101215104953.9397">`2004:啄木鸟 &lt;http://www.woodpecker.org.cn/&gt;`__
+=================================================
+
+.. container:: handout
+
+   admin. MoinMoin 1.2.4... |zqeye|
+
+
+.. class:: center
+
+    .. image:: i/logo/logo-wpwww_banner.png
+        :align: center
+        :scale: 100 %
+        :alt: http://www.woodpecker.org.cn
+
+    - |logo_wpwiki_banner| \ :sup:`MoinMoin 1.4.*`\    
+    - |wiki_banner| \ :sup:`MoinMoin 1.7.*`\    
+    - |wp_zoomq_scrot| \ :sup:`MoinMoin 1.9.*`\
+
+
+
+.. |logo_wpwiki_banner| image:: i/logo/logo_wpwiki_banner.gif
+    :align: bottom
+    :scale: 100 %
+    :alt: http://www.woodpecker.org.cn
+
+.. |wiki_banner| image:: i/logo/logo_wp-wiki_banner.png
+    :align: bottom
+    :scale: 100 %
+    :alt: http://wiki.woodpecker.org.cn
+
+.. |wp_zoomq_scrot| image:: i/logo/logo_wiki-wp_zoomq_scrot.png
+    :align: bottom
+    :scale: 100 %
+    :alt: http://wiki,woodpecker.org.cn
+
+
+</t>
+<t tx="zoomq.20101215104953.9398">2005:`CPyUG`__-&gt; BPyUG
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
+.. container:: handout
+
+   working with Python,in SINA.com |zqeye|
+
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/CPUGlogo.png
+        :align: center
+        :scale: 100 %
+        :alt: CPyUG
+        :target: http://wiki.woodpecker.org.cn/moin/CPUG
+
+</t>
+<t tx="zoomq.20101215104953.9399">2007:`ZPyUG`__
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/ZPyUG
+
+.. container:: handout
+
+    - 在北京,主持完成了25次技术分享
+    - 进入金山,使用Python 进行了各种平台的构建~ `KTRAC`__
+    - spreading Python everywhere to everyone... 
+
+
+__ http://py.kingsoft.net/ktrac
+
+.. class:: takahashi1
+
+    - **珠** 三角
+    - **P** ython
+    - **U** ser
+    - **G** roup
+
+
+    .. image:: i/logo/logo_163_game.gif
+        :align: center
+    .. image:: i/logo/logo_sina_home.gif
+        :align: center
+    .. image:: i/logo/logo-ks.jpg
+        :align: center
+
+</t>
+<t tx="zoomq.20101215104953.9400">`ECUG.org`__
+======================================================
+
+__ http://ecug.org/
+.. container:: handout
+
+   spreading Python everywhere to everyone... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ecug-logo_67bw.jpg
+        :align: center
+        :scale: 100 %
+        :alt: ECUG
+        :target: http://code.google.com/p/ecug/wiki/FrontPage
+
+
+</t>
+<t tx="zoomq.20101215104953.9401">2008:|SLL.org| "SLL.org"
+======================================================
+
+.. container:: handout
+
+   spreading Pythonic everywhere to everyone... |zqeye|
+
+
+.. class:: takahashi7
+
+    教育大
+
+    发现
+
+
+.. class:: takahashi2 center
+
+    http://sociallearnlab.org/
+
+
+.. |SLL.org| image:: i/logo/2018-gz-sll.png
+    :scale: 100 %
+    :alt: SLL
+    :target: http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&amp;variant=zh-cn
+
+
+</t>
+<t tx="zoomq.20101215104953.9402">2009-09-01 出版
+======================================================
+
+.. container:: handout
+
+   - 将多年的体验,集中到一本入门图书 "可爱的Python"
+   - 并主持ZPyUG 近10次技术分享  |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/090902-lovpy.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 可愛的Python
+        :target: http://book.douban.com/subject/3884108/
+
+</t>
+<t tx="zoomq.20101215104953.9403">2010~
+======================================================
+
+.. container:: handout
+
+   社区在不断发展... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
+        :align: center
+        :scale: 100 %
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+</t>
+<t tx="zoomq.20101215104953.9404">综上...
+==================
+
+.. container:: handout
+
+   基调是分享交流;-} |zqeye|
+
+
+.. class:: takahashi
+
+    俺就一
+
+    `社区大妈`__
+
+__ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+
+
+</t>
+<t tx="zoomq.20101215104953.9405">帮吼！
+==================
+
+.. container:: handout
+
+   基调练习... |zqeye|
+
+
+.. class:: takahashi
+
+    大妈！
+
+    你错了！
+
+</t>
+<t tx="zoomq.20101215104953.9406">&lt;/Zoom.Quiet&gt;
+==================
+
+.. container:: handout
+
+    - 纯种Pythoner，自由软件原教旨主义者 
+    - 关注社会化教育及知识管理；喜爱SF和摄影。 
+    - 尝试使用Pythonic体验感化国人主动进入自由软件世界体验/学习/再创作
+
+
+.. class:: takahashi8
+
+   (^.^)
+
+
+</t>
+<t tx="zoomq.20101215104953.9407">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   俺-&gt;工具-&gt;持续完善 |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`60' Randy Pausch`
+    - :gray:`3' 有关ZQ`
+    - :orange:`42' 追求时间管理`
+    - :silver:`13'自由沟通`
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9463">&lt;Hope&gt;
+==================
+
+.. container:: handout
+
+   持续改进才有效果！ |zqeye|
+
+
+.. class:: takahashi7
+
+    持续
+
+    改进
+
+</t>
+<t tx="zoomq.20101215104953.9464">个人知识管理!
+==================
+
+.. container:: handout
+
+   从尊重自个儿掌握的知识开始! |zqeye|
+
+
+.. class:: takahashi7
+
+    `PKM &lt;http://sociallearnlab.org/wiki/index.php?title=PKM&amp;variant=zh-cn&gt;`__
+
+</t>
+<t tx="zoomq.20101215104953.9465">SNS学习原理:0
+=======================
+
+.. container:: handout
+
+   小时的我... |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/know-me0.gif
+        :align: center
+        :scale: 150 %
+        :alt: ScrapBook
+        :target: http://wiki.woodpecker.org.cn/moin/WeKnow
+
+</t>
+<t tx="zoomq.20101215104953.9466">SNS学习原理:1
+=======================
+
+.. container:: handout
+
+   成长的我... |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/know-me1.gif
+        :align: center
+        :scale: 150 %
+        :alt: ScrapBook
+        :target: http://wiki.woodpecker.org.cn/moin/WeKnow
+
+</t>
+<t tx="zoomq.20101215104953.9467">SNS学习原理:2
+=======================
+
+.. container:: handout
+
+   成为一体的大家... |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/know-we.gif
+        :align: center
+        :scale: 150 %
+        :alt: ScrapBook
+        :target: http://wiki.woodpecker.org.cn/moin/WeKnow
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9468">SNS学习原理:反証
+=======================
+
+.. container:: handout
+
+   向反方向... |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/know-dot.gif
+        :align: center
+        :scale: 150 %
+        :alt: ScrapBook
+        :target: http://wiki.woodpecker.org.cn/moin/WeKnow
+
+
+</t>
+<t tx="zoomq.20101215104953.9472">Blogging 吧!
+==================
+
+.. container:: handout
+
+   - A:练习表述;B:进入知识圈
+   - `[编程杂谈]写写Blog吧-limodou的学习记录 &lt;http://blog.donews.com/limodou/archive/2004/12/14/202590.aspx&gt;`__
+
+
+.. class:: takahashi7
+
+    入圏
+
+</t>
+<t tx="zoomq.20101215104953.9473">`OTAKU`__ 些什么吧!
+====================================
+
+__ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
+
+.. container:: handout
+
+   功夫在诗外！拓展有益的社会关系，有利于... |zqeye|
+
+
+.. class:: takahashi10
+
+    宅
+
+</t>
+<t tx="zoomq.20101215104953.9474">&lt;/Hope&gt;
+==================
+
+.. container:: handout
+
+   持续改进才有效果！ |zqeye|
+
+
+
+- `提问的智慧 &lt;http://wiki.woodpecker.org.cn/moin/AskForHelp&gt;`__
+- `邮件列表的规范和礼节 &lt;http://www.woodpecker.org.cn/share/classes/050730-CPUG/usMaillist/&gt;`__
+- `WYTIWYG &lt;http://wiki.woodpecker.org.cn/moin/WyTiWyG&gt;`__
+- `Wiki导览 +从入门到享用MoinMoin &lt;http://www.woodpecker.org.cn/share/doc/SKSIG/DriveIntoMoinPub/&gt;`__
+- `"假学习"和"真学习" &lt;http://www.zreading.cn/archives/1629.html&gt;`__
+- `我也有话要说 &lt;http://www.lixiaolai.com/index.php/archives/9568.html&gt;`__ \ :sup:`笑来系列`\
+- `褪墨 &lt;http://www.mifengtd.cn/about&gt;`_  \ :sup:`专注GTD`\
+- `如何进行人脉管理 &lt;http://hi.baidu.com/wikicc/blog/item/388012f398f2efca0a46e0ac.html&gt;`__
+- ...
+
+</t>
+<t tx="zoomq.20101215104953.9475">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   俺-&gt;工具-&gt;持续完善 |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`60' Randy Pausch`
+    - :gray:`3' 有关ZQ`
+    - :gray:`42' 追求时间管理`
+    - :orange:`13'自由沟通`
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9476">总之
+=========
+
+.. container:: handout
+
+   期望可以记住的~单位时间可以记住的只有7+-2 个 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    * 工具关乎人生态度 ;-}
+    * 邮件管理改进最易获益;
+    * 纸笔永不过时...
+    * 用各种渠道分享吧!
+
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9477">&lt;discuss/&gt;
+==========
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    Q&amp;A
+
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9478">最后...
+==================
+
+.. container:: handout
+
+   好书推荐... |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s3958139-itbird.jpg
+        :align: center
+        :scale: 100 %
+        :alt: IT小小鸟
+        :target: http://book.douban.com/subject/4006425/
+
+
+</t>
+<t tx="zoomq.20101215104953.9479">最后的最后...
+==================
+
+.. container:: handout
+
+   好书推荐... |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s4279952-zen4talk.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 讲演之禅
+        :target: http://book.douban.com/subject/4760725/
+
+
+</t>
+<t tx="zoomq.20101215104953.9480">&lt;版本/&gt;
+=========
+
+.. container:: handout
+
+   |zqeye|
+
+- 101213 为金山内部培训重构
+- 101005 根据盛大讲演现场反馈修订错误!
+- 100918 根据SFD2010深圳讲演现场反馈修订!
+- 100915 迁移为 rST2S5 格式
+- 100817 为SFD2010zs 重构... 
+- 100728 增补髙桥流以及蕃茄时间说明 
+- 100724 为金山新人培训重构 
+- 100331 为珠三角技术沙龙创建
+
+
+:反馈:
+    Zoom.Quiet@gmail.com
+:查阅:
+    http://zoomquiet.org/res/s5/101217-TimeMana
+
+
+&lt;&lt;S5&gt;&gt;</t>
+<t tx="zoomq.20101215104953.9481">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
+==============================================================================================
+
+.. container:: handout
+
+    纯HTML 幻灯撰写框架!... |S5icon|
+
+
+- S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-Based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
+
+ - 仅仅依靠 CSS+JS 的HTML格式幻灯演示框架
+
+- 我的编辑环境: |LeoProse| ~ `文学化编辑器 &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+
+
+.. image:: pix/2010-01-18-230729_605x421_leo.png
+    :align: center
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+
+</t>
+<t tx="zoomq.20101215104953.9486">牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 564d
+
+
+
+.. image:: i/foto/faces-niuniu.jpg
+    :align: center
+    :scale: 85 %
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+
+
+</t>
+<t tx="zoomq.20101215104953.9489">录像背景
+==================
+
+.. container:: handout
+
+    - 人工智能专家，終身不懈追求高效生活的牛人...
+
+
+.. class:: takahashi
+
+   &lt;/Randy&gt;
+
+
+
+.. container:: notes
+
+    - 2007年十二月 維吉尼亞大學
+    - 1997 同樣内容有讲
+    - 1998 維吉尼亞大學拿到終身聘，隨後跳槽到卡內基美隆大學，充滿了希望與衝勁的學術界的新星
+
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9490">&lt; init.Time Management&gt;
+====================================
+
+.. container:: handout
+
+   只能用生命来实证的时生活状态...  |zqeye|
+
+
+.. class:: takahashi
+
+    时间管理?
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9492">什么是时间？
+====================================
+
+.. container:: handout
+
+   从1915之后，时间已经失去了所有意义...  |zqeye|
+
+
+.. class:: takahashi7
+
+    幻觉!
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9494">&lt;/init.Time Management&gt;
+====================================
+
+.. container:: handout
+
+   心灵和智慧的力量外在表现...  |zqeye|
+
+
+.. class:: takahashi7
+
+    关乎
+
+    心智
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9496">什么是管理?
+====================================
+
+.. container:: handout
+
+   对内外的信息管道和整理控制...  |zqeye|
+
+
+.. class:: takahashi9
+
+    管道
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9498">什么是管理?
+====================================
+
+.. container:: handout
+
+   对内外的信息管道和整理控制...  |zqeye|
+
+
+.. class:: takahashi9
+
+    梳理
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9500">什么是时间？
+====================================
+
+.. container:: handout
+
+   从我看来...  |zqeye|
+
+
+.. class:: takahashi9
+
+    时刻
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9502">什么是时间？
+====================================
+
+.. container:: handout
+
+   行为而已...  |zqeye|
+
+
+.. class:: takahashi9
+
+    间隔
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9504">&lt;Why Time Management&gt;
+====================================
+
+.. container:: handout
+
+   为什么以及怎么...  |zqeye|
+
+
+.. class:: takahashi9
+
+    不靠谱
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9506">&lt;/Why Time Management&gt;
+====================================
+
+.. container:: handout
+
+   心灵和智慧的力量外在表现...  |zqeye|
+
+
+.. class:: takahashi7
+
+    时间管理！
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9508">为什么要...
+====================================
+
+.. container:: handout
+
+   为嘛这么讲？！  |zqeye|
+
+
+.. class:: takahashi7
+
+    点解?!
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9510">学生本质
+====================================
+
+.. container:: handout
+
+   就职以前的生活状态...  |zqeye|
+
+
+.. class:: takahashi9
+
+    消费者
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9570">职员本质
+====================================
+
+.. container:: handout
+
+   在企業,一切以赢利为目标导向，一切都成本化了...  |zqeye|
+
+
+.. class:: takahashi9
+
+    销售者
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9572">BOSS视角..
+====================================
+
+.. container:: handout
+
+   时间是必须计算的.....  |zqeye|
+
+
+.. class:: takahashi
+
+    365天
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9574">每周休2天
+====================================
+
+.. container:: handout
+
+   - 104天! 时间是必须计算的.....  |zqeye|
+
+
+.. class:: takahashi
+
+    261天
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9576">每日工作8小时
+====================================
+
+.. container:: handout
+
+   - 104天! 时间是必须计算的.....  |zqeye|
+
+
+.. class:: takahashi
+
+    71天
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9579">－每日上网0.5小时
+====================================
+
+.. container:: handout
+
+   0.5*261/8 = 16天!  时间是必须计算的.....  |zqeye|
+
+
+.. class:: takahashi
+
+    261天
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9581">－每日午饭1小时
+====================================
+
+.. container:: handout
+
+   1*261/8 = 32天!时间是必须计算的.....  |zqeye|
+
+
+.. class:: takahashi
+
+    39天
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9583">－年度病休
+====================================
+
+.. container:: handout
+
+   - 2天! 时间是必须计算的.....  |zqeye|
+
+
+.. class:: takahashi
+
+    37天
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9585">－年度法定假期
+====================================
+
+.. container:: handout
+
+   - 10天! 时间是必须计算的.....  |zqeye|
+
+
+.. class:: takahashi
+
+    27天
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9587">－公司年假
+====================================
+
+.. container:: handout
+
+   - 10天! 时间是必须计算的.....  |zqeye|
+
+
+.. class:: takahashi
+
+    17天
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9589">一切要有个交待
+====================================
+
+.. container:: handout
+
+   时间作为沉没成本必须高度经营.....  |zqeye|
+
+
+.. class:: takahashi
+
+    回报率!
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9590">悲惨工作三征兆!
+====================================
+
+.. container:: handout
+
+   `The Three Signs of a Miserable Job &lt;http://www.amazon.cn/dp/enbk612613&gt;`__  |zqeye|
+
+
+.. class:: takahashi4
+
+
+    .. class:: incremental
+
+    - 无闻性
+    - 不可测
+    - 无关性
+
+.. container:: notes
+
+   - ... http://wiki.woodpecker.org.cn/moin/5W1H
+
+
+</t>
+<t tx="zoomq.20101215104953.9592">工作的层级
+====================================
+
+.. container:: handout
+
+   出自 `从员工到总经理的成长笔记：自慢 &lt;http://vip.book.sina.com.cn/book/index_72252.html&gt;`__  |zqeye|
+
+
+.. class:: takahashi
+
+
+    .. class:: incremental
+
+    - 做了
+    - 做完
+    - 做对
+    - 做好
+    - 能,帮他人做好!
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9594">对策
+====================================
+
+.. container:: handout
+
+   任意时刻,不背黑锅,就得！必须明确的工程元素!在第一时间!  |zqeye|
+
+
+.. class:: takahashi7
+
+
+    `5W1H &lt;http://wiki.woodpecker.org.cn/moin/5W1H&gt;`__
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20101215104953.9596">任意任务须知:
+====================================
+
+.. container:: handout
+
+   Who...  |KTRAC|
+
+
+.. class:: takahashi10
+
+    谁
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20101215104953.9598">任意任务须知:
+====================================
+
+.. container:: handout
+
+   When...任务限期  |KTRAC|
+
+
+.. class:: takahashi10
+
+    何时
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20101215104953.9600">任意任务须知:
+====================================
+
+.. container:: handout
+
+   What...问题集  |KTRAC|
+
+
+.. class:: takahashi9
+
+    什么
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20101215104953.9608">任意任务须知:
+====================================
+
+.. container:: handout
+
+   Where...环境/背景  |KTRAC|
+
+
+.. class:: takahashi9
+
+    哪?
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20101215104953.9610">任意任务须知:
+====================================
+
+.. container:: handout
+
+   What...指标  |KTRAC|
+
+
+.. class:: takahashi9
+
+    咋算
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20101215104953.9612">任意任务须知:
+====================================
+
+.. container:: handout
+
+   How...过程  |KTRAC|
+
+
+.. class:: takahashi9
+
+    咋作
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20101215104953.9614">否则!
+====================================
+
+.. container:: handout
+
+   你的宿命必须是...  |zqeye|
+
+
+.. class:: takahashi9
+
+    :red:`烈士`
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20101215104953.9661">&lt;Time Management Base Usage&gt;
+====================================
+
+.. container:: handout
+
+   只有适合自己的方法／工具，没有银弹式的方法／工具!  |zqeye|
+
+
+.. class:: takahashi8
+
+    冇最好
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9683">图书推荐!
+====================================
+
+.. container:: handout
+
+   李笑来的真心分享...己再版4次了..  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s3778613-friendtime.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 李笑来
+        :target: http://book.douban.com/subject/3609132
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9684">最神奇工具
+====================================
+
+.. container:: handout
+
+   坚持才有效果！  |zqeye|
+
+
+.. class:: takahashi8
+
+    时间账单
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9686">时间效率矩阵
+====================================
+
+.. container:: handout
+
+   最基础工具..  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/PrioritizationMatrix.png
+        :align: center
+        :scale: 100 %
+        :target: http://en.wikipedia.org/wiki/Seven_Management_and_Planning_Tools#Prioritization_Matrix
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9688">&lt;/Time Management Base Usage&gt;
+====================================
+
+.. container:: handout
+
+   只有适合自己的方法／工具，没有银弹式的方法／工具!  |zqeye|
+
+
+.. class:: takahashi7
+
+    合适才好
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9690">时间账单妙处:0
+====================================
+
+.. container:: handout
+
+   唤醒原有的宝物...自动的工作节拍器  |zqeye|
+
+
+.. class:: takahashi7
+
+    生体节拍
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9692">时间账单妙处:1
+====================================
+
+.. container:: handout
+
+   人的记忆是最不靠谱的东西,只有数据才是可分析的  |zqeye|
+
+
+.. class:: takahashi7
+
+    发觉黑洞
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9694">时间账单妙处:2
+====================================
+
+.. container:: handout
+
+   自身工作/学习/生活... 时间经验的积累和复用!  |zqeye|
+
+
+.. class:: takahashi7
+
+    效能经验
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9696">奇特的一生
+====================================
+
+.. container:: handout
+
+   亚力山大.亚力山德罗维奇.柳比歇夫...分析学,生物分类学,昆虫学的非天才一生...  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s1093496-stronglife.jpg
+        :align: center
+        :scale: 100 %
+        :target: http://book.douban.com/subject/1115353
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9698">`俺的时间账单数据分析 9.02 &lt;http://wiki.s.kingsoft.net/moin/ZoomQuiet/2009-01-08&gt;`__
+=============================================================================================
+
+.. container:: handout
+
+   美式速记薄......  |zqeye|
+
+
+.. class:: takahashi
+
+
+   .. class:: borderless
+
+    ========  ========
+    |tilog|   |talog|
+    ========  ========
+
+
+.. |tilog| image:: i/snap/zq-tilog.jpg
+    :scale: 100 %
+.. |talog| image:: i/snap/zq-talog.jpg
+    :scale: 100 %
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9700">`俺的时间账单数据分析 9.02 &lt;http://wiki.s.kingsoft.net/moin/ZoomQuiet/2009-01-08&gt;`__
+=============================================================================================
+
+.. container:: handout
+
+   简单分析后就可以获得一些效率改进点...  |zqeye|
+
+
+.. class:: takahashi
+
+   .. class:: borderless
+
+    ========  ========
+    |tlpie|   |tlradar|
+    ========  ========
+
+
+.. |tlpie| image:: i/snap/zq-ti-month-pie-0902.png
+    :scale: 100 %
+.. |tlradar| image:: i/snap/zq-ti-month-radar-0902.png
+    :scale: 100 %
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9702">GMail
+====================================
+
+.. container:: handout
+
+   核心的核心沟通平台!..  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zqtool-gmail_1014x497_scrot.png
+        :align: center
+        :scale: 100 %
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9712">面对复杂
+====================================
+
+.. container:: handout
+
+   要形成靠谱的反射性的应对.....  |zqeye|
+
+
+.. class:: takahashi9
+
+    `GTD &lt;http://www.gtdstudy.com/?p=828&gt;`__
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9714">GTD总流程
+====================================
+
+.. container:: handout
+
+   get things done 是种生活态度.....  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/GTD_v2CN.JPG
+        :align: center
+        :scale: 80 %
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9716">工作邮件态度:收件箱...
+====================================
+
+.. container:: handout
+
+   GTD分类配合定期处置／回顾，以及固化的处理行为！..  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zqtool-thunderbird_583x444_scrot.png
+        :align: center
+        :scale: 100 %
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9732">管理对象:0
+====================================
+
+.. container:: handout
+
+   时间的价值真的不同,,,  |zqeye|
+
+
+.. class:: takahashi9
+
+
+    自己
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9734">管理对象:1
+====================================
+
+.. container:: handout
+
+   管理领导的时间就是为领导服务,,,  |zqeye|
+
+
+.. class:: takahashi9
+
+
+    领导
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9736">管理对象:2
+====================================
+
+.. container:: handout
+
+   协调同事的时间,就是协同,,,  |zqeye|
+
+
+.. class:: takahashi9
+
+
+    同事
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20101215104953.9738">管理对象:3
+====================================
+
+.. container:: handout
+
+   追踪下属的时间,就是团队,,,  |zqeye|
+
+
+.. class:: takahashi9
+
+
+    下属
+
+
+.. container:: notes
+
+   - ...
 
 
 
