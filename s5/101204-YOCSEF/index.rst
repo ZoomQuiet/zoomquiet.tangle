@@ -6,7 +6,7 @@
 
 ～云计算时代的安全对抗
 
-:作者: `周琦 <zoomquiet+knoss@gmai.com>`__ (Zoom.Quiet)
+:讲者: `Zoom.Quiet <zoomquiet+knoss@gmai.com>`__
 :URL:   http://zoomquiet.org/res/s5/101204-YOCSEF
 
 .. This document has been placed in the CC domain.
@@ -55,7 +55,7 @@
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v10.12.03 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
+   `Zoom.Quiet`_ v10.12.18 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
 
 <免责/>
 =========
@@ -100,7 +100,7 @@
 
 .. container:: handout
 
-   \\ (^o^) / 564d
+   \\ (^o^) / 578d
 
 
 
@@ -170,6 +170,31 @@
     - 自动化上报最新可疑文件/网址,在金山云安全平台完成自动化鉴定,实时发布,从而形成一人发现全体免疫的全网实时病毒监察的云安全态势!
 
 
+金山卫士开源计划
+==================
+
+.. container:: handout
+
+   未来... |knoss|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/system_arch_pic.gif
+        :align: center
+        :scale: 100 %
+        :alt: 开源范畴
+        :target: http://code.ijinshan.com
+
+
+.. container:: notes
+
+   - 扶助开源,共同成长!
+   - 
+
+
+
+
 "云"端结构
 ==================
 
@@ -194,7 +219,7 @@
 
 
 
-金山卫士开源
+金山卫士开源社区
 ==================
 
 .. container:: handout
@@ -202,18 +227,14 @@
    未来... |knoss|
 
 
-.. class:: takahashi
+.. class:: takahashi9
 
-    .. image:: i/map/system_arch_pic.gif
-        :align: center
-        :scale: 100 %
-        :alt: 开源范畴
-        :target: http://code.ijinshan.com
+    :orange:`社区`
 
 
 .. container:: notes
 
-   - 扶助开源,共同成长!
+   - 在学习如何培育，同赢！
    - 
 
 
@@ -271,6 +292,7 @@
    |knoss|
 
 
+- 101218 for OSCamp 修订牛妞成日
 - 101203 追加开源相关
 - 101129 调整讲演策略,精简所有页面
 - 101120 增补图片

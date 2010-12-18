@@ -131,8 +131,8 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20101214094417.7839" a="E"><vh>101217-TimeMana</vh>
-<v t="zoomq.20101215104953.9379" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20101214094417.7839"><vh>101217-TimeMana</vh>
+<v t="zoomq.20101215104953.9379"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101215104953.9380"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101215104953.9381"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101215104953.9489"><vh>&lt;/Randy&gt;</vh></v>
@@ -251,7 +251,7 @@
 <v t="zoomq.20101215104953.9481"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20101214094417.7840" a="E"><vh>index.html</vh>
+<v t="zoomq.20101214094417.7840"><vh>index.html</vh>
 <v t="zoomq.20101214094417.7841"><vh>&lt;&lt;DOCTYPE&gt;&gt;</vh></v>
 <v t="zoomq.20101214094417.7842"><vh>&lt;&lt;s5head&gt;&gt;</vh>
 <v t="zoomq.20101214094417.7843"><vh>embedded styles</vh></v>
@@ -296,7 +296,7 @@
 <v t="zoomq.20101214094417.7876"><vh>心智</vh></v>
 </v>
 <v t="zoomq.20101214094417.7877"><vh>Why TM</vh>
-<v t="zoomq.20101214094417.7878" a="E"><vh>为什么?</vh>
+<v t="zoomq.20101214094417.7878"><vh>为什么?</vh>
 <v t="zoomq.20101214094417.7879"><vh>学生本质</vh></v>
 <v t="zoomq.20101214094417.7880"><vh>在公司!</vh></v>
 <v t="zoomq.20101214094417.7881"><vh>时间计算</vh>
@@ -431,7 +431,7 @@
 <v t="zoomq.20101214094417.7984"><vh>version</vh></v>
 </v>
 </v>
-<v t="zoomq.20100817123015.6207"><vh>101204-YOCSEF</vh>
+<v t="zoomq.20100817123015.6207" a="E"><vh>101204-YOCSEF</vh>
 <v t="zoomq.20101202214157.8163" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101202214157.8164"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101202214157.8165"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -441,10 +441,11 @@
 <v t="zoomq.20101202214157.8172"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
 <v t="zoomq.20101202214157.8234"><vh>CloudS..</vh>
-<v t="zoomq.20101203231403.7690"><vh>KCS结构</vh></v>
 <v t="zoomq.20101203231403.7692"><vh>KCS开源体系</vh></v>
+<v t="zoomq.20101203231403.7690"><vh>KCS结构</vh></v>
+<v t="zoomq.20101218094336.8180"><vh>KCS社区</vh></v>
 </v>
-<v t="zoomq.20101202214157.8212"><vh>Summary</vh>
+<v t="zoomq.20101202214157.8212" a="E"><vh>Summary</vh>
 <v t="zoomq.20101202214157.8213"><vh>Thanx</vh></v>
 <v t="zoomq.20101202214157.8215"><vh>version</vh></v>
 <v t="zoomq.20101202214157.8236"><vh>S5</vh></v>
@@ -778,13 +779,13 @@
 </v>
 <v t="zoomq.20100819090507.6366"><vh>summary</vh></v>
 </v>
-<v t="zoomq.20101109214756.7198" a="E"><vh>100918-MyTools</vh>
+<v t="zoomq.20101109214756.7198"><vh>100918-MyTools</vh>
 <v t="zoomq.20101109214756.7199"><vh>盛大讲演回顾</vh></v>
 <v t="zoomq.20101109214756.7200"><vh>html-s5</vh>
 <v t="zoomq.20101109214756.7201"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20101109214756.7300" a="E"><vh>rst2s5</vh>
-<v t="zoomq.20101109214756.7301" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20101109214756.7300"><vh>rst2s5</vh>
+<v t="zoomq.20101109214756.7301"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101109214756.7302"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101109214756.7303"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101109214756.7304"><vh>免责</vh>
@@ -940,8 +941,7 @@
 <v t="zoomq.20101111091948.7324"><vh>summary</vh></v>
 </v>
 <v t="zoomq.20101118103232.10223"><vh>100729-TimeMana</vh>
-<v t="zoomq.20101118103232.10224" a="E"
-expanded="zoomq.20101118103232.10240,"><vh>@shadow index.html</vh></v>
+<v t="zoomq.20101118103232.10224"><vh>@shadow index.html</vh></v>
 </v>
 <v t="zoomq.20100602201453.5832"><vh>100423-QCon2010-T&amp;D</vh>
 <v t="zoomq.20100602201453.5833"><vh>@nosent index.html</vh>
@@ -48109,7 +48109,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 ～云计算时代的安全对抗
 
-:作者: `周琦 &lt;zoomquiet+knoss@gmai.com&gt;`__ (Zoom.Quiet)
+:讲者: `Zoom.Quiet &lt;zoomquiet+knoss@gmai.com&gt;`__
 :URL:   http://zoomquiet.org/res/s5/101204-YOCSEF
 
 &lt;&lt;DOCDEFINE&gt;&gt;
@@ -48165,7 +48165,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 </t>
 <t tx="zoomq.20101202214157.8165">.. footer:: 
 
-   `Zoom.Quiet`_ v10.12.03 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
+   `Zoom.Quiet`_ v10.12.18 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
 </t>
 <t tx="zoomq.20101202214157.8167">&lt;Zoom.Quiet&gt;
 ==================
@@ -48192,7 +48192,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-   \\ (^o^) / 564d
+   \\ (^o^) / 578d
 
 
 
@@ -48284,6 +48284,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
    |knoss|
 
 
+- 101218 for OSCamp 修订牛妞成日
 - 101203 追加开源相关
 - 101129 调整讲演策略,精简所有页面
 - 101120 增补图片
@@ -48397,7 +48398,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 
 </t>
-<t tx="zoomq.20101203231403.7692">金山卫士开源
+<t tx="zoomq.20101203231403.7692">金山卫士开源计划
 ==================
 
 .. container:: handout
@@ -52524,8 +52525,8 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: incremental takahashi
 
-    * 工具关乎人生态度 ;-}
-    * 邮件管理改进最易获益;
+    * 时间管理关乎心智成长 ;-}
+    * 邮件管理改进最快获益
     * 纸笔永不过时...
     * 用各种渠道分享吧!
 
@@ -53744,6 +53745,28 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. container:: notes
 
    - ...
+
+
+
+</t>
+<t tx="zoomq.20101218094336.8180">金山卫士开源社区
+==================
+
+.. container:: handout
+
+   未来... |knoss|
+
+
+.. class:: takahashi9
+
+    :orange:`社区`
+
+
+.. container:: notes
+
+   - 在学习如何培育，同赢！
+   - 
+
 
 
 

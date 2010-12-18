@@ -1766,8 +1766,8 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: incremental takahashi
 
-    * 工具关乎人生态度 ;-}
-    * 邮件管理改进最易获益;
+    * 时间管理关乎心智成长 ;-}
+    * 邮件管理改进最快获益
     * 纸笔永不过时...
     * 用各种渠道分享吧!
 
