@@ -55,7 +55,7 @@
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v10.12.18 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
+   `Zoom.Quiet`_ v10.12.22 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
 
 <免责/>
 =========
@@ -100,7 +100,7 @@
 
 .. container:: handout
 
-   \\ (^o^) / 578d
+   \\ (^o^) / 582d
 
 
 
@@ -292,6 +292,7 @@
    |knoss|
 
 
+- 101222 for YY语音会议 修订牛妞成日
 - 101218 for OSCamp 修订牛妞成日
 - 101203 追加开源相关
 - 101129 调整讲演策略,精简所有页面

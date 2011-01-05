@@ -436,7 +436,7 @@
 <v t="zoomq.20101202214157.8164"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101202214157.8165"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101202214157.8225"><vh>免责</vh></v>
-<v t="zoomq.20101202214157.8167"><vh>abt.ZQ</vh>
+<v t="zoomq.20101202214157.8167" a="E"><vh>abt.ZQ</vh>
 <v t="zoomq.20101202214157.8168"><vh>牛妞</vh></v>
 <v t="zoomq.20101202214157.8172"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
@@ -48165,7 +48165,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 </t>
 <t tx="zoomq.20101202214157.8165">.. footer:: 
 
-   `Zoom.Quiet`_ v10.12.18 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
+   `Zoom.Quiet`_ v10.12.22 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
 </t>
 <t tx="zoomq.20101202214157.8167">&lt;Zoom.Quiet&gt;
 ==================
@@ -48192,7 +48192,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 
 .. container:: handout
 
-   \\ (^o^) / 578d
+   \\ (^o^) / 582d
 
 
 
@@ -48284,6 +48284,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
    |knoss|
 
 
+- 101222 for YY语音会议 修订牛妞成日
 - 101218 for OSCamp 修订牛妞成日
 - 101203 追加开源相关
 - 101129 调整讲演策略,精简所有页面
