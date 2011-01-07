@@ -1,0 +1,68 @@
+digraph zoomquiet_org_idx {
+    /*生成命令:
+$ dot -Tpng ijinshan-code-flow.dot -o ijinshan-code-flow.png
+$ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.map
+    全局设定
+    */
+    graph [label="OpenKavass 社区版本仓库使用图谱 {By Zoom.Quiet 110104}"
+        ,fontsize=12.0,fontcolor=snow
+        ,labeljust="l",labelloc="b",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=TB
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+
+    /*图元*/
+    hgCoreDev [label="核心成员工作仓库",shape=box3d];
+    hgSelfA [label="本地工作仓库",shape=box3d];
+    
+    subgraph clusterGoogle {
+    label="官方激进仓库\nbitbucket.org/OpenKavass/root";
+    color=yellowgreen;fontcolor=azure;style="setlinewidth(3)";
+    labeljust="l";labelloc="t";fontsize=11.0;
+        bbothers [label="作品:...\nbitbucket.org/OpenKavass/ok.*",shape=box3d];
+        bbfrok [label="团队克隆:\nbitbucket.org/团队名/ok.*",shape=box3d];
+        bbpfrok [label="私人克隆:\nbitbucket.org/用户名/ok.*",shape=box3d];
+    }
+
+    subgraph clusterIntra {
+    label="金山内网"; color=orangered;fontcolor=azure;style="setlinewidth(3)";
+    labeljust="l";labelloc="t";fontsize=11.0;
+        hgIntra [label="内部开发仓库",shape=box3d];
+        CIs [label="持续\n集成/测试",shape=component];
+    }
+
+    subgraph clusterTrac {
+    label="Kavass社区仓库\ncode.ijinshan.com/trac/browser";
+    color=skyblue;fontcolor=azure;style="setlinewidth(3)";
+    labeljust="l";labelloc="t";fontsize=11.0;
+        hgTrac [label="社区正式版本仓库",shape=box3d];
+    }
+
+
+    /*
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃
+    */
+    hgCoreDev->bbothers->hgIntra->CIs->hgTrac [color=green,style="setlinewidth(2)"];
+    bbothers->bbfrok->bbpfrok->hgSelfA;
+    hgSelfA->hgSelfA [label="本地开发"];
+    hgSelfA->bbpfrok [label="发布成果",color=red,fontcolor=red];
+    bbpfrok->bbfrok [label="团队回拉",color=red,fontcolor=red,style="setlinewidth(1)"];
+    bbfrok->bbothers [label="社区回拉",color=red,fontcolor=red,style="setlinewidth(1)"];
+
+    edge [style=invis];
+
+
+}

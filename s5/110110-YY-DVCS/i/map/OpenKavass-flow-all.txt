@@ -1,0 +1,43 @@
+participant "贡献者" as member
+participant "本地仓库" as HgLocal
+participant "私人仓库" as HgSelf
+participant "团队" as team
+participant "团队仓库" as HgTeam
+participant "开发者" as CoreDev
+participant "激进仓库" as HgInter
+participant "内部仓库" as HgIntra
+participant "持续测试" as CIs
+participant "正式仓库" as HgTrac
+participant "用户" as user
+
+member->team:       组成
+activate team
+team->HgTeam:       约定
+activate HgTeam
+HgInter->HgTeam:    克隆
+activate HgInter
+HgTeam->HgSelf:     分支
+activate HgSelf
+HgSelf->HgLocal:    克隆
+activate HgLocal
+member->HgLocal:    开发
+activate HgLocal
+HgLocal-->HgSelf:   发布
+activate HgSelf
+HgSelf-->team:      整理
+activate team
+team-->HgTeam:      合并
+activate HgTeam
+HgTeam-->CoreDev:   判别
+activate CoreDev
+CoreDev-->HgInter:  增进
+activate HgInter
+HgInter-->HgIntra:  吸收
+activate HgIntra
+HgIntra->CIs:       测试
+activate CIs
+CIs-->HgTrac:       发布
+activate HgTrac
+HgTrac-->user:      使用
+deactivate user
+
