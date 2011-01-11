@@ -58,7 +58,7 @@
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v11.01.07 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
+   `Zoom.Quiet`_ v11.01.11 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
 
 <免责/>
 =========
@@ -351,7 +351,7 @@ OpenKavass
    -《太平御览》: 定以杀青，可缮写，上素为定本 ... 
 
 
-.. class:: takahashi7
+.. class:: takahashi
 
     书之原本
 
@@ -372,7 +372,7 @@ OpenKavass
    - 1979年版《辞海》:“版本”~ 书经过传写或是印刷而形成的各种不同本子
 
 
-.. class:: takahashi7
+.. class:: takahashi
 
     书的版本
 
@@ -394,7 +394,7 @@ PS:"版本学"
    - 目的和任务是探究版本变迁的特色和规律，总结版本鉴定的经验和方法;以准确揭示和正确鉴别版本，满足人们有关图书版本的各种需要;
 
 
-.. class:: takahashi7
+.. class:: takahashi
 
     应用学科
 
@@ -568,7 +568,7 @@ QA眼中的"版本"
 
    反馈各种工程度量    |knoss|
 
-.. class:: takahashi7
+.. class:: takahashi
 
     差异报告
 
@@ -968,6 +968,32 @@ Hg
 
 
 
+TiCSmtC!
+====================================
+
+.. container:: handout
+
+   	`LKML: Linus Torvalds: Re: SCO: "thread creation is about a thousand times faster than onnative  <http://lkml.org/lkml/2000/8/25/132>`_ |hg|
+
+.. class:: takahashi7
+
+    .. image:: i/snap/linus-ticsmtc.jpeg
+        :align: center
+        :scale: 100 %
+        :alt: Show me code
+        :target: http://code.ijinshan.com/trac/wiki/KsOssContribute
+
+
+.. container:: notes
+
+    - 各自为政
+    - 拉而不推
+
+
+
+
+
+
 社区仓库关系
 ====================================
 
@@ -1005,12 +1031,10 @@ Hg
 .. class:: incremental takahashi
 
     * 开源计划引发Kavass社区
-    * Kavass 只是个开始
-    * 彻底的开源就要分享权力!
+    * OpenKavass 只是个开始
+    * 开源就是彻底的分享权力!
     * 什么是版本?
-    * DVCS体验非凡!
     * Hg,你值得拥有
-
 
 
 .. container:: notes
@@ -1101,6 +1125,7 @@ Hg
    |knoss|
 
 
+- 110111 增补Linus 语录！
 - 110107 增补图谱
 - 110105 调整内容次序
 - 101230 起草

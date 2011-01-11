@@ -149,7 +149,7 @@
 <v t="zoomq.20110107103724.8252"><vh>Kavass社区</vh></v>
 </v>
 </v>
-<v t="zoomq.20110107103724.8302"><vh>brief2</vh>
+<v t="zoomq.20110107103724.8302" a="E"><vh>brief2</vh>
 <v t="zoomq.20110107103724.8230"><vh>版?!</vh>
 <v t="zoomq.20110107103724.8231"><vh>本?!</vh></v>
 <v t="zoomq.20110107103724.8232"><vh>版本?!</vh></v>
@@ -158,7 +158,7 @@
 <v t="zoomq.20110107103724.8238"><vh>软件工程:版本</vh></v>
 <v t="zoomq.20110107103724.8240"><vh>用户的版本</vh></v>
 <v t="zoomq.20110107103724.8242"><vh>码农的版本</vh></v>
-<v t="zoomq.20110107103724.8244"><vh>QA的基线</vh>
+<v t="zoomq.20110107103724.8244" a="E"><vh>QA的基线</vh>
 <v t="zoomq.20110107103724.8246"><vh>基线作用0</vh></v>
 <v t="zoomq.20110107103724.8250"><vh>基线作用1</vh></v>
 <v t="zoomq.20110107103724.8248"><vh>基线作用2</vh></v>
@@ -180,7 +180,8 @@
 <v t="zoomq.20110107103724.8337"><vh>掺合流程:all</vh></v>
 </v>
 <v t="zoomq.20110107103724.8339"><vh>Hg</vh></v>
-<v t="zoomq.20110107103724.8341"><vh>仓库关系</vh></v>
+<v t="zoomq.20110107103724.8341"><vh>ticsmc</vh></v>
+<v t="zoomq.20110111090722.8282"><vh>仓库关系</vh></v>
 </v>
 </v>
 <v t="zoomq.20101202214157.8212"><vh>Summary</vh>
@@ -192,12 +193,12 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20101214094417.7839" a="E"><vh>101217-TimeMana</vh>
-<v t="zoomq.20101215104953.9379" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20101214094417.7839"><vh>101217-TimeMana</vh>
+<v t="zoomq.20101215104953.9379"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101215104953.9380"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101215104953.9381"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101215104953.9489"><vh>&lt;/Randy&gt;</vh></v>
-<v t="zoomq.20101215104953.9382" a="E"><vh>免责</vh>
+<v t="zoomq.20101215104953.9382"><vh>免责</vh>
 <v t="zoomq.20101215104953.9383"><vh>Takahashi</vh>
 <v t="zoomq.20101215104953.9384"><vh>Takahashi</vh></v>
 <v t="zoomq.20101215104953.9385"><vh>Takahashi</vh></v>
@@ -840,13 +841,13 @@
 </v>
 <v t="zoomq.20100819090507.6366"><vh>summary</vh></v>
 </v>
-<v t="zoomq.20101109214756.7198" a="E"><vh>100918-MyTools</vh>
+<v t="zoomq.20101109214756.7198"><vh>100918-MyTools</vh>
 <v t="zoomq.20101109214756.7199"><vh>盛大讲演回顾</vh></v>
 <v t="zoomq.20101109214756.7200"><vh>html-s5</vh>
 <v t="zoomq.20101109214756.7201"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20101109214756.7300" a="E"><vh>rst2s5</vh>
-<v t="zoomq.20101109214756.7301" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20101109214756.7300"><vh>rst2s5</vh>
+<v t="zoomq.20101109214756.7301"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101109214756.7302"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101109214756.7303"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101109214756.7304"><vh>免责</vh>
@@ -48229,7 +48230,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 </t>
 <t tx="zoomq.20101202214157.8165">.. footer:: 
 
-   `Zoom.Quiet`_ v11.01.07 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
+   `Zoom.Quiet`_ v11.01.11 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
 </t>
 <t tx="zoomq.20101202214157.8167">&lt;Zoom.Quiet&gt;
 ==================
@@ -48305,12 +48306,10 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 .. class:: incremental takahashi
 
     * 开源计划引发Kavass社区
-    * Kavass 只是个开始
-    * 彻底的开源就要分享权力!
+    * OpenKavass 只是个开始
+    * 开源就是彻底的分享权力!
     * 什么是版本?
-    * DVCS体验非凡!
     * Hg,你值得拥有
-
 
 
 .. container:: notes
@@ -48350,6 +48349,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
    |knoss|
 
 
+- 110111 增补Linus 语录！
 - 110107 增补图谱
 - 110105 调整内容次序
 - 101230 起草
@@ -54233,7 +54233,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    -《太平御览》: 定以杀青，可缮写，上素为定本 ... 
 
 
-.. class:: takahashi7
+.. class:: takahashi
 
     书之原本
 
@@ -54255,7 +54255,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    - 1979年版《辞海》:“版本”~ 书经过传写或是印刷而形成的各种不同本子
 
 
-.. class:: takahashi7
+.. class:: takahashi
 
     书的版本
 
@@ -54278,7 +54278,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    - 目的和任务是探究版本变迁的特色和规律，总结版本鉴定的经验和方法;以准确揭示和正确鉴别版本，满足人们有关图书版本的各种需要;
 
 
-.. class:: takahashi7
+.. class:: takahashi
 
     应用学科
 
@@ -54442,7 +54442,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
    反馈各种工程度量    |knoss|
 
-.. class:: takahashi7
+.. class:: takahashi
 
     差异报告
 
@@ -54977,7 +54977,34 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 </t>
-<t tx="zoomq.20110107103724.8341">社区仓库关系
+<t tx="zoomq.20110107103724.8341">TiCSmtC!
+====================================
+
+.. container:: handout
+
+   	`LKML: Linus Torvalds: Re: SCO: "thread creation is about a thousand times faster than onnative  &lt;http://lkml.org/lkml/2000/8/25/132&gt;`_ |hg|
+
+.. class:: takahashi7
+
+    .. image:: i/snap/linus-ticsmtc.jpeg
+        :align: center
+        :scale: 100 %
+        :alt: Show me code
+        :target: http://code.ijinshan.com/trac/wiki/KsOssContribute
+
+
+.. container:: notes
+
+    - 各自为政
+    - 拉而不推
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110111090722.8282">社区仓库关系
 ====================================
 
 .. container:: handout
