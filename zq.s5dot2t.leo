@@ -142,8 +142,8 @@
 <v t="zoomq.20101202214157.8172"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110107103724.8293"><vh>brief1</vh>
-<v t="zoomq.20101202214157.8234"><vh>CloudS..</vh>
+<v t="zoomq.20110107103724.8293" a="E"><vh>brief1</vh>
+<v t="zoomq.20101202214157.8234" a="E"><vh>CloudS..</vh>
 <v t="zoomq.20101203231403.7692"><vh>KCS开源体系</vh></v>
 <v t="zoomq.20101218094336.8180"><vh>KCS社区</vh></v>
 <v t="zoomq.20110107103724.8252"><vh>Kavass社区</vh></v>
@@ -158,7 +158,7 @@
 <v t="zoomq.20110107103724.8238"><vh>软件工程:版本</vh></v>
 <v t="zoomq.20110107103724.8240"><vh>用户的版本</vh></v>
 <v t="zoomq.20110107103724.8242"><vh>码农的版本</vh></v>
-<v t="zoomq.20110107103724.8244" a="E"><vh>QA的基线</vh>
+<v t="zoomq.20110107103724.8244"><vh>QA的基线</vh>
 <v t="zoomq.20110107103724.8246"><vh>基线作用0</vh></v>
 <v t="zoomq.20110107103724.8250"><vh>基线作用1</vh></v>
 <v t="zoomq.20110107103724.8248"><vh>基线作用2</vh></v>
@@ -188,8 +188,8 @@
 <v t="zoomq.20101202214157.8213"><vh>Thanx</vh></v>
 <v t="zoomq.20110107103724.8225"><vh>小小鸟</vh></v>
 <v t="zoomq.20110107103724.8226"><vh>讲演之禅</vh></v>
-<v t="zoomq.20101202214157.8236"><vh>S5</vh></v>
 <v t="zoomq.20101202214157.8215"><vh>version</vh></v>
+<v t="zoomq.20101202214157.8236"><vh>S5</vh></v>
 </v>
 </v>
 </v>
@@ -48230,7 +48230,7 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
 </t>
 <t tx="zoomq.20101202214157.8165">.. footer:: 
 
-   `Zoom.Quiet`_ v11.01.11 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
+   `Zoom.Quiet`_ v11.01.23 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
 </t>
 <t tx="zoomq.20101202214157.8167">&lt;Zoom.Quiet&gt;
 ==================
@@ -48349,7 +48349,8 @@ http://www.zoomquiet.org/share/s5/090913-lovpy/
    |knoss|
 
 
-- 110111 增补Linus 语录！..........
+- 110123 for TechParty 修订版本
+- 110111 增补Linus 语录！根据会谈,修订细节...
 - 110107 增补图谱
 - 110105 调整内容次序
 - 101230 起草
@@ -54472,14 +54473,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     - 建立一个初始基线后，以后每次对其进行的变更都将记录为一个差值，直到建成下一个基线。
 
 </t>
-<t tx="zoomq.20110107103724.8252">OpenKavass
+<t tx="zoomq.20110107103724.8252">Kavass社区
 ==================
 
 .. container:: handout
 
-   - 英文名: OpenKavass
-   - 英全名: Open King AntiVirus as Service
-   - 中全名: 开源王级反病毒服务
+   - 英全名: Kavass antivirus association for Services
+   - 中全名: 卫士反病毒服务联盟
    - 社区名: 开源卫士社区 / Kavass社区
 
 

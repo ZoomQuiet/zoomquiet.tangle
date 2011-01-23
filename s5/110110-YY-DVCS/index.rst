@@ -58,7 +58,7 @@
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v11.01.11 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
+   `Zoom.Quiet`_ v11.01.23 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳翻阅效果
 
 <免责/>
 =========
@@ -270,14 +270,13 @@
 
 
 
-OpenKavass
+Kavass社区
 ==================
 
 .. container:: handout
 
-   - 英文名: OpenKavass
-   - 英全名: Open King AntiVirus as Service
-   - 中全名: 开源王级反病毒服务
+   - 英全名: Kavass antivirus association for Services
+   - 中全名: 卫士反病毒服务联盟
    - 社区名: 开源卫士社区 / Kavass社区
 
 
@@ -1098,6 +1097,27 @@ TiCSmtC!
         :target: http://book.douban.com/subject/4760725/
 
 
+<版本/>
+=========
+
+.. container:: handout
+
+   |knoss|
+
+
+- 110123 for TechParty 修订版本
+- 110111 增补Linus 语录！根据会谈,修订细节...
+- 110107 增补图谱
+- 110105 调整内容次序
+- 101230 起草
+
+
+:反馈:
+    `Zoom.Quiet@gmail.com <zoomquiet+sns@gmai.com>`__
+:查阅:
+    http://code.ijinshan.com/res/s5/110110-YY-DVCS
+
+
 `S5 <http://www.meyerweb.com/eric/tools/s5/>`__
 ==============================================================================================
 
@@ -1115,26 +1135,6 @@ TiCSmtC!
     :align: center
     :scale: 100 %
     :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
-
-
-<版本/>
-=========
-
-.. container:: handout
-
-   |knoss|
-
-
-- 110111 增补Linus 语录！..........
-- 110107 增补图谱
-- 110105 调整内容次序
-- 101230 起草
-
-
-:反馈:
-    `Zoom.Quiet@gmail.com <zoomquiet+sns@gmai.com>`__
-:查阅:
-    http://code.ijinshan.com/res/s5/110110-YY-DVCS
 
 
 
