@@ -131,7 +131,70 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20100817123015.6207" a="E"><vh>110110-YY-DVCS</vh>
+<v t="zoomq.20110225221457.9823" a="E"><vh>110226-why-pythonicamp</vh>
+<v t="zoomq.20110225221457.9824" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110225221457.9825"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
+<v t="zoomq.20110225221457.9826"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20110225221457.9827"><vh>免责</vh>
+<v t="zoomq.20110225221457.9829"><vh>Takahashi</vh>
+<v t="zoomq.20110225221457.9830"><vh>Takahashi</vh></v>
+<v t="zoomq.20110225221457.9831"><vh>Takahashi</vh></v>
+<v t="zoomq.20110225221457.9832"><vh>Takahashi</vh></v>
+<v t="zoomq.20110225221457.9833"><vh>Takahashi</vh></v>
+<v t="zoomq.20110225221457.9834"><vh>Takahashi</vh></v>
+<v t="zoomq.20110225221457.9835"><vh>Takahashi</vh></v>
+</v>
+<v t="zoomq.20110225221457.9901"><vh>abt.ZQ</vh>
+<v t="zoomq.20110225221457.9902"><vh>牛妞</vh></v>
+<v t="zoomq.20110225221457.9903"><vh>&lt;/ZQ&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20110225221457.9836"><vh>brief0</vh>
+<v t="zoomq.20110225221457.9837"><vh>&lt;Goal&gt;</vh>
+<v t="zoomq.20110225221457.9838"><vh>学生</vh></v>
+<v t="zoomq.20110225221457.9839"><vh>学校</vh></v>
+<v t="zoomq.20110225221457.9840"><vh>公司</vh></v>
+<v t="zoomq.20110225221457.9841"><vh>社区</vh></v>
+</v>
+<v t="zoomq.20110225221457.9842"><vh>&lt;/Goal&gt;</vh></v>
+</v>
+<v t="zoomq.20110225221457.9843"><vh>brief1</vh>
+<v t="zoomq.20110225221457.9844"><vh>&lt;Flow&gt;</vh>
+<v t="zoomq.20110225221457.9845"><vh>0.</vh></v>
+<v t="zoomq.20110225221457.9846"><vh>1.</vh></v>
+<v t="zoomq.20110225221457.9847"><vh>2.</vh></v>
+<v t="zoomq.20110225221457.9848"><vh>3.</vh></v>
+<v t="zoomq.20110225221457.9849"><vh>end.</vh></v>
+</v>
+<v t="zoomq.20110225221457.9850"><vh>&lt;/Flow&gt;</vh></v>
+</v>
+<v t="zoomq.20110225221457.9851"><vh>brief2</vh>
+<v t="zoomq.20110225221457.9852"><vh>突破</vh>
+<v t="zoomq.20110225221457.9853"><vh>工具</vh></v>
+<v t="zoomq.20110225221457.9854"><vh>沟通</vh></v>
+<v t="zoomq.20110225221457.9855"><vh>版本</vh></v>
+<v t="zoomq.20110225221457.9856"><vh>态度</vh></v>
+<v t="zoomq.20110225221457.9919"><vh>视野</vh></v>
+</v>
+<v t="zoomq.20110225221457.9858"><vh>/突破</vh></v>
+<v t="zoomq.20110225221457.9857"><vh>时限</vh></v>
+</v>
+<v t="zoomq.20110225221457.9859" a="E"><vh>briefEND</vh>
+<v t="zoomq.20110225221457.9860"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20110225221457.9910" a="E"><vh>Summary</vh>
+<v t="zoomq.20110225221457.9912"><vh>小小鸟</vh></v>
+<v t="zoomq.20110225221457.9913"><vh>讲演之禅</vh></v>
+<v t="zoomq.20110225221457.9921"><vh>LovPy</vh></v>
+</v>
+</v>
+<v t="zoomq.20110225221457.9861"><vh>version</vh>
+<v t="zoomq.20110225221457.9862"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
+<v t="zoomq.20110225221457.9863"><vh>abt.ZQ</vh></v>
+</v>
+</v>
+<v t="zoomq.20110225221457.9897"><vh>summary</vh></v>
+</v>
+<v t="zoomq.20100817123015.6207"><vh>110110-YY-DVCS</vh>
 <v t="zoomq.20101202214157.8163" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101202214157.8164"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101202214157.8165"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -142,8 +205,8 @@
 <v t="zoomq.20101202214157.8172"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110107103724.8293" a="E"><vh>brief1</vh>
-<v t="zoomq.20101202214157.8234" a="E"><vh>CloudS..</vh>
+<v t="zoomq.20110107103724.8293"><vh>brief1</vh>
+<v t="zoomq.20101202214157.8234"><vh>CloudS..</vh>
 <v t="zoomq.20101203231403.7692"><vh>KCS开源体系</vh></v>
 <v t="zoomq.20101218094336.8180"><vh>KCS社区</vh></v>
 <v t="zoomq.20110107103724.8252"><vh>Kavass社区</vh></v>
@@ -184,7 +247,7 @@
 <v t="zoomq.20110111090722.8282"><vh>仓库关系</vh></v>
 </v>
 </v>
-<v t="zoomq.20101202214157.8212" a="E"><vh>Summary</vh>
+<v t="zoomq.20101202214157.8212"><vh>Summary</vh>
 <v t="zoomq.20101202214157.8213"><vh>Thanx</vh></v>
 <v t="zoomq.20110107103724.8225"><vh>小小鸟</vh></v>
 <v t="zoomq.20110107103724.8226"><vh>讲演之禅</vh></v>
@@ -514,7 +577,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20101202214157.7860"><vh>101121-TEDx1Kg</vh>
+<v t="zoomq.20101202214157.7860" a="E"><vh>101121-TEDx1Kg</vh>
 <v t="zoomq.20101202214157.7861"><vh>dark</vh>
 <v t="zoomq.20101202214157.7916"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101202214157.7917"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -528,7 +591,7 @@
 </v>
 <v t="zoomq.20101202214157.7925"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20101202214157.7926"><vh>brief1</vh>
+<v t="zoomq.20101202214157.7926" a="E"><vh>brief1</vh>
 <v t="zoomq.20101202214157.7927"><vh>LovPy</vh></v>
 <v t="zoomq.20101202214157.7928"><vh>people</vh>
 <v t="zoomq.20101202214157.7929"><vh>作者.1</vh></v>
@@ -580,7 +643,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20101202214157.7915"><vh>light</vh>
+<v t="zoomq.20101202214157.7915" a="E"><vh>light</vh>
 <v t="zoomq.20101202214157.7916"></v>
 </v>
 <v t="zoomq.20101202214157.7969"><vh>@nosent old.rst</vh>
@@ -996,7 +1059,7 @@
 <v t="zoomq.20100818100255.10587"><vh>@shadow index.html</vh></v>
 </v>
 <v t="zoomq.20100819090507.7893"><vh>100820-introPy</vh>
-<v t="zoomq.20100819090507.7894"><vh>@shadow index.html</vh></v>
+<v t="zoomq.20100819090507.7894" a="E"><vh>@shadow index.html</vh></v>
 </v>
 <v t="zoomq.20101111091948.7290"><vh>100819-pythonicamp-intro</vh>
 <v t="zoomq.20101111091948.7291"><vh>@shadow index.html</vh></v>
@@ -2553,8 +2616,99 @@
 <v t="zoomq.20100527142434.6470"><vh>100610-pycon-pythonicamp@ZqLib</vh>
 <v t="zoomq.20101118103232.9986"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20100603095331.5850"><vh>100610-pycon-pythonicamp@OBP</vh>
-<v t="zoomq.20101118103232.9986"></v>
+<v t="zoomq.20100603095331.5850" a="E"><vh>100610-pycon-pythonicamp@OBP</vh>
+<v t="zoomq.20110225221457.9672"><vh>index.html</vh>
+<v t="zoomq.20110225221457.9673"><vh>&lt;&lt;DOCTYPE&gt;&gt;</vh></v>
+<v t="zoomq.20110225221457.9674"><vh>&lt;&lt;s5head&gt;&gt;</vh>
+<v t="zoomq.20110225221457.9675"><vh>embedded styles</vh></v>
+<v t="zoomq.20110225221457.9676"><vh>.slide+.incremental</vh></v>
+<v t="zoomq.20110225221457.9677"><vh>takahashi</vh></v>
+</v>
+<v t="zoomq.20110225221457.9678"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20110225221457.9679"><vh>page0</vh>
+<v t="zoomq.20110225221457.9680"><vh>免责</vh></v>
+<v t="zoomq.20110225221457.9681"><vh>s5</vh></v>
+</v>
+<v t="zoomq.20110225221457.9682"><vh>brief0</vh>
+<v t="zoomq.20110225221457.9683"><vh>py@CN</vh>
+<v t="zoomq.20110225221457.9684"><vh>2003</vh></v>
+<v t="zoomq.20110225221457.9685"><vh>2004</vh></v>
+<v t="zoomq.20110225221457.9686"><vh>2005</vh></v>
+<v t="zoomq.20110225221457.9687"><vh>2006</vh></v>
+<v t="zoomq.20110225221457.9688"><vh>2007</vh></v>
+<v t="zoomq.20110225221457.9689"><vh>2008</vh></v>
+<v t="zoomq.20110225221457.9690"><vh>广泛</vh></v>
+<v t="zoomq.20110225221457.9691"><vh>BUT</vh></v>
+<v t="zoomq.20110225221457.9692"><vh>Why</vh></v>
+<v t="zoomq.20110225221457.9693"><vh>被就业</vh></v>
+<v t="zoomq.20110225221457.9694"><vh>how?!</vh></v>
+</v>
+<v t="zoomq.20110225221457.9695"><vh>无法招聘</vh>
+<v t="zoomq.20110225221457.9696"><vh>2700</vh></v>
+<v t="zoomq.20110225221457.9697"><vh>600</vh></v>
+<v t="zoomq.20110225221457.9698"><vh>46</vh></v>
+<v t="zoomq.20110225221457.9699"><vh>16</vh></v>
+<v t="zoomq.20110225221457.9700"><vh>13</vh></v>
+<v t="zoomq.20110225221457.9701"><vh>0.48</vh></v>
+</v>
+</v>
+<v t="zoomq.20110225221457.9702"><vh>brief1</vh>
+<v t="zoomq.20110225221457.9703"><vh>CPC</vh>
+<v t="zoomq.20110225221457.9704"><vh>PytohniCamp</vh></v>
+<v t="zoomq.20110225221457.9705"><vh>CPC08.1</vh>
+<v t="zoomq.20110225221457.9706"><vh>CPC08.1:35</vh></v>
+<v t="zoomq.20110225221457.9707"><vh>CPC08.1:22</vh></v>
+<v t="zoomq.20110225221457.9708"><vh>CPC08.1:5</vh></v>
+<v t="zoomq.20110225221457.9709"><vh>CPC08.1:4</vh></v>
+<v t="zoomq.20110225221457.9710"><vh>CPC08.1:3</vh></v>
+<v t="zoomq.20110225221457.9711"><vh>CPC08.1:14%</vh></v>
+<v t="zoomq.20110225221457.9712"><vh>CPC08.1:30</vh></v>
+</v>
+<v t="zoomq.20110225221457.9713"><vh>PiC未来</vh>
+<v t="zoomq.20110225221457.9714"><vh>PiC:学校</vh></v>
+<v t="zoomq.20110225221457.9715"><vh>PiC:学生</vh></v>
+<v t="zoomq.20110225221457.9716"><vh>PiC:公司</vh></v>
+<v t="zoomq.20110225221457.9717"><vh>PiC:社区</vh></v>
+<v t="zoomq.20110225221457.9718"><vh>PiC局面</vh></v>
+</v>
+</v>
+<v t="zoomq.20110225221457.9719"><vh>abt.ZQ</vh>
+<v t="zoomq.20110225221457.9720"><vh>ZQ2001</vh></v>
+<v t="zoomq.20110225221457.9721"><vh>ZQ2002</vh></v>
+<v t="zoomq.20110225221457.9722"><vh>ZQ2003</vh></v>
+<v t="zoomq.20110225221457.9723"><vh>ZQ2004</vh></v>
+<v t="zoomq.20110225221457.9724"><vh>ZQ2005</vh></v>
+<v t="zoomq.20110225221457.9725"><vh>ZQ2006</vh></v>
+<v t="zoomq.20110225221457.9726"><vh>ZQ2007</vh></v>
+<v t="zoomq.20110225221457.9727"><vh>ZQ2008</vh></v>
+<v t="zoomq.20110225221457.9728"><vh>ZQ2009</vh></v>
+<v t="zoomq.20110225221457.9729"><vh>ZQ2010</vh></v>
+</v>
+<v t="zoomq.20110225221457.9730"><vh>abt.QF</vh>
+<v t="zoomq.20110225221457.9731"><vh>douban.com</vh>
+<v t="zoomq.20110225221457.9732"><vh>abt.1</vh></v>
+<v t="zoomq.20110225221457.9733"><vh>abt.2</vh></v>
+<v t="zoomq.20110225221457.9734"><vh>abt.3</vh></v>
+</v>
+<v t="zoomq.20110225221457.9735"><vh>BCU</vh>
+<v t="zoomq.20110225221457.9736"><vh>Course</vh></v>
+<v t="zoomq.20110225221457.9737"><vh>Teaching</vh></v>
+<v t="zoomq.20110225221457.9738"><vh>sleep</vh></v>
+<v t="zoomq.20110225221457.9739"><vh>why?</vh></v>
+<v t="zoomq.20110225221457.9740"><vh>1v1</vh></v>
+<v t="zoomq.20110225221457.9741"><vh>学生</vh></v>
+<v t="zoomq.20110225221457.9742"><vh>achievement</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20110225221457.9743"><vh>brief2</vh>
+<v t="zoomq.20110225221457.9744"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20110225221457.9745"><vh>LovPy</vh></v>
+<v t="zoomq.20110225221457.9746"><vh>Code4Py</vh></v>
+<v t="zoomq.20110225221457.9747"><vh>通知</vh></v>
+<v t="zoomq.20110225221457.9748"><vh>version</vh></v>
+</v>
+</v>
 </v>
 <v t="zoomq.20101118103232.10073"><vh>wiki</vh>
 <v t="zoomq.20100329224802.5548"><vh>@nosent PythoniCampMonograph.rst</vh>
@@ -38211,7 +38365,7 @@ Q&amp;A
 &lt;/div&gt;
 
 </t>
-<t tx="zoomq.20100603095331.5850">@path /home/zoomq/workspace/obp/tasks/PyCon2010asia/100610-pycon-pythonicamp
+<t tx="zoomq.20100603095331.5850">#@path /home/zoomq/workspace/obp/tasks/PyCon2010asia/100610-pycon-pythonicamp
 
 
 TBL SMU 老师，对于团队学习的体验:
@@ -55026,6 +55180,2867 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     - 拉而不推
 
 
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9672">@language html
+@tabwidth -4
+
+&lt;&lt;DOCTYPE&gt;&gt;
+
+&lt;title&gt;PCAP2010:PythoniCamp~attempt to fast training for practical Pythoner(powered by S5)&lt;/title&gt;
+
+&lt;&lt;s5head&gt;&gt;
+&lt;&lt;footer&gt;&gt;
+&lt;/div&gt;&lt;!-- class="layout"--&gt;
+&lt;div class="presentation"&gt;
+
+@others
+
+&lt;/div&gt;&lt;!--class="presentation"--&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</t>
+<t tx="zoomq.20110225221457.9673">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+
+&lt;head&gt;
+</t>
+<t tx="zoomq.20110225221457.9674">&lt;META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"&gt;
+
+&lt;meta name="editor" content="Leo 4.6.3 final"/&gt;
+&lt;!-- metadata --&gt;
+&lt;meta name="generator" content="S5" /&gt;
+&lt;meta name="version" content="S5 1.1" /&gt;
+&lt;meta name="presdate" content="20100405" /&gt;
+&lt;meta name="author" content="Eric A. Meyer" /&gt;
+&lt;meta name="company" content="Complex Spiral Consulting" /&gt;
+&lt;!-- configuration parameters --&gt;
+&lt;meta name="defaultView" content="slideshow" /&gt;
+&lt;meta name="controlVis" content="hidden" /&gt;
+&lt;!-- style sheet links --&gt;
+&lt;link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" /&gt;
+&lt;link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" /&gt;
+&lt;link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" /&gt;
+&lt;link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" /&gt;
+
+&lt;!-- embedded styles --&gt;
+&lt;style type="text/css" media="all"&gt;
+@others
+&lt;/style&gt;
+
+&lt;!-- S5 JS --&gt;
+&lt;script src="ui/default/slides.js" type="text/javascript"&gt;&lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;div class="layout"&gt;
+&lt;div id="controls"&gt;&lt;!-- DO NOT EDIT --&gt;&lt;/div&gt;
+&lt;div id="currentSlide"&gt;&lt;!-- DO NOT EDIT --&gt;&lt;/div&gt;
+&lt;div id="header"&gt;&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9675">/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for default*/
+img {border:0px;}    
+td { font-size: 80%; }
+H1 div#sup{
+    position :  absolute; top:0;right:3%;
+    margin-top: -20px;
+    font-size: 16px; font-style : italic ;
+    color: #385775;
+}
+li sup{display :  inline;
+    font-size: 80%; font-style : italic ;}
+
+li sub{display :  inline;
+    font-size: 80%; font-style : italic ;
+    color: #eeeeee; }
+
+sup.tiny{display :  inline;
+    font-size: 0.4em; font-style : italic ;
+    color: #eeeeee; }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for esp.*/
+b.alert{
+    color:#F5003D;
+}
+b{
+    font-size: 115%;
+}
+
+/*Zoomq::090401 ziped
+snap#takahashi {
+    font-size: 500%;
+    letter-spacing:20px;
+    color: #fff;
+    margin: 0 0 0 0;
+    padding: 0 0 .5em 0;
+    }
+div#float_logo{
+    position : absolute;
+    top:0px;
+    left:0px;
+}
+*/
+</t>
+<t tx="zoomq.20110225221457.9676">.said {font-size: 90%;  color: #bcbcbc; text-decoration :  line-through;}
+.next {font-size: 105%; color: #F8B73E; }
+.wait { color: #385775; font-style : italic ;}
+
+.incremental, .incremental *, .incremental *:after {color: #385775; visibility: visible;}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for slide*/
+.slide .current {color: #F8B73E;}
+.slide H1{color:#B7B7DC;}
+
+DIV#slide0 h3{
+    font-size: 2em;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+
+}
+
+#slide0 h1 {
+    position: static; margin: 1em 0 1.33em; padding: 0;
+    white-space: normal;
+    background: transparent;
+    margin: 0 auto; width: 90%; height: 281px;
+    text-align: center;
+    font-size: 4em;
+    color: #fff;
+    font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    }
+
+</t>
+<t tx="zoomq.20110225221457.9677">/* The esp. Effect support 
+    letter-spacing:-20px;
+    width:100%;
+    border : 1px dotter #fff;
+takahashi ~ 高桥流 大字演示
+*/
+#takahashi0 {
+    font-size: 120%;font-weight :  bolder;
+    word-spacing: 0px;letter-spacing: -4px;
+    line-height : 100%;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi1 {
+    font-size: 150%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi2 {
+    font-size: 200%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 2em;
+    }
+#takahashi3 {
+    font-size: 300%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 10px 0 0 0;
+    padding: 0;
+    }
+#takahashi4 {
+    font-size: 400%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 20px 0 0 0;
+    padding: 0;
+    }
+#takahashi5 {
+    font-size: 500%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center; 
+    margin: 30px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi {
+    font-size: 600%;font-weight :  bolder;
+    line-height : 100%;
+    text-align: center; 
+    word-spacing: 0px;letter-spacing: -4px;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi7 {
+    font-size: 700%;font-weight :  bolder;
+    line-height : 100%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+#takahashi8 {
+    font-size: 800%;font-weight :  bolder;
+    line-height : 90%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+#takahashi9 {
+    font-size: 1000%;font-weight :  bolder;
+    line-height : 80%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+#takahashi10 {
+    font-size: 1200%;font-weight :  bolder;
+    line-height : 80%;
+    word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for UL*/
+ul#takahashi{
+    font-size: 180%;
+    letter-spacing:-2px;
+}
+ul#takahashi0{
+    font-size: 130%;
+    letter-spacing:-2px;
+    text-align: left;
+}
+
+ul.tinylist{
+    font-size: 80%;
+    letter-spacing:-2px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ for PRE */
+PRE.takahashi{
+    font-size: 150%;
+}
+
+</t>
+<t tx="zoomq.20110225221457.9678">&lt;div id="footer"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a target="_blank"  href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+Zoom.Quiet&lt;/a&gt;
+&lt;br/&gt;
+&lt;a target="_blank"  href="http://www.douban.com/people/qingfeng/"&gt;
+qingfeng&lt;/a&gt;
+&lt;/td&gt;
+&lt;td rowspan="2"&gt;
+&lt;a  target="_blank" style="background-color:;" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh"&gt;
+&lt;img src="icon/cc-byncnd-88x31.png"/&gt;
+&lt;/a&gt;
+Recommend &lt;a  target="_blank"
+href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt; for the best experience!
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+    &lt;div id="controls"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9679">&lt;div class="slide" id="slide0"&gt;
+
+&lt;h1&gt;
+PythoniCamp
+&lt;/h1&gt;
+&lt;h3&gt;
+~a attempt to fast training for practical Pythoner
+&lt;/h3&gt;
+
+&lt;br/&gt;
+&lt;h4&gt;CPyUG: &lt;a href="mailto:zhouqi@kingsoft.com"&gt;Zoom.Quiet&lt;/a&gt;
+,&lt;a target="_blank"  href="http://www.douban.com/people/qingfeng/"&gt;
+qingfeng&lt;/a&gt;
+
+&lt;/h4&gt;
+
+&lt;br/&gt;
+
+&lt;/div&gt;
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9680">&lt;div class="slide"&gt;
+&lt;h1&gt; non-responsibility
+&lt;div id="sup"&gt;
+personal，experience，unofficial...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;center&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+        &lt;img src="id/zoomquiet_1-1_outline.png"&gt;
+    &lt;/a&gt;,&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+
+with all kinds of Chinese Pythoner :
+    &lt;br/&gt;&lt;br/&gt;
+    &lt;ul id="takahashi0"&gt;
+        &lt;li&gt; all infomation come from internet 
+        &lt;li&gt; all idea come from dialy learnning
+        &lt;li&gt; all theory come from communication
+        &lt;li&gt; all knowledge come from community
+        &lt;li&gt; all experience come from fail 
+        &lt;br/&gt; ......
+    &lt;/ul&gt;
+
+&lt;img src="icon/logo-ks.jpg"/&gt;,&lt;img src="icon/logo-douban.png"/&gt;
+&lt;br/&gt;
+&lt;img src="icon/zeuux-logov2red_90h.png"/&gt;
+    &lt;div class="handout"&gt;
+&lt;center&gt;&lt;img src="icon/zeuux-logov2red_90h.png"/&gt;&lt;/center&gt;
+&lt;/center&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9681">&lt;div class="slide"&gt;
+&lt;h1&gt; abt. s5 &lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;slide made by: 
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.meyerweb.com/eric/tools/s5/"&gt;
+    &lt;img src="pix/S5icon.GIF" /&gt;
+    S&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; : A Simple Standards-Based Slide Show System
+    &lt;li&gt; pure HTML slide effect tools &lt;a href="s5.html"&gt;intro. local page&lt;/a&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;li&gt;editor: 
+    &lt;span style="float:right;"&gt;&lt;img src="pix/2010-01-18-230729_605x421_leo.png" /&gt;
+    &lt;/span&gt;
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"&gt;
+    &lt;img src="pix/LeoProse.gif" /&gt;Leo&lt;/a&gt; : 
+
+
+    &lt;br/&gt;Literate edit environment
+    &lt;li&gt; pure Python created common environment for edit everything 
+    &lt;br/&gt;;-)
+
+
+    &lt;/ul&gt;
+    &lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9682">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+brief::
+&lt;div id="sup"&gt;
+status-&gt;us way-&gt;future
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul class="incremental" id="takahashi2"&gt;
+&lt;li&gt;&lt;sup&gt;+10'&lt;/sup&gt; Python in China&lt;/li&gt;
+&lt;li&gt;&lt;sup&gt;+15'&lt;/sup&gt; PythoniCamp &lt;/li&gt;
+&lt;li&gt;&lt;sup&gt;+5'&lt;/sup&gt; Discuss&lt;/li&gt;
+&lt;/ul&gt;
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9683">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+China usage Python
+&lt;div id="sup"&gt;
+deep and deep...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+&lt;img src="img/Py-super-black-v0.9.1-500.png"/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+在中国,Python 应用越来多:
+- 2002 已经有公司在短信业务中使用 Twisted 替代JAVA 实现了网关服务,
+    当年已达到千万条每天每台服务器，2010年达到三千万条每天每服务器
+- 2004 豆瓣 使用 Quixote 现实
+- 2005 163.net 使用 Plone 批量完成内部系统
+- 2006 souhu.com 闪电邮件 使用 web.py 实现
+- 2007 haokanbu.com 使用 Django 实现照片故事分享
+- 2008 Kingsoft.com 使用 Django 实现云查杀管理平台
+- ...
+而且越来越多的团队使用 Python 快速完成原型 ,以及进行系统辅助管理,数据分析...
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9684">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+2003 Twisted 
+&lt;div id="sup"&gt;
+replace JAVA make SMS support pre host every second,2010 can 30,000,000/s
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi5"&gt;
+10,000,000
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9685">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+2004 Quixote
+&lt;div id="sup"&gt;
+one guy,3 month,make the bigest pure Python SNS site
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi7"&gt;
+&lt;a href="http://www.douban.com"&gt;
+douban
+&lt;br/&gt;
+&lt;img src="icon/logo-douban.png"/&gt;
+&lt;/a&gt;
+
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9686">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+2005 Plone
+&lt;div id="sup"&gt;
+all kinds of intranet sys. quickly created by Plone..and bron framwork base Stackless Python..
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi"&gt;
+163.com
+&lt;a href="https://code.google.com/p/eurasia/"&gt;
+&lt;img src="icon/logo-eurasia.gif"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9687">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+2006 web.py
+&lt;div id="sup"&gt;
+support millions user
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://mail.sohu.com/"&gt;
+&lt;img src="img/flshmail-pic_bg.jpg"/&gt;
+&lt;/a&gt;
+
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9688">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+2007 Django
+&lt;div id="sup"&gt;
+2 guys 4month,one funny foto sharing site, with voice stroy...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://www.haokanbu.com"&gt;
+好看薄
+&lt;br/&gt;
+&lt;img src="icon/logo-haokanbu.gif"/&gt;
+&lt;/a&gt;
+
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9689">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+2008 Zope3
+&lt;div id="sup"&gt;
+2 guys 4month,one funny foto sharing site, with voice stroy...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://everydo.com/"&gt;
+SaaS
+&lt;br/&gt;
+&lt;img src="icon/logo-paas.gif"/&gt;
+&lt;img src="icon/logo-everydo.gif"/&gt;
+&lt;/a&gt;
+
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9690">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+that look like
+&lt;div id="sup"&gt;
+all kins of teams usage Python...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi"&gt;
+popularly
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9691">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+HR is sad
+&lt;div id="sup"&gt;
+whe wanted ptrhoner...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi8"&gt;
+BUT
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9692">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+what happen?
+&lt;div id="sup"&gt;
+
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;h2 id="takahashi8"&gt;
+Why?
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9693">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+China education
+&lt;div id="sup"&gt;
+be jobed...中国可怕的教育现状....falsification of graduates employment status
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;h2 id="takahashi8"&gt;
+&lt;b class="alert"&gt;被&lt;/b&gt;就业
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+从被就业现象说明:
+- 中国每年本科入校 &gt; 600W
+- 中国高等教育资源是国家垄断的
+- 中国高等教育资源严重不平衡
+- 各个高校的资金来源主要依靠排名国家拨款
+- 排名取决于学校规模,和毕业生就業率
+- 在中国高等教育==就业
+- 但是,师资落后现实,教授内容落后现实
+- 综上,形成黑色矛盾
+- 在中国,企业无法等待学校...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9694">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+can we make Pythoner self?
+&lt;div id="sup"&gt;
+base CPyUG ,we try...
+&lt;/div&gt;
+&lt;br/&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+How ?
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9695">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+where is Pythoner ?
+&lt;div id="sup"&gt;
+can not found in Colleges...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi9"&gt;
+Null
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+在中国,Python 只是 Geek 们的心爱 公司根本不关注:
+- 招聘成功率一向很低,不仅仅是Py 的需求:
+    - 以金山为例
+        * 2008-07 从2700份简历过滤出600人发出在线测试的邀请
+        * 通过46人
+        * 经过训练营的集训，合格16 人
+        * 2008-08 交付各部门,最终入职 13人
+        * 入职比例 = 0.48%
+怎么办?
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9696">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+such as Kingsoft.com
+&lt;div id="sup"&gt;
+2008-06,resume :
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi8"&gt;
+2700
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+在中国,Python 只是 Geek 们的心爱 公司根本不关注:
+- 招聘成功率一向很低,不仅仅是Py 的需求:
+    - 以金山为例
+        * 2008-07 从2700份简历过滤出600人发出在线测试的邀请
+        * 通过46人
+        * 经过训练营的集训，合格16 人
+        * 2008-08 交付各部门,最终入职 13人
+        * 入职比例 = 0.48%
+怎么办?
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9697">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+such as Kingsoft.com
+&lt;div id="sup"&gt;
+look like good
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi8"&gt;
+600
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+在中国,Python 只是 Geek 们的心爱 公司根本不关注:
+- 招聘成功率一向很低,不仅仅是Py 的需求:
+    - 以金山为例
+        * 2008-07 从2700份简历过滤出600人发出在线测试的邀请
+        * 通过46人
+        * 经过训练营的集训，合格16 人
+        * 2008-08 交付各部门,最终入职 13人
+        * 入职比例 = 0.48%
+怎么办?
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9698">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+such as Kingsoft.com
+&lt;div id="sup"&gt;
+passed online testing
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi8"&gt;
+46
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+在中国,Python 只是 Geek 们的心爱 公司根本不关注:
+- 招聘成功率一向很低,不仅仅是Py 的需求:
+    - 以金山为例
+        * 2008-07 从2700份简历过滤出600人发出在线测试的邀请
+        * 通过46人
+        * 经过训练营的集训，合格16 人
+        * 2008-08 交付各部门,最终入职 13人
+        * 入职比例 = 0.48%
+怎么办?
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9699">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+such as Kingsoft.com
+&lt;div id="sup"&gt;
+passed kingsoft college training
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi8"&gt;
+&lt;a href="http://www.kingsoft.com/zt/2008/kscollege/"&gt;
+16
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+在中国,Python 只是 Geek 们的心爱 公司根本不关注:
+- 招聘成功率一向很低,不仅仅是Py 的需求:
+    - 以金山为例
+        * 2008-07 从2700份简历过滤出600人发出在线测试的邀请
+        * 通过46人
+        * 经过训练营的集训，合格16 人
+        * 2008-08 交付各部门,最终入职 13人
+        * 入职比例 = 0.48%
+怎么办?
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9700">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+such as Kingsoft.com
+&lt;div id="sup"&gt;
+at last:check in
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi8"&gt;
+13
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+在中国,Python 只是 Geek 们的心爱 公司根本不关注:
+- 招聘成功率一向很低,不仅仅是Py 的需求:
+    - 以金山为例
+        * 2008-07 从2700份简历过滤出600人发出在线测试的邀请
+        * 通过46人
+        * 经过训练营的集训，合格16 人
+        * 2008-08 交付各部门,最终入职 13人
+        * 入职比例 = 0.48%
+怎么办?
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9701">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+ probability of success
+&lt;div id="sup"&gt;
+...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="takahashi8"&gt;
+0.48%
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+在中国,Python 只是 Geek 们的心爱 公司根本不关注:
+- 招聘成功率一向很低,不仅仅是Py 的需求:
+    - 以金山为例
+        * 2008-07 从2700份简历过滤出600人发出在线测试的邀请
+        * 通过46人
+        * 经过训练营的集训，合格16 人
+        * 2008-08 交付各部门,最终入职 13人
+        * 入职比例 = 0.48%
+怎么办?
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9702">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+提纲...
+&lt;div id="sup"&gt;
+status-&gt;us way-&gt;future
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul id="takahashi2"&gt;
+&lt;li class="said"&gt;&lt;sup&gt;+10'&lt;/sup&gt; Python in China&lt;/li&gt;
+&lt;li class="next"&gt;&lt;sup&gt;+15'&lt;/sup&gt; PythoniCamp &lt;/li&gt;
+&lt;li class="wait"&gt;&lt;sup&gt;+5'&lt;/sup&gt; Discuss&lt;/li&gt;
+&lt;/ul&gt;
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9703"></t>
+<t tx="zoomq.20110225221457.9704">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+what is PythoniCamp ?
+&lt;div id="sup"&gt;
+one way for fast training for practical Pythoner!
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi4"&gt;
+Pythonic 
+&lt;br/&gt;+ 
+&lt;br/&gt;Camp
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9705">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp AT Kingsoft.com
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+fast training for practical Pythoner in Kingsoft.com
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/cpc-index-h550.png"/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+一次机会,印证了我们的共同观点
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9706">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp 08.1
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+heared us spread for Python
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+35
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9707">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp 08.1
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+join Camp 4 week real project develop
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+22
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9708">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp 08.1
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+5 team for 5 project 
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+5
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9709">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp 08.1
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+just 4 week feveloped, can usage 3 project!
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+4
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9710">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp 08.1
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+finaly we get 3 employee
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+3
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9711">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp 08.1
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+probability of success
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+14%
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9712">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp 08.1
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+better than general invite applications flow: 
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi9"&gt;
+30
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9713">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp in tomorrow
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+planning fall into good cycle:
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+hope..
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9714">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp with colleges
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+community member fall into college sharing practical Python knowledge/feeling/skill...
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+free
+&lt;br/&gt;Teachers
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9715">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp with students
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+with community member fall into realy project, hold practical Python knowledge/feeling/skill... in develop
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi7"&gt;
+free
+&lt;br/&gt;Classes
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9716">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp with enterprise
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+from realy project actions discover practical Pythoner
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi7"&gt;
+free
+&lt;br/&gt;train
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9717">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp with community
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+community make better and better influence power..
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi4"&gt;
+free
+&lt;br/&gt;communicate
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9718">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/PythoniCampMonographEn"&gt;
+PythoniCamp so...
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+4 kinds of organize obtain a benefit ;-)
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi8"&gt;
+full
+&lt;br/&gt;Win!
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9719">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+Sayeahoo::
+&lt;div id="sup"&gt;
+anything is GEEK
+&lt;/div&gt;
+
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://zoomquiet.org"&gt;
+&lt;img src="icon/50ren-ZoomQuiet-s5-v800.png"/&gt;
+&lt;/a&gt;
+&lt;br/&gt;
+&lt;img src="id/100514-zq-eye.png"/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9720">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+abt. Zoom.Quiet
+&lt;div id="sup"&gt;
+learnning Python
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+2001
+&lt;br/&gt;
+&lt;a href="http://book.douban.com/subject/1239501/"&gt;&lt;img src="img/book-learn-py.jpg"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    cpylogo.gif
+    http://www.chinesepython.org/cgi_bin/cgb.cgi/home.html
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9721">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+taste python...
+&lt;div id="sup"&gt;
+trying ChinesePython
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+2002
+&lt;/h2&gt;
+&lt;h2 id="takahashi2"&gt;&lt;a href="http://www.chinesepython.org/"&gt;
+Chinese&lt;img src="img/cpylogo.gif"/&gt;Python 
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9722">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+CZUG.org !
+&lt;div id="sup"&gt;
+learnning Zope/Plone...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+2003
+&lt;/h2&gt;
+
+&lt;h2 id="takahashi2"&gt;
+&lt;a href="http://czug.org/"&gt;
+ChinaZopeUserGroup
+&lt;br/&gt;&lt;img src="img/logo-czug.png"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9723">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+woodpecker.org.cn
+&lt;div id="sup"&gt;
+admin. MoinMoin 1.2.4
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+2004
+&lt;/h2&gt;
+
+&lt;h2 id="takahashi2"&gt;
+&lt;a href="http://www.woodpecker.org.cn/"&gt;
+enjoy &lt;img src="img/logo-wpwww_banner.png"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9724">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+CPyUG-&gt; BPyUG
+&lt;div id="sup"&gt;
+working with Python,in SINA.com
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+2005
+&lt;/h2&gt;
+
+&lt;h2 id="takahashi2"&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30"&gt;
+foundation &lt;img src="img/CPUGlogo.png"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9725">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/KarrigellWebDev"&gt;
+Karrigell
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+spreading Python everywhere to everyone...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+2006
+&lt;/h2&gt;
+
+&lt;h2 id="takahashi2"&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/KarrigellWebDev"&gt;
+play &lt;img src="img/karrigell_text.png"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+- 为日后的写书,进行了大量的准备
+- Karrigell 作为轻量平台,发布了很多内部功能网站
+- 也尝试了 CharryPy/Django/TurboGears ...
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9726">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/ZPyUG"&gt;
+ZPyUG
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+spreading Python everywhere to everyone...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+2007
+&lt;/h2&gt;
+
+&lt;h2 id="takahashi2"&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/ZPyUG"&gt;
+珠三角Python用户组
+&lt;/a&gt;&lt;img src="icon/logo-ks.jpg"/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+- 在北京,主持完成了25次技术分享
+- 进入金山,
+- 使用Python 进行了各种平台的构建
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9727">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://py.kingsoft.net/ktrac"&gt;
+KTRAC
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+spreading Python everywhere to everyone...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+2008
+&lt;/h2&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://py.kingsoft.net/ktrac"&gt;
+&lt;img src="img/kupp-ms-ktrac-s5_v300.png"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+- 进入金山
+- 使用Python 进行了各种平台的构建
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9728">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://book.douban.com/subject/3884108/"&gt;
+"Lovely Python"
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+spreading Python everywhere to everyone...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+2009
+&lt;/h2&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://book.douban.com/subject/3884108/"&gt;
+&lt;img src="img/090902-lovpy-mini.jpg"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+- 将多年的体验,集中到一本入门图书 "可爱的Python"
+- 并主持ZPyUG 10次技术分享
+cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9729">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;&lt;/a&gt;
+&lt;a href="http://wiki.woodpecker.org.cn/moin/CPUG"&gt;
+&lt;img src="icon/CPUGlogo-100.png"/&gt;2010
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+社区在不断发展...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi8"&gt;
+&lt;img src="img/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png"/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+??
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9730">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+清风
+&lt;div id="sup"&gt;
+另外一位大妈
+&lt;/div&gt;
+
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="id/qingfeng-2.jpg"/&gt;&lt;br/&gt;
+&lt;span style="font-size:48px"&gt;http://qingfeng.github.com/&lt;/span&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9731">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+豆瓣
+&lt;div id="sup"&gt;
+简介
+&lt;/div&gt;
+
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/douban.png"/&gt;&lt;br/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9732">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+豆瓣
+&lt;div id="sup"&gt;
+简介
+&lt;/div&gt;
+
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/douban1.png"/&gt;&lt;br/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9733">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+豆瓣
+&lt;div id="sup"&gt;
+简介
+&lt;/div&gt;
+
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/douban2.png"/&gt;&lt;br/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9734">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+Quixote
+&lt;div id="sup"&gt;
+简介
+&lt;/div&gt;
+
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/douban3.png"/&gt;&lt;br/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9735">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+北京城市学院
+&lt;div id="sup"&gt;
+简介
+&lt;/div&gt;
+
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/bculogo.png"/&gt;&lt;br/&gt;
+1984
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9736">&lt;/div&gt;
+&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+PythoniCamp AT BCU&lt;img src="img/bculogo.png" height="48"&gt;
+&lt;div id="sup"&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul id="takahashi2"&gt;
+&lt;li&gt;Course&lt;ul class="incremental"&gt;    
+    &lt;li&gt;1 day per week&lt;/li&gt;
+    &lt;li&gt;6 months&lt;/li&gt;
+    &lt;li&gt;For 3 years&lt;/li&gt;
+    &lt;li&gt;Students: 240&lt;/li&gt;
+    &lt;li&gt;Win: 1-2&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9737">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+Why ?
+&lt;div id="sup"&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi3"&gt;
+Students
+&lt;br/&gt;enjoy 
+&lt;br/&gt;programming?
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9738">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+in classing
+&lt;div id="sup"&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/sleep.png"&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9739">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+What happen?
+&lt;div id="sup"&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul id="takahashi2"&gt;
+&lt;li&gt;Problem?&lt;ul class="incremental"&gt;
+    &lt;li&gt;Slow&lt;/li&gt;
+    &lt;li&gt;Theory? Work?&lt;/li&gt;
+    &lt;li&gt;Not everyone is like programming&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9740">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+Practice
+&lt;div id="sup"&gt;
+balalala
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul id="takahashi2"&gt;
+&lt;li&gt;Teaching
+&lt;ul class="incremental"&gt;    
+    &lt;li&gt;1v2&lt;/li&gt;
+    &lt;li&gt;Fast&lt;/li&gt;
+    &lt;li&gt;Basics&lt;/li&gt;
+    &lt;li&gt;Students: 5&lt;/li&gt;
+    &lt;li&gt;Win: 5&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9741">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+&lt;div id="sup"&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi"&gt;
+&lt;img src="img/stu.png"&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9742">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+Student achievement
+&lt;div id="sup"&gt;
+balalala
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;h2 id="takahashi3"&gt;
+&lt;a href="http://www.zaojiao100.com/"&gt;
+&lt;img src="img/zaojiao100.png"/&gt;&lt;br/&gt;
+zaojiao100.com
+&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+zaojiao100.com
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9743">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+brief::
+&lt;div id="sup"&gt;
+status-&gt;us way-&gt;future
+&lt;/div&gt;
+&lt;/h1&gt;
+
+&lt;ul id="takahashi2"&gt;
+&lt;li class="said"&gt;&lt;sup&gt;+10'&lt;/sup&gt; Python in China&lt;/li&gt;
+&lt;li class="said"&gt;&lt;sup&gt;+15'&lt;/sup&gt; PythoniCamp &lt;/li&gt;
+&lt;li class="next"&gt;&lt;sup&gt;+5'&lt;/sup&gt; Discuss&lt;/li&gt;
+&lt;/ul&gt;
+    &lt;div class="handout"&gt;
+    class="incremental"...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9744">&lt;div id="sup"&gt;
+山寨的，非业界公认的，个人体验为基础的...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2  id="takahashi8"&gt;
+Q&amp;A
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9745">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+at last again(2009-09-01)
+&lt;div id="sup"&gt;
+Book commend: the first Chinese original introductory bookg for Python;-)
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://book.douban.com/subject/3884108/"&gt;
+&lt;img src="img/090902-lovpy.jpg"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9746">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+at last in last (2008-06-01)
+&lt;div id="sup"&gt;
+Book commend: the first Chinese original Python resource reading book
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi"&gt;
+&lt;a href="http://book.douban.com/subject/3117898/"&gt;
+&lt;img src="img/080601-py-resource-code.jpg"/&gt;
+&lt;/a&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9747">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+the Python Status of China &lt;sub&gt;appended discuss&lt;/sub&gt;
+&lt;div id="sup"&gt;
+for Singapore Python User group...
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;h2 id="takahashi2"&gt;
+SIS Meeting Room 4-4 
+&lt;br/&gt;&lt;span style="text-decoration :  line-through;"&gt;10.6.11 17:00~21:00&lt;/span&gt;
+&lt;sup&gt;&lt;b class="alert"&gt;
+canceled!&lt;/b&gt;
+&lt;/sup&gt;
+&lt;br/&gt;
+&lt;img src="img/smu-campusmap2.png"/&gt;
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110225221457.9748">&lt;div class="slide"&gt;
+&lt;h1&gt;
+&lt;a href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet"&gt;
+&lt;img src="id/zoomquiet_1-1_outline.png"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.douban.com/people/qingfeng/"&gt;
+&lt;img src="id/qingfeng-icon.jpg"/&gt;
+&lt;/a&gt;
+Slide Version&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;historic::
+    &lt;ul&gt;
+        &lt;li&gt;100611 Zoom.Quiet fixed the error notic &lt;/li&gt;
+        &lt;li&gt;100610 Zoom.Quiet+chenrenquan append notice &lt;/li&gt;
+        &lt;li&gt;100609 Zoom.Quiet+qingfeng+chenrenquan fixed some&lt;/li&gt;
+        &lt;li&gt;100608 Zoom.Quiet split Python in China status&lt;/li&gt;
+        &lt;li&gt;100605 Zoom.Quiet appended and fixed some order&lt;/li&gt;
+        &lt;li&gt;100604 Zoom.Quiet merged all content&lt;/li&gt;
+        &lt;li&gt;100603 qingfeng suggest as PDF&lt;/li&gt;
+        &lt;li&gt;100602 Zoom.Quiet creat slide by &lt;a href="s5.html"&gt;s5&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;100406 Zoom.Quiet make outline as &lt;a href="http://wiki.woodpecker.org.cn/moin/PythonicCampEn"&gt;English&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;100121 Zoom.Quiet creat outline &lt;sup&gt;&lt;a href="http://wiki.woodpecker.org.cn/moin/PythonicCamp"&gt;CN&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9823">@path 110226-why-pythonicamp
+</t>
+<t tx="zoomq.20110225221457.9824">@language rest
+@tabwidth -4
+.. include:: &lt;s5defs.txt&gt;
+
+==================================================================
+点解蟒营
+==================================================================
+
+～PythoniCamp 简介
+
+:作者: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:URL:   http://zoomquiet.org/res/s5/110226-why-pythonicamp
+
+&lt;&lt;DOCDEFINE&gt;&gt;
+
+&lt;&lt;footer&gt;&gt;
+
+@others
+
+</t>
+<t tx="zoomq.20110225221457.9825">.. This document has been placed in the CC domain.
+.. _Docutils: http://docutils.sourceforge.net/
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+.. _S5: http://meyerweb.com/eric/tools/s5/
+.. _Firefox: http://www.mozilla.com/firefox/
+
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+.. _(CC)by-nc-sa:
+    http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. _FireFox:
+    http://www.mozilla.com/firefox/
+.. _S5介绍:
+    http://zoomquiet.org/res/s5/100826-PyTDD/s5.html
+.. _WYTIWYG:
+    http://wiki.woodpecker.org.cn/moin/WyTiWyG
+
+.. 图片定义区
+.. |bullet| unicode:: U+02022
+.. |mode| unicode:: U+00D8 .. capital o with stroke
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: top
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+.. |LeoProse| image:: pix/LeoProse.gif
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+   :alt: 是也乎;-)
+   :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+
+</t>
+<t tx="zoomq.20110225221457.9826">.. footer:: 
+
+   `Zoom.Quiet`_ v11.02.25 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+</t>
+<t tx="zoomq.20110225221457.9827">&lt;免责/&gt;
+=========
+
+.. container:: handout
+
+   山寨的，非业界公认的，个人体验为基础!
+   |zqeye|
+
+
+.. class:: takahashi1
+
+    参考所有同好行为总结而得
+
+    - 一切资料来自网络互动挖掘
+    - 一切想法来自日常学习工作
+    - 一切体悟来自各种沟通交流
+    - 一切知识来自社区分享印证
+    - 一切经验来自个人失败体验
+
+
+</t>
+<t tx="zoomq.20110225221457.9829">高橋流!
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center
+
+    .. image:: pix/Takahashi-method.jpg
+        :scale: 150 %
+        :alt: 高橋流
+        :align: center
+        :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
+
+</t>
+<t tx="zoomq.20110225221457.9830">文字
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    巨大
+
+
+</t>
+<t tx="zoomq.20110225221457.9831">幻灯
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    很多
+
+
+</t>
+<t tx="zoomq.20110225221457.9832">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    快!
+
+
+</t>
+<t tx="zoomq.20110225221457.9833">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi8
+
+    很快!
+
+
+</t>
+<t tx="zoomq.20110225221457.9834">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi7
+
+    非常快!
+
+
+</t>
+<t tx="zoomq.20110225221457.9835">所以:
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi10
+
+    :orange:`听`
+
+
+</t>
+<t tx="zoomq.20110225221457.9836">&lt;进度/&gt;
+=========
+
+.. container:: handout
+
+   追求-&gt;过程-&gt;使劲交流 |zqeye|
+
+
+.. class:: takahashi3
+
+    - :orange:`3' 目标`
+    - :silver:`11' 过程`
+    - :silver:`19' 要点`
+    - :silver:`21' 问答`
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9837">&lt;Goal&gt;
+==================
+
+.. container:: handout
+
+    玩好学好,体验靠谱! |zqeye|
+
+
+.. class:: takahashi10
+
+   共赢
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9838">学生
+==================
+
+.. container:: handout
+
+    获得真实的开发导引 |zqeye|
+
+
+.. class:: takahashi8
+
+   +引导
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9839">学校
+==================
+
+.. container:: handout
+
+    获得免费的技术导师 |zqeye|
+
+
+.. class:: takahashi8
+
+   +导师
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9840">企業
+==================
+
+.. container:: handout
+
+    获得高效的潜在员工鳞选 |zqeye|
+
+
+.. class:: takahashi8
+
+   +预训
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9841">社区
+==================
+
+.. container:: handout
+
+    获得持续的沟通机会 |zqeye|
+
+
+.. class:: takahashi8
+
+   +交流
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9842">&lt;/Goal&gt;
+==================
+
+.. container:: handout
+
+    玩好学好,体验靠谱! |zqeye|
+
+
+.. class:: takahashi8
+
+   (^.^)
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9843">&lt;进度/&gt;
+=========
+
+.. container:: handout
+
+   追求-&gt;过程-&gt;使劲交流 |zqeye|
+
+
+.. class:: takahashi3
+
+    - :gray:`3' 目标`
+    - :orange:`11' 过程`
+    - :silver:`19' 要点`
+    - :silver:`17' 问答`
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9844">标准化流程
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    &lt;Flow&gt;
+
+
+</t>
+<t tx="zoomq.20110225221457.9845">开营
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/pyicamp-flow-0_wsd-napkin.png
+        :align: center
+        :scale: 200 %
+        :alt: 主动报名!
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9846">作品
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/pyicamp-flow-1_wsd-napkin.png
+        :align: center
+        :scale: 150 %
+        :alt: 承诺!
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9847">计划
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/pyicamp-flow-2_wsd-napkin.png
+        :align: center
+        :scale: 130 %
+        :alt: 合理
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9848">日常
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/pyicamp-flow-3_wsd-napkin.png
+        :align: center
+        :scale: 120 %
+        :alt: 节奏
+
+.. container:: notes
+
+   - 时间安排和沟通...
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9849">闭营
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/pyicamp-flow-all_wsd-napkin.png
+        :align: center
+        :scale: 110 %
+        :alt: 正式
+
+.. container:: notes
+
+   - 文档!仓库!
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9850">敏捷...
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi7
+
+    &lt;/Flow&gt;
+
+
+</t>
+<t tx="zoomq.20110225221457.9851">&lt;进度/&gt;
+=========
+
+.. container:: handout
+
+   追求-&gt;过程-&gt;使劲交流 |zqeye|
+
+
+.. class:: takahashi3
+
+    - :gray:`3' 目标`
+    - :gray:`11' 过程`
+    - :orange:`19' 要点`
+    - :silver:`17' 问答`
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9852">必须要突破的
+==================
+
+.. container:: handout
+
+    心理定式... |zqeye|
+
+
+.. class:: takahashi
+
+   &lt;HOPE&gt;
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9853">人类的摧生婆
+==================
+
+.. container:: handout
+
+    能够限制你的只有你自个儿 |zqeye|
+
+
+.. class:: takahashi9
+
+   工具
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9854">最古老也是最高效的沟通方式
+====================================
+
+.. container:: handout
+
+    怎么强调也不为过 |zqeye|
+
+
+.. class:: takahashi10
+
+   :orange:`邮件`
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9855">版本管理
+==================
+
+.. container:: handout
+
+    最贴心的工具 |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/logo/logo-hg-200.png
+        :align: center
+        :scale: 120 %
+        :alt: Hg
+        :target: http://code.google.com/p/kcpycamp/wiki/HowtoScm
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9856">核心转变
+==================
+
+.. container:: handout
+
+    为自己负责! |zqeye|
+
+
+.. class:: takahashi10
+
+    `态度 &lt;http://wiki.woodpecker.org.cn/moin/KaoPulity&gt;`__
+
+.. container:: notes
+
+   - 從此开始经营自个儿的社会信用!
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9857">时限!
+==================
+
+.. container:: handout
+
+    不能无限尝试! |zqeye|
+
+
+.. class:: takahashi9
+
+    :orange:`100h`
+
+.. container:: notes
+
+   - 100小时~2周全职工作时间
+   - 期望持续的每天花一定时间在蟒营
+   - 每天1小时,3个月,完成进化!
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9858">海宽天高!
+==================
+
+.. container:: handout
+
+    能够限制你的只有你自个儿 |zqeye|
+
+
+.. class:: takahashi
+
+   &lt;/HOPE&gt;
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9859">&lt;进度/&gt;
+=========
+
+.. container:: handout
+
+   追求-&gt;过程-&gt;使劲交流 |zqeye|
+
+
+.. class:: takahashi3
+
+    - :gray:`3' 目标`
+    - :gray:`11' 过程`
+    - :gray:`19' 要点`
+    - :orange:`17' 问答`
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9860">嗯嗯嗯?!
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi10
+
+    Q&amp;A
+
+
+</t>
+<t tx="zoomq.20110225221457.9861">&lt;版本/&gt;
+=========
+
+.. container:: handout
+
+   |zqeye|
+
+
+- 110226 为华南师范大学 增补
+- 101011 使用"高桥流白样式"并迁移为 rst2s5 格式
+- 101021 根据暨大交流修订别字
+- 100819 upgrade for 金山俱乐部
+- 080918 upgrade for OSCamp
+- 080810 fixed 4 internat
+- 080806 fixed for new KC people
+- 080619 创建
+
+
+:反馈:
+    `Zoom.Quiet@gmail.com &lt;zoomquiet+sns@gmai.com&gt;`__
+:查阅:
+    http://zoomquiet.org/res/s5/110226-why-pythonicamp
+
+
+&lt;&lt;S5&gt;&gt;
+
+</t>
+<t tx="zoomq.20110225221457.9862">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
+==============================================================================================
+
+.. container:: handout
+
+    纯HTML 幻灯撰写框架!... |zqeye|
+
+
+- S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
+- 仅用 CSS+JS 实现的HTML格式幻灯演示工具~ `本地介绍 &lt;s5.html&gt;`__
+- 我的编辑工具: |LeoProse| ~ `文学化编辑环境 &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+
+
+.. image:: pix/2010-01-18-230729_605x421_leo.png
+    :align: center
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+
+</t>
+<t tx="zoomq.20110225221457.9863">&lt;Zoom.Quiet/&gt;
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/id/100514-zq-eye.png
+        :align: center
+        :scale: 80 %
+        :alt: 是也乎,是也乎
+
+    .. image:: i/map/50ren-ZoomQuiet-s5-v800.png
+        :align: center
+        :scale: 100 %
+        :alt: Zoom.Quiet
+        :target: http://zoomquiet.org
+
+
+</t>
+<t tx="zoomq.20110225221457.9897">&lt;div class="slide"&gt;
+&lt;h1&gt; 提纲 &lt;/h1&gt;
+
+&lt;b style="font-size:150%"&gt;
+&lt;center&gt;
+&lt;ol&gt;
+    &lt;li&gt;KSPEG简介
+        &lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+    &lt;li&gt;蟒营 由来
+        &lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+    &lt;li&gt;蟒营 体验
+        &lt;br/&gt;&lt;br/&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/center&gt;
+&lt;/b&gt;
+    &lt;div class="handout"&gt;
+&lt;center&gt;&lt;img src="icon/080428-zeuux-logo-gb-h90.png"/&gt;&lt;/center&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9901">&lt;Zoom.Quiet&gt;
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi7
+
+    本命年+1
+
+
+.. container:: notes
+
+   - 刚刚过了生日,应该说已经37岁了
+   - 已经工作了12年
+
+
+</t>
+<t tx="zoomq.20110225221457.9902">牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 648d
+
+
+
+.. image:: i/foto/niuniu110105.jpeg
+    :align: center
+    :scale: 110 %
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+
+
+</t>
+<t tx="zoomq.20110225221457.9903">&lt;/Zoom.Quiet&gt;
+==================
+
+.. container:: handout
+
+    高兴/紧张... 分享学习的个人思考 |zqeye|
+
+
+.. class:: takahashi8
+
+   (^.^)
+
+
+.. container:: notes
+
+   - 这次可以和大家见面,并高兴的聊天非常高兴!
+   - 不仅高兴可以和大家分享我认为很好玩的事儿,
+   - 更加高兴可以从大家这儿听到从前的自个儿可能都没有想到的事儿
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9910">总之
+=========
+
+.. container:: handout
+
+   期望可以记住的 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    * 蟒营是个实践空间...
+    * 将提前遭遇必然的颠覆!
+    * 能够改变我的只有自己
+
+
+.. container:: notes
+
+   - ~单位时间可以记住的只有7+-2 个
+
+
+</t>
+<t tx="zoomq.20110225221457.9912">最后...
+==================
+
+.. container:: handout
+
+   好书推荐... |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/s3958139-itbird.jpg
+        :align: center
+        :scale: 100 %
+        :alt: IT小小鸟
+        :target: http://book.douban.com/subject/4006425/
+
+
+</t>
+<t tx="zoomq.20110225221457.9913">最后的最后...
+==================
+
+.. container:: handout
+
+   好书推荐... |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/s4279952-zen4talk.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 讲演之禅
+        :target: http://book.douban.com/subject/4760725/
+
+
+</t>
+<t tx="zoomq.20110225221457.9919">重新认识自个儿
+==================
+
+.. container:: handout
+
+    为自己负责! |zqeye|
+
+
+.. class:: takahashi10
+
+    视野
+
+.. container:: notes
+
+   - 從此开始经营自个儿的社会信用!
+
+
+
+</t>
+<t tx="zoomq.20110225221457.9921">可愛的Python
+==================
+
+.. container:: handout
+
+   2009-09-02出版,
+
+
+.. class:: takahashi
+
+    .. image:: i/090902-lovpy.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://www.china-pub.com/195771
+
+
+.. container:: notes
+
+   - 这本书,是有关开发语言 Python 的,
+   - 不过,今天说的和内容无关,是和怎么写出这样一本挺厚的书相关的
+   - 写成一本书,真的不是难事儿...
 
 
 
