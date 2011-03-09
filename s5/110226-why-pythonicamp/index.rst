@@ -51,7 +51,7 @@
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v11.02.25 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v11.02.26 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 
 <免责/>
 =========
