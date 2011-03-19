@@ -1,0 +1,53 @@
+digraph G4ldapACLinWEB {
+    /*全局设定
+$ dot -Tpng ldap-acl-web.dot -o ldap-acl-web.png
+$ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.map
+    */
+    graph [label="LDAP权限控制 WEB界面图谱",fontsize=14.0,
+        labeljust="l",labelloc="t",center=1,
+        ranksep=0.2,center=1,ratio=compress,
+        rankdir=LR,
+        ];
+
+    node[fontsize=10.0,height=0.1,
+        style=filled,fillcolor=snow,
+        color=darkolivegreen,fontcolor=darkolivegreen,
+        shape=plaintext,
+        ];
+
+    edge [fontsize=9.0,fontcolor=yellowgreen,
+        fontcolor=gray25,
+        color=gray30,
+        arrowsize=0.5,arrowhead=vee,arrowtail=none,
+        ];
+
+    /*图元声明
+    start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+    */
+    User [label="用户",shape=egg];
+    login [label="登录",shape=note];
+    reset [label="重置",shape=note];
+    modify [label="修订",shape=note];
+    fixed [label="实操",shape=note];
+    mail [label="邮箱",shape=component,color="gold",style="setlinewidth(2)"];
+    timeout [label="超期",shape=component];
+    /*图例关系*/
+    User->login->modify->mail[color="green"];
+    User->reset->mail [color="blue"];
+        reset->ldapsearch;
+        login->ldapwhoami;
+    mail->User->fixed->ldappasswd [color="red"];
+        fixed->timeout;
+}
+

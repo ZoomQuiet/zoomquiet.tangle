@@ -1,0 +1,19 @@
+participant "用户" as user
+participant "lpasswd.py" as lpasswd
+participant "LDAP" as LDAP
+participant "Beanstalkd" as MQ
+participant "swallower.py" as swallower
+participant "邮箱" as mailbox
+
+user->lpasswd: 0.登录
+activate lpasswd
+lpasswd->MQ: 1.任务消息
+activate MQ
+MQ-->swallower: 2.守护提取
+activate swallower
+swallower->mailbox: 3.发送链接
+mailbox->user: 4.用户收取
+user->lpasswd: 5.点击链接
+lpasswd->LDAP: 6.变更数据
+activate LDAP
+

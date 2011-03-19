@@ -1,0 +1,35 @@
+digraph G4ldapACLinCIL {
+    /*全局设定
+$ dot -Tpng ldap-acl-cil.dot -o ldap-acl-cil.png
+$ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.map
+    */
+    graph [label="LDAP权限控制 CIL界面图谱",fontsize=14.0,
+        labeljust="l",labelloc="t",center=1,
+        ranksep=0.2,center=1,ratio=compress,
+        rankdir=LR,
+        ];
+
+    node[fontsize=10.0,height=0.1,
+        style=filled,fillcolor=snow,
+        color=darkolivegreen,fontcolor=darkolivegreen,
+        shape=plaintext,
+        ];
+
+    edge [fontsize=9.0,fontcolor=yellowgreen,
+        fontcolor=gray25,
+        color=gray30,
+        arrowsize=0.5,arrowhead=vee,arrowtail=none,
+        ];
+
+    /*图元声明
+    LighttpdM [label="Lighttpd主服",shape=tab];
+    */
+    User [label="用户",shape=egg];
+    Admin [label="管理员",shape=egg];
+    /*图例关系*/
+    User->Admin;
+        Admin->ldapsearch [label="查询"];
+        Admin->ldappasswd [label="口令"];
+        Admin->ldapwhoami [label="测试"];
+}
+
