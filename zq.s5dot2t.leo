@@ -164,10 +164,12 @@
 <v t="zoomq.20110318142827.8785"><vh>MQ期</vh></v>
 <v t="zoomq.20110318142827.8787"><vh>重构时间</vh></v>
 <v t="zoomq.20110319211023.10015"><vh>配置管理</vh></v>
+<v t="zoomq.20110320130952.10017"><vh>过期</vh></v>
+<v t="zoomq.20110320130952.10021"><vh>BDB</vh></v>
 <v t="zoomq.20110319211023.10017"><vh>Supervisor</vh></v>
 <v t="zoomq.20110319211023.10019"><vh>Bottle</vh></v>
 </v>
-<v t="zoomq.20110302103337.8957" a="E"><vh>brief3</vh>
+<v t="zoomq.20110302103337.8957"><vh>brief3</vh>
 <v t="zoomq.20110302103337.8958"><vh>总结7+-2</vh></v>
 <v t="zoomq.20110302103337.8959"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20110302103337.8960"><vh>番茄工作法</vh></v>
@@ -41064,7 +41066,7 @@ MQ初品
 </t>
 <t tx="zoomq.20101109214756.7303">.. footer:: 
 
-   `Zoom.Quiet`_ v11.03.2 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v11.03.20 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 </t>
 <t tx="zoomq.20101109214756.7304">&lt;免责/&gt;
 =========
@@ -41129,6 +41131,7 @@ MQ初品
    |zqeye|
 
 
+- 110320 增补BDB感觉
 - 110319 增补代码分享
 - 110318 增补dot图谱
 - 110317 增补MaggiQ 照片
@@ -60812,6 +60815,59 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     &lt;p&gt;{{alert}}::&lt;/p&gt;
 
     %include footer4notify
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20110320130952.10017">过期
+==================
+
+.. container:: handout
+
+   BDB很爽的NoSQL... |zqeye|
+
+
+.. code-block:: python
+
+        #... overdue     = 73728
+        hashed = db[linkback].split(",")
+        if ini.overdue &lt; int(time.time())-int(hashed[0]):
+            __redirect("Overdue",ini.msgTPLoverdue)
+        # else: ...
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20110320130952.10021">配合的
+==================
+
+.. container:: handout
+
+   BDB很爽的NoSQL... |zqeye|
+
+
+.. code-block:: python
+
+    def __bdburl(mailink):
+        db = bdb.btopen(ini.todaydb, 'c')
+        urlink = "%s,%s"%(int(time.time()),mailink)
+        urlkey = hashlib.sha224(urlink).hexdigest()
+        db[urlkey] = urlink
+        return urlkey
 
 
 .. container:: notes

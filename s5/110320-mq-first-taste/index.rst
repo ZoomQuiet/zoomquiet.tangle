@@ -53,7 +53,7 @@ MQ初品
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v11.03.2 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v11.03.20 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 
 <免责/>
 =========
@@ -783,6 +783,57 @@ __mail()
 
 
 
+过期
+==================
+
+.. container:: handout
+
+   BDB很爽的NoSQL... |zqeye|
+
+
+.. code-block:: python
+
+        #... overdue     = 73728
+        hashed = db[linkback].split(",")
+        if ini.overdue < int(time.time())-int(hashed[0]):
+            __redirect("Overdue",ini.msgTPLoverdue)
+        # else: ...
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+配合的
+==================
+
+.. container:: handout
+
+   BDB很爽的NoSQL... |zqeye|
+
+
+.. code-block:: python
+
+    def __bdburl(mailink):
+        db = bdb.btopen(ini.todaydb, 'c')
+        urlink = "%s,%s"%(int(time.time()),mailink)
+        urlkey = hashlib.sha224(urlink).hexdigest()
+        db[urlkey] = urlink
+        return urlkey
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
 Supervisor
 ==================
 
@@ -973,6 +1024,7 @@ Bottle的模板
    |zqeye|
 
 
+- 110320 增补BDB感觉
 - 110319 增补代码分享
 - 110318 增补dot图谱
 - 110317 增补MaggiQ 照片
