@@ -288,7 +288,7 @@ LDAP
 
     .. image:: i/map/ldap-acl-web.png
         :align: center
-        :scale: 120 %
+        :scale: 200 %
         :target: #
 
 
@@ -452,7 +452,7 @@ LDAP
 
 .. class:: takahashi10
 
-    栈
+    队列
 
 
 .. container:: notes
@@ -875,6 +875,32 @@ Bottle的模板
     <p>{{alert}}::</p>
 
     %include footer4notify
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+TODO
+==================
+
+.. container:: handout
+
+   集中力哪! |zqeye|
+
+
+.. class:: takahashi
+
+    .. class:: incremental
+
+    - 消费者单点
+    - 远程消息
+    - 消息集中统计
+    - 任务消息持久化
 
 
 .. container:: notes

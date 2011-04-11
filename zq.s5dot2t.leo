@@ -146,7 +146,7 @@
 <v t="zoomq.20110318142827.11363"><vh>WEB</vh></v>
 <v t="zoomq.20110318142827.11365"><vh>I/O</vh></v>
 </v>
-<v t="zoomq.20110318142827.8782"><vh>brief1</vh>
+<v t="zoomq.20110318142827.8782" a="E"><vh>brief1</vh>
 <v t="zoomq.20110318142827.11367"><vh>线程</vh></v>
 <v t="zoomq.20110318142827.11369"><vh>MQ</vh></v>
 <v t="zoomq.20110318142827.11371"><vh>MaggiQ</vh></v>
@@ -168,6 +168,7 @@
 <v t="zoomq.20110320130952.10021"><vh>BDB</vh></v>
 <v t="zoomq.20110319211023.10017"><vh>Supervisor</vh></v>
 <v t="zoomq.20110319211023.10019"><vh>Bottle</vh></v>
+<v t="zoomq.20110320130952.10024"><vh>TODO</vh></v>
 </v>
 <v t="zoomq.20110302103337.8957"><vh>brief3</vh>
 <v t="zoomq.20110302103337.8958"><vh>总结7+-2</vh></v>
@@ -175,7 +176,7 @@
 <v t="zoomq.20110302103337.8960"><vh>番茄工作法</vh></v>
 <v t="zoomq.20110302103337.8961"><vh>讲演之禅</vh></v>
 </v>
-<v t="zoomq.20101109214756.7402" a="E"><vh>version</vh>
+<v t="zoomq.20101109214756.7402"><vh>version</vh>
 <v t="zoomq.20101109214756.7403"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 <v t="zoomq.20110318142827.11355"><vh>abt.ZQ</vh></v>
 </v>
@@ -60259,7 +60260,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
     .. image:: i/map/ldap-acl-web.png
         :align: center
-        :scale: 120 %
+        :scale: 200 %
         :target: #
 
 
@@ -60399,7 +60400,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: takahashi10
 
-    栈
+    队列
 
 
 .. container:: notes
@@ -60868,6 +60869,33 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
         urlkey = hashlib.sha224(urlink).hexdigest()
         db[urlkey] = urlink
         return urlkey
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20110320130952.10024">TODO
+==================
+
+.. container:: handout
+
+   集中力哪! |zqeye|
+
+
+.. class:: takahashi
+
+    .. class:: incremental
+
+    - 消费者单点
+    - 远程消息
+    - 消息集中统计
+    - 任务消息持久化
 
 
 .. container:: notes
