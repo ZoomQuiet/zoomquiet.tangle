@@ -98,7 +98,6 @@
     .. image:: i/foto/niuniu-110316.jpeg
         :align: center
         :scale: 100 %
-        :alt: 是也乎,是也乎
 
 
 .. container:: notes

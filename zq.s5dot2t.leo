@@ -169,11 +169,11 @@
 <v t="zoomq.20110509083041.8954"><vh>网银</vh></v>
 <v t="zoomq.20110509083041.8958"><vh>OOo</vh></v>
 <v t="zoomq.20110509083041.15257"><vh>IM</vh></v>
-<v t="zoomq.20110509083041.15246" a="E"><vh>WYTIWYG</vh>
+<v t="zoomq.20110509083041.15246"><vh>WYTIWYG</vh>
 <v t="zoomq.20110509083041.15247"><vh>t2t</vh></v>
 <v t="zoomq.20110509083041.15248"><vh>rST</vh></v>
 <v t="zoomq.20110509083041.15253"><vh>Sphinx</vh></v>
-<v t="zoomq.20110509083041.15249" a="E"><vh>rST2a</vh>
+<v t="zoomq.20110509083041.15249"><vh>rST2a</vh>
 <v t="zoomq.20101109214756.7403"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 <v t="zoomq.20110509083041.15251"><vh>s5html</vh></v>
@@ -195,12 +195,12 @@
 <v t="zoomq.20110508102226.8949"><vh>宅点东西吧</vh></v>
 <v t="zoomq.20110508102226.8950"><vh>/期望</vh></v>
 </v>
-<v t="zoomq.20110302103337.8958" a="E"><vh>总结7+-2</vh>
+<v t="zoomq.20110302103337.8958"><vh>总结7+-2</vh>
 <v t="zoomq.20110509083041.15255"><vh>SB之战</vh></v>
 <v t="zoomq.20110302103337.8959"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20110302103337.8961"><vh>讲演之禅</vh></v>
 </v>
-<v t="zoomq.20101109214756.7402" a="E"><vh>version</vh>
+<v t="zoomq.20101109214756.7402"><vh>version</vh>
 <v t="zoomq.20101109214756.7403"></v>
 </v>
 </v>
@@ -1124,13 +1124,13 @@
 </v>
 <v t="zoomq.20100819090507.6366"><vh>summary</vh></v>
 </v>
-<v t="zoomq.20110302103337.8746" a="E"><vh>100918-MyTools</vh>
+<v t="zoomq.20110302103337.8746"><vh>100918-MyTools</vh>
 <v t="zoomq.20110302103337.8747"><vh>盛大讲演回顾</vh></v>
 <v t="zoomq.20110302103337.8748"><vh>html-s5</vh>
 <v t="zoomq.20110302103337.8749"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20110302103337.8848" a="E"><vh>rst2s5</vh>
-<v t="zoomq.20110302103337.8849" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110302103337.8848"><vh>rst2s5</vh>
+<v t="zoomq.20110302103337.8849"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110302103337.8850"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8851"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8852"><vh>免责</vh>
@@ -61482,7 +61482,6 @@ MQ初品
     .. image:: i/foto/niuniu-110316.jpeg
         :align: center
         :scale: 100 %
-        :alt: 是也乎,是也乎
 
 
 .. container:: notes
