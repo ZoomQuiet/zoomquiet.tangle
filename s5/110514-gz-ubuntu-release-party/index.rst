@@ -1054,6 +1054,27 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 
 
+评估雷达
+========================================================================
+
+.. container:: handout
+
+   - 专注度~没有意外功能..
+   - 易用性度~学习成本
+   - CIL可自动化性
+   - 扩展度 ~ 数据是否标准
+   - 社区活跃度
+
+
+.. class:: takahashi7
+
+    .. image:: i/levelradar_demo.png
+        :align: center
+        :scale: 100 %
+        :alt: 雷达图
+        :target: #
+
+
 <brief/>
 =========
 
@@ -1368,6 +1389,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
+- 110513 增补工具评估雷达图
 - 110508 找回历史照片
 - 110507 為中大Ubuntu Release Party 创建
 
@@ -1405,6 +1427,8 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
    - 虽然有很多其它替代方案，至今用得最爽的还是 S5
    - 最好也是最不好的，就是S5 需要专用的http 空间发布，无法直接分享到 slidshare.com 之类SNS空间中
+
+
 
 
 

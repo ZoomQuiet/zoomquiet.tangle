@@ -4,9 +4,9 @@ Changelog::
     Zoomq::090331 hack theme for CPyUG
 */
 
-body {background: #ffffff; 
-    color: #121212; font-size: 1.8em;}
-
+body {background: #121212; 
+    color: #fefefe; font-size: 1.8em;}
+a {color:#66FF33;}
 :link, :visited {text-decoration: none;}
 
 #controls :active {color: #88A !important;}
@@ -108,9 +108,10 @@ text-align: center;
     width: 100%;
 }
 .slide h1 {position: absolute; left: 10px; z-index: 1;
+    width:12em;
     white-space: nowrap;
     text-transform: capitalize;
-    top: .5em; width: 100%;
+    top: .5em; 
     margin: 0 0 0.5em 0;  
     padding: 0px;
     font: 120%/1em georgia, Times, 'Times New Roman', serif;
@@ -158,7 +159,7 @@ div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
     margin: 0 auto; width: 90%; height: 281px;
     text-align: center;
     font-size: 5em;
-    color: #131313;}
+    color: #ffffff;}
 
 #slide0 h3 {margin-top: 1.5em; font-size: 1.5em;}
 #slide0 h4 {margin-top: 0; font-size: 1em;}
@@ -177,7 +178,7 @@ html>body .external {border-bottom: none;}
 .slide .current {color: #B02;}
 light grey blue: #385775
 */
-.incremental, .incremental *, .incremental *:after {color: #B3C6DB; visibility: visible;}
+.incremental, .incremental *, .incremental *:after {color: #343434; visibility: visible;}
 img.incremental {visibility: hidden;}
 .slide .current {color: darkorange;}
 
