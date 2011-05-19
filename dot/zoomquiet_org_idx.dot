@@ -112,7 +112,6 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         learn->sll [style="setlinewidth(1)"];
         ecug->erlb;
 
-
     edge [style=invis];
     title->share;
     mailme->learn;
