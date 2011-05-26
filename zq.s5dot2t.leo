@@ -137,17 +137,17 @@
 <v t="zoomq.20101109214756.7303"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101109214756.7304"><vh>免责</vh></v>
 <v t="zoomq.20110513101248.9111" a="E"><vh>三体</vh>
-<v t="zoomq.20110519090226.10737" a="E"><vh>三体I</vh>
+<v t="zoomq.20110519090226.10737"><vh>三体I</vh>
 <v t="zoomq.20110519090226.10755"><vh>p299</vh></v>
 <v t="zoomq.20110519090226.10761"><vh>智子</vh></v>
 <v t="zoomq.20110519090226.10767"><vh>文革</vh></v>
 </v>
-<v t="zoomq.20110519090226.10739" a="E"><vh>三体II</vh>
+<v t="zoomq.20110519090226.10739"><vh>三体II</vh>
 <v t="zoomq.20110519090226.10757"><vh>p470</vh></v>
 <v t="zoomq.20110519090226.10763"><vh>面壁</vh></v>
 <v t="zoomq.20110519090226.10769"><vh>无</vh></v>
 </v>
-<v t="zoomq.20110519090226.10741" a="E"><vh>三体III</vh>
+<v t="zoomq.20110519090226.10741"><vh>三体III</vh>
 <v t="zoomq.20110519090226.10759"><vh>p513</vh></v>
 <v t="zoomq.20110519090226.10765"><vh>2向</vh></v>
 <v t="zoomq.20110519090226.10771"><vh>童话</vh></v>
@@ -157,6 +157,7 @@
 <v t="zoomq.20110519090226.10781"><vh>起名</vh></v>
 <v t="zoomq.20110519090226.10778"><vh>难受</vh></v>
 <v t="zoomq.20110519090226.10785"><vh>态度</vh></v>
+<v t="zoomq.20110526093520.9262"><vh>故事</vh></v>
 <v t="zoomq.20110519090226.10779"><vh>&lt;/吐糟&gt;</vh></v>
 </v>
 </v>
@@ -176,8 +177,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20110519090226.10640" a="E"><vh>110515-sz-techparty-booking</vh>
-<v t="zoomq.20110519090226.10641" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110519090226.10640"><vh>110515-sz-techparty-booking</vh>
+<v t="zoomq.20110519090226.10641"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110519090226.10642"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110519090226.10643"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110519090226.10644"><vh>免责</vh>
@@ -190,7 +191,7 @@
 <v t="zoomq.20110519090226.10651"><vh>Takahashi</vh></v>
 </v>
 </v>
-<v t="zoomq.20110519090226.10652" a="E"><vh>brief0</vh>
+<v t="zoomq.20110519090226.10652"><vh>brief0</vh>
 <v t="zoomq.20110519090226.10653"><vh>abt.ZQ</vh>
 <v t="zoomq.20110519090226.10654"><vh>牛妞</vh></v>
 <v t="zoomq.20110519090226.10655"><vh>&lt;/ZQ&gt;</vh></v>
@@ -66063,6 +66064,32 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 
 
+
+
+
+
+</t>
+<t tx="zoomq.20110526093520.9262">故事性
+==================
+
+.. container:: handout
+
+   没有目的的故事比有目的的更加打动人... |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/s4293844-36story.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://movie.douban.com/subject/3732780/
+
+
+
+.. container:: notes
+
+   - 
 
 
 

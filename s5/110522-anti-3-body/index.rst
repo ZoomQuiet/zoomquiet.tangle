@@ -579,6 +579,31 @@
 
 
 
+
+故事性
+==================
+
+.. container:: handout
+
+   没有目的的故事比有目的的更加打动人... |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/s4293844-36story.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://movie.douban.com/subject/3732780/
+
+
+
+.. container:: notes
+
+   - 
+
+
+
 没有延续
 ==================
 
