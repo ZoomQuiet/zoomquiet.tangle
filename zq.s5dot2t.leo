@@ -157,11 +157,12 @@
 <v t="zoomq.20110519090226.10781"><vh>起名</vh></v>
 <v t="zoomq.20110519090226.10778"><vh>难受</vh></v>
 <v t="zoomq.20110519090226.10785"><vh>态度</vh></v>
-<v t="zoomq.20110526093520.9262"><vh>故事</vh></v>
+<v t="zoomq.20110527084550.9262"><vh>故事力量</vh></v>
+<v t="zoomq.20110526093520.9262"><vh>36故事</vh></v>
 <v t="zoomq.20110519090226.10779"><vh>&lt;/吐糟&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110519090226.10746" a="E"><vh>推荐</vh>
+<v t="zoomq.20110519090226.10746"><vh>推荐</vh>
 <v t="zoomq.20110519090226.10747"><vh>你一生的故事</vh></v>
 <v t="zoomq.20110519090226.10753"><vh>接触</vh></v>
 <v t="zoomq.20110519090226.10751"><vh>天渊</vh></v>
@@ -65452,7 +65453,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
    ... |zqeye|
 
 
-.. class:: takahashi8
+.. class:: takahashi7
 
     地球往事
 
@@ -65480,7 +65481,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
    ... |zqeye|
 
 
-.. class:: takahashi8
+.. class:: takahashi7
 
     黑暗森林
 
@@ -65508,7 +65509,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
    ... |zqeye|
 
 
-.. class:: takahashi8
+.. class:: takahashi7
 
     死者永生
 
@@ -65891,9 +65892,9 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
    ... |zqeye|
 
 
-.. class:: takahashi8
+.. class:: takahashi7
 
-    故事?
+    命题作文
 
 
 .. container:: notes
@@ -66069,7 +66070,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 
 </t>
-<t tx="zoomq.20110526093520.9262">故事性
+<t tx="zoomq.20110526093520.9262">故事的目的
 ==================
 
 .. container:: handout
@@ -66084,6 +66085,31 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
         :scale: 100 %
         :alt: 封面
         :target: http://movie.douban.com/subject/3732780/
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110527084550.9262">故事性
+==================
+
+.. container:: handout
+
+   没有目的的故事比有目的的更加打动人... |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/s3822243-storypower.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://book.douban.com/subject/3689113/
 
 
 

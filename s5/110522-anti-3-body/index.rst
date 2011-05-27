@@ -128,7 +128,7 @@
    ... |zqeye|
 
 
-.. class:: takahashi8
+.. class:: takahashi7
 
     地球往事
 
@@ -236,7 +236,7 @@
    ... |zqeye|
 
 
-.. class:: takahashi8
+.. class:: takahashi7
 
     黑暗森林
 
@@ -344,7 +344,7 @@
    ... |zqeye|
 
 
-.. class:: takahashi8
+.. class:: takahashi7
 
     死者永生
 
@@ -452,9 +452,9 @@
    ... |zqeye|
 
 
-.. class:: takahashi8
+.. class:: takahashi7
 
-    故事?
+    命题作文
 
 
 .. container:: notes
@@ -581,6 +581,30 @@
 
 
 故事性
+==================
+
+.. container:: handout
+
+   没有目的的故事比有目的的更加打动人... |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/s3822243-storypower.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://book.douban.com/subject/3689113/
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+故事的目的
 ==================
 
 .. container:: handout
