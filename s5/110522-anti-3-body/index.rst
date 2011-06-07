@@ -770,6 +770,30 @@
 
 
 
+Blame!
+==================
+
+.. container:: handout
+
+   弐瓶勉(`Tsutomu Nihei <http://en.wikipedia.org/wiki/Tsutomu_Nihei>`_ )  |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/blame-n-soon-1.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 官方网页
+        :target: http://www.aposimz.com/work/blame/index.html
+
+
+
+.. container:: notes
+
+   - 
+
+
+
 总之
 =========
 
@@ -876,7 +900,9 @@
    |lovpy|
 
 
-- 110519 增补
+- 110607 appended for 弐瓶勉
+- 110527 增补故事性支持
+- 110519 增补好书推荐
 - 110511 创建
 
 :反馈:

@@ -152,7 +152,7 @@
 <v t="zoomq.20110519090226.10765"><vh>2向</vh></v>
 <v t="zoomq.20110519090226.10771"><vh>童话</vh></v>
 </v>
-<v t="zoomq.20110519090226.10776" a="E"><vh>吐糟</vh>
+<v t="zoomq.20110519090226.10776"><vh>吐糟</vh>
 <v t="zoomq.20110519090226.10777"><vh>起名</vh></v>
 <v t="zoomq.20110519090226.10781"><vh>起名</vh></v>
 <v t="zoomq.20110519090226.10778"><vh>难受</vh></v>
@@ -162,18 +162,19 @@
 <v t="zoomq.20110519090226.10779"><vh>&lt;/吐糟&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110519090226.10746"><vh>推荐</vh>
+<v t="zoomq.20110519090226.10746" a="E"><vh>推荐</vh>
 <v t="zoomq.20110519090226.10747"><vh>你一生的故事</vh></v>
 <v t="zoomq.20110519090226.10753"><vh>接触</vh></v>
 <v t="zoomq.20110519090226.10751"><vh>天渊</vh></v>
 <v t="zoomq.20110519090226.10783"><vh>黄祸</vh></v>
+<v t="zoomq.20110607091251.10630"><vh>弐瓶勉</vh></v>
 </v>
 <v t="zoomq.20110302103337.8958"><vh>总结7+-2</vh>
 <v t="zoomq.20110509083041.15255"><vh>SB之战</vh></v>
 <v t="zoomq.20110302103337.8959"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20110302103337.8961"><vh>讲演之禅</vh></v>
 </v>
-<v t="zoomq.20101109214756.7402"><vh>version</vh>
+<v t="zoomq.20101109214756.7402" a="E"><vh>version</vh>
 <v t="zoomq.20101109214756.7403"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
@@ -41355,7 +41356,9 @@ export-&gt;{bxm s5 wyt py};
    |lovpy|
 
 
-- 110519 增补
+- 110607 appended for 弐瓶勉
+- 110527 增补故事性支持
+- 110519 增补好书推荐
 - 110511 创建
 
 :反馈:
@@ -66110,6 +66113,31 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
         :scale: 100 %
         :alt: 封面
         :target: http://book.douban.com/subject/3689113/
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110607091251.10630">Blame!
+==================
+
+.. container:: handout
+
+   弐瓶勉(`Tsutomu Nihei &lt;http://en.wikipedia.org/wiki/Tsutomu_Nihei&gt;`_ )  |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/blame-n-soon-1.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 官方网页
+        :target: http://www.aposimz.com/work/blame/index.html
 
 
 
