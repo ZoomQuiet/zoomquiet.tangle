@@ -137,17 +137,17 @@
 <v t="zoomq.20101109214756.7303"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101109214756.7304"><vh>免责</vh></v>
 <v t="zoomq.20110513101248.9111" a="E"><vh>三体</vh>
-<v t="zoomq.20110519090226.10737"><vh>三体I</vh>
+<v t="zoomq.20110519090226.10737" a="E"><vh>三体I</vh>
 <v t="zoomq.20110519090226.10755"><vh>p299</vh></v>
 <v t="zoomq.20110519090226.10761"><vh>智子</vh></v>
 <v t="zoomq.20110519090226.10767"><vh>文革</vh></v>
 </v>
-<v t="zoomq.20110519090226.10739"><vh>三体II</vh>
+<v t="zoomq.20110519090226.10739" a="E"><vh>三体II</vh>
 <v t="zoomq.20110519090226.10757"><vh>p470</vh></v>
 <v t="zoomq.20110519090226.10763"><vh>面壁</vh></v>
 <v t="zoomq.20110519090226.10769"><vh>无</vh></v>
 </v>
-<v t="zoomq.20110519090226.10741"><vh>三体III</vh>
+<v t="zoomq.20110519090226.10741" a="E"><vh>三体III</vh>
 <v t="zoomq.20110519090226.10759"><vh>p513</vh></v>
 <v t="zoomq.20110519090226.10765"><vh>2向</vh></v>
 <v t="zoomq.20110519090226.10771"><vh>童话</vh></v>
@@ -169,10 +169,9 @@
 <v t="zoomq.20110519090226.10783"><vh>黄祸</vh></v>
 <v t="zoomq.20110607091251.10630"><vh>弐瓶勉</vh></v>
 </v>
-<v t="zoomq.20110302103337.8958"><vh>总结7+-2</vh>
-<v t="zoomq.20110509083041.15255"><vh>SB之战</vh></v>
-<v t="zoomq.20110302103337.8959"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20110302103337.8958" a="E"><vh>总结7+-2</vh>
 <v t="zoomq.20110302103337.8961"><vh>讲演之禅</vh></v>
+<v t="zoomq.20110302103337.8959"><vh>Q&amp;A</vh></v>
 </v>
 <v t="zoomq.20101109214756.7402"><vh>version</vh>
 <v t="zoomq.20101109214756.7403"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
@@ -41353,9 +41352,10 @@ export-&gt;{bxm s5 wyt py};
 
 .. container:: handout
 
-   |lovpy|
+   |zqeye|
 
 
+- 110610 增补Blame!图片，收集到其它观点...
 - 110607 appended for 弐瓶勉
 - 110527 增补故事性支持
 - 110519 增补好书推荐
@@ -58616,7 +58616,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. container:: notes
 
-   - http://fosschef.com/2011/04/one-funny-wallpaper-of-why-linux/
+   - 科幻是种生活状态，不是商品
 
 
 
@@ -58668,7 +58668,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. container:: notes
 
-   - 
+   - 持久的推荐，期望大家都来分享,,,高效/恰当/有趣的...
 
 
 
@@ -61390,30 +61390,6 @@ MQ初品
 
 
 </t>
-<t tx="zoomq.20110509083041.15255">不要争论!
-==================
-
-.. container:: handout
-
-   因为... |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/canot-fight-sability.jpg
-        :align: center
-        :scale: 90 %
-        :target: http://www.70man.com/?p=7462
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-</t>
 <t tx="zoomq.20110513101248.9039">@path 110514-gz-ubuntu-release-party
 
 </t>
@@ -62910,7 +62886,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. container:: notes
 
-   - 
+   - 已经定义成中国SF历史纪元的作品了...
 
 
 
@@ -65463,7 +65439,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 连载过的
 
 
 
@@ -65491,7 +65467,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 完全的闭门造车的一本
 
 
 
@@ -65548,7 +65524,9 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 激动到几月不知肉味的...
+
+
 
 
 
@@ -65580,7 +65558,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 短篇小说难写,科幻的短篇更加难了,,,
 
 
 
@@ -65605,7 +65583,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 当代大师
 
 
 
@@ -65630,7 +65608,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 有电影的,一样出色...
 
 
 
@@ -65706,7 +65684,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 内容好象最多,但是看过,好象又是最少的一本
 
 
 
@@ -65734,7 +65712,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 将行星级别的电脑,空间折叠成质子大小
 
 
 
@@ -65762,7 +65740,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 世界没有这么简单,国家也没有这么幼稚让几个人玩...
 
 
 
@@ -65790,7 +65768,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 自相矛盾的武器...
 
 
 
@@ -65818,7 +65796,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 选择了一个非常真实的冲突点
 
 
 
@@ -65846,7 +65824,9 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 真的是很过渡的一本
+
+
 
 
 
@@ -65874,7 +65854,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 这组童话才是大刘最NB的创作!
 
 
 
@@ -65902,7 +65882,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 都是编辑逼的...
 
 
 
@@ -65930,7 +65910,9 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 作了最没有逻辑的事儿...
+
+
 
 
 
@@ -65958,11 +65940,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
-
-
-
-
+   - 没有代入感...
 
 
 
@@ -65979,8 +65957,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
     [via mindex@googlegroups.com]cathayan...
 
     - 小说就是那个样子，最好的也就是那样，而已。
-    - 还都是普通人类可以完成的事业，中文大脑的深处有一种不可知论，
-    - 就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
+    - 还都是普通人类可以完成的事业，中文大脑的深处有一种不可知论，就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
 
 
 .. class:: takahashi7
@@ -66010,7 +65987,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 作者的化身
 
 
 
@@ -66043,7 +66020,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 严格意义上的政治科幻
 
 
 
@@ -66063,7 +66040,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 就是打动编辑而已
 
 
 
@@ -66097,7 +66074,8 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 所谓潜移默化...为什么长篇小说容易出名?
+   - 但是 3体,自我隔绝了故事的连续感...
 
 
 
@@ -66107,7 +66085,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: handout
 
-   没有目的的故事比有目的的更加打动人... |zqeye|
+   故事不是教材... |zqeye|
 
 
 .. class:: takahashi8
@@ -66122,7 +66100,8 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 虽然好故事都是精心设计出来的，但是，故事的好坏，多数并不在故事的内容，而是故事的结构
+   - 简单俗套的故事结构，用不同的故事内容精心串成真实，才打动人
 
 
 
@@ -66139,7 +66118,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
     .. image:: i/jumpc_blame038039.jpg
         :align: center
-        :scale: 100 %
+        :scale: 80 %
         :alt: 官方网页
         :target: http://www.aposimz.com/work/blame/index.html
 
@@ -66147,7 +66126,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: notes
 
-   - 
+   - 失败建築师的漫画逆袭！
 
 
 

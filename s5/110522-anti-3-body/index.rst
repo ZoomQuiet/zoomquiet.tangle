@@ -109,7 +109,7 @@
 
 .. container:: notes
 
-   - 
+   - 已经定义成中国SF历史纪元的作品了...
 
 
 
@@ -135,7 +135,7 @@
 
 .. container:: notes
 
-   - 
+   - 连载过的
 
 
 
@@ -189,7 +189,7 @@
 
 .. container:: notes
 
-   - 
+   - 将行星级别的电脑,空间折叠成质子大小
 
 
 
@@ -216,7 +216,7 @@
 
 .. container:: notes
 
-   - 
+   - 选择了一个非常真实的冲突点
 
 
 
@@ -243,7 +243,7 @@
 
 .. container:: notes
 
-   - 
+   - 完全的闭门造车的一本
 
 
 
@@ -297,7 +297,7 @@
 
 .. container:: notes
 
-   - 
+   - 世界没有这么简单,国家也没有这么幼稚让几个人玩...
 
 
 
@@ -324,7 +324,9 @@
 
 .. container:: notes
 
-   - 
+   - 真的是很过渡的一本
+
+
 
 
 
@@ -378,7 +380,7 @@
 
 .. container:: notes
 
-   - 
+   - 内容好象最多,但是看过,好象又是最少的一本
 
 
 
@@ -405,7 +407,7 @@
 
 .. container:: notes
 
-   - 
+   - 自相矛盾的武器...
 
 
 
@@ -432,7 +434,7 @@
 
 .. container:: notes
 
-   - 
+   - 这组童话才是大刘最NB的创作!
 
 
 
@@ -459,7 +461,7 @@
 
 .. container:: notes
 
-   - 
+   - 都是编辑逼的...
 
 
 
@@ -486,7 +488,9 @@
 
 .. container:: notes
 
-   - 
+   - 作了最没有逻辑的事儿...
+
+
 
 
 
@@ -513,7 +517,7 @@
 
 .. container:: notes
 
-   - 
+   - 作者的化身
 
 
 
@@ -540,11 +544,7 @@
 
 .. container:: notes
 
-   - 
-
-
-
-
+   - 没有代入感...
 
 
 
@@ -567,7 +567,7 @@
 
 .. container:: notes
 
-   - 
+   - 就是打动编辑而已
 
 
 
@@ -585,7 +585,7 @@
 
 .. container:: handout
 
-   没有目的的故事比有目的的更加打动人... |zqeye|
+   故事不是教材... |zqeye|
 
 
 .. class:: takahashi8
@@ -600,7 +600,8 @@
 
 .. container:: notes
 
-   - 
+   - 虽然好故事都是精心设计出来的，但是，故事的好坏，多数并不在故事的内容，而是故事的结构
+   - 简单俗套的故事结构，用不同的故事内容精心串成真实，才打动人
 
 
 
@@ -624,7 +625,8 @@
 
 .. container:: notes
 
-   - 
+   - 所谓潜移默化...为什么长篇小说容易出名?
+   - 但是 3体,自我隔绝了故事的连续感...
 
 
 
@@ -636,8 +638,7 @@
     [via mindex@googlegroups.com]cathayan...
 
     - 小说就是那个样子，最好的也就是那样，而已。
-    - 还都是普通人类可以完成的事业，中文大脑的深处有一种不可知论，
-    - 就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
+    - 还都是普通人类可以完成的事业，中文大脑的深处有一种不可知论，就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
 
 
 .. class:: takahashi7
@@ -667,7 +668,9 @@
 
 .. container:: notes
 
-   - 
+   - 激动到几月不知肉味的...
+
+
 
 
 
@@ -698,7 +701,7 @@
 
 .. container:: notes
 
-   - 
+   - 短篇小说难写,科幻的短篇更加难了,,,
 
 
 
@@ -722,7 +725,7 @@
 
 .. container:: notes
 
-   - 
+   - 有电影的,一样出色...
 
 
 
@@ -746,7 +749,7 @@
 
 .. container:: notes
 
-   - 
+   - 当代大师
 
 
 
@@ -770,7 +773,7 @@
 
 .. container:: notes
 
-   - 
+   - 严格意义上的政治科幻
 
 
 
@@ -786,7 +789,7 @@ Blame!
 
     .. image:: i/jumpc_blame038039.jpg
         :align: center
-        :scale: 100 %
+        :scale: 80 %
         :alt: 官方网页
         :target: http://www.aposimz.com/work/blame/index.html
 
@@ -794,7 +797,7 @@ Blame!
 
 .. container:: notes
 
-   - 
+   - 失败建築师的漫画逆袭！
 
 
 
@@ -817,7 +820,7 @@ Blame!
 
 .. container:: notes
 
-   - http://fosschef.com/2011/04/one-funny-wallpaper-of-why-linux/
+   - 科幻是种生活状态，不是商品
 
 
 
@@ -827,24 +830,25 @@ Blame!
 
 
 
-不要争论!
+最后的最后...
 ==================
 
 .. container:: handout
 
-   因为... |zqeye|
+   好书推荐... |zqeye|
 
 
 .. class:: takahashi
 
-    .. image:: i/canot-fight-sability.jpg
+    .. image:: i/s4279952-zen4talk.jpg
         :align: center
-        :scale: 90 %
-        :target: http://www.70man.com/?p=7462
+        :scale: 100 %
+        :alt: 讲演之禅
+        :target: http://book.douban.com/subject/4760725/
 
 .. container:: notes
 
-   - 
+   - 持久的推荐，期望大家都来分享,,,高效/恰当/有趣的...
 
 
 
@@ -872,38 +876,15 @@ Blame!
 
 
 
-最后的最后...
-==================
-
-.. container:: handout
-
-   好书推荐... |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/s4279952-zen4talk.jpg
-        :align: center
-        :scale: 100 %
-        :alt: 讲演之禅
-        :target: http://book.douban.com/subject/4760725/
-
-.. container:: notes
-
-   - 
-
-
-
-
-
 <版本/>
 =========
 
 .. container:: handout
 
-   |lovpy|
+   |zqeye|
 
 
+- 110610 增补Blame!图片，收集到其它观点...
 - 110607 appended for 弐瓶勉
 - 110527 增补故事性支持
 - 110519 增补好书推荐
