@@ -152,7 +152,7 @@
 <v t="zoomq.20110519090226.10765"><vh>2向</vh></v>
 <v t="zoomq.20110519090226.10771"><vh>童话</vh></v>
 </v>
-<v t="zoomq.20110519090226.10776"><vh>吐糟</vh>
+<v t="zoomq.20110519090226.10776" a="E"><vh>吐糟</vh>
 <v t="zoomq.20110519090226.10777"><vh>起名</vh></v>
 <v t="zoomq.20110519090226.10781"><vh>起名</vh></v>
 <v t="zoomq.20110519090226.10778"><vh>难受</vh></v>
@@ -174,7 +174,7 @@
 <v t="zoomq.20110302103337.8959"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20110302103337.8961"><vh>讲演之禅</vh></v>
 </v>
-<v t="zoomq.20101109214756.7402" a="E"><vh>version</vh>
+<v t="zoomq.20101109214756.7402"><vh>version</vh>
 <v t="zoomq.20101109214756.7403"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
@@ -65976,7 +65976,11 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. container:: handout
 
-   ... |zqeye|
+    [via mindex@googlegroups.com]cathayan...
+
+    - 小说就是那个样子，最好的也就是那样，而已。
+    - 还都是普通人类可以完成的事业，中文大脑的深处有一种不可知论，
+    - 就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
 
 
 .. class:: takahashi7
@@ -66133,7 +66137,7 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. class:: takahashi8
 
-    .. image:: i/blame-n-soon-1.jpg
+    .. image:: i/jumpc_blame038039.jpg
         :align: center
         :scale: 100 %
         :alt: 官方网页

@@ -633,7 +633,11 @@
 
 .. container:: handout
 
-   ... |zqeye|
+    [via mindex@googlegroups.com]cathayan...
+
+    - 小说就是那个样子，最好的也就是那样，而已。
+    - 还都是普通人类可以完成的事业，中文大脑的深处有一种不可知论，
+    - 就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
 
 
 .. class:: takahashi7
@@ -780,7 +784,7 @@ Blame!
 
 .. class:: takahashi8
 
-    .. image:: i/blame-n-soon-1.jpg
+    .. image:: i/jumpc_blame038039.jpg
         :align: center
         :scale: 100 %
         :alt: 官方网页
