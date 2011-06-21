@@ -131,28 +131,28 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20101109214756.7198" a="E"><vh>110522-anti-3-body</vh>
-<v t="zoomq.20101109214756.7301" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20101109214756.7198"><vh>110522-anti-3-body</vh>
+<v t="zoomq.20101109214756.7301"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101109214756.7302"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101109214756.7303"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20101109214756.7304"><vh>免责</vh></v>
-<v t="zoomq.20110513101248.9111" a="E"><vh>三体</vh>
-<v t="zoomq.20110519090226.10737" a="E"><vh>三体I</vh>
+<v t="zoomq.20110513101248.9111"><vh>三体</vh>
+<v t="zoomq.20110519090226.10737"><vh>三体I</vh>
 <v t="zoomq.20110519090226.10755"><vh>p299</vh></v>
 <v t="zoomq.20110519090226.10761"><vh>智子</vh></v>
 <v t="zoomq.20110519090226.10767"><vh>文革</vh></v>
 </v>
-<v t="zoomq.20110519090226.10739" a="E"><vh>三体II</vh>
+<v t="zoomq.20110519090226.10739"><vh>三体II</vh>
 <v t="zoomq.20110519090226.10757"><vh>p470</vh></v>
 <v t="zoomq.20110519090226.10763"><vh>面壁</vh></v>
 <v t="zoomq.20110519090226.10769"><vh>无</vh></v>
 </v>
-<v t="zoomq.20110519090226.10741" a="E"><vh>三体III</vh>
+<v t="zoomq.20110519090226.10741"><vh>三体III</vh>
 <v t="zoomq.20110519090226.10759"><vh>p513</vh></v>
 <v t="zoomq.20110519090226.10765"><vh>2向</vh></v>
 <v t="zoomq.20110519090226.10771"><vh>童话</vh></v>
 </v>
-<v t="zoomq.20110519090226.10776" a="E"><vh>吐糟</vh>
+<v t="zoomq.20110519090226.10776"><vh>吐糟</vh>
 <v t="zoomq.20110519090226.10777"><vh>起名</vh></v>
 <v t="zoomq.20110519090226.10781"><vh>起名</vh></v>
 <v t="zoomq.20110519090226.10778"><vh>难受</vh></v>
@@ -162,14 +162,14 @@
 <v t="zoomq.20110519090226.10779"><vh>&lt;/吐糟&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110519090226.10746" a="E"><vh>推荐</vh>
+<v t="zoomq.20110519090226.10746"><vh>推荐</vh>
 <v t="zoomq.20110519090226.10747"><vh>你一生的故事</vh></v>
 <v t="zoomq.20110519090226.10753"><vh>接触</vh></v>
 <v t="zoomq.20110519090226.10751"><vh>天渊</vh></v>
 <v t="zoomq.20110519090226.10783"><vh>黄祸</vh></v>
 <v t="zoomq.20110607091251.10630"><vh>弐瓶勉</vh></v>
 </v>
-<v t="zoomq.20110302103337.8958" a="E"><vh>总结7+-2</vh>
+<v t="zoomq.20110302103337.8958"><vh>总结7+-2</vh>
 <v t="zoomq.20110302103337.8961"><vh>讲演之禅</vh></v>
 <v t="zoomq.20110302103337.8959"><vh>Q&amp;A</vh></v>
 </v>
@@ -1479,7 +1479,7 @@
 <v t="zoomq.20100602201453.5849"><vh>version</vh></v>
 </v>
 </v>
-<v t="zoomq.20080807095120.28"><vh>ZEUUX:ZPyUG</vh>
+<v t="zoomq.20080807095120.28" a="E"><vh>ZEUUX:ZPyUG</vh>
 <v t="zoomq.20100322235812.5543"><vh>100419-Pythonic</vh>
 <v t="zoomq.20100407094145.5747"><vh>_chaos</vh>
 <v t="zoomq.20100405215514.5579"><vh>教育</vh></v>
@@ -2013,7 +2013,111 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100116172440.6485"><vh>2008</vh>
+<v t="zoomq.20100116172440.6485" a="E"><vh>2008</vh>
+<v t="zoomq.20110621085047.12687" a="E"><vh>080130-floss-license</vh>
+<v t="zoomq.20110621085047.12688"><vh>@nosent index.html</vh>
+<v t="zoomq.20110621085047.12875"><vh>&lt;&lt;s5head&gt;&gt;</vh></v>
+<v t="zoomq.20110621085047.12876"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20110621085047.12700"><vh>page0</vh></v>
+<v t="zoomq.20110621085047.12701"><vh>免责</vh></v>
+<v t="zoomq.20110621085047.12703"><vh>提纲</vh></v>
+<v t="zoomq.20110621085047.12705"><vh>第一段代码</vh>
+<v t="zoomq.20110621085047.12707"><vh>公开信</vh></v>
+<v t="zoomq.20110621085047.12709"><vh>自由的</vh></v>
+<v t="zoomq.20110621085047.12711"><vh>软件灵魂</vh></v>
+</v>
+<v t="zoomq.20110621085047.12692"><vh>FAQ:</vh>
+<v t="zoomq.20110621085047.12713"><vh>公共软件</vh></v>
+<v t="zoomq.20110621085047.12715"><vh>共享软件</vh></v>
+<v t="zoomq.20110621085047.12717"><vh>免费软件</vh></v>
+<v t="zoomq.20110621085047.12719"><vh>专有软件</vh></v>
+<v t="zoomq.20110621085047.12721"><vh>商用软件</vh></v>
+<v t="zoomq.20110621085047.12723"><vh>自由下载</vh></v>
+</v>
+<v t="zoomq.20110621085047.12725"><vh>RMS</vh>
+<v t="zoomq.20110621085047.12726"><vh>FSF</vh></v>
+<v t="zoomq.20110621085047.12728"><vh>设计</vh></v>
+<v t="zoomq.20110621085047.12730"><vh>软件自由.0</vh></v>
+<v t="zoomq.20110621085047.12732"><vh>软件自由.1</vh></v>
+<v t="zoomq.20110621085047.12734"><vh>软件自由.2</vh></v>
+<v t="zoomq.20110621085047.12736"><vh>软件自由.3</vh></v>
+<v t="zoomq.20110621085047.12738"><vh>自由软件</vh></v>
+<v t="zoomq.20110621085047.12740"><vh>开源软件</vh></v>
+</v>
+<v t="zoomq.20110621085047.12742"><vh>版权</vh>
+<v t="zoomq.20110621085047.12744"><vh>天然存在</vh></v>
+<v t="zoomq.20110621085047.12746"><vh>许可证</vh></v>
+<v t="zoomq.20110621085047.12748"><vh>本质</vh></v>
+<v t="zoomq.20110621085047.12750"><vh>夺走vs复制</vh></v>
+<v t="zoomq.20110621085047.12752"><vh>复制?</vh></v>
+<v t="zoomq.20110621085047.12754"><vh>法律!=</vh></v>
+<v t="zoomq.20110621085047.12756"><vh>直接vs间接</vh></v>
+<v t="zoomq.20110621085047.12760"><vh>自由vs价格</vh></v>
+</v>
+<v t="zoomq.20110621085047.12762"><vh>运用版权</vh>
+<v t="zoomq.20110621085047.12758"><vh>竞争vs战争</vh></v>
+<v t="zoomq.20110621085047.12764"><vh>自由软件关乎</vh></v>
+<v t="zoomq.20110621085047.12766"><vh>对等版权</vh></v>
+<v t="zoomq.20110621085047.12769"><vh>成功迎合</vh></v>
+<v t="zoomq.20110621085047.12771"><vh>合稀泥</vh></v>
+</v>
+<v t="zoomq.20110621085047.12773" a="E"><vh>软件许可</vh>
+<v t="zoomq.20110621085047.12775" a="E"><vh>FLOSS许可体系</vh>
+<v t="zoomq.20110621085047.12878"><vh>许可体选择</vh></v>
+<v t="zoomq.20110621085047.12880"><vh>许可体选择zh</vh></v>
+<v t="zoomq.20110621085047.12882"><vh>许可体选择器</vh></v>
+</v>
+<v t="zoomq.20110621085047.12777"><vh>创作共用</vh></v>
+<v t="zoomq.20110621085047.12779"><vh>版权的诞生</vh></v>
+<v t="zoomq.20110621085047.12781"><vh>印刷vs复印</vh></v>
+<v t="zoomq.20110621085047.12783"><vh>GPL v2</vh></v>
+<v t="zoomq.20110621085047.12785"><vh>专利含义</vh>
+<v t="zoomq.20110621085047.12787"><vh>专利获得</vh></v>
+<v t="zoomq.20110621085047.12789"><vh>软件专利</vh></v>
+</v>
+<v t="zoomq.20110621085047.12791"><vh>GPL</vh></v>
+</v>
+<v t="zoomq.20110621085047.12794"><vh>GPL v3</vh>
+<v t="zoomq.20110621085047.12797"><vh>禁止TIVO</vh></v>
+<v t="zoomq.20110621085047.12800"><vh>防护软件专利的威胁</vh></v>
+<v t="zoomq.20110621085047.12806"><vh>统一关键词</vh></v>
+<v t="zoomq.20110621085047.12803"><vh>提升兼容性</vh></v>
+<v t="zoomq.20110621085047.12809"><vh>修改</vh></v>
+<v t="zoomq.20110621085047.12812"><vh>覆盖程序</vh></v>
+<v t="zoomq.20110621085047.12815"><vh>传播</vh></v>
+<v t="zoomq.20110621085047.12818"><vh>发布</vh></v>
+<v t="zoomq.20110621085047.12821"><vh>系统库</vh></v>
+<v t="zoomq.20110621085047.12824"><vh>聚集体</vh></v>
+<v t="zoomq.20110621085047.12827"><vh>自动授权</vh>
+<v t="zoomq.20110621085047.12830"><vh>授权恢复</vh></v>
+<v t="zoomq.20110621085047.12833"><vh>合法使用</vh></v>
+<v t="zoomq.20110621085047.12836"><vh>软件代码</vh></v>
+</v>
+</v>
+<v t="zoomq.20110621085047.12841"><vh>一样获利</vh>
+<v t="zoomq.20110621085047.12844"><vh>赢利模式.0</vh></v>
+<v t="zoomq.20110621085047.12847"><vh>赢利模式.1</vh></v>
+<v t="zoomq.20110621085047.12850"><vh>赢利模式.2</vh></v>
+<v t="zoomq.20110621085047.12853"><vh>赢利模式.3</vh></v>
+<v t="zoomq.20110621085047.12856"><vh>赢利模式.4</vh></v>
+<v t="zoomq.20110621085047.12859"><vh>赢利模式.N</vh></v>
+<v t="zoomq.20110621085047.12862"><vh>态度...</vh></v>
+</v>
+<v t="zoomq.20110621085047.12874"><vh>总结</vh>
+<v t="zoomq.20110621085047.12885"><vh>版本历史</vh></v>
+<v t="zoomq.20110621085047.12886"><vh>S5</vh></v>
+</v>
+<v t="zoomq.20110621085047.12865"><vh>Python</vh>
+<v t="zoomq.20110621085047.12866"><vh>历史</vh></v>
+<v t="zoomq.20110621085047.12867"><vh>啄木鸟</vh></v>
+<v t="zoomq.20110621085047.12868"><vh>ZPyUG</vh></v>
+<v t="zoomq.20110621085047.12869"><vh>行动</vh></v>
+<v t="zoomq.20110621085047.12870"><vh>哲思</vh></v>
+<v t="zoomq.20110621085047.12871"><vh>ZEUUX</vh></v>
+<v t="zoomq.20110621085047.12872"><vh>宣言</vh></v>
+</v>
+</v>
+</v>
 <v t="zoomq.20080523162513"><vh>080524-easy-spe</vh>
 <v t="zoomq.20080523162640"><vh>stuff</vh>
 <v t="zoomq.20080523162640.1"><vh>largeWords</vh></v>
@@ -2024,7 +2128,7 @@
 <v t="zoomq.20080611153034"><vh>@file /home/zoomq/zData/2MyBrains/s5/0608-VMnSVN/index.html</vh></v>
 </v>
 </v>
-<v t="zoomq.20080523161605.1"><vh>@nosent index.html</vh>
+<v t="zoomq.20080523161605.1" a="E"><vh>@nosent index.html</vh>
 <v t="zoomq.20080523162155"><vh>&lt;&lt;s5head&gt;&gt;</vh>
 <v t="zoomq.20080523162155.1"><vh>cssin</vh></v>
 </v>
@@ -2122,6 +2226,234 @@
 <v t="zoomq.20080919230246.26"><vh>S5</vh></v>
 <v t="zoomq.20080919230246.27"><vh>Q&amp;A</vh></v>
 </v>
+</v>
+</v>
+</v>
+<v t="zoomq.20091204150544.8309"><vh>MoinMoin</vh>
+<v t="zoomq.20091204150544.8310"><vh>MoinMoin 导览</vh>
+<v t="zoomq.20091204150544.8311"><vh>@nosent index.html</vh>
+<v t="zoomq.20091204150544.8312"><vh>S5head</vh></v>
+<v t="zoomq.20091204150544.8313"><vh>S5foot</vh></v>
+<v t="zoomq.20091204150544.8314"><vh>slideTag</vh></v>
+<v t="zoomq.20091204150544.8315"><vh>P0</vh></v>
+<v t="zoomq.20091204150544.8316"><vh>Wiki</vh>
+<v t="zoomq.20091204150544.8317"><vh>Wiki?</vh></v>
+<v t="zoomq.20091204150544.8318"><vh>维基百科</vh></v>
+<v t="zoomq.20091204150544.8319"><vh>维基协作</vh></v>
+<v t="zoomq.20091204150544.8320"><vh>Wiki!</vh></v>
+<v t="zoomq.20091204150544.8321"><vh>Wiki!!</vh></v>
+<v t="zoomq.20091204150544.8322"><vh>Wiki特性</vh></v>
+<v t="zoomq.20091204150544.8323"><vh>Wiki精神</vh></v>
+<v t="zoomq.20091204150544.8324"><vh>Wiki技术</vh></v>
+<v t="zoomq.20091204150544.8325"><vh>WYTIWYG</vh></v>
+<v t="zoomq.20091204150544.8326"><vh>结构化文本</vh></v>
+</v>
+<v t="zoomq.20091204150544.8327"><vh>MoinMoin</vh>
+<v t="zoomq.20091204150544.8328"><vh>Wiki系统</vh></v>
+<v t="zoomq.20091204150544.8329"><vh>Wiki实现</vh></v>
+<v t="zoomq.20091204150544.8330"><vh>Moin</vh></v>
+<v t="zoomq.20091204150544.8331"><vh>theme</vh></v>
+<v t="zoomq.20091204150544.8332"><vh>theme</vh></v>
+<v t="zoomq.20091204150544.8333"><vh>sinatheme</vh></v>
+<v t="zoomq.20091204150544.8334"><vh>Dept</vh></v>
+<v t="zoomq.20091204150544.8335"><vh>Dept2</vh></v>
+<v t="zoomq.20091204150544.8336"><vh>Dept3</vh></v>
+<v t="zoomq.20091204150544.8337"><vh>事故日志</vh></v>
+<v t="zoomq.20091204150544.8338"><vh>Group</vh></v>
+<v t="zoomq.20091204150544.8339"><vh>Group2</vh></v>
+<v t="zoomq.20091204150544.8340"><vh>SKSIG</vh></v>
+<v t="zoomq.20091204150544.8341"><vh>NMS</vh></v>
+<v t="zoomq.20091204150544.8342"><vh>SUP</vh></v>
+<v t="zoomq.20091204150544.8343"><vh>童剑</vh></v>
+<v t="zoomq.20091204150544.8344"><vh>FreeBSD</vh></v>
+<v t="zoomq.20091204150544.8345"><vh>图书馆</vh></v>
+<v t="zoomq.20091204150544.8346"><vh>Tshirt</vh></v>
+<v t="zoomq.20091204150544.8347"><vh>Discover</vh></v>
+<v t="zoomq.20091204150544.8348"><vh>Moin杂技</vh></v>
+<v t="zoomq.20091204150544.8349"><vh>Moin杂技1</vh></v>
+<v t="zoomq.20091204150544.8350"><vh>Moin杂技2</vh></v>
+<v t="zoomq.20091204150544.8351"><vh>Moin杂技3</vh></v>
+<v t="zoomq.20091204150544.8352"><vh>Moin dot</vh></v>
+<v t="zoomq.20091204150544.8353"><vh>Moin latex</vh></v>
+<v t="zoomq.20091204150544.8354"><vh>Moin sctable</vh></v>
+<v t="zoomq.20091204150544.8355"><vh>Moin Gantt</vh></v>
+<v t="zoomq.20091204150544.8356"><vh>Moin GunPlot</vh></v>
+</v>
+<v t="zoomq.20091204150544.8357"><vh>Summary</vh></v>
+<v t="zoomq.20091204150544.8358"><vh>About</vh></v>
+<v t="zoomq.20091204150544.8359"><vh>Author</vh></v>
+<v t="zoomq.20091204150544.8360"><vh>end</vh></v>
+<v t="zoomq.20091204150544.8361"><vh>S5end</vh></v>
+</v>
+</v>
+<v t="zoomq.20091204150544.8362"><vh>从入门到精通 MoinMoin</vh>
+<v t="zoomq.20091204150544.8363"><vh>@nosent index.html</vh>
+<v t="zoomq.20091204150544.8364"><vh>S5head</vh></v>
+<v t="zoomq.20091204150544.8365"><vh>S5foot</vh></v>
+<v t="zoomq.20091204150544.8366"><vh>slideTag</vh></v>
+<v t="zoomq.20091204150544.8367"><vh>P0</vh></v>
+<v t="zoomq.20091204150544.8368"><vh>P1</vh></v>
+<v t="zoomq.20091204150544.8369"><vh>DirveInto</vh>
+<v t="zoomq.20091204150544.8370"><vh>注册</vh></v>
+<v t="zoomq.20091204150544.8371"><vh>创建</vh></v>
+<v t="zoomq.20091204150544.8372"><vh>修改</vh></v>
+<v t="zoomq.20091204150544.8373"><vh>模板</vh></v>
+<v t="zoomq.20091204150544.8374"><vh>子页面</vh></v>
+<v t="zoomq.20091204150544.8375"><vh>包含</vh></v>
+<v t="zoomq.20091204150544.8376"><vh>月历</vh></v>
+<v t="zoomq.20091204150544.8377"><vh>还有</vh></v>
+<v t="zoomq.20091204150544.8378"><vh>但是！</vh></v>
+</v>
+<v t="zoomq.20091204150544.8379"><vh>Wiki</vh>
+<v t="zoomq.20091204150544.8380"><vh>Wiki?</vh></v>
+<v t="zoomq.20091204150544.8381"><vh>维基百科</vh></v>
+<v t="zoomq.20091204150544.8382"><vh>维基协作</vh></v>
+<v t="zoomq.20091204150544.8383"><vh>Wiki!</vh></v>
+<v t="zoomq.20091204150544.8384"><vh>Wiki!!</vh></v>
+<v t="zoomq.20091204150544.8385"><vh>Wiki特性</vh></v>
+<v t="zoomq.20091204150544.8386"><vh>Wiki精神</vh></v>
+<v t="zoomq.20091204150544.8387"><vh>Wiki技术</vh></v>
+<v t="zoomq.20091204150544.8388"><vh>WYTIWYG</vh></v>
+<v t="zoomq.20091204150544.8389"><vh>结构化文本</vh></v>
+</v>
+<v t="zoomq.20091204150544.8390"><vh>MoinMoin</vh>
+<v t="zoomq.20091204150544.8391"><vh>Wiki系统</vh></v>
+<v t="zoomq.20091204150544.8392"><vh>Wiki实现</vh></v>
+<v t="zoomq.20091204150544.8393"><vh>Moin</vh></v>
+<v t="zoomq.20091204150544.8394"><vh>theme</vh></v>
+<v t="zoomq.20091204150544.8395"><vh>theme</vh></v>
+<v t="zoomq.20091204150544.8396"><vh>sinatheme</vh></v>
+<v t="zoomq.20091204150544.8397"><vh>Dept</vh></v>
+<v t="zoomq.20091204150544.8398"><vh>Dept2</vh></v>
+<v t="zoomq.20091204150544.8399"><vh>Dept3</vh></v>
+<v t="zoomq.20091204150544.8400"><vh>事故日志</vh></v>
+<v t="zoomq.20091204150544.8401"><vh>Group</vh></v>
+<v t="zoomq.20091204150544.8402"><vh>Group2</vh></v>
+<v t="zoomq.20091204150544.8403"><vh>SKSIG</vh></v>
+<v t="zoomq.20091204150544.8404"><vh>NMS</vh></v>
+<v t="zoomq.20091204150544.8405"><vh>SUP</vh></v>
+<v t="zoomq.20091204150544.8406"><vh>童剑</vh></v>
+<v t="zoomq.20091204150544.8407"><vh>FreeBSD</vh></v>
+<v t="zoomq.20091204150544.8408"><vh>图书馆</vh></v>
+<v t="zoomq.20091204150544.8409"><vh>Tshirt</vh></v>
+<v t="zoomq.20091204150544.8410"><vh>Discover</vh></v>
+<v t="zoomq.20091204150544.8411"><vh>Moin杂技1</vh></v>
+<v t="zoomq.20091204150544.8412"><vh>Moin杂技2</vh></v>
+<v t="zoomq.20091204150544.8413"><vh>Moin杂技3</vh></v>
+<v t="zoomq.20091204150544.8414"><vh>Moin dot</vh></v>
+<v t="zoomq.20091204150544.8415"><vh>Moin latex</vh></v>
+<v t="zoomq.20091204150544.8416"><vh>Moin sctable</vh></v>
+<v t="zoomq.20091204150544.8417"><vh>Moin GunPlot</vh></v>
+</v>
+<v t="zoomq.20091204150544.8418"><vh>Summary</vh></v>
+<v t="zoomq.20091204150544.8419"><vh>About</vh></v>
+<v t="zoomq.20091204150544.8420"><vh>Author</vh></v>
+<v t="zoomq.20091204150544.8421"><vh>end</vh></v>
+<v t="zoomq.20091204150544.8422"><vh>S5end</vh></v>
+</v>
+</v>
+<v t="zoomq.20091204150544.8423"><vh>p从入门到精通 MoinMoin</vh>
+<v t="zoomq.20091204150544.8424"><vh>@nosent index.html</vh>
+<v t="zoomq.20091204150544.8425"><vh>S5head</vh></v>
+<v t="zoomq.20091204150544.8426"><vh>S5foot</vh></v>
+<v t="zoomq.20091204150544.8427"><vh>slideTag</vh></v>
+<v t="zoomq.20091204150544.8428"><vh>P0</vh></v>
+<v t="zoomq.20091204150544.8429"><vh>P1</vh></v>
+<v t="zoomq.20091204150544.8430"><vh>DirveInto</vh>
+<v t="zoomq.20091204150544.8431"><vh>注册</vh></v>
+<v t="zoomq.20091204150544.8432"><vh>创建</vh></v>
+<v t="zoomq.20091204150544.8433"><vh>修改</vh></v>
+<v t="zoomq.20091204150544.8434"><vh>模板</vh></v>
+<v t="zoomq.20091204150544.8435"><vh>子页面</vh></v>
+<v t="zoomq.20091204150544.8436"><vh>包含</vh></v>
+<v t="zoomq.20091204150544.8437"><vh>月历</vh></v>
+<v t="zoomq.20091204150544.8438"><vh>还有</vh></v>
+<v t="zoomq.20091204150544.8439"><vh>但是！</vh></v>
+</v>
+<v t="zoomq.20091204150544.8440"><vh>Wiki</vh>
+<v t="zoomq.20091204150544.8441"><vh>Wiki?</vh></v>
+<v t="zoomq.20091204150544.8442"><vh>维基百科</vh></v>
+<v t="zoomq.20091204150544.8443"><vh>维基协作</vh></v>
+<v t="zoomq.20091204150544.8444"><vh>Wiki!</vh></v>
+<v t="zoomq.20091204150544.8445"><vh>Wiki!!</vh></v>
+<v t="zoomq.20091204150544.8446"><vh>Wiki特性</vh></v>
+<v t="zoomq.20091204150544.8447"><vh>Wiki精神</vh></v>
+<v t="zoomq.20091204150544.8448"><vh>Wiki技术</vh></v>
+<v t="zoomq.20091204150544.8449"><vh>WYTIWYG</vh></v>
+<v t="zoomq.20091204150544.8450"><vh>结构化文本</vh></v>
+</v>
+<v t="zoomq.20091204150544.8451"><vh>MoinMoin</vh>
+<v t="zoomq.20091204150544.8452"><vh>Wiki系统</vh></v>
+<v t="zoomq.20091204150544.8453"><vh>Wiki实现</vh></v>
+<v t="zoomq.20091204150544.8454"><vh>Moin</vh></v>
+<v t="zoomq.20091204150544.8455"><vh>theme</vh></v>
+<v t="zoomq.20091204150544.8456"><vh>theme</vh></v>
+<v t="zoomq.20091204150544.8457"><vh>sinatheme</vh></v>
+<v t="zoomq.20091204150544.8458"><vh>事故日志</vh></v>
+<v t="zoomq.20091204150544.8459"><vh>Group2</vh></v>
+<v t="zoomq.20091204150544.8460"><vh>SKSIG</vh></v>
+<v t="zoomq.20091204150544.8461"><vh>NMS</vh></v>
+<v t="zoomq.20091204150544.8462"><vh>童剑</vh></v>
+<v t="zoomq.20091204150544.8463"><vh>FreeBSD</vh></v>
+<v t="zoomq.20091204150544.8464"><vh>图书馆</vh></v>
+<v t="zoomq.20091204150544.8465"><vh>Tshirt</vh></v>
+<v t="zoomq.20091204150544.8466"><vh>Discover</vh></v>
+<v t="zoomq.20091204150544.8467"><vh>Moin杂技1</vh></v>
+<v t="zoomq.20091204150544.8468"><vh>Moin杂技2</vh></v>
+<v t="zoomq.20091204150544.8469"><vh>Moin杂技3</vh></v>
+<v t="zoomq.20091204150544.8470"><vh>Moin dot</vh></v>
+<v t="zoomq.20091204150544.8471"><vh>Moin latex</vh></v>
+<v t="zoomq.20091204150544.8472"><vh>Moin sctable</vh></v>
+<v t="zoomq.20091204150544.8473"><vh>Moin GunPlot</vh></v>
+</v>
+<v t="zoomq.20091204150544.8474"><vh>Summary</vh></v>
+<v t="zoomq.20091204150544.8475"><vh>About</vh></v>
+<v t="zoomq.20091204150544.8476"><vh>Author</vh></v>
+<v t="zoomq.20091204150544.8477"><vh>end</vh></v>
+<v t="zoomq.20091204150544.8478"><vh>S5end</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20091204150544.6940"><vh>SKSiG</vh>
+<v t="zoomq.20091204150544.7013"><vh>SNSintro</vh>
+<v t="zoomq.20091204150544.6977"><vh>@nosent index.html</vh>
+<v t="zoomq.20091204150544.6978"><vh>S5head</vh></v>
+<v t="zoomq.20091204150544.6979"><vh>S5foot</vh></v>
+<v t="zoomq.20091204150544.6980"><vh>slideTag</vh></v>
+<v t="zoomq.20091204150544.6981"><vh>P0</vh></v>
+<v t="zoomq.20091204150544.6982"><vh>SNS</vh>
+<v t="zoomq.20091204150544.6983"><vh>p-SNS?</vh></v>
+<v t="zoomq.20091204150544.6984"><vh>SNS 图谱</vh></v>
+<v t="zoomq.20091204150544.6985"><vh>六度分隔</vh></v>
+<v t="zoomq.20091204150544.6986"><vh>人际链接</vh></v>
+<v t="zoomq.20091204150544.6987"><vh>150法则</vh></v>
+<v t="zoomq.20091204150544.6988"><vh>p-Blogger</vh></v>
+<v t="zoomq.20091204150544.6989"><vh>Blogging行为准则</vh></v>
+<v t="zoomq.20091204150544.6990"><vh>Blog...</vh></v>
+<v t="zoomq.20091204150544.6991"><vh>flickr</vh></v>
+<v t="zoomq.20091204150544.6992"><vh>更多</vh></v>
+</v>
+<v t="zoomq.20091204150544.6993"><vh>知识管理</vh>
+<v t="zoomq.20091204150544.6994"><vh>KM</vh></v>
+<v t="zoomq.20091204150544.6995"><vh>K?</vh></v>
+<v t="zoomq.20091204150544.6996"><vh>KM?</vh></v>
+<v t="zoomq.20091204150544.6997"><vh>奥苏贝尔</vh></v>
+<v t="zoomq.20091204150544.6998"><vh>教育</vh></v>
+<v t="zoomq.20091204150544.6999"><vh>教育进化</vh></v>
+<v t="zoomq.20091204150544.7000"><vh>知识陀螺</vh></v>
+<v t="zoomq.20091204150544.7001"><vh>信息生命</vh></v>
+<v t="zoomq.20091204150544.7002"><vh>KM陀螺</vh></v>
+<v t="zoomq.20091204150544.7003"><vh>KM系统</vh></v>
+<v t="zoomq.20091204150544.7004"><vh>知识维度</vh></v>
+<v t="zoomq.20091204150544.7005"><vh>WeKnow</vh></v>
+<v t="zoomq.20091204150544.7006"><vh>WeKnow2</vh></v>
+<v t="zoomq.20091204150544.7007"><vh>WeKnow3</vh></v>
+<v t="zoomq.20091204150544.7008"><vh>WeKnow0</vh></v>
+</v>
+<v t="zoomq.20091204150544.7009"><vh>Summary</vh></v>
+<v t="zoomq.20091204150544.7010"><vh>About</vh></v>
+<v t="zoomq.20091204150544.7011"><vh>Author</vh></v>
+<v t="zoomq.20091204150544.7012"><vh>S5end</vh></v>
 </v>
 </v>
 </v>
@@ -2410,234 +2742,6 @@
 <v t="zoomq.20091204150544.8008"><vh>CSS</vh>
 <v t="zoomq.20091204150544.8009"><vh>@nosent pretty.css</vh></v>
 <v t="zoomq.20091204150544.8010"><vh>@nosent framing.css</vh></v>
-</v>
-</v>
-</v>
-<v t="zoomq.20091204150544.8309"><vh>MoinMoin</vh>
-<v t="zoomq.20091204150544.8310"><vh>MoinMoin 导览</vh>
-<v t="zoomq.20091204150544.8311"><vh>@nosent index.html</vh>
-<v t="zoomq.20091204150544.8312"><vh>S5head</vh></v>
-<v t="zoomq.20091204150544.8313"><vh>S5foot</vh></v>
-<v t="zoomq.20091204150544.8314"><vh>slideTag</vh></v>
-<v t="zoomq.20091204150544.8315"><vh>P0</vh></v>
-<v t="zoomq.20091204150544.8316"><vh>Wiki</vh>
-<v t="zoomq.20091204150544.8317"><vh>Wiki?</vh></v>
-<v t="zoomq.20091204150544.8318"><vh>维基百科</vh></v>
-<v t="zoomq.20091204150544.8319"><vh>维基协作</vh></v>
-<v t="zoomq.20091204150544.8320"><vh>Wiki!</vh></v>
-<v t="zoomq.20091204150544.8321"><vh>Wiki!!</vh></v>
-<v t="zoomq.20091204150544.8322"><vh>Wiki特性</vh></v>
-<v t="zoomq.20091204150544.8323"><vh>Wiki精神</vh></v>
-<v t="zoomq.20091204150544.8324"><vh>Wiki技术</vh></v>
-<v t="zoomq.20091204150544.8325"><vh>WYTIWYG</vh></v>
-<v t="zoomq.20091204150544.8326"><vh>结构化文本</vh></v>
-</v>
-<v t="zoomq.20091204150544.8327"><vh>MoinMoin</vh>
-<v t="zoomq.20091204150544.8328"><vh>Wiki系统</vh></v>
-<v t="zoomq.20091204150544.8329"><vh>Wiki实现</vh></v>
-<v t="zoomq.20091204150544.8330"><vh>Moin</vh></v>
-<v t="zoomq.20091204150544.8331"><vh>theme</vh></v>
-<v t="zoomq.20091204150544.8332"><vh>theme</vh></v>
-<v t="zoomq.20091204150544.8333"><vh>sinatheme</vh></v>
-<v t="zoomq.20091204150544.8334"><vh>Dept</vh></v>
-<v t="zoomq.20091204150544.8335"><vh>Dept2</vh></v>
-<v t="zoomq.20091204150544.8336"><vh>Dept3</vh></v>
-<v t="zoomq.20091204150544.8337"><vh>事故日志</vh></v>
-<v t="zoomq.20091204150544.8338"><vh>Group</vh></v>
-<v t="zoomq.20091204150544.8339"><vh>Group2</vh></v>
-<v t="zoomq.20091204150544.8340"><vh>SKSIG</vh></v>
-<v t="zoomq.20091204150544.8341"><vh>NMS</vh></v>
-<v t="zoomq.20091204150544.8342"><vh>SUP</vh></v>
-<v t="zoomq.20091204150544.8343"><vh>童剑</vh></v>
-<v t="zoomq.20091204150544.8344"><vh>FreeBSD</vh></v>
-<v t="zoomq.20091204150544.8345"><vh>图书馆</vh></v>
-<v t="zoomq.20091204150544.8346"><vh>Tshirt</vh></v>
-<v t="zoomq.20091204150544.8347"><vh>Discover</vh></v>
-<v t="zoomq.20091204150544.8348"><vh>Moin杂技</vh></v>
-<v t="zoomq.20091204150544.8349"><vh>Moin杂技1</vh></v>
-<v t="zoomq.20091204150544.8350"><vh>Moin杂技2</vh></v>
-<v t="zoomq.20091204150544.8351"><vh>Moin杂技3</vh></v>
-<v t="zoomq.20091204150544.8352"><vh>Moin dot</vh></v>
-<v t="zoomq.20091204150544.8353"><vh>Moin latex</vh></v>
-<v t="zoomq.20091204150544.8354"><vh>Moin sctable</vh></v>
-<v t="zoomq.20091204150544.8355"><vh>Moin Gantt</vh></v>
-<v t="zoomq.20091204150544.8356"><vh>Moin GunPlot</vh></v>
-</v>
-<v t="zoomq.20091204150544.8357"><vh>Summary</vh></v>
-<v t="zoomq.20091204150544.8358"><vh>About</vh></v>
-<v t="zoomq.20091204150544.8359"><vh>Author</vh></v>
-<v t="zoomq.20091204150544.8360"><vh>end</vh></v>
-<v t="zoomq.20091204150544.8361"><vh>S5end</vh></v>
-</v>
-</v>
-<v t="zoomq.20091204150544.8362"><vh>从入门到精通 MoinMoin</vh>
-<v t="zoomq.20091204150544.8363"><vh>@nosent index.html</vh>
-<v t="zoomq.20091204150544.8364"><vh>S5head</vh></v>
-<v t="zoomq.20091204150544.8365"><vh>S5foot</vh></v>
-<v t="zoomq.20091204150544.8366"><vh>slideTag</vh></v>
-<v t="zoomq.20091204150544.8367"><vh>P0</vh></v>
-<v t="zoomq.20091204150544.8368"><vh>P1</vh></v>
-<v t="zoomq.20091204150544.8369"><vh>DirveInto</vh>
-<v t="zoomq.20091204150544.8370"><vh>注册</vh></v>
-<v t="zoomq.20091204150544.8371"><vh>创建</vh></v>
-<v t="zoomq.20091204150544.8372"><vh>修改</vh></v>
-<v t="zoomq.20091204150544.8373"><vh>模板</vh></v>
-<v t="zoomq.20091204150544.8374"><vh>子页面</vh></v>
-<v t="zoomq.20091204150544.8375"><vh>包含</vh></v>
-<v t="zoomq.20091204150544.8376"><vh>月历</vh></v>
-<v t="zoomq.20091204150544.8377"><vh>还有</vh></v>
-<v t="zoomq.20091204150544.8378"><vh>但是！</vh></v>
-</v>
-<v t="zoomq.20091204150544.8379"><vh>Wiki</vh>
-<v t="zoomq.20091204150544.8380"><vh>Wiki?</vh></v>
-<v t="zoomq.20091204150544.8381"><vh>维基百科</vh></v>
-<v t="zoomq.20091204150544.8382"><vh>维基协作</vh></v>
-<v t="zoomq.20091204150544.8383"><vh>Wiki!</vh></v>
-<v t="zoomq.20091204150544.8384"><vh>Wiki!!</vh></v>
-<v t="zoomq.20091204150544.8385"><vh>Wiki特性</vh></v>
-<v t="zoomq.20091204150544.8386"><vh>Wiki精神</vh></v>
-<v t="zoomq.20091204150544.8387"><vh>Wiki技术</vh></v>
-<v t="zoomq.20091204150544.8388"><vh>WYTIWYG</vh></v>
-<v t="zoomq.20091204150544.8389"><vh>结构化文本</vh></v>
-</v>
-<v t="zoomq.20091204150544.8390"><vh>MoinMoin</vh>
-<v t="zoomq.20091204150544.8391"><vh>Wiki系统</vh></v>
-<v t="zoomq.20091204150544.8392"><vh>Wiki实现</vh></v>
-<v t="zoomq.20091204150544.8393"><vh>Moin</vh></v>
-<v t="zoomq.20091204150544.8394"><vh>theme</vh></v>
-<v t="zoomq.20091204150544.8395"><vh>theme</vh></v>
-<v t="zoomq.20091204150544.8396"><vh>sinatheme</vh></v>
-<v t="zoomq.20091204150544.8397"><vh>Dept</vh></v>
-<v t="zoomq.20091204150544.8398"><vh>Dept2</vh></v>
-<v t="zoomq.20091204150544.8399"><vh>Dept3</vh></v>
-<v t="zoomq.20091204150544.8400"><vh>事故日志</vh></v>
-<v t="zoomq.20091204150544.8401"><vh>Group</vh></v>
-<v t="zoomq.20091204150544.8402"><vh>Group2</vh></v>
-<v t="zoomq.20091204150544.8403"><vh>SKSIG</vh></v>
-<v t="zoomq.20091204150544.8404"><vh>NMS</vh></v>
-<v t="zoomq.20091204150544.8405"><vh>SUP</vh></v>
-<v t="zoomq.20091204150544.8406"><vh>童剑</vh></v>
-<v t="zoomq.20091204150544.8407"><vh>FreeBSD</vh></v>
-<v t="zoomq.20091204150544.8408"><vh>图书馆</vh></v>
-<v t="zoomq.20091204150544.8409"><vh>Tshirt</vh></v>
-<v t="zoomq.20091204150544.8410"><vh>Discover</vh></v>
-<v t="zoomq.20091204150544.8411"><vh>Moin杂技1</vh></v>
-<v t="zoomq.20091204150544.8412"><vh>Moin杂技2</vh></v>
-<v t="zoomq.20091204150544.8413"><vh>Moin杂技3</vh></v>
-<v t="zoomq.20091204150544.8414"><vh>Moin dot</vh></v>
-<v t="zoomq.20091204150544.8415"><vh>Moin latex</vh></v>
-<v t="zoomq.20091204150544.8416"><vh>Moin sctable</vh></v>
-<v t="zoomq.20091204150544.8417"><vh>Moin GunPlot</vh></v>
-</v>
-<v t="zoomq.20091204150544.8418"><vh>Summary</vh></v>
-<v t="zoomq.20091204150544.8419"><vh>About</vh></v>
-<v t="zoomq.20091204150544.8420"><vh>Author</vh></v>
-<v t="zoomq.20091204150544.8421"><vh>end</vh></v>
-<v t="zoomq.20091204150544.8422"><vh>S5end</vh></v>
-</v>
-</v>
-<v t="zoomq.20091204150544.8423"><vh>p从入门到精通 MoinMoin</vh>
-<v t="zoomq.20091204150544.8424"><vh>@nosent index.html</vh>
-<v t="zoomq.20091204150544.8425"><vh>S5head</vh></v>
-<v t="zoomq.20091204150544.8426"><vh>S5foot</vh></v>
-<v t="zoomq.20091204150544.8427"><vh>slideTag</vh></v>
-<v t="zoomq.20091204150544.8428"><vh>P0</vh></v>
-<v t="zoomq.20091204150544.8429"><vh>P1</vh></v>
-<v t="zoomq.20091204150544.8430"><vh>DirveInto</vh>
-<v t="zoomq.20091204150544.8431"><vh>注册</vh></v>
-<v t="zoomq.20091204150544.8432"><vh>创建</vh></v>
-<v t="zoomq.20091204150544.8433"><vh>修改</vh></v>
-<v t="zoomq.20091204150544.8434"><vh>模板</vh></v>
-<v t="zoomq.20091204150544.8435"><vh>子页面</vh></v>
-<v t="zoomq.20091204150544.8436"><vh>包含</vh></v>
-<v t="zoomq.20091204150544.8437"><vh>月历</vh></v>
-<v t="zoomq.20091204150544.8438"><vh>还有</vh></v>
-<v t="zoomq.20091204150544.8439"><vh>但是！</vh></v>
-</v>
-<v t="zoomq.20091204150544.8440"><vh>Wiki</vh>
-<v t="zoomq.20091204150544.8441"><vh>Wiki?</vh></v>
-<v t="zoomq.20091204150544.8442"><vh>维基百科</vh></v>
-<v t="zoomq.20091204150544.8443"><vh>维基协作</vh></v>
-<v t="zoomq.20091204150544.8444"><vh>Wiki!</vh></v>
-<v t="zoomq.20091204150544.8445"><vh>Wiki!!</vh></v>
-<v t="zoomq.20091204150544.8446"><vh>Wiki特性</vh></v>
-<v t="zoomq.20091204150544.8447"><vh>Wiki精神</vh></v>
-<v t="zoomq.20091204150544.8448"><vh>Wiki技术</vh></v>
-<v t="zoomq.20091204150544.8449"><vh>WYTIWYG</vh></v>
-<v t="zoomq.20091204150544.8450"><vh>结构化文本</vh></v>
-</v>
-<v t="zoomq.20091204150544.8451"><vh>MoinMoin</vh>
-<v t="zoomq.20091204150544.8452"><vh>Wiki系统</vh></v>
-<v t="zoomq.20091204150544.8453"><vh>Wiki实现</vh></v>
-<v t="zoomq.20091204150544.8454"><vh>Moin</vh></v>
-<v t="zoomq.20091204150544.8455"><vh>theme</vh></v>
-<v t="zoomq.20091204150544.8456"><vh>theme</vh></v>
-<v t="zoomq.20091204150544.8457"><vh>sinatheme</vh></v>
-<v t="zoomq.20091204150544.8458"><vh>事故日志</vh></v>
-<v t="zoomq.20091204150544.8459"><vh>Group2</vh></v>
-<v t="zoomq.20091204150544.8460"><vh>SKSIG</vh></v>
-<v t="zoomq.20091204150544.8461"><vh>NMS</vh></v>
-<v t="zoomq.20091204150544.8462"><vh>童剑</vh></v>
-<v t="zoomq.20091204150544.8463"><vh>FreeBSD</vh></v>
-<v t="zoomq.20091204150544.8464"><vh>图书馆</vh></v>
-<v t="zoomq.20091204150544.8465"><vh>Tshirt</vh></v>
-<v t="zoomq.20091204150544.8466"><vh>Discover</vh></v>
-<v t="zoomq.20091204150544.8467"><vh>Moin杂技1</vh></v>
-<v t="zoomq.20091204150544.8468"><vh>Moin杂技2</vh></v>
-<v t="zoomq.20091204150544.8469"><vh>Moin杂技3</vh></v>
-<v t="zoomq.20091204150544.8470"><vh>Moin dot</vh></v>
-<v t="zoomq.20091204150544.8471"><vh>Moin latex</vh></v>
-<v t="zoomq.20091204150544.8472"><vh>Moin sctable</vh></v>
-<v t="zoomq.20091204150544.8473"><vh>Moin GunPlot</vh></v>
-</v>
-<v t="zoomq.20091204150544.8474"><vh>Summary</vh></v>
-<v t="zoomq.20091204150544.8475"><vh>About</vh></v>
-<v t="zoomq.20091204150544.8476"><vh>Author</vh></v>
-<v t="zoomq.20091204150544.8477"><vh>end</vh></v>
-<v t="zoomq.20091204150544.8478"><vh>S5end</vh></v>
-</v>
-</v>
-</v>
-<v t="zoomq.20091204150544.6940"><vh>SKSiG</vh>
-<v t="zoomq.20091204150544.7013"><vh>SNSintro</vh>
-<v t="zoomq.20091204150544.6977"><vh>@nosent index.html</vh>
-<v t="zoomq.20091204150544.6978"><vh>S5head</vh></v>
-<v t="zoomq.20091204150544.6979"><vh>S5foot</vh></v>
-<v t="zoomq.20091204150544.6980"><vh>slideTag</vh></v>
-<v t="zoomq.20091204150544.6981"><vh>P0</vh></v>
-<v t="zoomq.20091204150544.6982"><vh>SNS</vh>
-<v t="zoomq.20091204150544.6983"><vh>p-SNS?</vh></v>
-<v t="zoomq.20091204150544.6984"><vh>SNS 图谱</vh></v>
-<v t="zoomq.20091204150544.6985"><vh>六度分隔</vh></v>
-<v t="zoomq.20091204150544.6986"><vh>人际链接</vh></v>
-<v t="zoomq.20091204150544.6987"><vh>150法则</vh></v>
-<v t="zoomq.20091204150544.6988"><vh>p-Blogger</vh></v>
-<v t="zoomq.20091204150544.6989"><vh>Blogging行为准则</vh></v>
-<v t="zoomq.20091204150544.6990"><vh>Blog...</vh></v>
-<v t="zoomq.20091204150544.6991"><vh>flickr</vh></v>
-<v t="zoomq.20091204150544.6992"><vh>更多</vh></v>
-</v>
-<v t="zoomq.20091204150544.6993"><vh>知识管理</vh>
-<v t="zoomq.20091204150544.6994"><vh>KM</vh></v>
-<v t="zoomq.20091204150544.6995"><vh>K?</vh></v>
-<v t="zoomq.20091204150544.6996"><vh>KM?</vh></v>
-<v t="zoomq.20091204150544.6997"><vh>奥苏贝尔</vh></v>
-<v t="zoomq.20091204150544.6998"><vh>教育</vh></v>
-<v t="zoomq.20091204150544.6999"><vh>教育进化</vh></v>
-<v t="zoomq.20091204150544.7000"><vh>知识陀螺</vh></v>
-<v t="zoomq.20091204150544.7001"><vh>信息生命</vh></v>
-<v t="zoomq.20091204150544.7002"><vh>KM陀螺</vh></v>
-<v t="zoomq.20091204150544.7003"><vh>KM系统</vh></v>
-<v t="zoomq.20091204150544.7004"><vh>知识维度</vh></v>
-<v t="zoomq.20091204150544.7005"><vh>WeKnow</vh></v>
-<v t="zoomq.20091204150544.7006"><vh>WeKnow2</vh></v>
-<v t="zoomq.20091204150544.7007"><vh>WeKnow3</vh></v>
-<v t="zoomq.20091204150544.7008"><vh>WeKnow0</vh></v>
-</v>
-<v t="zoomq.20091204150544.7009"><vh>Summary</vh></v>
-<v t="zoomq.20091204150544.7010"><vh>About</vh></v>
-<v t="zoomq.20091204150544.7011"><vh>Author</vh></v>
-<v t="zoomq.20091204150544.7012"><vh>S5end</vh></v>
 </v>
 </v>
 </v>
@@ -3505,7 +3609,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100819213607.6364"><vh>Recovered Nodes</vh>
+<v t="zoomq.20100819213607.6364" a="E"><vh>Recovered Nodes</vh>
 <v t="zoomq.20100819213607.6365"><vh>Recovered node "page0 from @shadow index.html</vh>
 <v t="zoomq.20100819213607.6366"><vh>old:page0</vh></v>
 <v t="zoomq.20100819213607.6367"><vh>new:page0</vh></v>
@@ -66130,6 +66234,1401 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 
 
+</t>
+<t tx="zoomq.20110621085047.12687">@path 080130-floss-license</t>
+<t tx="zoomq.20110621085047.12688">@language html
+@tabwidth -4
+
+@tabwidth -4
+&lt;&lt;s5head&gt;&gt;
+&lt;&lt;footer&gt;&gt;
+&lt;/div&gt;&lt;!-- class="layout"--&gt;
+
+&lt;div class="presentation"&gt;
+
+
+@others
+
+
+
+&lt;/div&gt;&lt;!--class="presentation"--&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+
+
+</t>
+<t tx="zoomq.20110621085047.12692"></t>
+<t tx="zoomq.20110621085047.12700">
+&lt;div class="slide" id="slide0"&gt;
+
+&lt;h3&gt;&lt;img src="icon/zeuux-logo.png" /&gt;&lt;br/&gt;&lt;img src="icon/CPUGlogo-100.png" /&gt;
+&lt;br/&gt;漫谈 FLOSS 许可证
+&lt;br/&gt;&lt;sup&gt;+ ZPyUG/ZEUUX社区介绍
+&lt;/sup&gt;
+&lt;/h3&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12701">
+
+&lt;div class="slide"&gt;
+&lt;h1&gt; 制作免责 &lt;/h1&gt;
+
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://wiki.internal.sina.com.cn/moin/ZoomQuiet"&gt;
+        &lt;img src="id/zoomquiet_1-1_outline.png"&gt;
+    &lt;/a&gt;伙同所有热心的
+    &lt;a href="http://www.zeuux.org/community/community.cn.html"&gt;ZEUUX.org&lt;/a&gt;
+    成员共同制作
+        ......
+    &lt;ul&gt;
+        &lt;li&gt; 一切资料来自互联网
+        &lt;li&gt; 所有想法来自日常学习工作
+        &lt;li&gt; 所有体悟来自各种沟通分享
+        &lt;li&gt; 所有知识来自网络分享印证
+        &lt;li&gt; 所有经验来自个人失败经历……
+    &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;/ul&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;</t>
+<t tx="zoomq.20110621085047.12703">&lt;div class="slide"&gt;
+&lt;h1&gt;提纲&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;软件天生是自由的!
+    &lt;/li&gt;
+&lt;li&gt;FLOSS许可证体系?
+    &lt;/li&gt;
+&lt;li&gt;合理使用自由软件代码
+    &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12705">&lt;div class="slide"&gt;
+&lt;h1&gt;第一段严格意义的代码在 1842年诞生&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;&lt;a href="http://blog.csdn.net/studyada/archive/2005/01/21/263038.aspx"&gt;Ada&lt;/a&gt;
+&lt;br/&gt;Lovelace
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12707">&lt;div class="slide"&gt;
+&lt;h1&gt;至1976-2-3 gates:"&lt;a href="http://www.blinkenlights.com/classiccmp/gateswhine.html"&gt;
+致电脑爱好者的一封公开信&lt;/a&gt;"&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;img src="img/billgates-open-letter.jpg"&gt;
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12709">
+&lt;div class="slide"&gt;
+&lt;h1&gt;整整&lt;b class="alert"&gt;134&lt;/b&gt;年!软件全部是&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+自由的!
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12711">&lt;div class="slide"&gt;
+&lt;h1&gt;硬件是肉体,软件灵魂&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+灵魂必是&lt;br/&gt;自由的!
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12713">
+&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:公共软件~Public domain software&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+一切自由
+&lt;br/&gt;仅限本身
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12715">&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:共享软件~Shareware&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+部分使用
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12717">&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:免费软件~Freeware&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+自由使用/发布
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12719">&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:专有软件~Proprietary software&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+无有自由
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12721">&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:商用软件~Commercial software&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+上述任一&lt;br/&gt;皆可
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12723">&lt;div class="slide"&gt;
+&lt;h1&gt;自由下载?&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;img src="img/freedownload-software.jpg"&gt;
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12725">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://www.zeuux.org/philosophy/rms-and-fsm.cn.html"&gt;R.M.S&lt;/a&gt;发起
+    &lt;img src="icon/gerwinski-gnu-120.png"/&gt;GNU(1984)
+&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;a href="http://www.gnu.org/gnu/gnu.html"&gt;GNU's Not Unix&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12726">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://www.zeuux.org/philosophy/rms-and-fsm.cn.html"&gt;R.M.S&lt;/a&gt;创建 &lt;img src="icon/FSF_362x53_scrot.png"/&gt; (1985)
+&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+    &lt;a href="http://www.fsf.org"&gt;FreeSoftware
+    &lt;br/&gt;Foundations&lt;/a&gt;
+
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12728">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://www.zeuux.org/philosophy/rms-and-fsm.cn.html"&gt;R.M.S&lt;/a&gt;设计 &lt;b&gt;&lt;a href="http://www.gnu.org/licenses/gpl.html"&gt;GPL&lt;/a&gt;&lt;/b&gt;(1985)&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+使用版权&lt;br/&gt;
+放弃版权
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12730">
+&lt;div class="slide"&gt;
+&lt;h1&gt;软件自由.0&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;使用软件&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12732">
+&lt;div class="slide"&gt;
+&lt;h1&gt;软件自由.1&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;修订软件&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12734">
+&lt;div class="slide"&gt;
+&lt;h1&gt;软件自由.2&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;分享软件&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12736">
+&lt;div class="slide"&gt;
+&lt;h1&gt;软件自由.3&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;发布修订&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12738">
+&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:自由软件~Free software&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+完满自由
+&lt;/h2&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12740">
+&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:开源软件~Open Source software&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+部分自由
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12742">
+&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:版权&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+促进科学/艺术进步
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12744">
+&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:版权&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+天然存在
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12746">
+&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:软件版权&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+=许可证
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12748">&lt;div class="slide"&gt;
+&lt;h1&gt;软件许可证的本质~&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+使用软件拷贝
+&lt;br/&gt;的权利
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12750">
+&lt;div class="slide"&gt;
+&lt;h1&gt;软件版权-&gt;混淆概念&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+夺走vs复制
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12752">
+&lt;div class="slide"&gt;
+&lt;h1&gt;软件版权-&gt;夸大其辞&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+复制带来&lt;br/&gt;伤害?!
+&lt;/h2&gt;
+&lt;div class="handout"&gt;
+不过，复制行为本身并不会对他们造成直接影响，也不会对任何人造成伤害。损失只有在复制者有可能掏腰包购买其软件的前提下才会发生。
+
+    很显然，大部分复制者都不愿意掏腰包
+&lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12754">
+&lt;div class="slide"&gt;
+&lt;h1&gt;软件版权-&gt;法律&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+法律!=&lt;br/&gt;真理
+&lt;/h2&gt;
+&lt;div class="handout"&gt;
+法律并不一定代表对错，这是常识。每一个美国人都知道，50年前在美国的许多州，黑人坐在汽车车厢的前端是“违法”的，而实际上，只有种族主义者才认为黑人坐在汽车前端是“错误”的
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12756">
+&lt;div class="slide"&gt;
+&lt;h1&gt;软件版权-&gt;自然权利&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+直接vs间接&lt;br/&gt;影响
+&lt;/h2&gt;
+
+&lt;div class="handout"&gt;
+第一种情况可以与实物作对比;
+在第二种情况下，人们被告知作者所拥有的自然权利是我们这个社会所约定俗成的传统;
+    宪法声称版权必须是暂时性的，宪法还声明版权的目的是为了促进进步，而不是犒劳作者
+我们这个社会的真正传统是：版权系统侵犯了大众的自然权利，一切必须根据大众的利益进行判定
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12758">
+&lt;div class="slide"&gt;
+&lt;h1&gt;软件版权-&gt;经济学&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+竞争vs战争
+&lt;/h2&gt;
+&lt;div class="handout"&gt;
+此时 “让最优秀的人获胜” 就让位于 “让我赢，不管是否是最优秀的。”
+私权软件是有害的， 并非因为它是一种竞争形式，而是因为它是与社会公民为敌的战争形式;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12760">&lt;div class="slide"&gt;
+&lt;h1&gt;软件版权-&gt;经济学&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+自由vs价格
+&lt;/h2&gt;
+
+&lt;div class="handout"&gt;
+如果给予开发者以较好的回报，他们就能制作出更多的软件;
+假设我们所需要的只是“软件的开发”，而不论其是否拥有版权;
+任何实物，无论它是否“名花有主”，都不会影响到它“是什么东西”，也不会影响到你将“如何使用”它;
+社会需要什么？需要的是可以真正拥有的信息，人们可以读取、修改、适应和改进它，而不仅仅是使用，但版权持有者却只交给了我们一个无法研究或改变的黑匣子!
+自由软件事关自由，而非价格
+&lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12762">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://www.zeuux.org/philosophy/rms-and-fsm.cn.html"&gt;R.M.S&lt;/a&gt;通过 &lt;b&gt;&lt;a href="http://www.gnu.org/licenses/gpl.html"&gt;GPL&lt;/a&gt;&lt;/b&gt;&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+运用版权&lt;br/&gt;
+抛弃版权
+&lt;/h2&gt;
+
+    &lt;div class="handout"&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12764">&lt;div class="slide"&gt;
+&lt;h1&gt;自由软件关乎:&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;b&gt;Freedom&lt;/b&gt;&lt;br/&gt;
+而非价格
+&lt;/h2&gt;
+&lt;div class="handout"&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12766">
+&lt;div class="slide"&gt;
+&lt;h1&gt;对等版权
+&lt;b class="alert"&gt;&lt;a href="http://www.gnu.org/licenses/gpl.html"&gt;GPL&lt;/a&gt;&lt;/b&gt;
+的传染性&lt;/h1&gt;
+
+&lt;table&gt;&lt;tr&gt;
+&lt;td&gt;&lt;pre&gt;GPL(){
+    you can use it freedom;
+    GPL();
+}
+&lt;/pre&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src="icon/sa.png"/&gt;&lt;/td&gt;
+&lt;/tr&gt;&lt;/table&gt;
+
+
+&lt;h2 id="largerwd"&gt;
+CopyLeft
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12769">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://wp.netscape.com/newsref/pr/newsrelease558.html"&gt;Raymond&lt;/a&gt;
+~ &lt;img src="icon/osi-certified-120x100.png"/&gt;成功迎合:
+&lt;a href="http://www.opensource.org/docs/definition.php"&gt;OSD&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;a href="http://www.opensource.org/licenses/category"&gt;
+OpenSource&lt;br/&gt;Software
+&lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="handout"&gt;
+...
+&lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12771">
+&lt;div class="slide"&gt;
+&lt;h1&gt;合稀泥:&lt;img src="icon/flossworld-logo.png"/&gt;&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;a href="http://www.flossworld.org/"&gt;Free/Libre&lt;br/&gt;/OpenSource&lt;/a&gt;
+&lt;/h2&gt;
+
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12773">
+&lt;div class="slide"&gt;
+&lt;h1&gt;软件许可&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&gt;58种!
+&lt;/h2&gt;
+&lt;a href="http://www.opensource.org/licenses/category"&gt;
+    &lt;img src="icon/osi-certified-120x100.png"/&gt;&lt;/a&gt;
+&lt;a href="http://www.fsf.org"&gt;
+    &lt;img src="icon/FSF_32_scrot.png"/&gt;&lt;/a&gt;
+&lt;a href="http://www.gnu.org/licenses/license-list.html/"&gt;
+    &lt;img src="icon/GNU-62-logo.png"/&gt;&lt;/a&gt;
+&lt;a href="http://www.softwarefreedom.org/"&gt;
+    &lt;img src="icon/sflc-51-logo.png"/&gt;&lt;/a&gt;
+    ...
+
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12775">&lt;div class="slide"&gt;
+&lt;h1&gt;FLOSS许可体系&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;img src="img/floss-license-slide-image.png"/&gt;
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12777">
+&lt;div class="slide"&gt;
+&lt;h1&gt;PS~&lt;img src="icon/cc-logo-yellow.png"/&gt;版权的消亡前奏&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;a href="http://creativecommons.org/"&gt;创作共用&lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="handout"&gt;
+...
+&lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12779">
+&lt;div class="slide"&gt;
+&lt;h1&gt;版权的诞生&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+手抄vs印刷
+&lt;/h2&gt;
+&lt;div class="handout"&gt;
+...
+&lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12781">
+&lt;div class="slide"&gt;
+&lt;h1&gt;版权的嬗变&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+印刷vs复印
+&lt;/h2&gt;
+&lt;div class="handout"&gt;
+...
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12783">&lt;div class="slide"&gt;
+&lt;h1&gt;GPL v2 1991 对抗::&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+"软件专利"&lt;br/&gt;"系统库"
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12785">
+&lt;div class="slide"&gt;
+&lt;h1&gt;PS:专利含义&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+专有权
+&lt;/h2&gt;
+&lt;div class="handout"&gt;
+...
+&lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12787">
+&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:专利获得&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+申请获取&lt;br/&gt;国家保证
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12789">
+&lt;div class="slide"&gt;
+&lt;h1&gt;FAQ:软件专利&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;a href="http://floss.zoomquiet.org/data/20051101152513/index.html"&gt;最邪恶&lt;br/&gt;生化武器
+&lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="handout"&gt;
+软件有三个层次：
+1 软件的功能，feature
+2 软件实现的技术和思路
+3 软件的源码、文档和可执行程序;
+软件专利妄图控制1~2层，将所有开发者陷于不可知的各种法律隐患中
+&lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12791">
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+整整16年后~&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;2007年
+&lt;br/&gt;6月29日&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12794">
+
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+阻击 &lt;a href="http://www.google.cn/dmca.html"&gt;DRM&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+
+&lt;a href="http://www.zeuux.org/law/billxu-rms-drm.cn.html"&gt;
+Rights?&lt;br/&gt;Restrictions!&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12797">
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+禁止TIVO化&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;a href="http://opensource.solidot.org/opensource/07/06/05/0026251.shtml"&gt;
+Tivoization&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;</t>
+<t tx="zoomq.20110621085047.12800">
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+防护软件专利的威胁
+&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;a href="http://www.donews.com/Content/200611/11657fa29cc4447490177d60e84732c5.shtm"&gt;
+M$,Novell&lt;br/&gt;
+交叉专利保护&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12803">
+
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+提升许可证的兼容性&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;img src="img/quick-guide-gplv3-compatibility.png"/&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12806">
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+提升全球化&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+统一关键词
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12809">
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+:修改版本&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+修改
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+
+</t>
+<t tx="zoomq.20110621085047.12812">
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+:覆盖程序&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+复制|&lt;b class="alert"&gt;基于&lt;/b&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12815">
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+:许可覆盖下的合法行为&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+传播
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12818">
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+:制作或者接受副本的传播行为&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+发布
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12821">
+
+&lt;div class="slide"&gt;
+
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+:包含于主要部件但不属于该部件&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+系统库
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    可执行程序的“系统库”不是指整个程序
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12824">
+
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+:保证&lt;b class="alert"&gt;联合体&lt;/b&gt;的目标友好&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+聚集体
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12827">
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+:保证下游接收者权益&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+自动授权
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12830">
+&lt;div class="slide"&gt;
+&lt;h1&gt;GPL&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+&lt;a href="http://bergwolf.googlepages.com/gplv3_zh"&gt;v3&lt;/a&gt;
+:授权恢复&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+60天内
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    如果您停止违反本授权，那么您从某个特定版权所有者处获取的授权许可能够以以下方式恢复
+    （a）您可以暂时地拥有授权，直到版权所有者明确地终止您的授权；
+    （b）如果在您停止违反本授权后的60天内，版权所有者没有以某种合理的方式告知您的违背行为，那么您可以永久地获取该授权
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12833">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+~合法使用&lt;a href="http://www.gnu.org/licenses/license-list.html"&gt;GPL&lt;/a&gt;
+软件代码
+&lt;/h1&gt;
+&lt;hr/&gt;&lt;br/&gt;
+&lt;h2&gt;
+as 外部服务调用::
+&lt;ul&gt;
+&lt;li&gt;必须不同进程
+&lt;li&gt;包装相关代码成执行文件
+    &lt;ul&gt;
+        &lt;li&gt;包装程序也得GPL发布
+    &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;b class="alert"&gt;非法使用&lt;/b&gt;::
+&lt;ul&gt;
+&lt;li&gt;dll调用
+&lt;li&gt;.cpp 引用
+&lt;/ul&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12836">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+~合法使用&lt;a href="http://www.gnu.org/licenses/lgpl.html"&gt;LGPL&lt;/a&gt;
+软件代码
+&lt;/h1&gt;
+&lt;hr/&gt;&lt;br/&gt;
+&lt;h2&gt;
+as 链接库/外部服务调用::
+&lt;ul&gt;
+&lt;li&gt;可以同一进程
+&lt;li&gt;包装相关代码成执行文件
+    &lt;ul&gt;
+        &lt;li&gt;包装程序也得LGPL发布
+    &lt;/ul&gt;
+&lt;/ul&gt;
+
+&lt;b class="alert"&gt;非法使用&lt;/b&gt;::
+&lt;ul&gt;
+&lt;li&gt;.cpp 引用
+&lt;/ul&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12841">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+&lt;a href="http://www.gnu.org/licenses/license-list.html"&gt;GPL&lt;/a&gt;?商业操作!&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+一样获利!
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12844">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+其它赢利模式.0&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;a href="http://www.saas.com.cn/"&gt;SaaS&lt;/a&gt;
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12847">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+其它赢利模式.1&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+捐助开发&lt;br/&gt;优先体验
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12850">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+其它赢利模式.2&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+方案定制
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12853">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+其它赢利模式.3&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+付费再开发
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12856">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+其它赢利模式.4&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+商业版本
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12859">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+其它赢利模式.N&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+专有,从来&lt;br/&gt;不是唯一!
+&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12862">
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;div id="float_logo"&gt;&lt;img src="icon/gpl-v3-dogear.png"/&gt;&lt;/div&gt;
+
+
+态度...&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;img src="img/080129-floss-taidu.png"&gt;&lt;/h2&gt;
+    &lt;div class="handout"&gt;
+    ...
+    &lt;/div&gt;
+
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12865">
+
+
+&lt;div class="slide"&gt;
+&lt;h1&gt;灵蟒！ Python&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://python.org"&gt;&lt;img src="foto/python.jpg" /&gt;&lt;/a&gt;
+&lt;li&gt;&lt;a href="http://www.zeuux.org/documentation/python-intro"&gt;
+"Python 介绍"&lt;sup&gt;s5&lt;/sup&gt;
+&lt;/a&gt;
+&lt;sup&gt;
+--&lt;a href="http://www.donews.net/limodou/"&gt;limodou&lt;/a&gt;;&lt;a href="http://zoomquiet.org"&gt;Zoom.Quiet&lt;/a&gt;
+&lt;/sup&gt;
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.douban.com/subject/1239501/"&gt;
+    &lt;img src="foto/learnpython.jpg"/&gt;"Python语言入门"
+    &lt;/a&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12866">
+
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;img src="img/_wp-www_banner.png" /&gt;&lt;/h1&gt;
+&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;回顾啄木鸟社区创立历程
+    &lt;ul&gt;
+    &lt;li&gt;2001年4月 &lt;a href="http://www.linuxforum.net/forum/postlist.php?Cat=&amp;Board=python"&gt;
+    中国Linux论坛 Python 编程 版块
+    &lt;/a&gt;
+    &lt;li&gt;2002年4月 &lt;a href="http://www.chinesepython.org/"&gt;
+    &lt;img src="foto/cpylogo.gif"/&gt;&lt;/a&gt;发布
+    &lt;li&gt;2003年2月 &lt;a href="http://www.chinesepython.org/"&gt;
+    CZUG.org&lt;/a&gt; 开通
+    &lt;li&gt;2004年1月 &lt;a href="http://python.cn/pipermail/python-chinese/"&gt;
+    python.cn 邮件列表&lt;/a&gt;开通
+    &lt;li&gt;2004年3月30日 在上海发布Python知识的Wiki
+    &lt;br/&gt;http://220.248.2.35:7080
+    &lt;sup&gt;反向代理发布 MoinMoin 1.2系统&lt;/sup&gt;
+    &lt;li&gt;2004年7月2日 HD &lt;a href="http://python.cn/pipermail/python-chinese/2004-July/002072.html"&gt;
+    "高性能分布式网络存储系统的想法"
+    &lt;/a&gt; 促成一个以项目为中心的实践型社区的计划
+    &lt;li&gt; 2005年5月 HD进入新浪，并提供专用主机资源，开启
+    &lt;a href="http://www.woodpecker.org.cn/"&gt;woodpecker.org.cn&lt;/a&gt;
+    &lt;li&gt;2005年6月1日 &lt;a href="http://wiki.woodpecker.org.cn/moin/CnPyUniteLayout"&gt;
+    经讨论&lt;/a&gt; 决定整合资源建立 CPUG
+    &lt;li&gt; 2005年7月30日&lt;a href="http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30"&gt;
+    &lt;img src="img/CPUGlogo-100.gif" /&gt;&lt;/a&gt;成立..
+    &lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12867">
+
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;img src="img/_wp-www_banner.png" /&gt;&lt;/h1&gt;
+
+&lt;br/&gt;
+&lt;ul&gt;
+&lt;li&gt;啄木鸟自由开发社区资源
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://wiki.woodpecker.org.cn/moin/CPUG"&gt;
+    &lt;img src="img/_wp-wiki_banner.png"/&gt;
+    &lt;/a&gt; &lt;sup&gt;-- 知识管理&lt;/sup&gt;
+
+    &lt;li&gt;&lt;a href="http://wiki.woodpecker.org.cn/moin/CPUG"&gt;
+    &lt;img src="img/_wp-trac_banner.png"/&gt;
+    &lt;/a&gt; &lt;sup&gt;-- 项目管理&lt;/sup&gt;
+    &lt;li&gt;&lt;img src="img/groups_medium_zh-CN.gif"/&gt;
+    &lt;sup&gt;&lt;a href="http://groups.google.com/group/CPUG/aboutG"&gt;
+    CPUG 邮件列表&lt;/a&gt;;
+    &lt;a href="http://groups.google.com/group/bpug/about"&gt;
+    BPUG 邮件列表&lt;/a&gt;;
+    &lt;a href="http://groups.google.com/group/python-cn/about"&gt;
+    python.cn 邮件列表&lt;/a&gt;;
+    &lt;a href="http://groups.google.com/group/cpug-eastchina/about"&gt;
+    cpug-eastchina 邮件列表&lt;/a&gt;;...
+    &lt;/sup&gt;
+
+    &lt;li&gt;&lt;a href="hhttp://python.cn/"&gt;
+    &lt;img src="img/plone_powered.gif"/&gt;
+    社区门户&lt;/a&gt; &lt;sup&gt;域名&lt;a href="http://www.exoweb.net/"&gt;Exoweb捐赠&lt;/a&gt;,主机由啄木鸟社区提供&lt;/sup&gt;
+
+
+    &lt;li&gt; 会课制度 -- &lt;sup&gt;让我们互为老师&lt;/sup&gt;
+    &lt;ul&gt;
+    &lt;li&gt; &lt;a href="http://wiki.woodpecker.org.cn/moin/WoodpeckerClass"&gt;
+    啄木鸟会课&lt;/a&gt;
+
+    &lt;li&gt; &lt;a href="http://wiki.woodpecker.org.cn/moin/BPUG"&gt;
+    CPUG会课&lt;/a&gt;
+
+    &lt;/ul&gt;
+
+    &lt;li&gt; 其它各种&lt;a href="http://wiki.woodpecker.org.cn/moin/CPUGres"&gt;实用资源&lt;/a&gt;不断补充中……
+    &lt;/ul&gt;
+&lt;/li&gt;
+
+&lt;/ul&gt;
+
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12868">
+
+
+&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;img src="img/WikiTshirt-logo.gif" /&gt; &lt;/h1&gt;
+&lt;br/&gt;&lt;br/&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://wiki.woodpecker.org.cn/moin/CPUG"&gt;
+    &lt;img src="img/CPUGlogo-100rc1.gif" /&gt;
+    &lt;/a&gt;    共同的旗帜！
+        &lt;ul&gt;
+        &lt;li&gt; &lt;a href="http://wiki.woodpecker.org.cn/moin/BPUG"&gt;
+        &lt;img src="img/BPUGlogo90.gif" /&gt;
+        &lt;/a&gt;
+        制度化的交流
+        &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;新的开始:&lt;a href="http://wiki.woodpecker.org.cn/moin/SPUG/"&gt;
+    &lt;img src="img/SPUG-T.gif"/&gt;&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;再次开始:&lt;a href="http://wiki.woodpecker.org.cn/moin/ZPyUG/"&gt;
+    ZPyUG&lt;/a&gt;&lt;sup&gt;--珠江三角洲地区Python用户组&lt;/sup&gt;
+    &lt;/li&gt;
+    &lt;li&gt;……更多其它地区的 *PUG 组织在筹备中！
+    &lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12869">
+
+
+&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;img src="icon/zeuux-logo.png"/&gt;
+&lt;a href="http://www.zeuux.org/campaign/campaign.cn.html"&gt;
+ 行动&lt;/a&gt; &lt;/h1&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;a href="http://www.zeuux.com/"&gt;"致招商银行的公开信"行动&lt;/a&gt;
+    &lt;ul&gt;
+        &lt;li&gt;2007年1月31日~6月30日 阅读、讨论、传播&lt;a href="http://www.billxu.com/friend/rms/an.open.letter.to.cmb.html"&gt;"致招商银行的公开信"&lt;/a&gt;
+            &lt;/li&gt;
+        &lt;li&gt;2007年7月1日－9月30日 正式提交给招商银行
+            &lt;/li&gt;
+        &lt;li&gt;2008年继续...
+            &lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;img src="foto/sfd-2007-xian.jpg"/&gt;
+
+        &lt;/li&gt;
+    &lt;li&gt;&lt;a href="http://www.zeuux.org/fashion/fashion.cn.html"&gt;
+        自由软件T恤＆饰品
+    &lt;/a&gt; &lt;sup&gt;自制发售&lt;/sup&gt;
+    &lt;img src="foto/fashion-python-kuduan-black-small.jpg"/&gt;
+        &lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12870">
+
+&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;img src="icon/zeuux-logo.png"/&gt;&lt;a href="http://www.zeuux.org/"&gt;
+ 计划&lt;/a&gt; &lt;/h1&gt;
+&lt;br/&gt;
+&lt;h2 id="largerwd"&gt;
+介绍/推广/生产&lt;/br&gt;自由软件
+&lt;/h2&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12871">
+
+&lt;div class="slide"&gt;
+&lt;h1&gt; &lt;img src="icon/zeuux-logo.png"/&gt;&lt;a href="http://www.zeuux.org/"&gt;
+ 历史&lt;/a&gt; &lt;/h1&gt;
+&lt;br/&gt;
+&lt;ul&gt;
+    &lt;li&gt; 由&lt;a href="http://www.billxu.com/"&gt;徐继哲&lt;/a&gt;在 2006年5月创立主导思想,并申请域名
+        &lt;/li&gt;
+    &lt;li&gt; 于2006年12月正式在京成立
+        &lt;/li&gt;
+    &lt;li&gt; 于2007-01-31 15:47:27&lt;a href="http://www.zeuux.com/"&gt;哲思维基&lt;/a&gt;上线
+&lt;sup&gt;借用啄木鸟主机&lt;/sup&gt;
+        &lt;/li&gt;
+    &lt;li&gt; 于2007年5月2日 拥有独立主机,迁移维基成功
+    &lt;li&gt; 于2007年8月开通 @zeuux.org 邮箱
+        &lt;/li&gt;
+    &lt;li&gt; 于2007年9月开通 &lt;a href="http://www.zeuux.org/mailman/listinfo/zeuux-universe"&gt;
+    zeuux-universe 邮件列表&lt;/a&gt; 开通
+        &lt;/li&gt;
+    &lt;li&gt; 2007-09-01 参加&lt;a href="http://wiki.woodpecker.org.cn/moin/BPUG/2007-09-01"&gt;CPyUG总第21次会课&lt;/a&gt;&lt;sup&gt;录音下载&lt;a href="http://www.woodpecker.org.cn/share/classes/classes2007/070901-py-zeuux/V013-dip-haokan-zeuux.ogg"&gt;V013-dip-haokan-zeuux.ogg 128';41M&lt;/a&gt;&lt;/sup&gt;
+        &lt;/li&gt;
+    &lt;li&gt; 2007/09/16 同西安邮电学院联合主办 &lt;a href="http://blog.csdn.net/arthur5933/archive/2007/09/16/1787034.aspx"&gt;第四届国际软件自由日(西安)&lt;/a&gt;
+    &lt;sup&gt;&lt;a href="http://shiyuhang.org/articles/free.html"&gt; 演讲视频&lt;/a&gt;&lt;/sup&gt;
+        &lt;/li&gt;
+    &lt;li&gt; ...
+        &lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12872">
+
+&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;img src="img/WikiTshirt-logo.gif" /&gt;&lt;/h1&gt;
+
+&lt;ul&gt;
+
+&lt;li&gt;自由！高贵的文化支柱精神
+&lt;/li&gt;
+&lt;li&gt;社区！神奇的软件开发模式
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://wiki.woodpecker.org.cn/moin/RouseChina"&gt;我们的奋起宣言！&lt;/a&gt;
+&lt;pre&gt;
+每日至少抽一刻钟,解答邮件列表中初学者的问题，
+每周至少抽两小时,整理新学知识将体验发表/分享出去，
+    通过Blog/Wiki/MaiList/个人网站……
+每旬至少抽四个小时, 来翻译自个儿喜爱的自由软件的文档，
+每月至少抽八小时, 快乐的编程，推进自个儿的项目，
+每年至少参加一次, 自由软件的活动，传播自由软件思想，
+    发展一名“自由人”……
+只要我们每个人都坚持下去……
+10年！就足以改变中国软件的整体风貌！
+&lt;/pre&gt;引发自&lt;a href="http://python.cn/pipermail/python-chinese/2005-September/015675.html"&gt;
+圣・RMS ！！！
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12874">
+
+
+
+&lt;div class="slide"&gt;
+&lt;h1&gt; 总之 &lt;/h1&gt;
+&lt;ol&gt;
+    &lt;li&gt;&lt;a href="http://code.ijinshan.com/doc/openfoundry.org/FLOSSlicense/"&gt;&lt;img src="http://www.openfoundry.org/Download/OSSF-logo-211x52"&gt;法律文案集锦&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;FLOSS软件是有法律保护的&lt;/li&gt;
+    &lt;li&gt;合理使用不影响商业利益&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12875">&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;@others
+
+&lt;/html&gt;
+&lt;head&gt;
+&lt;title&gt;FLOSS license (powered by S5)v1.1~080131&lt;/title&gt;
+&lt;META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8"&gt;
+
+&lt;!-- metadata --&gt;
+&lt;meta name="generator" content="S5" /&gt;
+&lt;meta name="version" content="S5 1.1" /&gt;
+&lt;meta name="presdate" content="20050728" /&gt;
+&lt;meta name="author" content="Eric A. Meyer" /&gt;
+&lt;meta name="company" content="Complex Spiral Consulting" /&gt;
+&lt;!-- configuration parameters --&gt;
+&lt;meta name="defaultView" content="slideshow" /&gt;
+&lt;meta name="controlVis" content="hidden" /&gt;
+&lt;!-- style sheet links --&gt;
+&lt;link rel="stylesheet" href="ui/default/slides.css" type="text/css" media="projection" id="slideProj" /&gt;
+&lt;link rel="stylesheet" href="ui/default/outline.css" type="text/css" media="screen" id="outlineStyle" /&gt;
+&lt;link rel="stylesheet" href="ui/default/print.css" type="text/css" media="print" id="slidePrint" /&gt;
+&lt;link rel="stylesheet" href="ui/default/opera.css" type="text/css" media="projection" id="operaFix" /&gt;
+
+&lt;!-- S5 JS --&gt;
+&lt;script src="ui/default/slides.js" type="text/javascript"&gt;&lt;/script&gt;
+
+&lt;!-- embedded styles --&gt;
+&lt;style type="text/css" media="all"&gt;
+/* The esp. Effect support */
+ul#largerwd{
+    font-size: 200%;
+    letter-spacing:-20px;
+}
+h2#largerwd {
+    width:100%;
+    font-size: 600%;
+    text-align: center;
+    letter-spacing:-20px;
+    color: #fff;
+    margin: 40px 0 0 0;
+    padding: 0;
+    }
+b.alert{
+    color:#F5003D;
+    font-size: 105%;
+}
+div#float_logo{
+    position : absolute;
+    top:0px;
+    left:0px;
+}
+&lt;/style&gt;
+
+
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div class="layout"&gt;
+
+&lt;div id="currentSlide"&gt;&lt;/div&gt;
+&lt;div id="header"&gt;&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12876">
+&lt;div id="footer"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a target="_blank"  href="http://zoomquiet.org/"&gt;
+Zoom.Quiet&lt;/a&gt;
+&lt;/td&gt;
+&lt;td rowspan="2"&gt;
+&lt;a  target="_blank" style="background-color:;" href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh"&gt;
+&lt;img src="icon/cc-byncnd-88x31.png"/&gt;
+&lt;/a&gt;
+推荐使用&lt;a  target="_blank"
+href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳体验!
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+
+    &lt;div id="controls"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12878">&lt;div class="slide"&gt;
+&lt;h1&gt;许可体选择关系&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;img src="img/oss-license.jpg"/&gt;
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12880">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html"&gt;
+许可体选择关系&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;img src="img/infographic-of-popular-software-licenses.jpg" style="width: 650.0px; height: 523.0px;"/&gt;
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12882">&lt;div class="slide"&gt;
+&lt;h1&gt;&lt;a href="http://swan.iis.sinica.edu.tw/LicenseWizard/index.htm"&gt;
+许可体选择器&lt;/a&gt;
+&lt;/h1&gt;
+&lt;h2 id="largerwd"&gt;
+&lt;img src="img/oss-licenesellector.png"/&gt;
+&lt;/h2&gt;
+
+&lt;/div&gt;
+
+</t>
+<t tx="zoomq.20110621085047.12885">
+
+
+
+&lt;div class="slide"&gt;
+&lt;h1&gt; 文档版本 &lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;版本历史::
+    &lt;ul&gt;
+        &lt;li&gt;v1.2 110620 使用Leo 重新增补&lt;/li&gt;
+        &lt;li&gt;v1.1 080131 pm. 根据讲演反馈追加合理化使用不同级别自由软件的方式&lt;/li&gt;
+        &lt;li&gt;v1.0 080131 调整顺序等细节&lt;/li&gt;
+        &lt;li&gt;v0.9 080129 补充GPLv3细节&lt;/li&gt;
+        &lt;li&gt;v0.8 080128 咨询专家,确认细节&lt;/li&gt;
+        &lt;li&gt;v0.7 080127 创建,模板和CC许可&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</t>
+<t tx="zoomq.20110621085047.12886">&lt;div class="slide"&gt;
+&lt;h1&gt; 关于S&lt;sup&gt;5&lt;/sup&gt; &lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;幻灯展示:
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a target="_blank"  href="http://www.meyerweb.com/eric/tools/s5/"&gt;
+    &lt;img src="pix/S5icon.GIF" /&gt;
+    S&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; : A Simple Standards-Based Slide Show System
+    &lt;li&gt; 纯HTML 幻灯效果工具制作 &lt;a href="s5-intro.html"&gt;本地介绍页面&lt;/a&gt;
+    &lt;/ul&gt;
+    &lt;/li&gt;
+&lt;li&gt;编写环境:     &lt;span style="float:right"&gt;
+&lt;img src="pix/snap-leoWrite.png"&gt;
+    &lt;/span&gt;
+    &lt;ul&gt;
+    &lt;li&gt;&lt;a target="_blank"  href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"&gt;
+    &lt;img src="pix/LeoProse.gif" /&gt;Leo&lt;/a&gt;
+    &lt;br/&gt;:: 文学编程环境
+    &lt;li&gt; 纯Python 实现的通用编辑环境
+    &lt;/ul&gt;
+    &lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;/div&gt;
 </t>
 </tnodes>
 </leo_file>
