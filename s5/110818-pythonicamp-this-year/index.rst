@@ -895,12 +895,18 @@
 
 .. container:: handout
 
-    沟通不充分... |zqeye|
+    QQ?!沟通不充分... |zqeye|
 
 
 .. class:: takahashi8
 
-   QQ
+    .. image:: i/snap/zq_2011-08-16-165623_514x293_scrot.png
+        :align: center
+        :scale: 130 %
+        :alt: 列表统计
+        :target: https://groups.google.com/group/kcpycamp/about
+
+
 
 
 .. container:: notes

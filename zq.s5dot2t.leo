@@ -181,7 +181,7 @@
 <v t="zoomq.20110816085806.9807"><vh>视野</vh></v>
 </v>
 <v t="zoomq.20110816085806.9808"><vh>/突破</vh></v>
-<v t="zoomq.20110816085806.9845"><vh>挑战</vh>
+<v t="zoomq.20110816085806.9845" a="E"><vh>挑战</vh>
 <v t="zoomq.20110816085806.9847"><vh>现场</vh></v>
 <v t="zoomq.20110816085806.9851"><vh>坚持</vh></v>
 <v t="zoomq.20110816085806.9853"><vh>邮件</vh></v>
@@ -194,7 +194,7 @@
 </v>
 <v t="zoomq.20110816085806.9810" a="E"><vh>briefEND</vh>
 <v t="zoomq.20110816085806.9811"><vh>Q&amp;A</vh></v>
-<v t="zoomq.20110816085806.9812"><vh>Summary</vh>
+<v t="zoomq.20110816085806.9812" a="E"><vh>Summary</vh>
 <v t="zoomq.20110816085806.9813"><vh>小小鸟</vh></v>
 <v t="zoomq.20110816085806.9814"><vh>讲演之禅</vh></v>
 <v t="zoomq.20110816085806.9815"><vh>LovPy</vh></v>
@@ -68876,12 +68876,18 @@ href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳
 
 .. container:: handout
 
-    沟通不充分... |zqeye|
+    QQ?!沟通不充分... |zqeye|
 
 
 .. class:: takahashi8
 
-   QQ
+    .. image:: i/snap/zq_2011-08-16-165623_514x293_scrot.png
+        :align: center
+        :scale: 130 %
+        :alt: 列表统计
+        :target: https://groups.google.com/group/kcpycamp/about
+
+
 
 
 .. container:: notes
