@@ -41,7 +41,7 @@ $ dot -Tjpeg zoomquiet_org_idx_legend.dot -o zoomquiet_org_idx_legend.jpg
         ,color="#333333",fillcolor=dimgray];
     egg         [label="角色",shape=egg];
     diamond     [label="判别",shape=diamond];
-    note        [label="注释",shape=note];
+    note        [label="文注",shape=note];
     db          [label="工程",shape=box3d];
     component   [label="组件",shape=component];
     tab         [label="组别",shape=tab];

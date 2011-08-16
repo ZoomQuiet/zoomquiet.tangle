@@ -131,50 +131,125 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20101109214756.7198"><vh>110522-anti-3-body</vh>
-<v t="zoomq.20101109214756.7301"><vh>@nosent index.rst</vh>
-<v t="zoomq.20101109214756.7302"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
-<v t="zoomq.20101109214756.7303"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
-<v t="zoomq.20101109214756.7304"><vh>免责</vh></v>
-<v t="zoomq.20110513101248.9111"><vh>三体</vh>
-<v t="zoomq.20110519090226.10737"><vh>三体I</vh>
-<v t="zoomq.20110519090226.10755"><vh>p299</vh></v>
-<v t="zoomq.20110519090226.10761"><vh>智子</vh></v>
-<v t="zoomq.20110519090226.10767"><vh>文革</vh></v>
-</v>
-<v t="zoomq.20110519090226.10739"><vh>三体II</vh>
-<v t="zoomq.20110519090226.10757"><vh>p470</vh></v>
-<v t="zoomq.20110519090226.10763"><vh>面壁</vh></v>
-<v t="zoomq.20110519090226.10769"><vh>无</vh></v>
-</v>
-<v t="zoomq.20110519090226.10741"><vh>三体III</vh>
-<v t="zoomq.20110519090226.10759"><vh>p513</vh></v>
-<v t="zoomq.20110519090226.10765"><vh>2向</vh></v>
-<v t="zoomq.20110519090226.10771"><vh>童话</vh></v>
-</v>
-<v t="zoomq.20110519090226.10776"><vh>吐糟</vh>
-<v t="zoomq.20110519090226.10777"><vh>起名</vh></v>
-<v t="zoomq.20110519090226.10781"><vh>起名</vh></v>
-<v t="zoomq.20110519090226.10778"><vh>难受</vh></v>
-<v t="zoomq.20110519090226.10785"><vh>态度</vh></v>
-<v t="zoomq.20110527084550.9262"><vh>故事力量</vh></v>
-<v t="zoomq.20110526093520.9262"><vh>36故事</vh></v>
-<v t="zoomq.20110519090226.10779"><vh>&lt;/吐糟&gt;</vh></v>
+<v t="zoomq.20101109214756.7198" a="E"><vh>110818-pythonicamp-this-year</vh>
+<v t="zoomq.20110816085806.9772" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110816085806.9773"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
+<v t="zoomq.20110816085806.9774"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20110816085806.9775"><vh>免责</vh>
+<v t="zoomq.20110816085806.9783"><vh>abt.ZQ</vh>
+<v t="zoomq.20110816085806.9784"><vh>牛妞</vh></v>
+<v t="zoomq.20110816085806.9785"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110519090226.10746"><vh>推荐</vh>
-<v t="zoomq.20110519090226.10747"><vh>你一生的故事</vh></v>
-<v t="zoomq.20110519090226.10753"><vh>接触</vh></v>
-<v t="zoomq.20110519090226.10751"><vh>天渊</vh></v>
-<v t="zoomq.20110519090226.10783"><vh>黄祸</vh></v>
-<v t="zoomq.20110607091251.10630"><vh>弐瓶勉</vh></v>
+<v t="zoomq.20110816085806.9786" a="E"><vh>brief0</vh>
+<v t="zoomq.20110816085806.9787"><vh>&lt;Goal&gt;</vh>
+<v t="zoomq.20110816085806.9788"><vh>学生</vh></v>
+<v t="zoomq.20110816085806.9789"><vh>学校</vh></v>
+<v t="zoomq.20110816085806.9790"><vh>公司</vh></v>
+<v t="zoomq.20110816085806.9791"><vh>社区</vh></v>
 </v>
-<v t="zoomq.20110302103337.8958"><vh>总结7+-2</vh>
-<v t="zoomq.20110302103337.8961"><vh>讲演之禅</vh></v>
-<v t="zoomq.20110302103337.8959"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20110816085806.9792"><vh>&lt;/Goal&gt;</vh></v>
+<v t="zoomq.20110816085806.9821"><vh>历史点</vh>
+<v t="zoomq.20110816085806.9825"><vh>PyCon</vh></v>
+<v t="zoomq.20110816085806.9829"><vh>KClub</vh></v>
+<v t="zoomq.20110816085806.9827"><vh>现在</vh></v>
+<v t="zoomq.20110816085806.9831"><vh>学校</vh></v>
+<v t="zoomq.20110816085806.9833"><vh>营期</vh></v>
+<v t="zoomq.20110816085806.9839"><vh>现场</vh></v>
+<v t="zoomq.20110816085806.9837"><vh>动议</vh></v>
+<v t="zoomq.20110816085806.9841"><vh>交付</vh></v>
+<v t="zoomq.20110816085806.9835"><vh>导师</vh></v>
 </v>
-<v t="zoomq.20101109214756.7402"><vh>version</vh>
-<v t="zoomq.20101109214756.7403"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
+<v t="zoomq.20110816085806.9823"><vh>/历史点</vh></v>
+</v>
+<v t="zoomq.20110816085806.9793"><vh>brief1</vh>
+<v t="zoomq.20110816085806.9794"><vh>&lt;Flow&gt;</vh>
+<v t="zoomq.20110816085806.9795"><vh>0.</vh></v>
+<v t="zoomq.20110816085806.9796"><vh>1.</vh></v>
+<v t="zoomq.20110816085806.9797"><vh>2.</vh></v>
+<v t="zoomq.20110816085806.9798"><vh>3.</vh></v>
+<v t="zoomq.20110816085806.9799"><vh>end.</vh></v>
+</v>
+<v t="zoomq.20110816085806.9800"><vh>&lt;/Flow&gt;</vh></v>
+</v>
+<v t="zoomq.20110816085806.9801" a="E"><vh>brief2</vh>
+<v t="zoomq.20110816085806.9802"><vh>突破</vh>
+<v t="zoomq.20110816085806.9803"><vh>工具</vh></v>
+<v t="zoomq.20110816085806.9804"><vh>沟通</vh></v>
+<v t="zoomq.20110816085806.9805"><vh>版本</vh></v>
+<v t="zoomq.20110816085806.9806"><vh>态度</vh></v>
+<v t="zoomq.20110816085806.9807"><vh>视野</vh></v>
+</v>
+<v t="zoomq.20110816085806.9808"><vh>/突破</vh></v>
+<v t="zoomq.20110816085806.9845"><vh>挑战</vh>
+<v t="zoomq.20110816085806.9847"><vh>现场</vh></v>
+<v t="zoomq.20110816085806.9851"><vh>坚持</vh></v>
+<v t="zoomq.20110816085806.9853"><vh>邮件</vh></v>
+<v t="zoomq.20110816085806.9855"><vh>协同</vh></v>
+</v>
+<v t="zoomq.20110816085806.9849"><vh>/挑战</vh></v>
+<v t="zoomq.20110816085806.9809"><vh>时限</vh></v>
+<v t="zoomq.20110816085806.9857"><vh>形式</vh></v>
+<v t="zoomq.20110816085806.9859"><vh>助教</vh></v>
+</v>
+<v t="zoomq.20110816085806.9810" a="E"><vh>briefEND</vh>
+<v t="zoomq.20110816085806.9811"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20110816085806.9812"><vh>Summary</vh>
+<v t="zoomq.20110816085806.9813"><vh>小小鸟</vh></v>
+<v t="zoomq.20110816085806.9814"><vh>讲演之禅</vh></v>
+<v t="zoomq.20110816085806.9815"><vh>LovPy</vh></v>
+</v>
+</v>
+<v t="zoomq.20110816085806.9816"><vh>version</vh>
+<v t="zoomq.20110816085806.9817"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
+<v t="zoomq.20110816085806.9818"><vh>abt.ZQ</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20110816085806.9688"><vh>110522-anti-3-body</vh>
+<v t="zoomq.20110816085806.9689"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110816085806.9690"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
+<v t="zoomq.20110816085806.9691"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20110816085806.9692"><vh>免责</vh></v>
+<v t="zoomq.20110816085806.9693"><vh>三体</vh>
+<v t="zoomq.20110816085806.9694"><vh>三体I</vh>
+<v t="zoomq.20110816085806.9695"><vh>p299</vh></v>
+<v t="zoomq.20110816085806.9696"><vh>智子</vh></v>
+<v t="zoomq.20110816085806.9697"><vh>文革</vh></v>
+</v>
+<v t="zoomq.20110816085806.9698"><vh>三体II</vh>
+<v t="zoomq.20110816085806.9699"><vh>p470</vh></v>
+<v t="zoomq.20110816085806.9700"><vh>面壁</vh></v>
+<v t="zoomq.20110816085806.9701"><vh>无</vh></v>
+</v>
+<v t="zoomq.20110816085806.9702"><vh>三体III</vh>
+<v t="zoomq.20110816085806.9703"><vh>p513</vh></v>
+<v t="zoomq.20110816085806.9704"><vh>2向</vh></v>
+<v t="zoomq.20110816085806.9705"><vh>童话</vh></v>
+</v>
+<v t="zoomq.20110816085806.9706"><vh>吐糟</vh>
+<v t="zoomq.20110816085806.9707"><vh>起名</vh></v>
+<v t="zoomq.20110816085806.9708"><vh>起名</vh></v>
+<v t="zoomq.20110816085806.9709"><vh>难受</vh></v>
+<v t="zoomq.20110816085806.9710"><vh>态度</vh></v>
+<v t="zoomq.20110816085806.9711"><vh>故事力量</vh></v>
+<v t="zoomq.20110816085806.9712"><vh>36故事</vh></v>
+<v t="zoomq.20110816085806.9713"><vh>&lt;/吐糟&gt;</vh></v>
+</v>
+</v>
+<v t="zoomq.20110816085806.9714"><vh>推荐</vh>
+<v t="zoomq.20110816085806.9715"><vh>你一生的故事</vh></v>
+<v t="zoomq.20110816085806.9716"><vh>接触</vh></v>
+<v t="zoomq.20110816085806.9717"><vh>天渊</vh></v>
+<v t="zoomq.20110816085806.9718"><vh>黄祸</vh></v>
+<v t="zoomq.20110816085806.9719"><vh>弐瓶勉</vh></v>
+</v>
+<v t="zoomq.20110816085806.9720"><vh>总结7+-2</vh>
+<v t="zoomq.20110816085806.9721"><vh>讲演之禅</vh></v>
+<v t="zoomq.20110816085806.9722"><vh>Q&amp;A</vh></v>
+</v>
+<v t="zoomq.20110816085806.9723"><vh>version</vh>
+<v t="zoomq.20110816085806.9724"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
 </v>
@@ -1479,7 +1554,7 @@
 <v t="zoomq.20100602201453.5849"><vh>version</vh></v>
 </v>
 </v>
-<v t="zoomq.20080807095120.28" a="E"><vh>ZEUUX:ZPyUG</vh>
+<v t="zoomq.20080807095120.28"><vh>ZEUUX:ZPyUG</vh>
 <v t="zoomq.20100322235812.5543"><vh>100419-Pythonic</vh>
 <v t="zoomq.20100407094145.5747"><vh>_chaos</vh>
 <v t="zoomq.20100405215514.5579"><vh>教育</vh></v>
@@ -2013,8 +2088,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100116172440.6485" a="E"><vh>2008</vh>
-<v t="zoomq.20110621085047.12687" a="E"><vh>080130-floss-license</vh>
+<v t="zoomq.20100116172440.6485"><vh>2008</vh>
+<v t="zoomq.20110621085047.12687"><vh>080130-floss-license</vh>
 <v t="zoomq.20110621085047.12688"><vh>@nosent index.html</vh>
 <v t="zoomq.20110621085047.12875"><vh>&lt;&lt;s5head&gt;&gt;</vh></v>
 <v t="zoomq.20110621085047.12876"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -2061,8 +2136,8 @@
 <v t="zoomq.20110621085047.12769"><vh>成功迎合</vh></v>
 <v t="zoomq.20110621085047.12771"><vh>合稀泥</vh></v>
 </v>
-<v t="zoomq.20110621085047.12773" a="E"><vh>软件许可</vh>
-<v t="zoomq.20110621085047.12775" a="E"><vh>FLOSS许可体系</vh>
+<v t="zoomq.20110621085047.12773"><vh>软件许可</vh>
+<v t="zoomq.20110621085047.12775"><vh>FLOSS许可体系</vh>
 <v t="zoomq.20110621085047.12878"><vh>许可体选择</vh></v>
 <v t="zoomq.20110621085047.12880"><vh>许可体选择zh</vh></v>
 <v t="zoomq.20110621085047.12882"><vh>许可体选择器</vh></v>
@@ -2128,7 +2203,7 @@
 <v t="zoomq.20080611153034"><vh>@file /home/zoomq/zData/2MyBrains/s5/0608-VMnSVN/index.html</vh></v>
 </v>
 </v>
-<v t="zoomq.20080523161605.1" a="E"><vh>@nosent index.html</vh>
+<v t="zoomq.20080523161605.1"><vh>@nosent index.html</vh>
 <v t="zoomq.20080523162155"><vh>&lt;&lt;s5head&gt;&gt;</vh>
 <v t="zoomq.20080523162155.1"><vh>cssin</vh></v>
 </v>
@@ -3609,7 +3684,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100819213607.6364" a="E"><vh>Recovered Nodes</vh>
+<v t="zoomq.20100819213607.6364"><vh>Recovered Nodes</vh>
 <v t="zoomq.20100819213607.6365"><vh>Recovered node "page0 from @shadow index.html</vh>
 <v t="zoomq.20100819213607.6366"><vh>old:page0</vh></v>
 <v t="zoomq.20100819213607.6367"><vh>new:page0</vh></v>
@@ -41347,166 +41422,7 @@ export-&gt;{bxm s5 wyt py};
 <t tx="zoomq.20100926100840.7128">edge [style=invis];
 
 </t>
-<t tx="zoomq.20101109214756.7198">@path 110522-anti-3-body
-
-</t>
-<t tx="zoomq.20101109214756.7301">@language rest
-@tabwidth -4
-.. include:: &lt;s5defs.txt&gt;
-
-==================================================================
-三体纪元?!
-==================================================================
-
-～ 吐糟大刘 (powered by rst2S5)
-
-:Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
-:URL:    http://zoomquiet.org/res/s5/110522-anti-3-body
-
-&lt;&lt;DOCDEFINE&gt;&gt;
-
-&lt;&lt;footer&gt;&gt;
-
-@others
-
-</t>
-<t tx="zoomq.20101109214756.7302">.. This document has been placed in the CC domain.
-.. _Docutils: http://docutils.sourceforge.net/
-.. _reStructuredText: http://docutils.sourceforge.net/rst.html
-.. _S5: http://meyerweb.com/eric/tools/s5/
-.. _Firefox: http://www.mozilla.com/firefox/
-
-.. _Zoom.Quiet:
-    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
-.. _(CC)by-nc-sa:
-    http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
-.. _FireFox:
-    http://www.mozilla.com/firefox/
-.. _S5介绍:
-    http://zoomquiet.org/res/s5/100826-PyTDD/s5.html
-.. _WYTIWYG:
-    http://wiki.woodpecker.org.cn/moin/WyTiWyG
-.. _提问的智慧:
-    http://wiki.woodpecker.org.cn/moin/AskForHelp
-
-.. 图片定义区
-.. |bullet| unicode:: U+02022
-.. |mode| unicode:: U+00D8 .. capital o with stroke
-
-.. |S5icon| image:: pix/S5icon.GIF
-    :align: top
-    :scale: 100 %
-    :target: http://www.meyerweb.com/eric/tools/s5/
-.. |LeoProse| image:: pix/LeoProse.gif
-    :align: top
-    :scale: 100 %
-    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
-
-.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
-    :alt: (CC)by-nc-sa 许可证
-    :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
-.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
-    :alt: (CC)by-nc-sa 许可证
-    :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
-.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
-    :alt: 是也乎;-)
-    :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
-.. |lovpy| image:: i/logo/110409-book-logo-h90.png
-    :alt: 可爱的Python
-    :scale: 100 %
-    :target: http://lovelypython.zoomquiet.org/
-</t>
-<t tx="zoomq.20101109214756.7303">.. footer:: 
-
-   `Zoom.Quiet`_ v11.03.20 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
-</t>
-<t tx="zoomq.20101109214756.7304">&lt;免责/&gt;
-=========
-
-.. container:: handout
-
-   山寨的，非业界公认的，个人体验为基础!
-   |zqeye|
-
-
-.. class:: takahashi1
-
-    参考所有同好行为总结而得
-
-
-    - 一切资料来自网络互动挖掘
-    - 一切想法来自日常学习工作
-    - 一切体悟来自各种沟通交流
-    - 一切知识来自社区分享印证
-    - 一切经验来自个人失败体验
-
-
-
-.. container:: notes
-
-   - 免责是必须的，分享是无理由的！
-
-
-
-
-
-</t>
-<t tx="zoomq.20101109214756.7402">&lt;版本/&gt;
-=========
-
-.. container:: handout
-
-   |zqeye|
-
-
-- 110610 增补Blame!图片，收集到其它观点...
-- 110607 appended for 弐瓶勉
-- 110527 增补故事性支持
-- 110519 增补好书推荐
-- 110511 创建
-
-:反馈:
-    `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
-:查阅:
-    http://zoomquiet.org/res/s5/110522-anti-3-body
-
-
-
-
-&lt;&lt;S5&gt;&gt;
-
-</t>
-<t tx="zoomq.20101109214756.7403">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
-==============================================================================================
-
-.. container:: handout
-
-    纯HTML 幻灯撰写框架!... |S5icon|
-
-
-- S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-Based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
-
- - 仅仅依靠 CSS+JS 的HTML格式幻灯演示框架
-
-- 我的编辑环境: |LeoProse| ~ `文学化编辑器 &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
-
-
-.. image:: pix/2010-01-18-230729_605x421_leo.png
-    :align: center
-    :scale: 100 %
-    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
-
-
-
-.. container:: notes
-
-   - 虽然有很多其它替代方案，至今用得最爽的还是 S5
-   - 最好也是最不好的，就是S5 需要专用的http 空间发布，无法直接分享到 slidshare.com 之类SNS空间中
-
-
-
-
-
+<t tx="zoomq.20101109214756.7198">@path 110818-pythonicamp-this-year
 
 </t>
 <t tx="zoomq.20101111091948.7290">@path 100819-pythonicamp-intro</t>
@@ -58701,84 +58617,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 </t>
-<t tx="zoomq.20110302103337.8958">总之
-=========
-
-.. container:: handout
-
-   期望记住的~单位时间能记住的只有7+-2 个 |zqeye|
-
-
-.. class:: incremental takahashi
-
-    - 三体可看
-    - 大刘可待
-    - 科幻艰难
-    - 未尝不可
-    - 中国科幻,慢慢来...
-
-
-.. container:: notes
-
-   - 科幻是种生活状态，不是商品
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110302103337.8959">&lt;discuss/&gt;
-==========
-
-.. container:: handout
-
-   |zqeye|
-
-
-.. class:: takahashi8
-
-    Q&amp;A
-
-
-
-
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20110302103337.8961">最后的最后...
-==================
-
-.. container:: handout
-
-   好书推荐... |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/s4279952-zen4talk.jpg
-        :align: center
-        :scale: 100 %
-        :alt: 讲演之禅
-        :target: http://book.douban.com/subject/4760725/
-
-.. container:: notes
-
-   - 持久的推荐，期望大家都来分享,,,高效/恰当/有趣的...
-
-
-
-
-
-</t>
 <t tx="zoomq.20110317085545.11551">@path 110311-why-km
 
 </t>
@@ -62970,38 +62808,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 </t>
-<t tx="zoomq.20110513101248.9111">看过没?
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/3-body-iii.jpg
-        :align: center
-        :scale: 150 %
-        :alt: 封面
-        :target: http://book.douban.com/subject/5363767/
-
-
-
-.. container:: notes
-
-   - 已经定义成中国SF历史纪元的作品了...
-
-
-
-
-
-
-
-
-
-
-</t>
 <t tx="zoomq.20110519090226.10640">@path 110515-sz-techparty-booking
 
 </t>
@@ -65528,713 +65334,6 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 
 </t>
-<t tx="zoomq.20110519090226.10737">三体I
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi7
-
-    地球往事
-
-
-.. container:: notes
-
-   - 连载过的
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10739">三体II
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi7
-
-    黑暗森林
-
-
-.. container:: notes
-
-   - 完全的闭门造车的一本
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10741">三体III
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi7
-
-    死者永生
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10746">推荐
-==================
-
-.. container:: handout
-
-   不会过时的... |zqeye|
-
-
-.. class:: takahashi8
-
-    真好书
-
-
-
-.. container:: notes
-
-   - 激动到几月不知肉味的...
-
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10747">你一生的故事
-==================
-
-.. container:: handout
-
-   特德·蒋 |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/s51k8OlqQsrL-allife.jpg
-        :align: center
-        :scale: 100 %
-        :alt: 封面
-        :target: http://book.douban.com/subject/1187842/
-
-
-
-.. container:: notes
-
-   - 短篇小说难写,科幻的短篇更加难了,,,
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10751">天渊
-==================
-
-.. container:: handout
-
-   弗诺·文奇 |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/s1410407-deepnessky.jpg
-        :align: center
-        :scale: 100 %
-        :alt: 封面
-        :target: http://book.douban.com/subject/1399992/
-
-
-
-.. container:: notes
-
-   - 当代大师
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10753">接触
-==================
-
-.. container:: handout
-
-   卡尔•萨根 |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/s3138406-contact.jpg
-        :align: center
-        :scale: 100 %
-        :alt: 封面
-        :target: http://book.douban.com/subject/1399992/
-
-
-
-.. container:: notes
-
-   - 有电影的,一样出色...
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10755">三体I
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    299p
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10757">三体II
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    470p
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10759">三体III
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    513p
-
-
-.. container:: notes
-
-   - 内容好象最多,但是看过,好象又是最少的一本
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10761">流行词
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    智子
-
-
-.. container:: notes
-
-   - 将行星级别的电脑,空间折叠成质子大小
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10763">流行词
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    面壁
-
-
-.. container:: notes
-
-   - 世界没有这么简单,国家也没有这么幼稚让几个人玩...
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10765">流行词
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    二向箔
-
-
-.. container:: notes
-
-   - 自相矛盾的武器...
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10767">感动点
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi7
-
-    谁来赔!
-
-
-.. container:: notes
-
-   - 选择了一个非常真实的冲突点
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10769">感动点
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi9
-
-    无
-
-
-.. container:: notes
-
-   - 真的是很过渡的一本
-
-
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10771">感动点
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi9
-
-    童话
-
-
-.. container:: notes
-
-   - 这组童话才是大刘最NB的创作!
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10776">&lt;吐糟&gt;
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi7
-
-    命题作文
-
-
-.. container:: notes
-
-   - 都是编辑逼的...
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10777">起名
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    罗辑
-
-
-.. container:: notes
-
-   - 作了最没有逻辑的事儿...
-
-
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10778">难受
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    简单
-
-
-.. container:: notes
-
-   - 没有代入感...
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10779">没有延续
-==================
-
-.. container:: handout
-
-    [via mindex@googlegroups.com]cathayan...
-
-    - 小说就是那个样子，最好的也就是那样，而已。
-    - 还都是普通人类可以完成的事业，中文大脑的深处有一种不可知论，就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
-
-
-.. class:: takahashi7
-
-    &lt;/吐糟&gt;
-
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10781">起名
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    云天明
-
-
-.. container:: notes
-
-   - 作者的化身
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10783">黄祸
-==================
-
-.. container:: handout
-
-   王力雄 |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/250px-YellowTerror.jpg
-        :align: center
-        :scale: 150 %
-        :alt: 漫画
-        :target: http://zh.wikipedia.org/wiki/%E9%BB%84%E7%A5%B8
-
-
-
-.. container:: notes
-
-   - 严格意义上的政治科幻
-
-
-
-</t>
-<t tx="zoomq.20110519090226.10785">态度
-==================
-
-.. container:: handout
-
-   ... |zqeye|
-
-
-.. class:: takahashi8
-
-    畅销
-
-
-.. container:: notes
-
-   - 就是打动编辑而已
-
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20110526093520.9262">故事的目的
-==================
-
-.. container:: handout
-
-   没有目的的故事比有目的的更加打动人... |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/s4293844-36story.jpg
-        :align: center
-        :scale: 100 %
-        :alt: 封面
-        :target: http://movie.douban.com/subject/3732780/
-
-
-
-.. container:: notes
-
-   - 所谓潜移默化...为什么长篇小说容易出名?
-   - 但是 3体,自我隔绝了故事的连续感...
-
-
-
-</t>
-<t tx="zoomq.20110527084550.9262">故事性
-==================
-
-.. container:: handout
-
-   故事不是教材... |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/s3822243-storypower.jpg
-        :align: center
-        :scale: 100 %
-        :alt: 封面
-        :target: http://book.douban.com/subject/3689113/
-
-
-
-.. container:: notes
-
-   - 虽然好故事都是精心设计出来的，但是，故事的好坏，多数并不在故事的内容，而是故事的结构
-   - 简单俗套的故事结构，用不同的故事内容精心串成真实，才打动人
-
-
-
-</t>
-<t tx="zoomq.20110607091251.10630">Blame!
-==================
-
-.. container:: handout
-
-   弐瓶勉(`Tsutomu Nihei &lt;http://en.wikipedia.org/wiki/Tsutomu_Nihei&gt;`_ )  |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/jumpc_blame038039.jpg
-        :align: center
-        :scale: 80 %
-        :alt: 官方网页
-        :target: http://www.aposimz.com/work/blame/index.html
-
-
-
-.. container:: notes
-
-   - 失败建築师的漫画逆袭！
-
-
-
-</t>
 <t tx="zoomq.20110621085047.12687">@path 080130-floss-license</t>
 <t tx="zoomq.20110621085047.12688">@language html
 @tabwidth -4
@@ -67555,7 +66654,7 @@ href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳
     &lt;/div&gt;
 </t>
 <t tx="zoomq.20110621085047.12878">&lt;div class="slide"&gt;
-&lt;h1&gt;许可体选择关系&lt;/h1&gt;
+&lt;h1&gt;许可证选择关系&lt;/h1&gt;
 &lt;h2 id="largerwd"&gt;
 &lt;img src="img/oss-license.jpg"/&gt;
 &lt;/h2&gt;
@@ -67565,7 +66664,7 @@ href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳
 </t>
 <t tx="zoomq.20110621085047.12880">&lt;div class="slide"&gt;
 &lt;h1&gt;&lt;a href="http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html"&gt;
-许可体选择关系&lt;/a&gt;
+许可证选择关系&lt;/a&gt;
 &lt;/h1&gt;
 &lt;h2 id="largerwd"&gt;
 &lt;img src="img/infographic-of-popular-software-licenses.jpg" style="width: 650.0px; height: 523.0px;"/&gt;
@@ -67576,7 +66675,7 @@ href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳
 </t>
 <t tx="zoomq.20110621085047.12882">&lt;div class="slide"&gt;
 &lt;h1&gt;&lt;a href="http://swan.iis.sinica.edu.tw/LicenseWizard/index.htm"&gt;
-许可体选择器&lt;/a&gt;
+许可证选择器&lt;/a&gt;
 &lt;/h1&gt;
 &lt;h2 id="largerwd"&gt;
 &lt;img src="img/oss-licenesellector.png"/&gt;
@@ -67629,6 +66728,2227 @@ href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳
 
 &lt;/ul&gt;
 &lt;/div&gt;
+</t>
+<t tx="zoomq.20110816085806.9688">@path 110522-anti-3-body
+
+</t>
+<t tx="zoomq.20110816085806.9689">@language rest
+@tabwidth -4
+.. include:: &lt;s5defs.txt&gt;
+
+==================================================================
+三体纪元?!
+==================================================================
+
+～ 吐糟大刘 (powered by rst2S5)
+
+:Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:URL:    http://zoomquiet.org/res/s5/110522-anti-3-body
+
+&lt;&lt;DOCDEFINE&gt;&gt;
+
+&lt;&lt;footer&gt;&gt;
+
+@others
+
+</t>
+<t tx="zoomq.20110816085806.9690">.. This document has been placed in the CC domain.
+.. _Docutils: http://docutils.sourceforge.net/
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+.. _S5: http://meyerweb.com/eric/tools/s5/
+.. _Firefox: http://www.mozilla.com/firefox/
+
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+.. _(CC)by-nc-sa:
+    http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. _FireFox:
+    http://www.mozilla.com/firefox/
+.. _S5介绍:
+    http://zoomquiet.org/res/s5/100826-PyTDD/s5.html
+.. _WYTIWYG:
+    http://wiki.woodpecker.org.cn/moin/WyTiWyG
+.. _提问的智慧:
+    http://wiki.woodpecker.org.cn/moin/AskForHelp
+
+.. 图片定义区
+.. |bullet| unicode:: U+02022
+.. |mode| unicode:: U+00D8 .. capital o with stroke
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: top
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+.. |LeoProse| image:: pix/LeoProse.gif
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
+    :alt: (CC)by-nc-sa 许可证
+    :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
+    :alt: (CC)by-nc-sa 许可证
+    :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+    :alt: 是也乎;-)
+    :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+.. |lovpy| image:: i/logo/110409-book-logo-h90.png
+    :alt: 可爱的Python
+    :scale: 100 %
+    :target: http://lovelypython.zoomquiet.org/
+</t>
+<t tx="zoomq.20110816085806.9691">.. footer:: 
+
+   `Zoom.Quiet`_ v11.03.20 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+</t>
+<t tx="zoomq.20110816085806.9692">&lt;免责/&gt;
+=========
+
+.. container:: handout
+
+   山寨的，非业界公认的，个人体验为基础!
+   |zqeye|
+
+
+.. class:: takahashi1
+
+    参考所有同好行为总结而得
+
+
+    - 一切资料来自网络互动挖掘
+    - 一切想法来自日常学习工作
+    - 一切体悟来自各种沟通交流
+    - 一切知识来自社区分享印证
+    - 一切经验来自个人失败体验
+
+
+
+.. container:: notes
+
+   - 免责是必须的，分享是无理由的！
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9693">看过没?
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/3-body-iii.jpg
+        :align: center
+        :scale: 150 %
+        :alt: 封面
+        :target: http://book.douban.com/subject/5363767/
+
+
+
+.. container:: notes
+
+   - 已经定义成中国SF历史纪元的作品了...
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9694">三体I
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi7
+
+    地球往事
+
+
+.. container:: notes
+
+   - 连载过的
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9695">三体I
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    299p
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9696">流行词
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    智子
+
+
+.. container:: notes
+
+   - 将行星级别的电脑,空间折叠成质子大小
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9697">感动点
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi7
+
+    谁来赔!
+
+
+.. container:: notes
+
+   - 选择了一个非常真实的冲突点
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9698">三体II
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi7
+
+    黑暗森林
+
+
+.. container:: notes
+
+   - 完全的闭门造车的一本
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9699">三体II
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    470p
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9700">流行词
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    面壁
+
+
+.. container:: notes
+
+   - 世界没有这么简单,国家也没有这么幼稚让几个人玩...
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9701">感动点
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi9
+
+    无
+
+
+.. container:: notes
+
+   - 真的是很过渡的一本
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9702">三体III
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi7
+
+    死者永生
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9703">三体III
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    513p
+
+
+.. container:: notes
+
+   - 内容好象最多,但是看过,好象又是最少的一本
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9704">流行词
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    二向箔
+
+
+.. container:: notes
+
+   - 自相矛盾的武器...
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9705">感动点
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi9
+
+    童话
+
+
+.. container:: notes
+
+   - 这组童话才是大刘最NB的创作!
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9706">&lt;吐糟&gt;
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi7
+
+    命题作文
+
+
+.. container:: notes
+
+   - 都是编辑逼的...
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9707">起名
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    罗辑
+
+
+.. container:: notes
+
+   - 作了最没有逻辑的事儿...
+
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9708">起名
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    云天明
+
+
+.. container:: notes
+
+   - 作者的化身
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9709">难受
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    简单
+
+
+.. container:: notes
+
+   - 没有代入感...
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9710">态度
+==================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    畅销
+
+
+.. container:: notes
+
+   - 就是打动编辑而已
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9711">故事性
+==================
+
+.. container:: handout
+
+   故事不是教材... |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/s3822243-storypower.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://book.douban.com/subject/3689113/
+
+
+
+.. container:: notes
+
+   - 虽然好故事都是精心设计出来的，但是，故事的好坏，多数并不在故事的内容，而是故事的结构
+   - 简单俗套的故事结构，用不同的故事内容精心串成真实，才打动人
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9712">故事的目的
+==================
+
+.. container:: handout
+
+   没有目的的故事比有目的的更加打动人... |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/s4293844-36story.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://movie.douban.com/subject/3732780/
+
+
+
+.. container:: notes
+
+   - 所谓潜移默化...为什么长篇小说容易出名?
+   - 但是 3体,自我隔绝了故事的连续感...
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9713">没有延续
+==================
+
+.. container:: handout
+
+    [via mindex@googlegroups.com]cathayan...
+
+    - 小说就是那个样子，最好的也就是那样，而已。
+    - 还都是普通人类可以完成的事业，中文大脑的深处有一种不可知论，就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
+
+
+.. class:: takahashi7
+
+    &lt;/吐糟&gt;
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9714">推荐
+==================
+
+.. container:: handout
+
+   不会过时的... |zqeye|
+
+
+.. class:: takahashi8
+
+    真好书
+
+
+
+.. container:: notes
+
+   - 激动到几月不知肉味的...
+
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9715">你一生的故事
+==================
+
+.. container:: handout
+
+   特德·蒋 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/s51k8OlqQsrL-allife.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://book.douban.com/subject/1187842/
+
+
+
+.. container:: notes
+
+   - 短篇小说难写,科幻的短篇更加难了,,,
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9716">接触
+==================
+
+.. container:: handout
+
+   卡尔•萨根 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/s3138406-contact.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://book.douban.com/subject/1399992/
+
+
+
+.. container:: notes
+
+   - 有电影的,一样出色...
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9717">天渊
+==================
+
+.. container:: handout
+
+   弗诺·文奇 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/s1410407-deepnessky.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://book.douban.com/subject/1399992/
+
+
+
+.. container:: notes
+
+   - 当代大师
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9718">黄祸
+==================
+
+.. container:: handout
+
+   王力雄 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/250px-YellowTerror.jpg
+        :align: center
+        :scale: 150 %
+        :alt: 漫画
+        :target: http://zh.wikipedia.org/wiki/%E9%BB%84%E7%A5%B8
+
+
+
+.. container:: notes
+
+   - 严格意义上的政治科幻
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9719">Blame!
+==================
+
+.. container:: handout
+
+   弐瓶勉(`Tsutomu Nihei &lt;http://en.wikipedia.org/wiki/Tsutomu_Nihei&gt;`_ )  |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/jumpc_blame038039.jpg
+        :align: center
+        :scale: 80 %
+        :alt: 官方网页
+        :target: http://www.aposimz.com/work/blame/index.html
+
+
+
+.. container:: notes
+
+   - 失败建築师的漫画逆袭！
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9720">总之
+=========
+
+.. container:: handout
+
+   期望记住的~单位时间能记住的只有7+-2 个 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 三体可看
+    - 大刘可待
+    - 科幻艰难
+    - 未尝不可
+    - 中国科幻,慢慢来...
+
+
+.. container:: notes
+
+   - 科幻是种生活状态，不是商品
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9721">最后的最后...
+==================
+
+.. container:: handout
+
+   好书推荐... |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s4279952-zen4talk.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 讲演之禅
+        :target: http://book.douban.com/subject/4760725/
+
+.. container:: notes
+
+   - 持久的推荐，期望大家都来分享,,,高效/恰当/有趣的...
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9722">&lt;discuss/&gt;
+==========
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    Q&amp;A
+
+
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9723">&lt;版本/&gt;
+=========
+
+.. container:: handout
+
+   |zqeye|
+
+
+- 110610 增补Blame!图片，收集到其它观点...
+- 110607 appended for 弐瓶勉
+- 110527 增补故事性支持
+- 110519 增补好书推荐
+- 110511 创建
+
+:反馈:
+    `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:查阅:
+    http://zoomquiet.org/res/s5/110522-anti-3-body
+
+
+
+
+&lt;&lt;S5&gt;&gt;
+
+</t>
+<t tx="zoomq.20110816085806.9724">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
+==============================================================================================
+
+.. container:: handout
+
+    纯HTML 幻灯撰写框架!... |S5icon|
+
+
+- S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-Based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
+
+ - 仅仅依靠 CSS+JS 的HTML格式幻灯演示框架
+
+- 我的编辑环境: |LeoProse| ~ `文学化编辑器 &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+
+
+.. image:: pix/2010-01-18-230729_605x421_leo.png
+    :align: center
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+
+
+.. container:: notes
+
+   - 虽然有很多其它替代方案，至今用得最爽的还是 S5
+   - 最好也是最不好的，就是S5 需要专用的http 空间发布，无法直接分享到 slidshare.com 之类SNS空间中
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9772">@language rest
+@tabwidth -4
+.. include:: &lt;s5defs.txt&gt;
+
+==================================================================
+这年蟒营
+==================================================================
+
+2010~2011 `PythoniCamp &lt;http://code.google.com/p/kcpycamp/wiki/PythoniCamp&gt;`_
+
+:作者: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:URL:   http://zoomquiet.org/res/s5/110818-pythonicamp-this-year
+
+&lt;&lt;DOCDEFINE&gt;&gt;
+
+&lt;&lt;footer&gt;&gt;
+
+@others
+
+</t>
+<t tx="zoomq.20110816085806.9773">.. This document has been placed in the CC domain.
+.. _Docutils: http://docutils.sourceforge.net/
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+.. _S5: http://meyerweb.com/eric/tools/s5/
+.. _Firefox: http://www.mozilla.com/firefox/
+
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+.. _(CC)by-nc-sa:
+    http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. _FireFox:
+    http://www.mozilla.com/firefox/
+.. _S5介绍:
+    http://zoomquiet.org/res/s5/100826-PyTDD/s5.html
+.. _WYTIWYG:
+    http://wiki.woodpecker.org.cn/moin/WyTiWyG
+
+.. 图片定义区
+.. |bullet| unicode:: U+02022
+.. |mode| unicode:: U+00D8 .. capital o with stroke
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: top
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+.. |LeoProse| image:: pix/LeoProse.gif
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+   :alt: 是也乎;-)
+   :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+
+</t>
+<t tx="zoomq.20110816085806.9774">.. footer:: 
+
+   `Zoom.Quiet`_ v11.02.26 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+</t>
+<t tx="zoomq.20110816085806.9775">&lt;免责/&gt;
+=========
+
+.. container:: handout
+
+   山寨的，非业界公认的，个人体验为基础!
+   |zqeye|
+
+
+.. class:: takahashi1
+
+    参考所有同好行为总结而得
+
+    - 一切资料来自网络互动挖掘
+    - 一切想法来自日常学习工作
+    - 一切体悟来自各种沟通交流
+    - 一切知识来自社区分享印证
+    - 一切经验来自个人失败体验
+
+
+</t>
+<t tx="zoomq.20110816085806.9783">&lt;Zoom.Quiet&gt;
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi7
+
+    本命年+1
+
+
+.. container:: notes
+
+   - 刚刚过了生日,应该说已经37岁了
+   - 已经工作了12年
+
+
+</t>
+<t tx="zoomq.20110816085806.9784">牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 648d
+
+
+
+.. image:: i/foto/niuniu110105.jpeg
+    :align: center
+    :scale: 110 %
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+
+
+</t>
+<t tx="zoomq.20110816085806.9785">&lt;/Zoom.Quiet&gt;
+==================
+
+.. container:: handout
+
+    轻松回想... |zqeye|
+
+
+.. class:: takahashi8
+
+   (^_^)
+
+
+.. container:: notes
+
+   - 这次可以和大家见面,并高兴的聊天非常高兴!
+   - 不仅高兴可以和大家分享我认为很好玩的事儿,
+   - 更加高兴可以从大家这儿听到从前的自个儿可能都没有想到的事儿
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9786">&lt;进度/&gt;
+=========
+
+.. container:: handout
+
+   追求-&gt;过程-&gt;使劲交流 |zqeye|
+
+
+.. class:: takahashi3
+
+    - :orange:`3' 小传`
+    - :silver:`11' 过程`
+    - :silver:`19' 挑战`
+    - :silver:`21' 问答`
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9787">&lt;Goal&gt;
+==================
+
+.. container:: handout
+
+    玩好学好,体验靠谱! |zqeye|
+
+
+.. class:: takahashi10
+
+   共赢
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9788">学生
+==================
+
+.. container:: handout
+
+    获得真实的开发导引 |zqeye|
+
+
+.. class:: takahashi8
+
+   +引导
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9789">学校
+==================
+
+.. container:: handout
+
+    获得免费的技术导师 |zqeye|
+
+
+.. class:: takahashi8
+
+   +导师
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9790">企業
+==================
+
+.. container:: handout
+
+    获得高效的潜在员工鳞选 |zqeye|
+
+
+.. class:: takahashi8
+
+   +预训
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9791">社区
+==================
+
+.. container:: handout
+
+    获得持续的沟通机会 |zqeye|
+
+
+.. class:: takahashi8
+
+   +交流
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9792">&lt;/Goal&gt;
+==================
+
+.. container:: handout
+
+    玩好学好,体验靠谱! |zqeye|
+
+
+.. class:: takahashi8
+
+   (^.^)
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9793">&lt;进度/&gt;
+=========
+
+.. container:: handout
+
+   追求-&gt;过程-&gt;使劲交流 |zqeye|
+
+
+.. class:: takahashi3
+
+    - :gray:`3' 小传`
+    - :orange:`11' 过程`
+    - :silver:`19' 挑战`
+    - :silver:`17' 问答`
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9794">标准化流程
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    &lt;Flow&gt;
+
+
+</t>
+<t tx="zoomq.20110816085806.9795">开营
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/pyicamp-flow-0_wsd-napkin.png
+        :align: center
+        :scale: 200 %
+        :alt: 主动报名!
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9796">作品
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/pyicamp-flow-1_wsd-napkin.png
+        :align: center
+        :scale: 150 %
+        :alt: 承诺!
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9797">计划
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/pyicamp-flow-2_wsd-napkin.png
+        :align: center
+        :scale: 130 %
+        :alt: 合理
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9798">日常
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/pyicamp-flow-3_wsd-napkin.png
+        :align: center
+        :scale: 120 %
+        :alt: 节奏
+
+.. container:: notes
+
+   - 时间安排和沟通...
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9799">闭营
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/pyicamp-flow-all_wsd-napkin.png
+        :align: center
+        :scale: 110 %
+        :alt: 正式
+
+.. container:: notes
+
+   - 文档!仓库!
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9800">敏捷...
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi7
+
+    &lt;/Flow&gt;
+
+
+</t>
+<t tx="zoomq.20110816085806.9801">&lt;进度/&gt;
+=========
+
+.. container:: handout
+
+   追求-&gt;过程-&gt;使劲交流 |zqeye|
+
+
+.. class:: takahashi3
+
+    - :gray:`3' 小传`
+    - :gray:`11' 过程`
+    - :orange:`19' 挑战`
+    - :silver:`17' 问答`
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9802">必须要突破的
+==================
+
+.. container:: handout
+
+    心理定式... |zqeye|
+
+
+.. class:: takahashi
+
+   &lt;HOPE&gt;
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9803">人类的摧生婆
+==================
+
+.. container:: handout
+
+    能够限制你的只有你自个儿 |zqeye|
+
+
+.. class:: takahashi9
+
+   工具
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9804">最古老也是最高效的沟通方式
+====================================
+
+.. container:: handout
+
+    怎么强调也不为过 |zqeye|
+
+
+.. class:: takahashi10
+
+   :orange:`邮件`
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9805">版本管理
+==================
+
+.. container:: handout
+
+    最贴心的工具 |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/logo/logo-hg-200.png
+        :align: center
+        :scale: 120 %
+        :alt: Hg
+        :target: http://code.google.com/p/kcpycamp/wiki/HowtoScm
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9806">核心转变
+==================
+
+.. container:: handout
+
+    为自己负责! |zqeye|
+
+
+.. class:: takahashi10
+
+    `态度 &lt;http://wiki.woodpecker.org.cn/moin/KaoPulity&gt;`__
+
+.. container:: notes
+
+   - 從此开始经营自个儿的社会信用!
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9807">重新认识自个儿
+==================
+
+.. container:: handout
+
+    为自己负责! |zqeye|
+
+
+.. class:: takahashi10
+
+    视野
+
+.. container:: notes
+
+   - 從此开始经营自个儿的社会信用!
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9808">海宽天高!
+==================
+
+.. container:: handout
+
+    能够限制你的只有你自个儿 |zqeye|
+
+
+.. class:: takahashi
+
+   &lt;/HOPE&gt;
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9809">时限!
+==================
+
+.. container:: handout
+
+    不能无限尝试! |zqeye|
+
+
+.. class:: takahashi9
+
+    :orange:`100h`
+
+.. container:: notes
+
+   - 100小时~2周全职工作时间
+   - 期望持续的每天花一定时间在蟒营
+   - 每天1小时,3个月,完成进化!
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9810">&lt;进度/&gt;
+=========
+
+.. container:: handout
+
+   追求-&gt;过程-&gt;使劲交流 |zqeye|
+
+
+.. class:: takahashi3
+
+    - :gray:`3' 小传`
+    - :gray:`11' 过程`
+    - :gray:`19' 挑战`
+    - :orange:`17' 问答`
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9811">嗯嗯嗯?!
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi10
+
+    Q&amp;A
+
+
+</t>
+<t tx="zoomq.20110816085806.9812">总之
+=========
+
+.. container:: handout
+
+   期望可以记住的 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    * 蟒营只是个机会
+    * 提前了必然的颠覆
+    * 只能由自己改造自己
+    * `InfoQ:技术如何拯救教育 &lt;http://www.infoq.com/cn/articles/agile-schools-education&gt;`_
+
+
+.. container:: notes
+
+   - ~单位时间可以记住的只有7+-2 个
+
+
+</t>
+<t tx="zoomq.20110816085806.9813">最后...
+==================
+
+.. container:: handout
+
+   好书推荐... |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s3958139-itbird.jpg
+        :align: center
+        :scale: 100 %
+        :alt: IT小小鸟
+        :target: http://book.douban.com/subject/4006425/
+
+
+</t>
+<t tx="zoomq.20110816085806.9814">最后的最后...
+==================
+
+.. container:: handout
+
+   好书推荐... |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s4279952-zen4talk.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 讲演之禅
+        :target: http://book.douban.com/subject/4760725/
+
+
+</t>
+<t tx="zoomq.20110816085806.9815">可愛的Python
+==================
+
+.. container:: handout
+
+   2009-09-02出版,
+
+
+.. class:: takahashi
+
+    .. image:: i/090902-lovpy.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://www.china-pub.com/195771
+
+
+.. container:: notes
+
+   - 这本书,是有关开发语言 Python 的,
+   - 不过,今天说的和内容无关,是和怎么写出这样一本挺厚的书相关的
+   - 写成一本书,真的不是难事儿...
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9816">&lt;版本/&gt;
+=========
+
+.. container:: handout
+
+   |zqeye|
+
+
+- 110816 创建
+
+
+:反馈:
+    `Zoom.Quiet@gmail.com &lt;zoomquiet+sns@gmai.com&gt;`__
+:查阅:
+    http://zoomquiet.org/res/s5/110818-pythonicamp-this-year
+
+
+&lt;&lt;S5&gt;&gt;
+
+</t>
+<t tx="zoomq.20110816085806.9817">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
+==============================================================================================
+
+.. container:: handout
+
+    纯HTML 幻灯撰写框架!... |zqeye|
+
+
+- S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
+- 仅用 CSS+JS 实现的HTML格式幻灯演示工具~ `本地介绍 &lt;s5.html&gt;`__
+- 我的编辑工具: |LeoProse| ~ `文学化编辑环境 &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+
+
+.. image:: pix/2010-01-18-230729_605x421_leo.png
+    :align: center
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+
+</t>
+<t tx="zoomq.20110816085806.9818">&lt;Zoom.Quiet/&gt;
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/id/100514-zq-eye.png
+        :align: center
+        :scale: 80 %
+        :alt: 是也乎,是也乎
+
+    .. image:: i/map/50ren-ZoomQuiet-s5-v800.png
+        :align: center
+        :scale: 100 %
+        :alt: Zoom.Quiet
+        :target: http://zoomquiet.org
+
+
+</t>
+<t tx="zoomq.20110816085806.9821">&lt;Historic&gt;
+==================
+
+.. container:: handout
+
+    开始 |zqeye|
+
+
+.. class:: takahashi8
+
+   0808
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9823">&lt;/Historic&gt;
+==================
+
+.. container:: handout
+
+    还好? |zqeye|
+
+
+.. class:: takahashi8
+
+   (@.@)
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9825">曝光
+==================
+
+.. container:: handout
+
+    `PCAP2010-新加坡 &lt;http://wiki.woodpecker.org.cn/moin/PyCon2010&gt;`_ |zqeye|
+
+
+.. class:: takahashi8
+
+   1006
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9827">当前
+==================
+
+.. container:: handout
+
+    这一年 |zqeye|
+
+
+.. class:: takahashi8
+
+   1108
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9829">结合
+==================
+
+.. container:: handout
+
+    进入金山俱乐部 |zqeye|
+
+
+.. class:: takahashi8
+
+   1008
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9831">掺合学校
+==================
+
+.. container:: handout
+
+    外地只有湖大 |zqeye|
+
+
+.. class:: takahashi9
+
+   5
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9833">启动蟒营
+==================
+
+.. container:: handout
+
+    华师+暨大(2)+北理工 |zqeye|
+
+
+.. class:: takahashi9
+
+   +4
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9835">涉及导师
+==================
+
+.. container:: handout
+
+    `导师索引 &lt;http://code.google.com/p/kcpycamp/wiki/PythoniCampTutors&gt;`_ |zqeye|
+
+
+.. class:: takahashi8
+
+   11+
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9837">作品动议
+==================
+
+.. container:: handout
+
+    多数现场, `备选项目 &lt;http://code.google.com/p/kcpycamp/wiki/PythoniCampItems&gt;`_ |zqeye|
+
+
+.. class:: takahashi9
+
+   14+
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9839">现场交流
+==================
+
+.. container:: handout
+
+    - `金山俱乐部高校列表 &lt;http://code.google.com/p/kcpycamp/wiki/KcPyCampColleges&gt;`_ |zqeye|
+    - 录音超过 20小时
+    - 录像超过 10小时
+
+
+.. class:: takahashi9
+
+   9
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9841">交付可用
+==================
+
+.. container:: handout
+
+    HG成为主要问题? |zqeye|
+
+
+.. class:: takahashi9
+
+   4.5
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9845">发现挑战
+==================
+
+.. container:: handout
+
+    这一年的项目转换率不高 |zqeye|
+
+
+.. class:: takahashi
+
+   &lt;挑战&gt;
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9847">动力
+==================
+
+.. container:: handout
+
+    好象,, |zqeye|
+
+
+.. class:: takahashi8
+
+   现场!
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9849">挑战应对
+==================
+
+.. container:: handout
+
+    能够限制你的只有你自个儿 |zqeye|
+
+
+.. class:: takahashi
+
+   &lt;/挑战&gt;
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9851">对待承诺
+==================
+
+.. container:: handout
+
+    沟通不充分... |zqeye|
+
+
+.. class:: takahashi8
+
+   坚持?
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9853">邮件的杯具...
+==================
+
+.. container:: handout
+
+    沟通不充分... |zqeye|
+
+
+.. class:: takahashi8
+
+   QQ
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9855">杯具的团队...
+==================
+
+.. container:: handout
+
+    沟通不充分... |zqeye|
+
+
+.. class:: takahashi8
+
+   团队
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9857">要改进
+==================
+
+.. container:: handout
+
+    - 流程不变
+    - 形式加强
+
+
+.. class:: takahashi9
+
+    :orange:`形式`
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20110816085806.9859">助教
+==================
+
+.. container:: handout
+
+    进一步尝试 |zqeye|
+
+
+.. class:: takahashi9
+
+    兼教?!
+
+.. container:: notes
+
+   - 
+
+
+
 </t>
 </tnodes>
 </leo_file>

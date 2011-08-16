@@ -23,7 +23,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         ,style="setlinewidth(0.5)"
         ];
     ZQ [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="4">  
-            <TR><TD><IMG src="zoomquiet-dot-10901_h85.png"/></TD></TR></TABLE>>
+            <TR><TD><IMG src="zoomquiet-dot-110629_h85.png"/></TD></TR></TABLE>>
             ,URL="http://zoomquiet.org"
             ];
     title [label="zoomquiet.org资源图谱\n{gen. by Graphviz}\nTime is unimportant,only life important!"

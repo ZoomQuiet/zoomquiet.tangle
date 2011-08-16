@@ -1,27 +1,27 @@
 <map id="zoomquiet_org_idx" name="zoomquiet_org_idx">
-<area shape="rect" href="http://zoomquiet.org" title="&lt;TABLE&gt;" alt="" coords="5,311,584,423"/>
-<area shape="rect" href="http://code.google.com/u/Zoom.Quiet/" title="整ing" alt="" coords="608,352,680,381"/>
-<area shape="rect" href="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/zoomquiet_org_idx.dot" title="zoomquiet.org资源图谱\n{gen. by Graphviz}\nTime is unimportant,only life important!" alt="" coords="140,111,449,177"/>
-<area shape="poly" href="mailto:zoomquiet+sns@gmail.com?subject=zoomquiet.org mapping feedback" title="电俺" alt="" coords="331,607 330,600 324,594 316,590 306,587 295,586 283,587 273,590 265,594 260,600 258,607 260,613 265,619 273,623 283,626 295,627 306,626 316,623 324,619 330,613"/>
-<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet" title="维基" alt="" coords="759,5,831,35"/>
-<area shape="rect" href="http://www.douban.com/group/zoomquiet/" title="豆瓣" alt="" coords="759,59,831,88"/>
-<area shape="rect" href="http://www.flickr.com/photos/zoomq/" title="Flickr" alt="" coords="759,112,831,141"/>
-<area shape="rect" href="#" title="bloging" alt="" coords="759,165,831,195"/>
-<area shape="rect" href="https://addons.mozilla.org/zh-CN/firefox/addon/427/" title="ScrapBook" alt="" coords="745,219,844,248"/>
-<area shape="rect" href="http://zoomquiet.blogspot.com/" title="@blogger" alt="" coords="919,59,1009,88"/>
-<area shape="rect" href="http://zoomq.livejournal.com/" title="@livejournal" alt="" coords="911,112,1017,141"/>
-<area shape="rect" href="http://blog.zoomquiet.org/pyblosxom/" title="PyBlosxom" alt="" coords="913,165,1015,195"/>
-<area shape="rect" href="http://floss.zoomquiet.org/" title="FLOSS" alt="" coords="928,219,1000,248"/>
-<area shape="rect" href="http://skm.zoomquiet.org/" title="SKM" alt="" coords="928,272,1000,301"/>
-<area shape="rect" href="http://zoomquiet.org/obp/" title="OBP" alt="" coords="759,272,831,301"/>
-<area shape="rect" href="http://code.google.com/p/kcpycamp/" title="蟒营" alt="" coords="759,325,831,355"/>
-<area shape="rect" href="http://py.kingsoft.net/ktrac" title="KTRAC" alt="" coords="759,379,831,408"/>
-<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/WeKnow" title="WeKnow" alt="" coords="752,432,837,480"/>
-<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="CPyUG" alt="" coords="759,555,831,584"/>
-<area shape="rect" href="http://techparty.org/" title="TechParty" alt="" coords="749,608,840,637"/>
-<area shape="rect" href="http://www.zeuux.org/community/zeuux-activist.cn.html" title="哲思" alt="" coords="1043,524,1115,553"/>
-<area shape="rect" href="http://code.google.com/p/ecug/wiki/FrontPage" title="ECUG" alt="" coords="759,661,831,691"/>
-<area shape="rect" href="http://code.google.com/p/sociallearnlab/" title="教育大发现" alt="" coords="747,715,843,744"/>
-<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/ZPyUG" title="ZPyUG" alt="" coords="928,555,1000,584"/>
-<area shape="rect" href="http://code.google.com/p/erlbattle/" title="恶狼战役" alt="" coords="924,661,1004,691"/>
+<area shape="rect" href="http://zoomquiet.org" title="&lt;TABLE&gt;" alt="" coords="5,311,531,423"/>
+<area shape="rect" href="http://code.google.com/u/Zoom.Quiet/" title="整ing" alt="" coords="555,352,627,381"/>
+<area shape="rect" href="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/zoomquiet_org_idx.dot" title="zoomquiet.org资源图谱\n{gen. by Graphviz}\nTime is unimportant,only life important!" alt="" coords="113,111,423,177"/>
+<area shape="poly" href="mailto:zoomquiet+sns@gmail.com?subject=zoomquiet.org mapping feedback" title="电俺" alt="" coords="305,599 303,592 298,586 290,582 279,579 268,578 257,579 246,582 238,586 233,592 231,599 233,605 238,611 246,615 257,618 268,619 279,618 290,615 298,611 303,605"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet" title="维基" alt="" coords="705,5,777,35"/>
+<area shape="rect" href="http://www.douban.com/group/zoomquiet/" title="豆瓣" alt="" coords="705,59,777,88"/>
+<area shape="rect" href="http://www.flickr.com/photos/zoomq/" title="Flickr" alt="" coords="705,112,777,141"/>
+<area shape="rect" href="#" title="bloging" alt="" coords="705,165,777,195"/>
+<area shape="rect" href="https://addons.mozilla.org/zh-CN/firefox/addon/427/" title="ScrapBook" alt="" coords="692,219,791,248"/>
+<area shape="rect" href="http://zoomquiet.blogspot.com/" title="@blogger" alt="" coords="865,59,956,88"/>
+<area shape="rect" href="http://zoomq.livejournal.com/" title="@livejournal" alt="" coords="857,112,964,141"/>
+<area shape="rect" href="http://blog.zoomquiet.org/pyblosxom/" title="PyBlosxom" alt="" coords="860,165,961,195"/>
+<area shape="rect" href="http://floss.zoomquiet.org/" title="FLOSS" alt="" coords="875,219,947,248"/>
+<area shape="rect" href="http://skm.zoomquiet.org/" title="SKM" alt="" coords="875,272,947,301"/>
+<area shape="rect" href="http://zoomquiet.org/obp/" title="OBP" alt="" coords="705,272,777,301"/>
+<area shape="rect" href="http://code.google.com/p/kcpycamp/" title="蟒营" alt="" coords="705,325,777,355"/>
+<area shape="rect" href="http://py.kingsoft.net/ktrac" title="KTRAC" alt="" coords="705,379,777,408"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/WeKnow" title="WeKnow" alt="" coords="699,432,784,480"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="CPyUG" alt="" coords="705,504,777,533"/>
+<area shape="rect" href="http://techparty.org/" title="TechParty" alt="" coords="696,557,787,587"/>
+<area shape="rect" href="http://www.zeuux.org/community/zeuux-activist.cn.html" title="哲思" alt="" coords="705,611,777,640"/>
+<area shape="rect" href="http://code.google.com/p/ecug/wiki/FrontPage" title="ECUG" alt="" coords="705,664,777,693"/>
+<area shape="rect" href="http://code.google.com/p/sociallearnlab/" title="教育大发现" alt="" coords="693,717,789,747"/>
+<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/ZPyUG" title="ZPyUG" alt="" coords="875,504,947,533"/>
+<area shape="rect" href="http://code.google.com/p/erlbattle/" title="恶狼战役" alt="" coords="871,664,951,693"/>
 </map>
