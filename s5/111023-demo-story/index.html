@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.7: http://docutils.sourceforge.net/" />
+<meta name="version" content="S5 1.1" />
+<title>小样儿</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id$
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: left }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<script src="ui/freedom/slides.js" type="text/javascript"></script>
+<link rel="stylesheet" href="ui/freedom/slides.css"
+      type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/freedom/outline.css"
+      type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/freedom/print.css"
+      type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/freedom/opera.css"
+      type="text/css" media="projection" id="operaFix" />
+</head>
+<body>
+<div class="layout">
+<div id="controls"></div>
+<div id="currentSlide"></div>
+<div id="header">
+
+</div>
+<div id="footer">
+<h1>小样儿</h1>
+<h2><a class="reference external" href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">Zoom.Quiet</a> v11.10.22 <a class="reference external" href="http://creativecommons.org/licenses/by-nc-sa/2.5/cn/"><img alt="(CC)by-nc-sa 许可证" src="i/icon/cc-byncnd-80x15.png" /></a> 推荐用 <a class="reference external" href="http://www.mozilla.com/firefox/">FireFox</a> 获得最佳游览效果</h2>
+</div>
+</div>
+<div class="presentation">
+<div class="slide" id="slide0">
+<h1 class="title">小样儿</h1>
+
+<!-- Definitions of interpreted text roles (classes) for S5/HTML data. -->
+<!-- This data file has been placed in the public domain. -->
+<!-- Colours
+======= -->
+<!-- Text Sizes
+========== -->
+<!-- Display in Slides (Presentation Mode) Only
+========================================== -->
+<!-- Display in Outline Mode Only
+============================ -->
+<!-- Display in Print Only
+===================== -->
+<!-- Display in Handout Mode Only
+============================ -->
+<!-- Incremental Display
+=================== -->
+<p>～ 记一个移动产品的胎死腹中 (powered by rst2S5)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Authors:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+sns&#64;gmai.com">Zoom.Quiet</a></td>
+</tr>
+<tr class="field"><th class="field-name">URL:</th><td class="field-body"><a class="reference external" href="http://zoomquiet.org/res/s5/111023-demo-story">http://zoomquiet.org/res/s5/111023-demo-story</a></td>
+</tr>
+</tbody>
+</table>
+<!-- This document has been placed in the CC domain. -->
+<!-- 图片定义区 -->
+
+</div>
+<div class="slide" id="id5">
+<h1>&lt;免责/&gt;</h1>
+<div class="handout container">
+山寨的，非业界公认的，个人体验为基础!
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi1">参考所有同好行为总结而得</p>
+<ul class="takahashi1 simple">
+<li>一切资料来自网络互动挖掘</li>
+<li>一切想法来自日常学习工作</li>
+<li>一切体悟来自各种沟通交流</li>
+<li>一切知识来自社区分享印证</li>
+<li>一切经验来自个人失败体验</li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li>免责是必须的，分享是无理由的！</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id6">
+<h1>起因</h1>
+<div class="handout container">
+教师节,相关,比较无趣... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">会议中</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id7">
+<h1>手机中..</h1>
+<div class="handout container">
+有什么软件是常用的?... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">常用?</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id8">
+<h1>我的手机...</h1>
+<div class="handout container">
+主要功能... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">电话</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id9">
+<h1>我的手机...</h1>
+<div class="handout container">
+主要功能... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">短信</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id10">
+<h1>我的手机...</h1>
+<div class="handout container">
+主要功能... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">拍照</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id11">
+<h1>我的手机...</h1>
+<div class="handout container">
+常用软件... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">微博</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id12">
+<h1>我的手机...</h1>
+<div class="handout container">
+常用软件... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi">静读天下</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id13">
+<h1>我的手机...</h1>
+<div class="handout container">
+常用软件... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">音乐</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id14">
+<h1>我的手机...</h1>
+<div class="handout container">
+常用软件... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi">豆瓣FM</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="moc">
+<h1><a class="reference external" href="http://moc.daper.net/">moc</a></h1>
+<div class="handout container">
+命令行中的音乐播放器 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zqtool-moc_931x489_scrot.png" class="align-center" src="i/snap/zqtool-moc_931x489_scrot.png" style="width: 931.0px; height: 489.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id15">
+<h1>音乐态度</h1>
+<div class="handout container">
+完整的音乐作品是专辑！... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">专辑</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id16">
+<h1>随时可以听到自己想听的音乐!</h1>
+<div class="handout container">
+<ul class="simple">
+<li>音乐算钢性需求</li>
+<li>随时可听已经作到</li>
+<li>想听到熟悉的对味音乐</li>
+<li>想听到合口味的新音乐</li>
+</ul>
+</div>
+<p class="takahashi8">想听</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id17">
+<h1>音乐放送是1.0时代的体验</h1>
+<div class="handout container">
+<ul class="simple">
+<li>单曲点/随放</li>
+<li>听/不听的选择</li>
+<li>无法进一步挖掘/交流</li>
+</ul>
+</div>
+<p class="takahashi8">电台</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id18">
+<h1>那么什么样的音乐软件是想要的?</h1>
+<div class="handout container">
+痒点.. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">机会</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id19">
+<h1>音乐频道混过...</h1>
+<div class="handout container">
+有糟可吐哪!.. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">SINA</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id20">
+<h1>音乐产业已死</h1>
+<div class="handout container">
+<ul class="simple">
+<li>D版和 iTunes 改变了一切</li>
+<li><a class="reference external" href="http://www.36kr.com/p/36527.html">音乐的出路 | 36氪</a></li>
+<li><a class="reference external" href="http://www.36kr.com/p/41749.html">4种可以拯救音乐产业的全新格式和服务 | 36氪</a></li>
+<li><a class="reference external" href="http://www.36kr.com/p/26603.html">互联网广告漫谈（中）- 网络电台的广告模式 | 36氪</a></li>
+</ul>
+</div>
+<a class="takahashi8 reference external image-reference" href="http://www.36kr.com/p/36121.html"><img alt="36Kr" class="align-center" src="i/pirates-music.jpeg" style="width: 352.5px; height: 321.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>DRM 改变了一切</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id24">
+<h1>免费听!</h1>
+<div class="handout container">
+<ul class="simple">
+<li><a class="reference external" href="http://www.36kr.com/p/36341.html">在线音乐，无拘无束 | 36氪</a></li>
+<li><a class="reference external" href="http://www.36kr.com/p/23051.html">剑指iTunes：Spotify推出音乐下载商店和iPod同步功能 | 36氪</a></li>
+</ul>
+</div>
+<a class="takahashi8 reference external image-reference" href="http://www.36kr.com/p/44238.html"><img alt="36Kr" class="align-center" src="i/logo/spotify-iphone.jpeg" style="width: 570.0px; height: 240.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>版权库是个要命的东西...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="earbits">
+<h1>Earbits</h1>
+<div class="handout container">
+<ul class="simple">
+<li>取代Pandora的网络电台(广告)</li>
+<li>营销渠道管理...</li>
+</ul>
+</div>
+<a class="takahashi8 reference external image-reference" href="http://www.36kr.com/p/25796.html"><img alt="36Kr" class="align-center" src="i/snap/earbits.png" style="width: 610.0px; height: 270.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>新人乐团才是希望...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="onesheet">
+<h1>OneSheet</h1>
+<div class="handout container">
+<ul class="simple">
+<li>乐团的about.me</li>
+<li>乐队的Alibaba...</li>
+</ul>
+</div>
+<a class="takahashi8 reference external image-reference" href="http://www.36kr.com/p/40714.html"><img alt="36Kr" class="align-center" src="i/snap/OneSheet.png" style="width: 1067.2px; height: 547.2px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>新人乐团才是希望...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="share-my-playlists">
+<h1>Share My Playlists:发现对味的音乐</h1>
+<div class="handout container">
+<ul class="simple">
+<li>更加自在的 last.fm</li>
+</ul>
+</div>
+<a class="takahashi8 reference external image-reference" href="http://www.36kr.com/p/43464.html"><img alt="36Kr" class="align-center" src="i/snap/sharemyplaylists.jpg" style="width: 640.0px; height: 384.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>音乐的SNS 形式</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id26">
+<h1>李志</h1>
+<div class="handout container">
+免费下载，自由定价 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="http://lizhizhuangbi.com"><img alt="官网" class="align-center" src="i/snap/zq_2011-10-22-220508_869x517_scrot.png" style="width: 880.0px; height: 528.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>免费下载，自由定价！ lizhizhuangbi.com</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id27">
+<h1>移动产品</h1>
+<div class="handout container">
+... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">小样儿</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id28">
+<h1>小样儿:理解</h1>
+<div class="handout container">
+<ul class="simple">
+<li>音乐人作音乐不完全求财</li>
+<li>音乐感动应该感动的人!</li>
+<li>可以被音乐感动的人明白感恩</li>
+<li>愿意直接向作者支付!</li>
+</ul>
+</div>
+<p class="takahashi8">诚乐</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id29">
+<h1>小样儿:乐团</h1>
+<div class="handout container">
+<ul class="simple">
+<li>能缩短创作者、消费者之间的距离，</li>
+<li>打破唱片公司的垄断，让音乐更容易流行</li>
+</ul>
+</div>
+<p class="takahashi8">直销</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id30">
+<h1>小样儿:听众</h1>
+<div class="handout container">
+<ul class="simple">
+<li>能更容易地听到自己喜欢的音乐，</li>
+<li>让好的音乐更容易流行</li>
+</ul>
+</div>
+<p class="takahashi8">传销</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id31">
+<h1>小样儿:支付</h1>
+<div class="handout container">
+<ul class="simple">
+<li>向乐团捐助</li>
+<li>朋友推荐(产生二次捐助时,有返点;-)</li>
+<li>乐迷的山寨专辑推荐/交换中心</li>
+</ul>
+</div>
+<p class="takahashi8">微冲动</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id32">
+<h1>小样儿:动力</h1>
+<div class="handout container">
+<ul class="simple">
+<li>豆瓣样儿</li>
+<li>100个乐团,1000张原创专辑</li>
+<li>周新增3个乐团,大城市一次现场</li>
+<li>每日微支付500元</li>
+</ul>
+</div>
+<p class="takahashi5">文艺范儿</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id33">
+<h1>小样儿!</h1>
+<div class="handout container">
+继续规划ing.. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7">($.$)</p>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id34">
+<h1>音乐人</h1>
+<div class="handout container">
+iOS/Android 连续释放! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="http://site.douban.com/artists/"><img alt="官网" class="align-center" src="i/snap/douban-artists-itunes.png" style="width: 560.0px; height: 333.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>免费下载，自由定价！ lizhizhuangbi.com</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id35">
+<h1>总之:任何好想法</h1>
+<div class="handout container">
+期望记住的~单位时间能记住的只有7+-2 个 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="incremental takahashi simple">
+<li>1个想法</li>
+<li>至少100个人也在想</li>
+<li>至少10个人已在开发</li>
+<li>1个产品可能已发布</li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li>Doing now! don't thinking!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="discuss">
+<h1>&lt;discuss/&gt;</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">Q&amp;A</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id36">
+<h1>&lt;版本/&gt;</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="simple">
+<li>111022 创建</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">反馈:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+sns&#64;gmai.com">Zoom.Quiet</a></td>
+</tr>
+<tr class="field"><th class="field-name">查阅:</th><td class="field-body"><a class="reference external" href="http://zoomquiet.org/res/s5/111023-demo-story">http://zoomquiet.org/res/s5/111023-demo-story</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="slide" id="id37">
+<h1><a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/">S5</a></h1>
+<div class="handout container">
+纯HTML 幻灯撰写框架!... <a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/"><img alt="S5icon" class="align-top" src="pix/S5icon.GIF" style="width: 16.0px; height: 16.0px;" /></a></div>
+<ul class="simple">
+<li>S<sup>5</sup>== a <span class="orange">S</span> imple <span class="orange">S</span> tandards-Based <span class="orange">S</span> lide <span class="orange">S</span> how <span class="orange">S</span> ystem</li>
+</ul>
+<blockquote>
+<ul class="simple">
+<li>仅仅依靠 CSS+JS 的HTML格式幻灯演示框架</li>
+</ul>
+</blockquote>
+<ul class="simple">
+<li>我的编辑环境: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="LeoProse" class="align-top" src="pix/LeoProse.gif" style="width: 81.0px; height: 42.0px;" /></a> ~ <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">文学化编辑器</a></li>
+</ul>
+<a class="reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="pix/2010-01-18-230729_605x421_leo.png" class="align-center" src="pix/2010-01-18-230729_605x421_leo.png" style="width: 605.0px; height: 421.0px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>虽然有很多其它替代方案，至今用得最爽的还是 S5</li>
+<li>最好也是最不好的，就是S5 需要专用的http 空间发布，无法直接分享到 slidshare.com 之类SNS空间中</li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -131,8 +131,55 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20101109214756.7198" a="E"><vh>110818-pythonicamp-this-year</vh>
-<v t="zoomq.20110816085806.9772" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20111013085658.9846"><vh>111111-pyconchina-mq-taste</vh></v>
+<v t="zoomq.20111022215647.9886" a="E"><vh>111023-demo-story</vh>
+<v t="zoomq.20111022215647.9887" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20111022215647.9888"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
+<v t="zoomq.20111022215647.9889"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20111022215647.9890"><vh>免责</vh></v>
+<v t="zoomq.20111022215647.9926" a="E"><vh>起因</vh>
+<v t="zoomq.20111022215647.9930"><vh>起因</vh></v>
+<v t="zoomq.20111022215647.9936"><vh>电话</vh>
+<v t="zoomq.20111022215647.9938"><vh>短信</vh></v>
+<v t="zoomq.20111022215647.9946"><vh>lomo</vh></v>
+<v t="zoomq.20111022215647.9940"><vh>微博</vh></v>
+<v t="zoomq.20111022215647.9942"><vh>看书</vh></v>
+</v>
+<v t="zoomq.20111022215647.9948"><vh>音乐</vh>
+<v t="zoomq.20111022215647.9950"><vh>FM</vh></v>
+<v t="zoomq.20111022215647.9934"><vh>moc</vh></v>
+<v t="zoomq.20111022215647.9952"><vh>专辑</vh></v>
+<v t="zoomq.20111022215647.9954"><vh>想听</vh></v>
+<v t="zoomq.20111022215647.9956"><vh>电台</vh></v>
+<v t="zoomq.20111022215647.9958"><vh>机会!</vh></v>
+<v t="zoomq.20111022215647.9960"><vh>SINA</vh></v>
+<v t="zoomq.20111022215647.9891"><vh>产业</vh></v>
+<v t="zoomq.20111022215647.9964"><vh>新贵</vh></v>
+<v t="zoomq.20111022215647.9966"><vh>Earbits</vh></v>
+<v t="zoomq.20111022215647.9968"><vh>OneSheet</vh></v>
+<v t="zoomq.20111022215647.9970"><vh>Share My Playlists</vh></v>
+</v>
+<v t="zoomq.20111022215647.9962" a="E"><vh>李志</vh>
+<v t="zoomq.20111022215647.9982"><vh>小样儿</vh></v>
+<v t="zoomq.20111022215647.9972"><vh>小样儿</vh></v>
+<v t="zoomq.20111022215647.9974"><vh>小样儿乐团</vh></v>
+<v t="zoomq.20111022215647.9976"><vh>小样儿听众</vh></v>
+<v t="zoomq.20111022215647.9978"><vh>微冲动</vh></v>
+<v t="zoomq.20111022215647.9980"><vh>原动力</vh></v>
+<v t="zoomq.20111022215647.9984"><vh>...</vh></v>
+</v>
+<v t="zoomq.20111022215647.9924"><vh>豆瓣</vh></v>
+</v>
+<v t="zoomq.20111022215647.9918" a="E"><vh>总结7+-2</vh>
+<v t="zoomq.20111022215647.9920"><vh>Q&amp;A</vh></v>
+</v>
+<v t="zoomq.20111022215647.9921" a="E"><vh>version</vh>
+<v t="zoomq.20111022215647.9922"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20101109214756.7198"><vh>110818-pythonicamp-this-year</vh>
+<v t="zoomq.20110816085806.9772"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110816085806.9773"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110816085806.9774"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110816085806.9775"><vh>免责</vh>
@@ -141,7 +188,7 @@
 <v t="zoomq.20110816085806.9785"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110816085806.9786" a="E"><vh>brief0</vh>
+<v t="zoomq.20110816085806.9786"><vh>brief0</vh>
 <v t="zoomq.20110816085806.9787"><vh>&lt;Goal&gt;</vh>
 <v t="zoomq.20110816085806.9788"><vh>学生</vh></v>
 <v t="zoomq.20110816085806.9789"><vh>学校</vh></v>
@@ -172,7 +219,7 @@
 </v>
 <v t="zoomq.20110816085806.9800"><vh>&lt;/Flow&gt;</vh></v>
 </v>
-<v t="zoomq.20110816085806.9801" a="E"><vh>brief2</vh>
+<v t="zoomq.20110816085806.9801"><vh>brief2</vh>
 <v t="zoomq.20110816085806.9802"><vh>突破</vh>
 <v t="zoomq.20110816085806.9803"><vh>工具</vh></v>
 <v t="zoomq.20110816085806.9804"><vh>沟通</vh></v>
@@ -181,7 +228,7 @@
 <v t="zoomq.20110816085806.9807"><vh>视野</vh></v>
 </v>
 <v t="zoomq.20110816085806.9808"><vh>/突破</vh></v>
-<v t="zoomq.20110816085806.9845" a="E"><vh>挑战</vh>
+<v t="zoomq.20110816085806.9845"><vh>挑战</vh>
 <v t="zoomq.20110816085806.9847"><vh>现场</vh></v>
 <v t="zoomq.20110816085806.9851"><vh>坚持</vh></v>
 <v t="zoomq.20110816085806.9853"><vh>邮件</vh></v>
@@ -192,9 +239,9 @@
 <v t="zoomq.20110816085806.9857"><vh>形式</vh></v>
 <v t="zoomq.20110816085806.9859"><vh>助教</vh></v>
 </v>
-<v t="zoomq.20110816085806.9810" a="E"><vh>briefEND</vh>
+<v t="zoomq.20110816085806.9810"><vh>briefEND</vh>
 <v t="zoomq.20110816085806.9811"><vh>Q&amp;A</vh></v>
-<v t="zoomq.20110816085806.9812" a="E"><vh>Summary</vh>
+<v t="zoomq.20110816085806.9812"><vh>Summary</vh>
 <v t="zoomq.20110816085806.9813"><vh>小小鸟</vh></v>
 <v t="zoomq.20110816085806.9814"><vh>讲演之禅</vh></v>
 <v t="zoomq.20110816085806.9815"><vh>LovPy</vh></v>
@@ -1368,13 +1415,13 @@
 </v>
 <v t="zoomq.20100819090507.6366"><vh>summary</vh></v>
 </v>
-<v t="zoomq.20110302103337.8746"><vh>100918-MyTools</vh>
+<v t="zoomq.20110302103337.8746" a="E"><vh>100918-MyTools</vh>
 <v t="zoomq.20110302103337.8747"><vh>盛大讲演回顾</vh></v>
 <v t="zoomq.20110302103337.8748"><vh>html-s5</vh>
 <v t="zoomq.20110302103337.8749"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20110302103337.8848"><vh>rst2s5</vh>
-<v t="zoomq.20110302103337.8849"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110302103337.8848" a="E"><vh>rst2s5</vh>
+<v t="zoomq.20110302103337.8849" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110302103337.8850"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8851"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8852"><vh>免责</vh>
@@ -1408,10 +1455,10 @@
 </v>
 <v t="zoomq.20110302103337.8876"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20110302103337.8877"><vh>brief1</vh>
-<v t="zoomq.20110302103337.8878"><vh>&lt;我的工具箱</vh>
+<v t="zoomq.20110302103337.8877" a="E"><vh>brief1</vh>
+<v t="zoomq.20110302103337.8878" a="E"><vh>&lt;我的工具箱</vh>
 <v t="zoomq.20110302103337.8879"><vh>LevelRedar</vh></v>
-<v t="zoomq.20110302103337.8880"><vh>&lt;import&gt;</vh>
+<v t="zoomq.20110302103337.8880" a="E"><vh>&lt;import&gt;</vh>
 <v t="zoomq.20110302103337.8881"><vh>ScrapBook</vh></v>
 <v t="zoomq.20110302103337.8882"><vh>Zim</vh></v>
 <v t="zoomq.20110302103337.8883"><vh>SwiftFox</vh></v>
@@ -68952,6 +68999,1061 @@ href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳
 .. container:: notes
 
    - 
+
+
+
+</t>
+<t tx="zoomq.20111013085658.9846">用MongoDB取代RabbitMQ - NoSQLFan - 关注NoSQL相关技术、新闻
+file:///home/zoomq/zdata/zScrapBook/ZqFLOSS/data/20111010164511/index.html
+
+
+CRUD 渣滓; 污垢; 黏糊糊的脏东西;
+
+各种 ablity ...
+</t>
+<t tx="zoomq.20111022215647.9886">@path 111023-demo-story
+
+</t>
+<t tx="zoomq.20111022215647.9887">@language rest
+@tabwidth -4
+.. include:: &lt;s5defs.txt&gt;
+
+==================================================================
+小样儿
+==================================================================
+
+～ 记一个移动产品的胎死腹中 (powered by rst2S5)
+
+:Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:URL:    http://zoomquiet.org/res/s5/111023-demo-story
+
+&lt;&lt;DOCDEFINE&gt;&gt;
+
+&lt;&lt;footer&gt;&gt;
+
+@others
+
+</t>
+<t tx="zoomq.20111022215647.9888">.. This document has been placed in the CC domain.
+.. _Docutils: http://docutils.sourceforge.net/
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+.. _S5: http://meyerweb.com/eric/tools/s5/
+.. _Firefox: http://www.mozilla.com/firefox/
+
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+.. _(CC)by-nc-sa:
+    http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. _FireFox:
+    http://www.mozilla.com/firefox/
+.. _S5介绍:
+    http://zoomquiet.org/res/s5/100826-PyTDD/s5.html
+.. _WYTIWYG:
+    http://wiki.woodpecker.org.cn/moin/WyTiWyG
+.. _提问的智慧:
+    http://wiki.woodpecker.org.cn/moin/AskForHelp
+
+.. 图片定义区
+.. |bullet| unicode:: U+02022
+.. |mode| unicode:: U+00D8 .. capital o with stroke
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: top
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+.. |LeoProse| image:: pix/LeoProse.gif
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
+    :alt: (CC)by-nc-sa 许可证
+    :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
+    :alt: (CC)by-nc-sa 许可证
+    :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+    :alt: 是也乎;-)
+    :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+.. |lovpy| image:: i/logo/110409-book-logo-h90.png
+    :alt: 可爱的Python
+    :scale: 100 %
+    :target: http://lovelypython.zoomquiet.org/
+</t>
+<t tx="zoomq.20111022215647.9889">.. footer:: 
+
+   `Zoom.Quiet`_ v11.10.22 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+</t>
+<t tx="zoomq.20111022215647.9890">&lt;免责/&gt;
+=========
+
+.. container:: handout
+
+   山寨的，非业界公认的，个人体验为基础!
+   |zqeye|
+
+
+.. class:: takahashi1
+
+    参考所有同好行为总结而得
+
+
+    - 一切资料来自网络互动挖掘
+    - 一切想法来自日常学习工作
+    - 一切体悟来自各种沟通交流
+    - 一切知识来自社区分享印证
+    - 一切经验来自个人失败体验
+
+
+
+.. container:: notes
+
+   - 免责是必须的，分享是无理由的！
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9891">音乐产业已死
+==================
+
+.. container:: handout
+
+   - D版和 iTunes 改变了一切
+   - `音乐的出路 | 36氪 &lt;http://www.36kr.com/p/36527.html&gt;`_
+   - `4种可以拯救音乐产业的全新格式和服务 | 36氪 &lt;http://www.36kr.com/p/41749.html&gt;`_
+   - `互联网广告漫谈（中）- 网络电台的广告模式 | 36氪 &lt;http://www.36kr.com/p/26603.html&gt;`_
+
+
+.. class:: takahashi8
+
+    .. image:: i/pirates-music.jpeg
+        :align: center
+        :scale: 150 %
+        :alt: 36Kr
+        :target: http://www.36kr.com/p/36121.html
+
+
+
+.. container:: notes
+
+   - DRM 改变了一切
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9918">总之:任何好想法
+====================================
+
+.. container:: handout
+
+   期望记住的~单位时间能记住的只有7+-2 个 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 1个想法
+    - 至少100个人也在想
+    - 至少10个人已在开发
+    - 1个产品可能已发布
+
+
+.. container:: notes
+
+    - Doing now! don't thinking!
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9920">&lt;discuss/&gt;
+==========
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    Q&amp;A
+
+
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9921">&lt;版本/&gt;
+=========
+
+.. container:: handout
+
+   |zqeye|
+
+
+
+- 111022 创建
+
+:反馈:
+    `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:查阅:
+    http://zoomquiet.org/res/s5/111023-demo-story
+
+
+
+
+&lt;&lt;S5&gt;&gt;
+
+</t>
+<t tx="zoomq.20111022215647.9922">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
+==============================================================================================
+
+.. container:: handout
+
+    纯HTML 幻灯撰写框架!... |S5icon|
+
+
+- S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-Based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
+
+ - 仅仅依靠 CSS+JS 的HTML格式幻灯演示框架
+
+- 我的编辑环境: |LeoProse| ~ `文学化编辑器 &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+
+
+.. image:: pix/2010-01-18-230729_605x421_leo.png
+    :align: center
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+
+
+.. container:: notes
+
+   - 虽然有很多其它替代方案，至今用得最爽的还是 S5
+   - 最好也是最不好的，就是S5 需要专用的http 空间发布，无法直接分享到 slidshare.com 之类SNS空间中
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9924">音乐人
+==================
+
+.. container:: handout
+
+   iOS/Android 连续释放! |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/snap/douban-artists-itunes.png
+        :align: center
+        :scale: 100 %
+        :alt: 官网
+        :target: http://site.douban.com/artists/
+
+
+
+.. container:: notes
+
+   - 免费下载，自由定价！ lizhizhuangbi.com
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9926">起因
+==================
+
+.. container:: handout
+
+   教师节,相关,比较无趣... |zqeye|
+
+
+.. class:: takahashi8
+
+    会议中
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9930">手机中..
+==================
+
+.. container:: handout
+
+   有什么软件是常用的?... |zqeye|
+
+
+.. class:: takahashi8
+
+    常用?
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9934">`moc &lt;http://moc.daper.net/&gt;`__
+==============================================================================================
+
+
+.. container:: handout
+
+    命令行中的音乐播放器 |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/snap/zqtool-moc_931x489_scrot.png
+        :align: center
+        :scale: 100 %
+        :target: #
+
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9936">我的手机...
+==================
+
+.. container:: handout
+
+   主要功能... |zqeye|
+
+
+.. class:: takahashi8
+
+    电话
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9938">我的手机...
+==================
+
+.. container:: handout
+
+   主要功能... |zqeye|
+
+
+.. class:: takahashi8
+
+    短信
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9940">我的手机...
+==================
+
+.. container:: handout
+
+   常用软件... |zqeye|
+
+
+.. class:: takahashi8
+
+    微博
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9942">我的手机...
+==================
+
+.. container:: handout
+
+   常用软件... |zqeye|
+
+
+.. class:: takahashi
+
+    静读天下
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9946">我的手机...
+==================
+
+.. container:: handout
+
+   主要功能... |zqeye|
+
+
+.. class:: takahashi8
+
+    拍照
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9948">我的手机...
+==================
+
+.. container:: handout
+
+   常用软件... |zqeye|
+
+
+.. class:: takahashi8
+
+    音乐
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9950">我的手机...
+==================
+
+.. container:: handout
+
+   常用软件... |zqeye|
+
+
+.. class:: takahashi
+
+    豆瓣FM
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9952">音乐态度
+==================
+
+.. container:: handout
+
+   完整的音乐作品是专辑！... |zqeye|
+
+
+.. class:: takahashi8
+
+    专辑
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9954">随时可以听到自己想听的音乐!
+====================================
+
+.. container:: handout
+
+   - 音乐算钢性需求
+   - 随时可听已经作到
+   - 想听到熟悉的对味音乐
+   - 想听到合口味的新音乐
+
+
+.. class:: takahashi8
+
+    想听
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9956">音乐放送是1.0时代的体验
+====================================
+
+.. container:: handout
+
+   - 单曲点/随放
+   - 听/不听的选择
+   - 无法进一步挖掘/交流
+
+
+.. class:: takahashi8
+
+    电台
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9958">那么什么样的音乐软件是想要的?
+====================================
+
+.. container:: handout
+
+   痒点.. |zqeye|
+
+
+.. class:: takahashi8
+
+    机会
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9960">音乐频道混过...
+====================================
+
+.. container:: handout
+
+   有糟可吐哪!.. |zqeye|
+
+
+.. class:: takahashi8
+
+    SINA
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9962">李志
+==================
+
+.. container:: handout
+
+   免费下载，自由定价 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/snap/zq_2011-10-22-220508_869x517_scrot.png
+        :align: center
+        :scale: 100 %
+        :alt: 官网
+        :target: http://lizhizhuangbi.com
+
+
+
+.. container:: notes
+
+   - 免费下载，自由定价！ lizhizhuangbi.com
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9964">免费听!
+==================
+
+.. container:: handout
+
+    - `在线音乐，无拘无束 | 36氪 &lt;http://www.36kr.com/p/36341.html&gt;`_
+    - `剑指iTunes：Spotify推出音乐下载商店和iPod同步功能 | 36氪 &lt;http://www.36kr.com/p/23051.html&gt;`_
+
+
+.. class:: takahashi8
+
+    .. image:: i/logo/spotify-iphone.jpeg
+        :align: center
+        :scale: 100 %
+        :alt: 36Kr
+        :target: http://www.36kr.com/p/44238.html
+
+
+.. container:: notes
+
+   - 版权库是个要命的东西...
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9966">Earbits
+==================
+
+.. container:: handout
+
+    - 取代Pandora的网络电台(广告)
+    - 营销渠道管理...
+
+
+.. class:: takahashi8
+
+    .. image:: i/snap/earbits.png
+        :align: center
+        :scale: 100 %
+        :alt: 36Kr
+        :target: http://www.36kr.com/p/25796.html
+
+
+.. container:: notes
+
+   - 新人乐团才是希望...
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9968">OneSheet
+==================
+
+.. container:: handout
+
+    - 乐团的about.me
+    - 乐队的Alibaba...
+
+
+.. class:: takahashi8
+
+    .. image:: i/snap/OneSheet.png
+        :align: center
+        :scale: 80 %
+        :alt: 36Kr
+        :target: http://www.36kr.com/p/40714.html
+
+
+.. container:: notes
+
+   - 新人乐团才是希望...
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9970">Share My Playlists:发现对味的音乐
+======================================================
+
+.. container:: handout
+
+    - 更加自在的 last.fm
+
+
+.. class:: takahashi8
+
+    .. image:: i/snap/sharemyplaylists.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 36Kr
+        :target: http://www.36kr.com/p/43464.html
+
+
+.. container:: notes
+
+   - 音乐的SNS 形式
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9972">小样儿:理解
+==================
+
+.. container:: handout
+
+    - 音乐人作音乐不完全求财
+    - 音乐感动应该感动的人!
+    - 可以被音乐感动的人明白感恩
+    - 愿意直接向作者支付!
+
+
+.. class:: takahashi8
+
+    诚乐
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9974">小样儿:乐团
+==================
+
+.. container:: handout
+
+    - 能缩短创作者、消费者之间的距离，
+    - 打破唱片公司的垄断，让音乐更容易流行
+
+
+.. class:: takahashi8
+
+    直销
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9976">小样儿:听众
+==================
+
+.. container:: handout
+
+    - 能更容易地听到自己喜欢的音乐，
+    - 让好的音乐更容易流行
+
+
+.. class:: takahashi8
+
+    传销
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9978">小样儿:支付
+==================
+
+.. container:: handout
+
+    - 向乐团捐助
+    - 朋友推荐(产生二次捐助时,有返点;-)
+    - 乐迷的山寨专辑推荐/交换中心
+
+
+.. class:: takahashi8
+
+    微冲动
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9980">小样儿:动力
+==================
+
+.. container:: handout
+
+    - 豆瓣样儿
+    - 100个乐团,1000张原创专辑
+    - 周新增3个乐团,大城市一次现场
+    - 每日微支付500元
+
+
+.. class:: takahashi5
+
+    文艺范儿
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9982">移动产品
+==================
+
+.. container:: handout
+
+    ... |zqeye|
+
+
+.. class:: takahashi8
+
+    小样儿
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111022215647.9984">小样儿!
+==================
+
+.. container:: handout
+
+    继续规划ing.. |zqeye|
+
+
+.. class:: takahashi7
+
+    ($.$)
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
 
 
 
