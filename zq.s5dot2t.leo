@@ -10,7 +10,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20080621102004.2"><vh>@chapters</vh></v>
-<v t="zoomq.20100408222312.5717"><vh>.dot</vh>
+<v t="zoomq.20100408222312.5717" a="E"><vh>.dot</vh>
 <v t="zoomq.20100903105555.6665"><vh>_stuff</vh>
 <v t="zoomq.20100908150441.6737"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
 <v t="zoomq.20100908150441.6732"><vh>动态生成属性函式</vh></v>
@@ -21,25 +21,30 @@
 <v t="zoomq.20100908091715.7730"><vh>__initlog()</vh></v>
 </v>
 <v t="zoomq.20100902112115.6558"><vh>dotools</vh>
-<v t="zoomq.20100902112115.6559"><vh>@nosent gen4dot2htm.py</vh>
-<v t="zoomq.20100902112115.6560"><vh>declarations</vh></v>
-<v t="zoomq.20100910090235.10618"><vh>__chkPath()</vh></v>
-<v t="zoomq.20100913101742.6761"><vh>imgDataURI()</vh></v>
-<v t="zoomq.20100913225758.6763"><vh>getJpegInfo()</vh>
-<v t="zoomq.20100913225758.6764"><vh>&lt;&lt;16进制数据&gt;&gt;</vh></v>
+<v t="zoomq.20100902112115.6559" a="E"><vh>@nosent gen4dot2htm.py</vh>
+<v t="zoomq.20100902112115.6562" a="E"><vh>&lt;&lt;__main__&gt;&gt;</vh>
+<v t="zoomq.20100903105555.6662" a="E"><vh>&lt;&lt;交互参数&gt;&gt;</vh>
+<v t="zoomq.20100906103453.10041"><vh>&lt;&lt;运营模式组&gt;&gt;</vh></v>
 </v>
-<v t="zoomq.20100906103453.10040"><vh>gen2html()</vh>
+<v t="zoomq.20100907214327.11513"><vh>主业务</vh></v>
+</v>
+<v t="zoomq.20100902112115.6560"><vh>__imports__</vh></v>
+<v t="zoomq.20100908150441.6739"><vh>默认值</vh>
+<v t="zoomq.20100914090206.8002"><vh>htm模板</vh></v>
+<v t="zoomq.20100914171624.6772"><vh>footer</vh></v>
+<v t="zoomq.20100914090206.8004"><vh>css模板</vh></v>
+</v>
+<v t="zoomq.20100906103453.10040" a="E"><vh>gen2html()</vh>
 <v t="zoomq.20100913101742.6759"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
 <v t="zoomq.20100909213420.7981"><vh>参数响应</vh></v>
 <v t="zoomq.20100909213420.7982"><vh>生成图片</vh></v>
 <v t="zoomq.20100913101742.9614"><vh>dataURI嵌入CSS</vh></v>
 <v t="zoomq.20100910090235.9601"><vh>输出HTML</vh></v>
 </v>
-<v t="zoomq.20100908150441.6739"><vh>默认值</vh>
-<v t="zoomq.20100914090206.8002"><vh>htm模板</vh>
-<v t="zoomq.20100914171624.6772"><vh>footer</vh></v>
-</v>
-<v t="zoomq.20100914090206.8004"><vh>css模板</vh></v>
+<v t="zoomq.20100910090235.10618"><vh>__chkPath()</vh></v>
+<v t="zoomq.20100913101742.6761"><vh>imgDataURI()</vh></v>
+<v t="zoomq.20100913225758.6763"><vh>getJpegInfo()</vh>
+<v t="zoomq.20100913225758.6764"><vh>&lt;&lt;16进制数据&gt;&gt;</vh></v>
 </v>
 <v t="zoomq.20100906103453.10038"><vh>main()</vh>
 <v t="zoomq.20100908150441.6741"><vh>参数响应</vh></v>
@@ -49,12 +54,6 @@
 <v t="zoomq.20100908150441.6730"><vh>__logit()</vh></v>
 <v t="zoomq.20100908091715.7752"><vh>__getattr__()</vh></v>
 </v>
-<v t="zoomq.20100902112115.6562"><vh>&lt;&lt;__main__&gt;&gt;</vh>
-<v t="zoomq.20100903105555.6662"><vh>&lt;&lt;交互参数&gt;&gt;</vh>
-<v t="zoomq.20100906103453.10041"><vh>&lt;&lt;运营模式组&gt;&gt;</vh></v>
-</v>
-<v t="zoomq.20100907214327.11513"><vh>主业务</vh></v>
-</v>
 </v>
 <v t="zoomq.20100908150441.6740"><vh>@nosent dotmapping.css</vh></v>
 <v t="zoomq.20100910090235.7985"><vh>@nosent SomeGraph.dot</vh></v>
@@ -63,9 +62,9 @@
 <v t="zoomq.20100901204131.7773"><vh>关系网</vh></v>
 </v>
 </v>
-<v t="zoomq.20100916094556.6792"><vh>abt.zoomquiet.org</vh>
-<v t="zoomq.20100408222312.5718"><vh>@nosent zoomquiet_org_idx.dot</vh>
-<v t="zoomq.20100408222312.5719"><vh>图元</vh>
+<v t="zoomq.20100916094556.6792" a="E"><vh>abt.zoomquiet.org</vh>
+<v t="zoomq.20100408222312.5718" a="E"><vh>@nosent zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20100408222312.5719" a="E"><vh>图元</vh>
 <v t="zoomq.20100901204131.7774"><vh>Share</vh></v>
 <v t="zoomq.20100901204131.7775"><vh>doing</vh></v>
 <v t="zoomq.20100901204131.7776"><vh>learn</vh></v>
@@ -117,7 +116,7 @@
 </v>
 </v>
 <v t="zoomq.20100903105555.6572" a="E"><vh>幻灯</vh>
-<v t="zoomq.20080523161605" a="E"><vh>s5:public</vh>
+<v t="zoomq.20080523161605"><vh>s5:public</vh>
 <v t="zoomq.20100726095759.6175"><vh>_stuff</vh>
 <v t="zoomq.20100726095759.6174"><vh>brief0</vh></v>
 <v t="zoomq.20100726130819.5995"><vh>PKM</vh>
@@ -132,7 +131,7 @@
 </v>
 </v>
 <v t="zoomq.20111013085658.9846"><vh>111111-pyconchina-mq-taste</vh></v>
-<v t="zoomq.20111022215647.9886" a="E"><vh>111023-demo-story</vh>
+<v t="zoomq.20111022215647.9886"><vh>111023-demo-story</vh>
 <v t="zoomq.20111022215647.9887" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111022215647.9888"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20111022215647.9889"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -170,10 +169,10 @@
 </v>
 <v t="zoomq.20111022215647.9924"><vh>豆瓣</vh></v>
 </v>
-<v t="zoomq.20111022215647.9918" a="E"><vh>总结7+-2</vh>
+<v t="zoomq.20111022215647.9918"><vh>总结7+-2</vh>
 <v t="zoomq.20111022215647.9920"><vh>Q&amp;A</vh></v>
 </v>
-<v t="zoomq.20111022215647.9921" a="E"><vh>version</vh>
+<v t="zoomq.20111022215647.9921"><vh>version</vh>
 <v t="zoomq.20111022215647.9922"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
@@ -1415,13 +1414,13 @@
 </v>
 <v t="zoomq.20100819090507.6366"><vh>summary</vh></v>
 </v>
-<v t="zoomq.20110302103337.8746" a="E"><vh>100918-MyTools</vh>
+<v t="zoomq.20110302103337.8746"><vh>100918-MyTools</vh>
 <v t="zoomq.20110302103337.8747"><vh>盛大讲演回顾</vh></v>
 <v t="zoomq.20110302103337.8748"><vh>html-s5</vh>
 <v t="zoomq.20110302103337.8749"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20110302103337.8848" a="E"><vh>rst2s5</vh>
-<v t="zoomq.20110302103337.8849" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110302103337.8848"><vh>rst2s5</vh>
+<v t="zoomq.20110302103337.8849"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110302103337.8850"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8851"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8852"><vh>免责</vh>
@@ -1455,10 +1454,10 @@
 </v>
 <v t="zoomq.20110302103337.8876"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20110302103337.8877" a="E"><vh>brief1</vh>
-<v t="zoomq.20110302103337.8878" a="E"><vh>&lt;我的工具箱</vh>
+<v t="zoomq.20110302103337.8877"><vh>brief1</vh>
+<v t="zoomq.20110302103337.8878"><vh>&lt;我的工具箱</vh>
 <v t="zoomq.20110302103337.8879"><vh>LevelRedar</vh></v>
-<v t="zoomq.20110302103337.8880" a="E"><vh>&lt;import&gt;</vh>
+<v t="zoomq.20110302103337.8880"><vh>&lt;import&gt;</vh>
 <v t="zoomq.20110302103337.8881"><vh>ScrapBook</vh></v>
 <v t="zoomq.20110302103337.8882"><vh>Zim</vh></v>
 <v t="zoomq.20110302103337.8883"><vh>SwiftFox</vh></v>
@@ -38240,7 +38239,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
 </t>
 <t tx="zoomq.20100408222312.5719">ZQ [label=&lt;&lt;TABLE BORDER="0" CELLBORDER="0" CELLSPACING="4"&gt;  
         &lt;TR&gt;&lt;TD&gt;&lt;IMG src="zoomquiet-dot-10901_h85.png"/&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;&gt;
-        ,URL="http://zoomquiet.org"
+        ,URL="http://about.me/zoom.quiet"
         ];
 title [label="zoomquiet.org资源图谱\n{gen. by Graphviz}\nTime is unimprtant,only life important!"
     URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/zoomquiet_org_idx.dot"];
@@ -38263,22 +38262,22 @@ share-&gt;{sb douban haokanbu};
 share-&gt;wiki [style="setlinewidth(2)"];
 
 share-&gt;bloging [style="setlinewidth(1)"];
-    bloging-&gt;pyb [style="setlinewidth(3)"];
-    bloging-&gt;lj [style="dotted"];
-    bloging-&gt;gb [label="和谐ing",style="dotted"];
+    bloging-&gt;pyb [style="setlinewidth(2)"];
+    bloging-&gt;lj ;
+    bloging-&gt;gb [label="河蟹了",style="dotted"];
 
-    sb-&gt;{oss skm} [style="setlinewidth(1)"];
+    sb-&gt;{oss skm} [label="河蟹了",style="dotted"];
 
-doing-&gt;trac;
+doing-&gt;trac [style="dotted"];
     doing-&gt;WK [label="构思ing"];
-    doing-&gt;{PiC OBP}[style="setlinewidth(3)"];
+    doing-&gt;{PiC OBP}[style="setlinewidth(4)"];
 
 learn-&gt;{ecug zeuux};
+    learn-&gt;tparty [style="setlinewidth(4)"];
+    learn-&gt;sll [style="setlinewidth(1)"];
     learn-&gt;cpug [style="setlinewidth(2)"];
         cpug-&gt;zpug [style="setlinewidth(1)"];
-    learn-&gt;tparty [style="setlinewidth(1)"];
-    learn-&gt;sll [style="setlinewidth(1)"];
-    ecug-&gt;erlb;
+    ecug-&gt;erlb [style="dotted"];
 
 
 edge [style=invis];
@@ -40406,7 +40405,7 @@ nodeB-&gt;db-&gt;component-&gt;class-&gt;tab-&gt;note-&gt;box-&gt;act-&gt;diamon
         lj [label="@livejournal"
             ,URL="http://zoomq.livejournal.com/"];
         pyb [label="PyBlosxom"
-            ,URL="http://blog.zoomquiet.org/pyblosxom/"];
+            ,URL="http://zoomquiet.github.com/pyblosxom/"];
 
     sb [label="ScrapBook",shape=tab
         ,URL="https://addons.mozilla.org/zh-CN/firefox/addon/427/"];
@@ -40422,7 +40421,7 @@ nodeB-&gt;db-&gt;component-&gt;class-&gt;tab-&gt;note-&gt;box-&gt;act-&gt;diamon
     PiC [label="蟒营",shape=box3d
         ,URL="http://code.google.com/p/kcpycamp/"];
     trac [label="KTRAC",shape=box3d
-        ,URL="http://py.kingsoft.net/ktrac"];
+        ,URL="https://bitbucket.org/ZoomQuiet/trachinese/overview"];
     WK [label="WeKnow",shape=box3d,style="dashed",height=0.5
         ,URL="http://wiki.woodpecker.org.cn/moin/WeKnow"];
 </t>
@@ -40451,12 +40450,18 @@ TimeLogging:
     +1 复习参数处理,决策调试/运行/运营模式
 
 
+&lt;a href="http://www.w3.org/TR/xhtml1/"&gt;
+&lt;img
+ src="data:image/png;base64,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" 
+    id="jQuery" alt="jQuery"/&gt;
+&lt;/a&gt;
 </t>
 <t tx="zoomq.20100902112115.6559">@language python
 @tabwidth -4
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''Changelog:
+    - 11.10.27 fixed gen path
     - 10.9.8 fixed for options judge
     - 10.9.7 fixed for zqlog
     - 10.9.2 fixed as ZqLib
@@ -40465,22 +40470,26 @@ TimeLogging:
     - 9.04.21 for deep dir gen html
     - 9.03.12 for KUP.rdev dot mapping gen html
 '''
-VERSION = "10.9.4"
+VERSION = "11.10.27"
 @others
 
 if __name__ == '__main__':      # this way the module can be
     &lt;&lt;__main__&gt;&gt;
 
 </t>
-<t tx="zoomq.20100902112115.6560">
-import os,sys
+<t tx="zoomq.20100902112115.6560">import os
+import sys
+import fnmatch
+import subprocess
+
 # for OptionParser chinese help
-reload(sys)
-sys.setdefaultencoding('utf-8')
 from optparse import OptionParser,OptionGroup
 from datetime import datetime
-import subprocess
-import fnmatch
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+
 </t>
 <t tx="zoomq.20100902112115.6562">'''usage::
 gen4dot2htm.py -t path/2/模板.htm -o path/2/发布.html -i '标题'
@@ -40502,7 +40511,7 @@ gen4dot2htm.py -t path/2/模板.htm -o path/2/发布.html -i '标题'
 </t>
 <t tx="zoomq.20100903105555.6572">汇总所有幻灯撰写...
 </t>
-<t tx="zoomq.20100903105555.6662">usage = "$python %prog [-V|N|D|Q][--dot|fdp][-t path/2/templete.htm] [-o /path/2/export.html] [-i 'title of page']"
+<t tx="zoomq.20100903105555.6662">usage = "$python %prog [-V|N|D|Q][--dot|fdp][-t path/2/templete.htm] [-o path/2/export.html] [-i 'title of page'] -d path/2/foo.dot"
 parser = OptionParser(usage,version="%s {powered by Zoom.Quiet+Leo}"%VERSION)
 &lt;&lt;运营模式组&gt;&gt;
 gIput = OptionGroup(parser, "Group fo Import",
@@ -40625,8 +40634,7 @@ gRun.add_option("--doctest",metavar="",help="mod_test: runnin doctest"
 parser.add_option_group(gRun)
 
 </t>
-<t tx="zoomq.20100907214327.11503">
-class zqlog():
+<t tx="zoomq.20100907214327.11503">class zqlog():
     '''z quickly logging,export all kinds of log as stderr
     usage:
         log = zqlog()
@@ -41159,7 +41167,6 @@ TPLidxHTM='''&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http:/
 	&lt;/div&gt;&lt;!-- cssstickyfooter::id="main" class="clearfix"--&gt;
 &lt;/div&gt;&lt;!-- cssstickyfooter::id="wrap"--&gt;
 '''
-@others
 </t>
 <t tx="zoomq.20100914090206.8004">TPLcssURI='''#%(dataID)s {
     margin-left: %(imgWidth)spx;
@@ -41170,15 +41177,15 @@ TPLcssZIP='''
 %(cssEmbed)s
 
 %(uriEmbed)s
-'''</t>
+'''
+
+</t>
 <t tx="zoomq.20100914171624.6772">TPLidxHTM+='''
 &lt;div id="footer" class="footbar"&gt;
         &lt;img src="data:image/%(picType)s;base64,%(legendMapURI)s" 
             usemap="#%(legendMap)s"
             id="%(legendMap)s" alt="%(legendMap)s"/&gt;
         %(legendImageMap)s
-&lt;hr/&gt;
-&lt;br/&gt;
 &lt;a href="http://www.w3.org/TR/CSS2/"&gt;
 &lt;img
  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA6UlEQVR42q3TSYrDQBBEUcma56nmSn/d/5amu5ExXgm1giKWjySTSp43J3lya35Av4EZCghedi+W2rmu69gv5BdclpZEAlifh0mCdm50br0ObqIIfUMbDYW3dC6lq7gOKsnY+kk/ZMPEkqoC+AOP5ugzYDtM87T7MhcV+qio1jfI8fajz4BYH2ITczPoYKNXa/0Jfs55Fkz2KbZm8A0QxM7tAX6Px0mwjL1hkz0AeokzXzvk3SdBTL+hJJYPzbzEFKBOr18ZMlHowcxLMwex6wq1W/8DqkmDzbCyeP8oxnF0o74K3v+Xb84LJUWFnPSsMq4AAAAASUVORK5CYII=" 
@@ -41193,11 +41200,6 @@ TPLcssZIP='''
 &lt;img
  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAABlVBMVEUeitkghtohhNghkN0if9UigtkikN4ikd8ik98ileAil+AimeEimuAje8wjhNwjh90jitwjj98kh9klh90lid8liuAli+AlouQmh94mitgmitsnpuYqj9crk+Qrq+YtouEususxi88znug0p+I1r904jc4+ktQ+qOo/vulBotREyu9Uk85YtONlz+xmZmZoxe1qp9hvrdtzvNh1y+Z6qst7v9yAt96Es9uEtN6GzeWJoMeMrc+NwdmOutuPw+WQud2Rxd6T0OWWe5qazeWcyOmfz+mf2O2iutWmx+Soz+Kpy+ap2uyryuWtkqyt2Omvy+Svy+Wwy+Wwzuay0OK42u270ea82ei+3+vA3OrCorLF2OrJxNTL4PDN4PHO3OnP4e3W4uzc7PPi6/Pi7/bn8PboHybt9fnuIynv9Pfx9fn0Jyr0+Pr2+Pn2+fv2+fz2+vv4+vv6w8X7eXr7/P38/P39LS39/v7+/v7/AAD/AgL/ExP/Li7/QED/YWH/fHz/i4v/mpr/trb/x8f/6ur/9fX//Pz////7om9CAAABKElEQVR42q2TVW/DQBCEXWZuU2amlJmZmZmZKdnYTuI4zvzuSidbp0ayKsWel9m5h0+j2zvBabMEJ5h8ksr8bffg0YfIZQAVieC62FudGr/F0Y/CzigCGUBNVEETXa1NFeW9r+cfomYV6PfiaYA6G8ryU2Lan+H1WwXKASz0DNPM9Wh8VvYhArIBBHEycz3yAeCBA8Wgq3urppqW54scuf0IihzIzAD+TTDMCBzoCX2fNhYnCxSVkZ7TgZDHtCFPgG46MKwhRlKTSo5PaGN988ysIbd/G8qBl8rEhMzF9zUqbNk3v0Oe2MSBQPiWd2rrHHlxadFVNPtlw5Y1caXvsjm2oLS+bYmgWn+HUO4G3Q9DY9PbV26QpMAyEJ83k3P3bFIli3/ZZv0CIEnzewB06Q4AAAAASUVORK5CYII=" 
     id="noIE!" alt="noIE!"/&gt;
-&lt;/a&gt;
-&lt;a href="http://www.w3.org/TR/xhtml1/"&gt;
-&lt;img
- src="data:image/png;base64,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" 
-    id="jQuery" alt="jQuery"/&gt;
 &lt;/a&gt;
 powered by:
     &lt;a href="http://www.python.org/"&gt;Python&lt;/a&gt;

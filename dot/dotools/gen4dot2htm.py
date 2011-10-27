@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''Changelog:
+    - 11.10.27 fixed gen path
     - 10.9.8 fixed for options judge
     - 10.9.7 fixed for zqlog
     - 10.9.2 fixed as ZqLib
@@ -9,114 +10,122 @@
     - 9.04.21 for deep dir gen html
     - 9.03.12 for KUP.rdev dot mapping gen html
 '''
-VERSION = "10.9.4"
+VERSION = "11.10.27"
+import os
+import sys
+import fnmatch
+import subprocess
 
-import os,sys
 # for OptionParser chinese help
-reload(sys)
-sys.setdefaultencoding('utf-8')
 from optparse import OptionParser,OptionGroup
 from datetime import datetime
-import subprocess
-import fnmatch
-def __chkPath(path,log):
-    '''检验路径，如果为空，设为 . 以便统一使用 "%s/%s"%(path,file) 形式
-    '''
-    if 0 == len(path):
-        return "."
-    else:
-        return path
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 
-def imgDataURI(pathPic,picName,log):
-    '''转化图片文件为 DataURI内置数据文本!
-    '''
-    from base64 import b64encode
-    #log.debug("__imgDataURI:\t%s/%s"%(pathPic,picName))
-    dataURI = b64encode(open("%s/%s"%(pathPic,picName),'rb').read())
-    b64file = "%s/%s.b64"%(pathPic,picName)
-    open(b64file,"w").write(dataURI)
-    return dataURI
+DODOT = "/usr/bin/dot %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
+DOFDP = "/usr/bin/fdp %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
+IMGTYPE = "jpeg"
+#dotPageTitle dotPageStyle imgame mapname map4dot
+DEFEXPORT = "stdout"
+DEFTITLE = "mapping base .dot"
+MAPID = "SomeGraph"
+DOTXT = "%s.dot"%MAPID
+#<title>%(pageTitle)s</title>
+#    <div id="%(mainMap)s"/>
+#    %(mainImageMaps)s
+#    <div id="%(mapLegend)s"/>
+#   %(styleData)s
+TPLidxHTM='''<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+  <title>%(pageTitle)s</title>
+	<link rel="icon" href="http://zoomquiet.org/res/m/i/zqstudio.ico" type="image/gif">
+	<link rel="shortcut icon" href="http://zoomquiet.org/res/m/i/zqstudio.ico" type="image/gif">
+<style type="text/css">
+%(styleData)s
+</style>
+</head>
+<body>
+<!--Sticky Footer Solution  http://www.cssstickyfooter.com-->
+<div id="wrap">
+    <div id="main" class="clearfix">
+        <img src="data:image/%(picType)s;base64,%(mainMapURI)s" 
+            usemap="#%(mainMap)s"
+            id="%(mainMap)s" alt="%(mainMap)s"/>
+        %(mainImageMap)s
+
+	</div><!-- cssstickyfooter::id="main" class="clearfix"-->
+</div><!-- cssstickyfooter::id="wrap"-->
+'''
+TPLidxHTM+='''
+<div id="footer" class="footbar">
+        <img src="data:image/%(picType)s;base64,%(legendMapURI)s" 
+            usemap="#%(legendMap)s"
+            id="%(legendMap)s" alt="%(legendMap)s"/>
+        %(legendImageMap)s
+<a href="http://www.w3.org/TR/CSS2/">
+<img
+ src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA6UlEQVR42q3TSYrDQBBEUcma56nmSn/d/5amu5ExXgm1giKWjySTSp43J3lya35Av4EZCghedi+W2rmu69gv5BdclpZEAlifh0mCdm50br0ObqIIfUMbDYW3dC6lq7gOKsnY+kk/ZMPEkqoC+AOP5ugzYDtM87T7MhcV+qio1jfI8fajz4BYH2ITczPoYKNXa/0Jfs55Fkz2KbZm8A0QxM7tAX6Px0mwjL1hkz0AeokzXzvk3SdBTL+hJJYPzbzEFKBOr18ZMlHowcxLMwex6wq1W/8DqkmDzbCyeP8oxnF0o74K3v+Xb84LJUWFnPSsMq4AAAAASUVORK5CYII=" 
+    id="css2" alt="css2"/>
+</a>
+<a href="http://www.w3.org/TR/xhtml1/">
+<img
+ src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA8klEQVR42q3T2YqEMBQEUPdds5g9tyv//5fjSGPTMCg4FqmXQA6XhGSvh5O98Gh+Qb8CZq6B4Cl5suicG8cR6UZ2UIgBGQXA+iowCtq5xTl5H1xJIUw9hmhQe4vR5Rhb3AcVlVgnpgtaYWKDtsWWHdx7LOCzcwYOM+Ms+aYiFaao0MoDTPgI7yLhCoT1IfaxMrMONnoluwN8n/yaF+kSzBKLg5l9DyCQ5cPJhFuvwSZOBiulAECLyPF9h3+CwAkIM61QFJtCg4uYY0uX339loCQFPRsueh7ISrl5Tv4HVEwDtoQl4X1RL8viFn0XfP4vP5wf+GiFiXJO3ocAAAAASUVORK5CYII=" 
+    id="xhtml" alt="xhtml"/>
+</a>
+<a href="http://browsehappy.com/why/">
+<img
+ src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAABlVBMVEUeitkghtohhNghkN0if9UigtkikN4ikd8ik98ileAil+AimeEimuAje8wjhNwjh90jitwjj98kh9klh90lid8liuAli+AlouQmh94mitgmitsnpuYqj9crk+Qrq+YtouEususxi88znug0p+I1r904jc4+ktQ+qOo/vulBotREyu9Uk85YtONlz+xmZmZoxe1qp9hvrdtzvNh1y+Z6qst7v9yAt96Es9uEtN6GzeWJoMeMrc+NwdmOutuPw+WQud2Rxd6T0OWWe5qazeWcyOmfz+mf2O2iutWmx+Soz+Kpy+ap2uyryuWtkqyt2Omvy+Svy+Wwy+Wwzuay0OK42u270ea82ei+3+vA3OrCorLF2OrJxNTL4PDN4PHO3OnP4e3W4uzc7PPi6/Pi7/bn8PboHybt9fnuIynv9Pfx9fn0Jyr0+Pr2+Pn2+fv2+fz2+vv4+vv6w8X7eXr7/P38/P39LS39/v7+/v7/AAD/AgL/ExP/Li7/QED/YWH/fHz/i4v/mpr/trb/x8f/6ur/9fX//Pz////7om9CAAABKElEQVR42q2TVW/DQBCEXWZuU2amlJmZmZmZKdnYTuI4zvzuSidbp0ayKsWel9m5h0+j2zvBabMEJ5h8ksr8bffg0YfIZQAVieC62FudGr/F0Y/CzigCGUBNVEETXa1NFeW9r+cfomYV6PfiaYA6G8ryU2Lan+H1WwXKASz0DNPM9Wh8VvYhArIBBHEycz3yAeCBA8Wgq3urppqW54scuf0IihzIzAD+TTDMCBzoCX2fNhYnCxSVkZ7TgZDHtCFPgG46MKwhRlKTSo5PaGN988ysIbd/G8qBl8rEhMzF9zUqbNk3v0Oe2MSBQPiWd2rrHHlxadFVNPtlw5Y1caXvsjm2oLS+bYmgWn+HUO4G3Q9DY9PbV26QpMAyEJ83k3P3bFIli3/ZZv0CIEnzewB06Q4AAAAASUVORK5CYII=" 
+    id="noIE!" alt="noIE!"/>
+</a>
+powered by:
+    <a href="http://www.python.org/">Python</a>
+    ,<a href="http://webpages.charter.net/edreamleo/front.html">Leo</a>
+    ,<a href="http://www.graphviz.org/About.php">graphviz</a>
+    ,<a href="http://www.ubuntu.org.cn/">Ubuntu</a>
+    ,<a href="http://www.inkscape.org/">Inkscape</a>
+    ,<a href="http://www.catb.org/hacker-emblem/">Hacker</a>
+    ,<a href="http://wenq.org/" title="文泉驿">
+    <img src="http://wenq.org/images/powered_by_wqy_14px.png" alt="文泉驿提供动力"/>
+ </a>
+
+{
+<a href="http://creativecommons.org/licenses/by-sa/2.5/cn/">
+<img
+ src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAIAAAD8q9/YAAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIySURBVHjaYmAYYYARiP///z9SfMvIyAJhrdm0Glliz669M6fO7OjoKC8vx9Tm6up66tSptu5WcQlxIFdeVsHVyfXjh4+D3LeQeGXClHj54uXyxctx+RYIdu/ebWZmNrl/CoT74eOHwoLCoRLJWDy8fMkKYWFhXL6FAGBw3Lxxc8PajUD2x08fPHw8vH28h6qHL128lJ6eDmScPXtWWVkZmO6Bafj9+/dAEsgGigDFjY2NXVxcrl29BjWFiQnIRUs/EICcnDDZ+LXQonBhwvDt5c+fPgP9A2SHhYUBGUBbgWRnZyfQn+/evQPG/L1794CyQME7t+/AUzUwkWOWEEAAcTScASSBbKy+ZYQBZC7V/Yzu4a9fvgBJQUFBYJQCPQbxOTABA9lKSkpA8bS0tNDQUFgRD3X6z58/GFkYscYY3HsQ18O5aPEJkUVLCPSIYW4eHiAJ9C3Qb0AfAmMVUiwDuUA/A8UrKipmzZqFljjZ2Tn+//mPJ4ax1hDw+MSqHk2WVh7W09fl5eWF+BMYsXv27AHaCvQ5kA2MbSEhIaAIJLueOXNGUVkRokuAXwBYUeGPYYJ1BknqKW14INfDfV39z58+v3//Ph5twBAxMTGJjosOCPYHcmWl5Zobmrdu2TrI62FgaGIppaPjot6+fQOMUjyay8rKVFSVIb7l5xPYsWXHIPctvmoJ2H5KzUytrKxsb2/HqsfJ2en69esFJQXw9Nw/oX+0LT1I29IjrbPEABBgAEdwNeO7yfOaAAAAAElFTkSuQmCC" 
+    id="(cc)/by-sa/" alt="(cc)/by-sa/"/>
+</a>
+}
 
 
-def getJpegInfo(pathPic,picName,log):
-    '''base Python and the JPEG Image File, Part 1, The Header - Python
-    http://www.daniweb.com/forums/thread71188.html
-        print out the hex bytes of a jpeg file, find end of header, image size, and extract any text comment
-        (JPEG = Joint Photographic Experts Group)
-        tested with Python24    vegaseat    21sep2005
-    '''
-    try:
-        # the sample jpeg file is an "all blue 80x80 200dpi image, saved at a quality of 90"
-        # with the quoted comment added
-        imageFile = '%s/%s'%(pathPic,picName)
-        data = open(imageFile, "rb").read()
-    except IOError:
-        print "Image file %s not found" % imageFile
-        raise SystemExit
-    # initialize empty list
-    hexList = []
-    for ch in data:
-        # make a hex byte
-        byt = "%02X" % ord(ch)
-        hexList.append(byt)
-    #print hexList  # test
-    '''
-    print
-    print "hex dump of a 80x80 200dpi all blue jpeg file:"
-    print "(the first two bytes FF and D8 mark a jpeg file)"
-    print "(index 6,7,8,9 spells out the subtype JFIF)"
-    k = 0
-    for byt in hexList:
-        # add spacer every 8 bytes
-        if k % 8 == 0:
-            print "  ",
-        # new line every 16 bytes
-        if k % 16 == 0:
-            print
-        print byt,
-        k += 1
+</div><!-- cssstickyfooter::id="footer"-->
+<!--Sticky Footer Solution
+http://www.cssstickyfooter.com
+-->
+<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+%(jsActions)s
+</script>
+</body>
+</html>
+'''
+TPLcssURI='''#%(dataID)s {
+    margin-left: %(imgWidth)spx;
+    background-image: url('data:image/%(picType)s;base64,%(dataURI)s') top left no-repeat;
+}
+'''
+TPLcssZIP='''
+%(cssEmbed)s
 
-    print
-    print "-"*50
+%(uriEmbed)s
+'''
 
-    # the header goes from FF D8 to the first FF C4 marker
-    for k in range(len(hexList)-1):
-        if hexList[k] == 'FF' and hexList[k+1] == 'C4':
-            #print "end of header at index %d (%s)" % (k, hex(k))
-            log.debug("end of header at index %d (%s)" % (k, hex(k))
-            break
-    '''
+DEFLEGEND="zoomquiet_org_idx_legend"
 
-    # find pixel width and height of image
-    # located at offset 5,6 (highbyte,lowbyte) and 7,8 after FF C0 or FF C2 marker
-    for k in range(len(hexList)-1):
-        if hexList[k] == 'FF' and (hexList[k+1] == 'C0' or hexList[k+1] == 'C2'):
-            #print k, hex(k)  # test
-            height = int(hexList[k+5],16)*256 + int(hexList[k+6],16)
-            width  = int(hexList[k+7],16)*256 + int(hexList[k+8],16)
-            #print "width = %d  height = %d pixels" % (width, height)
-            log.debug("width = %d  height = %d pixels" % (width, height))
-            return (str(width),str(height))
-    # find any comment inserted into the jpeg file
-    # marker is FF FE followed by the highbyte/lowbyte of comment length, then comment text
-    '''
-    comment = ""
-    for k in range(len(hexList)-1):
-        if hexList[k] == 'FF' and hexList[k+1] == 'FE':
-            #print k, hex(k)  # test
-            length = int(hexList[k+2],16)*256 + int(hexList[k+3],16)
-            #print length  # test
-            for m in range(length-3):
-                comment = comment + chr(int(hexList[k + m + 4],16))
-                #print chr(int(hexList[k + m + 4],16)),  # test
-                #print hexList[k + m + 4],  # test
 
-    if len(comment) > 0:
-        print comment
-    else:
-        print "No comment"
-    '''
 def gen2html(ov,log):
     """usage dot exp png+img map,auto usage html tpl writ out idenx page!
     #dotPageTitle dotPageStyle imgame mapname map4dot
@@ -261,114 +270,104 @@ def gen2html(ov,log):
         open(DEFEXPORT,'w').write(TPLidxHTM%locals())
     #log.debug(TPLidxHTM%locals())
 
-DODOT = "/usr/bin/dot %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
-DOFDP = "/usr/bin/fdp %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
-IMGTYPE = "jpeg"
-#dotPageTitle dotPageStyle imgame mapname map4dot
-DEFEXPORT = "stdout"
-DEFTITLE = "mapping base .dot"
-MAPID = "SomeGraph"
-DOTXT = "%s.dot"%MAPID
-#<title>%(pageTitle)s</title>
-#    <div id="%(mainMap)s"/>
-#    %(mainImageMaps)s
-#    <div id="%(mapLegend)s"/>
-#   %(styleData)s
-TPLidxHTM='''<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
-  <title>%(pageTitle)s</title>
-	<link rel="icon" href="http://zoomquiet.org/res/m/i/zqstudio.ico" type="image/gif">
-	<link rel="shortcut icon" href="http://zoomquiet.org/res/m/i/zqstudio.ico" type="image/gif">
-<style type="text/css">
-%(styleData)s
-</style>
-</head>
-<body>
-<!--Sticky Footer Solution  http://www.cssstickyfooter.com-->
-<div id="wrap">
-    <div id="main" class="clearfix">
-        <img src="data:image/%(picType)s;base64,%(mainMapURI)s" 
-            usemap="#%(mainMap)s"
-            id="%(mainMap)s" alt="%(mainMap)s"/>
-        %(mainImageMap)s
-
-	</div><!-- cssstickyfooter::id="main" class="clearfix"-->
-</div><!-- cssstickyfooter::id="wrap"-->
-'''
-TPLidxHTM+='''
-<div id="footer" class="footbar">
-        <img src="data:image/%(picType)s;base64,%(legendMapURI)s" 
-            usemap="#%(legendMap)s"
-            id="%(legendMap)s" alt="%(legendMap)s"/>
-        %(legendImageMap)s
-<hr/>
-<br/>
-<a href="http://www.w3.org/TR/CSS2/">
-<img
- src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA6UlEQVR42q3TSYrDQBBEUcma56nmSn/d/5amu5ExXgm1giKWjySTSp43J3lya35Av4EZCghedi+W2rmu69gv5BdclpZEAlifh0mCdm50br0ObqIIfUMbDYW3dC6lq7gOKsnY+kk/ZMPEkqoC+AOP5ugzYDtM87T7MhcV+qio1jfI8fajz4BYH2ITczPoYKNXa/0Jfs55Fkz2KbZm8A0QxM7tAX6Px0mwjL1hkz0AeokzXzvk3SdBTL+hJJYPzbzEFKBOr18ZMlHowcxLMwex6wq1W/8DqkmDzbCyeP8oxnF0o74K3v+Xb84LJUWFnPSsMq4AAAAASUVORK5CYII=" 
-    id="css2" alt="css2"/>
-</a>
-<a href="http://www.w3.org/TR/xhtml1/">
-<img
- src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA8klEQVR42q3T2YqEMBQEUPdds5g9tyv//5fjSGPTMCg4FqmXQA6XhGSvh5O98Gh+Qb8CZq6B4Cl5suicG8cR6UZ2UIgBGQXA+iowCtq5xTl5H1xJIUw9hmhQe4vR5Rhb3AcVlVgnpgtaYWKDtsWWHdx7LOCzcwYOM+Ms+aYiFaao0MoDTPgI7yLhCoT1IfaxMrMONnoluwN8n/yaF+kSzBKLg5l9DyCQ5cPJhFuvwSZOBiulAECLyPF9h3+CwAkIM61QFJtCg4uYY0uX339loCQFPRsueh7ISrl5Tv4HVEwDtoQl4X1RL8viFn0XfP4vP5wf+GiFiXJO3ocAAAAASUVORK5CYII=" 
-    id="xhtml" alt="xhtml"/>
-</a>
-<a href="http://browsehappy.com/why/">
-<img
- src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAABlVBMVEUeitkghtohhNghkN0if9UigtkikN4ikd8ik98ileAil+AimeEimuAje8wjhNwjh90jitwjj98kh9klh90lid8liuAli+AlouQmh94mitgmitsnpuYqj9crk+Qrq+YtouEususxi88znug0p+I1r904jc4+ktQ+qOo/vulBotREyu9Uk85YtONlz+xmZmZoxe1qp9hvrdtzvNh1y+Z6qst7v9yAt96Es9uEtN6GzeWJoMeMrc+NwdmOutuPw+WQud2Rxd6T0OWWe5qazeWcyOmfz+mf2O2iutWmx+Soz+Kpy+ap2uyryuWtkqyt2Omvy+Svy+Wwy+Wwzuay0OK42u270ea82ei+3+vA3OrCorLF2OrJxNTL4PDN4PHO3OnP4e3W4uzc7PPi6/Pi7/bn8PboHybt9fnuIynv9Pfx9fn0Jyr0+Pr2+Pn2+fv2+fz2+vv4+vv6w8X7eXr7/P38/P39LS39/v7+/v7/AAD/AgL/ExP/Li7/QED/YWH/fHz/i4v/mpr/trb/x8f/6ur/9fX//Pz////7om9CAAABKElEQVR42q2TVW/DQBCEXWZuU2amlJmZmZmZKdnYTuI4zvzuSidbp0ayKsWel9m5h0+j2zvBabMEJ5h8ksr8bffg0YfIZQAVieC62FudGr/F0Y/CzigCGUBNVEETXa1NFeW9r+cfomYV6PfiaYA6G8ryU2Lan+H1WwXKASz0DNPM9Wh8VvYhArIBBHEycz3yAeCBA8Wgq3urppqW54scuf0IihzIzAD+TTDMCBzoCX2fNhYnCxSVkZ7TgZDHtCFPgG46MKwhRlKTSo5PaGN988ysIbd/G8qBl8rEhMzF9zUqbNk3v0Oe2MSBQPiWd2rrHHlxadFVNPtlw5Y1caXvsjm2oLS+bYmgWn+HUO4G3Q9DY9PbV26QpMAyEJ83k3P3bFIli3/ZZv0CIEnzewB06Q4AAAAASUVORK5CYII=" 
-    id="noIE!" alt="noIE!"/>
-</a>
-<a href="http://www.w3.org/TR/xhtml1/">
-<img
- src="data:image/png;base64,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" 
-    id="jQuery" alt="jQuery"/>
-</a>
-powered by:
-    <a href="http://www.python.org/">Python</a>
-    ,<a href="http://webpages.charter.net/edreamleo/front.html">Leo</a>
-    ,<a href="http://www.graphviz.org/About.php">graphviz</a>
-    ,<a href="http://www.ubuntu.org.cn/">Ubuntu</a>
-    ,<a href="http://www.inkscape.org/">Inkscape</a>
-    ,<a href="http://www.catb.org/hacker-emblem/">Hacker</a>
-    ,<a href="http://wenq.org/" title="文泉驿">
-    <img src="http://wenq.org/images/powered_by_wqy_14px.png" alt="文泉驿提供动力"/>
- </a>
-
-{
-<a href="http://creativecommons.org/licenses/by-sa/2.5/cn/">
-<img
- src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAIAAAD8q9/YAAAABGdBTUEAANbY1E9YMgAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIySURBVHjaYmAYYYARiP///z9SfMvIyAJhrdm0Glliz669M6fO7OjoKC8vx9Tm6up66tSptu5WcQlxIFdeVsHVyfXjh4+D3LeQeGXClHj54uXyxctx+RYIdu/ebWZmNrl/CoT74eOHwoLCoRLJWDy8fMkKYWFhXL6FAGBw3Lxxc8PajUD2x08fPHw8vH28h6qHL128lJ6eDmScPXtWWVkZmO6Bafj9+/dAEsgGigDFjY2NXVxcrl29BjWFiQnIRUs/EICcnDDZ+LXQonBhwvDt5c+fPgP9A2SHhYUBGUBbgWRnZyfQn+/evQPG/L1794CyQME7t+/AUzUwkWOWEEAAcTScASSBbKy+ZYQBZC7V/Yzu4a9fvgBJQUFBYJQCPQbxOTABA9lKSkpA8bS0tNDQUFgRD3X6z58/GFkYscYY3HsQ18O5aPEJkUVLCPSIYW4eHiAJ9C3Qb0AfAmMVUiwDuUA/A8UrKipmzZqFljjZ2Tn+//mPJ4ax1hDw+MSqHk2WVh7W09fl5eWF+BMYsXv27AHaCvQ5kA2MbSEhIaAIJLueOXNGUVkRokuAXwBYUeGPYYJ1BknqKW14INfDfV39z58+v3//Ph5twBAxMTGJjosOCPYHcmWl5Zobmrdu2TrI62FgaGIppaPjot6+fQOMUjyay8rKVFSVIb7l5xPYsWXHIPctvmoJ2H5KzUytrKxsb2/HqsfJ2en69esFJQXw9Nw/oX+0LT1I29IjrbPEABBgAEdwNeO7yfOaAAAAAElFTkSuQmCC" 
-    id="(cc)/by-sa/" alt="(cc)/by-sa/"/>
-</a>
-}
+def __chkPath(path,log):
+    '''检验路径，如果为空，设为 . 以便统一使用 "%s/%s"%(path,file) 形式
+    '''
+    if 0 == len(path):
+        return "."
+    else:
+        return path
 
 
-</div><!-- cssstickyfooter::id="footer"-->
-<!--Sticky Footer Solution
-http://www.cssstickyfooter.com
--->
-<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
-<script type="text/javascript">
-%(jsActions)s
-</script>
-</body>
-</html>
-'''
-TPLcssURI='''#%(dataID)s {
-    margin-left: %(imgWidth)spx;
-    background-image: url('data:image/%(picType)s;base64,%(dataURI)s') top left no-repeat;
-}
-'''
-TPLcssZIP='''
-%(cssEmbed)s
-
-%(uriEmbed)s
-'''
-DEFLEGEND="zoomquiet_org_idx_legend"
+def imgDataURI(pathPic,picName,log):
+    '''转化图片文件为 DataURI内置数据文本!
+    '''
+    from base64 import b64encode
+    #log.debug("__imgDataURI:\t%s/%s"%(pathPic,picName))
+    dataURI = b64encode(open("%s/%s"%(pathPic,picName),'rb').read())
+    b64file = "%s/%s.b64"%(pathPic,picName)
+    open(b64file,"w").write(dataURI)
+    return dataURI
 
 
+def getJpegInfo(pathPic,picName,log):
+    '''base Python and the JPEG Image File, Part 1, The Header - Python
+    http://www.daniweb.com/forums/thread71188.html
+        print out the hex bytes of a jpeg file, find end of header, image size, and extract any text comment
+        (JPEG = Joint Photographic Experts Group)
+        tested with Python24    vegaseat    21sep2005
+    '''
+    try:
+        # the sample jpeg file is an "all blue 80x80 200dpi image, saved at a quality of 90"
+        # with the quoted comment added
+        imageFile = '%s/%s'%(pathPic,picName)
+        data = open(imageFile, "rb").read()
+    except IOError:
+        print "Image file %s not found" % imageFile
+        raise SystemExit
+    # initialize empty list
+    hexList = []
+    for ch in data:
+        # make a hex byte
+        byt = "%02X" % ord(ch)
+        hexList.append(byt)
+    #print hexList  # test
+    '''
+    print
+    print "hex dump of a 80x80 200dpi all blue jpeg file:"
+    print "(the first two bytes FF and D8 mark a jpeg file)"
+    print "(index 6,7,8,9 spells out the subtype JFIF)"
+    k = 0
+    for byt in hexList:
+        # add spacer every 8 bytes
+        if k % 8 == 0:
+            print "  ",
+        # new line every 16 bytes
+        if k % 16 == 0:
+            print
+        print byt,
+        k += 1
+
+    print
+    print "-"*50
+
+    # the header goes from FF D8 to the first FF C4 marker
+    for k in range(len(hexList)-1):
+        if hexList[k] == 'FF' and hexList[k+1] == 'C4':
+            #print "end of header at index %d (%s)" % (k, hex(k))
+            log.debug("end of header at index %d (%s)" % (k, hex(k))
+            break
+    '''
+
+    # find pixel width and height of image
+    # located at offset 5,6 (highbyte,lowbyte) and 7,8 after FF C0 or FF C2 marker
+    for k in range(len(hexList)-1):
+        if hexList[k] == 'FF' and (hexList[k+1] == 'C0' or hexList[k+1] == 'C2'):
+            #print k, hex(k)  # test
+            height = int(hexList[k+5],16)*256 + int(hexList[k+6],16)
+            width  = int(hexList[k+7],16)*256 + int(hexList[k+8],16)
+            #print "width = %d  height = %d pixels" % (width, height)
+            log.debug("width = %d  height = %d pixels" % (width, height))
+            return (str(width),str(height))
+    # find any comment inserted into the jpeg file
+    # marker is FF FE followed by the highbyte/lowbyte of comment length, then comment text
+    '''
+    comment = ""
+    for k in range(len(hexList)-1):
+        if hexList[k] == 'FF' and hexList[k+1] == 'FE':
+            #print k, hex(k)  # test
+            length = int(hexList[k+2],16)*256 + int(hexList[k+3],16)
+            #print length  # test
+            for m in range(length-3):
+                comment = comment + chr(int(hexList[k + m + 4],16))
+                #print chr(int(hexList[k + m + 4],16)),  # test
+                #print hexList[k + m + 4],  # test
+
+    if len(comment) > 0:
+        print comment
+    else:
+        print "No comment"
+    '''
 def main(ov,log):
     '''默认主函式,组合响应各种参数,调用实际行为..
     log.error("错误")
@@ -405,7 +404,6 @@ def main(ov,log):
 
 
     gen2html(ov,log)
-
 class zqlog():
     '''z quickly logging,export all kinds of log as stderr
     usage:
@@ -474,7 +472,7 @@ if __name__ == '__main__':      # this way the module can be
         --doctest TDD支持
         -v doctest 详细模式
     '''
-    usage = "$python %prog [-V|N|D|Q][--dot|fdp][-t path/2/templete.htm] [-o /path/2/export.html] [-i 'title of page']"
+    usage = "$python %prog [-V|N|D|Q][--dot|fdp][-t path/2/templete.htm] [-o path/2/export.html] [-i 'title of page'] -d path/2/foo.dot"
     parser = OptionParser(usage,version="%s {powered by Zoom.Quiet+Leo}"%VERSION)
     gRun = OptionGroup(parser, "Group for Running",
         '''DEFAULT::

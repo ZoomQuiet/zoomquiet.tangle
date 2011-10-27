@@ -23,10 +23,10 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         ,style="setlinewidth(0.5)"
         ];
     ZQ [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="4">  
-            <TR><TD><IMG src="zoomquiet-dot-110629_h85.png"/></TD></TR></TABLE>>
-            ,URL="http://zoomquiet.org"
+            <TR><TD><IMG src="zoomquiet-dot-10901_h85.png"/></TD></TR></TABLE>>
+            ,URL="http://about.me/zoom.quiet"
             ];
-    title [label="zoomquiet.org资源图谱\n{gen. by Graphviz}\nTime is unimportant,only life important!"
+    title [label="zoomquiet.org资源图谱\n{gen. by Graphviz}\nTime is unimprtant,only life important!"
         URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/zoomquiet_org_idx.dot"];
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
@@ -50,7 +50,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
             lj [label="@livejournal"
                 ,URL="http://zoomq.livejournal.com/"];
             pyb [label="PyBlosxom"
-                ,URL="http://blog.zoomquiet.org/pyblosxom/"];
+                ,URL="http://zoomquiet.github.com/pyblosxom/"];
 
         sb [label="ScrapBook",shape=tab
             ,URL="https://addons.mozilla.org/zh-CN/firefox/addon/427/"];
@@ -65,7 +65,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         PiC [label="蟒营",shape=box3d
             ,URL="http://code.google.com/p/kcpycamp/"];
         trac [label="KTRAC",shape=box3d
-            ,URL="http://py.kingsoft.net/ktrac"];
+            ,URL="https://bitbucket.org/ZoomQuiet/trachinese/overview"];
         WK [label="WeKnow",shape=box3d,style="dashed",height=0.5
             ,URL="http://wiki.woodpecker.org.cn/moin/WeKnow"];
     learn [label="掺ing",shape=folder];
@@ -95,22 +95,23 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
     share->wiki [style="setlinewidth(2)"];
 
     share->bloging [style="setlinewidth(1)"];
-        bloging->pyb [style="setlinewidth(3)"];
-        bloging->lj [style="dotted"];
-        bloging->gb [label="和谐ing",style="dotted"];
+        bloging->pyb [style="setlinewidth(2)"];
+        bloging->lj ;
+        bloging->gb [label="河蟹了",style="dotted"];
 
-        sb->{oss skm} [style="setlinewidth(1)"];
+        sb->{oss skm} [label="河蟹了",style="dotted"];
 
-    doing->trac;
+    doing->trac [style="dotted"];
         doing->WK [label="构思ing"];
-        doing->{PiC OBP}[style="setlinewidth(3)"];
+        doing->{PiC OBP}[style="setlinewidth(4)"];
 
     learn->{ecug zeuux};
+        learn->tparty [style="setlinewidth(4)"];
+        learn->sll [style="setlinewidth(1)"];
         learn->cpug [style="setlinewidth(2)"];
             cpug->zpug [style="setlinewidth(1)"];
-        learn->tparty [style="setlinewidth(1)"];
-        learn->sll [style="setlinewidth(1)"];
-        ecug->erlb;
+        ecug->erlb [style="dotted"];
+
 
     edge [style=invis];
     title->share;
