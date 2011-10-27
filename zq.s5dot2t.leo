@@ -40417,7 +40417,7 @@ nodeB-&gt;db-&gt;component-&gt;class-&gt;tab-&gt;note-&gt;box-&gt;act-&gt;diamon
 <t tx="zoomq.20100901204131.7775">doing [label="整ing",shape=folder
     ,URL="http://code.google.com/u/Zoom.Quiet/"];
     OBP [label="OBP",shape=box3d
-        ,URL="http://zoomquiet.org/obp/"];
+        ,URL="obp-idx.html"];
     PiC [label="蟒营",shape=box3d
         ,URL="http://code.google.com/p/kcpycamp/"];
     trac [label="KTRAC",shape=box3d

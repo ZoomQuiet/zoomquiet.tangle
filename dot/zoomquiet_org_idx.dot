@@ -61,7 +61,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
     doing [label="整ing",shape=folder
         ,URL="http://code.google.com/u/Zoom.Quiet/"];
         OBP [label="OBP",shape=box3d
-            ,URL="http://zoomquiet.org/obp/"];
+            ,URL="obp-idx.html"];
         PiC [label="蟒营",shape=box3d
             ,URL="http://code.google.com/p/kcpycamp/"];
         trac [label="KTRAC",shape=box3d
