@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Created by Leo (http://webpages.charter.net/edreamleo/front.html) -->
 <?xml-stylesheet ekr_stylesheet?>
-<leo_file>
+<leo_file xmlns:leo="http://www.leo-editor.org/2011/leo" >
 <leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
 <globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
 	<global_window_position top="50" left="50" height="500" width="700"/>
@@ -19,22 +20,23 @@
 <v t="zoomq.20100908091715.7736"><vh>实现</vh></v>
 </v>
 <v t="zoomq.20100908091715.7730"><vh>__initlog()</vh></v>
+<v t="zoomq.20100908150441.6740"><vh>dotmapping.css</vh></v>
 </v>
-<v t="zoomq.20100902112115.6558"><vh>dotools</vh>
-<v t="zoomq.20100902112115.6559" a="E"><vh>@nosent gen4dot2htm.py</vh>
-<v t="zoomq.20100902112115.6562" a="E"><vh>&lt;&lt;__main__&gt;&gt;</vh>
-<v t="zoomq.20100903105555.6662" a="E"><vh>&lt;&lt;交互参数&gt;&gt;</vh>
+<v t="zoomq.20100902112115.6558" a="E"><vh>dotools</vh>
+<v t="zoomq.20100902112115.6559"><vh>@nosent gen4dot2htm.py</vh>
+<v t="zoomq.20100902112115.6562"><vh>&lt;&lt;__main__&gt;&gt;</vh>
+<v t="zoomq.20100903105555.6662"><vh>&lt;&lt;交互参数&gt;&gt;</vh>
 <v t="zoomq.20100906103453.10041"><vh>&lt;&lt;运营模式组&gt;&gt;</vh></v>
 </v>
 <v t="zoomq.20100907214327.11513"><vh>主业务</vh></v>
 </v>
 <v t="zoomq.20100902112115.6560"><vh>__imports__</vh></v>
-<v t="zoomq.20100908150441.6739"><vh>默认值</vh>
+<v t="zoomq.20100908150441.6739" a="E"><vh>默认值</vh>
 <v t="zoomq.20100914090206.8002"><vh>htm模板</vh></v>
 <v t="zoomq.20100914171624.6772"><vh>footer</vh></v>
 <v t="zoomq.20100914090206.8004"><vh>css模板</vh></v>
 </v>
-<v t="zoomq.20100906103453.10040" a="E"><vh>gen2html()</vh>
+<v t="zoomq.20100906103453.10040"><vh>gen2html()</vh>
 <v t="zoomq.20100913101742.6759"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
 <v t="zoomq.20100909213420.7981"><vh>参数响应</vh></v>
 <v t="zoomq.20100909213420.7982"><vh>生成图片</vh></v>
@@ -55,7 +57,6 @@
 <v t="zoomq.20100908091715.7752"><vh>__getattr__()</vh></v>
 </v>
 </v>
-<v t="zoomq.20100908150441.6740"><vh>@nosent dotmapping.css</vh></v>
 <v t="zoomq.20100910090235.7985"><vh>@nosent SomeGraph.dot</vh></v>
 <v t="zoomq.20100901204131.7771"><vh>@nosent zoomquiet_org_idx_legend.dot</vh>
 <v t="zoomq.20100901204131.7772"><vh>图元</vh></v>
@@ -63,18 +64,18 @@
 </v>
 </v>
 <v t="zoomq.20100916094556.6792" a="E"><vh>abt.zoomquiet.org</vh>
-<v t="zoomq.20100408222312.5718" a="E"><vh>@nosent zoomquiet_org_idx.dot</vh>
-<v t="zoomq.20100408222312.5719" a="E"><vh>图元</vh>
+<v t="zoomq.20100408222312.5718"><vh>@nosent zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20100408222312.5719"><vh>图元</vh>
 <v t="zoomq.20100901204131.7774"><vh>Share</vh></v>
 <v t="zoomq.20100901204131.7775"><vh>doing</vh></v>
 <v t="zoomq.20100901204131.7776"><vh>learn</vh></v>
 </v>
 <v t="zoomq.20100408222312.5725"><vh>关系网</vh></v>
 </v>
-<v t="zoomq.20100914211211.6779"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
-<v t="zoomq.20100914211211.6780"><vh>图元</vh>
-<v t="zoomq.20100914211211.6781"><vh>书</vh></v>
-</v>
+<v t="zoomq.20100914211211.6779" a="E"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20100914211211.6780"><vh>图元</vh></v>
+<v t="zoomq.20100914211211.6781"><vh>原创</vh></v>
+<v t="zoomq.20111027085417.15166"><vh>翻译</vh></v>
 <v t="zoomq.20100914211211.6784"><vh>关系网</vh></v>
 </v>
 </v>
@@ -40450,6 +40451,16 @@ TimeLogging:
     +1 复习参数处理,决策调试/运行/运营模式
 
 
+&lt;a href="http://www.w3.org/TR/CSS2/"&gt;
+&lt;img
+ src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA6UlEQVR42q3TSYrDQBBEUcma56nmSn/d/5amu5ExXgm1giKWjySTSp43J3lya35Av4EZCghedi+W2rmu69gv5BdclpZEAlifh0mCdm50br0ObqIIfUMbDYW3dC6lq7gOKsnY+kk/ZMPEkqoC+AOP5ugzYDtM87T7MhcV+qio1jfI8fajz4BYH2ITczPoYKNXa/0Jfs55Fkz2KbZm8A0QxM7tAX6Px0mwjL1hkz0AeokzXzvk3SdBTL+hJJYPzbzEFKBOr18ZMlHowcxLMwex6wq1W/8DqkmDzbCyeP8oxnF0o74K3v+Xb84LJUWFnPSsMq4AAAAASUVORK5CYII=" 
+    id="css2" alt="css2"/&gt;
+&lt;/a&gt;
+&lt;a href="http://www.w3.org/TR/xhtml1/"&gt;
+&lt;img
+ src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA8klEQVR42q3T2YqEMBQEUPdds5g9tyv//5fjSGPTMCg4FqmXQA6XhGSvh5O98Gh+Qb8CZq6B4Cl5suicG8cR6UZ2UIgBGQXA+iowCtq5xTl5H1xJIUw9hmhQe4vR5Rhb3AcVlVgnpgtaYWKDtsWWHdx7LOCzcwYOM+Ms+aYiFaao0MoDTPgI7yLhCoT1IfaxMrMONnoluwN8n/yaF+kSzBKLg5l9DyCQ5cPJhFuvwSZOBiulAECLyPF9h3+CwAkIM61QFJtCg4uYY0uX339loCQFPRsueh7ISrl5Tv4HVEwDtoQl4X1RL8viFn0XfP4vP5wf+GiFiXJO3ocAAAAASUVORK5CYII=" 
+    id="xhtml" alt="xhtml"/&gt;
+&lt;/a&gt;
 &lt;a href="http://www.w3.org/TR/xhtml1/"&gt;
 &lt;img
  src="data:image/png;base64,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" 
@@ -41052,6 +41063,7 @@ uriEmbed += TPLcssURI%locals()
 #log.debug(locals().keys())
 list4cssEmbed = fnmatch.filter(os.listdir("%s/css"%pathSelf),"*.css")
 list4cssEmbed.sort()
+#log.debug(pathSelf)
 #log.debug(list4cssEmbed)
 cssEmbed = "".join([open("%s/css/%s"%(pathSelf,i),'r').read() for i in list4cssEmbed])
 
@@ -41149,8 +41161,8 @@ TPLidxHTM='''&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http:/
 &lt;head&gt;
   &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" &gt;
   &lt;title&gt;%(pageTitle)s&lt;/title&gt;
-	&lt;link rel="icon" href="http://zoomquiet.org/res/m/i/zqstudio.ico" type="image/gif"&gt;
-	&lt;link rel="shortcut icon" href="http://zoomquiet.org/res/m/i/zqstudio.ico" type="image/gif"&gt;
+	&lt;link rel="icon" href="zqstudio.ico" type="image/gif"&gt;
+	&lt;link rel="shortcut icon" href="zqstudio.ico" type="image/gif"&gt;
 &lt;style type="text/css"&gt;
 %(styleData)s
 &lt;/style&gt;
@@ -41186,16 +41198,7 @@ TPLcssZIP='''
             usemap="#%(legendMap)s"
             id="%(legendMap)s" alt="%(legendMap)s"/&gt;
         %(legendImageMap)s
-&lt;a href="http://www.w3.org/TR/CSS2/"&gt;
-&lt;img
- src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA6UlEQVR42q3TSYrDQBBEUcma56nmSn/d/5amu5ExXgm1giKWjySTSp43J3lya35Av4EZCghedi+W2rmu69gv5BdclpZEAlifh0mCdm50br0ObqIIfUMbDYW3dC6lq7gOKsnY+kk/ZMPEkqoC+AOP5ugzYDtM87T7MhcV+qio1jfI8fajz4BYH2ITczPoYKNXa/0Jfs55Fkz2KbZm8A0QxM7tAX6Px0mwjL1hkz0AeokzXzvk3SdBTL+hJJYPzbzEFKBOr18ZMlHowcxLMwex6wq1W/8DqkmDzbCyeP8oxnF0o74K3v+Xb84LJUWFnPSsMq4AAAAASUVORK5CYII=" 
-    id="css2" alt="css2"/&gt;
-&lt;/a&gt;
-&lt;a href="http://www.w3.org/TR/xhtml1/"&gt;
-&lt;img
- src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA8klEQVR42q3T2YqEMBQEUPdds5g9tyv//5fjSGPTMCg4FqmXQA6XhGSvh5O98Gh+Qb8CZq6B4Cl5suicG8cR6UZ2UIgBGQXA+iowCtq5xTl5H1xJIUw9hmhQe4vR5Rhb3AcVlVgnpgtaYWKDtsWWHdx7LOCzcwYOM+Ms+aYiFaao0MoDTPgI7yLhCoT1IfaxMrMONnoluwN8n/yaF+kSzBKLg5l9DyCQ5cPJhFuvwSZOBiulAECLyPF9h3+CwAkIM61QFJtCg4uYY0uX339loCQFPRsueh7ISrl5Tv4HVEwDtoQl4X1RL8viFn0XfP4vP5wf+GiFiXJO3ocAAAAASUVORK5CYII=" 
-    id="xhtml" alt="xhtml"/&gt;
-&lt;/a&gt;
+
 &lt;a href="http://browsehappy.com/why/"&gt;
 &lt;img
  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAABlVBMVEUeitkghtohhNghkN0if9UigtkikN4ikd8ik98ileAil+AimeEimuAje8wjhNwjh90jitwjj98kh9klh90lid8liuAli+AlouQmh94mitgmitsnpuYqj9crk+Qrq+YtouEususxi88znug0p+I1r904jc4+ktQ+qOo/vulBotREyu9Uk85YtONlz+xmZmZoxe1qp9hvrdtzvNh1y+Z6qst7v9yAt96Es9uEtN6GzeWJoMeMrc+NwdmOutuPw+WQud2Rxd6T0OWWe5qazeWcyOmfz+mf2O2iutWmx+Soz+Kpy+ap2uyryuWtkqyt2Omvy+Svy+Wwy+Wwzuay0OK42u270ea82ei+3+vA3OrCorLF2OrJxNTL4PDN4PHO3OnP4e3W4uzc7PPi6/Pi7/bn8PboHybt9fnuIynv9Pfx9fn0Jyr0+Pr2+Pn2+fv2+fz2+vv4+vv6w8X7eXr7/P38/P39LS39/v7+/v7/AAD/AgL/ExP/Li7/QED/YWH/fHz/i4v/mpr/trb/x8f/6ur/9fX//Pz////7om9CAAABKElEQVR42q2TVW/DQBCEXWZuU2amlJmZmZmZKdnYTuI4zvzuSidbp0ayKsWel9m5h0+j2zvBabMEJ5h8ksr8bffg0YfIZQAVieC62FudGr/F0Y/CzigCGUBNVEETXa1NFeW9r+cfomYV6PfiaYA6G8ryU2Lan+H1WwXKASz0DNPM9Wh8VvYhArIBBHEycz3yAeCBA8Wgq3urppqW54scuf0IihzIzAD+TTDMCBzoCX2fNhYnCxSVkZ7TgZDHtCFPgG46MKwhRlKTSo5PaGN988ysIbd/G8qBl8rEhMzF9zUqbNk3v0Oe2MSBQPiWd2rrHHlxadFVNPtlw5Y1caXvsjm2oLS+bYmgWn+HUO4G3Q9DY9PbV26QpMAyEJ83k3P3bFIli3/ZZv0CIEnzewB06Q4AAAAASUVORK5CYII=" 
@@ -41259,61 +41262,68 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         ,arrowsize=0.5,arrowhead=vee,arrowtail=none
         ,style="setlinewidth(0.5)"
         ];
+
     @others
+
 }
 </t>
 <t tx="zoomq.20100914211211.6780">ZQ  [label="zoomquiet.org",shape=ellipse,style="dotted"
-    ,URL="http://zoomquiet.org"];
-
-title [label="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
-    URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot"];
+    ,URL="http://about.me/zoom.quiet"];
+    title [label="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
+        URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot"];
 
 mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
     ,color="#333333",fillcolor=dimgray
     ,URL="mailto:zoomquiet+sns@gmail.com?subject=obp.zoomquiet.org mapping feedback"];
 
-@others
-
-</t>
-<t tx="zoomq.20100914211211.6781">CPUG     [label="CPyUG\n~ChinesePythonUserGroup\n~华蟒用户组",shape=component
+CPUG     [label="CPyUG\n~华蟒用户组",shape=component
     ,URL="http://wiki.woodpecker.org.cn/moin/CPUG"];
 ZEUUX    [label="ZEUUX.org\n~哲思社区",shape=component
     ,URL="http://www.zeuux.org"];
-support  [label="支持",shape=folder];
-OBP      [label="OBP\n~OpenBookProjects\n开放图书计划",shape=box3d
+support  [label="支持",shape=box];
+OBP      [label="O.B.P\n~OpenBookProjects\n开放图书计划",shape=box3d
     ,URL="http://code.google.com/p/openbookproject/"];
-author   [label="成员",shape=tab];
-    self       [label="Zoom.Quiet",shape=egg,URL="http://zoomquiet.org"];
-    WY       [label="Yan Wu",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/YanWu"];
-    LLX      [label="林路翔",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/LinLuxiang"];
-    JeanToe      [label="JeanToe",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/JeanToe"];
-    Liz      [label="盛艳",shape=egg,URL="http://code.google.com/u/shengyan1985/"];
+/*
+    author   [label="成员",shape=tab];
+        self       [label="Zoom.Quiet",shape=egg,URL="http://zoomquiet.org"];
+        WY       [label="Yan Wu",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/YanWu"];
+        LLX      [label="林路翔",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/LinLuxiang"];
+        JeanToe      [label="JeanToe",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/JeanToe"];
+        Liz      [label="盛艳",shape=egg,URL="http://code.google.com/u/shengyan1985/"];
+*/
 
-include  [label="含",shape=tab];
-    w2pyzh   [label="Web2py手册",shape=folder
-        ,URL="/w2py_manual_zh"];
-    leodoc   [label="Leo手册\nv4.7",shape=folder
-        ,URL="/leo_doc_zh"];
-    pyblosxom   [label="PyBlosxom手册\nv1.5-rc1",shape=folder
-        ,URL="/pyblosxom_zh"];
-    tpipy   [label="TPiPy 中文版",shape=folder
-        ,URL="/tpipy_zh"];
-    pywdwpy   [label="蟒样web开发\n基于web.py",shape=folder,style="dotted,setlinewidth(0.5)"];
-        ,URL="/pywdwpy"];
-    sphnix   [label="Sphnix手册",shape=folder
-        ,URL="/sphnix_zh"];
+
+</t>
+<t tx="zoomq.20100914211211.6781">original  [label="原创",shape=tab];
+    lpy   [label="可爱的Python",shape=note
+        ,URL="http://lovelypython.readthedocs.org/"];
+    rwp4l   [label="大蟒本色",shape=note
+        ,URL="#"];
 </t>
 <t tx="zoomq.20100914211211.6784">ZQ-&gt;OBP [label="返回主站",arrowhead=none,arrowtail=vee];
 ZEUUX-&gt;support;
     CPUG-&gt;support;
-support-&gt;OBP-&gt;author;
-    author-&gt;self-&gt;{w2pyzh leodoc pyblosxom} [style="setlinewidth(1)"];
-        self-&gt;{sphnix } [style="setlinewidth(2)"];
-        self-&gt;{tpipy pywdwpy} [style="dashed,setlinewidth(0.5)"];
-    author-&gt;{WY LLX Liz JeanToe}-&gt;w2pyzh;
+support-&gt;OBP
 
-OBP-&gt;include-&gt;{w2pyzh leodoc pyblosxom tpipy};
-    include-&gt;pywdwpy [label="原创！\n筹备ing..."];
+OBP-&gt;{original translate};
+
+original-&gt;lpy [label="20%",style="setlinewidth(2)"]
+original-&gt;rwp4l [label="80%",style="setlinewidth(1)"]
+
+    translate-&gt;{techbook tools pydocs};
+
+    techbook-&gt;hgtip [label="5%",style="setlinewidth(0.5)"]
+    techbook-&gt;pymotw [label="54%",style="dashed,setlinewidth(0.5)"]
+    techbook-&gt;tpipy [label="0%",style="dotted,setlinewidth(0.5)"]
+
+    pydocs-&gt;w2pyzh [label="15%",style="dashed,setlinewidth(1)"]
+    pydocs-&gt;docspy3 [label="14%",style="setlinewidth(3)"]
+
+    tools-&gt;sphnix [label="2%",style="setlinewidth(0.5)"]
+    tools-&gt;leodoc [label="0%",style="dotted,setlinewidth(0.5)"]
+    tools-&gt;pyblosxom [label="0%",style="dotted,setlinewidth(0.5)"]
+
+
 
 edge [style=invis];
 title-&gt;ZQ;
@@ -70060,5 +70070,30 @@ CRUD 渣滓; 污垢; 黏糊糊的脏东西;
 
 
 </t>
+<t tx="zoomq.20111027085417.15166">translate  [label="翻译",shape=tab];
+
+techbook  [label="技术图书",shape=folder];
+    tpipy   [label="TPiPy 中文版",shape=note
+        ,URL="http://tpipyzh.readthedocs.org"];
+    hgtip   [label="Hg妙招",shape=note
+        ,URL="http://zoomquiet.github.com/hgtip/"];
+    pymotw   [label="每周一模块",shape=note
+        ,URL="http://pymotwcn.readthedocs.org"];
+
+
+pydocs  [label="开发语言",shape=folder];
+    docspy3   [label="Py3文档",shape=note
+        ,URL="http://docspy3zh.readthedocs.org"];
+    w2pyzh   [label="Web2py手册",shape=note
+        ,URL="http://web2pybookzh.readthedocs.org"];
+
+tools  [label="实用工具",shape=folder];
+    leodoc   [label="Leo手册\nv4.9rc1",shape=note
+        ,URL="http://zoomquiet.github.com/leo-doc-zh/leo_toc.html"];
+    pyblosxom   [label="PyBlosxom手册\nv1.5-rc1",shape=note
+        ,URL="http://pyblosxom-doc-zh.readthedocs.org"];
+    sphnix   [label="Sphnix手册",shape=note
+        ,URL="http://sphinx-doc-zh.readthedocs.org"];
+        </t>
 </tnodes>
 </leo_file>

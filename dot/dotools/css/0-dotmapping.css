@@ -28,7 +28,9 @@ hr {
     text-align : center;
     font-size: 12px; 
     color: #dcdcdc;
+    padding: 1em 0em 0em 1em;
     }
+
 .footbar a{
     font-size: 110%; 
     color: #ededed;

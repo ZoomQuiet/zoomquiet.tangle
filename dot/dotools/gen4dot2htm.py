@@ -42,8 +42,8 @@ TPLidxHTM='''<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://ww
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
   <title>%(pageTitle)s</title>
-	<link rel="icon" href="http://zoomquiet.org/res/m/i/zqstudio.ico" type="image/gif">
-	<link rel="shortcut icon" href="http://zoomquiet.org/res/m/i/zqstudio.ico" type="image/gif">
+	<link rel="icon" href="zqstudio.ico" type="image/gif">
+	<link rel="shortcut icon" href="zqstudio.ico" type="image/gif">
 <style type="text/css">
 %(styleData)s
 </style>
@@ -66,16 +66,7 @@ TPLidxHTM+='''
             usemap="#%(legendMap)s"
             id="%(legendMap)s" alt="%(legendMap)s"/>
         %(legendImageMap)s
-<a href="http://www.w3.org/TR/CSS2/">
-<img
- src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA6UlEQVR42q3TSYrDQBBEUcma56nmSn/d/5amu5ExXgm1giKWjySTSp43J3lya35Av4EZCghedi+W2rmu69gv5BdclpZEAlifh0mCdm50br0ObqIIfUMbDYW3dC6lq7gOKsnY+kk/ZMPEkqoC+AOP5ugzYDtM87T7MhcV+qio1jfI8fajz4BYH2ITczPoYKNXa/0Jfs55Fkz2KbZm8A0QxM7tAX6Px0mwjL1hkz0AeokzXzvk3SdBTL+hJJYPzbzEFKBOr18ZMlHowcxLMwex6wq1W/8DqkmDzbCyeP8oxnF0o74K3v+Xb84LJUWFnPSsMq4AAAAASUVORK5CYII=" 
-    id="css2" alt="css2"/>
-</a>
-<a href="http://www.w3.org/TR/xhtml1/">
-<img
- src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAAAYFBMVEWov9fi4+PY4++Wr86etdLs7/Pl7PSTk5TY2Nh8nsLy9viysrIALn0zYp1ubm5HdKn1+ftBaqLLysmLqcnL2ej6/P1Vfq9sjrkvLy8TS4+8zuElV5YEPIUAAAD///8FSI3S6VXqAAAA8klEQVR42q3T2YqEMBQEUPdds5g9tyv//5fjSGPTMCg4FqmXQA6XhGSvh5O98Gh+Qb8CZq6B4Cl5suicG8cR6UZ2UIgBGQXA+iowCtq5xTl5H1xJIUw9hmhQe4vR5Rhb3AcVlVgnpgtaYWKDtsWWHdx7LOCzcwYOM+Ms+aYiFaao0MoDTPgI7yLhCoT1IfaxMrMONnoluwN8n/yaF+kSzBKLg5l9DyCQ5cPJhFuvwSZOBiulAECLyPF9h3+CwAkIM61QFJtCg4uYY0uX339loCQFPRsueh7ISrl5Tv4HVEwDtoQl4X1RL8viFn0XfP4vP5wf+GiFiXJO3ocAAAAASUVORK5CYII=" 
-    id="xhtml" alt="xhtml"/>
-</a>
+
 <a href="http://browsehappy.com/why/">
 <img
  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAAPCAMAAABEF7i9AAABlVBMVEUeitkghtohhNghkN0if9UigtkikN4ikd8ik98ileAil+AimeEimuAje8wjhNwjh90jitwjj98kh9klh90lid8liuAli+AlouQmh94mitgmitsnpuYqj9crk+Qrq+YtouEususxi88znug0p+I1r904jc4+ktQ+qOo/vulBotREyu9Uk85YtONlz+xmZmZoxe1qp9hvrdtzvNh1y+Z6qst7v9yAt96Es9uEtN6GzeWJoMeMrc+NwdmOutuPw+WQud2Rxd6T0OWWe5qazeWcyOmfz+mf2O2iutWmx+Soz+Kpy+ap2uyryuWtkqyt2Omvy+Svy+Wwy+Wwzuay0OK42u270ea82ei+3+vA3OrCorLF2OrJxNTL4PDN4PHO3OnP4e3W4uzc7PPi6/Pi7/bn8PboHybt9fnuIynv9Pfx9fn0Jyr0+Pr2+Pn2+fv2+fz2+vv4+vv6w8X7eXr7/P38/P39LS39/v7+/v7/AAD/AgL/ExP/Li7/QED/YWH/fHz/i4v/mpr/trb/x8f/6ur/9fX//Pz////7om9CAAABKElEQVR42q2TVW/DQBCEXWZuU2amlJmZmZmZKdnYTuI4zvzuSidbp0ayKsWel9m5h0+j2zvBabMEJ5h8ksr8bffg0YfIZQAVieC62FudGr/F0Y/CzigCGUBNVEETXa1NFeW9r+cfomYV6PfiaYA6G8ryU2Lan+H1WwXKASz0DNPM9Wh8VvYhArIBBHEycz3yAeCBA8Wgq3urppqW54scuf0IihzIzAD+TTDMCBzoCX2fNhYnCxSVkZ7TgZDHtCFPgG46MKwhRlKTSo5PaGN988ysIbd/G8qBl8rEhMzF9zUqbNk3v0Oe2MSBQPiWd2rrHHlxadFVNPtlw5Y1caXvsjm2oLS+bYmgWn+HUO4G3Q9DY9PbV26QpMAyEJ83k3P3bFIli3/ZZv0CIEnzewB06Q4AAAAASUVORK5CYII=" 
@@ -224,6 +215,7 @@ def gen2html(ov,log):
     #log.debug(locals().keys())
     list4cssEmbed = fnmatch.filter(os.listdir("%s/css"%pathSelf),"*.css")
     list4cssEmbed.sort()
+    #log.debug(pathSelf)
     #log.debug(list4cssEmbed)
     cssEmbed = "".join([open("%s/css/%s"%(pathSelf,i),'r').read() for i in list4cssEmbed])
 
