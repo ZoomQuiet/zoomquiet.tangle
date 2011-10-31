@@ -22,7 +22,7 @@
 <v t="zoomq.20100908091715.7730"><vh>__initlog()</vh></v>
 <v t="zoomq.20100908150441.6740"><vh>dotmapping.css</vh></v>
 </v>
-<v t="zoomq.20100902112115.6558" a="E"><vh>dotools</vh>
+<v t="zoomq.20100902112115.6558"><vh>dotools</vh>
 <v t="zoomq.20100902112115.6559"><vh>@nosent gen4dot2htm.py</vh>
 <v t="zoomq.20100902112115.6562"><vh>&lt;&lt;__main__&gt;&gt;</vh>
 <v t="zoomq.20100903105555.6662"><vh>&lt;&lt;交互参数&gt;&gt;</vh>
@@ -64,22 +64,29 @@
 </v>
 </v>
 <v t="zoomq.20100916094556.6792" a="E"><vh>abt.zoomquiet.org</vh>
-<v t="zoomq.20100408222312.5718"><vh>@nosent zoomquiet_org_idx.dot</vh>
-<v t="zoomq.20100408222312.5719"><vh>图元</vh>
+<v t="zoomq.20100408222312.5718" a="E"><vh>@nosent zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20100408222312.5719" a="E"><vh>图元</vh>
 <v t="zoomq.20100901204131.7774"><vh>Share</vh></v>
 <v t="zoomq.20100901204131.7775"><vh>doing</vh></v>
 <v t="zoomq.20100901204131.7776"><vh>learn</vh></v>
+<v t="zoomq.20111031085013.11780"><vh>Link</vh></v>
 </v>
 <v t="zoomq.20100408222312.5725"><vh>关系网</vh></v>
 </v>
-<v t="zoomq.20100914211211.6779" a="E"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20100914211211.6779" a="E"><vh>@nosent people_idx.dot</vh>
 <v t="zoomq.20100914211211.6780"><vh>图元</vh></v>
-<v t="zoomq.20100914211211.6781"><vh>原创</vh></v>
-<v t="zoomq.20111027085417.15166"><vh>翻译</vh></v>
+<v t="zoomq.20100914211211.6781"><vh>人物</vh></v>
+<v t="zoomq.20111027085417.15166"><vh>社会</vh></v>
 <v t="zoomq.20100914211211.6784"><vh>关系网</vh></v>
 </v>
+<v t="zoomq.20111031085013.11786" a="EO"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20111031085013.11787"><vh>图元</vh></v>
+<v t="zoomq.20111031085013.11788"><vh>原创</vh></v>
+<v t="zoomq.20111031085013.11789"><vh>翻译</vh></v>
+<v t="zoomq.20111031085013.11790"><vh>关系网</vh></v>
 </v>
-<v t="zoomq.20100916094556.6791"><vh>abt.大妈书</vh>
+</v>
+<v t="zoomq.20100916094556.6791" a="E"><vh>abt.大妈书</vh>
 <v t="zoomq.20100926100840.7122"><vh>@nosent zqtools_mapping.dot</vh>
 <v t="zoomq.20100926100840.7123"><vh>图元</vh>
 <v t="zoomq.20100926100840.7124"><vh>Import</vh></v>
@@ -38258,7 +38265,7 @@ nodeA-&gt;nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
 nodeA-&gt;nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
 */
 @others
-ZQ-&gt;{share learn doing };
+ZQ-&gt;{share learn doing link};
 share-&gt;{sb douban haokanbu};
 share-&gt;wiki [style="setlinewidth(2)"];
 
@@ -41238,10 +41245,9 @@ http://www.cssstickyfooter.com
 </t>
 <t tx="zoomq.20100914211211.6779">@language javascript
 @tabwidth -4
-digraph obp_zoomquiet_org_idx {
+digraph people_idx {
     /*生成命令:
-$ dot -Tjpeg zoomquiet_org_idx.dot -o zoomquiet_org_idx.jpg -Tcmapx -o zoomquiet_org_idx.map
-$ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.map
+$ dot -Tjpeg people_idx.dot -o people_idx.jpg -Tcmapx -o people_idx.map
     全局设定
     */
     graph [label=""
@@ -41268,20 +41274,15 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
 }
 </t>
 <t tx="zoomq.20100914211211.6780">ZQ  [label="zoomquiet.org",shape=ellipse,style="dotted"
-    ,URL="http://about.me/zoom.quiet"];
-    title [label="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
-        URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot"];
+    ,URL="http://zoomquiet.github.com"];
+title [label="Zoom.Quiet关注索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
+    URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot"];
 
 mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
     ,color="#333333",fillcolor=dimgray
     ,URL="mailto:zoomquiet+sns@gmail.com?subject=obp.zoomquiet.org mapping feedback"];
 
-CPUG     [label="CPyUG\n~华蟒用户组",shape=component
-    ,URL="http://wiki.woodpecker.org.cn/moin/CPUG"];
-ZEUUX    [label="ZEUUX.org\n~哲思社区",shape=component
-    ,URL="http://www.zeuux.org"];
-support  [label="支持",shape=box];
-OBP      [label="O.B.P\n~OpenBookProjects\n开放图书计划",shape=box3d
+PEOPLE [label="人物\n~关注互联开放心智",shape=box3d
     ,URL="http://code.google.com/p/openbookproject/"];
 /*
     author   [label="成员",shape=tab];
@@ -41294,40 +41295,49 @@ OBP      [label="O.B.P\n~OpenBookProjects\n开放图书计划",shape=box3d
 
 
 </t>
-<t tx="zoomq.20100914211211.6781">original  [label="原创",shape=tab];
-    lpy   [label="可爱的Python",shape=note
-        ,URL="http://lovelypython.readthedocs.org/"];
-    rwp4l   [label="大蟒本色",shape=note
-        ,URL="#"];
+<t tx="zoomq.20100914211211.6781">py  [label="Pythonic",shape=tab];
+    laiyonghao   [label="赖勇浩的编程私伙局",shape=note
+        ,URL="http://blog.laiyonghao.com/"];
+    panjy   [label="潘俊勇的技术生活",shape=note
+        ,URL="http://www.czug.org/blog/panjy/"];
+    limodou   [label="limodou的学习生活",shape=note
+        ,URL="http://hi.baidu.com/limodou"];
+    zsp   [label="张教主",shape=note
+        ,URL="http://zuroc.42qu.com/"];
+    eishn   [label="沈游侠",shape=note
+        ,URL="http://eishn.blog.163.com/blog"];
+
+
+floss  [label="FLOSS",shape=tab];
+    shredderyin   [label="王垠",shape=note
+        ,URL="http://docs.huihoo.com/homepage/shredderyin/"];
+    netkiller   [label="Netkiller手札s",shape=note
+        ,URL="http://netkiller.github.com/"];
+
+technic  [label="达人",shape=tab];
+    timyang   [label="Tim[后端技术]",shape=note
+        ,URL="http://timyang.net/"];
+    delphij   [label="delphij's Chaos",shape=note
+        ,URL="https://blog.delphij.net/"];
+    hongqn   [label="hongqn",shape=note
+        ,URL="http://www.douban.com/people/hongqn"];
+    yufeng   [label="Erlang非业余研究",shape=note
+        ,URL="http://blog.yufeng.info/"];
+
 </t>
-<t tx="zoomq.20100914211211.6784">ZQ-&gt;OBP [label="返回主站",arrowhead=none,arrowtail=vee];
-ZEUUX-&gt;support;
-    CPUG-&gt;support;
-support-&gt;OBP
+<t tx="zoomq.20100914211211.6784">ZQ-&gt;PEOPLE [label="返回主站",arrowhead=none,arrowtail=vee];
 
-OBP-&gt;{original translate};
+PEOPLE-&gt;{SNS py floss technic};
 
-original-&gt;lpy [label="20%",style="setlinewidth(2)"]
-original-&gt;rwp4l [label="80%",style="setlinewidth(1)"]
-
-    translate-&gt;{techbook tools pydocs};
-
-    techbook-&gt;hgtip [label="5%",style="setlinewidth(0.5)"]
-    techbook-&gt;pymotw [label="54%",style="dashed,setlinewidth(0.5)"]
-    techbook-&gt;tpipy [label="0%",style="dotted,setlinewidth(0.5)"]
-
-    pydocs-&gt;w2pyzh [label="15%",style="dashed,setlinewidth(1)"]
-    pydocs-&gt;docspy3 [label="14%",style="setlinewidth(3)"]
-
-    tools-&gt;sphnix [label="2%",style="setlinewidth(0.5)"]
-    tools-&gt;leodoc [label="0%",style="dotted,setlinewidth(0.5)"]
-    tools-&gt;pyblosxom [label="0%",style="dotted,setlinewidth(0.5)"]
-
+    py-&gt;{laiyonghao panjy limodou zsp eishn} ;
+    floss-&gt;{shredderyin netkiller};
+    technic-&gt;{timyang delphij hongqn yufeng};
+    
+    SNS-&gt;{techparty onekg sll etc} ;
 
 
 edge [style=invis];
-title-&gt;ZQ;
-mailme-&gt;OBP;
+PEOPLE-&gt;mailme;
 
 </t>
 <t tx="zoomq.20100916094556.6791">图书相关图谱</t>
@@ -70070,7 +70080,84 @@ CRUD 渣滓; 污垢; 黏糊糊的脏东西;
 
 
 </t>
-<t tx="zoomq.20111027085417.15166">translate  [label="翻译",shape=tab];
+<t tx="zoomq.20111027085417.15166">SNS  [label="SNS",shape=tab];
+
+
+    techparty   [label="珠三角技术沙龙",shape=note
+        ,URL="http://techparty.org/"];
+    onekg   [label="多背一公斤",shape=note
+        ,URL="http://1kg.org"];
+    sll   [label="教育大发现",shape=note
+        ,URL="http://sociallearnlab.org"];
+    etc   [label="...",shape=note];
+        </t>
+<t tx="zoomq.20111031085013.11780">link [label="关注",shape=folder,URL="people-idx.html"];
+</t>
+<t tx="zoomq.20111031085013.11786">@language javascript
+@tabwidth -4
+digraph obp_zoomquiet_org_idx {
+    /*生成命令:
+$ dot -Tjpeg zoomquiet_org_idx.dot -o zoomquiet_org_idx.jpg -Tcmapx -o zoomquiet_org_idx.map
+$ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.map
+    全局设定
+    */
+    graph [label=""
+        ,fontsize=12.0,fontcolor=snow
+        ,labeljust="l",labelloc="b",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=BT
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.5,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+
+    @others
+
+}
+</t>
+<t tx="zoomq.20111031085013.11787">ZQ  [label="zoomquiet.org",shape=ellipse,style="dotted"
+    ,URL="http://about.me/zoom.quiet"];
+    title [label="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
+        URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot"];
+
+mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+    ,color="#333333",fillcolor=dimgray
+    ,URL="mailto:zoomquiet+sns@gmail.com?subject=obp.zoomquiet.org mapping feedback"];
+
+CPUG     [label="CPyUG\n~华蟒用户组",shape=component
+    ,URL="http://wiki.woodpecker.org.cn/moin/CPUG"];
+ZEUUX    [label="ZEUUX.org\n~哲思社区",shape=component
+    ,URL="http://www.zeuux.org"];
+support  [label="支持",shape=box];
+OBP      [label="O.B.P\n~OpenBookProjects\n开放图书计划",shape=box3d
+    ,URL="http://code.google.com/p/openbookproject/"];
+/*
+    author   [label="成员",shape=tab];
+        self       [label="Zoom.Quiet",shape=egg,URL="http://zoomquiet.org"];
+        WY       [label="Yan Wu",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/YanWu"];
+        LLX      [label="林路翔",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/LinLuxiang"];
+        JeanToe      [label="JeanToe",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/JeanToe"];
+        Liz      [label="盛艳",shape=egg,URL="http://code.google.com/u/shengyan1985/"];
+*/
+
+
+</t>
+<t tx="zoomq.20111031085013.11788">original  [label="原创",shape=tab];
+    lpy   [label="可爱的Python",shape=note
+        ,URL="http://lovelypython.readthedocs.org/"];
+    rwp4l   [label="大蟒本色",shape=note
+        ,URL="http://zoomquiet.bitbucket.org/rwpy4l/"];
+</t>
+<t tx="zoomq.20111031085013.11789">translate  [label="翻译",shape=tab];
 
 techbook  [label="技术图书",shape=folder];
     tpipy   [label="TPiPy 中文版",shape=note
@@ -70095,5 +70182,35 @@ tools  [label="实用工具",shape=folder];
     sphnix   [label="Sphnix手册",shape=note
         ,URL="http://sphinx-doc-zh.readthedocs.org"];
         </t>
+<t tx="zoomq.20111031085013.11790">ZQ-&gt;OBP [label="返回主站",arrowhead=none,arrowtail=vee];
+ZEUUX-&gt;support;
+    CPUG-&gt;support;
+support-&gt;OBP
+
+OBP-&gt;{original translate};
+
+original-&gt;lpy [label="20%",style="setlinewidth(2)"]
+original-&gt;rwp4l [label="80%",style="setlinewidth(1)"]
+
+    translate-&gt;{techbook tools pydocs};
+
+    techbook-&gt;hgtip [label="5%",style="setlinewidth(0.5)"]
+    techbook-&gt;pymotw [label="54%",style="dashed,setlinewidth(0.5)"]
+    techbook-&gt;tpipy [label="0%",style="dotted,setlinewidth(0.5)"]
+
+    pydocs-&gt;w2pyzh [label="15%",style="dashed,setlinewidth(1)"]
+    pydocs-&gt;docspy3 [label="14%",style="setlinewidth(3)"]
+
+    tools-&gt;sphnix [label="2%",style="setlinewidth(0.5)"]
+    tools-&gt;leodoc [label="0%",style="dotted,setlinewidth(0.5)"]
+    tools-&gt;pyblosxom [label="0%",style="dotted,setlinewidth(0.5)"]
+
+
+
+edge [style=invis];
+title-&gt;ZQ;
+mailme-&gt;OBP;
+
+</t>
 </tnodes>
 </leo_file>

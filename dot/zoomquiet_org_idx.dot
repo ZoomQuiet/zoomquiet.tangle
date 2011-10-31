@@ -84,13 +84,14 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
                 ,URL="http://code.google.com/p/erlbattle/"];
         sll [label="教育大发现"
             ,URL="http://code.google.com/p/sociallearnlab/"];
+    link [label="关注",shape=folder,URL="people-idx.html"];
 
     /*
     nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
     nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
     nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
     */
-    ZQ->{share learn doing };
+    ZQ->{share learn doing link};
     share->{sb douban haokanbu};
     share->wiki [style="setlinewidth(2)"];
 

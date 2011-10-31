@@ -53,7 +53,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         lpy   [label="可爱的Python",shape=note
             ,URL="http://lovelypython.readthedocs.org/"];
         rwp4l   [label="大蟒本色",shape=note
-            ,URL="#"];
+            ,URL="http://zoomquiet.bitbucket.org/rwpy4l/"];
     translate  [label="翻译",shape=tab];
 
     techbook  [label="技术图书",shape=folder];
