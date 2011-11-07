@@ -64,8 +64,8 @@
 </v>
 </v>
 <v t="zoomq.20100916094556.6792" a="E"><vh>abt.zoomquiet.org</vh>
-<v t="zoomq.20100408222312.5718" a="E"><vh>@nosent zoomquiet_org_idx.dot</vh>
-<v t="zoomq.20100408222312.5719" a="E"><vh>图元</vh>
+<v t="zoomq.20100408222312.5718"><vh>@nosent zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20100408222312.5719"><vh>图元</vh>
 <v t="zoomq.20100901204131.7774"><vh>Share</vh></v>
 <v t="zoomq.20100901204131.7775"><vh>doing</vh></v>
 <v t="zoomq.20100901204131.7776"><vh>learn</vh></v>
@@ -73,13 +73,13 @@
 </v>
 <v t="zoomq.20100408222312.5725"><vh>关系网</vh></v>
 </v>
-<v t="zoomq.20100914211211.6779" a="E"><vh>@nosent people_idx.dot</vh>
+<v t="zoomq.20100914211211.6779"><vh>@nosent people_idx.dot</vh>
 <v t="zoomq.20100914211211.6780"><vh>图元</vh></v>
 <v t="zoomq.20100914211211.6781"><vh>人物</vh></v>
 <v t="zoomq.20111027085417.15166"><vh>社会</vh></v>
 <v t="zoomq.20100914211211.6784"><vh>关系网</vh></v>
 </v>
-<v t="zoomq.20111031085013.11786" a="EO"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20111031085013.11786" a="E"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
 <v t="zoomq.20111031085013.11787"><vh>图元</vh></v>
 <v t="zoomq.20111031085013.11788"><vh>原创</vh></v>
 <v t="zoomq.20111031085013.11789"><vh>翻译</vh></v>
@@ -70194,7 +70194,7 @@ original-&gt;rwp4l [label="80%",style="setlinewidth(1)"]
 
     translate-&gt;{techbook tools pydocs};
 
-    techbook-&gt;hgtip [label="5%",style="setlinewidth(0.5)"]
+    techbook-&gt;hgtip [label="27/26",style="setlinewidth(1)",color=green]
     techbook-&gt;pymotw [label="54%",style="dashed,setlinewidth(0.5)"]
     techbook-&gt;tpipy [label="0%",style="dotted,setlinewidth(0.5)"]
 

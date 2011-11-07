@@ -91,7 +91,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
 
         translate->{techbook tools pydocs};
 
-        techbook->hgtip [label="5%",style="setlinewidth(0.5)"]
+        techbook->hgtip [label="27/26",style="setlinewidth(1)",color=green]
         techbook->pymotw [label="54%",style="dashed,setlinewidth(0.5)"]
         techbook->tpipy [label="0%",style="dotted,setlinewidth(0.5)"]
 
