@@ -11,7 +11,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20080621102004.2"><vh>@chapters</vh></v>
-<v t="zoomq.20100408222312.5717" a="E"><vh>.dot</vh>
+<v t="zoomq.20100408222312.5717"><vh>.dot</vh>
 <v t="zoomq.20100903105555.6665"><vh>_stuff</vh>
 <v t="zoomq.20100908150441.6737"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
 <v t="zoomq.20100908150441.6732"><vh>动态生成属性函式</vh></v>
@@ -63,7 +63,7 @@
 <v t="zoomq.20100901204131.7773"><vh>关系网</vh></v>
 </v>
 </v>
-<v t="zoomq.20100916094556.6792" a="E"><vh>abt.zoomquiet.org</vh>
+<v t="zoomq.20100916094556.6792"><vh>abt.zoomquiet.org</vh>
 <v t="zoomq.20100408222312.5718"><vh>@nosent zoomquiet_org_idx.dot</vh>
 <v t="zoomq.20100408222312.5719"><vh>图元</vh>
 <v t="zoomq.20100901204131.7774"><vh>Share</vh></v>
@@ -79,14 +79,14 @@
 <v t="zoomq.20111027085417.15166"><vh>社会</vh></v>
 <v t="zoomq.20100914211211.6784"><vh>关系网</vh></v>
 </v>
-<v t="zoomq.20111031085013.11786" a="E"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20111031085013.11786"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
 <v t="zoomq.20111031085013.11787"><vh>图元</vh></v>
 <v t="zoomq.20111031085013.11788"><vh>原创</vh></v>
 <v t="zoomq.20111031085013.11789"><vh>翻译</vh></v>
 <v t="zoomq.20111031085013.11790"><vh>关系网</vh></v>
 </v>
 </v>
-<v t="zoomq.20100916094556.6791" a="E"><vh>abt.大妈书</vh>
+<v t="zoomq.20100916094556.6791"><vh>abt.大妈书</vh>
 <v t="zoomq.20100926100840.7122"><vh>@nosent zqtools_mapping.dot</vh>
 <v t="zoomq.20100926100840.7123"><vh>图元</vh>
 <v t="zoomq.20100926100840.7124"><vh>Import</vh></v>
@@ -124,7 +124,7 @@
 </v>
 </v>
 <v t="zoomq.20100903105555.6572" a="E"><vh>幻灯</vh>
-<v t="zoomq.20080523161605"><vh>s5:public</vh>
+<v t="zoomq.20080523161605" a="E"><vh>s5:public</vh>
 <v t="zoomq.20100726095759.6175"><vh>_stuff</vh>
 <v t="zoomq.20100726095759.6174"><vh>brief0</vh></v>
 <v t="zoomq.20100726130819.5995"><vh>PKM</vh>
@@ -138,9 +138,161 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20111013085658.9846"><vh>111111-pyconchina-mq-taste</vh></v>
+<v t="zoomq.20111013085658.9846" a="E"><vh>111111-pyconchina-mq-taste</vh>
+<v t="zoomq.20111111090027.11917" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20111111090027.11918"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
+<v t="zoomq.20111111090027.11919"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20111111090027.11920"><vh>免责</vh></v>
+<v t="zoomq.20111111090027.11921"><vh>起因</vh>
+<v t="zoomq.20111111090027.11922"><vh>原因</vh></v>
+<v t="zoomq.20111114113146.10870"><vh>原因的原因</vh></v>
+<v t="zoomq.20111114113146.10872"><vh>原因的原因的原因</vh></v>
+<v t="zoomq.20111114113146.10874"><vh>根源原因</vh></v>
+<v t="zoomq.20111114113146.10876"><vh>耦合</vh></v>
+</v>
+<v t="zoomq.20111111090027.14184" a="E"><vh>对策</vh>
+<v t="zoomq.20111111090027.14185"><vh>耦合</vh></v>
+<v t="zoomq.20111114113146.10878"><vh>即使</vh></v>
+<v t="zoomq.20111114113146.10880"><vh>业务!?</vh></v>
+<v t="zoomq.20111114113146.10882"><vh>应用</vh></v>
+<v t="zoomq.20111114113146.10884"><vh>实体</vh></v>
+<v t="zoomq.20111114113146.10886"><vh>事务</vh></v>
+<v t="zoomq.20111114113146.10888" a="E"><vh>目标</vh>
+<v t="zoomq.20111114113146.10890"><vh>假设</vh>
+<v t="zoomq.20111114113146.10892"><vh>分层无关</vh></v>
+<v t="zoomq.20111114113146.10894"><vh>范围有关</vh></v>
+<v t="zoomq.20111114113146.10896"><vh>至少一次</vh></v>
+</v>
+<v t="zoomq.20111114113146.10897" a="E"><vh>原则</vh>
+<v t="zoomq.20111114113146.10899"><vh>小实体</vh></v>
+<v t="zoomq.20111114113146.10901"><vh>消息</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20111111090027.14180" a="E"><vh>实现</vh>
+<v t="zoomq.20111111090027.14181"><vh>MQ</vh>
+<v t="zoomq.20111114113146.13622"><vh>MQ:M</vh></v>
+<v t="zoomq.20111114113146.13624"><vh>MQ:Q</vh>
+<v t="zoomq.20111114113146.13626"><vh>Q的要求</vh></v>
+<v t="zoomq.20111114113146.13628"><vh>Q的要求</vh></v>
+<v t="zoomq.20111114113146.13630"><vh>Q的要求</vh></v>
+</v>
+</v>
+<v t="zoomq.20111114113146.13632"><vh>前提</vh></v>
+<v t="zoomq.20111114113146.13634"><vh>e.g注册</vh>
+<v t="zoomq.20111114113146.13637"><vh>MQ化后</vh></v>
+</v>
+<v t="zoomq.20111114113146.13640"><vh>各种异步</vh></v>
+<v t="zoomq.20111114165944.10925"><vh>karait</vh></v>
+<v t="zoomq.20111114165944.10927"><vh>芹菜</vh></v>
+<v t="zoomq.20111114165944.10929"><vh>代码</vh></v>
+</v>
+<v t="zoomq.20111114113146.10904" a="E"><vh>沟通</vh>
+<v t="zoomq.20111111090027.11950"><vh>总结7+-2</vh></v>
+<v t="zoomq.20111111090027.11951"><vh>Q&amp;A</vh></v>
+</v>
+<v t="zoomq.20111111090027.11952"><vh>version</vh>
+<v t="zoomq.20111111090027.11953"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20110317085545.11551"><vh>111117-time-km</vh>
+<v t="zoomq.20110317085545.11552"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
+<v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20110317085545.11555"><vh>免责</vh>
+<v t="zoomq.20110317085545.11556"><vh>Takahashi</vh>
+<v t="zoomq.20110317085545.11557"><vh>Takahashi</vh></v>
+<v t="zoomq.20110317085545.11558"><vh>Takahashi</vh></v>
+<v t="zoomq.20110317085545.11559"><vh>Takahashi</vh></v>
+<v t="zoomq.20110317085545.11560"><vh>Takahashi</vh></v>
+<v t="zoomq.20110317085545.11561"><vh>Takahashi</vh></v>
+<v t="zoomq.20110317085545.11562"><vh>Takahashi</vh></v>
+</v>
+</v>
+<v t="zoomq.20110317085545.11563"><vh>brief0</vh>
+<v t="zoomq.20110317085545.11564"><vh>abt.ZQ</vh>
+<v t="zoomq.20110317085545.11565"><vh>本命年</vh></v>
+<v t="zoomq.20110317085545.11566"><vh>ZQ1999</vh></v>
+<v t="zoomq.20110317085545.11567"><vh>ZQsh</vh></v>
+<v t="zoomq.20110317085545.11568"><vh>ZQ社区</vh>
+<v t="zoomq.20110317085545.11569"><vh>ZQ2003</vh></v>
+<v t="zoomq.20110317085545.11570"><vh>ZQ2004</vh></v>
+<v t="zoomq.20110317085545.11571"><vh>ZQ2005</vh></v>
+<v t="zoomq.20110317085545.11572"><vh>ZQ2007</vh></v>
+<v t="zoomq.20110317085545.11573"><vh>ECUG</vh></v>
+<v t="zoomq.20110317085545.11574"><vh>ZQ2008</vh></v>
+<v t="zoomq.20110317085545.11575"><vh>ZQ2009</vh></v>
+<v t="zoomq.20110317085545.11576"><vh>ZQ2010</vh></v>
+</v>
+<v t="zoomq.20110317085545.11577"><vh>ZQ大妈</vh></v>
+</v>
+<v t="zoomq.20110317085545.11578"><vh>&lt;/ZQ&gt;</vh></v>
+</v>
+<v t="zoomq.20110317085545.11579"><vh>brief1</vh>
+<v t="zoomq.20110317085545.11580"><vh>知识</vh>
+<v t="zoomq.20110317085545.11581"><vh>知</vh></v>
+<v t="zoomq.20110317085545.11582"><vh>识</vh></v>
+<v t="zoomq.20110317085545.11583"><vh>/知识</vh></v>
+</v>
+<v t="zoomq.20110317085545.11584"><vh>KM</vh>
+<v t="zoomq.20110317085545.11585"><vh>PKM</vh>
+<v t="zoomq.20110317085545.11586"><vh>KM:SECI</vh>
+<v t="zoomq.20110317085545.11587"><vh>知识之轮</vh></v>
+<v t="zoomq.20110317085545.11588"><vh>EKM</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20110317085545.11589"><vh>/KM</vh></v>
+</v>
+<v t="zoomq.20110317085545.11590"><vh>brief2</vh>
+<v t="zoomq.20110317085545.11591"><vh>&lt;tools&gt;</vh>
+<v t="zoomq.20110317085545.11592"><vh>LevelRedar</vh></v>
+<v t="zoomq.20110317085545.11593"><vh>&lt;think&gt;</vh>
+<v t="zoomq.20110317085545.11594"><vh>MindMap</vh></v>
+<v t="zoomq.20110317085545.11595"><vh>xMind</vh></v>
+<v t="zoomq.20110317085545.11596"><vh>dot</vh></v>
+<v t="zoomq.20110317085545.11597"><vh>doxygen</vh></v>
+<v t="zoomq.20110317085545.11598"><vh>websequencediagrams</vh>
+<v t="zoomq.20110317085545.11599"><vh>websequencediagrams</vh></v>
+<v t="zoomq.20110317085545.11600"><vh>websequencediagrams</vh></v>
+<v t="zoomq.20110317085545.11601"><vh>websequencediagrams</vh></v>
+<v t="zoomq.20110317085545.11602"><vh>websequencediagrams</vh></v>
+<v t="zoomq.20110317085545.11603"><vh>websequencediagrams</vh></v>
+</v>
+<v t="zoomq.20110317085545.11604"><vh>hand</vh></v>
+<v t="zoomq.20110317085545.11605"><vh>&lt;/think&gt;</vh></v>
+</v>
+<v t="zoomq.20110317085545.11606"><vh>蕃茄时间</vh></v>
+<v t="zoomq.20110317085545.11607"><vh>小时间</vh></v>
+<v t="zoomq.20110317085545.11608"><vh>切换任务</vh></v>
+<v t="zoomq.20110317085545.11609"><vh>纸笔</vh></v>
+<v t="zoomq.20110317085545.11610"><vh>&lt;/tools&gt;</vh></v>
+</v>
+<v t="zoomq.20110317085545.11611"><vh>&lt;share&gt;</vh>
+<v t="zoomq.20110317085545.11612"><vh>WeKnow:1</vh>
+<v t="zoomq.20110317085545.11613"><vh>WeKnow:2</vh></v>
+<v t="zoomq.20110317085545.11614"><vh>WeKnow:3</vh></v>
+<v t="zoomq.20110317085545.11615"><vh>WeKnow:0</vh></v>
+</v>
+<v t="zoomq.20110317085545.11616"><vh>写博客吧</vh></v>
+<v t="zoomq.20110317085545.11617"><vh>&lt;/share&gt;</vh></v>
+</v>
+<v t="zoomq.20110317085545.11618"><vh>宅点东西吧</vh></v>
+</v>
+<v t="zoomq.20110317085545.11619"><vh>brief3</vh>
+<v t="zoomq.20110317085545.11620"><vh>总结7+-2</vh></v>
+<v t="zoomq.20110317085545.11621"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20110317085545.11622"><vh>小小鸟</vh></v>
+<v t="zoomq.20110317085545.11623"><vh>讲演之禅</vh></v>
+</v>
+<v t="zoomq.20110317085545.11624"><vh>version</vh>
+<v t="zoomq.20110317085545.11625"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
+</v>
+</v>
+</v>
 <v t="zoomq.20111022215647.9886"><vh>111023-demo-story</vh>
-<v t="zoomq.20111022215647.9887" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20111022215647.9887"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111022215647.9888"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20111022215647.9889"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20111022215647.9890"><vh>免责</vh></v>
@@ -504,7 +656,7 @@
 </v>
 </v>
 <v t="zoomq.20110507085622.10251"><vh>110320-mq-first-taste</vh>
-<v t="zoomq.20110507085622.10252"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110507085622.10252" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110507085622.10253"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110507085622.10254"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110507085622.10255"><vh>免责</vh></v>
@@ -531,7 +683,7 @@
 <v t="zoomq.20110507085622.10275"><vh>swallower</vh></v>
 <v t="zoomq.20110507085622.10276"><vh>__mail()</vh></v>
 </v>
-<v t="zoomq.20110507085622.10277"><vh>brief2</vh>
+<v t="zoomq.20110507085622.10277" a="E"><vh>brief2</vh>
 <v t="zoomq.20110507085622.10278"><vh>时间初期</vh></v>
 <v t="zoomq.20110507085622.10279"><vh>MQ期</vh></v>
 <v t="zoomq.20110507085622.10280"><vh>重构时间</vh></v>
@@ -554,98 +706,98 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11551"><vh>110311-why-km</vh>
-<v t="zoomq.20110317085545.11552"><vh>@nosent index.rst</vh>
-<v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
-<v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
-<v t="zoomq.20110317085545.11555"><vh>免责</vh>
-<v t="zoomq.20110317085545.11556"><vh>Takahashi</vh>
-<v t="zoomq.20110317085545.11557"><vh>Takahashi</vh></v>
-<v t="zoomq.20110317085545.11558"><vh>Takahashi</vh></v>
-<v t="zoomq.20110317085545.11559"><vh>Takahashi</vh></v>
-<v t="zoomq.20110317085545.11560"><vh>Takahashi</vh></v>
-<v t="zoomq.20110317085545.11561"><vh>Takahashi</vh></v>
-<v t="zoomq.20110317085545.11562"><vh>Takahashi</vh></v>
+<v t="zoomq.20111113005507.10794"><vh>110311-why-km</vh>
+<v t="zoomq.20111113005507.10795" a="O"><vh>@nosent index.rst</vh>
+<v t="zoomq.20111113005507.10796"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
+<v t="zoomq.20111113005507.10797"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20111113005507.10798"><vh>免责</vh>
+<v t="zoomq.20111113005507.10799"><vh>Takahashi</vh>
+<v t="zoomq.20111113005507.10800"><vh>Takahashi</vh></v>
+<v t="zoomq.20111113005507.10801"><vh>Takahashi</vh></v>
+<v t="zoomq.20111113005507.10802"><vh>Takahashi</vh></v>
+<v t="zoomq.20111113005507.10803"><vh>Takahashi</vh></v>
+<v t="zoomq.20111113005507.10804"><vh>Takahashi</vh></v>
+<v t="zoomq.20111113005507.10805"><vh>Takahashi</vh></v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11563"><vh>brief0</vh>
-<v t="zoomq.20110317085545.11564"><vh>abt.ZQ</vh>
-<v t="zoomq.20110317085545.11565"><vh>本命年</vh></v>
-<v t="zoomq.20110317085545.11566"><vh>ZQ1999</vh></v>
-<v t="zoomq.20110317085545.11567"><vh>ZQsh</vh></v>
-<v t="zoomq.20110317085545.11568"><vh>ZQ社区</vh>
-<v t="zoomq.20110317085545.11569"><vh>ZQ2003</vh></v>
-<v t="zoomq.20110317085545.11570"><vh>ZQ2004</vh></v>
-<v t="zoomq.20110317085545.11571"><vh>ZQ2005</vh></v>
-<v t="zoomq.20110317085545.11572"><vh>ZQ2007</vh></v>
-<v t="zoomq.20110317085545.11573"><vh>ECUG</vh></v>
-<v t="zoomq.20110317085545.11574"><vh>ZQ2008</vh></v>
-<v t="zoomq.20110317085545.11575"><vh>ZQ2009</vh></v>
-<v t="zoomq.20110317085545.11576"><vh>ZQ2010</vh></v>
+<v t="zoomq.20111113005507.10806"><vh>brief0</vh>
+<v t="zoomq.20111113005507.10807"><vh>abt.ZQ</vh>
+<v t="zoomq.20111113005507.10808"><vh>本命年</vh></v>
+<v t="zoomq.20111113005507.10809"><vh>ZQ1999</vh></v>
+<v t="zoomq.20111113005507.10810"><vh>ZQsh</vh></v>
+<v t="zoomq.20111113005507.10811"><vh>ZQ社区</vh>
+<v t="zoomq.20111113005507.10812"><vh>ZQ2003</vh></v>
+<v t="zoomq.20111113005507.10813"><vh>ZQ2004</vh></v>
+<v t="zoomq.20111113005507.10814"><vh>ZQ2005</vh></v>
+<v t="zoomq.20111113005507.10815"><vh>ZQ2007</vh></v>
+<v t="zoomq.20111113005507.10816"><vh>ECUG</vh></v>
+<v t="zoomq.20111113005507.10817"><vh>ZQ2008</vh></v>
+<v t="zoomq.20111113005507.10818"><vh>ZQ2009</vh></v>
+<v t="zoomq.20111113005507.10819"><vh>ZQ2010</vh></v>
 </v>
-<v t="zoomq.20110317085545.11577"><vh>ZQ大妈</vh></v>
+<v t="zoomq.20111113005507.10820"><vh>ZQ大妈</vh></v>
 </v>
-<v t="zoomq.20110317085545.11578"><vh>&lt;/ZQ&gt;</vh></v>
+<v t="zoomq.20111113005507.10821"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20110317085545.11579"><vh>brief1</vh>
-<v t="zoomq.20110317085545.11580"><vh>知识</vh>
-<v t="zoomq.20110317085545.11581"><vh>知</vh></v>
-<v t="zoomq.20110317085545.11582"><vh>识</vh></v>
-<v t="zoomq.20110317085545.11583"><vh>/知识</vh></v>
+<v t="zoomq.20111113005507.10822"><vh>brief1</vh>
+<v t="zoomq.20111113005507.10823"><vh>知识</vh>
+<v t="zoomq.20111113005507.10824"><vh>知</vh></v>
+<v t="zoomq.20111113005507.10825"><vh>识</vh></v>
+<v t="zoomq.20111113005507.10826"><vh>/知识</vh></v>
 </v>
-<v t="zoomq.20110317085545.11584"><vh>KM</vh>
-<v t="zoomq.20110317085545.11585"><vh>PKM</vh>
-<v t="zoomq.20110317085545.11586"><vh>KM:SECI</vh>
-<v t="zoomq.20110317085545.11587"><vh>知识之轮</vh></v>
-<v t="zoomq.20110317085545.11588"><vh>EKM</vh></v>
+<v t="zoomq.20111113005507.10827"><vh>KM</vh>
+<v t="zoomq.20111113005507.10828"><vh>PKM</vh>
+<v t="zoomq.20111113005507.10829"><vh>KM:SECI</vh>
+<v t="zoomq.20111113005507.10830"><vh>知识之轮</vh></v>
+<v t="zoomq.20111113005507.10831"><vh>EKM</vh></v>
 </v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11589"><vh>/KM</vh></v>
+<v t="zoomq.20111113005507.10832"><vh>/KM</vh></v>
 </v>
-<v t="zoomq.20110317085545.11590"><vh>brief2</vh>
-<v t="zoomq.20110317085545.11591"><vh>&lt;tools&gt;</vh>
-<v t="zoomq.20110317085545.11592"><vh>LevelRedar</vh></v>
-<v t="zoomq.20110317085545.11593"><vh>&lt;think&gt;</vh>
-<v t="zoomq.20110317085545.11594"><vh>MindMap</vh></v>
-<v t="zoomq.20110317085545.11595"><vh>xMind</vh></v>
-<v t="zoomq.20110317085545.11596"><vh>dot</vh></v>
-<v t="zoomq.20110317085545.11597"><vh>doxygen</vh></v>
-<v t="zoomq.20110317085545.11598"><vh>websequencediagrams</vh>
-<v t="zoomq.20110317085545.11599"><vh>websequencediagrams</vh></v>
-<v t="zoomq.20110317085545.11600"><vh>websequencediagrams</vh></v>
-<v t="zoomq.20110317085545.11601"><vh>websequencediagrams</vh></v>
-<v t="zoomq.20110317085545.11602"><vh>websequencediagrams</vh></v>
-<v t="zoomq.20110317085545.11603"><vh>websequencediagrams</vh></v>
+<v t="zoomq.20111113005507.10833"><vh>brief2</vh>
+<v t="zoomq.20111113005507.10834"><vh>&lt;tools&gt;</vh>
+<v t="zoomq.20111113005507.10835"><vh>LevelRedar</vh></v>
+<v t="zoomq.20111113005507.10836"><vh>&lt;think&gt;</vh>
+<v t="zoomq.20111113005507.10837"><vh>MindMap</vh></v>
+<v t="zoomq.20111113005507.10838"><vh>xMind</vh></v>
+<v t="zoomq.20111113005507.10839"><vh>dot</vh></v>
+<v t="zoomq.20111113005507.10840"><vh>doxygen</vh></v>
+<v t="zoomq.20111113005507.10841"><vh>websequencediagrams</vh>
+<v t="zoomq.20111113005507.10842"><vh>websequencediagrams</vh></v>
+<v t="zoomq.20111113005507.10843"><vh>websequencediagrams</vh></v>
+<v t="zoomq.20111113005507.10844"><vh>websequencediagrams</vh></v>
+<v t="zoomq.20111113005507.10845"><vh>websequencediagrams</vh></v>
+<v t="zoomq.20111113005507.10846"><vh>websequencediagrams</vh></v>
 </v>
-<v t="zoomq.20110317085545.11604"><vh>hand</vh></v>
-<v t="zoomq.20110317085545.11605"><vh>&lt;/think&gt;</vh></v>
+<v t="zoomq.20111113005507.10847"><vh>hand</vh></v>
+<v t="zoomq.20111113005507.10848"><vh>&lt;/think&gt;</vh></v>
 </v>
-<v t="zoomq.20110317085545.11606"><vh>蕃茄时间</vh></v>
-<v t="zoomq.20110317085545.11607"><vh>小时间</vh></v>
-<v t="zoomq.20110317085545.11608"><vh>切换任务</vh></v>
-<v t="zoomq.20110317085545.11609"><vh>纸笔</vh></v>
-<v t="zoomq.20110317085545.11610"><vh>&lt;/tools&gt;</vh></v>
+<v t="zoomq.20111113005507.10849"><vh>蕃茄时间</vh></v>
+<v t="zoomq.20111113005507.10850"><vh>小时间</vh></v>
+<v t="zoomq.20111113005507.10851"><vh>切换任务</vh></v>
+<v t="zoomq.20111113005507.10852"><vh>纸笔</vh></v>
+<v t="zoomq.20111113005507.10853"><vh>&lt;/tools&gt;</vh></v>
 </v>
-<v t="zoomq.20110317085545.11611"><vh>&lt;share&gt;</vh>
-<v t="zoomq.20110317085545.11612"><vh>WeKnow:1</vh>
-<v t="zoomq.20110317085545.11613"><vh>WeKnow:2</vh></v>
-<v t="zoomq.20110317085545.11614"><vh>WeKnow:3</vh></v>
-<v t="zoomq.20110317085545.11615"><vh>WeKnow:0</vh></v>
+<v t="zoomq.20111113005507.10854"><vh>&lt;share&gt;</vh>
+<v t="zoomq.20111113005507.10855"><vh>WeKnow:1</vh>
+<v t="zoomq.20111113005507.10856"><vh>WeKnow:2</vh></v>
+<v t="zoomq.20111113005507.10857"><vh>WeKnow:3</vh></v>
+<v t="zoomq.20111113005507.10858"><vh>WeKnow:0</vh></v>
 </v>
-<v t="zoomq.20110317085545.11616"><vh>写博客吧</vh></v>
-<v t="zoomq.20110317085545.11617"><vh>&lt;/share&gt;</vh></v>
+<v t="zoomq.20111113005507.10859"><vh>写博客吧</vh></v>
+<v t="zoomq.20111113005507.10860"><vh>&lt;/share&gt;</vh></v>
 </v>
-<v t="zoomq.20110317085545.11618"><vh>宅点东西吧</vh></v>
+<v t="zoomq.20111113005507.10861"><vh>宅点东西吧</vh></v>
 </v>
-<v t="zoomq.20110317085545.11619"><vh>brief3</vh>
-<v t="zoomq.20110317085545.11620"><vh>总结7+-2</vh></v>
-<v t="zoomq.20110317085545.11621"><vh>Q&amp;A</vh></v>
-<v t="zoomq.20110317085545.11622"><vh>小小鸟</vh></v>
-<v t="zoomq.20110317085545.11623"><vh>讲演之禅</vh></v>
+<v t="zoomq.20111113005507.10862"><vh>brief3</vh>
+<v t="zoomq.20111113005507.10863"><vh>总结7+-2</vh></v>
+<v t="zoomq.20111113005507.10864"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20111113005507.10865"><vh>小小鸟</vh></v>
+<v t="zoomq.20111113005507.10866"><vh>讲演之禅</vh></v>
 </v>
-<v t="zoomq.20110317085545.11624"><vh>version</vh>
-<v t="zoomq.20110317085545.11625"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
+<v t="zoomq.20111113005507.10867"><vh>version</vh>
+<v t="zoomq.20111113005507.10868"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
 </v>
@@ -1427,8 +1579,8 @@
 <v t="zoomq.20110302103337.8748"><vh>html-s5</vh>
 <v t="zoomq.20110302103337.8749"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20110302103337.8848"><vh>rst2s5</vh>
-<v t="zoomq.20110302103337.8849"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110302103337.8848" a="E"><vh>rst2s5</vh>
+<v t="zoomq.20110302103337.8849" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110302103337.8850"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8851"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8852"><vh>免责</vh>
@@ -58686,7 +58838,9 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 </t>
-<t tx="zoomq.20110317085545.11551">@path 110311-why-km
+<t tx="zoomq.20110317085545.11551">@path 111117-time-km
+
+时间-&gt;知识 的练习性/流动性-&gt;行为的管理
 
 </t>
 <t tx="zoomq.20110317085545.11552">@language rest
@@ -58694,7 +58848,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. include:: &lt;s5defs.txt&gt;
 
 ==================================================================
-点解KM
+时间.知识的管理
 ==================================================================
 
 ～持续的效率进化之旅 (powered by rst2S5)
@@ -69025,13 +69179,27 @@ href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳
 
 
 </t>
-<t tx="zoomq.20111013085658.9846">用MongoDB取代RabbitMQ - NoSQLFan - 关注NoSQL相关技术、新闻
-file:///home/zoomq/zdata/zScrapBook/ZqFLOSS/data/20111010164511/index.html
+<t tx="zoomq.20111013085658.9846">@path 111111-pyconchina-mq-taste
 
+用MongoDB取代RabbitMQ - NoSQLFan - 关注NoSQL相关技术、新闻
+file:///home/zoomq/zdata/zScrapBook/ZqFLOSS/data/20111010164511/index.html
 
 CRUD 渣滓; 污垢; 黏糊糊的脏东西;
 
 各种 ablity ...
+
+幂等性(idempotence，例如确保重试的消息不会带来副作用)
+原子事务  Atomic Transactions
+
+实体  Entities
+協作  Partner
+    消息  Messages:
+        as
+        状态  State
+    业务  Business:
+        关系
+活动  Activities
+行为  Behavior
 </t>
 <t tx="zoomq.20111022215647.9886">@path 111023-demo-story
 
@@ -70199,7 +70367,7 @@ original-&gt;rwp4l [label="80%",style="setlinewidth(1)"]
     techbook-&gt;tpipy [label="0%",style="dotted,setlinewidth(0.5)"]
 
     pydocs-&gt;w2pyzh [label="15%",style="dashed,setlinewidth(1)"]
-    pydocs-&gt;docspy3 [label="14%",style="setlinewidth(3)"]
+    pydocs-&gt;docspy3 [label="80/424",style="setlinewidth(3)"]
 
     tools-&gt;sphnix [label="2%",style="setlinewidth(0.5)"]
     tools-&gt;leodoc [label="0%",style="dotted,setlinewidth(0.5)"]
@@ -70210,6 +70378,2803 @@ original-&gt;rwp4l [label="80%",style="setlinewidth(1)"]
 edge [style=invis];
 title-&gt;ZQ;
 mailme-&gt;OBP;
+
+</t>
+<t tx="zoomq.20111111090027.11917">@language rest
+@tabwidth -4
+.. include:: &lt;s5defs.txt&gt;
+
+==================================================================
+MQ解耦开发
+==================================================================
+
+～ 分享如何偷懒 (powered by rst2S5)
+
+:Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:URL:    http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste
+
+&lt;&lt;DOCDEFINE&gt;&gt;
+
+&lt;&lt;footer&gt;&gt;
+
+@others
+
+</t>
+<t tx="zoomq.20111111090027.11918">.. This document has been placed in the CC domain.
+.. _Docutils: http://docutils.sourceforge.net/
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+.. _S5: http://meyerweb.com/eric/tools/s5/
+.. _Firefox: http://www.mozilla.com/firefox/
+
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+.. _(CC)by-nc-sa:
+    http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. _FireFox:
+    http://www.mozilla.com/firefox/
+.. _S5介绍:
+    http://zoomquiet.org/res/s5/100826-PyTDD/s5.html
+.. _WYTIWYG:
+    http://wiki.woodpecker.org.cn/moin/WyTiWyG
+.. _提问的智慧:
+    http://wiki.woodpecker.org.cn/moin/AskForHelp
+
+.. 图片定义区
+.. |bullet| unicode:: U+02022
+.. |mode| unicode:: U+00D8 .. capital o with stroke
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: top
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+.. |LeoProse| image:: pix/LeoProse.gif
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
+    :alt: (CC)by-nc-sa 许可证
+    :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
+    :alt: (CC)by-nc-sa 许可证
+    :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+    :alt: 是也乎;-)
+    :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+.. |lovpy| image:: i/logo/110409-book-logo-h90.png
+    :alt: 可爱的Python
+    :scale: 100 %
+    :target: http://lovelypython.zoomquiet.org/
+</t>
+<t tx="zoomq.20111111090027.11919">.. footer:: 
+
+   `Zoom.Quiet`_ v11.11.11 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+</t>
+<t tx="zoomq.20111111090027.11920">&lt;免责/&gt;
+=========
+
+.. container:: handout
+
+   山寨的，非业界公认的，个人体验为基础!
+   |zqeye|
+
+
+.. class:: takahashi1
+
+    参考所有同好行为总结而得
+
+
+    - 一切资料来自网络互动挖掘
+    - 一切想法来自日常学习工作
+    - 一切体悟来自各种沟通交流
+    - 一切知识来自社区分享印证
+    - 一切经验来自个人失败体验
+
+
+
+.. container:: notes
+
+   - 免责是必须的，分享是无理由的！
+
+
+
+
+
+</t>
+<t tx="zoomq.20111111090027.11921">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   简单想,简单试,简单用... |zqeye|
+
+
+.. class:: takahashi
+
+    - :orange:`5' 起因`
+    - :silver:`10' 对策`
+    - :silver:`10' 实现`
+    - :silver:`5'沟通`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+起因
+==================
+
+.. container:: handout
+
+   各种杯具的根源 |zqeye|
+
+
+.. class:: takahashi8
+
+    复杂
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111111090027.11922">根源在哪儿?!
+==================
+
+.. container:: handout
+
+   多变/前后依赖/矛盾的业务 |zqeye|
+
+
+.. class:: takahashi8
+
+    业务
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111111090027.11950">总之:任何好想法
+====================================
+
+.. container:: handout
+
+   期望记住的~单位时间能记住的只有7+-2 个 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 复杂事关态度
+    - 耦合的根源在业务
+    - 异步业务靠设计
+    - 用MQ我选择...
+    - 革命尚未成功
+
+
+.. container:: notes
+
+    - Doing now! don't thinking!
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111111090027.11951">&lt;discuss/&gt;
+==========
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    Q&amp;A
+
+
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111111090027.11952">&lt;版本/&gt;
+=========
+
+.. container:: handout
+
+   |zqeye|
+
+
+- 111114 增补叙述
+- 111112 调整结构
+- 111111 创建幻灯
+
+:反馈:
+    `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+
+http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste
+
+
+
+
+&lt;&lt;S5&gt;&gt;
+
+</t>
+<t tx="zoomq.20111111090027.11953">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
+==============================================================================================
+
+.. container:: handout
+
+    纯HTML 幻灯撰写框架!... |S5icon|
+
+
+- S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-Based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
+
+ - 仅仅依靠 CSS+JS 的HTML格式幻灯演示框架
+
+- 我的编辑环境: |LeoProse| ~ `文学化编辑器 &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+
+
+.. image:: pix/2010-01-18-230729_605x421_leo.png
+    :align: center
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+
+
+.. container:: notes
+
+   - 虽然有很多其它替代方案，至今用得最爽的还是 S5
+   - 最好也是最不好的，就是S5 需要专用的http 空间发布，无法直接分享到 slidshare.com 之类SNS空间中
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111111090027.14180">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   简单想,简单试,简单用... |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 起因`
+    - :gray:`10' 对策`
+    - :orange:`10' 实现`
+    - :silver:`5'沟通`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111111090027.14181">支撑核心
+==================
+
+.. container:: handout
+
+   异步化一切 |zqeye|
+
+
+.. class:: takahashi8
+
+    MQ
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111111090027.14184">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   简单想,简单试,简单用... |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 起因`
+    - :orange:`10' 对策`
+    - :silver:`10' 实现`
+    - :silver:`5'沟通`
+
+
+.. container:: notes
+
+   - 
+
+
+
+对策
+==================
+
+.. container:: handout
+
+   简单的保持需要更加简单的设计 |zqeye|
+
+
+.. class:: takahashi8
+
+    :orange:`K` ISS
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111111090027.14185">复杂的标志性表现
+====================================
+
+.. container:: handout
+
+   牵一发动全身 |zqeye|
+
+
+.. class:: takahashi8
+
+    耦合
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10794">@path 110311-why-km
+
+</t>
+<t tx="zoomq.20111113005507.10795">@language rest
+@tabwidth -4
+.. include:: &lt;s5defs.txt&gt;
+
+==================================================================
+点解KM
+==================================================================
+
+～持续的效率进化之旅 (powered by rst2S5)
+
+:Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:URL:    http://zoomquiet.org/res/s5/110311-why-km/
+
+&lt;&lt;DOCDEFINE&gt;&gt;
+
+&lt;&lt;footer&gt;&gt;
+
+@others
+
+</t>
+<t tx="zoomq.20111113005507.10796">.. This document has been placed in the CC domain.
+.. _Docutils: http://docutils.sourceforge.net/
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+.. _S5: http://meyerweb.com/eric/tools/s5/
+.. _Firefox: http://www.mozilla.com/firefox/
+
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+.. _(CC)by-nc-sa:
+    http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. _FireFox:
+    http://www.mozilla.com/firefox/
+.. _S5介绍:
+    http://zoomquiet.org/res/s5/100826-PyTDD/s5.html
+.. _WYTIWYG:
+    http://wiki.woodpecker.org.cn/moin/WyTiWyG
+
+.. 图片定义区
+.. |bullet| unicode:: U+02022
+.. |mode| unicode:: U+00D8 .. capital o with stroke
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: top
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+.. |LeoProse| image:: pix/LeoProse.gif
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+   :alt: 是也乎;-)
+   :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+
+.. |lr_s5| image:: i/levelradar_s5.png
+    :scale: 100 %
+</t>
+<t tx="zoomq.20111113005507.10797">.. footer:: 
+
+   `Zoom.Quiet`_ v11.03.2 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+</t>
+<t tx="zoomq.20111113005507.10798">&lt;免责/&gt;
+=========
+
+.. container:: handout
+
+   山寨的，非业界公认的，个人体验为基础!
+   |zqeye|
+
+
+.. class:: takahashi1
+
+    参考所有同好行为总结而得
+
+
+    .. class:: incremental
+
+    - 一切资料来自网络互动挖掘
+    - 一切想法来自日常学习工作
+    - 一切体悟来自各种沟通交流
+    - 一切知识来自社区分享印证
+    - 一切经验来自个人失败体验
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10799">高橋流!
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center
+
+    .. image:: pix/Takahashi-method.jpg
+        :scale: 150 %
+        :alt: 高橋流
+        :align: center
+        :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
+
+</t>
+<t tx="zoomq.20111113005507.10800">文字
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    巨大
+
+
+</t>
+<t tx="zoomq.20111113005507.10801">幻灯
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    很多
+
+
+</t>
+<t tx="zoomq.20111113005507.10802">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    快!
+
+
+</t>
+<t tx="zoomq.20111113005507.10803">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi8
+
+    很快!
+
+
+</t>
+<t tx="zoomq.20111113005507.10804">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi7
+
+    非常快!
+
+
+</t>
+<t tx="zoomq.20111113005507.10805">所以:
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi10
+
+    :orange:`听`
+
+
+</t>
+<t tx="zoomq.20111113005507.10806">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   俺-&gt;KM-&gt;工具-&gt;持续完善 |zqeye|
+
+
+.. class:: takahashi
+
+    - :orange:`5' 有关ZQ`
+    - :silver:`15' 啥是知识管理`
+    - :silver:`15' 怎么知识管理`
+    - :silver:`15'自由沟通`
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10807">&lt;Zoom.Quiet&gt;
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/id/100514-zq-eye.png
+        :align: center
+        :scale: 80 %
+        :alt: 是也乎,是也乎
+
+    .. image:: i/map/50ren-ZoomQuiet-s5-v800.png
+        :align: center
+        :scale: 100 %
+        :alt: Zoom.Quiet
+        :target: http://zoomquiet.org
+
+
+</t>
+<t tx="zoomq.20111113005507.10808">是也乎
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    本命年+1
+
+</t>
+<t tx="zoomq.20111113005507.10809">广告@常州
+==================
+
+.. container:: handout
+
+   大学时代入错行，浪费两年;-{ |zqeye|
+
+
+
+.. class:: takahashi8
+
+    1999
+
+</t>
+<t tx="zoomq.20111113005507.10810">开发@上海
+==================
+
+.. container:: handout
+
+   战上海:HTML-&gt;JS-&gt;PHP-&gt;XSL-&gt;Py |zqeye|
+
+
+
+.. class:: takahashi8
+
+    ~2004
+
+</t>
+<t tx="zoomq.20111113005507.10811">PI@北京
+==================
+
+.. container:: handout
+
+   混北京:SINA-&gt;CPyUG-&gt;SLL |zqeye|
+
+
+.. class:: takahashi8
+
+    ~2007
+
+</t>
+<t tx="zoomq.20111113005507.10812">`2003:CZUG.org &lt;http://czug.org/&gt;`__
+======================================================
+
+.. container:: handout
+
+   learnning Zope/Plone... |zqeye|
+
+
+
+.. class:: takahashi1
+
+    - **C** hina
+    - **Z** ope
+    - **U** ser
+    - **G** roup
+
+    .. image:: i/logo/logo-czug.png
+        :align: center
+        :scale: 100 %
+        :alt: http://czug.org
+
+</t>
+<t tx="zoomq.20111113005507.10813">`2004:啄木鸟 &lt;http://www.woodpecker.org.cn/&gt;`__
+=================================================
+
+.. container:: handout
+
+   admin. MoinMoin 1.2.4... |zqeye|
+
+
+.. class:: center
+
+    .. image:: i/logo/logo-wpwww_banner.png
+        :align: center
+        :scale: 100 %
+        :alt: http://www.woodpecker.org.cn
+
+    - |logo_wpwiki_banner| \ :sup:`MoinMoin 1.4.*`\    
+    - |wiki_banner| \ :sup:`MoinMoin 1.7.*`\    
+    - |wp_zoomq_scrot| \ :sup:`MoinMoin 1.9.*`\
+
+
+
+.. |logo_wpwiki_banner| image:: i/logo/logo_wpwiki_banner.gif
+    :align: bottom
+    :scale: 100 %
+    :alt: http://www.woodpecker.org.cn
+
+.. |wiki_banner| image:: i/logo/logo_wp-wiki_banner.png
+    :align: bottom
+    :scale: 100 %
+    :alt: http://wiki.woodpecker.org.cn
+
+.. |wp_zoomq_scrot| image:: i/logo/logo_wiki-wp_zoomq_scrot.png
+    :align: bottom
+    :scale: 100 %
+    :alt: http://wiki,woodpecker.org.cn
+
+
+</t>
+<t tx="zoomq.20111113005507.10814">2005:`CPyUG`__-&gt; BPyUG
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
+.. container:: handout
+
+   working with Python,in SINA.com |zqeye|
+
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/CPUGlogo.png
+        :align: center
+        :scale: 100 %
+        :alt: CPyUG
+        :target: http://wiki.woodpecker.org.cn/moin/CPUG
+
+</t>
+<t tx="zoomq.20111113005507.10815">2007:`ZPyUG`__
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/ZPyUG
+
+.. container:: handout
+
+    - 在北京,主持完成了25次技术分享
+    - 进入金山,使用Python 进行了各种平台的构建~ `KTRAC`__
+    - spreading Python everywhere to everyone... 
+
+
+__ http://py.kingsoft.net/ktrac
+
+.. class:: takahashi1
+
+    - **珠** 三角
+    - **P** ython
+    - **U** ser
+    - **G** roup
+
+
+    .. image:: i/logo/logo_163_game.gif
+        :align: center
+    .. image:: i/logo/logo_sina_home.gif
+        :align: center
+    .. image:: i/logo/logo-ks.jpg
+        :align: center
+
+</t>
+<t tx="zoomq.20111113005507.10816">`ECUG.org`__
+======================================================
+
+__ http://ecug.org/
+.. container:: handout
+
+   spreading Python everywhere to everyone... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ecug-logo_67bw.jpg
+        :align: center
+        :scale: 100 %
+        :alt: ECUG
+        :target: http://code.google.com/p/ecug/wiki/FrontPage
+
+
+</t>
+<t tx="zoomq.20111113005507.10817">2008:|SLL.org| "SLL.org"
+======================================================
+
+.. container:: handout
+
+   spreading Pythonic everywhere to everyone... |zqeye|
+
+
+.. class:: takahashi
+
+    教育大
+
+    发现
+
+
+.. class:: takahashi2 center
+
+    http://sociallearnlab.org/
+
+
+.. |SLL.org| image:: i/logo/2018-gz-sll.png
+    :scale: 100 %
+    :alt: SLL
+    :target: http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&amp;variant=zh-cn
+
+
+</t>
+<t tx="zoomq.20111113005507.10818">2009-09-01 出版
+======================================================
+
+.. container:: handout
+
+   - 将多年的体验,集中到一本入门图书 "可爱的Python"
+   - 并主持ZPyUG 近10次技术分享  |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/090902-lovpy.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 可愛的Python
+        :target: http://book.douban.com/subject/3884108/
+
+</t>
+<t tx="zoomq.20111113005507.10819">2010~
+======================================================
+
+.. container:: handout
+
+   社区在不断发展... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
+        :align: center
+        :scale: 100 %
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+</t>
+<t tx="zoomq.20111113005507.10820">综上...
+==================
+
+.. container:: handout
+
+   基调是分享交流;-} |zqeye|
+
+
+.. class:: takahashi
+
+    俺就一
+
+    `社区大妈`__
+
+__ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+
+
+</t>
+<t tx="zoomq.20111113005507.10821">&lt;/Zoom.Quiet&gt;
+==================
+
+.. container:: handout
+
+    - 纯种Pythoner，自由软件原教旨主义者 
+    - 关注社会化教育及知识管理；喜爱SF和摄影。 
+    - 尝试使用Pythonic体验感化国人主动进入自由软件世界体验/学习/再创作
+
+
+.. class:: takahashi8
+
+   (^.^)
+
+
+</t>
+<t tx="zoomq.20111113005507.10822">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   俺-&gt;KM-&gt;工具-&gt;持续完善 |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 有关ZQ`
+    - :orange:`15' 啥是知识管理`
+    - :silver:`15' 怎么知识管理`
+    - :silver:`15'自由沟通`
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10823">&lt;知识&gt;
+==================
+
+.. container:: handout
+
+   不是东西... |zqeye|
+
+
+.. class:: takahashi
+
+    Knowledge
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10824">掌握过去
+==================
+
+.. container:: handout
+
+   了解/理解/知晓... |zqeye|
+
+
+.. class:: takahashi10
+
+    知
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10825">识别未知
+==================
+
+.. container:: handout
+
+   辨明/分析/规划... |zqeye|
+
+
+.. class:: takahashi10
+
+    识
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10826">&lt;/知识&gt;
+==================
+
+.. container:: handout
+
+   不是东西... |zqeye|
+
+
+.. class:: takahashi9
+
+    心态
+
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10827">&lt;KM&gt;
+==================
+
+.. container:: handout
+
+   持续才有效果的活动... |zqeye|
+
+
+.. class:: takahashi8
+
+    增进
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10828">个人知识管理!
+==================
+
+.. container:: handout
+
+   从尊重自个儿掌握的知识开始! |zqeye|
+
+
+.. class:: takahashi7
+
+    `PKM &lt;http://sociallearnlab.org/wiki/index.php?title=PKM&amp;variant=zh-cn&gt;`__
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10829">`SECI模型`__
+=======================
+
+__ http://www.12manage.com/methods_nonaka_seci_zh.html
+
+.. container:: handout
+
+   - 知识只有流动才有价值...
+   - 野中郁次郎（Ikujiro Nonaka）和竹内弘高（Hirotaka Takeuchi）认为...
+
+
+.. class:: takahashi7
+
+    .. image:: i/KMsys-Seci20m1.jpg
+        :align: center
+        :scale: 100 %
+        :alt: ScrapBook
+        :target: http://sociallearnlab.org/wiki/index.php?title=PKM&amp;variant=zh-cn
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10830">知识之轮
+=======================
+
+.. container:: handout
+
+    知识是种动态的流动状态! |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/kmtranfer2.gif
+        :align: center
+        :scale: 120 %
+        :alt: ScrapBook
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10831">EKM
+=======================
+
+.. container:: handout
+
+    企业知识管理
+
+    # 技术学派: KM是对信息的管理;
+
+    # 行为学派: KM是对人的管理;
+
+    # 综合学派: KM是将信息处理能力和人的创造力结合,增强组织对环境的适应能力; 
+
+
+.. class:: takahashi7
+
+    .. image:: i/kmzl2.jpg
+        :align: center
+        :scale: 100 %
+        :alt: ScrapBook
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10832">&lt;/KM&gt;
+==================
+
+.. container:: handout
+
+   持续改进才有效果！ |zqeye|
+
+
+
+- `提问的智慧 &lt;http://wiki.woodpecker.org.cn/moin/AskForHelp&gt;`__
+- `邮件列表的规范和礼节 &lt;http://www.woodpecker.org.cn/share/classes/050730-CPUG/usMaillist/&gt;`__
+- `WYTIWYG &lt;http://wiki.woodpecker.org.cn/moin/WyTiWyG&gt;`__
+- `Wiki导览 +从入门到享用MoinMoin &lt;http://www.woodpecker.org.cn/share/doc/SKSIG/DriveIntoMoinPub/&gt;`__
+- `"假学习"和"真学习" &lt;http://www.zreading.cn/archives/1629.html&gt;`__
+- `我也有话要说 &lt;http://www.lixiaolai.com/index.php/archives/9568.html&gt;`__ \ :sup:`笑来系列`\
+- `褪墨 &lt;http://www.mifengtd.cn/about&gt;`_  \ :sup:`专注GTD`\
+- `如何进行人脉管理 &lt;http://hi.baidu.com/wikicc/blog/item/388012f398f2efca0a46e0ac.html&gt;`__
+- ...
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10833">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   俺-&gt;KM-&gt;工具-&gt;持续完善 |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 有关ZQ`
+    - :gray:`15' 啥是知识管理`
+    - :orange:`15' 怎么知识管理`
+    - :silver:`15'自由沟通`
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10834">其它...
+==================
+
+.. container:: handout
+
+   坚持才有效果！ |zqeye|
+
+
+.. class:: takahashi7
+
+    &lt;tools&gt;
+
+</t>
+<t tx="zoomq.20111113005507.10835">评估雷达
+========================================================================
+
+.. container:: handout
+
+   - 专注度~没有意外功能..
+   - 易用性度~学习成本
+   - CIL可自动化性
+   - 扩展度 ~ 数据是否标准
+   - 社区活跃度
+
+
+.. class:: takahashi7
+
+    .. image:: i/levelradar_demo.png
+        :align: center
+        :scale: 100 %
+        :alt: 雷达图
+        :target: #
+
+
+</t>
+<t tx="zoomq.20111113005507.10836">有关思考...
+==================
+
+.. container:: handout
+
+   持续改进才有效果！... |zqeye|
+
+
+.. class:: takahashi
+
+    &lt;think&gt;
+
+
+</t>
+<t tx="zoomq.20111113005507.10837">`思维导图 &lt;http://book.douban.com/subject/3691437/&gt;`__
+========================================================================
+
+.. container:: handout
+
+   TONY.BUZAN发明的思維工具,极靠谱的风行全球...... |zqeye|
+
+
+.. class:: takahashi
+
+    `Mind map &lt;http://en.wikipedia.org/wiki/Mind_map&gt;`__
+
+
+</t>
+<t tx="zoomq.20111113005507.10838">|logo-xmind|
+==============================================================================================
+
+.. |logo-xmind| image:: i/logo/logo-xmind.png
+    :align: top
+    :scale: 100 %
+    :target: http://www.xmind.net
+
+.. container:: handout
+
+    最新开源跨平台思維导图工具,支持快速分享空间!! |lr_xmind|
+
+
+.. |lr_xmind| image:: i/levelradar_xmind.png
+    :scale: 100 %
+
+.. class:: takahashi7
+
+    .. image:: i/snap/zqtool-xmind_809x494_scrot.png
+        :align: center
+        :scale: 100 %
+        :target: http://www.xmind.net/share/zoomquiet/
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10839">`Graphviz &lt;http://www.graphviz.org/About.php&gt;`__
+==============================================================================================
+
+
+.. container:: handout
+
+    来自AT&amp;T 的绝佳图形脚本工具! |lr_graphviz|
+
+
+.. |lr_graphviz| image:: i/levelradar_graphviz.png
+    :scale: 100 %
+
+.. class:: takahashi7
+
+    .. image:: i/snap/zqtool-dot-moin_761x433_scrot.png
+        :align: center
+        :scale: 100 %
+        :target: #
+
+
+</t>
+<t tx="zoomq.20111113005507.10840">|logo-doxygen|
+==============================================================================================
+
+.. |logo-doxygen| image:: i/logo/logo-doxygen.png
+    :align: top
+    :scale: 100 %
+    :target: http://www.doxygen.org
+
+.. container:: handout
+
+    通用文档化注释工具... |zqeye|
+
+.. class:: takahashi7
+
+    .. image:: i/snap/dot_8c__incl.png
+        :align: center
+        :scale: 80 %
+        :target: http://www.graphviz.org/pub/graphviz/development/doxygen/html/dot_8c.html
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10841">`WebSequenceDiagrams.com`__
+==============================================================================================
+
+__ http://www.websequencediagrams.com/
+
+.. container:: handout
+
+    云端序列图谱生成服务... |zqeye|
+
+
+.. code-block:: python
+
+    # wsd_flow.txt
+        participant "思想" as mind
+        participant "脚本" as txt
+        participant "WebSequenceDiagrams.com" as WSD
+
+        mind-&gt;txt: 记述思想
+        activate txt
+        txt-&gt;WSD: 直接提交
+        activate WSD
+        WSD-&gt;mind: 返回图片
+        deactivate WSD
+        mind-&gt;mind: 对话/重构
+        deactivate mind
+        mind-&gt;txt: 修订记述
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10842">`WebSequenceDiagrams.com`__ 默认风格
+==============================================================================================
+
+__ http://www.websequencediagrams.com/
+
+.. container:: handout
+
+    云端序列图谱生成服务... |zqeye|
+
+
+.. image:: i/wsd_flow-default.png
+    :align: center
+    :scale: 120 %
+    :target: http://www.websequencediagrams.com/
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10843">`WebSequenceDiagrams.com`__ 风格:qsd
+==============================================================================================
+
+__ http://www.websequencediagrams.com/
+
+.. container:: handout
+
+    云端序列图谱生成服务... |zqeye|
+
+
+.. image:: i/wsd_flow-qsd.png
+    :align: center
+    :scale: 120 %
+    :target: http://www.websequencediagrams.com/
+
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10844">`WebSequenceDiagrams.com`__ 风格:modern-blue
+==============================================================================================
+
+__ http://www.websequencediagrams.com/
+
+.. container:: handout
+
+    云端序列图谱生成服务... |zqeye|
+
+
+
+.. image:: i/wsd_flow-modern-blue.png
+    :align: center
+    :scale: 120 %
+    :target: http://www.websequencediagrams.com/
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10845">`WebSequenceDiagrams.com`__ 风格:omegapple
+==============================================================================================
+
+__ http://www.websequencediagrams.com/
+
+.. container:: handout
+
+    云端序列图谱生成服务... |zqeye|
+
+
+.. image:: i/wsd_flow-omegapple.png
+    :align: center
+    :scale: 120 %
+    :target: http://www.websequencediagrams.com/
+
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10846">`WebSequenceDiagrams.com`__ 风格:napkin
+==============================================================================================
+
+__ http://www.websequencediagrams.com/
+
+.. container:: handout
+
+    云端序列图谱生成服务... |lr_WSD|
+
+
+.. |lr_WSD| image:: i/levelradar_WSD.png
+    :scale: 100 %
+
+.. image:: i/wsd_flow-napkin.png
+    :align: center
+    :scale: 120 %
+    :target: http://www.websequencediagrams.com/
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10847">手绘
+==============================================================================================
+
+.. container:: handout
+
+    直觉的记录思維!... |lr_handraw|
+
+
+.. |lr_handraw| image:: i/levelradar_handraw.png
+    :scale: 100 %
+
+
+.. class:: takahashi7
+
+    .. image:: i/handarw-mindmap.gif
+        :align: center
+        :scale: 80 %
+        :target: http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping
+
+
+</t>
+<t tx="zoomq.20111113005507.10848">有关思考...
+==================
+
+.. container:: handout
+
+   在任何情况下坚持使用思维导图才能积累出分析型思維... |zqeye|
+
+
+.. class:: takahashi
+
+    &lt;/think&gt;
+
+</t>
+<t tx="zoomq.20111113005507.10849">|pomodoro|
+==============================================================================================
+
+.. |pomodoro| image:: i/logo/PomodoroTimer.png
+    :align: top
+    :scale: 100 %
+    :target: http://www.infoq.com/cn/articles/pomodoro-practices
+
+.. container:: handout
+
+    转变时间使用观点和习惯... |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/snap/zqtool-pomodorotechnique_665x540_scrot.png
+        :align: center
+        :scale: 100 %
+        :target: http://www.pomodorotechnique.com/
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10850">|pomodoro|
+==============================================================================================
+
+
+.. container:: handout
+
+    挤出来的时间怎么用?... |zqeye|
+
+
+.. class:: takahashi7
+
+    小时间?
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10851">|pomodoro|
+==============================================================================================
+
+.. container:: handout
+
+    小时间发现后,怎么产出?... |zqeye|
+
+
+.. class:: takahashi8
+
+    精神
+
+    集中
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10852">纸+笔
+==============================================================================================
+
+.. container:: handout
+
+    永远无法替代的记录工具！... |lr_pen|
+
+
+.. |lr_pen| image:: i/levelradar_pen.png
+    :scale: 100 %
+
+
+.. class:: takahashi8
+
+    .. image:: i/snap/Moleskine_barnner.jpg
+        :align: center
+        :scale: 100 %
+        :target: http://www.moleskineasia.com/
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10853">其它...
+==================
+
+.. container:: handout
+
+   坚持才有效果！ |zqeye|
+
+
+.. class:: takahashi7
+
+    &lt;/tools&gt;
+
+</t>
+<t tx="zoomq.20111113005507.10854">分享是王道
+==================
+
+.. container:: handout
+
+   坚持才有效果！ |zqeye|
+
+
+.. class:: takahashi7
+
+    &lt;share&gt;
+
+</t>
+<t tx="zoomq.20111113005507.10855">SNS学习原理:0
+=======================
+
+.. container:: handout
+
+   小时的我... |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/_know-me.gif
+        :align: center
+        :scale: 150 %
+        :alt: ScrapBook
+        :target: http://wiki.woodpecker.org.cn/moin/WeKnow
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10856">SNS学习原理:1
+=======================
+
+.. container:: handout
+
+   成长的我... |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/_know-me1.gif
+        :align: center
+        :scale: 150 %
+        :alt: ScrapBook
+        :target: http://wiki.woodpecker.org.cn/moin/WeKnow
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10857">SNS学习原理:2
+=======================
+
+.. container:: handout
+
+   成为一体的大家... |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/_know-we.gif
+        :align: center
+        :scale: 150 %
+        :alt: ScrapBook
+        :target: http://wiki.woodpecker.org.cn/moin/WeKnow
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10858">SNS学习原理:反証
+=======================
+
+.. container:: handout
+
+   向反方向... |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/_know-dot.gif
+        :align: center
+        :scale: 150 %
+        :alt: ScrapBook
+        :target: http://wiki.woodpecker.org.cn/moin/WeKnow
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10859">Blogging 吧!
+==================
+
+.. container:: handout
+
+   - A:练习表述;B:进入知识圈
+   - `[编程杂谈]写写Blog吧-limodou的学习记录 &lt;http://blog.donews.com/limodou/archive/2004/12/14/202590.aspx&gt;`__
+
+
+.. class:: takahashi7
+
+    入圏
+
+
+.. container:: notes
+
+   - 发表是最好的记忆!
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10860">分享引发创造!
+==================
+
+.. container:: handout
+
+   坚持才有效果！ |zqeye|
+
+
+.. class:: takahashi7
+
+    &lt;/share&gt;
+
+</t>
+<t tx="zoomq.20111113005507.10861">`OTAKU`__ 些什么吧!
+====================================
+
+__ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
+
+.. container:: handout
+
+   功夫在诗外！拓展有益的社会关系，有利于... |zqeye|
+
+
+.. class:: takahashi10
+
+    宅
+
+
+.. container:: notes
+
+   - 心神合一
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10862">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   俺-&gt;KM-&gt;工具-&gt;持续完善 |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 有关ZQ`
+    - :gray:`15' 啥是知识管理`
+    - :gray:`15' 怎么知识管理`
+    - :orange:`15'自由沟通`
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10863">总之
+=========
+
+.. container:: handout
+
+   期望可以记住的~单位时间可以记住的只有7+-2 个 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    * 知识是种流动的学习!
+    * 知识管理就是集体学习!
+    * 纸笔永不过时...
+    * 用各种渠道分享吧!
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10864">&lt;discuss/&gt;
+==========
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    Q&amp;A
+
+
+
+.. class:: takahashi0
+
+    ...
+
+    http://zoomquiet.org/res/s5/110311-why-km
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10865">最后...
+==================
+
+.. container:: handout
+
+   好书推荐... |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s3958139-itbird.jpg
+        :align: center
+        :scale: 100 %
+        :alt: IT小小鸟
+        :target: http://book.douban.com/subject/4006425/
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10866">最后的最后...
+==================
+
+.. container:: handout
+
+   好书推荐... |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s4279952-zen4talk.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 讲演之禅
+        :target: http://book.douban.com/subject/4760725/
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20111113005507.10867">&lt;版本/&gt;
+=========
+
+.. container:: handout
+
+   |zqeye|
+
+
+- 110309 增补知识分析
+- 110302 重构为知识管理重点
+- 101005 根据盛大讲演现场反馈修订错误!
+- 100926 增补EKM/工具关联图谱
+- 100917 增补软件评估雷图示
+- 100915 迁移为 rST2S5 格式
+- 100728 增补髙桥流以及蕃茄时间说明 
+- 100724 为金山新人培训重构 
+- 100331 为珠三角技术沙龙创建
+
+
+:反馈:
+    Zoom.Quiet@gmail.com
+:查阅:
+    http://zoomquiet.org/res/s5/110311-why-km/
+
+
+&lt;&lt;S5&gt;&gt;</t>
+<t tx="zoomq.20111113005507.10868">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
+==============================================================================================
+
+.. container:: handout
+
+    纯HTML 幻灯撰写框架!... |lr_s5| 
+
+
+- S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-Based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
+
+ - 仅仅依靠 CSS+JS 的HTML格式幻灯演示框架
+
+- 我的编辑环境: |LeoProse| ~ `文学化编辑器 &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+
+
+.. image:: pix/2010-01-18-230729_605x421_leo.png
+    :align: center
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10870">为毛有乱来的业务?
+======================================================
+
+.. container:: handout
+
+   是共军太狡猾 |zqeye|
+
+
+.. class:: takahashi8
+
+    设计
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10872">为毛要乱实现业务?
+======================================================
+
+.. container:: handout
+
+   - 没空宏观规划 |zqeye|
+   - 没空回顾整理
+   - 没心情...
+
+
+.. class:: takahashi8
+
+    :orange:`被` 开发
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10874">真正的原因?
+======================================================
+
+.. container:: handout
+
+   经验不足吧 |zqeye|
+
+
+.. class:: takahashi8
+
+    :orange:`被` 耦合
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10876">依赖是种心理反应
+======================================================
+
+.. container:: handout
+
+   不受控制的功能/代码叠加 |zqeye|
+
+
+.. class:: takahashi8
+
+    蔓生
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10878">功能代码的模块化不解决问题
+====================================
+
+.. container:: handout
+
+   业务的纠结是根源 |zqeye|
+
+
+.. class:: takahashi8
+
+    模块
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10880">此"业务"非彼"业务"
+====================================
+
+.. container:: handout
+
+   - 不是商业过程 |zqeye|
+   - 是指系统内部过程
+
+
+.. class:: takahashi8
+
+    "业务"
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10882">Application
+====================================
+
+.. container:: handout
+
+   实现方案的是应用 |zqeye|
+
+
+.. class:: takahashi8
+
+    应用
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10884">Entities
+====================================
+
+.. container:: handout
+
+   组成应用的实体 |zqeye|
+
+
+.. class:: takahashi8
+
+    实体
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10886">Transactions
+====================================
+
+.. container:: handout
+
+   实体完成的行动是事务 |zqeye|
+
+
+.. class:: takahashi8
+
+    事务
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10888">目标在于:应用...
+====================================
+
+.. container:: handout
+
+   - Almost-Infinite Scaling of Applications |zqeye|
+   - 考虑无限伸缩应用 
+   - 怎么KISS 的来?!
+
+
+.. class:: takahashi
+
+    可伸缩
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10890">对策基于以下理论
+====================================
+
+.. container:: handout
+
+   `[翻译] 超越分布式事务的方法 - 一个叛逆者的观点 - riccc - 博客园 &lt;http://www.cnblogs.com/RicCC/archive/2008/03/30/life-beyond-distributed-transactions.html&gt;`_ |zqeye|
+   
+
+.. class:: takahashi8
+
+    假设
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10892">伸缩性与应用的分层无关
+====================================
+
+.. container:: handout
+
+   `[翻译] 超越分布式事务的方法 - 一个叛逆者的观点 - riccc - 博客园 &lt;http://www.cnblogs.com/RicCC/archive/2008/03/30/life-beyond-distributed-transactions.html&gt;`_ |zqeye|
+   
+
+.. class:: takahashi8
+
+    分层?
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10894">事务序列化范畴与伸缩性有关
+====================================
+
+.. container:: handout
+
+   `[翻译] 超越分布式事务的方法 - 一个叛逆者的观点 - riccc - 博客园 &lt;http://www.cnblogs.com/RicCC/archive/2008/03/30/life-beyond-distributed-transactions.html&gt;`_ |zqeye|
+   
+
+.. class:: takahashi
+
+    事务范围
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10896">多数应用的消息方式与伸缩性有关
+====================================
+
+.. container:: handout
+
+   - At-Least-Once 模式 |zqeye|
+   - 消息分发与持久化数据的更新不是直接结合在一起
+   
+
+.. class:: takahashi
+
+    至少一次
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10897">综上应对
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+
+.. class:: takahashi8
+
+    原则
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+</t>
+<t tx="zoomq.20111114113146.10899">只包含单一事务
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+    小实体
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10901">用消息来协调
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+    消息
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.10904">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   简单想,简单试,简单用... |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 起因`
+    - :gray:`10' 对策`
+    - :gray:`10' 实现`
+    - :orange:`5'沟通`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.13622">Message
+==================
+
+.. container:: handout
+
+   无状态事务的实体键 |zqeye|
+
+
+.. class:: takahashi8
+
+    :orange:`M` Q
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.13624">Queue
+==================
+
+.. container:: handout
+
+   FIFO的管道 |zqeye|
+
+
+.. class:: takahashi8
+
+    M :orange:`Q`
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.13626">Queue的能力
+==================
+
+.. container:: handout
+
+   分支式请求可耐受 |zqeye|
+
+
+.. class:: takahashi8
+
+    迸发
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.13628">Queue的内容
+==================
+
+.. container:: handout
+
+   - Atomic Transactions |zqeye|
+   - 幂等性 Idempotent
+
+
+.. class:: takahashi8
+
+    原子性
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.13630">Queue的监测
+==================
+
+.. container:: handout
+
+   有方法将意外的任务回收 |zqeye|
+
+
+.. class:: takahashi8
+
+    可回收
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.13632">业务原子化
+==================
+
+.. container:: handout
+
+   内部全部 RESTful 接口化 |zqeye|
+
+
+.. class:: takahashi8
+
+    前提
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.13634">网站注册
+==================
+
+.. container:: handout
+
+   标准作法... |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 填写登录表单
+    - 入库
+    - 发送邮件
+    - 返回页面
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.13637">解耦邮件等待
+==================
+
+.. container:: handout
+
+   MQ异步... |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 填写登录表单
+    - 发布事务消息
+    - 返回页面
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114113146.13640">工作组件
+==================
+
+.. container:: handout
+
+   MQ之后... |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 认领消息
+    - 处理
+    - 返回消息
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114165944.10925">`Karait &lt;https://github.com/bcoe/karait&gt;`_
+========================================================================
+
+.. container:: handout
+
+   轻便MQ选择... |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 纯Py
+    - 跨语言接口
+    - MongoDB 后端!
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114165944.10927">`芹菜 &lt;http://celeryproject.org/`_
+========================================================================
+
+.. container:: handout
+
+   高档MQ选择... |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 纯Py
+    - 多后端选择
+    - 多框架结合
+    - 多线程动力(gevent/Eventlet)
+    - ... 
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111114165944.10929">demo:准备中...
+========================================================================
+
+.. container:: handout
+
+   示例代码 |zqeye|
+
+
+.. code-block:: python
+
+        #... overdue     = 73728
+        hashed = db[linkback].split(",")
+        if ini.overdue &lt; int(time.time())-int(hashed[0]):
+            __redirect("Overdue",ini.msgTPLoverdue)
+        # else: ...
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
 
 </t>
 </tnodes>

@@ -96,7 +96,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         techbook->tpipy [label="0%",style="dotted,setlinewidth(0.5)"]
 
         pydocs->w2pyzh [label="15%",style="dashed,setlinewidth(1)"]
-        pydocs->docspy3 [label="14%",style="setlinewidth(3)"]
+        pydocs->docspy3 [label="80/424",style="setlinewidth(3)"]
 
         tools->sphnix [label="2%",style="setlinewidth(0.5)"]
         tools->leodoc [label="0%",style="dotted,setlinewidth(0.5)"]
