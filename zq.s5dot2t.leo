@@ -60091,7 +60091,7 @@ __ http://www.websequencediagrams.com/
 
 .. class:: takahashi7
 
-    .. image:: i/know-me.gif
+    .. image:: i/know-me0.gif
         :align: center
         :scale: 150 %
         :alt: ScrapBook
