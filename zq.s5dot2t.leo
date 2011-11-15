@@ -138,8 +138,8 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20111013085658.9846" a="E"><vh>111111-pyconchina-mq-taste</vh>
-<v t="zoomq.20111111090027.11917" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20111013085658.9846"><vh>111111-pyconchina-mq-taste</vh>
+<v t="zoomq.20111111090027.11917"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111111090027.11918"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20111111090027.11919"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20111111090027.11920"><vh>免责</vh></v>
@@ -150,7 +150,7 @@
 <v t="zoomq.20111114113146.10874"><vh>根源原因</vh></v>
 <v t="zoomq.20111114113146.10876"><vh>耦合</vh></v>
 </v>
-<v t="zoomq.20111111090027.14184" a="E"><vh>对策</vh>
+<v t="zoomq.20111111090027.14184"><vh>对策</vh>
 <v t="zoomq.20111111090027.14185"><vh>耦合</vh></v>
 <v t="zoomq.20111114113146.10878"><vh>即使</vh></v>
 <v t="zoomq.20111114113146.10880"><vh>业务!?</vh></v>
@@ -169,7 +169,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20111111090027.14180" a="E"><vh>实现</vh>
+<v t="zoomq.20111111090027.14180"><vh>实现</vh>
 <v t="zoomq.20111111090027.14181"><vh>MQ</vh>
 <v t="zoomq.20111114113146.13622"><vh>MQ:M</vh></v>
 <v t="zoomq.20111114113146.13624"><vh>MQ:Q</vh>
@@ -187,7 +187,7 @@
 <v t="zoomq.20111114165944.10927"><vh>芹菜</vh></v>
 <v t="zoomq.20111114165944.10929"><vh>代码</vh></v>
 </v>
-<v t="zoomq.20111114113146.10904" a="E"><vh>沟通</vh>
+<v t="zoomq.20111114113146.10904"><vh>沟通</vh>
 <v t="zoomq.20111111090027.11950"><vh>总结7+-2</vh></v>
 <v t="zoomq.20111111090027.11951"><vh>Q&amp;A</vh></v>
 </v>
@@ -196,8 +196,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11551"><vh>111117-time-km</vh>
-<v t="zoomq.20110317085545.11552"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110317085545.11551" a="E"><vh>111117-time-km</vh>
+<v t="zoomq.20110317085545.11552" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11555"><vh>免责</vh>
@@ -227,26 +227,81 @@
 </v>
 <v t="zoomq.20110317085545.11577"><vh>ZQ大妈</vh></v>
 </v>
+<v t="zoomq.20111115090649.12421"><vh>牛妞</vh></v>
 <v t="zoomq.20110317085545.11578"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20110317085545.11579"><vh>brief1</vh>
+<v t="zoomq.20110317085545.11579" a="E"><vh>brief1</vh>
+<v t="zoomq.20111115220826.11004"><vh>时间?</vh></v>
+<v t="zoomq.20111115090649.12483"><vh>TM?</vh>
+<v t="zoomq.20111115090649.12484"><vh>时间?</vh>
+<v t="zoomq.20111115090649.12485"><vh>时</vh></v>
+<v t="zoomq.20111115090649.12486"><vh>间</vh></v>
+</v>
 <v t="zoomq.20110317085545.11580"><vh>知识</vh>
 <v t="zoomq.20110317085545.11581"><vh>知</vh></v>
 <v t="zoomq.20110317085545.11582"><vh>识</vh></v>
 <v t="zoomq.20110317085545.11583"><vh>/知识</vh></v>
 </v>
-<v t="zoomq.20110317085545.11584"><vh>KM</vh>
+<v t="zoomq.20111115090649.12487"><vh>管</vh>
+<v t="zoomq.20111115090649.12488"><vh>理!</vh></v>
+</v>
+<v t="zoomq.20111115090649.12489"><vh>/TM?</vh></v>
+</v>
+<v t="zoomq.20111115090649.12519"><vh>把时间当作朋友</vh></v>
 <v t="zoomq.20110317085545.11585"><vh>PKM</vh>
 <v t="zoomq.20110317085545.11586"><vh>KM:SECI</vh>
 <v t="zoomq.20110317085545.11587"><vh>知识之轮</vh></v>
 <v t="zoomq.20110317085545.11588"><vh>EKM</vh></v>
 </v>
-</v>
-</v>
 <v t="zoomq.20110317085545.11589"><vh>/KM</vh></v>
 </v>
-<v t="zoomq.20110317085545.11590"><vh>brief2</vh>
-<v t="zoomq.20110317085545.11591"><vh>&lt;tools&gt;</vh>
+<v t="zoomq.20111115090649.12490" a="E"><vh>TM!</vh>
+<v t="zoomq.20111115090649.12491" a="E"><vh>点解?!</vh>
+<v t="zoomq.20111115090649.12492"><vh>学生本质</vh></v>
+<v t="zoomq.20111115090649.12493"><vh>职员本质</vh></v>
+<v t="zoomq.20111115090649.12502"><vh>核心原因</vh></v>
+<v t="zoomq.20111115090649.12503"><vh>悲慘</vh></v>
+</v>
+<v t="zoomq.20111115090649.12504"><vh>对策</vh>
+<v t="zoomq.20111115090649.12511"><vh>否则!</vh></v>
+</v>
+<v t="zoomq.20111115220826.11009"><vh>会议</vh>
+<v t="zoomq.20111115220826.11010"><vh>发通知</vh></v>
+<v t="zoomq.20111115220826.11012"><vh>抓落实</vh></v>
+<v t="zoomq.20111115220826.11014"><vh>重检查</vh></v>
+<v t="zoomq.20111115220826.11016"><vh>勤准备</vh></v>
+<v t="zoomq.20111115220826.11018"><vh>细准备</vh></v>
+<v t="zoomq.20111115220826.11020"><vh>做记录</vh></v>
+<v t="zoomq.20111115220826.11022"><vh>发记录</vh></v>
+<v t="zoomq.20111115220826.11024"><vh>定责任</vh></v>
+<v t="zoomq.20111115220826.11026"><vh>做流程</vh></v>
+</v>
+<v t="zoomq.20111115090649.12512"><vh>层级工作</vh></v>
+<v t="zoomq.20111115090649.12513"><vh>管理对象</vh>
+<v t="zoomq.20111115090649.12514"><vh>管理对象1</vh></v>
+<v t="zoomq.20111115090649.12515"><vh>管理对象2</vh></v>
+<v t="zoomq.20111115090649.12516"><vh>管理对象3</vh></v>
+</v>
+<v t="zoomq.20111115090649.12517"><vh>/TM!</vh></v>
+</v>
+</v>
+<v t="zoomq.20110317085545.11590" a="E"><vh>brief2</vh>
+<v t="zoomq.20111115090649.12518"><vh>TM...</vh>
+<v t="zoomq.20111115090649.12520"><vh>矩阵</vh></v>
+<v t="zoomq.20111115090649.12521"><vh>时间帐单</vh>
+<v t="zoomq.20111115090649.12525"><vh>奇特的一生</vh></v>
+<v t="zoomq.20111115090649.12522"><vh>帐单妙处0</vh></v>
+<v t="zoomq.20111115090649.12523"><vh>帐单妙处1</vh></v>
+<v t="zoomq.20111115090649.12524"><vh>帐单妙处2</vh></v>
+<v t="zoomq.20111115090649.12526"><vh>ZQ帐单</vh></v>
+<v t="zoomq.20111115090649.12527"><vh>ZQ帐单分析</vh></v>
+</v>
+<v t="zoomq.20111115090649.12529"><vh>GTD</vh>
+<v t="zoomq.20111115090649.12530"><vh>GTD流程v2</vh></v>
+</v>
+<v t="zoomq.20111115090649.12528"><vh>GMail</vh>
+<v t="zoomq.20111115220826.11006"><vh>早上不收邮件</vh></v>
+</v>
 <v t="zoomq.20110317085545.11592"><vh>LevelRedar</vh></v>
 <v t="zoomq.20110317085545.11593"><vh>&lt;think&gt;</vh>
 <v t="zoomq.20110317085545.11594"><vh>MindMap</vh></v>
@@ -263,28 +318,30 @@
 <v t="zoomq.20110317085545.11604"><vh>hand</vh></v>
 <v t="zoomq.20110317085545.11605"><vh>&lt;/think&gt;</vh></v>
 </v>
-<v t="zoomq.20110317085545.11606"><vh>蕃茄时间</vh></v>
+<v t="zoomq.20110317085545.11606"><vh>蕃茄时间</vh>
 <v t="zoomq.20110317085545.11607"><vh>小时间</vh></v>
 <v t="zoomq.20110317085545.11608"><vh>切换任务</vh></v>
-<v t="zoomq.20110317085545.11609"><vh>纸笔</vh></v>
-<v t="zoomq.20110317085545.11610"><vh>&lt;/tools&gt;</vh></v>
 </v>
-<v t="zoomq.20110317085545.11611"><vh>&lt;share&gt;</vh>
-<v t="zoomq.20110317085545.11612"><vh>WeKnow:1</vh>
+<v t="zoomq.20110317085545.11609"><vh>纸笔</vh></v>
+<v t="zoomq.20111115090649.12532"><vh>/TM...</vh></v>
+</v>
+<v t="zoomq.20110317085545.11611" a="E"><vh>&lt;share&gt;</vh>
+<v t="zoomq.20110317085545.11612" a="E"><vh>WeKnow:1</vh>
 <v t="zoomq.20110317085545.11613"><vh>WeKnow:2</vh></v>
 <v t="zoomq.20110317085545.11614"><vh>WeKnow:3</vh></v>
 <v t="zoomq.20110317085545.11615"><vh>WeKnow:0</vh></v>
 </v>
 <v t="zoomq.20110317085545.11616"><vh>写博客吧</vh></v>
+<v t="zoomq.20111115220826.11028"><vh>反刍</vh></v>
+<v t="zoomq.20110317085545.11618"><vh>宅点东西吧</vh></v>
 <v t="zoomq.20110317085545.11617"><vh>&lt;/share&gt;</vh></v>
 </v>
-<v t="zoomq.20110317085545.11618"><vh>宅点东西吧</vh></v>
 </v>
 <v t="zoomq.20110317085545.11619"><vh>brief3</vh>
 <v t="zoomq.20110317085545.11620"><vh>总结7+-2</vh></v>
-<v t="zoomq.20110317085545.11621"><vh>Q&amp;A</vh></v>
-<v t="zoomq.20110317085545.11622"><vh>小小鸟</vh></v>
+<v t="zoomq.20110317085545.11622"><vh>暗时间</vh></v>
 <v t="zoomq.20110317085545.11623"><vh>讲演之禅</vh></v>
+<v t="zoomq.20110317085545.11621"><vh>Q&amp;A</vh></v>
 </v>
 <v t="zoomq.20110317085545.11624"><vh>version</vh>
 <v t="zoomq.20110317085545.11625"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
@@ -1579,7 +1636,7 @@
 <v t="zoomq.20110302103337.8748"><vh>html-s5</vh>
 <v t="zoomq.20110302103337.8749"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20110302103337.8848" a="E"><vh>rst2s5</vh>
+<v t="zoomq.20110302103337.8848"><vh>rst2s5</vh>
 <v t="zoomq.20110302103337.8849" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110302103337.8850"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8851"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -1594,7 +1651,7 @@
 </v>
 </v>
 <v t="zoomq.20110302103337.8860"><vh>brief0</vh>
-<v t="zoomq.20110302103337.8861"><vh>abt.ZQ</vh>
+<v t="zoomq.20110302103337.8861" a="E"><vh>abt.ZQ</vh>
 <v t="zoomq.20110302103337.8862"><vh>本命年</vh></v>
 <v t="zoomq.20110302103337.8863"><vh>ZQ1999</vh></v>
 <v t="zoomq.20110302103337.8864"><vh>ZQsh</vh></v>
@@ -1608,7 +1665,7 @@
 <v t="zoomq.20110302103337.8872"><vh>ZQ2009</vh></v>
 <v t="zoomq.20110302103337.8873"><vh>ZQ2010</vh></v>
 </v>
-<v t="zoomq.20110302103337.8874"><vh>ZQ大妈</vh>
+<v t="zoomq.20110302103337.8874" a="E"><vh>ZQ大妈</vh>
 <v t="zoomq.20110302103337.8875"><vh>吼</vh></v>
 </v>
 </v>
@@ -58842,6 +58899,21 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 时间-&gt;知识 的练习性/流动性-&gt;行为的管理
 
+
+
+`如何组织一次成功的会议 « 大P的互联网 &lt;http://www.planeboy.net/2010/10/24/how-to-organize-a-successful-meeting.htm/comment-page-1#comment-294&gt;`_
+
+九段秘书的薪酬排行榜
+发通知 600
+抓落实 800
+重检查 1000
+勤准备 1500
+细准备 2000
+作记录 3000 录音...
+发记录 5000
+定责任 10000
+作流程 30000
+
 </t>
 <t tx="zoomq.20110317085545.11552">@language rest
 @tabwidth -4
@@ -58907,7 +58979,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 </t>
 <t tx="zoomq.20110317085545.11554">.. footer:: 
 
-   `Zoom.Quiet`_ v11.03.2 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v11.11.15 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 </t>
 <t tx="zoomq.20110317085545.11555">&lt;免责/&gt;
 =========
@@ -58921,16 +58993,12 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. class:: takahashi1
 
     参考所有同好行为总结而得
-
-
-    .. class:: incremental
-
-    - 一切资料来自网络互动挖掘
-    - 一切想法来自日常学习工作
-    - 一切体悟来自各种沟通交流
-    - 一切知识来自社区分享印证
-    - 一切经验来自个人失败体验
-
+        - 一切资料来自网络互动挖掘
+        - 一切想法来自日常学习工作
+        - 一切体悟来自各种沟通交流
+        - 一切知识来自社区分享印证
+        - 一切经验来自个人失败体验
+    
 
 
 </t>
@@ -59053,8 +59121,8 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. class:: takahashi
 
     - :orange:`5' 有关ZQ`
-    - :silver:`15' 啥是知识管理`
-    - :silver:`15' 怎么知识管理`
+    - :silver:`15' 乜是时间?知识?`
+    - :silver:`15' 怎么管理这货?`
     - :silver:`15'自由沟通`
 
 
@@ -59093,7 +59161,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: takahashi
 
-    本命年+1
+    生日
 
 </t>
 <t tx="zoomq.20110317085545.11566">广告@常州
@@ -59372,14 +59440,14 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. class:: takahashi
 
     - :gray:`5' 有关ZQ`
-    - :orange:`15' 啥是知识管理`
-    - :silver:`15' 怎么知识管理`
+    - :orange:`15' 乜是时间?知识!`
+    - :silver:`15' 怎么管理这货?`
     - :silver:`15'自由沟通`
 
 
 
 </t>
-<t tx="zoomq.20110317085545.11580">&lt;知识&gt;
+<t tx="zoomq.20110317085545.11580">&lt;Knowledge&gt;
 ==================
 
 .. container:: handout
@@ -59387,9 +59455,9 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    不是东西... |zqeye|
 
 
-.. class:: takahashi
+.. class:: takahashi7
 
-    Knowledge
+    知识?
 
 
 
@@ -59405,12 +59473,12 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. container:: handout
 
-   了解/理解/知晓... |zqeye|
+   了解/理解... |zqeye|
 
 
-.. class:: takahashi10
+.. class:: takahashi8
 
-    知
+    :orange:`知` 晓
 
 
 
@@ -59429,9 +59497,9 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    辨明/分析/规划... |zqeye|
 
 
-.. class:: takahashi10
+.. class:: takahashi8
 
-    识
+    :orange:`识` 别
 
 
 
@@ -59442,7 +59510,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 </t>
-<t tx="zoomq.20110317085545.11583">&lt;/知识&gt;
+<t tx="zoomq.20110317085545.11583">&lt;/Knowledge&gt;
 ==================
 
 .. container:: handout
@@ -59450,7 +59518,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    不是东西... |zqeye|
 
 
-.. class:: takahashi9
+.. class:: takahashi8
 
     心态
 
@@ -59465,27 +59533,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 </t>
-<t tx="zoomq.20110317085545.11584">&lt;KM&gt;
-==================
-
-.. container:: handout
-
-   持续才有效果的活动... |zqeye|
-
-
-.. class:: takahashi8
-
-    增进
-
-.. container:: notes
-
-   - 
-
-
-
-
-</t>
-<t tx="zoomq.20110317085545.11585">个人知识管理!
+<t tx="zoomq.20110317085545.11585">&lt;KM&gt;
 ==================
 
 .. container:: handout
@@ -59628,24 +59676,11 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 .. class:: takahashi
 
     - :gray:`5' 有关ZQ`
-    - :gray:`15' 啥是知识管理`
-    - :orange:`15' 怎么知识管理`
+    - :gray:`15' 乜是时间?知识!`
+    - :orange:`15' 怎么管理这货?`
     - :silver:`15'自由沟通`
 
 
-
-</t>
-<t tx="zoomq.20110317085545.11591">其它...
-==================
-
-.. container:: handout
-
-   坚持才有效果！ |zqeye|
-
-
-.. class:: takahashi7
-
-    &lt;tools&gt;
 
 </t>
 <t tx="zoomq.20110317085545.11592">评估雷达
@@ -59689,7 +59724,8 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 .. container:: handout
 
-   TONY.BUZAN发明的思維工具,极靠谱的风行全球...... |zqeye|
+    TONY.BUZAN发明的思維工具,极靠谱的风行全球...... |zqeye|
+
 
 
 .. class:: takahashi
@@ -60032,19 +60068,6 @@ __ http://www.websequencediagrams.com/
 
 
 </t>
-<t tx="zoomq.20110317085545.11610">其它...
-==================
-
-.. container:: handout
-
-   坚持才有效果！ |zqeye|
-
-
-.. class:: takahashi7
-
-    &lt;/tools&gt;
-
-</t>
 <t tx="zoomq.20110317085545.11611">分享是王道
 ==================
 
@@ -60068,7 +60091,7 @@ __ http://www.websequencediagrams.com/
 
 .. class:: takahashi7
 
-    .. image:: i/_know-me.gif
+    .. image:: i/know-me.gif
         :align: center
         :scale: 150 %
         :alt: ScrapBook
@@ -60093,7 +60116,7 @@ __ http://www.websequencediagrams.com/
 
 .. class:: takahashi7
 
-    .. image:: i/_know-me1.gif
+    .. image:: i/know-me1.gif
         :align: center
         :scale: 150 %
         :alt: ScrapBook
@@ -60117,7 +60140,7 @@ __ http://www.websequencediagrams.com/
 
 .. class:: takahashi7
 
-    .. image:: i/_know-we.gif
+    .. image:: i/know-we.gif
         :align: center
         :scale: 150 %
         :alt: ScrapBook
@@ -60143,7 +60166,7 @@ __ http://www.websequencediagrams.com/
 
 .. class:: takahashi7
 
-    .. image:: i/_know-dot.gif
+    .. image:: i/know-dot.gif
         :align: center
         :scale: 150 %
         :alt: ScrapBook
@@ -60225,8 +60248,8 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. class:: takahashi
 
     - :gray:`5' 有关ZQ`
-    - :gray:`15' 啥是知识管理`
-    - :gray:`15' 怎么知识管理`
+    - :gray:`15' 乜是时间?知识!`
+    - :gray:`15' 怎么管理这货?`
     - :orange:`15'自由沟通`
 
 
@@ -60242,8 +60265,8 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: incremental takahashi
 
-    * 知识是种流动的学习!
-    * 知识管理就是集体学习!
+    * 知识是种流动的行为!
+    * 知识管理就是改进集体行为!
     * 纸笔永不过时...
     * 用各种渠道分享吧!
 
@@ -60298,11 +60321,11 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: takahashi
 
-    .. image:: i/s3958139-itbird.jpg
+    .. image:: i/s6586365-darktime.jpg
         :align: center
         :scale: 100 %
-        :alt: IT小小鸟
-        :target: http://book.douban.com/subject/4006425/
+        :alt: 暗时间
+        :target: http://book.douban.com/subject/6709809/
 
 .. container:: notes
 
@@ -60346,6 +60369,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
+- 111111 并入时间管理
 - 110309 增补知识分析
 - 110302 重构为知识管理重点
 - 101005 根据盛大讲演现场反馈修订错误!
@@ -73173,6 +73197,1044 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12421">牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 910d
+
+
+
+.. image:: i/foto/niuniu110105.jpeg
+    :align: center
+    :scale: 110 %
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+
+
+</t>
+<t tx="zoomq.20111115090649.12483">&lt; init.Time Management&gt;
+====================================
+
+.. container:: handout
+
+   只能用生命来实证的时生活状态...  |zqeye|
+
+
+.. class:: takahashi8
+
+    时间?
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12484">什么是时间？
+====================================
+
+.. container:: handout
+
+    从`1915之后 &lt;http://amuseum.cdstm.cn/AMuseum/time/01gzsj/0106.html&gt;`_，时间已经失去了原有意义 
+    |zqeye|
+
+
+.. class:: takahashi7
+
+    幻觉!
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12485">什么是时间？
+====================================
+
+.. container:: handout
+
+   从我看来...  |zqeye|
+
+
+.. class:: takahashi8
+
+    :orange:`时` 刻
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12486">什么是时间？
+====================================
+
+.. container:: handout
+
+   行为而已...  |zqeye|
+
+
+.. class:: takahashi8
+
+    :orange:`间` 隔
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12487">什么是管理?
+====================================
+
+.. container:: handout
+
+   对内外的信息管道和整理控制...  |zqeye|
+
+
+.. class:: takahashi8
+
+    :orange:`管` 道
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12488">什么是管理?
+====================================
+
+.. container:: handout
+
+   对内外的信息管道和整理控制...  |zqeye|
+
+
+.. class:: takahashi8
+
+    梳 :orange:`理`
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12489">&lt;/init.Time Management&gt;
+====================================
+
+.. container:: handout
+
+   心灵和智慧的力量外在表现...  |zqeye|
+
+
+.. class:: takahashi7
+
+    关乎
+
+    心智
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12490">&lt;Why Time Management&gt;
+====================================
+
+.. container:: handout
+
+   为什么以及怎么...  |zqeye|
+
+
+.. class:: takahashi8
+
+    不靠谱
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12491">为什么要...
+====================================
+
+.. container:: handout
+
+   为嘛这么讲？！  |zqeye|
+
+
+.. class:: takahashi7
+
+    点解?!
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12492">学生本质
+====================================
+
+.. container:: handout
+
+   就职以前的生活状态...  |zqeye|
+
+
+.. class:: takahashi9
+
+    消费者
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12493">职员本质
+====================================
+
+.. container:: handout
+
+   在企業,一切以赢利为目标导向，一切都成本化了...  |zqeye|
+
+
+.. class:: takahashi9
+
+    销售者
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12502">一切要有个交待
+====================================
+
+.. container:: handout
+
+   时间作为沉没成本必须高度经营.....  |zqeye|
+
+
+.. class:: takahashi8
+
+    回报率
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12503">悲惨工作三征兆!
+====================================
+
+.. container:: handout
+
+   `The Three Signs of a Miserable Job &lt;http://www.amazon.cn/dp/enbk612613&gt;`__  |zqeye|
+
+
+.. class:: takahashi4
+
+
+    .. class:: incremental
+
+    - 无闻性
+    - 不可测
+    - 无关性
+
+.. container:: notes
+
+   - ... http://wiki.woodpecker.org.cn/moin/5W1H
+
+
+</t>
+<t tx="zoomq.20111115090649.12504">对策
+====================================
+
+.. container:: handout
+
+   任意时刻,不背黑锅,就得！必须明确的工程元素!在第一时间!  |zqeye|
+
+
+.. class:: takahashi7
+
+
+    `5W1H &lt;http://wiki.woodpecker.org.cn/moin/5W1H&gt;`__
+
+.. container:: notes
+
+   - Who/When/Where/Why/What/How
+
+
+</t>
+<t tx="zoomq.20111115090649.12511">否则!
+====================================
+
+.. container:: handout
+
+   你的宿命必须是...  |zqeye|
+
+
+.. class:: takahashi9
+
+    :red:`烈士`
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20111115090649.12512">工作的层级
+====================================
+
+.. container:: handout
+
+   出自 `从员工到总经理的成长笔记：自慢 &lt;http://vip.book.sina.com.cn/book/index_72252.html&gt;`__  |zqeye|
+
+
+.. class:: takahashi
+
+
+    .. class:: incremental
+
+    - 做了
+    - 做完
+    - 做对
+    - 做好
+    - 帮他人做好!
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12513">管理对象:0
+====================================
+
+.. container:: handout
+
+   时间的价值真的不同,,,  |zqeye|
+
+
+.. class:: takahashi9
+
+
+    自己
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12514">管理对象:1
+====================================
+
+.. container:: handout
+
+   管理领导的时间就是为领导服务,,,  |zqeye|
+
+
+.. class:: takahashi9
+
+
+    领导
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12515">管理对象:2
+====================================
+
+.. container:: handout
+
+   协调同事的时间,就是协同,,,  |zqeye|
+
+
+.. class:: takahashi9
+
+
+    同事
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12516">管理对象:3
+====================================
+
+.. container:: handout
+
+   追踪下属的时间,就是团队,,,  |zqeye|
+
+
+.. class:: takahashi9
+
+
+    下属
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12517">&lt;/Why Time Management&gt;
+====================================
+
+.. container:: handout
+
+   心灵和智慧的力量外在表现...  |zqeye|
+
+
+.. class:: takahashi7
+
+    时间管理！
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12518">&lt;Management Base Usage&gt;
+====================================
+
+.. container:: handout
+
+   只有适合自己的方法／工具，没有银弹式的方法／工具!  |zqeye|
+
+
+.. class:: takahashi8
+
+    冇最好
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12519">图书推荐!
+====================================
+
+.. container:: handout
+
+   李笑来的真心分享...己再版4次了..  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s3778613-friendtime.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 李笑来
+        :target: http://book.douban.com/subject/3609132
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12520">时间效率矩阵
+====================================
+
+.. container:: handout
+
+   最基础工具..  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/PrioritizationMatrix.png
+        :align: center
+        :scale: 100 %
+        :target: http://en.wikipedia.org/wiki/Seven_Management_and_Planning_Tools#Prioritization_Matrix
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12521">最神奇工具
+====================================
+
+.. container:: handout
+
+   坚持才有效果！  |zqeye|
+
+
+.. class:: takahashi8
+
+    时间账单
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12522">时间账单妙处:0
+====================================
+
+.. container:: handout
+
+   唤醒原有的宝物...自动的工作节拍器  |zqeye|
+
+
+.. class:: takahashi7
+
+    生体节拍
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12523">时间账单妙处:1
+====================================
+
+.. container:: handout
+
+   人的记忆是最不靠谱的东西,只有数据才是可分析的  |zqeye|
+
+
+.. class:: takahashi7
+
+    发觉黑洞
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12524">时间账单妙处:2
+====================================
+
+.. container:: handout
+
+   自身工作/学习/生活... 时间经验的积累和复用!  |zqeye|
+
+
+.. class:: takahashi7
+
+    效能经验
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12525">奇特的一生
+====================================
+
+.. container:: handout
+
+   亚力山大.亚力山德罗维奇.柳比歇夫...分析学,生物分类学,昆虫学的非天才一生...  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s1093496-stronglife.jpg
+        :align: center
+        :scale: 100 %
+        :target: http://book.douban.com/subject/1115353
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12526">`俺的时间账单数据分析 9.02 &lt;http://wiki.s.kingsoft.net/moin/ZoomQuiet/2009-01-08&gt;`__
+=============================================================================================
+
+.. container:: handout
+
+   美式速记薄......  |zqeye|
+
+
+.. class:: takahashi
+
+
+   .. class:: borderless
+
+    ========  ========
+    |tilog|   |talog|
+    ========  ========
+
+
+.. |tilog| image:: i/snap/zq-tilog.jpg
+    :scale: 100 %
+.. |talog| image:: i/snap/zq-talog.jpg
+    :scale: 100 %
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12527">`俺的时间账单数据分析 9.02 &lt;http://wiki.s.kingsoft.net/moin/ZoomQuiet/2009-01-08&gt;`__
+=============================================================================================
+
+.. container:: handout
+
+   简单分析后就可以获得一些效率改进点...  |zqeye|
+
+
+.. class:: takahashi
+
+   .. class:: borderless
+
+    ========  ========
+    |tlpie|   |tlradar|
+    ========  ========
+
+
+.. |tlpie| image:: i/snap/zq-ti-month-pie-0902.png
+    :scale: 100 %
+.. |tlradar| image:: i/snap/zq-ti-month-radar-0902.png
+    :scale: 100 %
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12528">GMail
+====================================
+
+.. container:: handout
+
+   核心的核心沟通平台!..  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zqtool-gmail_1014x497_scrot.png
+        :align: center
+        :scale: 100 %
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12529">面对复杂
+====================================
+
+.. container:: handout
+
+   要形成靠谱的反射性的应对.....  |zqeye|
+
+
+.. class:: takahashi9
+
+    `GTD &lt;http://www.gtdstudy.com/?p=828&gt;`__
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12530">GTD总流程
+====================================
+
+.. container:: handout
+
+   get things done 是种生活态度.....  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/map/GTD_v2CN.JPG
+        :align: center
+        :scale: 80 %
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20111115090649.12532">&lt;/Management Base Usage&gt;
+====================================
+
+.. container:: handout
+
+   只有适合自己的方法／工具，没有银弹式的方法／工具!  |zqeye|
+
+
+.. class:: takahashi7
+
+    合适才好
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115220826.11004">Randy Pausch
+====================================
+
+.. container:: handout
+
+    `Randy Pausch教授的時間管理演講。 &lt;http://blogs.myoops.org/lucifer.php/2008/10/28/randypauschtime&gt;`_
+    |zqeye|
+
+
+.. class:: takahashi7
+
+    有关视频
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+</t>
+<t tx="zoomq.20111115220826.11006">.. _为什么起床后不能收邮件?: http://www.ruanyifeng.com/blog/2011/01/never_check_email_first_thing_in_the_morning.html
+
+`为什么起床后不能收邮件?`_
+====================================
+
+.. container:: handout
+
+    专注力管理.. |zqeye|
+
+
+.. class:: takahashi
+
+    不收邮件
+
+.. container:: notes
+
+   - 为什么起床后不能收邮件？ - 阮一峰的网络日志
+
+
+
+</t>
+<t tx="zoomq.20111115220826.11009">举例来说
+====================================
+
+.. container:: handout
+
+    `九段秘书的薪酬排行榜 &lt;http://www.planeboy.net/2010/10/24/how-to-organize-a-successful-meeting.htm/comment-page-1#comment-294&gt;`_
+    |zqeye|
+
+
+.. class:: takahashi9
+
+    开会
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20111115220826.11010">600元/月
+====================================
+
+.. container:: handout
+
+   一段秘书;作了而已  |zqeye|
+
+
+.. class:: takahashi7
+
+    发通知
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20111115220826.11012">800元/月
+====================================
+
+.. container:: handout
+
+   二段秘书;作了而已  |zqeye|
+
+
+.. class:: takahashi7
+
+    抓落实
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20111115220826.11014">1000元/月
+====================================
+
+.. container:: handout
+
+   三段秘书;作了而已  |zqeye|
+
+
+.. class:: takahashi7
+
+    重检查
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20111115220826.11016">1500元/月
+====================================
+
+.. container:: handout
+
+   四段秘书;作完  |zqeye|
+
+
+.. class:: takahashi7
+
+    勤准备
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20111115220826.11018">2000元/月
+====================================
+
+.. container:: handout
+
+   五段秘书;作对  |zqeye|
+
+
+.. class:: takahashi7
+
+    细准备
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20111115220826.11020">3000元/月
+====================================
+
+.. container:: handout
+
+   六段秘书;作对  |zqeye|
+
+
+.. class:: takahashi7
+
+    做记录
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20111115220826.11022">5000元/月
+====================================
+
+.. container:: handout
+
+   七段秘书;作对  |zqeye|
+
+
+.. class:: takahashi7
+
+    发记录
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20111115220826.11024">10000元/月
+====================================
+
+.. container:: handout
+
+   八段秘书;作好  |zqeye|
+
+
+.. class:: takahashi7
+
+    定责任
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20111115220826.11026">30000元/月
+====================================
+
+.. container:: handout
+
+   九段秘书;令他人作好  |zqeye|
+
+
+.. class:: takahashi7
+
+    做流程
+
+.. container:: notes
+
+   - ... 
+
+
+</t>
+<t tx="zoomq.20111115220826.11028">Blogging 吧!
+==================
+
+.. container:: handout
+
+   输出也是输入... |zqeye|
+
+
+.. class:: takahashi7
+
+    反刍
+
+
+.. container:: notes
+
+   - 发表是最好的记忆!
 
 
 
