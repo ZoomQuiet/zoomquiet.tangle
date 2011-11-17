@@ -7,7 +7,7 @@
 ～持续的效率进化之旅 (powered by rst2S5)
 
 :Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
-:URL:    http://zoomquiet.org/res/s5/110311-why-km/
+:URL:    http://zoomquiet.org/res/s5/111117-time-km/
 
 .. This document has been placed in the CC domain.
 .. _Docutils: http://docutils.sourceforge.net/
@@ -48,12 +48,33 @@
    :alt: 是也乎;-)
    :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
-.. |lr_s5| image:: i/levelradar_s5.png
+.. |lr_s5| image:: pix/levelradar_s5.png
     :scale: 100 %
 
 .. footer:: 
 
    `Zoom.Quiet`_ v11.11.15 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+
+Randy Pausch
+====================================
+
+.. container:: handout
+
+    `Randy Pausch教授的時間管理演講。 <http://blogs.myoops.org/lucifer.php/2008/10/28/randypauschtime>`_
+    |zqeye|
+
+
+.. class:: takahashi7
+
+    有关视频
+
+
+.. container:: notes
+
+   - ...
+
+
+
 
 <免责/>
 =========
@@ -223,7 +244,7 @@
    |zqeye|
 
 
-.. class:: takahashi
+.. class:: takahashi8
 
     生日
 
@@ -516,27 +537,6 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 
-Randy Pausch
-====================================
-
-.. container:: handout
-
-    `Randy Pausch教授的時間管理演講。 <http://blogs.myoops.org/lucifer.php/2008/10/28/randypauschtime>`_
-    |zqeye|
-
-
-.. class:: takahashi7
-
-    有关视频
-
-
-.. container:: notes
-
-   - ...
-
-
-
-
 < init.Time Management>
 ====================================
 
@@ -564,7 +564,7 @@ Randy Pausch
 
 .. container:: handout
 
-    从`1915之后 <http://amuseum.cdstm.cn/AMuseum/time/01gzsj/0106.html>`_，时间已经失去了原有意义 
+    从 `1915之后 <http://amuseum.cdstm.cn/AMuseum/time/01gzsj/0106.html>`_ 时间已经失去了原有意义 
     |zqeye|
 
 
@@ -2348,7 +2348,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
     ...
 
-    http://zoomquiet.org/res/s5/110311-why-km
+    http://zoomquiet.org/res/s5/111117-time-km/
 
 
 
@@ -2381,7 +2381,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 :反馈:
     Zoom.Quiet@gmail.com
 :查阅:
-    http://zoomquiet.org/res/s5/110311-why-km/
+    http://zoomquiet.org/res/s5/111117-time-km/
 
 
 `S5 <http://www.meyerweb.com/eric/tools/s5/>`__

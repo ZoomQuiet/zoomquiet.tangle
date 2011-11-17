@@ -200,6 +200,7 @@
 <v t="zoomq.20110317085545.11552" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20111115220826.11004"><vh>Randy Pausch</vh></v>
 <v t="zoomq.20110317085545.11555"><vh>免责</vh>
 <v t="zoomq.20110317085545.11556"><vh>Takahashi</vh>
 <v t="zoomq.20110317085545.11557"><vh>Takahashi</vh></v>
@@ -211,7 +212,7 @@
 </v>
 </v>
 <v t="zoomq.20110317085545.11563"><vh>brief0</vh>
-<v t="zoomq.20110317085545.11564"><vh>abt.ZQ</vh>
+<v t="zoomq.20110317085545.11564" a="E"><vh>abt.ZQ</vh>
 <v t="zoomq.20110317085545.11565"><vh>本命年</vh></v>
 <v t="zoomq.20110317085545.11566"><vh>ZQ1999</vh></v>
 <v t="zoomq.20110317085545.11567"><vh>ZQsh</vh></v>
@@ -230,9 +231,8 @@
 <v t="zoomq.20111115090649.12421"><vh>牛妞</vh></v>
 <v t="zoomq.20110317085545.11578"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20110317085545.11579" a="E"><vh>brief1</vh>
-<v t="zoomq.20111115220826.11004"><vh>时间?</vh></v>
-<v t="zoomq.20111115090649.12483"><vh>TM?</vh>
+<v t="zoomq.20110317085545.11579"><vh>brief1</vh>
+<v t="zoomq.20111115090649.12483" a="E"><vh>TM?</vh>
 <v t="zoomq.20111115090649.12484"><vh>时间?</vh>
 <v t="zoomq.20111115090649.12485"><vh>时</vh></v>
 <v t="zoomq.20111115090649.12486"><vh>间</vh></v>
@@ -256,7 +256,7 @@
 <v t="zoomq.20110317085545.11589"><vh>/KM</vh></v>
 </v>
 <v t="zoomq.20111115090649.12490" a="E"><vh>TM!</vh>
-<v t="zoomq.20111115090649.12491" a="E"><vh>点解?!</vh>
+<v t="zoomq.20111115090649.12491"><vh>点解?!</vh>
 <v t="zoomq.20111115090649.12492"><vh>学生本质</vh></v>
 <v t="zoomq.20111115090649.12493"><vh>职员本质</vh></v>
 <v t="zoomq.20111115090649.12502"><vh>核心原因</vh></v>
@@ -285,8 +285,8 @@
 <v t="zoomq.20111115090649.12517"><vh>/TM!</vh></v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11590" a="E"><vh>brief2</vh>
-<v t="zoomq.20111115090649.12518"><vh>TM...</vh>
+<v t="zoomq.20110317085545.11590"><vh>brief2</vh>
+<v t="zoomq.20111115090649.12518" a="E"><vh>TM...</vh>
 <v t="zoomq.20111115090649.12520"><vh>矩阵</vh></v>
 <v t="zoomq.20111115090649.12521"><vh>时间帐单</vh>
 <v t="zoomq.20111115090649.12525"><vh>奇特的一生</vh></v>
@@ -337,13 +337,13 @@
 <v t="zoomq.20110317085545.11617"><vh>&lt;/share&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11619"><vh>brief3</vh>
+<v t="zoomq.20110317085545.11619" a="E"><vh>brief3</vh>
 <v t="zoomq.20110317085545.11620"><vh>总结7+-2</vh></v>
 <v t="zoomq.20110317085545.11622"><vh>暗时间</vh></v>
 <v t="zoomq.20110317085545.11623"><vh>讲演之禅</vh></v>
 <v t="zoomq.20110317085545.11621"><vh>Q&amp;A</vh></v>
 </v>
-<v t="zoomq.20110317085545.11624"><vh>version</vh>
+<v t="zoomq.20110317085545.11624" a="E"><vh>version</vh>
 <v t="zoomq.20110317085545.11625"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
@@ -58926,7 +58926,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 ～持续的效率进化之旅 (powered by rst2S5)
 
 :Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
-:URL:    http://zoomquiet.org/res/s5/110311-why-km/
+:URL:    http://zoomquiet.org/res/s5/111117-time-km/
 
 &lt;&lt;DOCDEFINE&gt;&gt;
 
@@ -58974,7 +58974,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    :alt: 是也乎;-)
    :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
-.. |lr_s5| image:: i/levelradar_s5.png
+.. |lr_s5| image:: pix/levelradar_s5.png
     :scale: 100 %
 </t>
 <t tx="zoomq.20110317085545.11554">.. footer:: 
@@ -59159,7 +59159,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
-.. class:: takahashi
+.. class:: takahashi8
 
     生日
 
@@ -60300,7 +60300,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
     ...
 
-    http://zoomquiet.org/res/s5/110311-why-km
+    http://zoomquiet.org/res/s5/111117-time-km/
 
 
 
@@ -60384,7 +60384,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 :反馈:
     Zoom.Quiet@gmail.com
 :查阅:
-    http://zoomquiet.org/res/s5/110311-why-km/
+    http://zoomquiet.org/res/s5/111117-time-km/
 
 
 &lt;&lt;S5&gt;&gt;</t>
@@ -73250,7 +73250,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. container:: handout
 
-    从`1915之后 &lt;http://amuseum.cdstm.cn/AMuseum/time/01gzsj/0106.html&gt;`_，时间已经失去了原有意义 
+    从 `1915之后 &lt;http://amuseum.cdstm.cn/AMuseum/time/01gzsj/0106.html&gt;`_ 时间已经失去了原有意义 
     |zqeye|
 
 
