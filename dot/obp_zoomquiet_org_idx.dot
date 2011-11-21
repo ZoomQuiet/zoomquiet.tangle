@@ -26,7 +26,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
     ZQ  [label="zoomquiet.org",shape=ellipse,style="dotted"
         ,URL="http://about.me/zoom.quiet"];
         title [label="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
-            URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot"];
+            URL="http://tangle.zoomquiet.googlecode.com/hg/dot/obp_zoomquiet_org_idx.dot"];
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray

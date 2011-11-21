@@ -11,7 +11,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20080621102004.2"><vh>@chapters</vh></v>
-<v t="zoomq.20100408222312.5717"><vh>.dot</vh>
+<v t="zoomq.20100408222312.5717" a="E"><vh>.dot</vh>
 <v t="zoomq.20100903105555.6665"><vh>_stuff</vh>
 <v t="zoomq.20100908150441.6737"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
 <v t="zoomq.20100908150441.6732"><vh>动态生成属性函式</vh></v>
@@ -63,8 +63,8 @@
 <v t="zoomq.20100901204131.7773"><vh>关系网</vh></v>
 </v>
 </v>
-<v t="zoomq.20100916094556.6792"><vh>abt.zoomquiet.org</vh>
-<v t="zoomq.20100408222312.5718"><vh>@nosent zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20100916094556.6792" a="E"><vh>abt.zoomquiet.org</vh>
+<v t="zoomq.20100408222312.5718" a="E"><vh>@nosent zoomquiet_org_idx.dot</vh>
 <v t="zoomq.20100408222312.5719"><vh>图元</vh>
 <v t="zoomq.20100901204131.7774"><vh>Share</vh></v>
 <v t="zoomq.20100901204131.7775"><vh>doing</vh></v>
@@ -73,13 +73,13 @@
 </v>
 <v t="zoomq.20100408222312.5725"><vh>关系网</vh></v>
 </v>
-<v t="zoomq.20100914211211.6779"><vh>@nosent people_idx.dot</vh>
+<v t="zoomq.20100914211211.6779" a="E"><vh>@nosent people_idx.dot</vh>
 <v t="zoomq.20100914211211.6780"><vh>图元</vh></v>
 <v t="zoomq.20100914211211.6781"><vh>人物</vh></v>
 <v t="zoomq.20111027085417.15166"><vh>社会</vh></v>
 <v t="zoomq.20100914211211.6784"><vh>关系网</vh></v>
 </v>
-<v t="zoomq.20111031085013.11786"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20111031085013.11786" a="E"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
 <v t="zoomq.20111031085013.11787"><vh>图元</vh></v>
 <v t="zoomq.20111031085013.11788"><vh>原创</vh></v>
 <v t="zoomq.20111031085013.11789"><vh>翻译</vh></v>
@@ -123,7 +123,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100903105555.6572" a="E"><vh>幻灯</vh>
+<v t="zoomq.20100903105555.6572"><vh>幻灯</vh>
 <v t="zoomq.20080523161605" a="E"><vh>s5:public</vh>
 <v t="zoomq.20100726095759.6175"><vh>_stuff</vh>
 <v t="zoomq.20100726095759.6174"><vh>brief0</vh></v>
@@ -138,8 +138,8 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20111013085658.9846"><vh>111111-pyconchina-mq-taste</vh>
-<v t="zoomq.20111111090027.11917"><vh>@nosent index.rst</vh>
+<v t="zoomq.20111013085658.9846" a="E"><vh>111111-pyconchina-mq-taste</vh>
+<v t="zoomq.20111111090027.11917" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111111090027.11918"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20111111090027.11919"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20111111090027.11920"><vh>免责</vh></v>
@@ -187,7 +187,7 @@
 <v t="zoomq.20111114165944.10927"><vh>芹菜</vh></v>
 <v t="zoomq.20111114165944.10929"><vh>代码</vh></v>
 </v>
-<v t="zoomq.20111114113146.10904"><vh>沟通</vh>
+<v t="zoomq.20111114113146.10904" a="E"><vh>沟通</vh>
 <v t="zoomq.20111111090027.11950"><vh>总结7+-2</vh></v>
 <v t="zoomq.20111111090027.11951"><vh>Q&amp;A</vh></v>
 </v>
@@ -196,8 +196,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11551" a="E"><vh>111117-time-km</vh>
-<v t="zoomq.20110317085545.11552" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110317085545.11551"><vh>111117-time-km</vh>
+<v t="zoomq.20110317085545.11552"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20111115220826.11004"><vh>Randy Pausch</vh></v>
@@ -337,13 +337,13 @@
 <v t="zoomq.20110317085545.11617"><vh>&lt;/share&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11619" a="E"><vh>brief3</vh>
+<v t="zoomq.20110317085545.11619"><vh>brief3</vh>
 <v t="zoomq.20110317085545.11620"><vh>总结7+-2</vh></v>
 <v t="zoomq.20110317085545.11622"><vh>暗时间</vh></v>
 <v t="zoomq.20110317085545.11623"><vh>讲演之禅</vh></v>
 <v t="zoomq.20110317085545.11621"><vh>Q&amp;A</vh></v>
 </v>
-<v t="zoomq.20110317085545.11624" a="E"><vh>version</vh>
+<v t="zoomq.20110317085545.11624"><vh>version</vh>
 <v t="zoomq.20110317085545.11625"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
@@ -38459,7 +38459,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         ,URL="http://about.me/zoom.quiet"
         ];
 title [label="zoomquiet.org资源图谱\n{gen. by Graphviz}\nTime is unimprtant,only life important!"
-    URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/zoomquiet_org_idx.dot"];
+    URL="http://tangle.zoomquiet.googlecode.com/hg/dot/zoomquiet_org_idx.dot"];
 
 mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
     ,color="#333333",fillcolor=dimgray
@@ -41485,7 +41485,7 @@ $ dot -Tjpeg people_idx.dot -o people_idx.jpg -Tcmapx -o people_idx.map
 <t tx="zoomq.20100914211211.6780">ZQ  [label="zoomquiet.org",shape=ellipse,style="dotted"
     ,URL="http://zoomquiet.github.com"];
 title [label="Zoom.Quiet关注索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
-    URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot"];
+    URL="http://tangle.zoomquiet.googlecode.com/hg/dot/zoomquiet_org_idx.dot"];
 
 mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
     ,color="#333333",fillcolor=dimgray
@@ -70319,7 +70319,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
 <t tx="zoomq.20111031085013.11787">ZQ  [label="zoomquiet.org",shape=ellipse,style="dotted"
     ,URL="http://about.me/zoom.quiet"];
     title [label="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
-        URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot"];
+        URL="http://tangle.zoomquiet.googlecode.com/hg/dot/obp_zoomquiet_org_idx.dot"];
 
 mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
     ,color="#333333",fillcolor=dimgray

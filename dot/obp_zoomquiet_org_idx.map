@@ -1,7 +1,7 @@
 <map id="obp_zoomquiet_org_idx" name="obp_zoomquiet_org_idx">
 <area shape="poly" href="http://about.me/zoom.quiet" title="zoomquiet.org" alt="" coords="496,336 491,330 479,324 459,319 433,316 405,315 377,316 352,319 332,324 319,330 315,336 319,342 332,348 352,353 377,356 405,357 433,356 459,353 479,348 491,342"/>
 <area shape="rect" href="http://code.google.com/p/openbookproject/" title="O.B.P\n~OpenBookProjects\n开放图书计划" alt="" coords="133,211,301,277"/>
-<area shape="rect" href="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot" title="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!" alt="" coords="292,381,593,448"/>
+<area shape="rect" href="http://tangle.zoomquiet.googlecode.com/hg/dot/obp_zoomquiet_org_idx.dot" title="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!" alt="" coords="292,381,593,448"/>
 <area shape="poly" href="mailto:zoomquiet+sns@gmail.com?subject=obp.zoomquiet.org mapping feedback" title="电俺" alt="" coords="158,336 156,330 151,324 143,319 133,316 121,315 110,316 100,319 92,324 86,330 85,336 86,342 92,348 100,353 110,356 121,357 133,356 143,353 151,348 156,342"/>
 <area shape="rect" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="CPyUG\n~华蟒用户组" alt="" coords="33,391,143,439"/>
 <area shape="rect" href="http://www.zeuux.org" title="ZEUUX.org\n~哲思社区" alt="" coords="167,391,268,439"/>

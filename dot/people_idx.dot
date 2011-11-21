@@ -25,7 +25,7 @@ $ dot -Tjpeg people_idx.dot -o people_idx.jpg -Tcmapx -o people_idx.map
     ZQ  [label="zoomquiet.org",shape=ellipse,style="dotted"
         ,URL="http://zoomquiet.github.com"];
     title [label="Zoom.Quiet关注索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
-        URL="http://code.google.com/p/zqlib/source/browse/tangle/zoomquiet.leo/dot/obp_zoomquiet_org_idx.dot"];
+        URL="http://tangle.zoomquiet.googlecode.com/hg/dot/zoomquiet_org_idx.dot"];
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray
