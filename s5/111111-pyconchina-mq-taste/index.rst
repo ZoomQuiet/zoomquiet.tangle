@@ -4,7 +4,7 @@
 MQ解耦开发
 ==================================================================
 
-～ 分享如何偷懒 (powered by rst2S5)
+～ 为偷懒而艰苦思考ing (powered by rst2S5)
 
 :Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
 :URL:    http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste
@@ -329,7 +329,7 @@ MQ解耦开发
 
 .. class:: takahashi8
 
-    耦合
+    乱入
 
 
 .. container:: notes
@@ -666,6 +666,213 @@ Transactions
 .. class:: takahashi8
 
     消息
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+Message-oriented programming
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+    MOP
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+通常系统
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/flow-nomor_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-nomor.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+MOP系统
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/flow-mq_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-mq.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+常见邮件提醒
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/mailr-flow-nomor_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-nomor.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+MOP邮件提醒
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/mailr-flow-mq_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-mq.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+通常业务日志
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/log-flow-nomor_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-nomor.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+MOP业务日志
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/log-flow-mq_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-mq.dot
 
 
 .. container:: notes
@@ -1101,13 +1308,14 @@ demo:准备中...
     - 复杂事关态度
     - 耦合的根源在业务
     - 异步业务靠设计
-    - 用MQ我选择...
-    - 革命尚未成功
+    - MQ我选MongoDB
+    - MOP尚未成功
 
 
 .. container:: notes
 
     - Doing now! don't thinking!
+    - Message-oriented programming
 
 
 

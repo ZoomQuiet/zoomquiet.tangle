@@ -1,0 +1,18 @@
+participant "功能" as func
+participant "mailr" as mailr
+participant "smtp" as smtp
+
+func->mailr: 调用
+activate mailr
+mailr->smtp: 连接
+activate smtp
+smtp->mailr: 发送
+deactivate smtp
+mailr->func: 完成
+deactivate func
+
+note over func,mailr,smtp
+    全程阻塞
+    难以分布
+end note
+

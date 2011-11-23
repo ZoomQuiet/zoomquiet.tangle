@@ -1,0 +1,19 @@
+participant "用户" as user
+participant "站点" as wsite
+participant "功能A" as funcA
+participant "功能B" as funcB
+
+user->wsite: 访问
+activate wsite
+wsite->funcA: 处理功能A
+activate funcA
+funcA->funcB: 处理功能B
+activate funcB
+funcB-->user: 返回
+activate user
+
+note over user,wsite,funcA,funcB
+    全程阻塞
+    无法分布
+end note
+

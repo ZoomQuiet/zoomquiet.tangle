@@ -1,0 +1,18 @@
+participant "功能" as func
+participant "业务日志" as log
+participant "文件系统" as FS
+
+func->log: 生成
+activate log
+log->FS: 写入
+activate FS
+FS-->log: 完成
+deactivate FS
+log-->func: 完成
+deactivate func
+
+note over func,log,FS
+    全程阻塞
+    难以分布
+end note
+

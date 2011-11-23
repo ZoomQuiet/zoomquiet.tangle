@@ -1,0 +1,25 @@
+participant "功能" as func
+participant "MQ" as MQ
+participant "mailr" as mailr
+participant "smtp" as smtp
+
+func->MQ: 注册事件
+activate MQ
+MQ-->func: 返回
+deactivate func
+note over func,MQ: 非阻塞
+
+MQ-->mailr: 认领
+activate mailr
+mailr->smtp: 连接
+activate smtp
+smtp->mailr: 发送
+deactivate smtp
+mailr->MQ: 完成
+deactivate mailr
+
+note right of mailr
+    阻塞
+    直到完成
+end note
+

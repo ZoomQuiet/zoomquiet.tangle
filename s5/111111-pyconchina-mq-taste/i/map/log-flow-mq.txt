@@ -1,0 +1,29 @@
+participant "功能" as func
+participant "业务日志" as log
+participant "MQ" as MQ
+participant "日志服务" as logger
+participant "文件系统" as FS
+
+func->log: 生成
+activate log
+log->MQ: 注册
+activate MQ
+MQ-->func: 返回
+deactivate log
+
+MQ-->logger: 认领
+activate logger
+logger->FS: 写入
+activate FS
+FS-->logger: 完成
+deactivate FS
+logger-->MQ: 交令
+deactivate logger
+deactivate MQ
+
+note over MQ,logger,FS
+    阻塞
+    但可分布
+end note
+
+

@@ -11,7 +11,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20080621102004.2"><vh>@chapters</vh></v>
-<v t="zoomq.20100408222312.5717" a="E"><vh>.dot</vh>
+<v t="zoomq.20100408222312.5717"><vh>.dot</vh>
 <v t="zoomq.20100903105555.6665"><vh>_stuff</vh>
 <v t="zoomq.20100908150441.6737"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
 <v t="zoomq.20100908150441.6732"><vh>动态生成属性函式</vh></v>
@@ -63,8 +63,8 @@
 <v t="zoomq.20100901204131.7773"><vh>关系网</vh></v>
 </v>
 </v>
-<v t="zoomq.20100916094556.6792" a="E"><vh>abt.zoomquiet.org</vh>
-<v t="zoomq.20100408222312.5718" a="E"><vh>@nosent zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20100916094556.6792"><vh>abt.zoomquiet.org</vh>
+<v t="zoomq.20100408222312.5718"><vh>@nosent zoomquiet_org_idx.dot</vh>
 <v t="zoomq.20100408222312.5719"><vh>图元</vh>
 <v t="zoomq.20100901204131.7774"><vh>Share</vh></v>
 <v t="zoomq.20100901204131.7775"><vh>doing</vh></v>
@@ -73,13 +73,13 @@
 </v>
 <v t="zoomq.20100408222312.5725"><vh>关系网</vh></v>
 </v>
-<v t="zoomq.20100914211211.6779" a="E"><vh>@nosent people_idx.dot</vh>
+<v t="zoomq.20100914211211.6779"><vh>@nosent people_idx.dot</vh>
 <v t="zoomq.20100914211211.6780"><vh>图元</vh></v>
 <v t="zoomq.20100914211211.6781"><vh>人物</vh></v>
 <v t="zoomq.20111027085417.15166"><vh>社会</vh></v>
 <v t="zoomq.20100914211211.6784"><vh>关系网</vh></v>
 </v>
-<v t="zoomq.20111031085013.11786" a="E"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
+<v t="zoomq.20111031085013.11786"><vh>@nosent obp_zoomquiet_org_idx.dot</vh>
 <v t="zoomq.20111031085013.11787"><vh>图元</vh></v>
 <v t="zoomq.20111031085013.11788"><vh>原创</vh></v>
 <v t="zoomq.20111031085013.11789"><vh>翻译</vh></v>
@@ -123,7 +123,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100903105555.6572"><vh>幻灯</vh>
+<v t="zoomq.20100903105555.6572" a="E"><vh>幻灯</vh>
 <v t="zoomq.20080523161605" a="E"><vh>s5:public</vh>
 <v t="zoomq.20100726095759.6175"><vh>_stuff</vh>
 <v t="zoomq.20100726095759.6174"><vh>brief0</vh></v>
@@ -150,23 +150,31 @@
 <v t="zoomq.20111114113146.10874"><vh>根源原因</vh></v>
 <v t="zoomq.20111114113146.10876"><vh>耦合</vh></v>
 </v>
-<v t="zoomq.20111111090027.14184"><vh>对策</vh>
+<v t="zoomq.20111111090027.14184" a="E"><vh>对策</vh>
 <v t="zoomq.20111111090027.14185"><vh>耦合</vh></v>
 <v t="zoomq.20111114113146.10878"><vh>即使</vh></v>
 <v t="zoomq.20111114113146.10880"><vh>业务!?</vh></v>
 <v t="zoomq.20111114113146.10882"><vh>应用</vh></v>
 <v t="zoomq.20111114113146.10884"><vh>实体</vh></v>
 <v t="zoomq.20111114113146.10886"><vh>事务</vh></v>
-<v t="zoomq.20111114113146.10888" a="E"><vh>目标</vh>
+<v t="zoomq.20111114113146.10888"><vh>目标</vh>
 <v t="zoomq.20111114113146.10890"><vh>假设</vh>
 <v t="zoomq.20111114113146.10892"><vh>分层无关</vh></v>
 <v t="zoomq.20111114113146.10894"><vh>范围有关</vh></v>
 <v t="zoomq.20111114113146.10896"><vh>至少一次</vh></v>
 </v>
-<v t="zoomq.20111114113146.10897" a="E"><vh>原则</vh>
+<v t="zoomq.20111114113146.10897"><vh>原则</vh>
 <v t="zoomq.20111114113146.10899"><vh>小实体</vh></v>
 <v t="zoomq.20111114113146.10901"><vh>消息</vh></v>
 </v>
+</v>
+<v t="zoomq.20111123085435.11022" a="E"><vh>思路</vh>
+<v t="zoomq.20111123085435.11024"><vh>图谱:通常</vh></v>
+<v t="zoomq.20111123085435.11026"><vh>图谱:MQ</vh></v>
+<v t="zoomq.20111123085435.11028"><vh>图谱:邮件</vh></v>
+<v t="zoomq.20111123085435.11030"><vh>图谱:邮件MQ</vh></v>
+<v t="zoomq.20111123085435.11032"><vh>图谱:日志</vh></v>
+<v t="zoomq.20111123085435.11034"><vh>图谱:日志MQ</vh></v>
 </v>
 </v>
 <v t="zoomq.20111111090027.14180"><vh>实现</vh>
@@ -191,7 +199,7 @@
 <v t="zoomq.20111111090027.11950"><vh>总结7+-2</vh></v>
 <v t="zoomq.20111111090027.11951"><vh>Q&amp;A</vh></v>
 </v>
-<v t="zoomq.20111111090027.11952"><vh>version</vh>
+<v t="zoomq.20111111090027.11952" a="E"><vh>version</vh>
 <v t="zoomq.20111111090027.11953"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
@@ -70412,7 +70420,7 @@ mailme-&gt;OBP;
 MQ解耦开发
 ==================================================================
 
-～ 分享如何偷懒 (powered by rst2S5)
+～ 为偷懒而艰苦思考ing (powered by rst2S5)
 
 :Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
 :URL:    http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste
@@ -70596,13 +70604,14 @@ MQ解耦开发
     - 复杂事关态度
     - 耦合的根源在业务
     - 异步业务靠设计
-    - 用MQ我选择...
-    - 革命尚未成功
+    - MQ我选MongoDB
+    - MOP尚未成功
 
 
 .. container:: notes
 
     - Doing now! don't thinking!
+    - Message-oriented programming
 
 
 
@@ -70805,7 +70814,7 @@ http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste
 
 .. class:: takahashi8
 
-    耦合
+    乱入
 
 
 .. container:: notes
@@ -74235,6 +74244,220 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. container:: notes
 
    - 发表是最好的记忆!
+
+
+
+</t>
+<t tx="zoomq.20111123085435.11022">Message-oriented programming
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+    MOP
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111123085435.11024">通常系统
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/flow-nomor_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-nomor.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111123085435.11026">MOP系统
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/flow-mq_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-mq.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111123085435.11028">常见邮件提醒
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/mailr-flow-nomor_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-nomor.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111123085435.11030">MOP邮件提醒
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/mailr-flow-mq_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-mq.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111123085435.11032">通常业务日志
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/log-flow-nomor_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-nomor.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111123085435.11034">MOP业务日志
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/map/log-flow-mq_wsd-napkin.png
+    :align: center
+    :scale: 100 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-mq.dot
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
 
 
 

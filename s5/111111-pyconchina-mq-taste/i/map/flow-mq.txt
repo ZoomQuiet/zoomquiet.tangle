@@ -1,0 +1,30 @@
+participant "用户" as user
+participant "站点" as wsite
+participant "MQ" as MQ
+participant "功能A" as funcA
+participant "功能B" as funcB
+
+user->wsite: 访问
+activate wsite
+wsite->MQ: 注册事件
+activate MQ
+wsite-->user: 返回
+deactivate wsite
+
+MQ-->funcA: 认领
+activate funcA
+funcA->wsite: 处理功能A
+deactivate funcA
+
+MQ-->funcB: 认领
+activate funcB
+funcB->wsite: 处理功能B
+deactivate funcB
+
+wsite->user: 数据回拉
+
+note over MQ,funcA,funcB
+    阻塞
+    可分布
+end note
+
