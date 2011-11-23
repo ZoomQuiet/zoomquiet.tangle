@@ -154,7 +154,7 @@ MQ解耦开发
 
 .. container:: notes
 
-   - 是也乎?
+   - 变化的发动者总是业务
 
 
 
@@ -180,7 +180,7 @@ MQ解耦开发
 
 .. container:: notes
 
-   - 是也乎?
+   - 业务总是变化,是必然的,而且随着互联的发展越来越快
 
 
 
@@ -208,7 +208,9 @@ MQ解耦开发
 
 .. container:: notes
 
-   - 是也乎?
+   - 可是落实到一个即使很稳定的系统中,也将引发无数问题
+   - 因为原先并没有考虑这么多变化
+   - 代码/框架/系统,根本没有到可以随机应变的状态
 
 
 
@@ -234,7 +236,7 @@ MQ解耦开发
 
 .. container:: notes
 
-   - 是也乎?
+   - 耦合的代码都是人为引入的!
 
 
 
@@ -260,7 +262,7 @@ MQ解耦开发
 
 .. container:: notes
 
-   - 是也乎?
+   - 在思想/态度/情绪失控后的乱来
 
 
 
@@ -308,7 +310,7 @@ MQ解耦开发
 
 .. container:: notes
 
-   - 是也乎?
+   - 那么从根儿上尝试解决!
 
 
 
@@ -334,7 +336,7 @@ MQ解耦开发
 
 .. container:: notes
 
-   - 是也乎?
+   - 不乱入,就得从一开始,任何一个组件都有一个统一的简单的可行的鲁棒性 结构
 
 
 
@@ -345,7 +347,7 @@ MQ解耦开发
 
 
 
-功能代码的模块化不解决问题
+功能代码的模块化不解决问
 ====================================
 
 .. container:: handout
@@ -355,12 +357,12 @@ MQ解耦开发
 
 .. class:: takahashi8
 
-    模块
+    概念
 
 
 .. container:: notes
 
-   - 是也乎?
+   - 整理各种概念
 
 
 
@@ -371,14 +373,13 @@ MQ解耦开发
 
 
 
-此"业务"非彼"业务"
+Business?!
 ====================================
 
 .. container:: handout
 
-   - 不是商业过程 |zqeye|
-   - 是指系统内部过程
-
+   - 此"业务"非彼"业务" |zqeye|
+   
 
 .. class:: takahashi8
 
@@ -387,7 +388,9 @@ MQ解耦开发
 
 .. container:: notes
 
-   - 是也乎?
+   - 代码要解决实际问题
+   - 实际问题以用户故事描述
+   - 应对方案就是业务定义
 
 
 
@@ -413,7 +416,7 @@ Application
 
 .. container:: notes
 
-   - 是也乎?
+   - 对业务的支持是映射到各个应用中
 
 
 
@@ -439,10 +442,21 @@ Entities
 
 .. container:: notes
 
-   - 是也乎?
+   - 应用一系列 代码/数据 集合构成
+   
+       - 实体代表了分离的数据系列(disjoint sets of data)
+       - 每个数据项(datum)只位于一个实体中
+       - 实体中的数据决不与其它实体的数据交叉(overlap)
 
+    - 考虑实体的:
+    
+        - 分离的序列化范围 Disjoint Scopes of Serializability
+        - 唯一标识的实体 Uniquely Keyed Entities
+        - 重分区和实体 Repartitioning and Entities
+        - 原子事务和实体 Atomic Transactions and Entities
 
-
+    - 应用程序底层将确保每个实体键值(和实体)位于单一的机器(或群集)上，而不同实体则可能分布在任何地方
+    - 实体是操作原子性的边界标志
 
 
 
@@ -465,7 +479,7 @@ Transactions
 
 .. container:: notes
 
-   - 是也乎?
+   - 对实体的操作是事务
 
 
 
@@ -476,24 +490,50 @@ Transactions
 
 
 
-目标在于:应用...
+ACTIVITIES
+====================================
+
+.. container:: handout
+
+   事务的具体执行 |zqeye|
+
+
+.. class:: takahashi8
+
+    活动
+
+
+.. container:: notes
+
+   - 对事务的控制/调用/流传 就是活动
+   - 活动包含了实体的状态集合
+
+
+
+
+
+
+
+
+
+Robustness 
 ====================================
 
 .. container:: handout
 
    - Almost-Infinite Scaling of Applications |zqeye|
    - 考虑无限伸缩应用 
-   - 怎么KISS 的来?!
 
 
 .. class:: takahashi
 
-    可伸缩
+    鲁棒
 
 
 .. container:: notes
 
-   - 是也乎?
+   - 稳健性~鲁棒性原是统计学中的一个专门术语
+   - 控制论中:是指控制系统在一定（结构，大小）的参数摄动下，维持某些性能的特性
 
 
 
@@ -538,14 +578,16 @@ Transactions
    `[翻译] 超越分布式事务的方法 - 一个叛逆者的观点 - riccc - 博客园 <http://www.cnblogs.com/RicCC/archive/2008/03/30/life-beyond-distributed-transactions.html>`_ |zqeye|
    
 
-.. class:: takahashi8
+.. class:: takahashi9
 
-    分层?
+    分层
 
 
 .. container:: notes
 
-   - 是也乎?
+   - 底层是伸缩相关(scale-aware)的即它们了解这个映射关系
+   - 我们假设底层为上层提供了一个伸缩无关的(scale-agnostic)编程抽象
+   - 使用它编写应用程序上层代码时无需考虑伸缩问题
 
 
 
@@ -564,14 +606,20 @@ Transactions
    `[翻译] 超越分布式事务的方法 - 一个叛逆者的观点 - riccc - 博客园 <http://www.cnblogs.com/RicCC/archive/2008/03/30/life-beyond-distributed-transactions.html>`_ |zqeye|
    
 
-.. class:: takahashi
+.. class:: takahashi9
 
-    事务范围
+    范畴
 
 
 .. container:: notes
 
-   - 是也乎?
+   - 全局事务序列化(global transactional serializability)
+   
+       - 2PC(两阶段提交)在某节点不可用时容易阻塞
+       - 协议例如Paxos算法，在节点失败时不会阻塞
+    
+    - 现在考虑的是非全局事务
+    - 多个分离的事务序列化范围(multiple disjoint scopes of transactional serializability)
 
 
 
@@ -580,25 +628,22 @@ Transactions
 
 
 
-
-
-多数应用的消息方式与伸缩性有关
-====================================
+大部分应用使用"至少一次"的消息方式
+========================================================================
 
 .. container:: handout
 
    - At-Least-Once 模式 |zqeye|
-   - 消息分发与持久化数据的更新不是直接结合在一起
    
 
-.. class:: takahashi
+.. class:: takahashi10
 
-    至少一次
+    1+
 
 
 .. container:: notes
 
-   - 是也乎?
+   - 问题产生的原因是消息分发与持久化数据的更新不是直接结合在一起
 
 
 
@@ -609,7 +654,7 @@ Transactions
 
 
 
-综上应对
+综上
 ====================================
 
 .. container:: handout
@@ -624,26 +669,35 @@ Transactions
 
 .. container:: notes
 
-   - 是也乎?
+   - 开发系统的首选原则
 
 
-只包含单一事务
+Idempotence
 ====================================
 
 .. container:: handout
 
-   |zqeye|
+   只包含单一安全事务|zqeye|
    
    
 
 .. class:: takahashi8
 
-    小实体
+    幂等
 
 
 .. container:: notes
 
-   - 是也乎?
+    - 识别出所有实体后
+    - 明确各级原子性的事务来:
+    
+        - 安全且幂等:        读取
+        - 安全不幂等:        查询/修订
+        - 幂等不安全:        创建
+        - 不安全也不幂等:    删除
+    
+    - 避免: 消息重试(retry)和重新订阅(reorder)
+        
 
 
 
@@ -670,7 +724,9 @@ Transactions
 
 .. container:: notes
 
-   - 是也乎?
+   - 隔离实体
+   - 转移事务
+   - 记录/协调/分发活动
 
 
 
@@ -686,7 +742,7 @@ Message-oriented programming
 
 .. container:: handout
 
-   |zqeye|
+   面向消息的编程 |zqeye|
    
    
 
@@ -697,7 +753,9 @@ Message-oriented programming
 
 .. container:: notes
 
-   - 是也乎?
+   - 这是 OOP 之后无数 XOP 的又一次概念冷饭
+   - 之前体验到的 面向数据编程,在分布式后,推导成了 MOP
+   - 当然还有 MOO ~ 面向肌肉的操作
 
 
 
@@ -722,7 +780,7 @@ Message-oriented programming
 .. image:: i/map/flow-nomor_wsd-napkin.png
     :align: center
     :scale: 100 %
-    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-nomor.dot
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-nomor.txt
 
 
 .. container:: notes
@@ -752,7 +810,7 @@ MOP系统
 .. image:: i/map/flow-mq_wsd-napkin.png
     :align: center
     :scale: 100 %
-    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-mq.dot
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-mq.txt
 
 
 .. container:: notes
@@ -781,8 +839,8 @@ MOP系统
 
 .. image:: i/map/mailr-flow-nomor_wsd-napkin.png
     :align: center
-    :scale: 100 %
-    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-nomor.dot
+    :scale: 150 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-nomor.txt
 
 
 .. container:: notes
@@ -812,7 +870,7 @@ MOP邮件提醒
 .. image:: i/map/mailr-flow-mq_wsd-napkin.png
     :align: center
     :scale: 100 %
-    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-mq.dot
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-mq.txt
 
 
 .. container:: notes
@@ -841,8 +899,8 @@ MOP邮件提醒
 
 .. image:: i/map/log-flow-nomor_wsd-napkin.png
     :align: center
-    :scale: 100 %
-    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-nomor.dot
+    :scale: 150 %
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-nomor.txt
 
 
 .. container:: notes
@@ -872,13 +930,39 @@ MOP业务日志
 .. image:: i/map/log-flow-mq_wsd-napkin.png
     :align: center
     :scale: 100 %
-    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-mq.dot
+    :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-mq.txt
 
 
 .. container:: notes
 
    - 是也乎?
 
+
+
+
+
+
+
+
+
+
+加层
+====================================
+
+.. container:: handout
+
+   这次是通用的 |zqeye|
+
+
+.. class:: takahashi8
+
+    1板斧
+
+
+.. container:: notes
+
+   - 面对复杂问题永远可以通过增加一个抽象层来解决
+   - MOP 之下,永远只多一层!
 
 
 
@@ -915,12 +999,39 @@ MOP业务日志
 
 
 
+业务原子化
+==================
+
+.. container:: handout
+
+   内部全部 RESTful 接口化 |zqeye|
+
+
+.. class:: takahashi8
+
+    前提
+
+
+.. container:: notes
+
+   - eat yself dog food!
+   - 好处是每个原子操作都非常非常简单
+
+
+
+
+
+
+
+
+
+
 支撑核心
 ==================
 
 .. container:: handout
 
-   异步化一切 |zqeye|
+   尽可能异步化一切 |zqeye|
 
 
 .. class:: takahashi8
@@ -956,7 +1067,15 @@ Message
 
 .. container:: notes
 
-   - 是也乎?
+   - 消息可以是任何东西:
+   
+    - 数据片段
+    - 代码片段
+    - 状态
+    - 指令
+    - ...
+
+
 
 
 
@@ -982,7 +1101,7 @@ Queue
 
 .. container:: notes
 
-   - 是也乎?
+   - 一个健壮的,基于 http的拥有多种数据结构的栈
 
 
 
@@ -1008,7 +1127,7 @@ Queue的能力
 
 .. container:: notes
 
-   - 是也乎?
+   - 即,能自动对缓存进行优化的
 
 
 
@@ -1025,7 +1144,6 @@ Queue的内容
 .. container:: handout
 
    - Atomic Transactions |zqeye|
-   - 幂等性 Idempotent
 
 
 .. class:: takahashi8
@@ -1035,7 +1153,8 @@ Queue的内容
 
 .. container:: notes
 
-   - 是也乎?
+   - 对操作能进行原子保证的
+
 
 
 
@@ -1061,7 +1180,7 @@ Queue的监测
 
 .. container:: notes
 
-   - 是也乎?
+   - 这个要求不太,一般可以自制
 
 
 
@@ -1072,22 +1191,27 @@ Queue的监测
 
 
 
-业务原子化
-==================
+面向文档(document-oriented)的NoSQL 数据库
+======================================================
 
 .. container:: handout
 
-   内部全部 RESTful 接口化 |zqeye|
+   10gen 团队的魔幻作品! |zqeye|
 
 
 .. class:: takahashi8
 
-    前提
 
+.. image:: i/logo/logo-mongodb-ondark_h300.png
+    :align: center
+    :scale: 100 %
+    :target: http://www.mongodb.org/
+    
+    
 
 .. container:: notes
 
-   - 是也乎?
+   - 这个词是从humongous中截取出来的，其野心不言而明，直指海量数据存储
 
 
 
@@ -1098,25 +1222,22 @@ Queue的监测
 
 
 
-网站注册
+内存映射机制
 ==================
 
 .. container:: handout
 
-   标准作法... |zqeye|
+   天然自动化缓存调度 |zqeye|
 
 
-.. class:: incremental takahashi
+.. class:: takahashi8
 
-    - 填写登录表单
-    - 入库
-    - 发送邮件
-    - 返回页面
+    mmap
 
 
 .. container:: notes
 
-   - 是也乎?
+   - 内置分布式集群控制,迸发影响可用   
 
 
 
@@ -1127,24 +1248,24 @@ Queue的监测
 
 
 
-解耦邮件等待
-==================
+
+
+capped collection
+====================================
 
 .. container:: handout
 
-   MQ异步... |zqeye|
+   天然高速队列配合 `Tailable Cursors <http://blog.nosqlfan.com/html/1986.html>`_ |zqeye|
 
 
-.. class:: incremental takahashi
+.. class:: takahashi8
 
-    - 填写登录表单
-    - 发布事务消息
-    - 返回页面
+    定长集
 
 
 .. container:: notes
 
-   - 是也乎?
+   - 不用计算空间的定长队列
 
 
 
@@ -1155,23 +1276,182 @@ Queue的监测
 
 
 
-工作组件
-==================
+
+
+文档级的原子操作
+====================================
 
 .. container:: handout
 
-   MQ之后... |zqeye|
+   相当于表安全 |zqeye|
 
 
-.. class:: incremental takahashi
+.. class:: takahashi4
 
-    - 认领消息
-    - 处理
-    - 返回消息
+    findAndModify
+
 
 .. container:: notes
 
-   - 是也乎?
+   - $upset 也是
+
+
+
+
+
+
+
+
+
+
+
+
+使用时间差
+====================================
+
+.. container:: handout
+
+   时间戳查询 |zqeye|
+
+
+.. code-block:: python
+
+    now = datetime.datetime.now()
+    difference = datetime.timedelta(seconds=10)
+    timeout = now - difference
+    
+    queue.find({'inProg' : True, 'start' : {'$lte' : timeout} })
+    
+.. container:: notes
+
+   - 山寨,但是好用
+
+
+
+
+
+
+
+
+
+
+
+
+`芹菜 <http://celeryproject.org/>`_
+========================================================================
+
+.. container:: handout
+
+   高档MQ选择... |zqeye|
+
+
+.. class:: takahashi
+
+    - 纯Py
+    - 多后端选择
+    - 多框架结合
+    - 多线程动力(gevent/Eventlet)
+    - ... 
+
+.. container:: notes
+
+   - 复杂
+
+
+
+
+
+
+
+
+
+
+Celery
+====================================
+
+.. container:: handout
+
+   分布式任务/工作 队列 |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/snap/Celery-Overview-v4.jpg
+    :align: center
+    :scale: 120 %
+    :target: http://celeryproject.org/
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+Djnago-celery
+====================================
+
+.. container:: handout
+
+   有Django扩展 |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/snap/celery_2011-11-23-174734_1021x526_scrot.png
+    :align: center
+    :scale: 100 %
+    :target: http://pypi.python.org/pypi/django-celery
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+|gearman|
+====================================
+
+
+.. container:: handout
+
+   类似的知名作品 |zqeye|
+   
+   
+
+.. class:: takahashi8
+
+.. image:: i/snap/gearman_2011-11-23-175608_620x561_scrot.png
+    :align: center
+    :scale: 100 %
+    :target: http://gearman.org
+
+
+.. container:: notes
+
+   - 基于 RPC...
+
+.. |gearman| image:: i/logo/gearman80_title.gif
+    :align: top
+    :scale: 100 %
+    :target: http://gearman.org
+
 
 
 
@@ -1190,7 +1470,7 @@ Queue的监测
    轻便MQ选择... |zqeye|
 
 
-.. class:: incremental takahashi
+.. class:: takahashi
 
     - 纯Py
     - 跨语言接口
@@ -1198,7 +1478,7 @@ Queue的监测
 
 .. container:: notes
 
-   - 是也乎?
+   - 简陋,但是,作为开始很好用
 
 
 
@@ -1209,36 +1489,7 @@ Queue的监测
 
 
 
-`芹菜 <http://celeryproject.org/`_
-========================================================================
-
-.. container:: handout
-
-   高档MQ选择... |zqeye|
-
-
-.. class:: incremental takahashi
-
-    - 纯Py
-    - 多后端选择
-    - 多框架结合
-    - 多线程动力(gevent/Eventlet)
-    - ... 
-
-.. container:: notes
-
-   - 是也乎?
-
-
-
-
-
-
-
-
-
-
-demo:准备中...
+Python 入Q
 ========================================================================
 
 .. container:: handout
@@ -1248,13 +1499,148 @@ demo:准备中...
 
 .. code-block:: python
 
-        #... overdue     = 73728
-        hashed = db[linkback].split(",")
-        if ini.overdue < int(time.time())-int(hashed[0]):
-            __redirect("Overdue",ini.msgTPLoverdue)
-        # else: ...
+    from karait import Message, Queue
+    queue = Queue(
+        database='karait',
+        queue='messages',
+    )    
+    queue.write({
+        'name': 'Benjamin',
+        'action': 'Rock'
+    })
 
 
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+Python 出Q
+========================================================================
+
+.. container:: handout
+
+   示例代码 |zqeye|
+
+
+.. code-block:: python
+
+    from karait import Message, Queue
+    queue = Queue()
+    
+    message = queue.read()[0]
+    print "%s" % (message.name)
+    
+    message.delete()
+
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+node.js 出Q
+========================================================================
+
+.. container:: handout
+
+   示例代码 |zqeye|
+
+
+.. code-block:: js
+
+    var puts = require('sys').puts,
+        Queue = require('karait').Queue;
+    new Queue(function(err, queue) {
+        (function readMessages() {
+            queue.read({routingKey: 'for_reader'}, function(err, messages) {
+                for (var i = 0, message; (message = messages[i]) != null; i++) {
+                //...
+                }
+                queue.deleteMessages(messages, function() {
+                    readMessages();
+                });
+            })();
+        });
+
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+Ruby 出Q
+========================================================================
+
+.. container:: handout
+
+   示例代码 |zqeye|
+
+
+.. code-block:: ruby
+
+    require 'karait'
+    
+    queue = Karait::Queue.new
+    message = queue.read().first
+    print "#{message.name}"
+    
+    message.delete
+    
+.. container:: notes
+
+   - 是也乎?
+
+
+
+
+
+
+
+
+
+
+原子保证
+========================================================================
+
+.. container:: handout
+
+   visibility_timeout 设定超时秒数 |zqeye|
+
+
+.. code-block:: python
+
+    require 'karait'
+    
+    queue = Karait::Queue.new
+    
+    message = queue.read(:routing_key='foobar', :visibility_timeout=3.0).first
+    print "#{message.name}"
+    message.delete
+        
 .. container:: notes
 
    - 是也乎?
@@ -1315,7 +1701,6 @@ demo:准备中...
 .. container:: notes
 
     - Doing now! don't thinking!
-    - Message-oriented programming
 
 
 
@@ -1354,6 +1739,7 @@ demo:准备中...
    |zqeye|
 
 
+- 111122 增补图谱
 - 111114 增补叙述
 - 111112 调整结构
 - 111111 创建幻灯

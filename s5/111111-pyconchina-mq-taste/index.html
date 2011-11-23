@@ -417,7 +417,7 @@ ul.auto-toc {
 <p class="takahashi8">业务</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>变化的发动者总是业务</li>
 </ul>
 </div>
 </div>
@@ -428,7 +428,7 @@ ul.auto-toc {
 <p class="takahashi8">设计</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>业务总是变化,是必然的,而且随着互联的发展越来越快</li>
 </ul>
 </div>
 </div>
@@ -444,7 +444,9 @@ ul.auto-toc {
 <p class="takahashi8"><span class="orange">被</span> 开发</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>可是落实到一个即使很稳定的系统中,也将引发无数问题</li>
+<li>因为原先并没有考虑这么多变化</li>
+<li>代码/框架/系统,根本没有到可以随机应变的状态</li>
 </ul>
 </div>
 </div>
@@ -455,7 +457,7 @@ ul.auto-toc {
 <p class="takahashi8"><span class="orange">被</span> 耦合</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>耦合的代码都是人为引入的!</li>
 </ul>
 </div>
 </div>
@@ -466,7 +468,7 @@ ul.auto-toc {
 <p class="takahashi8">蔓生</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>在思想/态度/情绪失控后的乱来</li>
 </ul>
 </div>
 </div>
@@ -493,7 +495,7 @@ ul.auto-toc {
 <p class="takahashi8"><span class="orange">K</span> ISS</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>那么从根儿上尝试解决!</li>
 </ul>
 </div>
 </div>
@@ -504,33 +506,34 @@ ul.auto-toc {
 <p class="takahashi8">乱入</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>不乱入,就得从一开始,任何一个组件都有一个统一的简单的可行的鲁棒性 结构</li>
 </ul>
 </div>
 </div>
 <div class="slide" id="id14">
-<h1>功能代码的模块化不解决问题</h1>
+<h1>功能代码的模块化不解决问</h1>
 <div class="handout container">
 业务的纠结是根源 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<p class="takahashi8">模块</p>
+<p class="takahashi8">概念</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>整理各种概念</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id15">
-<h1>此&quot;业务&quot;非彼&quot;业务&quot;</h1>
+<div class="slide" id="business">
+<h1>Business?!</h1>
 <div class="handout container">
 <ul class="simple">
-<li>不是商业过程 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></li>
-<li>是指系统内部过程</li>
+<li>此&quot;业务&quot;非彼&quot;业务&quot; <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></li>
 </ul>
 </div>
 <p class="takahashi8">&quot;业务&quot;</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>代码要解决实际问题</li>
+<li>实际问题以用户故事描述</li>
+<li>应对方案就是业务定义</li>
 </ul>
 </div>
 </div>
@@ -541,7 +544,7 @@ ul.auto-toc {
 <p class="takahashi8">应用</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>对业务的支持是映射到各个应用中</li>
 </ul>
 </div>
 </div>
@@ -551,9 +554,35 @@ ul.auto-toc {
 组成应用的实体 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi8">实体</p>
 <div class="notes container">
+<ul>
+<li><p class="first">应用一系列 代码/数据 集合构成</p>
+<blockquote>
 <ul class="simple">
-<li>是也乎?</li>
+<li>实体代表了分离的数据系列(disjoint sets of data)</li>
+<li>每个数据项(datum)只位于一个实体中</li>
+<li>实体中的数据决不与其它实体的数据交叉(overlap)</li>
 </ul>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li><p class="first">考虑实体的:</p>
+<blockquote>
+<ul class="simple">
+<li>分离的序列化范围 Disjoint Scopes of Serializability</li>
+<li>唯一标识的实体 Uniquely Keyed Entities</li>
+<li>重分区和实体 Repartitioning and Entities</li>
+<li>原子事务和实体 Atomic Transactions and Entities</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">应用程序底层将确保每个实体键值(和实体)位于单一的机器(或群集)上，而不同实体则可能分布在任何地方</p>
+</li>
+<li><p class="first">实体是操作原子性的边界标志</p>
+</li>
+</ul>
+</blockquote>
 </div>
 </div>
 <div class="slide" id="transactions">
@@ -563,27 +592,39 @@ ul.auto-toc {
 <p class="takahashi8">事务</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>对实体的操作是事务</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id16">
-<h1>目标在于:应用...</h1>
+<div class="slide" id="activities">
+<h1>ACTIVITIES</h1>
+<div class="handout container">
+事务的具体执行 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">活动</p>
+<div class="notes container">
+<ul class="simple">
+<li>对事务的控制/调用/流传 就是活动</li>
+<li>活动包含了实体的状态集合</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="robustness">
+<h1>Robustness</h1>
 <div class="handout container">
 <ul class="simple">
 <li>Almost-Infinite Scaling of Applications <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></li>
 <li>考虑无限伸缩应用</li>
-<li>怎么KISS 的来?!</li>
 </ul>
 </div>
-<p class="takahashi">可伸缩</p>
+<p class="takahashi">鲁棒</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>稳健性~鲁棒性原是统计学中的一个专门术语</li>
+<li>控制论中:是指控制系统在一定（结构，大小）的参数摄动下，维持某些性能的特性</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id17">
+<div class="slide" id="id15">
 <h1>对策基于以下理论</h1>
 <div class="handout container">
 <a class="reference external" href="http://www.cnblogs.com/RicCC/archive/2008/03/30/life-beyond-distributed-transactions.html">[翻译] 超越分布式事务的方法 - 一个叛逆者的观点 - riccc - 博客园</a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -594,92 +635,123 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id18">
+<div class="slide" id="id16">
 <h1>伸缩性与应用的分层无关</h1>
 <div class="handout container">
 <a class="reference external" href="http://www.cnblogs.com/RicCC/archive/2008/03/30/life-beyond-distributed-transactions.html">[翻译] 超越分布式事务的方法 - 一个叛逆者的观点 - riccc - 博客园</a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<p class="takahashi8">分层?</p>
+<p class="takahashi9">分层</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>底层是伸缩相关(scale-aware)的即它们了解这个映射关系</li>
+<li>我们假设底层为上层提供了一个伸缩无关的(scale-agnostic)编程抽象</li>
+<li>使用它编写应用程序上层代码时无需考虑伸缩问题</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id20">
+<div class="slide" id="id18">
 <h1>事务序列化范畴与伸缩性有关</h1>
 <div class="handout container">
 <a class="reference external" href="http://www.cnblogs.com/RicCC/archive/2008/03/30/life-beyond-distributed-transactions.html">[翻译] 超越分布式事务的方法 - 一个叛逆者的观点 - riccc - 博客园</a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<p class="takahashi">事务范围</p>
+<p class="takahashi9">范畴</p>
 <div class="notes container">
+<ul>
+<li><p class="first">全局事务序列化(global transactional serializability)</p>
+<blockquote>
 <ul class="simple">
-<li>是也乎?</li>
+<li>2PC(两阶段提交)在某节点不可用时容易阻塞</li>
+<li>协议例如Paxos算法，在节点失败时不会阻塞</li>
 </ul>
+</blockquote>
+</li>
+</ul>
+<blockquote>
+<ul class="simple">
+<li>现在考虑的是非全局事务</li>
+<li>多个分离的事务序列化范围(multiple disjoint scopes of transactional serializability)</li>
+</ul>
+</blockquote>
 </div>
 </div>
-<div class="slide" id="id22">
-<h1>多数应用的消息方式与伸缩性有关</h1>
+<div class="slide" id="id20">
+<h1>大部分应用使用&quot;至少一次&quot;的消息方式</h1>
 <div class="handout container">
 <ul class="simple">
 <li>At-Least-Once 模式 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></li>
-<li>消息分发与持久化数据的更新不是直接结合在一起</li>
 </ul>
 </div>
-<p class="takahashi">至少一次</p>
+<p class="takahashi10">1+</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>问题产生的原因是消息分发与持久化数据的更新不是直接结合在一起</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id23">
-<h1>综上应对</h1>
+<div class="slide" id="id21">
+<h1>综上</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi8">原则</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>开发系统的首选原则</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id24">
-<h1>只包含单一事务</h1>
+<div class="slide" id="idempotence">
+<h1>Idempotence</h1>
 <div class="handout container">
-<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<p class="takahashi8">小实体</p>
+只包含单一安全事务|zqeye|</div>
+<p class="takahashi8">幂等</p>
 <div class="notes container">
+<ul>
+<li><p class="first">识别出所有实体后</p>
+</li>
+<li><p class="first">明确各级原子性的事务来:</p>
+<blockquote>
 <ul class="simple">
-<li>是也乎?</li>
+<li>安全且幂等:        读取</li>
+<li>安全不幂等:        查询/修订</li>
+<li>幂等不安全:        创建</li>
+<li>不安全也不幂等:    删除</li>
+</ul>
+</blockquote>
+</li>
+<li><p class="first">避免: 消息重试(retry)和重新订阅(reorder)</p>
+</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id25">
+<div class="slide" id="id22">
 <h1>用消息来协调</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi8">消息</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>隔离实体</li>
+<li>转移事务</li>
+<li>记录/协调/分发活动</li>
 </ul>
 </div>
 </div>
 <div class="slide" id="message-oriented-programming">
 <h1>Message-oriented programming</h1>
 <div class="handout container">
-<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+面向消息的编程 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi8">MOP</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>这是 OOP 之后无数 XOP 的又一次概念冷饭</li>
+<li>之前体验到的 面向数据编程,在分布式后,推导成了 MOP</li>
+<li>当然还有 MOO ~ 面向肌肉的操作</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id26">
+<div class="slide" id="id23">
 <h1>通常系统</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-nomor.dot"><div align="center" class="align-center"><img alt="i/map/flow-nomor_wsd-napkin.png" class="align-center" src="i/map/flow-nomor_wsd-napkin.png" style="width: 406.0px; height: 331.0px;" /></div>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-nomor.txt"><div align="center" class="align-center"><img alt="i/map/flow-nomor_wsd-napkin.png" class="align-center" src="i/map/flow-nomor_wsd-napkin.png" style="width: 406.0px; height: 331.0px;" /></div>
 </a>
 <div class="notes container">
 <ul class="simple">
@@ -691,7 +763,43 @@ ul.auto-toc {
 <h1>MOP系统</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-mq.dot"><div align="center" class="align-center"><img alt="i/map/flow-mq_wsd-napkin.png" class="align-center" src="i/map/flow-mq_wsd-napkin.png" style="width: 454.0px; height: 459.0px;" /></div>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-mq.txt"><div align="center" class="align-center"><img alt="i/map/flow-mq_wsd-napkin.png" class="align-center" src="i/map/flow-mq_wsd-napkin.png" style="width: 454.0px; height: 459.0px;" /></div>
+</a>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id24">
+<h1>常见邮件提醒</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-nomor.txt"><div align="center" class="align-center"><img alt="i/map/mailr-flow-nomor_wsd-napkin.png" class="align-center" src="i/map/mailr-flow-nomor_wsd-napkin.png" style="width: 361.5px; height: 496.5px;" /></div>
+</a>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id25">
+<h1>MOP邮件提醒</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-mq.txt"><div align="center" class="align-center"><img alt="i/map/mailr-flow-mq_wsd-napkin.png" class="align-center" src="i/map/mailr-flow-mq_wsd-napkin.png" style="width: 372.0px; height: 448.0px;" /></div>
+</a>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id26">
+<h1>通常业务日志</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-nomor.txt"><div align="center" class="align-center"><img alt="i/map/log-flow-nomor_wsd-napkin.png" class="align-center" src="i/map/log-flow-nomor_wsd-napkin.png" style="width: 406.5px; height: 496.5px;" /></div>
 </a>
 <div class="notes container">
 <ul class="simple">
@@ -700,10 +808,10 @@ ul.auto-toc {
 </div>
 </div>
 <div class="slide" id="id27">
-<h1>常见邮件提醒</h1>
+<h1>MOP业务日志</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-nomor.dot"><div align="center" class="align-center"><img alt="i/map/mailr-flow-nomor_wsd-napkin.png" class="align-center" src="i/map/mailr-flow-nomor_wsd-napkin.png" style="width: 241.0px; height: 331.0px;" /></div>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-mq.txt"><div align="center" class="align-center"><img alt="i/map/log-flow-mq_wsd-napkin.png" class="align-center" src="i/map/log-flow-mq_wsd-napkin.png" style="width: 433.0px; height: 427.0px;" /></div>
 </a>
 <div class="notes container">
 <ul class="simple">
@@ -712,42 +820,18 @@ ul.auto-toc {
 </div>
 </div>
 <div class="slide" id="id28">
-<h1>MOP邮件提醒</h1>
+<h1>加层</h1>
 <div class="handout container">
-<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-mq.dot"><div align="center" class="align-center"><img alt="i/map/mailr-flow-mq_wsd-napkin.png" class="align-center" src="i/map/mailr-flow-mq_wsd-napkin.png" style="width: 372.0px; height: 448.0px;" /></div>
-</a>
+这次是通用的 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">1板斧</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>面对复杂问题永远可以通过增加一个抽象层来解决</li>
+<li>MOP 之下,永远只多一层!</li>
 </ul>
 </div>
 </div>
 <div class="slide" id="id29">
-<h1>通常业务日志</h1>
-<div class="handout container">
-<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-nomor.dot"><div align="center" class="align-center"><img alt="i/map/log-flow-nomor_wsd-napkin.png" class="align-center" src="i/map/log-flow-nomor_wsd-napkin.png" style="width: 271.0px; height: 331.0px;" /></div>
-</a>
-<div class="notes container">
-<ul class="simple">
-<li>是也乎?</li>
-</ul>
-</div>
-</div>
-<div class="slide" id="id30">
-<h1>MOP业务日志</h1>
-<div class="handout container">
-<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-mq.dot"><div align="center" class="align-center"><img alt="i/map/log-flow-mq_wsd-napkin.png" class="align-center" src="i/map/log-flow-mq_wsd-napkin.png" style="width: 433.0px; height: 427.0px;" /></div>
-</a>
-<div class="notes container">
-<ul class="simple">
-<li>是也乎?</li>
-</ul>
-</div>
-</div>
-<div class="slide" id="id31">
 <h1>&lt;brief/&gt;</h1>
 <div class="handout container">
 简单想,简单试,简单用... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -763,10 +847,22 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id32">
+<div class="slide" id="id30">
+<h1>业务原子化</h1>
+<div class="handout container">
+内部全部 RESTful 接口化 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">前提</p>
+<div class="notes container">
+<ul class="simple">
+<li>eat yself dog food!</li>
+<li>好处是每个原子操作都非常非常简单</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id31">
 <h1>支撑核心</h1>
 <div class="handout container">
-异步化一切 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+尽可能异步化一切 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi8">MQ</p>
 <div class="notes container">
 <ul class="simple">
@@ -781,8 +877,17 @@ ul.auto-toc {
 <p class="takahashi8"><span class="orange">M</span> Q</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>消息可以是任何东西:</li>
 </ul>
+<blockquote>
+<ul class="simple">
+<li>数据片段</li>
+<li>代码片段</li>
+<li>状态</li>
+<li>指令</li>
+<li>...</li>
+</ul>
+</blockquote>
 </div>
 </div>
 <div class="slide" id="queue">
@@ -792,124 +897,112 @@ FIFO的管道 <a class="reference external" href="http://wiki.woodpecker.org.cn/
 <p class="takahashi8">M <span class="orange">Q</span></p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>一个健壮的,基于 http的拥有多种数据结构的栈</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id33">
+<div class="slide" id="id32">
 <h1>Queue的能力</h1>
 <div class="handout container">
 分支式请求可耐受 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi8">迸发</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>即,能自动对缓存进行优化的</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id34">
+<div class="slide" id="id33">
 <h1>Queue的内容</h1>
 <div class="handout container">
 <ul class="simple">
 <li>Atomic Transactions <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></li>
-<li>幂等性 Idempotent</li>
 </ul>
 </div>
 <p class="takahashi8">原子性</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>对操作能进行原子保证的</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="id35">
+<div class="slide" id="id34">
 <h1>Queue的监测</h1>
 <div class="handout container">
 有方法将意外的任务回收 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi8">可回收</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>这个要求不太,一般可以自制</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="document-oriented-nosql">
+<h1>面向文档(document-oriented)的NoSQL 数据库</h1>
+<div class="handout container">
+10gen 团队的魔幻作品! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="http://www.mongodb.org/"><div align="center" class="align-center"><img alt="i/logo/logo-mongodb-ondark_h300.png" class="align-center" src="i/logo/logo-mongodb-ondark_h300.png" style="width: 900.0px; height: 300.0px;" /></div>
+</a>
+<div class="notes container">
+<ul class="simple">
+<li>这个词是从humongous中截取出来的，其野心不言而明，直指海量数据存储</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id35">
+<h1>内存映射机制</h1>
+<div class="handout container">
+天然自动化缓存调度 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">mmap</p>
+<div class="notes container">
+<ul class="simple">
+<li>内置分布式集群控制,迸发影响可用</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="capped-collection">
+<h1>capped collection</h1>
+<div class="handout container">
+天然高速队列配合 <a class="reference external" href="http://blog.nosqlfan.com/html/1986.html">Tailable Cursors</a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">定长集</p>
+<div class="notes container">
+<ul class="simple">
+<li>不用计算空间的定长队列</li>
 </ul>
 </div>
 </div>
 <div class="slide" id="id36">
-<h1>业务原子化</h1>
+<h1>文档级的原子操作</h1>
 <div class="handout container">
-内部全部 RESTful 接口化 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<p class="takahashi8">前提</p>
+相当于表安全 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi4">findAndModify</p>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>$upset 也是</li>
 </ul>
 </div>
 </div>
 <div class="slide" id="id37">
-<h1>网站注册</h1>
+<h1>使用时间差</h1>
 <div class="handout container">
-标准作法... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<ul class="incremental takahashi simple">
-<li>填写登录表单</li>
-<li>入库</li>
-<li>发送邮件</li>
-<li>返回页面</li>
-</ul>
+时间戳查询 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">now <span style="color: #666666">=</span> datetime<span style="color: #666666">.</span>datetime<span style="color: #666666">.</span>now()
+difference <span style="color: #666666">=</span> datetime<span style="color: #666666">.</span>timedelta(seconds<span style="color: #666666">=10</span>)
+timeout <span style="color: #666666">=</span> now <span style="color: #666666">-</span> difference
+
+queue<span style="color: #666666">.</span>find({<span style="color: #BA2121">&#39;inProg&#39;</span> : <span style="color: #008000">True</span>, <span style="color: #BA2121">&#39;start&#39;</span> : {<span style="color: #BA2121">&#39;$lte&#39;</span> : timeout} })
+</pre></div>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
-</ul>
-</div>
-</div>
-<div class="slide" id="id38">
-<h1>解耦邮件等待</h1>
-<div class="handout container">
-MQ异步... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<ul class="incremental takahashi simple">
-<li>填写登录表单</li>
-<li>发布事务消息</li>
-<li>返回页面</li>
-</ul>
-<div class="notes container">
-<ul class="simple">
-<li>是也乎?</li>
+<li>山寨,但是好用</li>
 </ul>
 </div>
 </div>
 <div class="slide" id="id39">
-<h1>工作组件</h1>
-<div class="handout container">
-MQ之后... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<ul class="incremental takahashi simple">
-<li>认领消息</li>
-<li>处理</li>
-<li>返回消息</li>
-</ul>
-<div class="notes container">
-<ul class="simple">
-<li>是也乎?</li>
-</ul>
-</div>
-</div>
-<div class="slide" id="id40">
-<h1><a class="reference external" href="https://github.com/bcoe/karait">Karait</a></h1>
-<div class="handout container">
-轻便MQ选择... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<ul class="incremental takahashi simple">
-<li>纯Py</li>
-<li>跨语言接口</li>
-<li>MongoDB 后端!</li>
-</ul>
-<div class="notes container">
-<ul class="simple">
-<li>是也乎?</li>
-</ul>
-</div>
-</div>
-<div class="slide" id="http-celeryproject-org">
-<h1><a class="reference internal" href="#http-celeryproject-org">芹菜 &lt;http://celeryproject.org/</a></h1>
+<h1><a class="reference external" href="http://celeryproject.org/">芹菜</a></h1>
 <div class="handout container">
 高档MQ选择... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<ul class="incremental takahashi simple">
+<ul class="takahashi simple">
 <li>纯Py</li>
 <li>多后端选择</li>
 <li>多框架结合</li>
@@ -918,19 +1011,74 @@ MQ之后... <a class="reference external" href="http://wiki.woodpecker.org.cn/mo
 </ul>
 <div class="notes container">
 <ul class="simple">
-<li>是也乎?</li>
+<li>复杂</li>
 </ul>
 </div>
 </div>
-<div class="slide" id="demo">
-<h1>demo:准备中...</h1>
+<div class="slide" id="celery">
+<h1>Celery</h1>
+<div class="handout container">
+分布式任务/工作 队列 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="http://celeryproject.org/"><div align="center" class="align-center"><img alt="i/snap/Celery-Overview-v4.jpg" class="align-center" src="i/snap/Celery-Overview-v4.jpg" style="width: 631.2px; height: 469.2px;" /></div>
+</a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="djnago-celery">
+<h1>Djnago-celery</h1>
+<div class="handout container">
+有Django扩展 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="http://pypi.python.org/pypi/django-celery"><div align="center" class="align-center"><img alt="i/snap/celery_2011-11-23-174734_1021x526_scrot.png" class="align-center" src="i/snap/celery_2011-11-23-174734_1021x526_scrot.png" style="width: 1032.0px; height: 537.0px;" /></div>
+</a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="gearman">
+<h1><a class="reference external" href="http://gearman.org"><img align="top" alt="gearman" class="align-top" src="i/logo/gearman80_title.gif" style="width: 480.0px; height: 80.0px;" /></a></h1>
+<div class="handout container">
+类似的知名作品 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi8 reference external image-reference" href="http://gearman.org"><div align="center" class="align-center"><img alt="i/snap/gearman_2011-11-23-175608_620x561_scrot.png" class="align-center" src="i/snap/gearman_2011-11-23-175608_620x561_scrot.png" style="width: 631.0px; height: 572.0px;" /></div>
+</a>
+<div class="notes container">
+<ul class="simple">
+<li>基于 RPC...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id40">
+<h1><a class="reference external" href="https://github.com/bcoe/karait">Karait</a></h1>
+<div class="handout container">
+轻便MQ选择... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="takahashi simple">
+<li>纯Py</li>
+<li>跨语言接口</li>
+<li>MongoDB 后端!</li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li>简陋,但是,作为开始很好用</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="python-q">
+<h1>Python 入Q</h1>
 <div class="handout container">
 示例代码 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #408080; font-style: italic">#... overdue     = 73728</span>
-hashed <span style="color: #666666">=</span> db[linkback]<span style="color: #666666">.</span>split(<span style="color: #BA2121">&quot;,&quot;</span>)
-<span style="color: #008000; font-weight: bold">if</span> ini<span style="color: #666666">.</span>overdue <span style="color: #666666">&lt;</span> <span style="color: #008000">int</span>(time<span style="color: #666666">.</span>time())<span style="color: #666666">-</span><span style="color: #008000">int</span>(hashed[<span style="color: #666666">0</span>]):
-    __redirect(<span style="color: #BA2121">&quot;Overdue&quot;</span>,ini<span style="color: #666666">.</span>msgTPLoverdue)
-<span style="color: #408080; font-style: italic"># else: ...</span>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">karait</span> <span style="color: #008000; font-weight: bold">import</span> Message, Queue
+queue <span style="color: #666666">=</span> Queue(
+    database<span style="color: #666666">=</span><span style="color: #BA2121">&#39;karait&#39;</span>,
+    queue<span style="color: #666666">=</span><span style="color: #BA2121">&#39;messages&#39;</span>,
+)
+queue<span style="color: #666666">.</span>write({
+    <span style="color: #BA2121">&#39;name&#39;</span>: <span style="color: #BA2121">&#39;Benjamin&#39;</span>,
+    <span style="color: #BA2121">&#39;action&#39;</span>: <span style="color: #BA2121">&#39;Rock&#39;</span>
+})
 </pre></div>
 <div class="notes container">
 <ul class="simple">
@@ -939,6 +1087,84 @@ hashed <span style="color: #666666">=</span> db[linkback]<span style="color: #66
 </div>
 </div>
 <div class="slide" id="id41">
+<h1>Python 出Q</h1>
+<div class="handout container">
+示例代码 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #008000; font-weight: bold">from</span> <span style="color: #0000FF; font-weight: bold">karait</span> <span style="color: #008000; font-weight: bold">import</span> Message, Queue
+queue <span style="color: #666666">=</span> Queue()
+
+message <span style="color: #666666">=</span> queue<span style="color: #666666">.</span>read()[<span style="color: #666666">0</span>]
+<span style="color: #008000; font-weight: bold">print</span> <span style="color: #BA2121">&quot;</span><span style="color: #BB6688; font-weight: bold">%s</span><span style="color: #BA2121">&quot;</span> <span style="color: #666666">%</span> (message<span style="color: #666666">.</span>name)
+
+message<span style="color: #666666">.</span>delete()
+</pre></div>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="node-js-q">
+<h1>node.js 出Q</h1>
+<div class="handout container">
+示例代码 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #008000; font-weight: bold">var</span> puts <span style="color: #666666">=</span> require(<span style="color: #BA2121">&#39;sys&#39;</span>).puts,
+    Queue <span style="color: #666666">=</span> require(<span style="color: #BA2121">&#39;karait&#39;</span>).Queue;
+<span style="color: #008000; font-weight: bold">new</span> Queue(<span style="color: #008000; font-weight: bold">function</span>(err, queue) {
+    (<span style="color: #008000; font-weight: bold">function</span> readMessages() {
+        queue.read({routingKey<span style="color: #666666">:</span> <span style="color: #BA2121">&#39;for_reader&#39;</span>}, <span style="color: #008000; font-weight: bold">function</span>(err, messages) {
+            <span style="color: #008000; font-weight: bold">for</span> (<span style="color: #008000; font-weight: bold">var</span> i <span style="color: #666666">=</span> <span style="color: #666666">0</span>, message; (message <span style="color: #666666">=</span> messages[i]) <span style="color: #666666">!=</span> <span style="color: #008000; font-weight: bold">null</span>; i<span style="color: #666666">++</span>) {
+            <span style="color: #408080; font-style: italic">//...</span>
+            }
+            queue.deleteMessages(messages, <span style="color: #008000; font-weight: bold">function</span>() {
+                readMessages();
+            });
+        })();
+    });
+</pre></div>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="ruby-q">
+<h1>Ruby 出Q</h1>
+<div class="handout container">
+示例代码 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #008000">require</span> <span style="color: #BA2121">&#39;karait&#39;</span>
+
+queue <span style="color: #666666">=</span> <span style="color: #880000">Karait</span><span style="color: #666666">::</span><span style="color: #880000">Queue</span><span style="color: #666666">.</span>new
+message <span style="color: #666666">=</span> queue<span style="color: #666666">.</span>read()<span style="color: #666666">.</span>first
+<span style="color: #008000">print</span> <span style="color: #BA2121">&quot;</span><span style="color: #BB6688; font-weight: bold">#{</span>message<span style="color: #666666">.</span>name<span style="color: #BB6688; font-weight: bold">}</span><span style="color: #BA2121">&quot;</span>
+
+message<span style="color: #666666">.</span>delete
+</pre></div>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id42">
+<h1>原子保证</h1>
+<div class="handout container">
+visibility_timeout 设定超时秒数 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">require <span style="color: #BA2121">&#39;karait&#39;</span>
+
+queue <span style="color: #666666">=</span> Karait::Queue<span style="color: #666666">.</span>new
+
+message <span style="color: #666666">=</span> queue<span style="color: #666666">.</span>read(:routing_key<span style="color: #666666">=</span><span style="color: #BA2121">&#39;foobar&#39;</span>, :visibility_timeout<span style="color: #666666">=3.0</span>)<span style="color: #666666">.</span>first
+<span style="color: #008000; font-weight: bold">print</span> <span style="color: #BA2121">&quot;#{message.name}&quot;</span>
+message<span style="color: #666666">.</span>delete
+</pre></div>
+<div class="notes container">
+<ul class="simple">
+<li>是也乎?</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id43">
 <h1>&lt;brief/&gt;</h1>
 <div class="handout container">
 简单想,简单试,简单用... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -954,7 +1180,7 @@ hashed <span style="color: #666666">=</span> db[linkback]<span style="color: #66
 </ul>
 </div>
 </div>
-<div class="slide" id="id42">
+<div class="slide" id="id44">
 <h1>总之:任何好想法</h1>
 <div class="handout container">
 期望记住的~单位时间能记住的只有7+-2 个 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -983,11 +1209,12 @@ hashed <span style="color: #666666">=</span> db[linkback]<span style="color: #66
 </ul>
 </div>
 </div>
-<div class="slide" id="id43">
+<div class="slide" id="id45">
 <h1>&lt;版本/&gt;</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <ul class="simple">
+<li>111122 增补图谱</li>
 <li>111114 增补叙述</li>
 <li>111112 调整结构</li>
 <li>111111 创建幻灯</li>
@@ -1002,7 +1229,7 @@ hashed <span style="color: #666666">=</span> db[linkback]<span style="color: #66
 </table>
 <p><a class="reference external" href="http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste">http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste</a></p>
 </div>
-<div class="slide" id="id44">
+<div class="slide" id="id46">
 <h1><a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/">S5</a></h1>
 <div class="handout container">
 纯HTML 幻灯撰写框架!... <a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/"><img align="top" alt="S5icon" class="align-top" src="pix/S5icon.GIF" style="width: 16.0px; height: 16.0px;" /></a></div>
