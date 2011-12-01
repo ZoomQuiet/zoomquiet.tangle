@@ -1,7 +1,7 @@
 .. include:: <s5defs.txt>
 
 ==================================================================
-MQ解耦开发
+MQ解耦应用
 ==================================================================
 
 ～ 为偷懒而艰苦思考ing (powered by rst2S5)
@@ -89,6 +89,26 @@ MQ解耦开发
 
 
 
+牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 928d
+
+
+
+.. image:: i/foto/niuniu110105.jpeg
+    :align: center
+    :scale: 110 %
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+
+
 <brief/>
 =========
 
@@ -99,10 +119,10 @@ MQ解耦开发
 
 .. class:: takahashi
 
-    - :orange:`5' 起因`
-    - :silver:`10' 对策`
-    - :silver:`10' 实现`
-    - :silver:`5'沟通`
+    - :orange:`05' 起因`
+    - :silver:`15' 对策`
+    - :silver:`15' 实现`
+    - :silver:`05'沟通`
 
 
 .. container:: notes
@@ -283,10 +303,10 @@ MQ解耦开发
 
 .. class:: takahashi
 
-    - :gray:`5' 起因`
-    - :orange:`10' 对策`
-    - :silver:`10' 实现`
-    - :silver:`5'沟通`
+    - :gray:`05' 起因`
+    - :orange:`15' 对策`
+    - :silver:`15' 实现`
+    - :silver:`05'沟通`
 
 
 .. container:: notes
@@ -383,7 +403,7 @@ Business?!
 
 .. class:: takahashi8
 
-    "业务"
+    `业务`
 
 
 .. container:: notes
@@ -406,7 +426,7 @@ Application
 
 .. container:: handout
 
-   实现方案的是应用 |zqeye|
+   方案的实现应用 |zqeye|
 
 
 .. class:: takahashi8
@@ -525,9 +545,9 @@ Robustness
    - 考虑无限伸缩应用 
 
 
-.. class:: takahashi
+.. class:: takahashi9
 
-    鲁棒
+    :orange:`鲁棒`
 
 
 .. container:: notes
@@ -694,7 +714,7 @@ Idempotence
         - 安全且幂等:        读取
         - 安全不幂等:        查询/修订
         - 幂等不安全:        创建
-        - 不安全也不幂等:    删除
+        - 不安全幂等:    删除
     
     - 避免: 消息重试(retry)和重新订阅(reorder)
         
@@ -748,7 +768,7 @@ Message-oriented programming
 
 .. class:: takahashi8
 
-    MOP
+    :orange:`MOP`
 
 
 .. container:: notes
@@ -779,7 +799,7 @@ Message-oriented programming
 
 .. image:: i/map/flow-nomor_wsd-napkin.png
     :align: center
-    :scale: 100 %
+    :scale: 120 %
     :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-nomor.txt
 
 
@@ -809,7 +829,7 @@ MOP系统
 
 .. image:: i/map/flow-mq_wsd-napkin.png
     :align: center
-    :scale: 100 %
+    :scale: 110 %
     :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-mq.txt
 
 
@@ -869,7 +889,7 @@ MOP邮件提醒
 
 .. image:: i/map/mailr-flow-mq_wsd-napkin.png
     :align: center
-    :scale: 100 %
+    :scale: 110 %
     :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-mq.txt
 
 
@@ -929,7 +949,7 @@ MOP业务日志
 
 .. image:: i/map/log-flow-mq_wsd-napkin.png
     :align: center
-    :scale: 100 %
+    :scale: 110 %
     :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-mq.txt
 
 
@@ -956,7 +976,7 @@ MOP业务日志
 
 .. class:: takahashi8
 
-    1板斧
+    :orange:`1` 板斧
 
 
 .. container:: notes
@@ -982,10 +1002,10 @@ MOP业务日志
 
 .. class:: takahashi
 
-    - :gray:`5' 起因`
-    - :gray:`10' 对策`
-    - :orange:`10' 实现`
-    - :silver:`5'沟通`
+    - :gray:`05' 起因`
+    - :gray:`15' 对策`
+    - :orange:`15' 实现`
+    - :silver:`05'沟通`
 
 
 .. container:: notes
@@ -1010,6 +1030,27 @@ MOP业务日志
 .. class:: takahashi8
 
     前提
+
+
+.. container:: notes
+
+   - eat yself dog food!
+   - 好处是每个原子操作都非常非常简单
+
+分级
+==================
+
+.. container:: handout
+
+   可RESTful 的... |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 安全且幂等: 读取
+    - 安全不幂等: 查询/修订
+    - 幂等不安全: 创建
+    - 不安全幂等: 删除
 
 
 .. container:: notes
@@ -1191,152 +1232,6 @@ Queue的监测
 
 
 
-面向文档(document-oriented)的NoSQL 数据库
-======================================================
-
-.. container:: handout
-
-   10gen 团队的魔幻作品! |zqeye|
-
-
-.. class:: takahashi8
-
-
-.. image:: i/logo/logo-mongodb-ondark_h300.png
-    :align: center
-    :scale: 100 %
-    :target: http://www.mongodb.org/
-    
-    
-
-.. container:: notes
-
-   - 这个词是从humongous中截取出来的，其野心不言而明，直指海量数据存储
-
-
-
-
-
-
-
-
-
-
-内存映射机制
-==================
-
-.. container:: handout
-
-   天然自动化缓存调度 |zqeye|
-
-
-.. class:: takahashi8
-
-    mmap
-
-
-.. container:: notes
-
-   - 内置分布式集群控制,迸发影响可用   
-
-
-
-
-
-
-
-
-
-
-
-
-capped collection
-====================================
-
-.. container:: handout
-
-   天然高速队列配合 `Tailable Cursors <http://blog.nosqlfan.com/html/1986.html>`_ |zqeye|
-
-
-.. class:: takahashi8
-
-    定长集
-
-
-.. container:: notes
-
-   - 不用计算空间的定长队列
-
-
-
-
-
-
-
-
-
-
-
-
-文档级的原子操作
-====================================
-
-.. container:: handout
-
-   相当于表安全 |zqeye|
-
-
-.. class:: takahashi4
-
-    findAndModify
-
-
-.. container:: notes
-
-   - $upset 也是
-
-
-
-
-
-
-
-
-
-
-
-
-使用时间差
-====================================
-
-.. container:: handout
-
-   时间戳查询 |zqeye|
-
-
-.. code-block:: python
-
-    now = datetime.datetime.now()
-    difference = datetime.timedelta(seconds=10)
-    timeout = now - difference
-    
-    queue.find({'inProg' : True, 'start' : {'$lte' : timeout} })
-    
-.. container:: notes
-
-   - 山寨,但是好用
-
-
-
-
-
-
-
-
-
-
-
-
 `芹菜 <http://celeryproject.org/>`_
 ========================================================================
 
@@ -1348,7 +1243,7 @@ capped collection
 .. class:: takahashi
 
     - 纯Py
-    - 多后端选择
+    - 多后端选择(DB/NoSQL/MQ)
     - 多框架结合
     - 多线程动力(gevent/Eventlet)
     - ... 
@@ -1445,12 +1340,158 @@ Djnago-celery
 
 .. container:: notes
 
-   - 基于 RPC...
+   - 基于 Perl/RPC...
 
 .. |gearman| image:: i/logo/gearman80_title.gif
     :align: top
     :scale: 100 %
     :target: http://gearman.org
+
+
+
+
+
+
+
+
+
+
+
+面向文档(document-oriented)的NoSQL 数据库
+======================================================
+
+.. container:: handout
+
+   10gen 团队的魔幻作品! |zqeye|
+
+
+.. class:: takahashi8
+
+
+.. image:: i/logo/logo-mongodb-ondark_h300.png
+    :align: center
+    :scale: 100 %
+    :target: http://www.mongodb.org/
+    
+    
+
+.. container:: notes
+
+   - 这个词是从humongous中截取出来的，其野心不言而明，直指海量数据存储
+
+
+
+
+
+
+
+
+
+
+内存映射机制
+==================
+
+.. container:: handout
+
+   天然自动化缓存调度 |zqeye|
+
+
+.. class:: takahashi8
+
+    mmap
+
+
+.. container:: notes
+
+   - 内置分布式集群控制,迸发影响可用   
+
+
+
+
+
+
+
+
+
+
+
+
+capped collection
+====================================
+
+.. container:: handout
+
+   天然高速队列配合 `Tailable Cursors <http://blog.nosqlfan.com/html/1986.html>`_ |zqeye|
+
+
+.. class:: takahashi8
+
+    定长集
+
+
+.. container:: notes
+
+   - 不用计算空间的定长队列
+
+
+
+
+
+
+
+
+
+
+
+
+文档级的原子操作
+====================================
+
+.. container:: handout
+
+   $findAndModify;相当于表安全 |zqeye|
+
+
+.. class:: takahashi7
+
+    upset
+
+
+.. container:: notes
+
+   - $upset 也是
+
+
+
+
+
+
+
+
+
+
+
+
+使用时间差
+====================================
+
+.. container:: handout
+
+   时间戳查询 |zqeye|
+
+
+.. code-block:: python
+
+    now = datetime.datetime.now()
+    difference = datetime.timedelta(seconds=10)
+    timeout = now - difference
+    
+    queue.find({'inProg' : True, 'start' : {'$lte' : timeout} })
+    
+.. container:: notes
+
+   - 山寨,但是好用
+
 
 
 
@@ -1507,8 +1548,10 @@ Python 入Q
     queue.write({
         'name': 'Benjamin',
         'action': 'Rock'
-    })
-
+        }
+        ,routing_key='foobar'
+        )#, expire=3.0
+        
 
 .. container:: notes
 
@@ -1569,7 +1612,7 @@ node.js 出Q
         Queue = require('karait').Queue;
     new Queue(function(err, queue) {
         (function readMessages() {
-            queue.read({routingKey: 'for_reader'}, function(err, messages) {
+            queue.read({routingKey: 'foobar'}, function(err, messages) {
                 for (var i = 0, message; (message = messages[i]) != null; i++) {
                 //...
                 }
@@ -1633,12 +1676,14 @@ Ruby 出Q
 
 .. code-block:: python
 
-    require 'karait'
+
+    from karait import Message, Queue
+    queue = Queue()
+
+    message = queue.read(routing_key='foobar', 
+        visibility_timeout=3.0)[0]
+    print "%s" % (message.name)
     
-    queue = Karait::Queue.new
-    
-    message = queue.read(:routing_key='foobar', :visibility_timeout=3.0).first
-    print "#{message.name}"
     message.delete
         
 .. container:: notes
@@ -1646,6 +1691,200 @@ Ruby 出Q
    - 是也乎?
 
 
+
+
+
+
+
+
+
+
+未尽的
+==================
+
+.. container:: handout
+
+   各种没现成的功能 |zqeye|
+
+
+.. class:: takahashi8
+
+    ToDo
+
+
+.. container:: notes
+
+   - MOP 从思想到框架缺少的...
+
+
+
+
+
+工作状态
+==================
+
+.. container:: handout
+
+   是否超时/死亡/僵尸... |zqeye|
+
+
+.. class:: takahashi7
+
+    进程
+    
+    监控
+
+
+.. container:: notes
+
+    - ip:port:start_time:pid 为组合,对进程进行标识:
+    
+        - pid   确保唯一性
+        - gpid  生成成本低
+        - gpid  有生产意义
+        - gpid  有历史意义
+   
+
+
+
+
+
+
+
+
+
+
+
+数据传递
+==================
+
+.. container:: handout
+
+   当事务有前后顺序时? |zqeye|
+
+
+.. class:: takahashi7
+
+    活动
+    
+    序列
+
+
+.. container:: notes
+
+   - 再设计,通过多段提交,去顺序化
+
+
+
+
+
+
+
+
+
+
+灾难响应
+==================
+
+.. container:: handout
+
+   能否安全的迁移所有末尽事务? |zqeye|
+
+
+.. class:: takahashi7
+
+    灾难
+    
+    迁移
+    
+
+.. container:: notes
+
+   - MongoDB 的能力了!
+
+
+
+
+
+
+
+
+
+
+业务状态
+==================
+
+.. container:: handout
+
+   合理化业务整体进展的汇报 |zqeye|
+
+
+.. class:: takahashi7
+
+    实时
+    
+    统计
+
+
+.. container:: notes
+
+   - 分布式业务日志内置!
+
+
+
+
+
+
+
+
+对策
+==================
+
+.. container:: handout
+
+   简单的保持需要更加简单的设计 |zqeye|
+
+
+.. class:: takahashi8
+
+    KI :orange:`SS`
+
+
+.. container:: notes
+
+   - 那么从根儿上尝试解决!
+
+
+
+
+
+
+
+
+
+
+KISS
+====================================
+
+.. container:: handout
+
+   山寨才V5 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 选择最 **土** 的方案
+    - 成对维护 :sup:`(生产和消费者)`
+    - 内置测试
+    - 守往master
+    - 时常重构 :sup:`沈游侠军规`
+    - ...
+
+
+.. container:: notes
+
+    - 1、code review 的必须很快,代码排版到能够扫一眼文件就知道有没有 bug 和设计问题
+    - 2、当无法起出一个PP的变量名时，已经有设计问题了
 
 
 
@@ -1664,10 +1903,10 @@ Ruby 出Q
 
 .. class:: takahashi
 
-    - :gray:`5' 起因`
-    - :gray:`10' 对策`
-    - :gray:`10' 实现`
-    - :orange:`5'沟通`
+    - :gray:`05' 起因`
+    - :gray:`15' 对策`
+    - :gray:`15' 实现`
+    - :orange:`05'沟通`
 
 
 .. container:: notes
@@ -1695,7 +1934,7 @@ Ruby 出Q
     - 耦合的根源在业务
     - 异步业务靠设计
     - MQ我选MongoDB
-    - MOP尚未成功
+    - `MOP` 尚未成功
 
 
 .. container:: notes
@@ -1739,6 +1978,7 @@ Ruby 出Q
    |zqeye|
 
 
+- 111201 增补ToDo 和牛妞照片
 - 111122 增补图谱
 - 111114 增补叙述
 - 111112 调整结构

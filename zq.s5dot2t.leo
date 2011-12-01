@@ -142,17 +142,20 @@
 <v t="zoomq.20111111090027.11917" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111111090027.11918"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20111111090027.11919"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
-<v t="zoomq.20111111090027.11920"><vh>免责</vh></v>
-<v t="zoomq.20111111090027.11921" a="E"><vh>起因</vh>
+<v t="zoomq.20111111090027.11920"><vh>免责</vh>
+<v t="zoomq.20111201085740.12629"><vh>牛妞</vh></v>
+</v>
+<v t="zoomq.20111111090027.11921"><vh>起因</vh>
 <v t="zoomq.20111111090027.11922"><vh>原因</vh></v>
 <v t="zoomq.20111114113146.10870"><vh>原因的原因</vh></v>
 <v t="zoomq.20111114113146.10872"><vh>原因的原因的原因</vh></v>
 <v t="zoomq.20111114113146.10874"><vh>根源原因</vh></v>
 <v t="zoomq.20111114113146.10876"><vh>耦合</vh></v>
 </v>
-<v t="zoomq.20111111090027.14184" a="E"><vh>对策</vh>
+<v t="zoomq.20111111090027.14184"><vh>对策</vh>
+<v t="zoomq.20111201085740.12644"><vh>KISS</vh></v>
 <v t="zoomq.20111111090027.14185"><vh>乱入</vh></v>
-<v t="zoomq.20111114113146.10878" a="E"><vh>概念</vh>
+<v t="zoomq.20111114113146.10878"><vh>概念</vh>
 <v t="zoomq.20111114113146.10880"><vh>业务!?</vh></v>
 <v t="zoomq.20111114113146.10882"><vh>应用</vh></v>
 <v t="zoomq.20111114113146.10884"><vh>实体</vh></v>
@@ -170,7 +173,7 @@
 <v t="zoomq.20111114113146.10901"><vh>消息</vh></v>
 </v>
 </v>
-<v t="zoomq.20111123085435.11022" a="E"><vh>思路</vh>
+<v t="zoomq.20111123085435.11022"><vh>思路</vh>
 <v t="zoomq.20111123085435.11024"><vh>图谱:通常</vh></v>
 <v t="zoomq.20111123085435.11026"><vh>图谱:MQ</vh></v>
 <v t="zoomq.20111123085435.11028"><vh>图谱:邮件</vh></v>
@@ -181,7 +184,9 @@
 </v>
 </v>
 <v t="zoomq.20111111090027.14180" a="E"><vh>实现</vh>
-<v t="zoomq.20111114113146.13632"><vh>前提</vh></v>
+<v t="zoomq.20111114113146.13632"><vh>前提</vh>
+<v t="zoomq.20111201085740.12631"><vh>情况</vh></v>
+</v>
 <v t="zoomq.20111111090027.14181"><vh>MQ</vh>
 <v t="zoomq.20111114113146.13622"><vh>MQ:M</vh></v>
 <v t="zoomq.20111114113146.13624"><vh>MQ:Q</vh>
@@ -190,40 +195,49 @@
 <v t="zoomq.20111114113146.13630"><vh>可回收</vh></v>
 </v>
 </v>
+<v t="zoomq.20111114165944.10927"><vh>芹菜</vh>
+<v t="zoomq.20111123085435.11058"><vh>celery</vh></v>
+<v t="zoomq.20111123085435.11062"><vh>django-celery</vh></v>
+<v t="zoomq.20111123085435.11060"><vh>Gearman</vh></v>
+</v>
 <v t="zoomq.20111123085435.11045"><vh>MongoDB</vh>
 <v t="zoomq.20111123085435.11046"><vh>mmap</vh></v>
 <v t="zoomq.20111123085435.11052"><vh>capped collection</vh></v>
 <v t="zoomq.20111123085435.11054"><vh>findAndModify</vh></v>
 <v t="zoomq.20111123085435.11056"><vh>可回收</vh></v>
 </v>
-<v t="zoomq.20111114165944.10927"><vh>芹菜</vh>
-<v t="zoomq.20111123085435.11058"><vh>celery</vh></v>
-<v t="zoomq.20111123085435.11062"><vh>django-celery</vh></v>
-<v t="zoomq.20111123085435.11060"><vh>Gearman</vh></v>
-</v>
-<v t="zoomq.20111114165944.10925" a="E"><vh>karait</vh>
+<v t="zoomq.20111114165944.10925"><vh>karait</vh>
 <v t="zoomq.20111114165944.10929"><vh>py入</vh></v>
 <v t="zoomq.20111123085435.11064"><vh>py出</vh></v>
 <v t="zoomq.20111123085435.11066"><vh>.js出</vh></v>
 <v t="zoomq.20111123085435.11068"><vh>Ruby出</vh></v>
 <v t="zoomq.20111123085435.11070"><vh>原子保证</vh></v>
 </v>
+<v t="zoomq.20111201085740.12634"><vh>todo</vh>
+<v t="zoomq.20111201085740.12635"><vh>监察</vh></v>
+<v t="zoomq.20111201085740.12637"><vh>顺序</vh></v>
+<v t="zoomq.20111201085740.12639"><vh>意外</vh></v>
+<v t="zoomq.20111201085740.12641"><vh>统计</vh></v>
 </v>
-<v t="zoomq.20111114113146.10904" a="E"><vh>沟通</vh>
-<v t="zoomq.20111111090027.11950"><vh>总结7+-2</vh></v>
+<v t="zoomq.20111201085740.12650"><vh>KISS</vh>
+<v t="zoomq.20111111090027.11950"><vh>小结</vh></v>
+</v>
+</v>
+<v t="zoomq.20111114113146.10904"><vh>沟通</vh>
+<v t="zoomq.20111201085740.12648"><vh>总结7+-2</vh></v>
 <v t="zoomq.20111111090027.11951"><vh>Q&amp;A</vh></v>
 </v>
-<v t="zoomq.20111111090027.11952" a="E"><vh>version</vh>
+<v t="zoomq.20111111090027.11952"><vh>version</vh>
 <v t="zoomq.20111111090027.11953"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
 </v>
 <v t="zoomq.20110317085545.11551"><vh>111117-time-km</vh>
-<v t="zoomq.20110317085545.11552"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110317085545.11552" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20111115220826.11004"><vh>Randy Pausch</vh></v>
-<v t="zoomq.20110317085545.11555"><vh>免责</vh>
+<v t="zoomq.20110317085545.11555" a="E"><vh>免责</vh>
 <v t="zoomq.20110317085545.11556"><vh>Takahashi</vh>
 <v t="zoomq.20110317085545.11557"><vh>Takahashi</vh></v>
 <v t="zoomq.20110317085545.11558"><vh>Takahashi</vh></v>
@@ -233,7 +247,7 @@
 <v t="zoomq.20110317085545.11562"><vh>Takahashi</vh></v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11563"><vh>brief0</vh>
+<v t="zoomq.20110317085545.11563" a="E"><vh>brief0</vh>
 <v t="zoomq.20110317085545.11564" a="E"><vh>abt.ZQ</vh>
 <v t="zoomq.20110317085545.11565"><vh>本命年</vh></v>
 <v t="zoomq.20110317085545.11566"><vh>ZQ1999</vh></v>
@@ -70431,7 +70445,7 @@ mailme-&gt;OBP;
 .. include:: &lt;s5defs.txt&gt;
 
 ==================================================================
-MQ解耦开发
+MQ解耦应用
 ==================================================================
 
 ～ 为偷懒而艰苦思考ing (powered by rst2S5)
@@ -70537,10 +70551,10 @@ MQ解耦开发
 
 .. class:: takahashi
 
-    - :orange:`5' 起因`
-    - :silver:`10' 对策`
-    - :silver:`10' 实现`
-    - :silver:`5'沟通`
+    - :orange:`05' 起因`
+    - :silver:`15' 对策`
+    - :silver:`15' 实现`
+    - :silver:`05'沟通`
 
 
 .. container:: notes
@@ -70605,26 +70619,28 @@ MQ解耦开发
 
 
 </t>
-<t tx="zoomq.20111111090027.11950">总之:任何好想法
+<t tx="zoomq.20111111090027.11950">KISS
 ====================================
 
 .. container:: handout
 
-   期望记住的~单位时间能记住的只有7+-2 个 |zqeye|
+   山寨才V5 |zqeye|
 
 
 .. class:: incremental takahashi
 
-    - 复杂事关态度
-    - 耦合的根源在业务
-    - 异步业务靠设计
-    - MQ我选MongoDB
-    - MOP尚未成功
+    - 选择最 **土** 的方案
+    - 成对维护 :sup:`(生产和消费者)`
+    - 内置测试
+    - 守往master
+    - 时常重构 :sup:`沈游侠军规`
+    - ...
 
 
 .. container:: notes
 
-    - Doing now! don't thinking!
+    - 1、code review 的必须很快,代码排版到能够扫一眼文件就知道有没有 bug 和设计问题
+    - 2、当无法起出一个PP的变量名时，已经有设计问题了
 
 
 
@@ -70665,6 +70681,7 @@ MQ解耦开发
    |zqeye|
 
 
+- 111201 增补ToDo 和牛妞照片
 - 111122 增补图谱
 - 111114 增补叙述
 - 111112 调整结构
@@ -70724,10 +70741,10 @@ http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste
 
 .. class:: takahashi
 
-    - :gray:`5' 起因`
-    - :gray:`10' 对策`
-    - :orange:`10' 实现`
-    - :silver:`5'沟通`
+    - :gray:`05' 起因`
+    - :gray:`15' 对策`
+    - :orange:`15' 实现`
+    - :silver:`05'沟通`
 
 
 .. container:: notes
@@ -70779,41 +70796,15 @@ http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste
 
 .. class:: takahashi
 
-    - :gray:`5' 起因`
-    - :orange:`10' 对策`
-    - :silver:`10' 实现`
-    - :silver:`5'沟通`
+    - :gray:`05' 起因`
+    - :orange:`15' 对策`
+    - :silver:`15' 实现`
+    - :silver:`05'沟通`
 
 
 .. container:: notes
 
    - 
-
-
-
-对策
-==================
-
-.. container:: handout
-
-   简单的保持需要更加简单的设计 |zqeye|
-
-
-.. class:: takahashi8
-
-    :orange:`K` ISS
-
-
-.. container:: notes
-
-   - 那么从根儿上尝试解决!
-
-
-
-
-
-
-
 
 
 
@@ -72547,7 +72538,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: takahashi8
 
-    "业务"
+    `业务`
 
 
 .. container:: notes
@@ -72571,7 +72562,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. container:: handout
 
-   实现方案的是应用 |zqeye|
+   方案的实现应用 |zqeye|
 
 
 .. class:: takahashi8
@@ -72667,9 +72658,9 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    - 考虑无限伸缩应用 
 
 
-.. class:: takahashi
+.. class:: takahashi9
 
-    鲁棒
+    :orange:`鲁棒`
 
 
 .. container:: notes
@@ -72842,7 +72833,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
         - 安全且幂等:        读取
         - 安全不幂等:        查询/修订
         - 幂等不安全:        创建
-        - 不安全也不幂等:    删除
+        - 不安全幂等:    删除
     
     - 避免: 消息重试(retry)和重新订阅(reorder)
         
@@ -72897,10 +72888,10 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: takahashi
 
-    - :gray:`5' 起因`
-    - :gray:`10' 对策`
-    - :gray:`10' 实现`
-    - :orange:`5'沟通`
+    - :gray:`05' 起因`
+    - :gray:`15' 对策`
+    - :gray:`15' 实现`
+    - :orange:`05'沟通`
 
 
 .. container:: notes
@@ -73077,15 +73068,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    - eat yself dog food!
    - 好处是每个原子操作都非常非常简单
 
-
-
-
-
-
-
-
-
-
 </t>
 <t tx="zoomq.20111114165944.10925">`Karait &lt;https://github.com/bcoe/karait&gt;`_
 ========================================================================
@@ -73126,7 +73108,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. class:: takahashi
 
     - 纯Py
-    - 多后端选择
+    - 多后端选择(DB/NoSQL/MQ)
     - 多框架结合
     - 多线程动力(gevent/Eventlet)
     - ... 
@@ -73163,8 +73145,10 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     queue.write({
         'name': 'Benjamin',
         'action': 'Rock'
-    })
-
+        }
+        ,routing_key='foobar'
+        )#, expire=3.0
+        
 
 .. container:: notes
 
@@ -74229,7 +74213,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: takahashi8
 
-    MOP
+    :orange:`MOP`
 
 
 .. container:: notes
@@ -74261,7 +74245,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. image:: i/map/flow-nomor_wsd-napkin.png
     :align: center
-    :scale: 100 %
+    :scale: 120 %
     :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-nomor.txt
 
 
@@ -74292,7 +74276,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. image:: i/map/flow-mq_wsd-napkin.png
     :align: center
-    :scale: 100 %
+    :scale: 110 %
     :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-mq.txt
 
 
@@ -74354,7 +74338,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. image:: i/map/mailr-flow-mq_wsd-napkin.png
     :align: center
-    :scale: 100 %
+    :scale: 110 %
     :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-mq.txt
 
 
@@ -74416,7 +74400,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. image:: i/map/log-flow-mq_wsd-napkin.png
     :align: center
-    :scale: 100 %
+    :scale: 110 %
     :target: http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-mq.txt
 
 
@@ -74471,7 +74455,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: takahashi8
 
-    1板斧
+    :orange:`1` 板斧
 
 
 .. container:: notes
@@ -74583,12 +74567,12 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. container:: handout
 
-   相当于表安全 |zqeye|
+   $findAndModify;相当于表安全 |zqeye|
 
 
-.. class:: takahashi4
+.. class:: takahashi7
 
-    findAndModify
+    upset
 
 
 .. container:: notes
@@ -74690,7 +74674,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. container:: notes
 
-   - 基于 RPC...
+   - 基于 Perl/RPC...
 
 .. |gearman| image:: i/logo/gearman80_title.gif
     :align: top
@@ -74785,7 +74769,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
         Queue = require('karait').Queue;
     new Queue(function(err, queue) {
         (function readMessages() {
-            queue.read({routingKey: 'for_reader'}, function(err, messages) {
+            queue.read({routingKey: 'foobar'}, function(err, messages) {
                 for (var i = 0, message; (message = messages[i]) != null; i++) {
                 //...
                 }
@@ -74851,17 +74835,297 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. code-block:: python
 
-    require 'karait'
+
+    from karait import Message, Queue
+    queue = Queue()
+
+    message = queue.read(routing_key='foobar', 
+        visibility_timeout=3.0)[0]
+    print "%s" % (message.name)
     
-    queue = Karait::Queue.new
-    
-    message = queue.read(:routing_key='foobar', :visibility_timeout=3.0).first
-    print "#{message.name}"
     message.delete
         
 .. container:: notes
 
    - 是也乎?
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111201085740.12629">牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 928d
+
+
+
+.. image:: i/foto/niuniu110105.jpeg
+    :align: center
+    :scale: 110 %
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+
+
+</t>
+<t tx="zoomq.20111201085740.12631">分级
+==================
+
+.. container:: handout
+
+   可RESTful 的... |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 安全且幂等: 读取
+    - 安全不幂等: 查询/修订
+    - 幂等不安全: 创建
+    - 不安全幂等: 删除
+
+
+.. container:: notes
+
+   - eat yself dog food!
+   - 好处是每个原子操作都非常非常简单
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111201085740.12634">未尽的
+==================
+
+.. container:: handout
+
+   各种没现成的功能 |zqeye|
+
+
+.. class:: takahashi8
+
+    ToDo
+
+
+.. container:: notes
+
+   - MOP 从思想到框架缺少的...
+
+
+
+
+
+</t>
+<t tx="zoomq.20111201085740.12635">工作状态
+==================
+
+.. container:: handout
+
+   是否超时/死亡/僵尸... |zqeye|
+
+
+.. class:: takahashi7
+
+    进程
+    
+    监控
+
+
+.. container:: notes
+
+    - ip:port:start_time:pid 为组合,对进程进行标识:
+    
+        - pid   确保唯一性
+        - gpid  生成成本低
+        - gpid  有生产意义
+        - gpid  有历史意义
+   
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111201085740.12637">数据传递
+==================
+
+.. container:: handout
+
+   当事务有前后顺序时? |zqeye|
+
+
+.. class:: takahashi7
+
+    活动
+    
+    序列
+
+
+.. container:: notes
+
+   - 再设计,通过多段提交,去顺序化
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111201085740.12639">灾难响应
+==================
+
+.. container:: handout
+
+   能否安全的迁移所有末尽事务? |zqeye|
+
+
+.. class:: takahashi7
+
+    灾难
+    
+    迁移
+    
+
+.. container:: notes
+
+   - MongoDB 的能力了!
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111201085740.12641">业务状态
+==================
+
+.. container:: handout
+
+   合理化业务整体进展的汇报 |zqeye|
+
+
+.. class:: takahashi7
+
+    实时
+    
+    统计
+
+
+.. container:: notes
+
+   - 分布式业务日志内置!
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111201085740.12644">对策
+==================
+
+.. container:: handout
+
+   简单的保持需要更加简单的设计 |zqeye|
+
+
+.. class:: takahashi8
+
+    :orange:`K` ISS
+
+
+.. container:: notes
+
+   - 那么从根儿上尝试解决!
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111201085740.12648">总之:任何好想法
+====================================
+
+.. container:: handout
+
+   期望记住的~单位时间能记住的只有7+-2 个 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 复杂事关态度
+    - 耦合的根源在业务
+    - 异步业务靠设计
+    - MQ我选MongoDB
+    - `MOP` 尚未成功
+
+
+.. container:: notes
+
+    - Doing now! don't thinking!
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20111201085740.12650">对策
+==================
+
+.. container:: handout
+
+   简单的保持需要更加简单的设计 |zqeye|
+
+
+.. class:: takahashi8
+
+    KI :orange:`SS`
+
+
+.. container:: notes
+
+   - 那么从根儿上尝试解决!
 
 
 
