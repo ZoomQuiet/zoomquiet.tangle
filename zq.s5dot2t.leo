@@ -142,38 +142,40 @@
 <v t="zoomq.20111111090027.11917" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111111090027.11918"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20111111090027.11919"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
-<v t="zoomq.20111111090027.11920"><vh>免责</vh>
+<v t="zoomq.20111203105319.11147" a="E"><vh>ZQ</vh>
+<v t="zoomq.20111111090027.11920"><vh>免责</vh></v>
 <v t="zoomq.20111201085740.12629"><vh>牛妞</vh></v>
 </v>
-<v t="zoomq.20111111090027.11921"><vh>起因</vh>
+<v t="zoomq.20111111090027.11921" a="E"><vh>起因</vh>
 <v t="zoomq.20111111090027.11922"><vh>原因</vh></v>
 <v t="zoomq.20111114113146.10870"><vh>原因的原因</vh></v>
 <v t="zoomq.20111114113146.10872"><vh>原因的原因的原因</vh></v>
 <v t="zoomq.20111114113146.10874"><vh>根源原因</vh></v>
 <v t="zoomq.20111114113146.10876"><vh>耦合</vh></v>
 </v>
-<v t="zoomq.20111111090027.14184"><vh>对策</vh>
+<v t="zoomq.20111111090027.14184" a="E"><vh>对策</vh>
 <v t="zoomq.20111201085740.12644"><vh>KISS</vh></v>
 <v t="zoomq.20111111090027.14185"><vh>乱入</vh></v>
-<v t="zoomq.20111114113146.10878"><vh>概念</vh>
+<v t="zoomq.20111114113146.10878" a="E"><vh>概念</vh>
 <v t="zoomq.20111114113146.10880"><vh>业务!?</vh></v>
 <v t="zoomq.20111114113146.10882"><vh>应用</vh></v>
 <v t="zoomq.20111114113146.10884"><vh>实体</vh></v>
 <v t="zoomq.20111114113146.10886"><vh>事务</vh></v>
 <v t="zoomq.20111123085435.11036"><vh>活动</vh></v>
 </v>
-<v t="zoomq.20111114113146.10888"><vh>目标</vh>
-<v t="zoomq.20111114113146.10890"><vh>假设</vh>
+<v t="zoomq.20111114113146.10888" a="E"><vh>目标</vh>
+<v t="zoomq.20111202152649.11145"><vh>鲁棒</vh></v>
+<v t="zoomq.20111114113146.10890" a="E"><vh>假设</vh>
 <v t="zoomq.20111114113146.10892"><vh>分层无关</vh></v>
 <v t="zoomq.20111114113146.10894"><vh>范围有关</vh></v>
 <v t="zoomq.20111114113146.10896"><vh>至少一次</vh></v>
 </v>
-<v t="zoomq.20111114113146.10897"><vh>原则</vh>
+<v t="zoomq.20111114113146.10897" a="E"><vh>原则</vh>
 <v t="zoomq.20111114113146.10899"><vh>幂等</vh></v>
 <v t="zoomq.20111114113146.10901"><vh>消息</vh></v>
 </v>
 </v>
-<v t="zoomq.20111123085435.11022"><vh>思路</vh>
+<v t="zoomq.20111123085435.11022" a="E"><vh>思路</vh>
 <v t="zoomq.20111123085435.11024"><vh>图谱:通常</vh></v>
 <v t="zoomq.20111123085435.11026"><vh>图谱:MQ</vh></v>
 <v t="zoomq.20111123085435.11028"><vh>图谱:邮件</vh></v>
@@ -184,55 +186,55 @@
 </v>
 </v>
 <v t="zoomq.20111111090027.14180" a="E"><vh>实现</vh>
-<v t="zoomq.20111114113146.13632"><vh>前提</vh>
+<v t="zoomq.20111114113146.13632" a="E"><vh>前提</vh>
 <v t="zoomq.20111201085740.12631"><vh>情况</vh></v>
 </v>
-<v t="zoomq.20111111090027.14181"><vh>MQ</vh>
+<v t="zoomq.20111111090027.14181" a="E"><vh>MQ</vh>
 <v t="zoomq.20111114113146.13622"><vh>MQ:M</vh></v>
-<v t="zoomq.20111114113146.13624"><vh>MQ:Q</vh>
+<v t="zoomq.20111114113146.13624" a="E"><vh>MQ:Q</vh>
 <v t="zoomq.20111114113146.13626"><vh>迸发</vh></v>
 <v t="zoomq.20111114113146.13628"><vh>原子性</vh></v>
 <v t="zoomq.20111114113146.13630"><vh>可回收</vh></v>
 </v>
 </v>
-<v t="zoomq.20111114165944.10927"><vh>芹菜</vh>
+<v t="zoomq.20111114165944.10927" a="E"><vh>芹菜</vh>
 <v t="zoomq.20111123085435.11058"><vh>celery</vh></v>
 <v t="zoomq.20111123085435.11062"><vh>django-celery</vh></v>
 <v t="zoomq.20111123085435.11060"><vh>Gearman</vh></v>
 </v>
-<v t="zoomq.20111123085435.11045"><vh>MongoDB</vh>
+<v t="zoomq.20111123085435.11045" a="E"><vh>MongoDB</vh>
 <v t="zoomq.20111123085435.11046"><vh>mmap</vh></v>
 <v t="zoomq.20111123085435.11052"><vh>capped collection</vh></v>
 <v t="zoomq.20111123085435.11054"><vh>findAndModify</vh></v>
 <v t="zoomq.20111123085435.11056"><vh>可回收</vh></v>
 </v>
-<v t="zoomq.20111114165944.10925"><vh>karait</vh>
+<v t="zoomq.20111114165944.10925" a="E"><vh>karait</vh>
 <v t="zoomq.20111114165944.10929"><vh>py入</vh></v>
 <v t="zoomq.20111123085435.11064"><vh>py出</vh></v>
 <v t="zoomq.20111123085435.11066"><vh>.js出</vh></v>
 <v t="zoomq.20111123085435.11068"><vh>Ruby出</vh></v>
 <v t="zoomq.20111123085435.11070"><vh>原子保证</vh></v>
 </v>
-<v t="zoomq.20111201085740.12634"><vh>todo</vh>
+<v t="zoomq.20111201085740.12634" a="E"><vh>todo</vh>
 <v t="zoomq.20111201085740.12635"><vh>监察</vh></v>
 <v t="zoomq.20111201085740.12637"><vh>顺序</vh></v>
 <v t="zoomq.20111201085740.12639"><vh>意外</vh></v>
 <v t="zoomq.20111201085740.12641"><vh>统计</vh></v>
 </v>
-<v t="zoomq.20111201085740.12650"><vh>KISS</vh>
+<v t="zoomq.20111201085740.12650" a="E"><vh>KISS</vh>
 <v t="zoomq.20111111090027.11950"><vh>小结</vh></v>
 </v>
 </v>
-<v t="zoomq.20111114113146.10904"><vh>沟通</vh>
+<v t="zoomq.20111114113146.10904" a="E"><vh>沟通</vh>
 <v t="zoomq.20111201085740.12648"><vh>总结7+-2</vh></v>
 <v t="zoomq.20111111090027.11951"><vh>Q&amp;A</vh></v>
 </v>
-<v t="zoomq.20111111090027.11952"><vh>version</vh>
+<v t="zoomq.20111111090027.11952" a="E"><vh>version</vh>
 <v t="zoomq.20111111090027.11953"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11551"><vh>111117-time-km</vh>
+<v t="zoomq.20110317085545.11551" a="E"><vh>111117-time-km</vh>
 <v t="zoomq.20110317085545.11552" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -70498,7 +70500,7 @@ MQ解耦应用
 .. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
     :alt: (CC)by-nc-sa 许可证
     :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
-.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+.. |zqeye| image:: i/id/logo-PyCon2011China-h50.png
     :alt: 是也乎;-)
     :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. |lovpy| image:: i/logo/110409-book-logo-h90.png
@@ -70515,8 +70517,7 @@ MQ解耦应用
 
 .. container:: handout
 
-   山寨的，非业界公认的，个人体验为基础!
-   |zqeye|
+   山寨的，非业界公认的，个人体验为基础!   |zqeye|
 
 
 .. class:: takahashi1
@@ -72649,25 +72650,22 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 </t>
-<t tx="zoomq.20111114113146.10888">Robustness 
+<t tx="zoomq.20111114113146.10888">综上想达成的目标效果
 ====================================
 
 .. container:: handout
 
-   - Almost-Infinite Scaling of Applications |zqeye|
-   - 考虑无限伸缩应用 
+   |zqeye|
+   
 
+.. class:: takahashi8
 
-.. class:: takahashi9
-
-    :orange:`鲁棒`
+    期待
 
 
 .. container:: notes
 
-   - 稳健性~鲁棒性原是统计学中的一个专门术语
-   - 控制论中:是指控制系统在一定（结构，大小）的参数摄动下，维持某些性能的特性
-
+   - 开发系统的首选原则
 
 
 
@@ -72770,7 +72768,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. container:: handout
 
-   - At-Least-Once 模式 |zqeye|
+   At-Least-Once 模式 |zqeye|
    
 
 .. class:: takahashi10
@@ -72816,7 +72814,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. container:: handout
 
-   只包含单一安全事务|zqeye|
+   只包含单一安全事务 |zqeye|
    
    
 
@@ -73000,7 +72998,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. container:: handout
 
-   - Atomic Transactions |zqeye|
+   Atomic Transactions |zqeye|
 
 
 .. class:: takahashi8
@@ -75134,6 +75132,53 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 
+
+
+</t>
+<t tx="zoomq.20111202152649.11145">
+Robustness 
+====================================
+
+.. container:: handout
+
+   - Almost-Infinite Scaling of Applications |zqeye|
+   - 考虑无限伸缩应用 
+
+
+.. class:: takahashi9
+
+    :orange:`鲁棒`
+
+
+.. container:: notes
+
+   - 稳健性~鲁棒性原是统计学中的一个专门术语
+   - 控制论中:是指控制系统在一定（结构，大小）的参数摄动下，维持某些性能的特性
+
+
+
+
+</t>
+<t tx="zoomq.20111203105319.11147">&lt;Zoom.Quiet/&gt;
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/id/100514-zq-eye.png
+        :align: center
+        :scale: 80 %
+        :alt: 是也乎,是也乎
+
+    .. image:: i/map/50ren-ZoomQuiet-s5-v800.png
+        :align: center
+        :scale: 100 %
+        :alt: Zoom.Quiet
+        :target: http://zoomquiet.org
 
 
 </t>

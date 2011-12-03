@@ -47,7 +47,7 @@ MQ解耦应用
 .. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
     :alt: (CC)by-nc-sa 许可证
     :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
-.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+.. |zqeye| image:: i/id/logo-PyCon2011China-h50.png
     :alt: 是也乎;-)
     :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. |lovpy| image:: i/logo/110409-book-logo-h90.png
@@ -59,13 +59,34 @@ MQ解耦应用
 
    `Zoom.Quiet`_ v11.11.11 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 
+<Zoom.Quiet/>
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/id/100514-zq-eye.png
+        :align: center
+        :scale: 80 %
+        :alt: 是也乎,是也乎
+
+    .. image:: i/map/50ren-ZoomQuiet-s5-v800.png
+        :align: center
+        :scale: 100 %
+        :alt: Zoom.Quiet
+        :target: http://zoomquiet.org
+
+
 <免责/>
 =========
 
 .. container:: handout
 
-   山寨的，非业界公认的，个人体验为基础!
-   |zqeye|
+   山寨的，非业界公认的，个人体验为基础!   |zqeye|
 
 
 .. class:: takahashi1
@@ -536,6 +557,32 @@ ACTIVITIES
 
 
 
+综上想达成的目标效果
+====================================
+
+.. container:: handout
+
+   |zqeye|
+   
+
+.. class:: takahashi8
+
+    期待
+
+
+.. container:: notes
+
+   - 开发系统的首选原则
+
+
+
+
+
+
+
+
+
+
 Robustness 
 ====================================
 
@@ -554,12 +601,6 @@ Robustness
 
    - 稳健性~鲁棒性原是统计学中的一个专门术语
    - 控制论中:是指控制系统在一定（结构，大小）的参数摄动下，维持某些性能的特性
-
-
-
-
-
-
 
 
 
@@ -653,7 +694,7 @@ Robustness
 
 .. container:: handout
 
-   - At-Least-Once 模式 |zqeye|
+   At-Least-Once 模式 |zqeye|
    
 
 .. class:: takahashi10
@@ -697,7 +738,7 @@ Idempotence
 
 .. container:: handout
 
-   只包含单一安全事务|zqeye|
+   只包含单一安全事务 |zqeye|
    
    
 
@@ -1184,7 +1225,7 @@ Queue的内容
 
 .. container:: handout
 
-   - Atomic Transactions |zqeye|
+   Atomic Transactions |zqeye|
 
 
 .. class:: takahashi8
