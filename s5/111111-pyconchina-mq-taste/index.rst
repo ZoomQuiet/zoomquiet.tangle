@@ -1989,28 +1989,6 @@ KISS
 
 
 
-<discuss/>
-==========
-
-.. container:: handout
-
-   |zqeye|
-
-
-.. class:: takahashi8
-
-    Q&A
-
-
-
-
-
-.. container:: notes
-
-   - 
-
-
-
 <版本/>
 =========
 
@@ -2063,6 +2041,28 @@ http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste
 
 
 
+
+
+
+<discuss/>
+==========
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    Q&A
+
+
+
+
+
+.. container:: notes
+
+   - 
 
 
 

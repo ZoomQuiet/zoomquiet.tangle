@@ -1364,13 +1364,15 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. class:: takahashi0
 
-    |knuth| |knuthzh| 发明 `Literate programming <http://en.wikipedia.org/wiki/Literate_programming>`__
+    - |knuthzh| `Literate programming <http://en.wikipedia.org/wiki/Literate_programming>`__
+    - |knuth| |leoeditor| 
 
-    .. image:: i/snap/zqtool-leo_890x237_scrot.png
-        :align: center
-        :scale: 100 %
-        :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
 
+
+.. |leoeditor| image:: i/snap/zqtool-leo_890x237_scrot.png
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
 
 .. |knuth| image:: i/foto/head-knuth-don.gif
     :align: top

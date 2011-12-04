@@ -11,7 +11,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20080621102004.2"><vh>@chapters</vh></v>
-<v t="zoomq.20100408222312.5717"><vh>.dot</vh>
+<v t="zoomq.20100408222312.5717" a="E"><vh>.dot</vh>
 <v t="zoomq.20100903105555.6665"><vh>_stuff</vh>
 <v t="zoomq.20100908150441.6737"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
 <v t="zoomq.20100908150441.6732"><vh>动态生成属性函式</vh></v>
@@ -23,7 +23,7 @@
 <v t="zoomq.20100908150441.6740"><vh>dotmapping.css</vh></v>
 </v>
 <v t="zoomq.20100902112115.6558"><vh>dotools</vh>
-<v t="zoomq.20100902112115.6559"><vh>@nosent gen4dot2htm.py</vh>
+<v t="zoomq.20100902112115.6559" a="E"><vh>@nosent gen4dot2htm.py</vh>
 <v t="zoomq.20100902112115.6562"><vh>&lt;&lt;__main__&gt;&gt;</vh>
 <v t="zoomq.20100903105555.6662"><vh>&lt;&lt;交互参数&gt;&gt;</vh>
 <v t="zoomq.20100906103453.10041"><vh>&lt;&lt;运营模式组&gt;&gt;</vh></v>
@@ -31,7 +31,7 @@
 <v t="zoomq.20100907214327.11513"><vh>主业务</vh></v>
 </v>
 <v t="zoomq.20100902112115.6560"><vh>__imports__</vh></v>
-<v t="zoomq.20100908150441.6739" a="E"><vh>默认值</vh>
+<v t="zoomq.20100908150441.6739"><vh>默认值</vh>
 <v t="zoomq.20100914090206.8002"><vh>htm模板</vh></v>
 <v t="zoomq.20100914171624.6772"><vh>footer</vh></v>
 <v t="zoomq.20100914090206.8004"><vh>css模板</vh></v>
@@ -138,32 +138,32 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20111013085658.9846" a="E"><vh>111111-pyconchina-mq-taste</vh>
-<v t="zoomq.20111111090027.11917" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20111013085658.9846"><vh>111111-pyconchina-mq-taste</vh>
+<v t="zoomq.20111111090027.11917"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111111090027.11918"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20111111090027.11919"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
-<v t="zoomq.20111203105319.11147" a="E"><vh>ZQ</vh>
+<v t="zoomq.20111203105319.11147"><vh>ZQ</vh>
 <v t="zoomq.20111111090027.11920"><vh>免责</vh></v>
 <v t="zoomq.20111201085740.12629"><vh>牛妞</vh></v>
 </v>
-<v t="zoomq.20111111090027.11921" a="E"><vh>起因</vh>
+<v t="zoomq.20111111090027.11921"><vh>起因</vh>
 <v t="zoomq.20111111090027.11922"><vh>原因</vh></v>
 <v t="zoomq.20111114113146.10870"><vh>原因的原因</vh></v>
 <v t="zoomq.20111114113146.10872"><vh>原因的原因的原因</vh></v>
 <v t="zoomq.20111114113146.10874"><vh>根源原因</vh></v>
 <v t="zoomq.20111114113146.10876"><vh>耦合</vh></v>
 </v>
-<v t="zoomq.20111111090027.14184" a="E"><vh>对策</vh>
+<v t="zoomq.20111111090027.14184"><vh>对策</vh>
 <v t="zoomq.20111201085740.12644"><vh>KISS</vh></v>
 <v t="zoomq.20111111090027.14185"><vh>乱入</vh></v>
-<v t="zoomq.20111114113146.10878" a="E"><vh>概念</vh>
+<v t="zoomq.20111114113146.10878"><vh>概念</vh>
 <v t="zoomq.20111114113146.10880"><vh>业务!?</vh></v>
 <v t="zoomq.20111114113146.10882"><vh>应用</vh></v>
 <v t="zoomq.20111114113146.10884"><vh>实体</vh></v>
 <v t="zoomq.20111114113146.10886"><vh>事务</vh></v>
 <v t="zoomq.20111123085435.11036"><vh>活动</vh></v>
 </v>
-<v t="zoomq.20111114113146.10888" a="E"><vh>目标</vh>
+<v t="zoomq.20111114113146.10888"><vh>目标</vh>
 <v t="zoomq.20111202152649.11145"><vh>鲁棒</vh></v>
 <v t="zoomq.20111114113146.10890" a="E"><vh>假设</vh>
 <v t="zoomq.20111114113146.10892"><vh>分层无关</vh></v>
@@ -175,7 +175,7 @@
 <v t="zoomq.20111114113146.10901"><vh>消息</vh></v>
 </v>
 </v>
-<v t="zoomq.20111123085435.11022" a="E"><vh>思路</vh>
+<v t="zoomq.20111123085435.11022"><vh>思路</vh>
 <v t="zoomq.20111123085435.11024"><vh>图谱:通常</vh></v>
 <v t="zoomq.20111123085435.11026"><vh>图谱:MQ</vh></v>
 <v t="zoomq.20111123085435.11028"><vh>图谱:邮件</vh></v>
@@ -185,11 +185,11 @@
 <v t="zoomq.20111123085435.11038"><vh>板斧</vh></v>
 </v>
 </v>
-<v t="zoomq.20111111090027.14180" a="E"><vh>实现</vh>
-<v t="zoomq.20111114113146.13632" a="E"><vh>前提</vh>
+<v t="zoomq.20111111090027.14180"><vh>实现</vh>
+<v t="zoomq.20111114113146.13632"><vh>前提</vh>
 <v t="zoomq.20111201085740.12631"><vh>情况</vh></v>
 </v>
-<v t="zoomq.20111111090027.14181" a="E"><vh>MQ</vh>
+<v t="zoomq.20111111090027.14181"><vh>MQ</vh>
 <v t="zoomq.20111114113146.13622"><vh>MQ:M</vh></v>
 <v t="zoomq.20111114113146.13624" a="E"><vh>MQ:Q</vh>
 <v t="zoomq.20111114113146.13626"><vh>迸发</vh></v>
@@ -197,44 +197,44 @@
 <v t="zoomq.20111114113146.13630"><vh>可回收</vh></v>
 </v>
 </v>
-<v t="zoomq.20111114165944.10927" a="E"><vh>芹菜</vh>
+<v t="zoomq.20111114165944.10927"><vh>芹菜</vh>
 <v t="zoomq.20111123085435.11058"><vh>celery</vh></v>
 <v t="zoomq.20111123085435.11062"><vh>django-celery</vh></v>
 <v t="zoomq.20111123085435.11060"><vh>Gearman</vh></v>
 </v>
-<v t="zoomq.20111123085435.11045" a="E"><vh>MongoDB</vh>
+<v t="zoomq.20111123085435.11045"><vh>MongoDB</vh>
 <v t="zoomq.20111123085435.11046"><vh>mmap</vh></v>
 <v t="zoomq.20111123085435.11052"><vh>capped collection</vh></v>
 <v t="zoomq.20111123085435.11054"><vh>findAndModify</vh></v>
 <v t="zoomq.20111123085435.11056"><vh>可回收</vh></v>
 </v>
-<v t="zoomq.20111114165944.10925" a="E"><vh>karait</vh>
+<v t="zoomq.20111114165944.10925"><vh>karait</vh>
 <v t="zoomq.20111114165944.10929"><vh>py入</vh></v>
 <v t="zoomq.20111123085435.11064"><vh>py出</vh></v>
 <v t="zoomq.20111123085435.11066"><vh>.js出</vh></v>
 <v t="zoomq.20111123085435.11068"><vh>Ruby出</vh></v>
 <v t="zoomq.20111123085435.11070"><vh>原子保证</vh></v>
 </v>
-<v t="zoomq.20111201085740.12634" a="E"><vh>todo</vh>
+<v t="zoomq.20111201085740.12634"><vh>todo</vh>
 <v t="zoomq.20111201085740.12635"><vh>监察</vh></v>
 <v t="zoomq.20111201085740.12637"><vh>顺序</vh></v>
 <v t="zoomq.20111201085740.12639"><vh>意外</vh></v>
 <v t="zoomq.20111201085740.12641"><vh>统计</vh></v>
 </v>
-<v t="zoomq.20111201085740.12650" a="E"><vh>KISS</vh>
+<v t="zoomq.20111201085740.12650"><vh>KISS</vh>
 <v t="zoomq.20111111090027.11950"><vh>小结</vh></v>
 </v>
 </v>
-<v t="zoomq.20111114113146.10904" a="E"><vh>沟通</vh>
+<v t="zoomq.20111114113146.10904"><vh>沟通</vh>
 <v t="zoomq.20111201085740.12648"><vh>总结7+-2</vh></v>
-<v t="zoomq.20111111090027.11951"><vh>Q&amp;A</vh></v>
 </v>
-<v t="zoomq.20111111090027.11952" a="E"><vh>version</vh>
+<v t="zoomq.20111111090027.11952"><vh>version</vh>
+<v t="zoomq.20111111090027.11951"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20111111090027.11953"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11551" a="E"><vh>111117-time-km</vh>
+<v t="zoomq.20110317085545.11551"><vh>111117-time-km</vh>
 <v t="zoomq.20110317085545.11552" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -1669,12 +1669,12 @@
 </v>
 <v t="zoomq.20100819090507.6366"><vh>summary</vh></v>
 </v>
-<v t="zoomq.20110302103337.8746"><vh>100918-MyTools</vh>
+<v t="zoomq.20110302103337.8746" a="E"><vh>100918-MyTools</vh>
 <v t="zoomq.20110302103337.8747"><vh>盛大讲演回顾</vh></v>
 <v t="zoomq.20110302103337.8748"><vh>html-s5</vh>
 <v t="zoomq.20110302103337.8749"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20110302103337.8848"><vh>rst2s5</vh>
+<v t="zoomq.20110302103337.8848" a="E"><vh>rst2s5</vh>
 <v t="zoomq.20110302103337.8849" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110302103337.8850"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8851"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -1709,8 +1709,8 @@
 </v>
 <v t="zoomq.20110302103337.8876"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20110302103337.8877"><vh>brief1</vh>
-<v t="zoomq.20110302103337.8878"><vh>&lt;我的工具箱</vh>
+<v t="zoomq.20110302103337.8877" a="E"><vh>brief1</vh>
+<v t="zoomq.20110302103337.8878" a="E"><vh>&lt;我的工具箱</vh>
 <v t="zoomq.20110302103337.8879"><vh>LevelRedar</vh></v>
 <v t="zoomq.20110302103337.8880"><vh>&lt;import&gt;</vh>
 <v t="zoomq.20110302103337.8881"><vh>ScrapBook</vh></v>
@@ -1744,7 +1744,7 @@
 <v t="zoomq.20110302103337.8906"><vh>hand</vh></v>
 <v t="zoomq.20110302103337.8907"><vh>&lt;/think&gt;</vh></v>
 </v>
-<v t="zoomq.20110302103337.8908"><vh>&lt;export&gt;</vh>
+<v t="zoomq.20110302103337.8908" a="E"><vh>&lt;export&gt;</vh>
 <v t="zoomq.20110302103337.8909"><vh>BXM</vh></v>
 <v t="zoomq.20110302103337.8910"><vh>WYTIWYG</vh>
 <v t="zoomq.20110302103337.8911"><vh>t2t</vh></v>
@@ -1756,7 +1756,7 @@
 <v t="zoomq.20110302103337.8916"><vh>rST2s5</vh></v>
 <v t="zoomq.20110302103337.8917"><vh>Sphinx</vh></v>
 </v>
-<v t="zoomq.20110302103337.8918"><vh>Python</vh>
+<v t="zoomq.20110302103337.8918" a="E"><vh>Python</vh>
 <v t="zoomq.20110302103337.8919"><vh>Leo</vh></v>
 <v t="zoomq.20110302103337.8920"><vh>MoinMoin</vh>
 <v t="zoomq.20110302103337.8921"><vh>it's all text</vh></v>
@@ -58319,13 +58319,15 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. class:: takahashi0
 
-    |knuth| |knuthzh| 发明 `Literate programming &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+    - |knuthzh| `Literate programming &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+    - |knuth| |leoeditor| 
 
-    .. image:: i/snap/zqtool-leo_890x237_scrot.png
-        :align: center
-        :scale: 100 %
-        :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
 
+
+.. |leoeditor| image:: i/snap/zqtool-leo_890x237_scrot.png
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
 
 .. |knuth| image:: i/foto/head-knuth-don.gif
     :align: top
