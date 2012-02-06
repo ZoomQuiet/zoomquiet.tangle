@@ -1,0 +1,115 @@
+digraph doineed_sql_or_hadoop {
+    /*生成命令:
+$ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o doineed_sql_or_hadoop.map
+    全局设定
+    */
+    graph [label=""
+        ,fontsize=12.0,fontcolor=snow
+        ,labeljust="l",labelloc="b",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=TB
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=box
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+
+    title [label="何时需要SQL或Hadoop? 出自 Aaron Cordova 文章"
+        ,fontsize=14.0
+        ,URL="http://www.aaroncordova.com/2012/01/do-i-need-sql-or-hadoop-flowchart.html"
+        ,shape=plaintext];
+
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/doineed_sql_or_hadoop.dot?repo=tangle"];
+
+    
+    ZQ [label="有数据和问题卟?"];
+
+        dataSinglePage [label="数据打印在纸上?"];
+        readit [label="读之",shape=ellipse];
+
+    ZQ->dataSinglePage [label="然"];
+        ZQ->bummer [label="弗"];
+    dataSinglePage->dataInMem [label="然"];
+        dataSinglePage->readit [label="弗"];
+
+        dataInMem [label="数据在内存文件?"];
+        tonesOptions [label="N多选择\n表在SQL/Hadoop上吊死!",shape=ellipse];
+
+    dataInMem->tonesOptions [label="然"];
+        dataInMem->dataSingleRAID [label="弗"];
+        
+        dataSingleRAID [label="数据在RAID阵列?"];
+        lotsMon [label="有很多内存?"];
+            useOracle [label="方案依赖Oracle?"];
+                buySAN [label="买SAN用之",shape=ellipse];
+            useSQL [label="方案限定必须SQL?"];
+                useHive [label="整Hive/Karmasphere/Hadoop",shape=ellipse];
+                doParaller [label="有并行编程的高人?"];
+            
+                    selfMPI [label="上自个儿的MPI",shape=ellipse];
+                    useMapreduce [label="方案依赖MapReduce?"]
+                        
+                        likeSparesd [label="报表样?"]
+            
+                            useDatameer [label="用Datameer/Hadoop",shape=ellipse];
+                            canMapreduce [label="会整MapReduce?"]
+                            useHadoop [label="在Hadoop里写Mapreduce吧!",shape=ellipse];
+
+    dataSingleRAID->lotsMon [label="弗"];
+        lotsMon->useSQL [label="弗"];
+            useSQL->useHive [label="然"];
+            useSQL->doParaller [label="弗"];
+        lotsMon->useOracle [label="然"];
+            useOracle->buySAN [label="然"];
+            useOracle->doParaller [label="弗"];
+                doParaller->selfMPI [label="然"];
+                doParaller->useMapreduce [label="弗"];
+
+                    useMapreduce->likeSparesd->useDatameer [label="然"];
+                        likeSparesd->canMapreduce [label="弗"];
+                            canMapreduce->useHadoop [label="然"];     
+                            canMapreduce->bummer [label="弗"];                        
+                    useMapreduce->bummer [label="弗"];
+            
+
+        existProg [label="有现成程序能搞掂你的问题?"];
+        useit [label="用之",shape=ellipse];
+        usSQL [label="依赖SQL?"];
+            useMySQL [label="上MySQL",shape=ellipse];
+            canProg [label="会编程?"];
+                writeProg [label="写个",shape=ellipse];
+
+        dataSingleRAID->existProg [label="然"];
+            existProg->useit [label="然"];
+            existProg->usSQL [label="弗"];
+                usSQL->useMySQL [label="然"];
+                usSQL->canProg [label="弗"];
+                    canProg->writeProg [label="然"];
+                    canProg->bummer [label="弗"];
+    
+    bummer [label="去死!"];
+    
+    /*
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    */
+
+
+    edge [style=invis];
+    title->src->readit;
+    
+    tonesOptions->existProg;
+    useHadoop->bummer;
+
+}
