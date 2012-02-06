@@ -22,7 +22,7 @@
 <v t="zoomq.20100908091715.7730"><vh>__initlog()</vh></v>
 <v t="zoomq.20100908150441.6740"><vh>dotmapping.css</vh></v>
 </v>
-<v t="zoomq.20100902112115.6558"><vh>dotools</vh>
+<v t="zoomq.20100902112115.6558" a="E"><vh>dotools</vh>
 <v t="zoomq.20100902112115.6559" a="E"><vh>@nosent gen4dot2htm.py</vh>
 <v t="zoomq.20100902112115.6562"><vh>&lt;&lt;__main__&gt;&gt;</vh>
 <v t="zoomq.20100903105555.6662"><vh>&lt;&lt;交互参数&gt;&gt;</vh>
@@ -31,12 +31,12 @@
 <v t="zoomq.20100907214327.11513"><vh>主业务</vh></v>
 </v>
 <v t="zoomq.20100902112115.6560"><vh>__imports__</vh></v>
-<v t="zoomq.20100908150441.6739"><vh>默认值</vh>
+<v t="zoomq.20100908150441.6739" a="E"><vh>默认值</vh>
 <v t="zoomq.20100914090206.8002"><vh>htm模板</vh></v>
 <v t="zoomq.20100914171624.6772"><vh>footer</vh></v>
 <v t="zoomq.20100914090206.8004"><vh>css模板</vh></v>
 </v>
-<v t="zoomq.20100906103453.10040"><vh>gen2html()</vh>
+<v t="zoomq.20100906103453.10040" a="E"><vh>gen2html()</vh>
 <v t="zoomq.20100913101742.6759"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
 <v t="zoomq.20100909213420.7981"><vh>参数响应</vh></v>
 <v t="zoomq.20100909213420.7982"><vh>生成图片</vh></v>
@@ -45,10 +45,10 @@
 </v>
 <v t="zoomq.20100910090235.10618"><vh>__chkPath()</vh></v>
 <v t="zoomq.20100913101742.6761"><vh>imgDataURI()</vh></v>
-<v t="zoomq.20100913225758.6763"><vh>getJpegInfo()</vh>
+<v t="zoomq.20100913225758.6763" a="E"><vh>getJpegInfo()</vh>
 <v t="zoomq.20100913225758.6764"><vh>&lt;&lt;16进制数据&gt;&gt;</vh></v>
 </v>
-<v t="zoomq.20100906103453.10038"><vh>main()</vh>
+<v t="zoomq.20100906103453.10038" a="E"><vh>main()</vh>
 <v t="zoomq.20100908150441.6741"><vh>参数响应</vh></v>
 </v>
 <v t="zoomq.20100907214327.11503"><vh>class zqlog</vh>
@@ -124,7 +124,7 @@
 </v>
 </v>
 <v t="zoomq.20100903105555.6572" a="E"><vh>幻灯</vh>
-<v t="zoomq.20080523161605" a="E"><vh>s5:public</vh>
+<v t="zoomq.20080523161605"><vh>s5:public</vh>
 <v t="zoomq.20100726095759.6175"><vh>_stuff</vh>
 <v t="zoomq.20100726095759.6174"><vh>brief0</vh></v>
 <v t="zoomq.20100726130819.5995"><vh>PKM</vh>
@@ -1669,12 +1669,12 @@
 </v>
 <v t="zoomq.20100819090507.6366"><vh>summary</vh></v>
 </v>
-<v t="zoomq.20110302103337.8746" a="E"><vh>100918-MyTools</vh>
+<v t="zoomq.20110302103337.8746"><vh>100918-MyTools</vh>
 <v t="zoomq.20110302103337.8747"><vh>盛大讲演回顾</vh></v>
 <v t="zoomq.20110302103337.8748"><vh>html-s5</vh>
 <v t="zoomq.20110302103337.8749"><vh>@shadow index.html</vh></v>
 </v>
-<v t="zoomq.20110302103337.8848" a="E"><vh>rst2s5</vh>
+<v t="zoomq.20110302103337.8848"><vh>rst2s5</vh>
 <v t="zoomq.20110302103337.8849" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110302103337.8850"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110302103337.8851"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -2498,10 +2498,10 @@
 <v t="zoomq.20080523162640"><vh>stuff</vh>
 <v t="zoomq.20080523162640.1"><vh>largeWords</vh></v>
 <v t="zoomq.20080524100214"><vh>cookstroy</vh>
-<v t="zoomq.20080524100214.1"><vh>@file /home/zoomq/zComs/KingSoft/KsDMC/iTech/easyPI/easySPEG.txt</vh></v>
+<v t="zoomq.20080524100214.1"><vh>zComs/KingSoft/KsDMC/iTech/easyPI/easySPEG.txt</vh></v>
 </v>
 <v t="zoomq.20080524114624"><vh>idx</vh>
-<v t="zoomq.20080611153034"><vh>@file /home/zoomq/zData/2MyBrains/s5/0608-VMnSVN/index.html</vh></v>
+<v t="zoomq.20080611153034"><vh>zData/2MyBrains/s5/0608-VMnSVN/index.html</vh></v>
 </v>
 </v>
 <v t="zoomq.20080523161605.1"><vh>@nosent index.html</vh>
@@ -3125,7 +3125,7 @@
 <v t="zoomq.20091204150544.4881"><vh>s5:KIS</vh>
 <v t="zoomq.20100312132537.9039"><vh>SPE必须有后路</vh></v>
 <v t="zoomq.20100726094342.5915"><vh>4KiT</vh>
-<v t="zoomq.20100726094342.5994"><vh>100729-TimeMana</vh>
+<v t="zoomq.20100726094342.5994" a="E"><vh>100729-TimeMana</vh>
 <v t="zoomq.20100726094342.5995"><vh>@shadow index.html</vh></v>
 </v>
 </v>
@@ -3419,7 +3419,7 @@
 </v>
 </v>
 <v t="zoomq.20091204150544.9773"><vh>stuff</vh>
-<v t="zoomq.20091204150544.9774"><vh>@file /home/zoomq/Desktop/[KUP]Re: 申请试用trac管理.txt</vh></v>
+<v t="zoomq.20091204150544.9774"><vh>Desktop/[KUP]Re: 申请试用trac管理.txt</vh></v>
 </v>
 </v>
 <v t="zoomq.20091204150544.9626"><vh>080611-kdoc-trac</vh>
@@ -3597,7 +3597,7 @@
 </v>
 <v t="zoomq.20091204150544.8544"><vh>KM</vh>
 <v t="zoomq.20100402224720.9032"><vh>ZQ写作</vh>
-<v t="zoomq.20100402224720.9033"><vh>向靠谱</vh>
+<v t="zoomq.20100402224720.9033" a="E"><vh>向靠谱</vh>
 <v t="zoomq.20100402224720.10728"><vh>mailinglist</vh></v>
 </v>
 </v>
@@ -3605,7 +3605,7 @@
 <v t="zoomq.20100312132537.10639"><vh>不要使用维基!</vh></v>
 <v t="zoomq.20100312132537.5536"><vh>共享的阻碍</vh></v>
 </v>
-<v t="zoomq.20091204150544.8545"><vh>QuickInKM</vh>
+<v t="zoomq.20091204150544.8545" a="E"><vh>QuickInKM</vh>
 <v t="zoomq.20091204150544.8546"><vh>@nosent index.html</vh>
 <v t="zoomq.20091204150544.8547"><vh>S5head</vh></v>
 <v t="zoomq.20091204150544.8548"><vh>S5foot</vh></v>
@@ -3675,10 +3675,10 @@
 <v t="zoomq.20091204150544.8608"><vh>S5end</vh></v>
 </v>
 </v>
-<v t="zoomq.20091204150544.8708"><vh>KsKM</vh>
-<v t="zoomq.20091204150544.8709"><vh>_stuff</vh>
+<v t="zoomq.20091204150544.8708" a="E"><vh>KsKM</vh>
+<v t="zoomq.20091204150544.8709" a="E"><vh>_stuff</vh>
 <v t="zoomq.20091204150544.8710"><vh>character</vh></v>
-<v t="zoomq.20091204150544.8711"><vh>@file /home/zoomq/4svn/2kingsoft/kdoc.root/trunk/3.过程改进/KsKM/index.html</vh>
+<v t="zoomq.20091204150544.8711" a="E"><vh>4svn/2kingsoft/kdoc.root/trunk/3.过程改进/KsKM/index.html</vh>
 <v t="zoomq.20091204150544.8712"><vh>index declarations</vh></v>
 <v t="zoomq.20091204150544.8713"><vh>HTML</vh>
 <v t="zoomq.20091204150544.8714"><vh>HEAD</vh></v>
@@ -3692,7 +3692,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20091204150544.8721"><vh>@file /home/zoomq/4svn/2kingsoft/kdoc.root/trunk/3.过程改进/KsKM/km-think.txt</vh></v>
+<v t="zoomq.20091204150544.8721"><vh>4svn/2kingsoft/kdoc.root/trunk/3.过程改进/KsKM/km-think.txt</vh></v>
 </v>
 <v t="zoomq.20091204150544.8722"><vh>@nosent s5.html</vh>
 <v t="zoomq.20091204150544.8723"><vh>&lt;&lt;DOCTYPE&gt;&gt;</vh></v>
@@ -3855,7 +3855,7 @@
 <v t="zoomq.20091204150544.9357"><vh>S5end</vh></v>
 </v>
 </v>
-<v t="zoomq.20091204150544.9358"><vh>从入门到精通 MoinMoin</vh>
+<v t="zoomq.20091204150544.9358" a="E"><vh>从入门到精通 MoinMoin</vh>
 <v t="zoomq.20091204150544.9359"><vh>@nosent index.html</vh>
 <v t="zoomq.20091204150544.9360"><vh>S5head</vh></v>
 <v t="zoomq.20091204150544.9361"><vh>S5foot</vh></v>
@@ -3985,7 +3985,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100819213607.6364"><vh>Recovered Nodes</vh>
+<v t="zoomq.20100819213607.6364" a="E"><vh>Recovered Nodes</vh>
 <v t="zoomq.20100819213607.6365"><vh>Recovered node "page0 from @shadow index.html</vh>
 <v t="zoomq.20100819213607.6366"><vh>old:page0</vh></v>
 <v t="zoomq.20100819213607.6367"><vh>new:page0</vh></v>
@@ -10755,7 +10755,7 @@ GTalk bot:
 &lt;/body&gt;
 &lt;/html&gt;
 </t>
-<t tx="zoomq.20091204150544.4881">@path /home/zoomq/workspace/4svn/@kingsoft/kdoc.root/trunk/3.过程改进/s5/
+<t tx="zoomq.20091204150544.4881">@path ~/Works/4svn/@kingsoft/kdoc.root/trunk/3.过程改进/s5/
 #/home/zoomq/4svn/kdoc-trunk/3.过程改进/s5/</t>
 <t tx="zoomq.20091204150544.4981"></t>
 <t tx="zoomq.20091204150544.4982">&lt;&lt;DOCTYPE&gt;&gt;
@@ -18363,7 +18363,7 @@ Wiki 模式&lt;/h1&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </t>
-<t tx="zoomq.20091204150544.8708">@path /home/zoomq/workspace/4svn/@kingsoft/kdoc.root/trunk/3.过程改进/s5/KsKM/
+<t tx="zoomq.20091204150544.8708">@path ~/Works/4svn/@kingsoft/kdoc.root/trunk/3.过程改进/s5/KsKM/
 </t>
 <t tx="zoomq.20091204150544.8709"></t>
 <t tx="zoomq.20091204150544.8710">&lt;div class="slide"&gt;
@@ -41078,8 +41078,8 @@ elif self.ov.mdebug:
 
 '''
 </t>
-<t tx="zoomq.20100908150441.6739">DODOT = "/usr/bin/dot %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
-DOFDP = "/usr/bin/fdp %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
+<t tx="zoomq.20100908150441.6739">DODOT = "/usr/local/bin/dot %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
+DOFDP = "/usr/local/bin/fdp %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
 IMGTYPE = "jpeg"
 #dotPageTitle dotPageStyle imgame mapname map4dot
 DEFEXPORT = "stdout"

@@ -1,18 +1,18 @@
 <map id="obp_zoomquiet_org_idx" name="obp_zoomquiet_org_idx">
-<area shape="poly" href="http://about.me/zoom.quiet" title="zoomquiet.org" alt="" coords="496,336 491,330 479,324 459,319 433,316 405,315 377,316 352,319 332,324 319,330 315,336 319,342 332,348 352,353 377,356 405,357 433,356 459,353 479,348 491,342"/>
-<area shape="rect" href="http://code.google.com/p/openbookproject/" title="O.B.P\n~OpenBookProjects\n开放图书计划" alt="" coords="133,211,301,277"/>
-<area shape="rect" href="http://tangle.zoomquiet.googlecode.com/hg/dot/obp_zoomquiet_org_idx.dot" title="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!" alt="" coords="292,381,593,448"/>
-<area shape="poly" href="mailto:zoomquiet+sns@gmail.com?subject=obp.zoomquiet.org mapping feedback" title="电俺" alt="" coords="158,336 156,330 151,324 143,319 133,316 121,315 110,316 100,319 92,324 86,330 85,336 86,342 92,348 100,353 110,356 121,357 133,356 143,353 151,348 156,342"/>
-<area shape="rect" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="CPyUG\n~华蟒用户组" alt="" coords="33,391,143,439"/>
-<area shape="rect" href="http://www.zeuux.org" title="ZEUUX.org\n~哲思社区" alt="" coords="167,391,268,439"/>
-<area shape="rect" href="http://lovelypython.readthedocs.org/" title="可爱的Python" alt="" coords="5,91,120,120"/>
-<area shape="rect" href="http://zoomquiet.bitbucket.org/rwpy4l/" title="大蟒本色" alt="" coords="144,91,224,120"/>
-<area shape="rect" href="http://tpipyzh.readthedocs.org" title="TPiPy 中文版" alt="" coords="11,15,120,44"/>
-<area shape="rect" href="http://zoomquiet.github.com/hgtip/" title="Hg妙招" alt="" coords="144,15,216,44"/>
-<area shape="rect" href="http://pymotwcn.readthedocs.org" title="每周一模块" alt="" coords="240,15,336,44"/>
-<area shape="rect" href="http://docspy3zh.readthedocs.org" title="Py3文档" alt="" coords="360,15,437,44"/>
-<area shape="rect" href="http://web2pybookzh.readthedocs.org" title="Web2py手册" alt="" coords="461,15,571,44"/>
-<area shape="rect" href="http://zoomquiet.github.com/leo-doc-zh/leo_toc.html" title="Leo手册\nv4.9rc1" alt="" coords="595,5,672,53"/>
-<area shape="rect" href="http://pyblosxom-doc-zh.readthedocs.org" title="PyBlosxom手册\nv1.5&#45;rc1" alt="" coords="696,5,827,53"/>
-<area shape="rect" href="http://sphinx-doc-zh.readthedocs.org" title="Sphnix手册" alt="" coords="851,15,952,44"/>
+<area shape="poly" id="node1" href="http://about.me/zoom.quiet" title="zoomquiet.org" alt="" coords="452,335,449,328,438,323,421,318,401,316,377,315,354,316,333,318,317,323,306,328,302,335,306,341,317,346,333,351,354,354,377,355,401,354,421,351,438,346,449,341"/>
+<area shape="rect" id="node7" href="http://code.google.com/p/openbookproject/" title="O.B.P\n~OpenBookProjects\n开放图书计划" alt="" coords="139,214,279,277"/>
+<area shape="rect" id="node2" href="http://tangle.zoomquiet.googlecode.com/hg/dot/obp_zoomquiet_org_idx.dot" title="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimportant,only life important!" alt="" coords="280,379,539,445"/>
+<area shape="poly" id="node3" href="mailto:zoomquiet+sns@gmail.com?subject=obp.zoomquiet.org mapping feedback" title="电俺" alt="" coords="149,335,148,328,142,323,134,318,124,316,113,315,102,316,92,318,84,323,79,328,77,335,79,341,84,346,92,351,102,354,113,355,124,354,134,351,142,346,148,341"/>
+<area shape="rect" id="node4" href="http://wiki.woodpecker.org.cn/moin/CPUG" title="CPyUG\n~华蟒用户组" alt="" coords="35,388,138,436"/>
+<area shape="rect" id="node5" href="http://www.zeuux.org" title="ZEUUX.org\n~哲思社区" alt="" coords="162,388,256,436"/>
+<area shape="rect" id="node9" href="http://lovelypython.readthedocs.org/" title="可爱的Python" alt="" coords="5,92,112,122"/>
+<area shape="rect" id="node10" href="http://zoomquiet.bitbucket.org/rwpy4l/" title="大蟒本色" alt="" coords="136,92,216,121"/>
+<area shape="rect" id="node13" href="http://tpipyzh.readthedocs.org" title="TPiPy 中文版" alt="" coords="6,14,112,44"/>
+<area shape="rect" id="node14" href="http://zoomquiet.github.com/hgtip/" title="Hg妙招" alt="" coords="136,14,208,44"/>
+<area shape="rect" id="node15" href="http://pymotwcn.readthedocs.org" title="每周一模块" alt="" coords="233,15,327,44"/>
+<area shape="rect" id="node17" href="http://docspy3zh.readthedocs.org" title="Py3文档" alt="" coords="351,14,425,44"/>
+<area shape="rect" id="node18" href="http://web2pybookzh.readthedocs.org" title="Web2py手册" alt="" coords="449,14,548,44"/>
+<area shape="rect" id="node20" href="http://zoomquiet.github.com/leo-doc-zh/leo_toc.html" title="Leo手册\nv4.9rc1" alt="" coords="573,5,646,53"/>
+<area shape="rect" id="node21" href="http://pyblosxom-doc-zh.readthedocs.org" title="PyBlosxom手册\nv1.5&#45;rc1" alt="" coords="670,5,789,53"/>
+<area shape="rect" id="node22" href="http://sphinx-doc-zh.readthedocs.org" title="Sphnix手册" alt="" coords="813,14,905,44"/>
 </map>

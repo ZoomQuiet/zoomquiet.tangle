@@ -24,8 +24,8 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
-DODOT = "/usr/bin/dot %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
-DOFDP = "/usr/bin/fdp %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
+DODOT = "/usr/local/bin/dot %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
+DOFDP = "/usr/local/bin/fdp %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
 IMGTYPE = "jpeg"
 #dotPageTitle dotPageStyle imgame mapname map4dot
 DEFEXPORT = "stdout"
