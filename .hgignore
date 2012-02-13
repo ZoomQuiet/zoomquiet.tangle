@@ -18,6 +18,7 @@
 .*\.jpeg
 .*\.map
 .*\.b64
+.*\.orig
 ~$
 ^build/*
 ^RWIWP_Code/*
