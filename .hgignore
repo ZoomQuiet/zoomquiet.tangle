@@ -20,6 +20,7 @@
 .*\.b64
 .*\.orig
 ~$
+^.DS_Store/*
 ^build/*
 ^RWIWP_Code/*
 
