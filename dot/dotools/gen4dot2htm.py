@@ -24,9 +24,9 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
-DODOT = "/usr/local/bin/dot %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
-DOFDP = "/usr/local/bin/fdp %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
-IMGTYPE = "jpeg"
+DODOT = "/usr/local/bin/dot %s -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
+DOFDP = "/usr/local/bin/fdp %s -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
+IMGTYPE = "png"
 #dotPageTitle dotPageStyle imgame mapname map4dot
 DEFEXPORT = "stdout"
 DEFTITLE = "mapping base .dot"
@@ -115,6 +115,7 @@ TPLcssZIP='''
 '''
 
 DEFLEGEND="zoomquiet_org_idx_legend"
+
 
 
 def gen2html(ov,log):

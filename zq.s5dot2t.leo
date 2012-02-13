@@ -36,7 +36,7 @@
 <v t="zoomq.20100914171624.6772"><vh>footer</vh></v>
 <v t="zoomq.20100914090206.8004"><vh>css模板</vh></v>
 </v>
-<v t="zoomq.20100906103453.10040" a="E"><vh>gen2html()</vh>
+<v t="zoomq.20100906103453.10040"><vh>gen2html()</vh>
 <v t="zoomq.20100913101742.6759"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
 <v t="zoomq.20100909213420.7981"><vh>参数响应</vh></v>
 <v t="zoomq.20100909213420.7982"><vh>生成图片</vh></v>
@@ -41078,9 +41078,9 @@ elif self.ov.mdebug:
 
 '''
 </t>
-<t tx="zoomq.20100908150441.6739">DODOT = "/usr/local/bin/dot %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
-DOFDP = "/usr/local/bin/fdp %s -Tjpeg -o %s.jpeg -Tcmapx -o %s.map "
-IMGTYPE = "jpeg"
+<t tx="zoomq.20100908150441.6739">DODOT = "/usr/local/bin/dot %s -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
+DOFDP = "/usr/local/bin/fdp %s -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
+IMGTYPE = "png"
 #dotPageTitle dotPageStyle imgame mapname map4dot
 DEFEXPORT = "stdout"
 DEFTITLE = "mapping base .dot"
@@ -41088,6 +41088,7 @@ MAPID = "SomeGraph"
 DOTXT = "%s.dot"%MAPID
 @others
 DEFLEGEND="zoomquiet_org_idx_legend"
+
 
 
 </t>
