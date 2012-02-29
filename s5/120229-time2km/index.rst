@@ -1,12 +1,12 @@
 .. include:: <s5defs.txt>
 
 ==================================================================
-时间.知识的管理
+时间.知识\ :sup:`管理`
 ==================================================================
 
 ～持续的效率进化之旅 (powered by rst2S5)
 
-:Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+km@gmai.com>`__
 :URL:    http://zoomquiet.org/res/s5/120229-time2km/
 
 .. This document has been placed in the CC domain.
@@ -2455,7 +2455,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 :反馈:
-    Zoom.Quiet@gmail.com
+    ZoomQuiet+km@gmail.com
 :查阅:
     http://zoomquiet.org/res/s5/120229-time2km/
 

@@ -143,7 +143,7 @@
 <v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20111115220826.11004"><vh>Randy Pausch</vh></v>
-<v t="zoomq.20110317085545.11555" a="E"><vh>免责</vh>
+<v t="zoomq.20110317085545.11555"><vh>免责</vh>
 <v t="zoomq.20110317085545.11556"><vh>Takahashi</vh>
 <v t="zoomq.20110317085545.11557"><vh>Takahashi</vh></v>
 <v t="zoomq.20110317085545.11558"><vh>Takahashi</vh></v>
@@ -173,7 +173,7 @@
 <v t="zoomq.20111115090649.12421"><vh>牛妞</vh></v>
 <v t="zoomq.20110317085545.11578"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20110317085545.11579" a="E"><vh>brief1</vh>
+<v t="zoomq.20110317085545.11579"><vh>brief1</vh>
 <v t="zoomq.20111115090649.12483"><vh>TM?</vh>
 <v t="zoomq.20111115090649.12484"><vh>时间?</vh>
 <v t="zoomq.20111115090649.12485"><vh>时</vh></v>
@@ -230,10 +230,10 @@
 <v t="zoomq.20120228221331.14342"><vh>/TM!</vh></v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11590" a="E"><vh>brief2</vh>
-<v t="zoomq.20111115090649.12518" a="E"><vh>TM...</vh>
+<v t="zoomq.20110317085545.11590"><vh>brief2</vh>
+<v t="zoomq.20111115090649.12518"><vh>TM...</vh>
 <v t="zoomq.20111115090649.12520"><vh>矩阵</vh></v>
-<v t="zoomq.20111115090649.12521" a="E"><vh>时间帐单</vh>
+<v t="zoomq.20111115090649.12521"><vh>时间帐单</vh>
 <v t="zoomq.20111115090649.12525"><vh>奇特的一生</vh></v>
 <v t="zoomq.20111115090649.12522"><vh>帐单妙处0</vh></v>
 <v t="zoomq.20111115090649.12523"><vh>帐单妙处1</vh></v>
@@ -270,8 +270,8 @@
 <v t="zoomq.20110317085545.11609"><vh>纸笔</vh></v>
 <v t="zoomq.20111115090649.12532"><vh>/TM...</vh></v>
 </v>
-<v t="zoomq.20110317085545.11611"><vh>&lt;share&gt;</vh>
-<v t="zoomq.20110317085545.11612"><vh>WeKnow:1</vh>
+<v t="zoomq.20110317085545.11611" a="E"><vh>&lt;share&gt;</vh>
+<v t="zoomq.20110317085545.11612" a="E"><vh>WeKnow:1</vh>
 <v t="zoomq.20110317085545.11613"><vh>WeKnow:2</vh></v>
 <v t="zoomq.20110317085545.11614"><vh>WeKnow:3</vh></v>
 <v t="zoomq.20110317085545.11615"><vh>WeKnow:0</vh></v>
@@ -282,7 +282,7 @@
 <v t="zoomq.20110317085545.11617"><vh>&lt;/share&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11619" a="E"><vh>brief3</vh>
+<v t="zoomq.20110317085545.11619"><vh>brief3</vh>
 <v t="zoomq.20110317085545.11621"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20110317085545.11620"><vh>总结7+-2</vh></v>
 <v t="zoomq.20110317085545.11622"><vh>暗时间</vh></v>
@@ -59117,12 +59117,12 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. include:: &lt;s5defs.txt&gt;
 
 ==================================================================
-时间.知识的管理
+时间.知识\ :sup:`管理`
 ==================================================================
 
 ～持续的效率进化之旅 (powered by rst2S5)
 
-:Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:Authors: `Zoom.Quiet &lt;zoomquiet+km@gmai.com&gt;`__
 :URL:    http://zoomquiet.org/res/s5/120229-time2km/
 
 &lt;&lt;DOCDEFINE&gt;&gt;
@@ -60583,7 +60583,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 :反馈:
-    Zoom.Quiet@gmail.com
+    ZoomQuiet+km@gmail.com
 :查阅:
     http://zoomquiet.org/res/s5/120229-time2km/
 
