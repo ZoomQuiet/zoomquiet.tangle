@@ -49,7 +49,7 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
         dataInMem->dataSingleRAID [label="弗"];
         
         dataSingleRAID [label="数据在RAID阵列?"];
-        lotsMon [label="有很多内存?"];
+        lotsMon [label="特有银子?!"];
             useOracle [label="方案依赖Oracle?"];
                 buySAN [label="买SAN用之",shape=ellipse];
             useSQL [label="方案限定必须SQL?"];
