@@ -638,7 +638,8 @@
     [via mindex@googlegroups.com]cathayan...
 
     - 小说就是那个样子，最好的也就是那样，而已。
-    - 还都是普通人类可以完成的事业，中文大脑的深处有一种不可知论，就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
+    - 还都是普通人类可以完成的事业,中文大脑的深处有一种不可知论:
+    - 就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
 
 
 .. class:: takahashi7
@@ -705,6 +706,30 @@
 
 
 
+天渊
+==================
+
+.. container:: handout
+
+   弗诺·文奇 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/s1410407-deepnessky.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 封面
+        :target: http://book.douban.com/subject/1399992/
+
+
+
+.. container:: notes
+
+   - 当代大师
+
+
+
 接触
 ==================
 
@@ -729,27 +754,28 @@
 
 
 
-天渊
+Blame!
 ==================
 
 .. container:: handout
 
-   弗诺·文奇 |zqeye|
+   弐瓶勉(`Tsutomu Nihei <http://en.wikipedia.org/wiki/Tsutomu_Nihei>`_ )  |zqeye|
 
 
 .. class:: takahashi8
 
-    .. image:: i/s1410407-deepnessky.jpg
+    .. image:: i/jumpc_blame038039.jpg
         :align: center
-        :scale: 100 %
-        :alt: 封面
-        :target: http://book.douban.com/subject/1399992/
+        :scale: 80 %
+        :alt: 官方网页
+        :target: http://www.aposimz.com/work/blame/index.html
 
 
 
 .. container:: notes
 
-   - 当代大师
+   - 失败建築师的漫画逆袭！
+
 
 
 
@@ -777,27 +803,33 @@
 
 
 
-Blame!
+我不原谅
 ==================
 
 .. container:: handout
 
-   弐瓶勉(`Tsutomu Nihei <http://en.wikipedia.org/wiki/Tsutomu_Nihei>`_ )  |zqeye|
+   钟道然 的怒吼,,, |noforget| 
 
 
 .. class:: takahashi8
 
-    .. image:: i/jumpc_blame038039.jpg
+    .. image:: i/iam-no-forget.jpg
         :align: center
-        :scale: 80 %
-        :alt: 官方网页
-        :target: http://www.aposimz.com/work/blame/index.html
+        :scale: 100 %
+        :alt: 作者blog
+        :target: http://blog.sina.com.cn/miyanodorian
 
 
 
 .. container:: notes
 
-   - 失败建築师的漫画逆袭！
+   - 实話,能够出版,説明已经不在乎了,,,
+
+
+.. |noforget| image:: i/iam-no-forget-author.jpg
+    :align: top
+    :scale: 80 %
+    :target: http://blog.sina.com.cn/miyanodorian
 
 
 
@@ -884,6 +916,7 @@ Blame!
    |zqeye|
 
 
+- 120311 增补推荐"我不原谅"
 - 110610 增补Blame!图片，收集到其它观点...
 - 110607 appended for 弐瓶勉
 - 110527 增补故事性支持

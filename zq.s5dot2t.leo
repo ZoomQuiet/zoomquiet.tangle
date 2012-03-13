@@ -138,8 +138,8 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11551" a="E"><vh>120229-time2km</vh>
-<v t="zoomq.20110317085545.11552" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110317085545.11551"><vh>120229-time2km</vh>
+<v t="zoomq.20110317085545.11552"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20111115220826.11004"><vh>Randy Pausch</vh></v>
@@ -663,12 +663,12 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20110816085806.9688"><vh>110522-anti-3-body</vh>
-<v t="zoomq.20110816085806.9689"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110816085806.9688" a="E"><vh>110522-anti-3-body</vh>
+<v t="zoomq.20110816085806.9689" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110816085806.9690"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110816085806.9691"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110816085806.9692"><vh>免责</vh></v>
-<v t="zoomq.20110816085806.9693"><vh>三体</vh>
+<v t="zoomq.20110816085806.9693" a="E"><vh>三体</vh>
 <v t="zoomq.20110816085806.9694"><vh>三体I</vh>
 <v t="zoomq.20110816085806.9695"><vh>p299</vh></v>
 <v t="zoomq.20110816085806.9696"><vh>智子</vh></v>
@@ -684,7 +684,7 @@
 <v t="zoomq.20110816085806.9704"><vh>2向</vh></v>
 <v t="zoomq.20110816085806.9705"><vh>童话</vh></v>
 </v>
-<v t="zoomq.20110816085806.9706"><vh>吐糟</vh>
+<v t="zoomq.20110816085806.9706" a="E"><vh>吐糟</vh>
 <v t="zoomq.20110816085806.9707"><vh>起名</vh></v>
 <v t="zoomq.20110816085806.9708"><vh>起名</vh></v>
 <v t="zoomq.20110816085806.9709"><vh>难受</vh></v>
@@ -694,12 +694,13 @@
 <v t="zoomq.20110816085806.9713"><vh>&lt;/吐糟&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110816085806.9714"><vh>推荐</vh>
+<v t="zoomq.20110816085806.9714" a="E"><vh>推荐</vh>
 <v t="zoomq.20110816085806.9715"><vh>你一生的故事</vh></v>
-<v t="zoomq.20110816085806.9716"><vh>接触</vh></v>
 <v t="zoomq.20110816085806.9717"><vh>天渊</vh></v>
-<v t="zoomq.20110816085806.9718"><vh>黄祸</vh></v>
+<v t="zoomq.20110816085806.9716"><vh>接触</vh></v>
 <v t="zoomq.20110816085806.9719"><vh>弐瓶勉</vh></v>
+<v t="zoomq.20110816085806.9718"><vh>黄祸</vh></v>
+<v t="zoomq.20120309124633.24094"><vh>我不原谅</vh></v>
 </v>
 <v t="zoomq.20110816085806.9720"><vh>总结7+-2</vh>
 <v t="zoomq.20110816085806.9721"><vh>讲演之禅</vh></v>
@@ -67850,7 +67851,8 @@ href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳
     [via mindex@googlegroups.com]cathayan...
 
     - 小说就是那个样子，最好的也就是那样，而已。
-    - 还都是普通人类可以完成的事业，中文大脑的深处有一种不可知论，就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
+    - 还都是普通人类可以完成的事业,中文大脑的深处有一种不可知论:
+    - 就是什么什么好到不可触摸，想像也不可能，那其实是不存在的。
 
 
 .. class:: takahashi7
@@ -68019,6 +68021,7 @@ href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳
 
 
 
+
 </t>
 <t tx="zoomq.20110816085806.9720">总之
 =========
@@ -68106,6 +68109,7 @@ href="http://www.mozilla.org.cn"&gt;FireFox&lt;/a&gt;兼容浏览器获得最佳
    |zqeye|
 
 
+- 120311 增补推荐"我不原谅"
 - 110610 增补Blame!图片，收集到其它观点...
 - 110607 appended for 弐瓶勉
 - 110527 增补故事性支持
@@ -77976,6 +77980,37 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
    - ...
 
+
+
+
+</t>
+<t tx="zoomq.20120309124633.24094">我不原谅
+==================
+
+.. container:: handout
+
+   钟道然 的怒吼,,, |noforget| 
+
+
+.. class:: takahashi8
+
+    .. image:: i/iam-no-forget.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 作者blog
+        :target: http://blog.sina.com.cn/miyanodorian
+
+
+
+.. container:: notes
+
+   - 实話,能够出版,説明已经不在乎了,,,
+
+
+.. |noforget| image:: i/iam-no-forget-author.jpg
+    :align: top
+    :scale: 80 %
+    :target: http://blog.sina.com.cn/miyanodorian
 
 
 
