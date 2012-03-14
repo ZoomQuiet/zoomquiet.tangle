@@ -152,17 +152,17 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
     community->{vol2 vol5};
     windows->{vol4 vol17 vol19 vol22 vol23 vol24 vol26};
 
-    {bbk1win bbk2win bbk1wtl bbk2wtl bbk3wtl bbk4wtl bbk5wtl bbk6wtl bbk7wtl}->Boobooke;
+    {bbk1win bbk2win bbk1wtl bbk2wtl bbk3wtl bbk4wtl bbk5wtl bbk6wtl bbk7wtl}->Boobooke [style="dotted"];
         vol30->bbk1wtl;
         vol32->{bbk2wtl bbk3wtl};
         vol33->bbk4wtl;
         vol35->bbk5wtl;
         vol37->{bbk6wtl bbk7wtl};
 
-    {vol1 vol2 vol5 vol28 vol29 vol38 vol39 vol41 vol42 vol43 vol44 vol45}->ZQ;
-    {vol4 vol6 vol7 vol11 vol13 vol15 vol17}->LiuP;
-    {vol8 vol9 vol10 vol12 vol14 vol16 vol18 vol31}->CGC;
-    {vol40 vol46}->PRC;
+    {vol1 vol2 vol5 vol28 vol29 vol38 vol39 vol41 vol42 vol43 vol44 vol45}->ZQ [color=skyblue];
+    {vol4 vol6 vol7 vol11 vol13 vol15 vol17}->LiuP [color=blue];
+    {vol8 vol9 vol10 vol12 vol14 vol16 vol18 vol31}->CGC [color=green];
+    {vol40 vol46}->PRC [color=red];
 
     {vol30 vol32 vol35 vol37}->ZZX;
     {vol20 vol21}->LS;
@@ -173,8 +173,15 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
     {vol19}->SWJ;
     {vol26}->YJ;
     {vol3}->LP;
-    {ZQ LP LiuP CGC SWJ QW ZWJ ZZX LFF LXD YJ LS PRC Boobooke}->talkers;
-    
+
+    {LP SWJ QW ZWJ LFF LXD YJ LS }->talkers;
+    Boobooke->talkers [style="dotted,setlinewidth(1)"];
+    PRC->talkers [style="setlinewidth(1)"];
+    ZZX->talkers [style="setlinewidth(2)"];
+    LiuP->talkers [style="setlinewidth(3)"];
+    CGC->talkers [style="setlinewidth(3)"];
+    ZQ->talkers [style="setlinewidth(4)"];
+
     talkers [label="讲师"];
         ZQ [label="Zoom.Quiet",URL="http://zoomquiet.org"];
         LP [label="罗鹏",URL="http://code.ijinshan.com/trac/wiki/LuoPeng"];
@@ -190,7 +197,7 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
         ZZX [label="张泽鑫",URL="#"];
         LFF [label="梁放放",URL="#"];
         
-        Boobooke [label="布客",URL="http://www.boobooke.com"];
+        Boobooke [label="布客",URL="boobooke.html"];
 
     bbk1wtl [label="WTL入门.1",URL="http://www.boobooke.com/v/bbk5230"];
     bbk2wtl [label="WTL入门.2",URL="http://www.boobooke.com/v/bbk5240"];
