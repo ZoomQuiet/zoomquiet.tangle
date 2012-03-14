@@ -1,9 +1,9 @@
-digraph datav2vinfo {
+digraph knoss2talking {
     /*生成命令:
-$ dot -Tpng datav2vinfo.dot -o datav2vinfo.jpg -Tcmapx -o datav2vinfo.map
+$ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o doineed_sql_or_hadoop.map
     全局设定
     */
-    graph [label="数据可视化2可视化信息,浅述{概念图}"
+    graph [label="开源卫士社区语音讲座{内容关系图}"
         ,fontsize=14.0,fontcolor=snow
         ,labeljust="l",labelloc="b",center=1
         ,ranksep=0.1,center=1,ratio=compress

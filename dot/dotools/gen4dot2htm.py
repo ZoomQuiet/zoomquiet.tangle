@@ -11,22 +11,12 @@
     - 9.03.12 for KUP.rdev dot mapping gen html
 '''
 VERSION = "11.10.27"
-import os
-import sys
-import fnmatch
-import subprocess
-
-# for OptionParser chinese help
-from optparse import OptionParser,OptionGroup
-from datetime import datetime
-
-reload(sys)
-sys.setdefaultencoding('utf-8')
-
-
-DODOT = "/usr/local/bin/dot %s -Gfontname='WenQuanYi Micro Hei'  -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
-DOFDP = "/usr/local/bin/fdp %s -Gfontname='WenQuanYi Micro Hei'  -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
+SETFONT="fontname='WenQuanYi Micro Hei'"
+ARGDOT="-G%(SETFONT)s -N%(SETFONT)s -E%(SETFONT)s" % locals()
+DODOT = "/usr/local/bin/dot %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
+DOFDP = "/usr/local/bin/fdp %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
 IMGTYPE = "png"
+
 #dotPageTitle dotPageStyle imgame mapname map4dot
 DEFEXPORT = "stdout"
 DEFTITLE = "mapping base .dot"
@@ -117,6 +107,80 @@ TPLcssZIP='''
 DEFLEGEND="zoomquiet_org_idx_legend"
 
 
+
+def __chkPath(path,log):
+    '''检验路径，如果为空，设为 . 以便统一使用 "%s/%s"%(path,file) 形式
+    '''
+    if 0 == len(path):
+        return "."
+    else:
+        return path
+
+
+import os
+import sys
+import fnmatch
+import subprocess
+
+# for OptionParser chinese help
+from optparse import OptionParser,OptionGroup
+from datetime import datetime
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+
+class zqlog():
+    '''z quickly logging,export all kinds of log as stderr
+    usage:
+        log = zqlog()
+        log.info
+        log.debug
+        log.error
+        log.warning
+
+        log.info("info!")
+        log.debug("debug!")
+        log.error("error!")
+        log.warning("warning")
+    配合CL参数: -Q|V|N|D 过滤不同等级的输出
+    mdebug|verbose|mquiet|mnotdo
+    '''
+    def __init__(self,optionValues):
+        '''初始化日志输出句柄
+        '''
+        self.tformatter = "%y%m%d %H:%M:%S,%f"
+        self.lformatter = "[%(asctime)s]- %(levelname)-8s - %(message)s\n"
+        self.hdlr = sys.stderr
+        self.ov = optionValues
+
+    def __logit(self, levelname,message):
+        '''日志输出行动函式
+        datetime.datetime.now().strftime("%y%m%d %H:%M:%S,%f")
+        '''
+        asctime = datetime.now().strftime(self.tformatter)
+        levelname = levelname.upper()
+        self.hdlr.write(self.lformatter%locals())
+    def __getattr__(self, levelname):
+        #print self.ov
+        if self.ov.mnotdo:
+            # -N 仅仅INFO
+            if levelname == "info":
+                self.__dict__[levelname] = lambda message:self.__logit(levelname,str(message))
+            else:
+                self.__dict__[levelname] = lambda message:None
+        elif self.ov.verbose:
+            # -V 仅不输出 DEBUG
+            if levelname == "debug":
+                self.__dict__[levelname] = lambda message:None
+            else:
+                self.__dict__[levelname] = lambda message:self.__logit(levelname,str(message))
+        elif self.ov.mdebug:
+            # -D 输出一切
+            self.__dict__[levelname] = lambda message:self.__logit(levelname,str(message))
+        else:
+            # 默认情况同 -Q
+            self.__dict__[levelname] = lambda message:None
 
 def gen2html(ov,log):
     """usage dot exp png+img map,auto usage html tpl writ out idenx page!
@@ -263,26 +327,6 @@ def gen2html(ov,log):
         open(DEFEXPORT,'w').write(TPLidxHTM%locals())
     #log.debug(TPLidxHTM%locals())
 
-def __chkPath(path,log):
-    '''检验路径，如果为空，设为 . 以便统一使用 "%s/%s"%(path,file) 形式
-    '''
-    if 0 == len(path):
-        return "."
-    else:
-        return path
-
-
-def imgDataURI(pathPic,picName,log):
-    '''转化图片文件为 DataURI内置数据文本!
-    '''
-    from base64 import b64encode
-    #log.debug("__imgDataURI:\t%s/%s"%(pathPic,picName))
-    dataURI = b64encode(open("%s/%s"%(pathPic,picName),'rb').read())
-    b64file = "%s/%s.b64"%(pathPic,picName)
-    open(b64file,"w").write(dataURI)
-    return dataURI
-
-
 def getJpegInfo(pathPic,picName,log):
     '''base Python and the JPEG Image File, Part 1, The Header - Python
     http://www.daniweb.com/forums/thread71188.html
@@ -361,6 +405,17 @@ def getJpegInfo(pathPic,picName,log):
     else:
         print "No comment"
     '''
+def imgDataURI(pathPic,picName,log):
+    '''转化图片文件为 DataURI内置数据文本!
+    '''
+    from base64 import b64encode
+    #log.debug("__imgDataURI:\t%s/%s"%(pathPic,picName))
+    dataURI = b64encode(open("%s/%s"%(pathPic,picName),'rb').read())
+    b64file = "%s/%s.b64"%(pathPic,picName)
+    open(b64file,"w").write(dataURI)
+    return dataURI
+
+
 def main(ov,log):
     '''默认主函式,组合响应各种参数,调用实际行为..
     log.error("错误")
@@ -397,58 +452,6 @@ def main(ov,log):
 
 
     gen2html(ov,log)
-class zqlog():
-    '''z quickly logging,export all kinds of log as stderr
-    usage:
-        log = zqlog()
-        log.info
-        log.debug
-        log.error
-        log.warning
-
-        log.info("info!")
-        log.debug("debug!")
-        log.error("error!")
-        log.warning("warning")
-    配合CL参数: -Q|V|N|D 过滤不同等级的输出
-    mdebug|verbose|mquiet|mnotdo
-    '''
-    def __init__(self,optionValues):
-        '''初始化日志输出句柄
-        '''
-        self.tformatter = "%y%m%d %H:%M:%S,%f"
-        self.lformatter = "[%(asctime)s]- %(levelname)-8s - %(message)s\n"
-        self.hdlr = sys.stderr
-        self.ov = optionValues
-
-    def __logit(self, levelname,message):
-        '''日志输出行动函式
-        datetime.datetime.now().strftime("%y%m%d %H:%M:%S,%f")
-        '''
-        asctime = datetime.now().strftime(self.tformatter)
-        levelname = levelname.upper()
-        self.hdlr.write(self.lformatter%locals())
-    def __getattr__(self, levelname):
-        #print self.ov
-        if self.ov.mnotdo:
-            # -N 仅仅INFO
-            if levelname == "info":
-                self.__dict__[levelname] = lambda message:self.__logit(levelname,str(message))
-            else:
-                self.__dict__[levelname] = lambda message:None
-        elif self.ov.verbose:
-            # -V 仅不输出 DEBUG
-            if levelname == "debug":
-                self.__dict__[levelname] = lambda message:None
-            else:
-                self.__dict__[levelname] = lambda message:self.__logit(levelname,str(message))
-        elif self.ov.mdebug:
-            # -D 输出一切
-            self.__dict__[levelname] = lambda message:self.__logit(levelname,str(message))
-        else:
-            # 默认情况同 -Q
-            self.__dict__[levelname] = lambda message:None
-
 
 if __name__ == '__main__':      # this way the module can be
     '''usage::

@@ -24,17 +24,23 @@
 </v>
 <v t="zoomq.20100902112115.6558" a="E"><vh>dotools</vh>
 <v t="zoomq.20100902112115.6559" a="E"><vh>@nosent gen4dot2htm.py</vh>
-<v t="zoomq.20100902112115.6562" a="E"><vh>&lt;&lt;__main__&gt;&gt;</vh>
+<v t="zoomq.20100908150441.6739"><vh>默认值</vh>
+<v t="zoomq.20100914090206.8002"><vh>htm模板</vh></v>
+<v t="zoomq.20100914171624.6772"><vh>footer</vh></v>
+<v t="zoomq.20100914090206.8004"><vh>css模板</vh></v>
+</v>
+<v t="zoomq.20100902112115.6562"><vh>&lt;&lt;__main__&gt;&gt;</vh>
 <v t="zoomq.20100903105555.6662"><vh>&lt;&lt;交互参数&gt;&gt;</vh>
 <v t="zoomq.20100906103453.10041"><vh>&lt;&lt;运营模式组&gt;&gt;</vh></v>
 </v>
 <v t="zoomq.20100907214327.11513"><vh>主业务</vh></v>
 </v>
+<v t="zoomq.20100910090235.10618"><vh>__chkPath()</vh></v>
 <v t="zoomq.20100902112115.6560"><vh>__imports__</vh></v>
-<v t="zoomq.20100908150441.6739"><vh>默认值</vh>
-<v t="zoomq.20100914090206.8002"><vh>htm模板</vh></v>
-<v t="zoomq.20100914171624.6772"><vh>footer</vh></v>
-<v t="zoomq.20100914090206.8004"><vh>css模板</vh></v>
+<v t="zoomq.20100907214327.11503"><vh>class zqlog</vh>
+<v t="zoomq.20100907214327.11504"><vh>__init__()</vh></v>
+<v t="zoomq.20100908150441.6730"><vh>__logit()</vh></v>
+<v t="zoomq.20100908091715.7752"><vh>__getattr__()</vh></v>
 </v>
 <v t="zoomq.20100906103453.10040"><vh>gen2html()</vh>
 <v t="zoomq.20100913101742.6759"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
@@ -43,18 +49,12 @@
 <v t="zoomq.20100913101742.9614"><vh>dataURI嵌入CSS</vh></v>
 <v t="zoomq.20100910090235.9601"><vh>输出HTML</vh></v>
 </v>
-<v t="zoomq.20100910090235.10618"><vh>__chkPath()</vh></v>
-<v t="zoomq.20100913101742.6761"><vh>imgDataURI()</vh></v>
 <v t="zoomq.20100913225758.6763"><vh>getJpegInfo()</vh>
 <v t="zoomq.20100913225758.6764"><vh>&lt;&lt;16进制数据&gt;&gt;</vh></v>
 </v>
+<v t="zoomq.20100913101742.6761"><vh>imgDataURI()</vh></v>
 <v t="zoomq.20100906103453.10038"><vh>main()</vh>
 <v t="zoomq.20100908150441.6741"><vh>参数响应</vh></v>
-</v>
-<v t="zoomq.20100907214327.11503"><vh>class zqlog</vh>
-<v t="zoomq.20100907214327.11504"><vh>__init__()</vh></v>
-<v t="zoomq.20100908150441.6730"><vh>__logit()</vh></v>
-<v t="zoomq.20100908091715.7752"><vh>__getattr__()</vh></v>
 </v>
 </v>
 <v t="zoomq.20100910090235.7985"><vh>@nosent SomeGraph.dot</vh></v>
@@ -41235,9 +41235,12 @@ elif self.ov.mdebug:
 
 '''
 </t>
-<t tx="zoomq.20100908150441.6739">DODOT = "/usr/local/bin/dot %s -Gfontname='WenQuanYi Micro Hei'  -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
-DOFDP = "/usr/local/bin/fdp %s -Gfontname='WenQuanYi Micro Hei'  -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
+<t tx="zoomq.20100908150441.6739">SETFONT="fontname='WenQuanYi Micro Hei'"
+ARGDOT="-G%(SETFONT)s -N%(SETFONT)s -E%(SETFONT)s" % locals()
+DODOT = "/usr/local/bin/dot %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
+DOFDP = "/usr/local/bin/fdp %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
 IMGTYPE = "png"
+
 #dotPageTitle dotPageStyle imgame mapname map4dot
 DEFEXPORT = "stdout"
 DEFTITLE = "mapping base .dot"
