@@ -11,7 +11,7 @@
 <find_panel_settings/>
 <vnodes>
 <v t="zoomq.20080621102004.2"><vh>@chapters</vh></v>
-<v t="zoomq.20100408222312.5717"><vh>.dot</vh>
+<v t="zoomq.20100408222312.5717" a="E"><vh>.dot</vh>
 <v t="zoomq.20100903105555.6665"><vh>_stuff</vh>
 <v t="zoomq.20100908150441.6737"><vh>&lt;&lt;doctest&gt;&gt;</vh></v>
 <v t="zoomq.20100908150441.6732"><vh>动态生成属性函式</vh></v>
@@ -22,9 +22,9 @@
 <v t="zoomq.20100908091715.7730"><vh>__initlog()</vh></v>
 <v t="zoomq.20100908150441.6740"><vh>dotmapping.css</vh></v>
 </v>
-<v t="zoomq.20100902112115.6558"><vh>dotools</vh>
-<v t="zoomq.20100902112115.6559"><vh>@nosent gen4dot2htm.py</vh>
-<v t="zoomq.20100902112115.6562"><vh>&lt;&lt;__main__&gt;&gt;</vh>
+<v t="zoomq.20100902112115.6558" a="E"><vh>dotools</vh>
+<v t="zoomq.20100902112115.6559" a="E"><vh>@nosent gen4dot2htm.py</vh>
+<v t="zoomq.20100902112115.6562" a="E"><vh>&lt;&lt;__main__&gt;&gt;</vh>
 <v t="zoomq.20100903105555.6662"><vh>&lt;&lt;交互参数&gt;&gt;</vh>
 <v t="zoomq.20100906103453.10041"><vh>&lt;&lt;运营模式组&gt;&gt;</vh></v>
 </v>
@@ -123,8 +123,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100903105555.6572" a="E"><vh>幻灯</vh>
-<v t="zoomq.20080523161605" a="E"><vh>s5:public</vh>
+<v t="zoomq.20100903105555.6572"><vh>幻灯</vh>
+<v t="zoomq.20080523161605"><vh>s5:public</vh>
 <v t="zoomq.20100726095759.6175"><vh>_stuff</vh>
 <v t="zoomq.20100726095759.6174"><vh>brief0</vh></v>
 <v t="zoomq.20100726130819.5995"><vh>PKM</vh>
@@ -663,12 +663,12 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20110816085806.9688" a="E"><vh>110522-anti-3-body</vh>
-<v t="zoomq.20110816085806.9689" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20110816085806.9688"><vh>110522-anti-3-body</vh>
+<v t="zoomq.20110816085806.9689"><vh>@nosent index.rst</vh>
 <v t="zoomq.20110816085806.9690"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110816085806.9691"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110816085806.9692"><vh>免责</vh></v>
-<v t="zoomq.20110816085806.9693" a="E"><vh>三体</vh>
+<v t="zoomq.20110816085806.9693"><vh>三体</vh>
 <v t="zoomq.20110816085806.9694"><vh>三体I</vh>
 <v t="zoomq.20110816085806.9695"><vh>p299</vh></v>
 <v t="zoomq.20110816085806.9696"><vh>智子</vh></v>
@@ -694,7 +694,7 @@
 <v t="zoomq.20110816085806.9713"><vh>&lt;/吐糟&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20110816085806.9714" a="E"><vh>推荐</vh>
+<v t="zoomq.20110816085806.9714"><vh>推荐</vh>
 <v t="zoomq.20110816085806.9715"><vh>你一生的故事</vh></v>
 <v t="zoomq.20110816085806.9717"><vh>天渊</vh></v>
 <v t="zoomq.20110816085806.9716"><vh>接触</vh></v>
@@ -958,7 +958,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20111113005507.10794" a="E"><vh>110311-why-km</vh>
+<v t="zoomq.20111113005507.10794"><vh>110311-why-km</vh>
 <v t="zoomq.20111113005507.10795" a="O"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111113005507.10796"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20111113005507.10797"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -1178,7 +1178,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20101214094417.7839" a="E"><vh>101217-TimeMana</vh>
+<v t="zoomq.20101214094417.7839"><vh>101217-TimeMana</vh>
 <v t="zoomq.20101215104953.9379"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101215104953.9380"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20101215104953.9381"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -41235,8 +41235,8 @@ elif self.ov.mdebug:
 
 '''
 </t>
-<t tx="zoomq.20100908150441.6739">DODOT = "/usr/local/bin/dot %s -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
-DOFDP = "/usr/local/bin/fdp %s -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
+<t tx="zoomq.20100908150441.6739">DODOT = "/usr/local/bin/dot %s -Gfontname='WenQuanYi Micro Hei'  -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
+DOFDP = "/usr/local/bin/fdp %s -Gfontname='WenQuanYi Micro Hei'  -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
 IMGTYPE = "png"
 #dotPageTitle dotPageStyle imgame mapname map4dot
 DEFEXPORT = "stdout"

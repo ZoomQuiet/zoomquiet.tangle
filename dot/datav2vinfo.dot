@@ -1,0 +1,102 @@
+digraph doineed_sql_or_hadoop {
+    /*生成命令:
+$ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o doineed_sql_or_hadoop.map
+    全局设定
+    */
+    graph [label="数据可视化2可视化信息,浅述{概念图}"
+        ,fontsize=14.0,fontcolor=snow
+        ,labeljust="l",labelloc="b",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/datav2vinfo.dot?repo=tangle"];
+
+    
+    root [label="[试析]"];
+
+    root->wetware [style="setlinewidth(4)"];
+    wetware->datavflow [style="setlinewidth(3)"];
+    datavflow->whoneed [style="setlinewidth(2)"];
+
+    wetware [label="湿件"];
+        wares [label="概念由来"];
+        pages [label="推荐文章"];
+        problem [label="矛盾"];
+            human [label="固化的人类"];
+            cosial [label="激化的社会"];
+            sevenor [label="7±2原则"];
+            MinardMap [label="进军图"];
+
+            datavcan [label="数据可视化后\n的直接威能"];
+
+            beautful [label="美"]
+            emotion [label="情感"]
+            system [label="秩序"]
+            sincerity [label="真"]
+            etcinclude [label="等等..."]
+    wetware->wares->pages;
+    wetware->problem->{human cosial};
+        human->sevenor->datavcan;
+        problem->MinardMap->datavcan;
+            datavcan->{beautful emotion system sincerity etcinclude}[style="dotted"];
+
+
+    datavflow [label="可视化过程"];
+        collection [label="收集"];
+        arrangement [label="整理"];
+        design [label="设计"];
+        export [label="输出"];
+        communicate [label="传达"];
+
+    todo [label="具体\n实施\n技巧"];
+        Who [label="Who"];
+        When [label="When"];
+        Where [label="Where"];
+        Why [label="Why"];
+        What [label="What"];
+        How [label="How"];
+    datavflow->collection->arrangement->design->export->communicate;
+        design->{collection arrangement};
+        communicate->design;
+    datavflow->todo->{Who When Where Why What How} [style="dotted"];
+
+    whoneed [label="需要嘛?"];
+        people [label="个人"];
+        organization [label="组织"];
+        comp [label="企业"];
+        ectneed [label="等等..."];
+
+        fixed [label="海量数据\nvs快速决策\n解决!"];
+
+    whoneed->{people organization comp ectneed}->fixed;
+        fixed->datavcan;
+
+    /*
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    lotsMon->existProg;
+        tonesOptions->existProg;
+    
+    */
+
+
+    edge [style=invis];
+    src->wares;
+
+}

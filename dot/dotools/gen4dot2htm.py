@@ -24,8 +24,8 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
-DODOT = "/usr/local/bin/dot %s -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
-DOFDP = "/usr/local/bin/fdp %s -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
+DODOT = "/usr/local/bin/dot %s -Gfontname='WenQuanYi Micro Hei'  -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
+DOFDP = "/usr/local/bin/fdp %s -Gfontname='WenQuanYi Micro Hei'  -Nfontname='WenQuanYi Micro Hei' -Efontname='WenQuanYi Micro Hei' -Tpng -o %s.png -Tcmapx -o %s.map "
 IMGTYPE = "png"
 #dotPageTitle dotPageStyle imgame mapname map4dot
 DEFEXPORT = "stdout"
