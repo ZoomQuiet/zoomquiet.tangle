@@ -15,6 +15,10 @@ SETFONT="fontname='WenQuanYi Micro Hei'"
 ARGDOT="-G%(SETFONT)s -N%(SETFONT)s -E%(SETFONT)s" % locals()
 DODOT = "/usr/local/bin/dot %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
 DOFDP = "/usr/local/bin/fdp %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
+DOCIR = "/usr/local/bin/circo %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
+DONEA = "/usr/local/bin/neato %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
+DOTWO = "/usr/local/bin/twopi %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
+
 IMGTYPE = "png"
 
 #dotPageTitle dotPageStyle imgame mapname map4dot
@@ -66,7 +70,6 @@ powered by:
     <a href="http://www.python.org/">Python</a>
     ,<a href="http://webpages.charter.net/edreamleo/front.html">Leo</a>
     ,<a href="http://www.graphviz.org/About.php">graphviz</a>
-    ,<a href="http://www.ubuntu.org.cn/">Ubuntu</a>
     ,<a href="http://www.inkscape.org/">Inkscape</a>
     ,<a href="http://www.catb.org/hacker-emblem/">Hacker</a>
     ,<a href="http://wenq.org/" title="文泉驿">
@@ -241,6 +244,12 @@ def gen2html(ov,log):
     # --fdp 响应:切换dot 生成命令
     if ov.fdp:
         DOTORDER = DOFDP
+    elif ov.circo:
+        DOTORDER = DOCIR
+    elif ov.neato:
+        DOTORDER = DONEA
+    elif ov.twopi:
+        DOTORDER = DOTWO
     else:
         DOTORDER = DODOT
     #DODOT = "dot %s.dot -Tpng -o %s.png -Tcmapx -o %s.map"
@@ -468,7 +477,7 @@ if __name__ == '__main__':      # this way the module can be
         --doctest TDD支持
         -v doctest 详细模式
     '''
-    usage = "$python %prog [-V|N|D|Q][--dot|fdp][-t path/2/templete.htm] [-o path/2/export.html] [-i 'title of page'] -d path/2/foo.dot"
+    usage = "$python %prog [-V|N|D|Q][--dot|fdp|circo|twopi|neato][-t path/2/templete.htm] [-o path/2/export.html] [-i 'title of page'] -d path/2/foo.dot"
     parser = OptionParser(usage,version="%s {powered by Zoom.Quiet+Leo}"%VERSION)
     gRun = OptionGroup(parser, "Group for Running",
         '''DEFAULT::
@@ -528,10 +537,34 @@ if __name__ == '__main__':      # this way the module can be
         ,default=DEFTITLE
         ,help="Page Title"
         )
+    gIput.add_option("--dot",metavar=""
+        ,dest="dot",action="store_true"
+        ,default=False
+        ,help="usage dot gen. mapping"
+        "   DEFAULT:dot"
+        )
     gIput.add_option("--fdp",metavar=""
         ,dest="fdp",action="store_true"
         ,default=False
         ,help="usage fdp gen. mapping"
+        "   DEFAULT:dot"
+        )
+    gIput.add_option("--circo",metavar=""
+        ,dest="circo",action="store_true"
+        ,default=False
+        ,help="usage circo gen. mapping"
+        "   DEFAULT:dot"
+        )
+    gIput.add_option("--twopi",metavar=""
+        ,dest="twopi",action="store_true"
+        ,default=False
+        ,help="usage twopi gen. mapping"
+        "   DEFAULT:dot"
+        )
+    gIput.add_option("--neato",metavar=""
+        ,dest="neato",action="store_true"
+        ,default=False
+        ,help="usage neato gen. mapping"
         "   DEFAULT:dot"
         )
     parser.add_option_group(gIput)

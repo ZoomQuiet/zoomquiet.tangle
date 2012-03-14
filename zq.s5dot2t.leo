@@ -24,7 +24,7 @@
 </v>
 <v t="zoomq.20100902112115.6558" a="E"><vh>dotools</vh>
 <v t="zoomq.20100902112115.6559" a="E"><vh>@nosent gen4dot2htm.py</vh>
-<v t="zoomq.20100908150441.6739"><vh>默认值</vh>
+<v t="zoomq.20100908150441.6739" a="E"><vh>默认值</vh>
 <v t="zoomq.20100914090206.8002"><vh>htm模板</vh></v>
 <v t="zoomq.20100914171624.6772"><vh>footer</vh></v>
 <v t="zoomq.20100914090206.8004"><vh>css模板</vh></v>
@@ -40933,7 +40933,7 @@ gen4dot2htm.py -t path/2/模板.htm -o path/2/发布.html -i '标题'
 </t>
 <t tx="zoomq.20100903105555.6572">汇总所有幻灯撰写...
 </t>
-<t tx="zoomq.20100903105555.6662">usage = "$python %prog [-V|N|D|Q][--dot|fdp][-t path/2/templete.htm] [-o path/2/export.html] [-i 'title of page'] -d path/2/foo.dot"
+<t tx="zoomq.20100903105555.6662">usage = "$python %prog [-V|N|D|Q][--dot|fdp|circo|twopi|neato][-t path/2/templete.htm] [-o path/2/export.html] [-i 'title of page'] -d path/2/foo.dot"
 parser = OptionParser(usage,version="%s {powered by Zoom.Quiet+Leo}"%VERSION)
 &lt;&lt;运营模式组&gt;&gt;
 gIput = OptionGroup(parser, "Group fo Import",
@@ -40964,10 +40964,34 @@ gIput.add_option("-i","--title",metavar=""
     ,default=DEFTITLE
     ,help="Page Title"
     )
+gIput.add_option("--dot",metavar=""
+    ,dest="dot",action="store_true"
+    ,default=False
+    ,help="usage dot gen. mapping"
+    "   DEFAULT:dot"
+    )
 gIput.add_option("--fdp",metavar=""
     ,dest="fdp",action="store_true"
     ,default=False
     ,help="usage fdp gen. mapping"
+    "   DEFAULT:dot"
+    )
+gIput.add_option("--circo",metavar=""
+    ,dest="circo",action="store_true"
+    ,default=False
+    ,help="usage circo gen. mapping"
+    "   DEFAULT:dot"
+    )
+gIput.add_option("--twopi",metavar=""
+    ,dest="twopi",action="store_true"
+    ,default=False
+    ,help="usage twopi gen. mapping"
+    "   DEFAULT:dot"
+    )
+gIput.add_option("--neato",metavar=""
+    ,dest="neato",action="store_true"
+    ,default=False
+    ,help="usage neato gen. mapping"
     "   DEFAULT:dot"
     )
 parser.add_option_group(gIput)
@@ -41239,6 +41263,10 @@ elif self.ov.mdebug:
 ARGDOT="-G%(SETFONT)s -N%(SETFONT)s -E%(SETFONT)s" % locals()
 DODOT = "/usr/local/bin/dot %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
 DOFDP = "/usr/local/bin/fdp %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
+DOCIR = "/usr/local/bin/circo %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
+DONEA = "/usr/local/bin/neato %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
+DOTWO = "/usr/local/bin/twopi %s "+ARGDOT+" -Tpng -o %s.png -Tcmapx -o %s.map "
+
 IMGTYPE = "png"
 
 #dotPageTitle dotPageStyle imgame mapname map4dot
@@ -41346,6 +41374,12 @@ log.debug("EXPAS:\t%s"%EXPAS)
 <t tx="zoomq.20100909213420.7982"># --fdp 响应:切换dot 生成命令
 if ov.fdp:
     DOTORDER = DOFDP
+elif ov.circo:
+    DOTORDER = DOCIR
+elif ov.neato:
+    DOTORDER = DONEA
+elif ov.twopi:
+    DOTORDER = DOTWO
 else:
     DOTORDER = DODOT
 #DODOT = "dot %s.dot -Tpng -o %s.png -Tcmapx -o %s.map"
@@ -41623,7 +41657,6 @@ powered by:
     &lt;a href="http://www.python.org/"&gt;Python&lt;/a&gt;
     ,&lt;a href="http://webpages.charter.net/edreamleo/front.html"&gt;Leo&lt;/a&gt;
     ,&lt;a href="http://www.graphviz.org/About.php"&gt;graphviz&lt;/a&gt;
-    ,&lt;a href="http://www.ubuntu.org.cn/"&gt;Ubuntu&lt;/a&gt;
     ,&lt;a href="http://www.inkscape.org/"&gt;Inkscape&lt;/a&gt;
     ,&lt;a href="http://www.catb.org/hacker-emblem/"&gt;Hacker&lt;/a&gt;
     ,&lt;a href="http://wenq.org/" title="文泉驿"&gt;

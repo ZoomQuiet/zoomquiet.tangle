@@ -3,100 +3,214 @@ digraph knoss2talking {
 $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o doineed_sql_or_hadoop.map
     全局设定
     */
-    graph [label="开源卫士社区语音讲座{内容关系图}"
+    graph [label="开源卫士社区语音讲座 内容关系图谱 \n{powerded by graphviz 2.28.0}"
         ,fontsize=14.0,fontcolor=snow
-        ,labeljust="l",labelloc="b",center=1
-        ,ranksep=0.1,center=1,ratio=compress
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,ratio=compress
         ,rankdir=LR
         ,truecolor bgcolor="#333333"
         ];
 
-    node[fontsize=11.0,height=0.3
+    node[fontsize=11.0,height=0.1
         ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
         ,shape=plaintext
         ];
 
     edge [fontsize=9.0,fontcolor=gray
         ,color=azure
-        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,arrowsize=0.4,arrowhead=vee,arrowtail=none
         ,style="setlinewidth(0.5)"
         ];
 
     src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray
-        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/datav2vinfo.dot?repo=tangle"];
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/knoss2talking.dot?repo=tangle"];
 
     
-    root [label="[试析]"];
+    root [label="bbs.code.ijinshan.com\nYY频道:84544119",shape=box3d];
+        community [label="社区",shape=tab];
+        windows [label="Windows系统",shape=tab];
+        weishi [label="卫士",shape=tab];
+        WTL [label="WTL框架",shape=tab];
+        bkWin [label="bkWin框架",shape=tab];
+        KSC [label="云安全",shape=tab];
+        example [label="实例",shape=tab];
+        browse [label="浏览器插件",shape=tab];
+        PaaS [label="PaaS",shape=tab];
+    root->{community windows weishi KSC};
+        weishi->{WTL bkWin};
+        KSC->example->{browse PaaS};
 
-    root->wetware [style="setlinewidth(4)"];
-    wetware->datavflow [style="setlinewidth(3)"];
-    datavflow->whoneed [style="setlinewidth(2)"];
+    vol1 [label="让互联网拥抱安全",URL="http://code.ijinshan.com/trac/wiki/TalkKavass/InitYy"];
+        vol1s [label="幻灯",URL="http://code.ijinshan.com/res/r/101222-yy-knoss/"];
+        vol1r1 [label="中大录音",URL="http://code.ijinshan.com/res/r/101204_114M_CCF.YOCSEF-KCS.MP3"];
+        vol1r2 [label="上海录音",URL="http://code.ijinshan.com/res/r/101218-oscamp-shanghai/101218_124M_3-zoomquiet.MP3"];
+        vol1r3 [label="YY录音",URL="http://code.ijinshan.com/res/r/101222-yy-knoss/101223_133M_yy-zq-knoss.MP3"];
+        community->vol1->vol1s;
+            vol1->vol1r1 [label="101204"];
+            vol1->vol1r2 [label="101218"];
+            vol1->vol1r3 [label="101231"];
 
-    wetware [label="湿件"];
-        wares [label="概念由来"];
-        pages [label="推荐文章"];
-        problem [label="矛盾"];
-            human [label="固化的人类"];
-            cosial [label="激化的社会"];
-            sevenor [label="7±2原则"];
-            MinardMap [label="进军图"];
+    vol2 [label="社区平台详解"
+        ,URL="http://code.ijinshan.com/trac/wiki/TalkKavass/InitHg"];
+    vol3 [label="卫士系统优化的实现"
+        ,URL="http://www.slideshare.net/Zoom.Quiet/110329-luopengsysoptopenkavass"];
+    vol4 [label="深入理解windows窗口和消息机制"
+        ,URL="http://code.ijinshan.com/res/r/110407-yy-wtl/110407-liupeng-diveinto-wtl.pdf"];
+    vol5 [label="Hg基础及远程協同"
+        ,URL="http://code.ijinshan.com/res/m/110412-knoss-hg-howto/"];
+    vol6 [label="WTL开发技巧"
+        ,URL="http://code.ijinshan.com/trac/blog/yy-vol6-wtl"];
+    vol7 [label="WTL对象映射"
+        ,URL="http://bbs.code.ijinshan.com/thread-1085-1-1.html"];
+    vol8 [label="WTL对话框"
+        ,URL="http://bbs.code.ijinshan.com/thread-1098-1-1.html"];
+    vol9 [label="WTL对话框控件使用"
+        ,URL="http://bbs.code.ijinshan.com/thread-1107-1-1.html"];
+    vol10 [label="WTL控件绘制基础"
+        ,URL="http://bbs.code.ijinshan.com/thread-1118-1-1.html"];
+    vol11 [label="WTL之VFC简介"
+        ,URL="http://bbs.code.ijinshan.com/thread-1127-1-1.html"];
+    vol12 [label="WTL非窗口化控件实现"
+        ,URL="http://bbs.code.ijinshan.com/thread-1143-1-1.html"];
+    vol13 [label="如何看开源卫士代码"
+        ,URL="http://bbs.code.ijinshan.com/thread-1161-1-1.html"];
+    vol14 [label="WTL再谈自绘控件"
+        ,URL="http://bbs.code.ijinshan.com/thread-1177-1-1.html"];
+    vol15 [label="再看开源卫士代码"
+        ,URL="http://bbs.code.ijinshan.com/thread-1207-1-2.html"];
+    vol16 [label="如何在工程中使用bkwin"
+        ,URL="http://bbs.code.ijinshan.com/thread-1209-1-2.html"];
+    vol17 [label="windows平台下调试工具"
+        ,URL="http://bbs.code.ijinshan.com/thread-1220-1-2.html"];
+    vol18 [label="如何用bkwin完成tab效果"
+        ,URL="http://bbs.code.ijinshan.com/thread-1230-1-2.html"];
+    vol19 [label="如何进行windows驱动开发"
+        ,URL="http://bbs.code.ijinshan.com/thread-1247-1-1.html"];
+    vol20 [label="ELF开发"
+        ,URL="http://bbs.code.ijinshan.com/thread-1251-1-1.html"];
+    vol21 [label="ELF开发续"
+        ,URL="http://bbs.code.ijinshan.com/thread-1258-1-1.html"];
+    vol22 [label="Windows系统机制"
+        ,URL="http://bbs.code.ijinshan.com/thread-1308-1-1.html"];
+    vol23 [label="缓存管理器理解"
+        ,URL="http://bbs.code.ijinshan.com/thread-1313-1-1.html"];
+    vol24 [label="Windows系统机制再谈"
+        ,URL="http://bbs.code.ijinshan.com/thread-1349-1-1.html"];
+    vol25 [label="缓存管理器理解再来"
+        ,URL="http://bbs.code.ijinshan.com/thread-1355-1-1.html"];
+    vol26 [label="C++运行库理解"
+        ,URL="http://bbs.code.ijinshan.com/thread-1374-1-1.html"];
+    vol27 [label="bkWin小实例"
+        ,URL="http://bbs.code.ijinshan.com/thread-1383-1-1.html"];
+    vol28 [label="Chrome插件开发基础"
+        ,URL="http://bbs.code.ijinshan.com/thread-1424-1-3.html"];
+    vol29 [label="Chrome插件开发实例"
+        ,URL="http://bbs.code.ijinshan.com/thread-1427-1-2.html"];
+    vol30 [label="WTL基础-1"
+        ,URL="http://bbs.code.ijinshan.com/thread-1431-1-2.html"];
+    vol31 [label="bkWin的DirectUI实现原理"
+        ,URL="http://bbs.code.ijinshan.com/thread-1436-1-2.html"];
+    vol32 [label="WTL基础-2"
+        ,URL="http://bbs.code.ijinshan.com/thread-1440-1-2.html"];
+    vol33 [label="WTL基础-3"
+        ,URL="http://bbs.code.ijinshan.com/thread-1456-1-2.html"];
+    vol34 [label="换肤编辑器"
+        ,URL="http://bbs.code.ijinshan.com/thread-1472-1-2.html"];
+    vol35 [label="WTL基础-4"
+        ,URL="http://bbs.code.ijinshan.com/thread-1496-1-2.html"];
+    vol36 [label="换肤编辑器再解"
+        ,URL="http://bbs.code.ijinshan.com/thread-1505-1-2.html"];
+    vol37 [label="WTL基础-5"
+        ,URL="http://bbs.code.ijinshan.com/thread-1518-1-1.html"];
+    vol38 [label="SAE云安全初步"
+        ,URL="http://bbs.code.ijinshan.com/thread-1537-1-1.html"];
+    vol39 [label="SAE云安全小改"
+        ,URL="http://bbs.code.ijinshan.com/thread-1547-1-1.html"];
+    vol40 [label="Velocity2011分享"
+        ,URL="http://bbs.code.ijinshan.com/thread-1563-1-1.html"];
+    vol41 [label="网址云安全扫描案例"
+        ,URL="http://bbs.code.ijinshan.com/thread-1570-1-1.html"];
+    vol42 [label="网址云安node.js结合"
+        ,URL="http://bbs.code.ijinshan.com/thread-1578-1-1.html"];
+    vol43 [label="网址云服务结合mongo"
+        ,URL="http://bbs.code.ijinshan.com/thread-1590-1-1.html"];
+    vol44 [label="网址云服务结合GAE"
+        ,URL="http://bbs.code.ijinshan.com/thread-1609-1-1.html"];
+    vol45 [label="网址云服务嵌入Nginx"
+        ,URL="http://bbs.code.ijinshan.com/thread-1647-1-1.html"];
+    vol46 [label="金山云安全架构体验"
+        ,URL="http://bbs.code.ijinshan.com/thread-1682-1-1.html"];
 
-            datavcan [label="数据可视化后\n的直接威能"];
+    weishi->{vol3 vol13 vol15 vol34 vol35};
+        WTL->{vol6 vol7 vol8 vol9 vol10 vol11 vol12 vol14 vol30 vol32 vol33 vol37};
+        bkWin->{vol16 vol18 vol27 vol31};
+    KSC->{vol1 vol40 vol46};
+        example->{vol41 vol45};
+        browse->{vol20 vol21 vol28 vol29};
+        PaaS->{vol38 vol39 vol42 vol43 vol44};
+    community->{vol2 vol5};
+    windows->{vol4 vol17 vol19 vol22 vol23 vol24 vol26};
 
-            beautful [label="美"]
-            emotion [label="情感"]
-            system [label="秩序"]
-            sincerity [label="真"]
-            etcinclude [label="等等..."]
-    wetware->wares->pages;
-    wetware->problem->{human cosial};
-        human->sevenor->datavcan;
-        problem->MinardMap->datavcan;
-            datavcan->{beautful emotion system sincerity etcinclude}[style="dotted"];
+    {bbk1win bbk2win bbk1wtl bbk2wtl bbk3wtl bbk4wtl bbk5wtl bbk6wtl bbk7wtl}->Boobooke;
+        vol30->bbk1wtl;
+        vol32->{bbk2wtl bbk3wtl};
+        vol33->bbk4wtl;
+        vol35->bbk5wtl;
+        vol37->{bbk6wtl bbk7wtl};
 
+    {vol1 vol2 vol5 vol28 vol29 vol38 vol39 vol41 vol42 vol43 vol44 vol45}->ZQ;
+    {vol4 vol6 vol7 vol11 vol13 vol15 vol17}->LiuP;
+    {vol8 vol9 vol10 vol12 vol14 vol16 vol18 vol31}->CGC;
+    {vol40 vol46}->PRC;
 
-    datavflow [label="可视化过程"];
-        collection [label="收集"];
-        arrangement [label="整理"];
-        design [label="设计"];
-        export [label="输出"];
-        communicate [label="传达"];
+    {vol30 vol32 vol35 vol37}->ZZX;
+    {vol20 vol21}->LS;
+    {vol22 vol24}->QW;
+    {vol23 vol25}->ZWJ;
+    {vol34 vol36}->LFF;
+    {vol27}->LXD;
+    {vol19}->SWJ;
+    {vol26}->YJ;
+    {vol3}->LP;
+    {ZQ LP LiuP CGC SWJ QW ZWJ ZZX LFF LXD YJ LS PRC Boobooke}->talkers;
+    
+    talkers [label="讲师"];
+        ZQ [label="Zoom.Quiet",URL="http://zoomquiet.org"];
+        LP [label="罗鹏",URL="http://code.ijinshan.com/trac/wiki/LuoPeng"];
+        LiuP [label="刘鹏",URL="http://code.ijinshan.com/trac/wiki/LiuPeng"];
+        PRC [label="彭仁诚",URL="http://weibo.com/charlespeng"];
+        CGC [label="桂城",URL="http://code.ijinshan.com/trac/wiki/ChenGuiCheng"];
+        LS [label="LuciferStar",URL="http://bbs.duba.net/thread-21861751-1-1.html"];
+        SWJ [label="苏文杰",URL="#"];
+        ZWJ [label="张文君",URL="#"];
+        QW [label="祁伟",URL="#"];
+        YJ [label="杨军",URL="#"];
+        LXD [label="刘新典",URL="#"];
+        ZZX [label="张泽鑫",URL="#"];
+        LFF [label="梁放放",URL="#"];
+        
+        Boobooke [label="布客",URL="http://www.boobooke.com"];
 
-    todo [label="具体\n实施\n技巧"];
-        Who [label="Who"];
-        When [label="When"];
-        Where [label="Where"];
-        Why [label="Why"];
-        What [label="What"];
-        How [label="How"];
-    datavflow->collection->arrangement->design->export->communicate;
-        design->{collection arrangement};
-        communicate->design;
-    datavflow->todo->{Who When Where Why What How} [style="dotted"];
+    bbk1wtl [label="WTL入门.1",URL="http://www.boobooke.com/v/bbk5230"];
+    bbk2wtl [label="WTL入门.2",URL="http://www.boobooke.com/v/bbk5240"];
+    bbk3wtl [label="WTL入门.3",URL="http://www.boobooke.com/v/bbk5251"];
+    bbk4wtl [label="WTL入门.4",URL="http://www.boobooke.com/v/bbk5264"];
+    bbk5wtl [label="WTL入门.5",URL="http://www.boobooke.com/v/bbk5265"];
+    bbk6wtl [label="WTL入门.6",URL="http://www.boobooke.com/v/bbk5402"];
 
-    whoneed [label="需要嘛?"];
-        people [label="个人"];
-        organization [label="组织"];
-        comp [label="企业"];
-        ectneed [label="等等..."];
+    bbk7wtl [label="WTL入门.7",URL="http://www.boobooke.com/v/bbk5403"];
+    bbk1win [label="bkWin实战:1",URL="http://www.boobooke.com/shop/?product-bbk5277.html"];
+    bbk2win [label="bkWin实战:1",URL="http://www.boobooke.com/shop/?product-bbk5278.html"];
 
-        fixed [label="海量数据\nvs快速决策\n解决!"];
-
-    whoneed->{people organization comp ectneed}->fixed;
-        fixed->datavcan;
 
     /*
     nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
     nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
     nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
-    lotsMon->existProg;
-        tonesOptions->existProg;
-    
+    src->wares;
     */
 
-
     edge [style=invis];
-    src->wares;
 
 }
