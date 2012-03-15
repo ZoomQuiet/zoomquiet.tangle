@@ -41600,12 +41600,7 @@ for k in range(len(hexList)-1):
 '''
 
 </t>
-<t tx="zoomq.20100914090206.8002">#&lt;title&gt;%(pageTitle)s&lt;/title&gt;
-#    &lt;div id="%(mainMap)s"/&gt;
-#    %(mainImageMaps)s
-#    &lt;div id="%(mapLegend)s"/&gt;
-#   %(styleData)s
-TPLidxHTM='''&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+<t tx="zoomq.20100914090206.8002">TPLidxHTM='''&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
 &lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN"&gt;
 &lt;head&gt;
   &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8" &gt;
