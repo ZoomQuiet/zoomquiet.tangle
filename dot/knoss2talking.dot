@@ -141,6 +141,12 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
         ,URL="http://bbs.code.ijinshan.com/thread-1647-1-1.html"];
     vol46 [label="金山云安全架构体验"
         ,URL="http://bbs.code.ijinshan.com/thread-1682-1-1.html"];
+    vol47 [label="NAE架构体验"
+        ,URL="http://bbs.code.ijinshan.com/thread-1734-1-1.html"];
+    vol48 [label="盛大云架构体验"
+        ,URL="http://bbs.code.ijinshan.com/thread-????-1-1.html"];
+    vol49 [label="SAE架构体验"
+        ,URL="http://bbs.code.ijinshan.com/thread-????-1-1.html"];
 
     weishi->{vol3 vol13 vol15 vol34 vol35};
         WTL->{vol6 vol7 vol8 vol9 vol10 vol11 vol12 vol14 vol30 vol32 vol33 vol37};
@@ -148,7 +154,7 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
     KSC->{vol1 vol40 vol46};
         example->{vol41 vol45};
         browse->{vol20 vol21 vol28 vol29};
-        PaaS->{vol38 vol39 vol42 vol43 vol44};
+        PaaS->{vol38 vol39 vol42 vol43 vol44 vol47 vol48 vol49};
     community->{vol2 vol5};
     windows->{vol4 vol17 vol19 vol22 vol23 vol24 vol26};
 
@@ -174,21 +180,19 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
     {vol26}->YJ;
     {vol3}->LP;
 
-    {LP SWJ QW ZWJ LFF LXD YJ LS }->talkers;
-    Boobooke->talkers [style="dotted,setlinewidth(1)"];
-    PRC->talkers [style="setlinewidth(1)"];
-    ZZX->talkers [style="setlinewidth(2)"];
-    LiuP->talkers [style="setlinewidth(3)"];
-    CGC->talkers [style="setlinewidth(3)"];
-    ZQ->talkers [style="setlinewidth(4)"];
+    {LP SWJ QW ZWJ LFF LXD YJ}->intraTalkers;
+    PRC->intraTalkers [style="setlinewidth(1)"];
+    ZZX->intraTalkers [style="setlinewidth(2)"];
+    LiuP->intraTalkers [style="setlinewidth(3)"];
+    CGC->intraTalkers [style="setlinewidth(3)"];
+    ZQ->intraTalkers [style="setlinewidth(4)"];
 
-    talkers [label="讲师"];
+    intraTalkers [label="金山讲师"];
         ZQ [label="Zoom.Quiet",URL="http://zoomquiet.org"];
         LP [label="罗鹏",URL="http://code.ijinshan.com/trac/wiki/LuoPeng"];
         LiuP [label="刘鹏",URL="http://code.ijinshan.com/trac/wiki/LiuPeng"];
         PRC [label="彭仁诚",URL="http://weibo.com/charlespeng"];
         CGC [label="桂城",URL="http://code.ijinshan.com/trac/wiki/ChenGuiCheng"];
-        LS [label="LuciferStar",URL="http://bbs.duba.net/thread-21861751-1-1.html"];
         SWJ [label="苏文杰",URL="#"];
         ZWJ [label="张文君",URL="#"];
         QW [label="祁伟",URL="#"];
@@ -196,9 +200,22 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
         LXD [label="刘新典",URL="#"];
         ZZX [label="张泽鑫",URL="#"];
         LFF [label="梁放放",URL="#"];
-        
-        Boobooke [label="布客",URL="boobooke.html"];
+    
+    {LS kobe duhai LiDaobing qingdu}->interTalkers [color=yellow];
+    Boobooke->interTalkers [style="dotted,setlinewidth(1)"];
 
+    vol47->qingdu;
+    vol48->{duhai LiDaobing};
+    vol49->kobe;
+    
+    interTalkers [label="网络讲师"];
+        Boobooke [label="布客",URL="boobooke.html"];
+        LS [label="LuciferStar",URL="http://bbs.duba.net/thread-21861751-1-1.html"];
+        kobe [label="丛磊",URL="#"];
+        duhai [label="杜海",URL="#"];
+        LiDaobing [label="LI Daobing",URL="http://qa.debian.org/developer.php?login=lidaobing@debian.org"];
+        qingdu [label="清笃",URL="http://club.cnodejs.org/user/qingdu"];
+        
     bbk1wtl [label="WTL入门.1",URL="http://www.boobooke.com/v/bbk5230"];
     bbk2wtl [label="WTL入门.2",URL="http://www.boobooke.com/v/bbk5240"];
     bbk3wtl [label="WTL入门.3",URL="http://www.boobooke.com/v/bbk5251"];
