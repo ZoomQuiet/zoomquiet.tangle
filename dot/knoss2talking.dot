@@ -144,9 +144,9 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
     vol47 [label="NAE架构体验"
         ,URL="http://bbs.code.ijinshan.com/thread-1734-1-1.html"];
     vol48 [label="盛大云架构体验"
-        ,URL="http://bbs.code.ijinshan.com/thread-????-1-1.html"];
+        ,URL="http://bbs.code.ijinshan.com/thread-1763-1-1.html"];
     vol49 [label="SAE架构体验"
-        ,URL="http://bbs.code.ijinshan.com/thread-????-1-1.html"];
+        ,URL="http://bbs.code.ijinshan.com/thread-1860-1-1.html"];
 
     weishi->{vol3 vol13 vol15 vol34 vol35};
         WTL->{vol6 vol7 vol8 vol9 vol10 vol11 vol12 vol14 vol30 vol32 vol33 vol37};
@@ -215,6 +215,7 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
         duhai [label="杜海",URL="#"];
         LiDaobing [label="LI Daobing",URL="http://qa.debian.org/developer.php?login=lidaobing@debian.org"];
         qingdu [label="清笃",URL="http://club.cnodejs.org/user/qingdu"];
+
         
     bbk1wtl [label="WTL入门.1",URL="http://www.boobooke.com/v/bbk5230"];
     bbk2wtl [label="WTL入门.2",URL="http://www.boobooke.com/v/bbk5240"];

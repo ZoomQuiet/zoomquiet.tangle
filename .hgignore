@@ -1,3 +1,4 @@
+.*\DS_Store
 .*\.pyc
 .*\.egg
 .*\.so
@@ -20,7 +21,6 @@
 .*\.b64
 .*\.orig
 ~$
-^.DS_Store/*
 ^build/*
 ^RWIWP_Code/*
 
