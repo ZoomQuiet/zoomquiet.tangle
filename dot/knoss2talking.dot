@@ -158,6 +158,8 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
         ,URL="http://bbs.code.ijinshan.com/thread-1860-1-1.html"];
     vol50 [label="网址云植入NAE"
         ,URL="http://bbs.code.ijinshan.com/thread-1873-1-1.html"];
+    vol51 [label="网址云由KVDB在SAE加速"
+        ,URL="http://bbs.code.ijinshan.com/thread-1887-1-1.html"];
 
     weishi->{vol3 vol13 vol15 vol34 vol35};
         WTL->{vol6 vol7 vol8 vol9 vol10 vol11 vol12 vol14 vol30 vol32 vol33 vol37};
@@ -165,7 +167,7 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
     KSC->{vol1 vol40 vol46};
         browse->{vol20 vol21 vol28 vol29};
         PaaS->{nodejs GAE SAE openresty vol48};
-            SAE->{vol38 vol39 vol41 vol49};
+            SAE->{vol38 vol39 vol41 vol49 vol51};
             nodejs->{vol42 vol43 vol47 vol50};
             GAE->{vol44};
             openresty->{vol45}
@@ -180,7 +182,7 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
         vol35->bbk5wtl;
         vol37->{bbk6wtl bbk7wtl};
 
-    {vol1 vol2 vol5 vol28 vol29 vol38 vol39 vol41 vol42 vol43 vol44 vol45 vol50}->ZQ [color=skyblue];
+    {vol1 vol2 vol5 vol28 vol29 vol38 vol39 vol41 vol42 vol43 vol44 vol45 vol50 vol51}->ZQ [color=skyblue];
     {vol4 vol6 vol7 vol11 vol13 vol15 vol17}->LiuP [color=blue];
     {vol8 vol9 vol10 vol12 vol14 vol16 vol18 vol31}->CGC [color=green];
     {vol40 vol46}->PRC [color=red];
