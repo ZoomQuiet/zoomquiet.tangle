@@ -1,0 +1,55 @@
+digraph km_seci_tranfer {
+    /*生成命令:
+$ circo -Tpng km-seci-tranfer.dot -o km-seci-tranfer.png -Tcmapx -o km-seci-tranfer.map
+    全局设定
+    */
+    graph [label="知识管理SECI模型"
+        ,fontsize=14.0,fontcolor=snow
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=TB
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=box
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,fontname="WenQuanYi Micro Hei"
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+
+    
+    baExternalization [label="外在化\nExternalization\n使用各种媒体记载/发布知识点"];
+    baCombination [label="组合化\nCombination\n对零散的知识片段提炼成显性知识"];
+    baInternalization [label="内在化\nInternalization\n基于显性知识创造全新的经验"];
+    baSocialization [label="社会化\nSocialization\n通过各种渠道传播新的经验"];
+    
+    baExternalization->baCombination    [label="显性知识\n知识表述"
+        ,color=green,style="setlinewidth(0.5)"];
+    baCombination->baInternalization    [label="隐性知识\n实践检验"
+        ,color=red,style="dotted,setlinewidth(2)"];
+    baInternalization->baSocialization  [label="隐性知识\n传授/分享"
+        ,color=red,style="dotted,setlinewidth(3)"];
+    baSocialization->baExternalization  [label="显性知识\n深度交谈"
+        ,color=green,style="setlinewidth(0.5)"];
+
+    /*
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    lotsMon->existProg;
+        tonesOptions->existProg;
+    
+    */
+
+
+    edge [style=invis];
+
+}
