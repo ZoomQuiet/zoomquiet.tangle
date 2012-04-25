@@ -1,0 +1,87 @@
+digraph csdndr1_km {
+    /*生成命令:
+$ dot -Tpng csdndr1-km.dot -o csdndr1-km.png -Tcmapx -o csdndr1-km.map
+    全局设定
+    */
+    graph [label="维基命脉:内容结构{概念图}"
+        ,fontsize=14.0,fontcolor=snow
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=TB
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,fontname="WenQuanYi Micro Hei"
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+*/
+    
+    root [label="[试析]"];
+    etc [label="(略先)"];
+
+    want [label="忍不住"];
+    greateam [label="激爽团队"];
+        aka [label="AKA"];
+        grown [label="然何而来?"];
+        hr [label="HR"];
+        goal [label="价值观"];
+        km [label="自觉KM"];
+            KmFormula [label="KM公式"];
+            kmeg [label="实案推导"];
+        wiki [label="维基"];
+            what [label="WikiWhat?"];
+            cando [label="能作什么?"];
+            acteam [label="作用于团队"];
+            soul [label="本质"];
+            spread [label="推广问题"];
+                EK [label="知识场强"];
+                analyse [label="问题分析"];
+                game [label="解决对策"];
+        rooterms [label="先决条件"];
+        Kaopulity [label="为了靠谱!"];
+
+    root->want->greateam [style="setlinewidth(4)"];
+        greateam->aka->grown [style="setlinewidth(3)"];
+
+    grown->{hr goal} ;
+    grown->km->wiki [style="setlinewidth(2)"];
+        km->{KmFormula kmeg} ;
+
+        wiki->acteam->soul [style="setlinewidth(1)"];
+            soul->EK;
+        wiki->{what cando spread};
+            spread->game [style="setlinewidth(1)"];
+            spread->{analyse EK};
+    analyse->rooterms;
+
+    {rooterms game aka}->Kaopulity [style="setlinewidth(2)"];
+
+    {hr goal km what acteam EK}->etc [style="dotted"];
+
+    /*
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    lotsMon->existProg;
+        tonesOptions->existProg;
+    
+    */
+
+
+    edge [style=invis];
+
+}
