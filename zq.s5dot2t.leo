@@ -60297,7 +60297,8 @@ FLOSS授权
     ZoomQuiet+floss@gmail.com
 :查阅:
     http://zoomquiet.org/res/s5/120501-ossf-freedom/
-
+:源码:
+    http://tangle.zoomquiet.googlecode.com/hg/s5/120501-ossf-freedom/
 
 
 &lt;&lt;S5&gt;&gt;

@@ -20430,7 +20430,8 @@ GPL
     ZoomQuiet+floss@gmail.com
 :查阅:
     http://zoomquiet.org/res/s5/120501-ossf-freedom/
-
+:源码:
+    http://tangle.zoomquiet.googlecode.com/hg/s5/120501-ossf-freedom/
 
 
 `S5 <http://www.meyerweb.com/eric/tools/s5/>`__
