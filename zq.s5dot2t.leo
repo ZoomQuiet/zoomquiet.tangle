@@ -1024,7 +1024,7 @@
 <v t="zoomq.20120423093831.20422"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120423093831.20423"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20120423093831.20424"><vh>Randy Pausch</vh></v>
-<v t="zoomq.20120423093831.20425"><vh>免责</vh>
+<v t="zoomq.20120423093831.20425" a="E"><vh>免责</vh>
 <v t="zoomq.20120423093831.20426"><vh>Takahashi</vh>
 <v t="zoomq.20120423093831.20427"><vh>Takahashi</vh></v>
 <v t="zoomq.20120423093831.20428"><vh>Takahashi</vh></v>
@@ -1034,8 +1034,8 @@
 <v t="zoomq.20120423093831.20432"><vh>Takahashi</vh></v>
 </v>
 </v>
-<v t="zoomq.20120423093831.20433"><vh>brief0</vh>
-<v t="zoomq.20120423093831.20434"><vh>abt.ZQ</vh>
+<v t="zoomq.20120423093831.20433" a="E"><vh>brief0</vh>
+<v t="zoomq.20120423093831.20434" a="E"><vh>abt.ZQ</vh>
 <v t="zoomq.20120423093831.20435"><vh>本命年</vh></v>
 <v t="zoomq.20120423093831.20436"><vh>ZQ1999</vh></v>
 <v t="zoomq.20120423093831.20437"><vh>ZQsh</vh></v>
@@ -1056,9 +1056,9 @@
 <v t="zoomq.20120527002608.14399"><vh>牛妞2012</vh></v>
 <v t="zoomq.20120423093831.20449"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20120423093831.20450"><vh>brief1</vh>
-<v t="zoomq.20120423093831.20451"><vh>TM?</vh>
-<v t="zoomq.20120423093831.20452"><vh>时间?</vh>
+<v t="zoomq.20120423093831.20450" a="E"><vh>brief1</vh>
+<v t="zoomq.20120423093831.20451" a="E"><vh>TM?</vh>
+<v t="zoomq.20120423093831.20452" a="E"><vh>时间?</vh>
 <v t="zoomq.20120423093831.20453"><vh>时</vh></v>
 <v t="zoomq.20120423093831.20454"><vh>间</vh></v>
 </v>
@@ -1080,7 +1080,7 @@
 </v>
 <v t="zoomq.20120423093831.20467"><vh>/KM</vh></v>
 </v>
-<v t="zoomq.20120423093831.20468"><vh>TM!</vh>
+<v t="zoomq.20120423093831.20468" a="E"><vh>TM!</vh>
 <v t="zoomq.20120423093831.20469"><vh>点解?!</vh>
 <v t="zoomq.20120423093831.20470"><vh>学生本质</vh></v>
 <v t="zoomq.20120423093831.20471"><vh>职员本质</vh></v>
@@ -1113,8 +1113,8 @@
 <v t="zoomq.20120423093831.20493"><vh>/TM!</vh></v>
 </v>
 </v>
-<v t="zoomq.20120423093831.20494"><vh>brief2</vh>
-<v t="zoomq.20120423093831.20495"><vh>TM...</vh>
+<v t="zoomq.20120423093831.20494" a="E"><vh>brief2</vh>
+<v t="zoomq.20120423093831.20495" a="E"><vh>TM...</vh>
 <v t="zoomq.20120423093831.20496"><vh>矩阵</vh></v>
 <v t="zoomq.20120423093831.20497"><vh>时间帐单</vh>
 <v t="zoomq.20120423093831.20498"><vh>奇特的一生</vh></v>
@@ -1124,10 +1124,10 @@
 <v t="zoomq.20120423093831.20502"><vh>ZQ帐单</vh></v>
 <v t="zoomq.20120423093831.20503"><vh>ZQ帐单分析</vh></v>
 </v>
-<v t="zoomq.20120423093831.20504"><vh>GTD</vh>
+<v t="zoomq.20120423093831.20504" a="E"><vh>GTD</vh>
 <v t="zoomq.20120423093831.20505"><vh>GTD流程v2</vh></v>
 </v>
-<v t="zoomq.20120423093831.20506"><vh>GMail</vh>
+<v t="zoomq.20120423093831.20506" a="E"><vh>GMail</vh>
 <v t="zoomq.20120423093831.20507"><vh>早上不收邮件</vh></v>
 </v>
 <v t="zoomq.20120423093831.20508"><vh>LevelRedar</vh></v>
@@ -1136,7 +1136,7 @@
 <v t="zoomq.20120423093831.20511"><vh>xMind</vh></v>
 <v t="zoomq.20120423093831.20512"><vh>dot</vh></v>
 <v t="zoomq.20120423093831.20513"><vh>doxygen</vh></v>
-<v t="zoomq.20120423093831.20514"><vh>websequencediagrams</vh>
+<v t="zoomq.20120423093831.20514" a="E"><vh>websequencediagrams</vh>
 <v t="zoomq.20120423093831.20515"><vh>websequencediagrams</vh></v>
 <v t="zoomq.20120423093831.20516"><vh>websequencediagrams</vh></v>
 <v t="zoomq.20120423093831.20517"><vh>websequencediagrams</vh></v>
@@ -1153,8 +1153,8 @@
 <v t="zoomq.20120423093831.20525"><vh>纸笔</vh></v>
 <v t="zoomq.20120423093831.20526"><vh>/TM...</vh></v>
 </v>
-<v t="zoomq.20120423093831.20527"><vh>&lt;share&gt;</vh>
-<v t="zoomq.20120423093831.20528"><vh>WeKnow:1</vh>
+<v t="zoomq.20120423093831.20527" a="E"><vh>&lt;share&gt;</vh>
+<v t="zoomq.20120423093831.20528" a="E"><vh>WeKnow:1</vh>
 <v t="zoomq.20120423093831.20529"><vh>WeKnow:2</vh></v>
 <v t="zoomq.20120423093831.20530"><vh>WeKnow:3</vh></v>
 <v t="zoomq.20120423093831.20531"><vh>WeKnow:0</vh></v>
@@ -1165,14 +1165,14 @@
 <v t="zoomq.20120423093831.20535"><vh>&lt;/share&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20120423093831.20536"><vh>brief3</vh>
+<v t="zoomq.20120423093831.20536" a="E"><vh>brief3</vh>
 <v t="zoomq.20120423093831.20537"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20120423093831.20538"><vh>总结7+-2</vh></v>
 <v t="zoomq.20120423093831.20539"><vh>暗时间</vh></v>
 <v t="zoomq.20120423093831.20540"><vh>蕃茄时间</vh></v>
 <v t="zoomq.20120423093831.20541"><vh>讲演之禅</vh></v>
 </v>
-<v t="zoomq.20120423093831.20542"><vh>version</vh>
+<v t="zoomq.20120423093831.20542" a="E"><vh>version</vh>
 <v t="zoomq.20120423093831.20543"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
@@ -77230,7 +77230,6 @@ __ http://ecug.org/
 
     .. image:: i/snap/120326-python-cn-ml.png
         :align: center
-        :height: 900px
         :scale: 100 %
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
@@ -77281,7 +77280,6 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. image:: i/foto/niuniu110105.jpeg
     :align: center
     :scale: 110 %
-    :height: 800px
     :alt: 表情牛妞
 
 
@@ -77592,7 +77590,6 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
     .. image:: i/s3778613-friendtime.jpg
         :align: center
         :scale: 100 %
-        :height: 700px
         :alt: 李笑来
         :target: http://book.douban.com/subject/3609132
 
@@ -77640,7 +77637,6 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/KMsys-Seci20m1.jpg
         :align: center
         :scale: 100 %
-        :height: 700px
         :alt: ScrapBook
         :target: http://sociallearnlab.org/wiki/index.php?title=PKM&amp;variant=zh-cn
 
@@ -77670,7 +77666,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/kmtranfer2.gif
         :align: center
         :scale: 120 %
-        :height: 700px
+        :height: 500px
         :alt: ScrapBook
 
 
@@ -77700,7 +77696,6 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/kmzl2.jpg
         :align: center
         :scale: 100 %
-        :height: 800px
         :alt: ScrapBook
 
 
@@ -78530,7 +78525,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/map/GTD_v2CN.JPG
         :align: center
-        :scale: 80 %
+        :scale: 80%
         :target: #
 
 
@@ -78554,7 +78549,6 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/snap/zqtool-gmail_1014x497_scrot.png
         :align: center
         :scale: 100%
-        :height: 600px
         :target: #
 
 
@@ -78658,7 +78652,6 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/snap/zqtool-xmind_809x494_scrot.png
         :align: center
         :scale: 100%
-        :height: 600px
         :target: http://www.xmind.net/share/zoomquiet/
 
 
@@ -78681,7 +78674,6 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/snap/zqtool-dot-moin_761x433_scrot.png
         :align: center
         :scale: 100%
-        :height: 600px
         :target: #
 
 
@@ -78752,7 +78744,6 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-default.png
     :align: center
     :scale: 120 %
-    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78771,7 +78762,6 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-qsd.png
     :align: center
     :scale: 120 %
-    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78793,7 +78783,6 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-modern-blue.png
     :align: center
     :scale: 120 %
-    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78812,7 +78801,6 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-omegapple.png
     :align: center
     :scale: 120 %
-    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78836,7 +78824,6 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-napkin.png
     :align: center
     :scale: 120 %
-    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78860,7 +78847,6 @@ __ http://www.websequencediagrams.com/
     .. image:: i/handarw-mindmap.gif
         :align: center
         :scale: 80 %
-        :height: 700px
         :target: http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping
 
 
@@ -79026,7 +79012,6 @@ __ http://www.websequencediagrams.com/
     .. image:: i/know-me0.gif
         :align: center
         :scale: 150 %
-        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -79052,7 +79037,6 @@ __ http://www.websequencediagrams.com/
     .. image:: i/know-me1.gif
         :align: center
         :scale: 150 %
-        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -79077,7 +79061,6 @@ __ http://www.websequencediagrams.com/
     .. image:: i/know-we.gif
         :align: center
         :scale: 150 %
-        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -79104,7 +79087,6 @@ __ http://www.websequencediagrams.com/
     .. image:: i/know-dot.gif
         :align: center
         :scale: 150 %
-        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -79283,7 +79265,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s6586365-darktime.jpg
         :align: center
         :scale: 100 %
-        :height: 700px
         :alt: 暗时间
         :target: http://book.douban.com/subject/6709809/
 
@@ -79309,7 +79290,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s4599081-pomodoro.jpg
         :align: center
         :scale: 100 %
-        :height: 700px
         :alt: 番茄工作法图解
         :target: http://book.douban.com/subject/5916234/
 
@@ -79335,7 +79315,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s4279952-zen4talk.jpg
         :align: center
         :scale: 100 %
-        :height: 700px
         :alt: 讲演之禅
         :target: http://book.douban.com/subject/4760725/
 
@@ -100636,7 +100615,6 @@ GPL
 
     .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
         :align: center
-        :height: 900px
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
 
@@ -100659,7 +100637,6 @@ GPL
 .. image:: i/foto/120426-niuniu-表情帝.jpg
     :align: center
     :scale: 110 %
-    :height: 800px
     :alt: 表情牛妞
 
 

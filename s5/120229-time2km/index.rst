@@ -558,7 +558,6 @@ __ http://ecug.org/
 
     .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
         :align: center
-        :height: 900px
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
 
@@ -580,7 +579,6 @@ __ http://ecug.org/
 
     .. image:: i/snap/120326-python-cn-ml.png
         :align: center
-        :height: 900px
         :scale: 100 %
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
@@ -629,7 +627,6 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. image:: i/foto/niuniu110105.jpeg
     :align: center
     :scale: 110 %
-    :height: 800px
     :alt: 表情牛妞
 
 
@@ -652,7 +649,6 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. image:: i/foto/120426-niuniu-表情帝.jpg
     :align: center
     :scale: 110 %
-    :height: 800px
     :alt: 表情牛妞
 
 
@@ -949,7 +945,6 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
     .. image:: i/s3778613-friendtime.jpg
         :align: center
         :scale: 100 %
-        :height: 700px
         :alt: 李笑来
         :target: http://book.douban.com/subject/3609132
 
@@ -995,7 +990,6 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/KMsys-Seci20m1.jpg
         :align: center
         :scale: 100 %
-        :height: 700px
         :alt: ScrapBook
         :target: http://sociallearnlab.org/wiki/index.php?title=PKM&variant=zh-cn
 
@@ -1024,7 +1018,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/kmtranfer2.gif
         :align: center
         :scale: 120 %
-        :height: 700px
+        :height: 500px
         :alt: ScrapBook
 
 
@@ -1053,7 +1047,6 @@ EKM
     .. image:: i/kmzl2.jpg
         :align: center
         :scale: 100 %
-        :height: 800px
         :alt: ScrapBook
 
 
@@ -1844,7 +1837,7 @@ GTD总流程
 
     .. image:: i/map/GTD_v2CN.JPG
         :align: center
-        :scale: 80 %
+        :scale: 80%
         :target: #
 
 
@@ -1867,7 +1860,6 @@ GMail
     .. image:: i/snap/zqtool-gmail_1014x497_scrot.png
         :align: center
         :scale: 100%
-        :height: 600px
         :target: #
 
 
@@ -1966,7 +1958,6 @@ GMail
     .. image:: i/snap/zqtool-xmind_809x494_scrot.png
         :align: center
         :scale: 100%
-        :height: 600px
         :target: http://www.xmind.net/share/zoomquiet/
 
 
@@ -1988,7 +1979,6 @@ GMail
     .. image:: i/snap/zqtool-dot-moin_761x433_scrot.png
         :align: center
         :scale: 100%
-        :height: 600px
         :target: #
 
 
@@ -2056,7 +2046,6 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-default.png
     :align: center
     :scale: 120 %
-    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -2074,7 +2063,6 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-qsd.png
     :align: center
     :scale: 120 %
-    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -2095,7 +2083,6 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-modern-blue.png
     :align: center
     :scale: 120 %
-    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -2113,7 +2100,6 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-omegapple.png
     :align: center
     :scale: 120 %
-    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -2136,7 +2122,6 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-napkin.png
     :align: center
     :scale: 120 %
-    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -2159,7 +2144,6 @@ __ http://www.websequencediagrams.com/
     .. image:: i/handarw-mindmap.gif
         :align: center
         :scale: 80 %
-        :height: 700px
         :target: http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping
 
 
@@ -2317,7 +2301,6 @@ SNS学习原理:0
     .. image:: i/know-me0.gif
         :align: center
         :scale: 150 %
-        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2342,7 +2325,6 @@ SNS学习原理:1
     .. image:: i/know-me1.gif
         :align: center
         :scale: 150 %
-        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2366,7 +2348,6 @@ SNS学习原理:2
     .. image:: i/know-we.gif
         :align: center
         :scale: 150 %
-        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2392,7 +2373,6 @@ SNS学习原理:反証
     .. image:: i/know-dot.gif
         :align: center
         :scale: 150 %
-        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2563,7 +2543,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s6586365-darktime.jpg
         :align: center
         :scale: 100 %
-        :height: 700px
         :alt: 暗时间
         :target: http://book.douban.com/subject/6709809/
 
@@ -2588,7 +2567,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s4599081-pomodoro.jpg
         :align: center
         :scale: 100 %
-        :height: 700px
         :alt: 番茄工作法图解
         :target: http://book.douban.com/subject/5916234/
 
@@ -2613,7 +2591,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s4279952-zen4talk.jpg
         :align: center
         :scale: 100 %
-        :height: 700px
         :alt: 讲演之禅
         :target: http://book.douban.com/subject/4760725/
 
