@@ -138,7 +138,7 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11551" a="E"><vh>120501-ossf-freedom</vh>
+<v t="zoomq.20110317085545.11551"><vh>120501-ossf-freedom</vh>
 <v t="zoomq.20110317085545.11552" a="E"><vh>@nosent  index.rst</vh>
 <v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -659,7 +659,7 @@
 <v t="zoomq.20120507112353.12236"><vh>GPL加上LGPL</vh></v>
 <v t="zoomq.20120507112353.12239"><vh>其實就是</vh></v>
 </v>
-<v t="zoomq.20120504171245.11336" a="E"><vh>brief5</vh>
+<v t="zoomq.20120504171245.11336"><vh>brief5</vh>
 <v t="zoomq.20120507112353.12242"><vh>影響最深遠</vh></v>
 <v t="zoomq.20120507112353.12240"><vh>RMS</vh>
 <v t="zoomq.20120507112353.12244"><vh>RMS</vh></v>
@@ -985,7 +985,7 @@
 <v t="zoomq.20120507112353.14319"><vh>直接收益</vh></v>
 <v t="zoomq.20120507112353.14320"><vh>增進效能 </vh></v>
 <v t="zoomq.20120507112353.14321"><vh>商標</vh></v>
-<v t="zoomq.20120507112353.14322"><vh>雙重授權</vh>
+<v t="zoomq.20120507112353.14322" a="E"><vh>雙重授權</vh>
 <v t="zoomq.20120507112353.14323"><vh>雙重授權模式解析</vh></v>
 <v t="zoomq.20120507112353.14324"><vh>WHY</vh></v>
 <v t="zoomq.20120507112353.14325"><vh>三面討好</vh></v>
@@ -994,7 +994,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20120507112353.14327" a="E"><vh>CC</vh>
+<v t="zoomq.20120507112353.14327"><vh>CC</vh>
 <v t="zoomq.20120507112353.14328"><vh>总之</vh></v>
 <v t="zoomq.20110317085545.11624" a="E"><vh>version</vh>
 <v t="zoomq.20110317085545.11625"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
@@ -1039,7 +1039,7 @@
 <v t="zoomq.20120423093831.20435"><vh>本命年</vh></v>
 <v t="zoomq.20120423093831.20436"><vh>ZQ1999</vh></v>
 <v t="zoomq.20120423093831.20437"><vh>ZQsh</vh></v>
-<v t="zoomq.20120423093831.20438"><vh>ZQ社区</vh>
+<v t="zoomq.20120423093831.20438" a="E"><vh>ZQ社区</vh>
 <v t="zoomq.20120423093831.20439"><vh>ZQ2003</vh></v>
 <v t="zoomq.20120423093831.20440"><vh>ZQ2004</vh></v>
 <v t="zoomq.20120423093831.20441"><vh>ZQ2005</vh></v>
@@ -1047,11 +1047,13 @@
 <v t="zoomq.20120423093831.20443"><vh>ECUG</vh></v>
 <v t="zoomq.20120423093831.20444"><vh>ZQ2008</vh></v>
 <v t="zoomq.20120423093831.20445"><vh>ZQ2009</vh></v>
-<v t="zoomq.20120423093831.20446"><vh>ZQ2010</vh></v>
+<v t="zoomq.20120527002608.14397"><vh>CPUG2010</vh></v>
+<v t="zoomq.20120423093831.20446"><vh>CPUG2012</vh></v>
 </v>
 <v t="zoomq.20120423093831.20447"><vh>ZQ大妈</vh></v>
 </v>
 <v t="zoomq.20120423093831.20448"><vh>牛妞</vh></v>
+<v t="zoomq.20120527002608.14399"><vh>牛妞2012</vh></v>
 <v t="zoomq.20120423093831.20449"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
 <v t="zoomq.20120423093831.20450"><vh>brief1</vh>
@@ -1071,8 +1073,8 @@
 <v t="zoomq.20120423093831.20461"><vh>/TM?</vh></v>
 </v>
 <v t="zoomq.20120423093831.20462"><vh>把时间当作朋友</vh></v>
-<v t="zoomq.20120423093831.20463"><vh>PKM</vh>
-<v t="zoomq.20120423093831.20464"><vh>KM:SECI</vh>
+<v t="zoomq.20120423093831.20463" a="E"><vh>PKM</vh>
+<v t="zoomq.20120423093831.20464" a="E"><vh>KM:SECI</vh>
 <v t="zoomq.20120423093831.20465"><vh>知识之轮</vh></v>
 <v t="zoomq.20120423093831.20466"><vh>EKM</vh></v>
 </v>
@@ -1129,7 +1131,7 @@
 <v t="zoomq.20120423093831.20507"><vh>早上不收邮件</vh></v>
 </v>
 <v t="zoomq.20120423093831.20508"><vh>LevelRedar</vh></v>
-<v t="zoomq.20120423093831.20509"><vh>&lt;think&gt;</vh>
+<v t="zoomq.20120423093831.20509" a="E"><vh>&lt;think&gt;</vh>
 <v t="zoomq.20120423093831.20510"><vh>MindMap</vh></v>
 <v t="zoomq.20120423093831.20511"><vh>xMind</vh></v>
 <v t="zoomq.20120423093831.20512"><vh>dot</vh></v>
@@ -1151,8 +1153,8 @@
 <v t="zoomq.20120423093831.20525"><vh>纸笔</vh></v>
 <v t="zoomq.20120423093831.20526"><vh>/TM...</vh></v>
 </v>
-<v t="zoomq.20120423093831.20527" a="E"><vh>&lt;share&gt;</vh>
-<v t="zoomq.20120423093831.20528" a="E"><vh>WeKnow:1</vh>
+<v t="zoomq.20120423093831.20527"><vh>&lt;share&gt;</vh>
+<v t="zoomq.20120423093831.20528"><vh>WeKnow:1</vh>
 <v t="zoomq.20120423093831.20529"><vh>WeKnow:2</vh></v>
 <v t="zoomq.20120423093831.20530"><vh>WeKnow:3</vh></v>
 <v t="zoomq.20120423093831.20531"><vh>WeKnow:0</vh></v>
@@ -1163,7 +1165,7 @@
 <v t="zoomq.20120423093831.20535"><vh>&lt;/share&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20120423093831.20536" a="E"><vh>brief3</vh>
+<v t="zoomq.20120423093831.20536"><vh>brief3</vh>
 <v t="zoomq.20120423093831.20537"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20120423093831.20538"><vh>总结7+-2</vh></v>
 <v t="zoomq.20120423093831.20539"><vh>暗时间</vh></v>
@@ -76642,7 +76644,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. include:: &lt;s5defs.txt&gt;
 
 ==================================================================
-时间.知识\ :sup:`'管理`
+时.识\ :sup:`'管理`
 ==================================================================
 
 ～持续的效率进化之旅 (powered by rst2S5)
@@ -76717,6 +76719,10 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     有关视频
 
 
+:查阅:
+    http://code.ijinshan.com/res/m/RandyPausch-TimeManagement/
+
+
 .. container:: notes
 
    - ...
@@ -76759,6 +76765,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
     .. image:: pix/Takahashi-method.jpg
         :scale: 150 %
+        :height: 300px
         :alt: 高橋流
         :align: center
         :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
@@ -76870,6 +76877,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     - :silver:`15'自由沟通`
 
 
+.. container:: notes
+
+   - 
+
+
+
+
 
 </t>
 <t tx="zoomq.20120423093831.20434">&lt;Zoom.Quiet&gt;
@@ -76894,6 +76908,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
         :target: http://zoomquiet.org
 
 
+
+.. container:: notes
+
+   - 
+
+
+
 </t>
 <t tx="zoomq.20120423093831.20435">是也乎
 ==================
@@ -76906,6 +76927,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. class:: takahashi8
 
     奔四
+
+
+.. container:: notes
+
+   - 
+
+
 
 </t>
 <t tx="zoomq.20120423093831.20436">广告@常州
@@ -76921,6 +76949,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
     1999
 
+
+.. container:: notes
+
+   - 
+
+
+
 </t>
 <t tx="zoomq.20120423093831.20437">开发@上海
 ==================
@@ -76935,6 +76970,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
     ~2004
 
+
+.. container:: notes
+
+   - 
+
+
+
 </t>
 <t tx="zoomq.20120423093831.20438">PI@北京
 ==================
@@ -76947,6 +76989,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. class:: takahashi8
 
     ~2007
+
+
+.. container:: notes
+
+   - 
+
+
 
 </t>
 <t tx="zoomq.20120423093831.20439">`2003:CZUG.org &lt;http://czug.org/&gt;`__
@@ -76969,6 +77018,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
         :align: center
         :scale: 100 %
         :alt: http://czug.org
+
+
+.. container:: notes
+
+   - 
+
+
 
 </t>
 <t tx="zoomq.20120423093831.20440">`2004:啄木鸟 &lt;http://www.woodpecker.org.cn/&gt;`__
@@ -77008,6 +77064,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     :alt: http://wiki,woodpecker.org.cn
 
 
+
+.. container:: notes
+
+   - 
+
+
+
 </t>
 <t tx="zoomq.20120423093831.20441">2005:`CPyUG`__-&gt; BPyUG
 ======================================================
@@ -77026,6 +77089,13 @@ __ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
         :scale: 100 %
         :alt: CPyUG
         :target: http://wiki.woodpecker.org.cn/moin/CPUG
+
+
+.. container:: notes
+
+   - 
+
+
 
 </t>
 <t tx="zoomq.20120423093831.20442">2007:`ZPyUG`__
@@ -77057,6 +77127,13 @@ __ http://py.kingsoft.net/ktrac
     .. image:: i/logo/logo-ks.jpg
         :align: center
 
+
+.. container:: notes
+
+   - 
+
+
+
 </t>
 <t tx="zoomq.20120423093831.20443">`ECUG.org`__
 ======================================================
@@ -77076,6 +77153,13 @@ __ http://ecug.org/
         :target: http://code.google.com/p/ecug/wiki/FrontPage
 
 
+
+.. container:: notes
+
+   - 
+
+
+
 </t>
 <t tx="zoomq.20120423093831.20444">2008:|SLL.org| "SLL.org"
 ======================================================
@@ -77085,11 +77169,9 @@ __ http://ecug.org/
    spreading Pythonic everywhere to everyone... |zqeye|
 
 
-.. class:: takahashi
+.. class:: takahashi4
 
-    教育大
-
-    发现
+    教育大发现
 
 
 .. class:: takahashi2 center
@@ -77101,6 +77183,13 @@ __ http://ecug.org/
     :scale: 100 %
     :alt: SLL
     :target: http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&amp;variant=zh-cn
+
+
+
+.. container:: notes
+
+   - 
+
 
 
 </t>
@@ -77121,8 +77210,15 @@ __ http://ecug.org/
         :alt: 可愛的Python
         :target: http://book.douban.com/subject/3884108/
 
+
+.. container:: notes
+
+   - 
+
+
+
 </t>
-<t tx="zoomq.20120423093831.20446">2010~
+<t tx="zoomq.20120423093831.20446">~2012
 ======================================================
 
 .. container:: handout
@@ -77132,11 +77228,19 @@ __ http://ecug.org/
 
 .. class:: takahashi1
 
-    .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
+    .. image:: i/snap/120326-python-cn-ml.png
         :align: center
+        :height: 900px
         :scale: 100 %
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - 
+
+
 
 </t>
 <t tx="zoomq.20120423093831.20447">综上...
@@ -77156,25 +77260,36 @@ __ http://ecug.org/
 __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
+.. container:: notes
+
+   - 
+
+
+
+
+
 </t>
 <t tx="zoomq.20120423093831.20448">牛妞
 ==================
 
 .. container:: handout
 
-   \\ (^o^) / 1011d
+   \\ (^o^) / 596d
 
 
 
 .. image:: i/foto/niuniu110105.jpeg
     :align: center
     :scale: 110 %
+    :height: 800px
     :alt: 表情牛妞
 
 
 .. container:: notes
 
    - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 120426-niuniu-表情帝
+
 
 
 </t>
@@ -77193,6 +77308,13 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    (^.^)
 
 
+
+.. container:: notes
+
+   - 
+
+
+
 </t>
 <t tx="zoomq.20120423093831.20450">&lt;brief/&gt;
 =========
@@ -77208,6 +77330,13 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
     - :orange:`15' 乜是时间?知识!`
     - :silver:`15' 怎么管理这货?`
     - :silver:`15'自由沟通`
+
+
+.. container:: notes
+
+   - 
+
+
 
 
 
@@ -77463,6 +77592,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
     .. image:: i/s3778613-friendtime.jpg
         :align: center
         :scale: 100 %
+        :height: 700px
         :alt: 李笑来
         :target: http://book.douban.com/subject/3609132
 
@@ -77510,6 +77640,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/KMsys-Seci20m1.jpg
         :align: center
         :scale: 100 %
+        :height: 700px
         :alt: ScrapBook
         :target: http://sociallearnlab.org/wiki/index.php?title=PKM&amp;variant=zh-cn
 
@@ -77539,6 +77670,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/kmtranfer2.gif
         :align: center
         :scale: 120 %
+        :height: 700px
         :alt: ScrapBook
 
 
@@ -77568,6 +77700,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/kmzl2.jpg
         :align: center
         :scale: 100 %
+        :height: 800px
         :alt: ScrapBook
 
 
@@ -78420,7 +78553,8 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/snap/zqtool-gmail_1014x497_scrot.png
         :align: center
-        :scale: 100 %
+        :scale: 100%
+        :height: 600px
         :target: #
 
 
@@ -78523,7 +78657,8 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/snap/zqtool-xmind_809x494_scrot.png
         :align: center
-        :scale: 100 %
+        :scale: 100%
+        :height: 600px
         :target: http://www.xmind.net/share/zoomquiet/
 
 
@@ -78545,7 +78680,8 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/snap/zqtool-dot-moin_761x433_scrot.png
         :align: center
-        :scale: 100 %
+        :scale: 100%
+        :height: 600px
         :target: #
 
 
@@ -78566,7 +78702,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/snap/dot_8c__incl.png
         :align: center
-        :scale: 80 %
+        :scale: 80%
         :target: http://www.graphviz.org/pub/graphviz/development/doxygen/html/dot_8c.html
 
 
@@ -78616,6 +78752,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-default.png
     :align: center
     :scale: 120 %
+    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78634,6 +78771,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-qsd.png
     :align: center
     :scale: 120 %
+    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78655,6 +78793,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-modern-blue.png
     :align: center
     :scale: 120 %
+    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78673,6 +78812,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-omegapple.png
     :align: center
     :scale: 120 %
+    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78696,6 +78836,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-napkin.png
     :align: center
     :scale: 120 %
+    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78719,6 +78860,7 @@ __ http://www.websequencediagrams.com/
     .. image:: i/handarw-mindmap.gif
         :align: center
         :scale: 80 %
+        :height: 700px
         :target: http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping
 
 
@@ -78884,6 +79026,7 @@ __ http://www.websequencediagrams.com/
     .. image:: i/know-me0.gif
         :align: center
         :scale: 150 %
+        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -78909,6 +79052,7 @@ __ http://www.websequencediagrams.com/
     .. image:: i/know-me1.gif
         :align: center
         :scale: 150 %
+        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -78933,6 +79077,7 @@ __ http://www.websequencediagrams.com/
     .. image:: i/know-we.gif
         :align: center
         :scale: 150 %
+        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -78959,6 +79104,7 @@ __ http://www.websequencediagrams.com/
     .. image:: i/know-dot.gif
         :align: center
         :scale: 150 %
+        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -79042,7 +79188,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    坚持才有效果！ |zqeye|
 
 
-.. class:: takahashi7
+.. class:: takahashi
 
     &lt;/share&gt;
 
@@ -79137,6 +79283,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s6586365-darktime.jpg
         :align: center
         :scale: 100 %
+        :height: 700px
         :alt: 暗时间
         :target: http://book.douban.com/subject/6709809/
 
@@ -79162,6 +79309,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s4599081-pomodoro.jpg
         :align: center
         :scale: 100 %
+        :height: 700px
         :alt: 番茄工作法图解
         :target: http://book.douban.com/subject/5916234/
 
@@ -79187,6 +79335,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s4279952-zen4talk.jpg
         :align: center
         :scale: 100 %
+        :height: 700px
         :alt: 讲演之禅
         :target: http://book.douban.com/subject/4760725/
 
@@ -79207,9 +79356,9 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
+- 120529 調整图片大小
 - 120229 調整重点,追加好书,,
 - 111111 并入时间管理
-- 110309 增补知识分析
 - 110302 重构为知识管理重点
 - 101005 根据盛大讲演现场反馈修订错误!
 - 100926 增补EKM/工具关联图谱
@@ -100471,6 +100620,53 @@ GPL
 
 
 
+
+
+
+</t>
+<t tx="zoomq.20120527002608.14397">2010~
+======================================================
+
+.. container:: handout
+
+   社区在不断发展... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
+        :align: center
+        :height: 900px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20120527002608.14399">牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 1096d
+
+
+
+.. image:: i/foto/120426-niuniu-表情帝.jpg
+    :align: center
+    :scale: 110 %
+    :height: 800px
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 120426-niuniu-表情帝
 
 
 

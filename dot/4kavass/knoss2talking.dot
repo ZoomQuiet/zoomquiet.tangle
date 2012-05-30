@@ -1,6 +1,6 @@
 digraph knoss2talking {
     /*生成命令:
-$ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o doineed_sql_or_hadoop.map
+$ dot -Tpng knoss2talking.dot -o knoss2talking.jpg -Tcmapx -o knoss2talking.map
     全局设定
     */
     graph [label="开源卫士社区语音讲座 内容关系图谱 \n{powerded by graphviz 2.28.0}"
@@ -24,8 +24,7 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
 
     src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray
-        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/knoss2talking.dot?repo=tangle"];
-
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/4kavass/knoss2talking.dot?repo=tangle"];
     
     root [label="bbs.code.ijinshan.com\nYY频道:84544119",shape=box3d];
         community [label="社区",shape=tab];
@@ -162,11 +161,13 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
         ,URL="http://bbs.code.ijinshan.com/thread-1887-1-1.html"];
     vol52 [label="网址云用go"
         ,URL="http://bbs.code.ijinshan.com/thread-1899-1-1.html"];
+    vol53 [label="Infoc变迁"
+        ,URL="http://bbs.code.ijinshan.com/thread-1954-1-1.html"];
 
     weishi->{vol3 vol13 vol15 vol34 vol35};
         WTL->{vol6 vol7 vol8 vol9 vol10 vol11 vol12 vol14 vol30 vol32 vol33 vol37};
         bkWin->{vol16 vol18 vol27 vol31};
-    KSC->{vol1 vol40 vol46};
+    KSC->{vol1 vol40 vol46 vol53};
         browse->{vol20 vol21 vol28 vol29};
         PaaS->{nodejs GAE SAE openresty vol48};
             SAE->{vol38 vol39 vol41 vol49 vol51};
@@ -187,7 +188,7 @@ $ dot -Tpng doineed_sql_or_hadoop.dot -o doineed_sql_or_hadoop.jpg -Tcmapx -o do
     {vol1 vol2 vol5 vol28 vol29 vol38 vol39 vol41 vol42 vol43 vol44 vol45 vol50 vol51 vol52}->ZQ [color=skyblue];
     {vol4 vol6 vol7 vol11 vol13 vol15 vol17}->LiuP [color=blue];
     {vol8 vol9 vol10 vol12 vol14 vol16 vol18 vol31}->CGC [color=green];
-    {vol40 vol46}->PRC [color=red];
+    {vol40 vol46 vol53}->PRC [color=red];
 
     {vol30 vol32 vol35 vol37}->ZZX;
     {vol20 vol21}->LS;

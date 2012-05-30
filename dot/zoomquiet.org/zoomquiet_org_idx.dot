@@ -27,7 +27,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
             ,URL="http://about.me/zoom.quiet"
             ];
     title [label="zoomquiet.org资源图谱\nTime is unimportant,only life important!"
-        URL="http://tangle.zoomquiet.googlecode.com/hg/dot/zoomquiet_org_idx.dot"];
+        URL="http://tangle.zoomquiet.googlecode.com/hg/dot/zoomquiet.org/zoomquiet_org_idx.dot"];
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray
@@ -83,7 +83,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
             erlb [label="恶狼战役"
                 ,URL="http://code.google.com/p/erlbattle/"];
         sll [label="教育大发现"
-            ,URL="http://code.google.com/p/sociallearnlab/"];
+            ,URL="http://code.google.com/p/sociallearnlab/wiki/SllPrjZQ"];
     link [label="关注",shape=folder,URL="people-idx.html"];
 
     /*
@@ -100,9 +100,9 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         bloging->lj ;
         bloging->gb [label="河蟹了",style="dotted"];
 
-        sb->{oss skm} [label="河蟹了",style="dotted"];
+        sb->{oss skm} [label="已恢复",style="setlinewidth(1)"];
 
-    doing->trac [style="dotted"];
+    doing->trac [label="团队散了",style="dotted"];
         doing->WK [label="构思ing"];
         doing->{PiC OBP}[style="setlinewidth(4)"];
 

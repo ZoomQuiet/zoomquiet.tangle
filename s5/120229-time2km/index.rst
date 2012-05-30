@@ -1,7 +1,7 @@
 .. include:: <s5defs.txt>
 
 ==================================================================
-时间.知识\ :sup:`'管理`
+时.识\ :sup:`'管理`
 ==================================================================
 
 ～持续的效率进化之旅 (powered by rst2S5)
@@ -69,6 +69,10 @@ Randy Pausch
     有关视频
 
 
+:查阅:
+    http://code.ijinshan.com/res/m/RandyPausch-TimeManagement/
+
+
 .. container:: notes
 
    - ...
@@ -109,6 +113,7 @@ Randy Pausch
 
     .. image:: pix/Takahashi-method.jpg
         :scale: 150 %
+        :height: 300px
         :alt: 高橋流
         :align: center
         :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
@@ -213,6 +218,13 @@ Randy Pausch
     - :silver:`15'自由沟通`
 
 
+.. container:: notes
+
+   - 
+
+
+
+
 
 <Zoom.Quiet>
 ==================
@@ -236,6 +248,13 @@ Randy Pausch
         :target: http://zoomquiet.org
 
 
+
+.. container:: notes
+
+   - 
+
+
+
 是也乎
 ==================
 
@@ -247,6 +266,13 @@ Randy Pausch
 .. class:: takahashi8
 
     奔四
+
+
+.. container:: notes
+
+   - 
+
+
 
 广告@常州
 ==================
@@ -261,6 +287,13 @@ Randy Pausch
 
     1999
 
+
+.. container:: notes
+
+   - 
+
+
+
 开发@上海
 ==================
 
@@ -274,6 +307,13 @@ Randy Pausch
 
     ~2004
 
+
+.. container:: notes
+
+   - 
+
+
+
 PI@北京
 ==================
 
@@ -285,6 +325,13 @@ PI@北京
 .. class:: takahashi8
 
     ~2007
+
+
+.. container:: notes
+
+   - 
+
+
 
 `2003:CZUG.org <http://czug.org/>`__
 ======================================================
@@ -306,6 +353,13 @@ PI@北京
         :align: center
         :scale: 100 %
         :alt: http://czug.org
+
+
+.. container:: notes
+
+   - 
+
+
 
 `2004:啄木鸟 <http://www.woodpecker.org.cn/>`__
 =================================================
@@ -344,6 +398,13 @@ PI@北京
     :alt: http://wiki,woodpecker.org.cn
 
 
+
+.. container:: notes
+
+   - 
+
+
+
 2005:`CPyUG`__-> BPyUG
 ======================================================
 
@@ -361,6 +422,13 @@ __ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
         :scale: 100 %
         :alt: CPyUG
         :target: http://wiki.woodpecker.org.cn/moin/CPUG
+
+
+.. container:: notes
+
+   - 
+
+
 
 2007:`ZPyUG`__
 ======================================================
@@ -391,6 +459,13 @@ __ http://py.kingsoft.net/ktrac
     .. image:: i/logo/logo-ks.jpg
         :align: center
 
+
+.. container:: notes
+
+   - 
+
+
+
 `ECUG.org`__
 ======================================================
 
@@ -409,6 +484,13 @@ __ http://ecug.org/
         :target: http://code.google.com/p/ecug/wiki/FrontPage
 
 
+
+.. container:: notes
+
+   - 
+
+
+
 2008:|SLL.org| "SLL.org"
 ======================================================
 
@@ -417,11 +499,9 @@ __ http://ecug.org/
    spreading Pythonic everywhere to everyone... |zqeye|
 
 
-.. class:: takahashi
+.. class:: takahashi4
 
-    教育大
-
-    发现
+    教育大发现
 
 
 .. class:: takahashi2 center
@@ -433,6 +513,13 @@ __ http://ecug.org/
     :scale: 100 %
     :alt: SLL
     :target: http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&variant=zh-cn
+
+
+
+.. container:: notes
+
+   - 
+
 
 
 2009-09-01 出版
@@ -452,6 +539,13 @@ __ http://ecug.org/
         :alt: 可愛的Python
         :target: http://book.douban.com/subject/3884108/
 
+
+.. container:: notes
+
+   - 
+
+
+
 2010~
 ======================================================
 
@@ -464,9 +558,39 @@ __ http://ecug.org/
 
     .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
         :align: center
+        :height: 900px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - 
+
+
+~2012
+======================================================
+
+.. container:: handout
+
+   社区在不断发展... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/120326-python-cn-ml.png
+        :align: center
+        :height: 900px
         :scale: 100 %
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - 
+
+
 
 综上...
 ==================
@@ -485,24 +609,58 @@ __ http://ecug.org/
 __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
+.. container:: notes
+
+   - 
+
+
+
+
+
 牛妞
 ==================
 
 .. container:: handout
 
-   \\ (^o^) / 1011d
+   \\ (^o^) / 596d
 
 
 
 .. image:: i/foto/niuniu110105.jpeg
     :align: center
     :scale: 110 %
+    :height: 800px
     :alt: 表情牛妞
 
 
 .. container:: notes
 
    - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 120426-niuniu-表情帝
+
+
+
+牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 1096d
+
+
+
+.. image:: i/foto/120426-niuniu-表情帝.jpg
+    :align: center
+    :scale: 110 %
+    :height: 800px
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 120426-niuniu-表情帝
+
 
 
 </Zoom.Quiet>
@@ -520,6 +678,13 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    (^.^)
 
 
+
+.. container:: notes
+
+   - 
+
+
+
 <brief/>
 =========
 
@@ -534,6 +699,13 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
     - :orange:`15' 乜是时间?知识!`
     - :silver:`15' 怎么管理这货?`
     - :silver:`15'自由沟通`
+
+
+.. container:: notes
+
+   - 
+
+
 
 
 
@@ -777,6 +949,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
     .. image:: i/s3778613-friendtime.jpg
         :align: center
         :scale: 100 %
+        :height: 700px
         :alt: 李笑来
         :target: http://book.douban.com/subject/3609132
 
@@ -822,6 +995,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/KMsys-Seci20m1.jpg
         :align: center
         :scale: 100 %
+        :height: 700px
         :alt: ScrapBook
         :target: http://sociallearnlab.org/wiki/index.php?title=PKM&variant=zh-cn
 
@@ -850,6 +1024,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/kmtranfer2.gif
         :align: center
         :scale: 120 %
+        :height: 700px
         :alt: ScrapBook
 
 
@@ -878,6 +1053,7 @@ EKM
     .. image:: i/kmzl2.jpg
         :align: center
         :scale: 100 %
+        :height: 800px
         :alt: ScrapBook
 
 
@@ -1690,7 +1866,8 @@ GMail
 
     .. image:: i/snap/zqtool-gmail_1014x497_scrot.png
         :align: center
-        :scale: 100 %
+        :scale: 100%
+        :height: 600px
         :target: #
 
 
@@ -1788,7 +1965,8 @@ GMail
 
     .. image:: i/snap/zqtool-xmind_809x494_scrot.png
         :align: center
-        :scale: 100 %
+        :scale: 100%
+        :height: 600px
         :target: http://www.xmind.net/share/zoomquiet/
 
 
@@ -1809,7 +1987,8 @@ GMail
 
     .. image:: i/snap/zqtool-dot-moin_761x433_scrot.png
         :align: center
-        :scale: 100 %
+        :scale: 100%
+        :height: 600px
         :target: #
 
 
@@ -1829,7 +2008,7 @@ GMail
 
     .. image:: i/snap/dot_8c__incl.png
         :align: center
-        :scale: 80 %
+        :scale: 80%
         :target: http://www.graphviz.org/pub/graphviz/development/doxygen/html/dot_8c.html
 
 
@@ -1877,6 +2056,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-default.png
     :align: center
     :scale: 120 %
+    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -1894,6 +2074,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-qsd.png
     :align: center
     :scale: 120 %
+    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -1914,6 +2095,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-modern-blue.png
     :align: center
     :scale: 120 %
+    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -1931,6 +2113,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-omegapple.png
     :align: center
     :scale: 120 %
+    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -1953,6 +2136,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-napkin.png
     :align: center
     :scale: 120 %
+    :height: 700px
     :target: http://www.websequencediagrams.com/
 
 
@@ -1975,6 +2159,7 @@ __ http://www.websequencediagrams.com/
     .. image:: i/handarw-mindmap.gif
         :align: center
         :scale: 80 %
+        :height: 700px
         :target: http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping
 
 
@@ -2132,6 +2317,7 @@ SNS学习原理:0
     .. image:: i/know-me0.gif
         :align: center
         :scale: 150 %
+        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2156,6 +2342,7 @@ SNS学习原理:1
     .. image:: i/know-me1.gif
         :align: center
         :scale: 150 %
+        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2179,6 +2366,7 @@ SNS学习原理:2
     .. image:: i/know-we.gif
         :align: center
         :scale: 150 %
+        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2204,6 +2392,7 @@ SNS学习原理:反証
     .. image:: i/know-dot.gif
         :align: center
         :scale: 150 %
+        :height: 600px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2283,7 +2472,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    坚持才有效果！ |zqeye|
 
 
-.. class:: takahashi7
+.. class:: takahashi
 
     </share>
 
@@ -2374,6 +2563,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s6586365-darktime.jpg
         :align: center
         :scale: 100 %
+        :height: 700px
         :alt: 暗时间
         :target: http://book.douban.com/subject/6709809/
 
@@ -2398,6 +2588,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s4599081-pomodoro.jpg
         :align: center
         :scale: 100 %
+        :height: 700px
         :alt: 番茄工作法图解
         :target: http://book.douban.com/subject/5916234/
 
@@ -2422,6 +2613,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     .. image:: i/s4279952-zen4talk.jpg
         :align: center
         :scale: 100 %
+        :height: 700px
         :alt: 讲演之禅
         :target: http://book.douban.com/subject/4760725/
 
@@ -2441,9 +2633,9 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
+- 120529 調整图片大小
 - 120229 調整重点,追加好书,,
 - 111111 并入时间管理
-- 110309 增补知识分析
 - 110302 重构为知识管理重点
 - 101005 根据盛大讲演现场反馈修订错误!
 - 100926 增补EKM/工具关联图谱

@@ -23,23 +23,33 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         ,style="setlinewidth(0.5)"
         ];
 
-    ZQ  [label="zoomquiet.org",shape=ellipse,style="dotted"
-        ,URL="http://about.me/zoom.quiet"];
-        title [label="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimportant,only life important!"
-            URL="http://tangle.zoomquiet.googlecode.com/hg/dot/obp_zoomquiet_org_idx.dot"];
+    title [label="obp.zoomquiet.org 图书索引 \n{gen. by Graphviz}\nTime is unimportant,only life important!"
+        URL="http://tangle.zoomquiet.googlecode.com/hg/dot/zoomquiet.org/obp_zoomquiet_org_idx.dot"];
+    
+    ZQ  [label="返回\nzoomquiet.org",shape=ellipse,style="dotted"
+        ,URL="http://zoomquiet.org"];
+    
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray
         ,URL="mailto:zoomquiet+sns@gmail.com?subject=obp.zoomquiet.org mapping feedback"];
+
+    OBP      [label="O.B.P~OpenBookProjects\n开放图书计划",shape=box3d
+        ,URL="http://code.google.com/p/openbookproject/"];
+
+
+    /*
+    ZQ->OBP [label="返回主站",arrowhead=none,arrowtail=vee];
 
     CPUG     [label="CPyUG\n~华蟒用户组",shape=component
         ,URL="http://wiki.woodpecker.org.cn/moin/CPUG"];
     ZEUUX    [label="ZEUUX.org\n~哲思社区",shape=component
         ,URL="http://www.zeuux.org"];
     support  [label="支持",shape=box];
-    OBP      [label="O.B.P\n~OpenBookProjects\n开放图书计划",shape=box3d
-        ,URL="http://code.google.com/p/openbookproject/"];
-    /*
+    ZEUUX->support;
+        CPUG->support;
+    support->OBP
+
         author   [label="成员",shape=tab];
             self       [label="Zoom.Quiet",shape=egg,URL="http://zoomquiet.org"];
             WY       [label="Yan Wu",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/YanWu"];
@@ -54,24 +64,41 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
             ,URL="http://lovelypython.readthedocs.org/"];
         rwp4l   [label="大蟒本色",shape=note
             ,URL="http://zoomquiet.bitbucket.org/rwpy4l/"];
+
+    chaosbook  [label="乱入",shape=folder];
+        chaos2crx   [label="crx",shape=note
+            ,URL="http://chaos2crx.readthedocs.org"];
+        chaos2go   [label="Go",shape=note
+            ,URL="http://chaos2go1.readthedocs.org"];
+        chaos2node   [label="node.js",shape=note
+            ,URL="http://chaos2node.readthedocs.org"];
+        chaos2openresty   [label="openresty",shape=note
+            ,URL="http://chaos2openresty.readthedocs.org"];
+        chaos2sae   [label="SAE",shape=note
+            ,URL="http://chaos2sae.readthedocs.org"];
+
     translate  [label="翻译",shape=tab];
 
-    techbook  [label="技术图书",shape=folder];
+    techbook  [label="图书",shape=folder];
         tpipy   [label="TPiPy 中文版",shape=note
             ,URL="http://tpipyzh.readthedocs.org"];
         hgtip   [label="Hg妙招",shape=note
             ,URL="http://zoomquiet.github.com/hgtip/"];
         pymotw   [label="每周一模块",shape=note
             ,URL="http://pymotwcn.readthedocs.org"];
+        rwiwpyzh   [label="电子设备和Python",shape=note
+            ,URL="https://bitbucket.org/ZoomQuiet/obp.rwiwpyzh"];
 
 
-    pydocs  [label="开发语言",shape=folder];
+    pydocs  [label="开发",shape=folder];
         docspy3   [label="Py3文档",shape=note
             ,URL="http://docspy3zh.readthedocs.org"];
         w2pyzh   [label="Web2py手册",shape=note
             ,URL="http://web2pybookzh.readthedocs.org"];
+        crxdoczh   [label="crx手册",shape=note
+            ,URL="http://crxdoczh.readthedocs.org"];
 
-    tools  [label="实用工具",shape=folder];
+    tools  [label="工具",shape=folder];
         leodoc   [label="Leo手册\nv4.9rc1",shape=note
             ,URL="http://zoomquiet.github.com/leo-doc-zh/leo_toc.html"];
         pyblosxom   [label="PyBlosxom手册\nv1.5-rc1",shape=note
@@ -79,24 +106,29 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         sphnix   [label="Sphnix手册",shape=note
             ,URL="http://sphinx-doc-zh.readthedocs.org"];
             
-    ZQ->OBP [label="返回主站",arrowhead=none,arrowtail=vee];
-    ZEUUX->support;
-        CPUG->support;
-    support->OBP
 
     OBP->{original translate};
 
+        chaosbook->{chaos2go chaos2node chaos2openresty chaos2sae} [style="setlinewidth(1)",color=green];
+        chaosbook->chaos2crx [label="10%",style="setlinewidth(3)",color=red];
+
+    original->chaosbook;
     original->lpy [label="20%",style="setlinewidth(2)"]
     original->rwp4l [label="80%",style="setlinewidth(1)"]
 
         translate->{techbook tools pydocs};
 
         techbook->hgtip [label="27/26",style="setlinewidth(1)",color=green]
+        techbook->rwiwpyzh [label="95%",style="setlinewidth(2.5)",color=green]
+
         techbook->pymotw [label="54%",style="dashed,setlinewidth(0.5)"]
         techbook->tpipy [label="0%",style="dotted,setlinewidth(0.5)"]
 
-        pydocs->w2pyzh [label="15%",style="dashed,setlinewidth(1)"]
-        pydocs->docspy3 [label="80/424",style="setlinewidth(3)"]
+        pydocs->w2pyzh [label="15%",style="dotted,setlinewidth(1)"]
+        pydocs->docspy3 [label="80/424",style="setlinewidth(1)"]
+
+        pydocs->crxdoczh [label="2%",style="setlinewidth(3)",color=red]
+
 
         tools->sphnix [label="2%",style="setlinewidth(0.5)"]
         tools->leodoc [label="0%",style="dotted,setlinewidth(0.5)"]
@@ -105,8 +137,10 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
 
 
     edge [style=invis];
+    title->{mailme ZQ};
+/*
     title->ZQ;
     mailme->OBP;
-
+*/
 
 }

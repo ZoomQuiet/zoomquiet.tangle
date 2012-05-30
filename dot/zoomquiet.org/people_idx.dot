@@ -22,10 +22,10 @@ $ dot -Tjpeg people_idx.dot -o people_idx.jpg -Tcmapx -o people_idx.map
         ,style="setlinewidth(0.5)"
         ];
 
-    ZQ  [label="zoomquiet.org",shape=ellipse,style="dotted"
-        ,URL="http://zoomquiet.github.com"];
+    ZQ  [label="返回\nzoomquiet.org",shape=ellipse,style="dotted"
+        ,URL="http://zoomquiet.org"];
     title [label="Zoom.Quiet关注索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
-        URL="http://tangle.zoomquiet.googlecode.com/hg/dot/zoomquiet_org_idx.dot"];
+        URL="tangle.zoomquiet.googlecode.com/hg/dot/zoomquiet.org/zoomquiet_org_idx.dot"];
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray
@@ -33,7 +33,13 @@ $ dot -Tjpeg people_idx.dot -o people_idx.jpg -Tcmapx -o people_idx.map
 
     PEOPLE [label="人物\n~关注互联开放心智",shape=box3d
         ,URL="http://code.google.com/p/openbookproject/"];
+
     /*
+    title->mailme->ZQ;
+
+
+    ZQ->PEOPLE [label="返回主站",arrowhead=none,arrowtail=vee];
+
         author   [label="成员",shape=tab];
             self       [label="Zoom.Quiet",shape=egg,URL="http://zoomquiet.org"];
             WY       [label="Yan Wu",shape=egg,URL="http://code.google.com/p/openbookproject/wiki/YanWu"];
@@ -83,7 +89,6 @@ $ dot -Tjpeg people_idx.dot -o people_idx.jpg -Tcmapx -o people_idx.map
             ,URL="http://sociallearnlab.org"];
         etc   [label="...",shape=note];
             
-    ZQ->PEOPLE [label="返回主站",arrowhead=none,arrowtail=vee];
 
     PEOPLE->{SNS py floss technic};
 
@@ -95,7 +100,12 @@ $ dot -Tjpeg people_idx.dot -o people_idx.jpg -Tcmapx -o people_idx.map
 
 
     edge [style=invis];
+    title->mailme->ZQ;
+
+/*
     PEOPLE->mailme;
+
+*/
 
 
 }
