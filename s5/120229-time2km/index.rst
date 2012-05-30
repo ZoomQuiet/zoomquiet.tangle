@@ -2046,6 +2046,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-default.png
     :align: center
     :scale: 120 %
+    :height: 360px
     :target: http://www.websequencediagrams.com/
 
 
@@ -2063,6 +2064,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-qsd.png
     :align: center
     :scale: 120 %
+    :height: 360px
     :target: http://www.websequencediagrams.com/
 
 
@@ -2083,6 +2085,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-modern-blue.png
     :align: center
     :scale: 120 %
+    :height: 360px
     :target: http://www.websequencediagrams.com/
 
 
@@ -2100,6 +2103,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-omegapple.png
     :align: center
     :scale: 120 %
+    :height: 360px
     :target: http://www.websequencediagrams.com/
 
 
@@ -2122,6 +2126,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-napkin.png
     :align: center
     :scale: 120 %
+    :height: 360px
     :target: http://www.websequencediagrams.com/
 
 
@@ -2143,7 +2148,7 @@ __ http://www.websequencediagrams.com/
 
     .. image:: i/handarw-mindmap.gif
         :align: center
-        :scale: 80 %
+        :height: 360px
         :target: http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping
 
 
@@ -2300,7 +2305,7 @@ SNS学习原理:0
 
     .. image:: i/know-me0.gif
         :align: center
-        :scale: 150 %
+        :height: 360px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2324,7 +2329,7 @@ SNS学习原理:1
 
     .. image:: i/know-me1.gif
         :align: center
-        :scale: 150 %
+        :height: 360px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2347,7 +2352,7 @@ SNS学习原理:2
 
     .. image:: i/know-we.gif
         :align: center
-        :scale: 150 %
+        :height: 360px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -2372,7 +2377,7 @@ SNS学习原理:反証
 
     .. image:: i/know-dot.gif
         :align: center
-        :scale: 150 %
+        :height: 360px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 

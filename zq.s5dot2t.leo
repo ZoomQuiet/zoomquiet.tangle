@@ -1039,7 +1039,7 @@
 <v t="zoomq.20120423093831.20435"><vh>本命年</vh></v>
 <v t="zoomq.20120423093831.20436"><vh>ZQ1999</vh></v>
 <v t="zoomq.20120423093831.20437"><vh>ZQsh</vh></v>
-<v t="zoomq.20120423093831.20438" a="E"><vh>ZQ社区</vh>
+<v t="zoomq.20120423093831.20438"><vh>ZQ社区</vh>
 <v t="zoomq.20120423093831.20439"><vh>ZQ2003</vh></v>
 <v t="zoomq.20120423093831.20440"><vh>ZQ2004</vh></v>
 <v t="zoomq.20120423093831.20441"><vh>ZQ2005</vh></v>
@@ -1058,7 +1058,7 @@
 </v>
 <v t="zoomq.20120423093831.20450" a="E"><vh>brief1</vh>
 <v t="zoomq.20120423093831.20451" a="E"><vh>TM?</vh>
-<v t="zoomq.20120423093831.20452" a="E"><vh>时间?</vh>
+<v t="zoomq.20120423093831.20452"><vh>时间?</vh>
 <v t="zoomq.20120423093831.20453"><vh>时</vh></v>
 <v t="zoomq.20120423093831.20454"><vh>间</vh></v>
 </v>
@@ -78744,6 +78744,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-default.png
     :align: center
     :scale: 120 %
+    :height: 360px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78762,6 +78763,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-qsd.png
     :align: center
     :scale: 120 %
+    :height: 360px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78783,6 +78785,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-modern-blue.png
     :align: center
     :scale: 120 %
+    :height: 360px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78801,6 +78804,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-omegapple.png
     :align: center
     :scale: 120 %
+    :height: 360px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78824,6 +78828,7 @@ __ http://www.websequencediagrams.com/
 .. image:: i/wsd_flow-napkin.png
     :align: center
     :scale: 120 %
+    :height: 360px
     :target: http://www.websequencediagrams.com/
 
 
@@ -78846,7 +78851,7 @@ __ http://www.websequencediagrams.com/
 
     .. image:: i/handarw-mindmap.gif
         :align: center
-        :scale: 80 %
+        :height: 360px
         :target: http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping
 
 
@@ -79011,7 +79016,7 @@ __ http://www.websequencediagrams.com/
 
     .. image:: i/know-me0.gif
         :align: center
-        :scale: 150 %
+        :height: 360px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -79036,7 +79041,7 @@ __ http://www.websequencediagrams.com/
 
     .. image:: i/know-me1.gif
         :align: center
-        :scale: 150 %
+        :height: 360px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -79060,7 +79065,7 @@ __ http://www.websequencediagrams.com/
 
     .. image:: i/know-we.gif
         :align: center
-        :scale: 150 %
+        :height: 360px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
@@ -79086,7 +79091,7 @@ __ http://www.websequencediagrams.com/
 
     .. image:: i/know-dot.gif
         :align: center
-        :scale: 150 %
+        :height: 360px
         :alt: ScrapBook
         :target: http://wiki.woodpecker.org.cn/moin/WeKnow
 
