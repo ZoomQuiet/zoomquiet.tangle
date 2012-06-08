@@ -1,0 +1,111 @@
+digraph map2crx {
+    /*生成命令:
+$ dot -Tpng map2crx.dot -o map2crx.png -Tcmapx -o map2crx.map
+    全局设定
+    */
+    graph [label="扩展分类研究-增强方向{关系图}"
+        ,fontsize=14.0,fontcolor=snow
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,fontname="WenQuanYi Micro Hei"
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/2crx/map2crx.dot?repo=tangle"];
+*/
+    
+    root [label="扩展",shape=component];
+
+    root->{browse dload game mana work} [style="setlinewidth(3)"];
+
+    browse [label="浏览",shape=egg];
+        info [label="咨询"];
+            sports [label="体育"];
+            news [label="新闻"];
+            weather [label="天气"];
+            economy [label="经济"];
+        sns [label="社交"];
+            email [label="邮箱"];
+            ebuy [label="购物"];
+            im [label="即时通讯"];
+            srv [label="各种服务"];
+        speed [label="加速"];
+            antiad [label="反广告"];
+            guider [label="导航"];
+            clean [label="内容提纯"];
+            notes [label="笔记抓取"];
+    browse->{info sns speed} [style="setlinewidth(2)"];
+        info->{sports news weather economy};
+        sns->{email ebuy im srv};
+        speed->{antiad guider clean notes};
+
+    dload [label="下载",shape=egg];
+       dlext [label="调专用软件"];
+       dlwav [label="音频"];
+       dlpic [label="图片"];
+       dlmov [label="视频"];
+    dload->{dlext dlwav dlpic dlmov};
+
+    game [label="游戏",shape=egg];
+        mmop [label="网游"];
+        pagg [label="页游"];
+    game->{mmop pagg};
+
+    mana [label="管理",shape=egg];
+        mact [label="操作\n行为"];
+        mtab [label="标签"];
+        mhis [label="历史"];
+        mbmk [label="书签"];
+        mcoo [label="缓存"];
+        mcrx [label="扩展"];
+        safe [label="安全"];
+    mana->{mact mtab mhis mbmk mcoo mcrx safe} [style="setlinewidth(2)"];
+
+    work [label="工作",shape=egg];
+        GTD [label="效率管理"];
+            task [label="任务"];
+            schedule [label="日程"];
+            learn [label="学习"];
+        edit [label="编辑"];
+            blog [label="博客"];
+            stxt [label="结构文本"];
+            snap [label="截屏"];
+        dev [label="开发"];
+            measure [label="测量"];
+            mock [label="模拟"];
+            debug [label="调试"];
+            test [label="测试"];
+    work->{GTD edit dev} [style="setlinewidth(2)"];
+        GTD->{task schedule learn};
+        edit->{blog stxt snap};
+        dev->{measure mock debug test};
+
+    /*
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    lotsMon->existProg;
+        tonesOptions->existProg;
+    
+    */
+
+
+    edge [style=invis];
+
+}

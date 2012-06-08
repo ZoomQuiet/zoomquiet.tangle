@@ -1,0 +1,80 @@
+digraph lb_crx_roles {
+    /*生成命令:
+$ dot -Tpng lb-crx-roles.dot -o lb-crx-roles.png -Tcmapx -o lb-crx-roles.map
+    全局设定
+    plaintext
+    */
+    graph [label="LB插件社区角色关系{思维图谱}"
+        ,fontsize=14.0,fontcolor=snow
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=TB
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=ellipse 
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,fontname="WenQuanYi Micro Hei"
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+*/
+    
+    lbcn [label="猎豹官网\nBBS",shape=tab];
+        lbcore [label="内核组"];
+        lbcrx [label="插件组"];
+        lbcrxo [label="插件社区",shape=tab];
+    crxauthor [label="插件作者"];
+        crxdev [label="技术贡献者"];
+        crxfans [label="插件粉"];
+        crxuser [label="插件用户"];
+    webstore [label="谷歌市场",shape=tab];
+    crxstore [label="猎豹市场",shape=tab];
+
+    crxauthor->webstore [label="发布",color=yellow];
+        webstore->{crxuser crxfans} [label="下载",color=yellow];
+    {crxdev crxfans}->lbcn [label="互动",color=blue];
+
+        lbcrx->lbcore [label="反馈/提议"];
+
+
+    lbcrx->lbcrxo [label="组建"];
+            lbcrxo->lbcrxo [label="协同\n开发",style="dotted,setlinewidth(1)"];
+            lbcrxo->webstore [label="代理",style="dotted,setlinewidth(1)"];
+        lbcrxo->crxauthor [label="反馈\n贡献",style="dotted,setlinewidth(1)"];
+        lbcrxo->crxdev [label="引导\n支持",style="dotted,setlinewidth(1)"];
+
+    {lbcrx lbcrxo crxdev crxauthor}->crxstore->{crxfans crxuser} [color=red,style="dotted,setlinewidth(1)"];
+
+    lbcrxo->lbcn [label="精选",color=green,style="dotted,setlinewidth(2)"];
+        lbcn->crxuser [label="推荐",color=green,style="dotted,setlinewidth(2)"];
+        lbcn->crxfans [label="安装",color=green,style="dotted,setlinewidth(2)"];
+
+    /*
+            lbcrxo->crxstore [label="代理发布"];
+        lbcrxo->{crxdev crxauthor} [label="聚集"];
+    {lbcrx lbcore}->lbcn [label="公告"];
+    {hr goal km what acteam EK}->etc [style="dotted"];
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    lotsMon->existProg;
+        tonesOptions->existProg;
+    
+    */
+
+
+    edge [style=invis];
+
+}

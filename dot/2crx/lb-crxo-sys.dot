@@ -1,0 +1,77 @@
+digraph lb_crxo_sys {
+    /*生成命令:
+$ dot -Tpng lb-crxo-sys.dot -o lb-crxo-sys.png -Tcmapx -o lb-crx-roles.map
+    全局设定
+    plaintext
+    */
+    graph [label="LB插件社区支撑环境 {关系图谱}"
+        ,fontsize=14.0,fontcolor=snow
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=tab 
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,fontname="WenQuanYi Micro Hei"
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+*/
+    
+    lbcn [label="猎豹官网"];
+        github [label="github"];
+        mailli [label="Google\nGroups"];
+        wiki [label="维基"];
+        doc [label="文档\nrtfd.org"];
+        rss [label="聚合器\nplanet"];
+        irc [label="IRC\nhubot"];
+        ci [label="CI\n持续集成"];
+        
+        weibo [label="weibo/\ntwitter"];
+        bbs [label="论坛"];
+
+    {bbs weibo}->mailli [label="念头\n汇集",style="dotted"];
+        mailli->doc [label="总结",style="dotted"];
+        mailli->wiki [label="整理",style="dotted"];
+        mailli->github [label="协同",style="dotted"];
+        github->mailli [label="协调",style="dotted"];
+
+    {doc wiki github}->rss->lbcn [style="dotted"];
+        lbcn->{weibo bbs} [label="管理"];
+
+        mailli->mailli [label="技术交流\n开发协同",style="dotted"];
+
+        {ci github wiki}->irc [label="提醒",style="dotted"];
+
+
+
+    /*
+            lbcrxo->crxstore [label="代理发布"];
+        lbcrxo->{crxdev crxauthor} [label="聚集"];
+    {lbcrx lbcore}->lbcn [label="公告"];
+    {hr goal km what acteam EK}->etc [style="dotted"];
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    lotsMon->existProg;
+        tonesOptions->existProg;
+    
+    */
+
+
+    edge [style=invis];
+
+}
