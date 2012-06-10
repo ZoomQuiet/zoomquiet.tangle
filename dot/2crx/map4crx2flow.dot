@@ -42,7 +42,8 @@ $ dot -Tpng map4crx2flow.dot -o map4crx2flow.png -Tcmapx -o map4crx2flow.map
     nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
     lotsMon->existProg;
         tonesOptions->existProg;
-    
+  #今日牛妞熊#要不要这么可怜哪,,,俺算是铁石心肠了,可是越来越看不了小孩子受难...
+  幼儿园又不是病毒耐受训练场,有必要每次一去就定感染个什么回来让家长操心,呢?!!!!
     */
 
 

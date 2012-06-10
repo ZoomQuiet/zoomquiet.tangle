@@ -1,0 +1,252 @@
+digraph rn8children {
+    /*生成命令:
+$ dot -Tpng rn8children.dot -o rn8children.png -Tcmapx -o rn8children.map
+    全局设定
+    */
+    graph [label="#阅读邻居#第8期#禁锢#观点图谱 {关系图}"
+        ,fontsize=14.0,fontcolor=snow
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/rn8children.dot?repo=tangle"];
+
+    
+    root [label="[童书]",shape=box3d];
+
+    root->self->echo->recomm [style="setlinewidth(3)"];
+        self->{rn1 rn2 rn3 rn4 rn5 rn6 rn7 rn8 rn9 rn10 rn11 rn12 rn13 rn14};
+        echo->yangpeng;
+
+    self [label="自述"];
+        flow [label="流程"];
+        bg [label="背景"];
+            fancy [label="想象力"];
+            ask [label="关系?"];
+            baguo [label="8股特色?!"];
+                stracture [label="形式8股"];
+                sainttalk [label="代圣立言"];
+            think2child [label="想象为儿童"];
+
+        self->{bg flow}->fancy->ask->baguo->{stracture sainttalk};
+            sainttalk->think2child->fancy [label="难!"];
+
+            yangpeng [label="杨鹏"];
+                inside [label="内幕人"];
+            cbq1 [label="童书市场?"];
+            cbq2 [label="原创童书?"];
+
+            bg->{inside cbq1 cbq2};
+                inside->yangpeng;
+
+        rn1 [shape="point"];
+            darkcb [label="黑暗面?!"];
+        rn1->darkcb;
+
+        rn2 [shape="point"];
+            japcb [label="日本童话"];
+                MilkyWay [label="银河铁道之夜"];
+            gercb [label="德国童话"];
+            magzc [label="儿童文学杂志\n9~99岁"];
+famousbook [label="儿时只读名著",shape=tab,fillcolor=snow,fontcolor="#333333"];
+        rn2->{japcb gercb magzc famousbook};
+            japcb->MilkyWay;
+
+        rn3 [shape="point"];
+            yanghongyin [label="杨红櫻"];
+            educhildren [label="儿童教育"];
+                Montessori [label="蒙特梭利"];
+                Waldorf [label="华德福"];
+            magic [label="魔法解决一切"];
+zhenyuanjie [label="郑渊洁",shape=tab,fillcolor=snow,fontcolor="#333333"];
+                badmagiz [label="坏魔法"];
+                goodmagiz [label="好魔法"];
+        rn3->{yanghongyin educhildren magic};
+            educhildren->{Montessori Waldorf};
+            magic->{zhenyuanjie badmagiz goodmagiz};
+
+        rn4 [shape="point"];
+            TongHuaDaWang [label="童话大王"];
+            viewpoint [label="观点直述"];
+        rn4->{zhenyuanjie};
+            zhenyuanjie->{TongHuaDaWang viewpoint societyture};
+
+        rn5 [shape="point"];
+            societyture [label="社会现实/黑暗"];
+            canunderstand [label="儿童可理解?!"];
+        rn5->{societyture};
+            societyture->canunderstand; 
+
+        rn6 [shape="point"];
+            DingDing [label="丁丁历险纪"];
+            noChina [label="本土不可看"];
+            beChina [label="市场应该夺"];
+        rn6->{famousbook readBook};
+            readBook->{DingDing noChina beChina};
+
+        rn7 [shape="point"];
+readBook [label="共读童书",shape=tab,fillcolor=snow,fontcolor="#333333"];
+        rn7->{famousbook readBook};
+            readBook->canunderstand;
+
+        rn8 [shape="point"];
+            paintbook [label="绘本"];
+            LitterPrince [label="小王子"];
+            cbMarket [label="童书市场"];
+            cbLost [label="原创缺失"];
+        rn8->{readBook LitterPrince cbMarket};
+            readBook->paintbook;
+            cbMarket->cbLost;
+
+        rn9 [shape="point"];
+            whyChinld [label="儿童没在"];
+            SiFi [label="科学幻想"];
+                whyZYJlost [label="不得不..."];
+                whyZYJlike [label="替儿童言"];
+            whatChildBook [label="咩是儿童文学"];
+                GreatChildren [label="儿童不能小看"];
+                graspMarket [label="夺回市场"];
+                    forParents [label="为父母写"];
+                    visualVbook [label="视讯胜书"];
+        rn9->{whyChinld famousbook SiFi readBook whatChildBook};
+            zhenyuanjie->{whyZYJlost whyZYJlike};
+            whatChildBook->{GreatChildren cbMarket graspMarket};
+                graspMarket->{forParents visualVbook};
+
+        rn10 [shape="point"];
+            familycases [label="家庭案例"];
+                pureForeign [label="纯外国"];
+                purePop [label="纯流行"];
+            OnePiece [label="海贼王"];
+        rn10->{japcb familycases forParents};
+            familycases->{purePop pureForeign};
+            forParents->OnePiece;
+
+        rn11 [shape="point"];
+            missedCbook [label="等待补课"];
+            onlyimage [label="写童书只能想象"];
+            bowling [label="保龄球式"];
+            fiveapple [label="5个苹果拯救地球"];
+            hateface [label="为毛作者照片作封面?!"];
+            expoint [label="怎么讲道理?"];
+        rn11->{famousbook onlyimage bowling zhenyuanjie hateface expoint};
+            famousbook->missedCbook;
+            zhenyuanjie->fiveapple;
+            expoint->viewpoint;
+
+        rn12 [shape="point"];
+            learnself [label="自学成才"];
+            lostnow [label="目前错位中"];
+            parentslost [label="父母总错位"];
+        rn12->{zhenyuanjie parentslost};
+            zhenyuanjie->{learnself whyZYJlike lostnow}
+
+        rn13 [shape="point"];
+            lostChild [label="缺失童书"];
+            fatalism [label="宿命"];
+        rn13->{lostChild educhildren};
+            educhildren->{fatalism bowling};
+
+
+        rn14 [shape="point"];
+            HarryPotter [label="哈利·波特"];
+            localdetail [label="地域细节"];
+                chaostory [label="熊皮囧故事"];
+                theLostAngle [label="失落的一角遇见大圆满",fontcolor=green,URL="http://book.douban.com/subject/1030200"];
+                    metaTalking [label="元述事"];
+                    lastmiss [label="剩女?!"];
+            darkChild [label="暗黑童话"];
+            espBias [label="形象偏见"];
+        rn14->{famousbook HarryPotter cbq2 readBook};
+            cbq2->localdetail [label="原因"];
+            readBook->{fatalism chaostory darkChild metaTalking};
+            metaTalking->{theLostAngle lastmiss espBias};
+
+/*      yangpeng [label="杨鹏"];*/
+            initEffect [label="初赋"];
+            speCase [label="个案不论"];
+            antiAnimadvert [label="批判不能"];
+
+            ChildLiterature [label="儿童文学",shape=tab];
+                writeTypes [label="文字类型"];
+                    writeType1 [label="本位视角"];
+                    writeType2 [label="文学视角"];
+                stageLevel [label="龄段细分"];
+                    juvenile [label="少年文学"];
+                    tinyare [label="范畴精细"];
+                    talkTypes [label="叙述类型"];
+                        talkType1 [label="俯视"];
+                        talkType2 [label="平视"];
+                defenceImage [label="保卫想象力"];
+                    beEDU [label="总是被教育"];
+                    beImage [label="想象力天赋"];
+                historyCB [label="发展史\n->民间传说\n->文学童话\n->教育童话\n->娱乐童话\n->元童话!?"];
+                childThoery[label="童话思维!"];
+
+            religionAct [label="宗教反应"];
+                snsDoorSill [label="社交门槛"];
+            noJudge [label="不定论"];
+            marketSkill [label="上架技巧"];
+
+        yangpeng->{antiAnimadvert ChildLiterature bowling defenceImage};
+            antiAnimadvert->{speCase initEffect noJudge};
+            defenceImage->{beEDU beImage};
+
+            ChildLiterature->{childThoery religionAct writeTypes stageLevel marketSkill historyCB};
+                marketSkill->hateface;
+                writeTypes->{writeType1 writeType2};
+                stageLevel->{juvenile tinyare talkTypes};
+                    talkTypes->{talkType1 talkType2};
+            religionAct->{zhenyuanjie SiFi snsDoorSill};
+
+
+    echo [label="回声"];
+    recomm [label="荐书"];
+        reb1 [label="超级整理术\n(日本厕所文化)"];
+        reb2 [label="地书"];
+        reb3 [label="厨房"];
+        reb4 [label="数学之美"];
+        reb5 [label="一眼看懂小孩子"];
+        reb6 [label="民?细节"];
+        reb7 [label="借东西的小人儿"];
+        reb8 [label="人人身上都是一个时代"];
+        reb9 [label="建筑无可替代"];
+        reb10 [label="@筱竹斋主人"];
+            reb101 [label="安房直子"];
+            reb102 [label="骑鹅旅行记"];
+            reb103 [label="月亮看见了"];
+            reb104 [label="要塞"];
+        reb11 [label="日本居住史"];
+        reb12 [label="小巫"];
+        reb13 [label="安德的游戏"];
+        reb14 [label="水浒传,怎样的强盗书"];
+    recomm->{reb1 reb2 reb3 reb4 reb5 reb6 reb7 reb8 reb9 reb10 reb11 reb12 reb13 reb14};
+        reb10->{reb101 reb102 reb103 reb104};
+    /*
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    lotsMon->existProg;
+        tonesOptions->existProg;
+    
+    */
+
+
+    edge [style=invis];
+
+}
