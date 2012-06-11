@@ -8,7 +8,7 @@ $ dot -Tpng map4crx2flow.dot -o map4crx2flow.png -Tcmapx -o map4crx2flow.map
         ,fontname="WenQuanYi Micro Hei"
         ,labeljust="l",labelloc="t",center=1
         ,ranksep=0.1,center=1,ratio=compress
-        ,rankdir=LR
+        ,rankdir=BT
         ,truecolor bgcolor="#333333"
         ];
 
@@ -32,9 +32,75 @@ $ dot -Tpng map4crx2flow.dot -o map4crx2flow.png -Tcmapx -o map4crx2flow.map
 */
     
     info [label="信息",shape=box3d];
+        info->input->think->output [style="setlinewidth(3)"];
+
+    mana [label="管理",shape=egg];
+        mact [label="操作"];
+        mtab [label="标签"];
+        mhis [label="历史"];
+        mbmk [label="书签"];
+        mcoo [label="缓存"];
+        mcrx [label="扩展"];
+        safe [label="安全"];
+    info->mana->{mact mtab mhis mbmk mcoo mcrx safe} [style="setlinewidth(2)"];
+
     input [label="输入",shape=tab];
+
+    {mesg sns speed dload game}->input [style="setlinewidth(2)"];
+
+        mesg [label="咨询"];
+            sports [label="体育"];
+            news [label="新闻"];
+            weather [label="天气"];
+            economy [label="经济"];
+        {sports news weather economy}->mesg;
+
+        sns [label="社交"];
+            email [label="邮箱"];
+            ebuy [label="购物"];
+            im [label="即时"];
+            srv [label="各种服务"];
+        {email ebuy im srv}->sns;
+
+        speed [label="加速"];
+            antiad [label="反广告"];
+            guider [label="导航"];
+            clean [label="内容提纯"];
+            notes [label="笔记抓取"];
+        {antiad guider clean notes}->speed;
+
+        dload [label="下载",shape=egg];
+           dlext [label="调专用软件"];
+           dlwav [label="音频"];
+           dlpic [label="图片"];
+           dlmov [label="视频"];
+        {dlext dlwav dlpic dlmov}->dload;
+
+        game [label="游戏",shape=egg];
+            mmop [label="网游"];
+            pagg [label="页游"];
+        {mmop pagg}->game;
+
     think [label="思考",shape=tab];
+        GTD [label="效率管理"];
+            task [label="任务"];
+            schedule [label="日程"];
+            learn [label="学习"];
+        think->GTD->{task schedule learn};
+
     output [label="输出",shape=tab];
+    output->{edit dev};
+        edit [label="编辑"];
+            blog [label="博客"];
+            stxt [label="结构文本"];
+            snap [label="截屏"];
+        edit->{blog stxt snap};
+        dev [label="开发"];
+            measure [label="测量"];
+            mock [label="模拟"];
+            debug [label="调试"];
+            test [label="测试"];
+        dev->{measure mock debug test};
 
     /*
     nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
