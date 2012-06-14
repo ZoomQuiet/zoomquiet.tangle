@@ -110,15 +110,15 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
     OBP->{original translate};
 
         chaosbook->{chaos2go chaos2node chaos2openresty chaos2sae} [style="setlinewidth(1)",color=green];
-        chaosbook->chaos2crx [label="10%",style="setlinewidth(3)",color=red];
+        chaosbook->chaos2crx [label="100%",style="setlinewidth(3)",color=green];
 
     original->chaosbook;
     original->lpy [label="20%",style="setlinewidth(2)"]
-    original->rwp4l [label="80%",style="setlinewidth(1)"]
+    original->rwp4l [label="",style="dashed,setlinewidth(1)"]
 
         translate->{techbook tools pydocs};
 
-        techbook->hgtip [label="27/26",style="setlinewidth(1)",color=green]
+        techbook->hgtip [label="100%",style="setlinewidth(1)",color=green]
         techbook->rwiwpyzh [label="95%",style="setlinewidth(2.5)",color=green]
 
         techbook->pymotw [label="54%",style="dashed,setlinewidth(0.5)"]

@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
+<meta name="version" content="S5 1.1" />
+<title>一周一语言</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7056 2011-06-17 10:50:48Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<script src="ui/freedom/slides.js" type="text/javascript"></script>
+<link rel="stylesheet" href="ui/freedom/slides.css"
+      type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/freedom/outline.css"
+      type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/freedom/print.css"
+      type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/freedom/opera.css"
+      type="text/css" media="projection" id="operaFix" />
+</head>
+<body>
+<div class="layout">
+<div id="controls"></div>
+<div id="currentSlide"></div>
+<div id="header">
+
+</div>
+<div id="footer">
+<h1>一周一语言</h1>
+<h2><a class="reference external" href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">Zoom.Quiet</a> v12.02.29 <a class="reference external" href="http://creativecommons.org/licenses/by-nc-sa/2.5/cn/"><img alt="(CC)by-nc-sa 许可证" src="i/icon/cc-byncnd-80x15.png" /></a> 推荐用 <a class="reference external" href="http://www.mozilla.com/firefox/">FireFox</a> 获得最佳游览效果</h2>
+</div>
+</div>
+<div class="presentation">
+<div class="slide" id="slide0">
+<h1 class="title">一周一语言</h1>
+
+<!-- Definitions of interpreted text roles (classes) for S5/HTML data. -->
+<!-- This data file has been placed in the public domain. -->
+<!-- Colours
+======= -->
+<!-- Text Sizes
+========== -->
+<!-- Display in Slides (Presentation Mode) Only
+========================================== -->
+<!-- Display in Outline Mode Only
+============================ -->
+<!-- Display in Print Only
+===================== -->
+<!-- Display in Handout Mode Only
+============================ -->
+<!-- Incremental Display
+=================== -->
+<p>～如何在一周之内上手一门新语言?</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Authors:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+km&#64;gmai.com">Zoom.Quiet</a></td>
+</tr>
+<tr class="field"><th class="field-name">URL:</th><td class="field-body"><a class="reference external" href="http://zoomquiet.org/res/s5/120617-oneweek-onelanguage/">http://zoomquiet.org/res/s5/120617-oneweek-onelanguage/</a></td>
+</tr>
+</tbody>
+</table>
+<!-- This document has been placed in the CC domain. -->
+<!-- 图片定义区 -->
+
+</div>
+<div class="slide" id="id4">
+<h1>&lt;免责/&gt;</h1>
+<div class="handout container">
+山寨的，非业界公认的，个人体验为基础!
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<dl class="takahashi1 docutils">
+<dt>参考所有同好行为总结而得</dt>
+<dd><ul class="first last simple">
+<li>一切资料来自网络互动挖掘</li>
+<li>一切想法来自日常学习工作</li>
+<li>一切体悟来自各种沟通交流</li>
+<li>一切知识来自社区分享印证</li>
+<li>一切经验来自个人失败体验</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="slide" id="id5">
+<h1>高橋流!</h1>
+<div class="handout container">
+<a class="reference external" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">Takahashi-method 幻灯风格</a>
+源自 Ruby 创始人高橋征義(Masayoshi Takahashi)</div>
+<a class="center reference external image-reference" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/"><img alt="高橋流" class="align-center" src="pix/Takahashi-method.jpg" style="height: 450.0px;" /></a>
+</div>
+<div class="slide" id="id6">
+<h1>文字</h1>
+<div class="handout container">
+<a class="reference external" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">Takahashi-method 幻灯风格</a>
+源自 Ruby 创始人高橋征義(Masayoshi Takahashi)</div>
+<p class="center takahashi9">巨大</p>
+</div>
+<div class="slide" id="id7">
+<h1>幻灯</h1>
+<div class="handout container">
+<a class="reference external" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">Takahashi-method 幻灯风格</a>
+源自 Ruby 创始人高橋征義(Masayoshi Takahashi)</div>
+<p class="center takahashi9">很多</p>
+</div>
+<div class="slide" id="id8">
+<h1>播放</h1>
+<div class="handout container">
+<a class="reference external" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">Takahashi-method 幻灯风格</a>
+源自 Ruby 创始人高橋征義(Masayoshi Takahashi)</div>
+<p class="center takahashi9">快!</p>
+</div>
+<div class="slide" id="id9">
+<h1>播放</h1>
+<div class="handout container">
+<a class="reference external" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">Takahashi-method 幻灯风格</a>
+源自 Ruby 创始人高橋征義(Masayoshi Takahashi)</div>
+<p class="center takahashi8">很快!</p>
+</div>
+<div class="slide" id="id10">
+<h1>播放</h1>
+<div class="handout container">
+<a class="reference external" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">Takahashi-method 幻灯风格</a>
+源自 Ruby 创始人高橋征義(Masayoshi Takahashi)</div>
+<p class="center takahashi7">非常快!</p>
+</div>
+<div class="slide" id="id11">
+<h1>所以:</h1>
+<div class="handout container">
+<a class="reference external" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">Takahashi-method 幻灯风格</a>
+源自 Ruby 创始人高橋征義(Masayoshi Takahashi)</div>
+<p class="center takahashi10"><span class="orange">听</span></p>
+</div>
+<div class="slide" id="brief">
+<h1>&lt;brief/&gt;</h1>
+<div class="handout container">
+俺-&gt;KM-&gt;工具-&gt;持续完善 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="takahashi simple">
+<li><span class="orange">5' 有关ZQ</span></li>
+<li><span class="silver">15' 一周一语言!?</span></li>
+<li><span class="silver">15'自由沟通</span></li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id12">
+<h1>&lt;Zoom.Quiet&gt;</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="是也乎,是也乎" class="takahashi align-center" src="i/id/100514-zq-eye.png" />
+<a class="takahashi reference external image-reference" href="http://zoomquiet.org"><img alt="Zoom.Quiet" class="align-center" src="i/map/50ren-ZoomQuiet-s5-v800.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id13">
+<h1>是也乎</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">奔四</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id14">
+<h1>广告&#64;常州</h1>
+<div class="handout container">
+大学时代入错行，浪费两年;-{ <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">1999</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id15">
+<h1>开发&#64;上海</h1>
+<div class="handout container">
+战上海:HTML-&gt;JS-&gt;PHP-&gt;XSL-&gt;Py <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">~2004</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="pi">
+<h1>PI&#64;北京</h1>
+<div class="handout container">
+混北京:SINA-&gt;CPyUG-&gt;SLL <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">~2007</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="czug-org">
+<h1><a class="reference external" href="http://czug.org/">2003:CZUG.org</a></h1>
+<div class="handout container">
+learnning Zope/Plone... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="takahashi1 simple">
+<li><strong>C</strong> hina</li>
+<li><strong>Z</strong> ope</li>
+<li><strong>U</strong> ser</li>
+<li><strong>G</strong> roup</li>
+</ul>
+<img alt="http://czug.org" class="takahashi1 align-center" src="i/logo/logo-czug.png" />
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id16">
+<h1><a class="reference external" href="http://www.woodpecker.org.cn/">2004:啄木鸟</a></h1>
+<div class="handout container">
+admin. MoinMoin 1.2.4... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="http://www.woodpecker.org.cn" class="center align-center" src="i/logo/logo-wpwww_banner.png" />
+<ul class="center simple">
+<li><img alt="http://www.woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wpwiki_banner.gif" /> <sup>MoinMoin 1.4.*</sup></li>
+<li><img alt="http://wiki.woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wp-wiki_banner.png" /> <sup>MoinMoin 1.7.*</sup></li>
+<li><img alt="http://wiki,woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wiki-wp_zoomq_scrot.png" /> <sup>MoinMoin 1.9.*</sup></li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="cpyug-bpyug">
+<h1>2005:<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30">CPyUG</a>-&gt; BPyUG</h1>
+<div class="handout container">
+working with Python,in SINA.com <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/CPUG"><img alt="CPyUG" class="align-center" src="i/logo/CPUGlogo.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="zpyug">
+<h1>2007:<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZPyUG">ZPyUG</a></h1>
+<div class="handout container">
+<ul class="simple">
+<li>在北京,主持完成了25次技术分享</li>
+<li>进入金山,使用Python 进行了各种平台的构建~ <a class="reference external" href="http://py.kingsoft.net/ktrac">KTRAC</a></li>
+<li>spreading Python everywhere to everyone...</li>
+</ul>
+</div>
+<ul class="takahashi1 simple">
+<li><strong>珠</strong> 三角</li>
+<li><strong>P</strong> ython</li>
+<li><strong>U</strong> ser</li>
+<li><strong>G</strong> roup</li>
+</ul>
+<img alt="i/logo/logo_163_game.gif" class="takahashi1 align-center" src="i/logo/logo_163_game.gif" />
+<img alt="i/logo/logo_sina_home.gif" class="takahashi1 align-center" src="i/logo/logo_sina_home.gif" />
+<img alt="i/logo/logo-ks.jpg" class="takahashi1 align-center" src="i/logo/logo-ks.jpg" />
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="ecug-org">
+<h1><a class="reference external" href="http://ecug.org/">ECUG.org</a></h1>
+<div class="handout container">
+spreading Python everywhere to everyone... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://code.google.com/p/ecug/wiki/FrontPage"><img alt="ECUG" class="align-center" src="i/logo/ecug-logo_67bw.jpg" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="sll-org-sll-org">
+<h1>2008:<a class="reference external" href="http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&amp;variant=zh-cn"><img alt="SLL" src="i/logo/2018-gz-sll.png" /></a> &quot;SLL.org&quot;</h1>
+<div class="handout container">
+spreading Pythonic everywhere to everyone... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi4">教育大发现</p>
+<p class="takahashi2 center"><a class="reference external" href="http://sociallearnlab.org/">http://sociallearnlab.org/</a></p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id21">
+<h1>2009-09-01 出版</h1>
+<div class="handout container">
+<ul class="simple">
+<li>将多年的体验,集中到一本入门图书 &quot;可爱的Python&quot;</li>
+<li>并主持ZPyUG 近10次技术分享  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></li>
+</ul>
+</div>
+<a class="takahashi1 reference external image-reference" href="http://book.douban.com/subject/3884108/"><img alt="可愛的Python" class="align-center" src="i/090902-lovpy.jpg" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id22">
+<h1>2010~</h1>
+<div class="handout container">
+社区在不断发展... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://groups-beta.google.com/group/python-cn"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id23">
+<h1>~2012</h1>
+<div class="handout container">
+社区在不断发展... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://groups-beta.google.com/group/python-cn"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/120326-python-cn-ml.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id24">
+<h1>综上...</h1>
+<div class="handout container">
+基调是分享交流;-} <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi">俺就一</p>
+<p class="takahashi"><a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet">社区大妈</a></p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id26">
+<h1>牛妞</h1>
+<div class="handout container">
+\ (^o^) / 596d</div>
+<img alt="表情牛妞" class="align-center" src="i/foto/niuniu110105.jpeg" />
+<div class="notes container">
+<ul class="simple">
+<li>我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...</li>
+<li>120426-niuniu-表情帝</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id27">
+<h1>牛妞</h1>
+<div class="handout container">
+\ (^o^) / 1096d</div>
+<img alt="表情牛妞" class="align-center" src="i/foto/120426-niuniu-表情帝.jpg" />
+<div class="notes container">
+<ul class="simple">
+<li>我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...</li>
+<li>120426-niuniu-表情帝</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id28">
+<h1>&lt;/Zoom.Quiet&gt;</h1>
+<div class="handout container">
+<ul class="simple">
+<li>纯种Pythoner，自由软件原教旨主义者</li>
+<li>关注社会化教育及知识管理；喜爱SF和摄影。</li>
+<li>尝试使用Pythonic体验感化国人主动进入自由软件世界体验/学习/再创作</li>
+</ul>
+</div>
+<p class="takahashi8">(^.^)</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id29">
+<h1>&lt;brief/&gt;</h1>
+<div class="handout container">
+俺-&gt;KM-&gt;工具-&gt;持续完善 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="takahashi simple">
+<li><span class="gray">5' 有关ZQ</span></li>
+<li><span class="orange">15' 一周一语言!?</span></li>
+<li><span class="silver">15'自由沟通</span></li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id30">
+<h1>?!</h1>
+<div class="handout container">
+用一周时间就可以上手一门新语言?!  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">可能嘛?!</p>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id31">
+<h1>背景</h1>
+<div class="handout container">
+<a class="reference external" href="http://code.ijinshan.com/res/talking/">开源卫士社区语音讲座{内容关系图}</a>  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">开源</p>
+<p class="takahashi8">卫士</p>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id33">
+<h1>2012</h1>
+<div class="handout container">
+面向接口服务demo <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">云安全</p>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="sae">
+<h1>SAE</h1>
+<div class="handout container">
+<a class="reference external" href="http://bbs.code.ijinshan.com/thread-1887-1-1.html">{4月26日语音讲座vol.51}ZQ: 网址云由KVDB在SAE加速</a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi reference external image-reference" href="http://bbs.code.ijinshan.com/thread-1887-1-1.html"><img alt="i/snap/chaos2sae.png" class="align-center" src="i/snap/chaos2sae.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="crx">
+<h1>.crx</h1>
+<div class="handout container">
+<a class="reference external" href="http://bbs.code.ijinshan.com/thread-1427-1-2.html">{10月20日语音讲座vol.29}ZQ: Chrome插件开发实例</a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="i/snap/chaos2crx.png" class="takahashi align-center" src="i/snap/chaos2crx.png" />
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="node-js">
+<h1>node.js</h1>
+<div class="handout container">
+<a class="reference external" href="http://bbs.code.ijinshan.com/thread-1578-1-1.html">{2月16日语音讲座vol.42}ZQ: 网址云安node.js结合</a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="i/snap/chaos2node.png" class="takahashi align-center" src="i/snap/chaos2node.png" />
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="openresty">
+<h1>OpenResty</h1>
+<div class="handout container">
+<a class="reference external" href="http://bbs.code.ijinshan.com/thread-1647-1-1.html">{3月8日语音讲座vol.45}ZQ: 网址云服务嵌入Nginx</a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="i/snap/chaos2openresty.png" class="takahashi align-center" src="i/snap/chaos2openresty.png" />
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="go">
+<h1>Go</h1>
+<div class="handout container">
+<a class="reference external" href="http://bbs.code.ijinshan.com/thread-1899-1-1.html">{5月10日语音讲座vol.52}ZQ: 网址云用go在GAE发布</a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="i/snap/chaos2go1.png" class="takahashi align-center" src="i/snap/chaos2go1.png" />
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id34">
+<h1>一周</h1>
+<div class="handout container">
+涉及到的 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">新语言</p>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id35">
+<h1>node.js</h1>
+<div class="handout container">
+.crx/no.de/NAE <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="i/snap/urisaok-node.png" class="takahashi align-center" src="i/snap/urisaok-node.png" />
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="lua">
+<h1>Lua</h1>
+<div class="handout container">
+<a class="reference external" href="http://blog.zoomquiet.org/pyblosxom/oss/openresty-intro-2012-03-06-01-13.html">由Lua 粘合的Nginx生态环境 -- agentzh tech-club.org 演讲听录</a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="i/snap/urisaok-lua.png" class="takahashi align-center" src="i/snap/urisaok-lua.png" />
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id36">
+<h1>Go</h1>
+<div class="handout container">
+感谢 <a class="reference external" href="mailto:golang-china&#64;googlegroups.com">golang-china&#64;googlegroups.com</a>  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="i/snap/urisaok-go.png" class="takahashi align-center" src="i/snap/urisaok-go.png" />
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id37">
+<h1>学习</h1>
+<div class="handout container">
+通用的,居然是! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">环境!</p>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="tmux">
+<h1>tmux</h1>
+<div class="handout container">
+显示屏要大!快捷键要熟悉 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="i/snap/nodemon-coffee.png" class="takahashi align-center" src="i/snap/nodemon-coffee.png" />
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id38">
+<h1>测试</h1>
+<div class="handout container">
+命令行! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9"><a class="reference external" href="http://curl.haxx.se/docs/history.html">cURL</a></p>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="gnu">
+<h1>GNU</h1>
+<div class="handout container">
+永远的福利!  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi reference external image-reference" href="http://www.gnu.org/"><img alt="i/logo/reiss-head.jpeg" class="align-center" src="i/logo/reiss-head.jpeg" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id39">
+<h1>学习流程</h1>
+<div class="handout container">
+脚本式  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<pre class="takahashi literal-block">
+本地运行起应用
+  `-&gt;修订代码
+      ^ `-&gt; cURL 测试
+      |           |
+      +-----------/
+</pre>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id40">
+<h1>最要命的!</h1>
+<div class="handout container">
+各有各的范儿  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">文档</p>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id41">
+<h1>更加最要命的!</h1>
+<div class="handout container">
+意识决定掌握的速度!  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">信心</p>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id42">
+<h1>最最幸福的...</h1>
+<div class="handout container">
+有高人在,心理上也是个支撑!  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">社区</p>
+<div class="notes container">
+<ul class="simple">
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id43">
+<h1>&lt;brief/&gt;</h1>
+<div class="handout container">
+俺-&gt;KM-&gt;工具-&gt;持续完善 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="takahashi simple">
+<li><span class="gray">5' 有关ZQ</span></li>
+<li><span class="gray">15' 一周一语言!?</span></li>
+<li><span class="orange">15'自由沟通</span></li>
+</ul>
+</div>
+<div class="slide" id="discuss">
+<h1>&lt;discuss/&gt;</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">Q&amp;A</p>
+<p class="takahashi0">.</p>
+<!--  -->
+<p class="takahashi0"><a class="reference external" href="http://zoomquiet.org/res/s5/120617-oneweek-onelanguage/">http://zoomquiet.org/res/s5/120617-oneweek-onelanguage/</a></p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id44">
+<h1>总之</h1>
+<div class="handout container">
+期望可以记住的~单位时间可以记住的只有7+-2 个 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="incremental takahashi simple">
+<li>目标单纯</li>
+<li>建立环境</li>
+<li>精力集中</li>
+<li>持续学习</li>
+<li>分享才能收获!</li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id45">
+<h1>最后...</h1>
+<div class="handout container">
+<a class="reference external" href="http://book.douban.com/subject/10555435/">七周七语言 (豆瓣)</a> ... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi reference external image-reference" href="http://book.douban.com/subject/10555435/"><img alt="i/s10555435-7week7lang.png" class="align-center" src="i/s10555435-7week7lang.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id47">
+<h1>最后的最后...</h1>
+<div class="handout container">
+好书推荐... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi reference external image-reference" href="http://book.douban.com/subject/4760725/"><img alt="讲演之禅" class="align-center" src="i/s4279952-zen4talk.jpg" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id48">
+<h1>&lt;版本/&gt;</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="simple">
+<li>120614 完成,发布初稿</li>
+<li>120611 增补截屏</li>
+<li>120601 创建</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">反馈:</th><td class="field-body"><a class="reference external" href="mailto:ZoomQuiet+km&#64;gmail.com">ZoomQuiet+km&#64;gmail.com</a></td>
+</tr>
+<tr class="field"><th class="field-name">查阅:</th><td class="field-body"><a class="reference external" href="http://zoomquiet.org/res/s5/120617-oneweek-onelanguage/">http://zoomquiet.org/res/s5/120617-oneweek-onelanguage/</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="slide" id="id49">
+<h1><a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/">S5</a></h1>
+<div class="handout container">
+纯HTML 幻灯撰写框架!... <img alt="lr_s5" src="pix/levelradar_s5.png" /></div>
+<ul class="simple">
+<li>S<sup>5</sup>== a <span class="orange">S</span> imple <span class="orange">S</span> tandards-Based <span class="orange">S</span> lide <span class="orange">S</span> how <span class="orange">S</span> ystem</li>
+</ul>
+<blockquote>
+<ul class="simple">
+<li>仅仅依靠 CSS+JS 的HTML格式幻灯演示框架</li>
+</ul>
+</blockquote>
+<ul class="simple">
+<li>我的编辑环境: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="LeoProse" class="align-top" src="pix/LeoProse.gif" /></a> ~ <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">文学化编辑器</a></li>
+</ul>
+<a class="reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="pix/2010-01-18-230729_605x421_leo.png" class="align-center" src="pix/2010-01-18-230729_605x421_leo.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
