@@ -1,0 +1,91 @@
+digraph lb4crx2pub_func_map {
+    /*生成命令:
+$ dot -Tpng lb4crx2pub-func-map.dot -o lb4crx2pub-func-map.png -Tcmapx -o lb4crx2pub-func-map.map
+    全局设定
+    plaintext
+    */
+    graph [label="猎豹扩展商店后台 {功能图谱}"
+        ,fontsize=14.0,fontcolor=snow
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=note 
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,fontname="WenQuanYi Micro Hei"
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+*/
+    
+    DEV [label="扩展作者",shape=egg,fillcolor=snow,fontcolor="#333333"];
+    LBSAFF [label="猎豹成员",shape=egg,fillcolor=snow,fontcolor="#333333"];
+        LBSAFF->{API MANA};
+
+    ROOT [label="商店后台",shape=component];
+        API [label="接口服务",shape=tab];
+        CRX [label="上传服务",shape=tab];
+        MANA [label="服务管理",shape=tab];
+
+    ROOT->{CRX MANA} [style="setlinewidth(2)"];
+        ROOT->API [label="RESTful",style="setlinewidth(2)"];
+    
+    API->{update status control} [color=skyblue];
+        update [label="升级"];
+        status [label="状态"];
+        control [label="控制"];
+    CRX->{upload upgrade upedit uplist} [color=green];
+        upload [label="上传扩展"];
+        upgrade [label="升级扩展"];
+        upedit [label="修订信息"];
+        uplist [label="维护列表"];
+
+    MANA->{recomm storegen storedit crxinit};
+        crxinit->{crxdown crxedit};
+
+        recomm [label="推荐"];
+        storegen [label="商店生成"];
+        storedit [label="商店调节"];
+
+        crxinit [label="初始扩展"];
+        crxdown [label="扩展下架"];
+        crxedit [label="扩展增补"];
+
+    /*CRX flow*/
+    LBSAFF->crxinit->CRX [label="1.0 授权",color=gold];
+
+    DEV->upload [label="1.1 注册"];
+        upload->upedit [label="1.2"];
+        upload->upgrade [label="2.0 升级"];
+    DEV->uplist [label="3.0 登入"];
+        uplist->upedit [label="3.1 修订"];
+    /*
+            lbcrxo->crxstore [label="代理发布"];
+        lbcrxo->{crxdev crxauthor} [label="聚集"];
+    {lbcrx lbcore}->lbcn [label="公告"];
+    {hr goal km what acteam EK}->etc [style="dotted"];
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    lotsMon->existProg;
+        tonesOptions->existProg;
+    
+    */
+
+
+    edge [style=invis];
+
+}

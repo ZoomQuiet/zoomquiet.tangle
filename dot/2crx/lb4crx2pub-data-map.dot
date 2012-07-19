@@ -1,0 +1,78 @@
+digraph lb4crx2pub_data_map {
+    /*生成命令:
+$ dot -Tpng lb4crx2pub-data-map.dot -o lb4crx2pub-data-map.png -Tcmapx -o lb4crx2pub-data-map.map
+    全局设定
+    plaintext
+    */
+    graph [label="猎豹扩展商店后台 {数据图谱}"
+        ,fontsize=14.0,fontcolor=snow
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext 
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,fontname="WenQuanYi Micro Hei"
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+*/
+    
+    CRX [label="扩展",shape=tab];
+        crx_name [label="名称"];
+        crx_ver [label="版本"];
+        crx_id [label="ID"];
+        crx_sid [label="存储ID"];
+        crx_date [label="日期"];
+        crx_desc [label="描述"];
+        crx_detail [label="细节"];
+        crx_img [label="图片"];
+            img_order [label="图片序号"];
+            img_sid [label="图片存储ID"];
+            img2logo [label="是否为图标"];
+            img2reco [label="是否为推荐"];
+    CRX->{crx_name crx_ver crx_id crx_sid crx_date crx_desc crx_detail crx_img crx_rank crx_sortid};
+        crx_img->{img2reco img2logo img_sid img_order};
+
+    PAGE [label="页面",shape=tab];
+        sort_name [label="分类"];
+        sort_id [label="分类id"];
+        sort_order [label="分类序号"];
+
+        reco_order [label="推荐序号"];
+        reco_type [label="推荐型号"];
+
+        crx_rank [label="扩展排序"];
+        crx_sortid [label="扩展分类id"];
+
+    PAGE->{sort_order sort_id sort_name reco_type reco_order crx_rank crx_sortid};
+    /*
+            lbcrxo->crxstore [label="代理发布"];
+        lbcrxo->{crxdev crxauthor} [label="聚集"];
+    {lbcrx lbcore}->lbcn [label="公告"];
+    {hr goal km what acteam EK}->etc [style="dotted"];
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    lotsMon->existProg;
+        tonesOptions->existProg;
+    
+    */
+
+
+    edge [style=invis];
+
+}

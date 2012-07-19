@@ -1,0 +1,124 @@
+digraph lb_ext_find {
+    /*生成命令:
+$ dot -Tpng lb-ext-find.dot -o lb-ext-find.png -Tcmapx -o lb-ext-find.map
+    全局设定
+    plaintext
+    */
+    graph [label="LB页内搜索js调用 {关系图谱}"
+        ,fontsize=14.0,fontcolor=snow
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext 
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,fontname="WenQuanYi Micro Hei"
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+*/
+    
+    FINDer [label="搜索",shape=tab];
+    Shower [label="展示",shape=tab];
+        ShowW [label="WINDOW",shape=tab];
+        ShowF [label="IFRAME",shape=tab];
+    Shower->{ShowW ShowF};
+
+    mask [label="mask.js",shape=note,shape=tab,fillcolor=snow,fontcolor="#333333"];
+        ClearMark [label="ClearMark()"];
+        getElementByPos [label="getElementByPos(mask, x, y)"];
+        ShowMask [label="ShowMask(bShow)"];
+            getElementByEvent [label="getElementByEvent(mask, e)"];
+            pop_Box_onclick [label="pop_Box.onclick(e)"];
+            pop_Box_onmousemove [label="pop_Box.onmousemove(e)"];
+        pop_Box [label="KSFIND_MASK",shape=box3d]
+
+    mask->{ClearMark getElementByPos ShowMask pop_Box};
+        ShowMask->{getElementByEvent pop_Box_onclick pop_Box_onmousemove};
+
+    mark->{FINDer Shower};
+
+    mark [label="mark.js",shape=note,shape=tab,fillcolor=snow,fontcolor="#333333"];
+        getStyle [label="getStyle(oElm, strCssRule)"];
+        getTextNodesIn [label="getTextNodesIn(node)"];
+        CheckElementHide [label="CheckElementHide(el)"];
+        addNewStyle [label="addNewStyle(sClassID, newStyle)"];
+
+        gSearchTerm [label="gSearchTerm",shape=box3d];
+        MarkNextIE [label="MarkNextIE()"];
+        MarkTextIE [label="MarkTextIE(searchTerm)"];
+        MarkNext [label="MarkNext()"];
+        MarkText [label="MarkText(searchTerm)"];
+
+        PopDiv [label="MarkNext(ne, bRemove)"];
+        GetElementRect [label="GetElementRect(el)"];
+        SetElementRect [label="SetElementRect(el, rect)"];
+
+        SetStatus [label="SetStatus(el, bShow)"];
+
+        intersectRect [label="intersectRect(r1, r2)"];
+        DuplicateElementToMask [label="DuplicateElementToMask(el, elID, sClassName)"];
+        SelectElement [label="SelectElement(elID, bShow)"];
+
+        ScrollIntoParentX [label="ScrollIntoParentX(elContent, el)"];
+        ScrollIntoParentY [label="ScrollIntoParentY(elContent, el)"];
+        ScrollWindow [label="MarkNext(x, y, width, height)"];
+
+        GetFramePostion [label="GetFramePostion(frameIndex)"];
+        GetFrameScrollOffset [label="GetFrameScrollOffset()"];
+        windowOnresize [label="window.onresize()"];
+
+        GetInnerHeight [label="GetInnerHeight()"];
+        GetInnerWidth [label="GetInnerWidth()"];
+        InScollBar [label="InScollBar(x, y)"];
+
+
+    FINDer->{SelectElement  MarkText MarkNext};
+    Shower->{DuplicateElementToMask InScollBar};
+
+    CheckElementHide->CheckElementHide->getStyle;
+
+    {MarkTextIE MarkText MarkNext MarkNextIE}->gSearchTerm;
+    {MarkTextIE MarkText}->addNewStyle;
+    {MarkNext MarkNextIE}->{GetElementRect CheckElementHide getTextNodesIn };
+    
+    MarkText->MarkTextIE->MarkNextIE;
+
+    ScrollIntoParentY->{ScrollIntoParentY GetElementRect};
+    ScrollIntoParentX->{ScrollIntoParentX GetElementRect};
+
+    DuplicateElementToMask->{SetElementRect GetElementRect intersectRect getStyle};
+
+    SelectElement->{PopDiv SetStatus DuplicateElementToMask};
+
+    ShowW->{windowOnresize ScrollWindow };
+        windowOnresize->pop_Box;
+    ShowF->{GetFramePostion GetFrameScrollOffset};
+        GetFramePostion->{GetElementRect};
+
+    InScollBar->{GetInnerHeight GetInnerWidth};
+
+
+    /*
+    lbcrxo->crxstore [label="代理发布"];
+    {hr goal km what acteam EK}->etc [style="dotted"];
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    */
+
+
+    edge [style=invis];
+
+}
