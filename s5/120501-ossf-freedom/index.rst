@@ -16721,7 +16721,7 @@ GPL3第三個限縮
 
 .. class:: takahashi5
     
-    :gray:`10'FAIR USE`
+    FAIR USE
 
 
 .. container:: notes
