@@ -32,20 +32,34 @@ $ dot -Tpng lb4crx2pub-data-map.dot -o lb4crx2pub-data-map.png -Tcmapx -o lb4crx
 */
     
     CRX [label="扩展",shape=tab];
-        crx_name [label="名称"];
-        crx_ver [label="版本"];
-        crx_id [label="ID"];
+        crx_name [label="扩展名称"];
+        crx_ver [label="扩展版本"];
+        crx_id [label="扩展ID"];
         crx_sid [label="存储ID"];
-        crx_date [label="日期"];
-        crx_desc [label="描述"];
-        crx_detail [label="细节"];
-        crx_img [label="图片"];
+        crx_date [label="扩展日期"];
+        crx_desc [label="扩展描述"];
+        crx_detail [label="扩展细节"];
+        crx4bd [label="是否BD?",fontcolor=gold];
+        crx_img [label="扩展图片"];
             img_order [label="图片序号"];
             img_sid [label="图片存储ID"];
             img2logo [label="是否为图标"];
             img2reco [label="是否为推荐"];
-    CRX->{crx_name crx_ver crx_id crx_sid crx_date crx_desc crx_detail crx_img crx_rank crx_sortid};
+    CRX->{crx_name crx_ver crx_id crx_sid crx_date crx4bd crx_desc crx_detail crx_img crx_rank crx_sortid};
         crx_img->{img2reco img2logo img_sid img_order};
+
+
+    TEAM [label="团队",shape=tab];
+        team_name [label="团队名称"];
+        team_id [label="团队ID"];
+        team_crxs [label="团队作品"];
+        team_mail [label="团队邮箱"];
+        team_weibo [label="团队weibo"];
+        team_desc [label="团队描述"];
+        team_lead [label="团队头领"];
+
+    TEAM->{team_lead team_desc team_weibo team_mail team_crxs team_id team_name};
+        team_crxs->crx_id;
 
     PAGE [label="页面",shape=tab];
         sort_name [label="分类"];
@@ -53,12 +67,13 @@ $ dot -Tpng lb4crx2pub-data-map.dot -o lb4crx2pub-data-map.png -Tcmapx -o lb4crx
         sort_order [label="分类序号"];
 
         reco_order [label="推荐序号"];
-        reco_type [label="推荐型号"];
+        reco_type [label="推荐型号\n图片大小"];
 
-        crx_rank [label="扩展排序"];
+        crx_rank [label="下载数量\n排序用!",fontcolor=gold];
         crx_sortid [label="扩展分类id"];
 
-    PAGE->{sort_order sort_id sort_name reco_type reco_order crx_rank crx_sortid};
+    PAGE->{sort_order sort_id sort_name reco_type reco_order crx_rank crx4bd};
+        crx_sortid->sort_id;
     /*
             lbcrxo->crxstore [label="代理发布"];
         lbcrxo->{crxdev crxauthor} [label="聚集"];

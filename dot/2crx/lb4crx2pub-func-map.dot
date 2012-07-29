@@ -37,7 +37,7 @@ $ dot -Tpng lb4crx2pub-func-map.dot -o lb4crx2pub-func-map.png -Tcmapx -o lb4crx
 
     ROOT [label="商店后台",shape=component];
         API [label="接口服务",shape=tab];
-        CRX [label="上传服务",shape=tab];
+        CRX [label="作者服务",shape=tab];
         MANA [label="服务管理",shape=tab];
 
     ROOT->{CRX MANA} [style="setlinewidth(2)"];
@@ -47,31 +47,38 @@ $ dot -Tpng lb4crx2pub-func-map.dot -o lb4crx2pub-func-map.png -Tcmapx -o lb4crx
         update [label="升级"];
         status [label="状态"];
         control [label="控制"];
-    CRX->{upload upgrade upedit uplist} [color=green];
+    CRX->{upload upgrade upedit uplist upteam};
         upload [label="上传扩展"];
         upgrade [label="升级扩展"];
         upedit [label="修订信息"];
+        upteam [label="团队信息"];
         uplist [label="维护列表"];
 
-    MANA->{recomm storegen storedit crxinit};
+    MANA->{recomm storegen storedit crxinit };
         crxinit->{crxdown crxedit};
 
         recomm [label="推荐"];
         storegen [label="商店生成"];
         storedit [label="商店调节"];
 
-        crxinit [label="初始扩展"];
+        crxinit [label="新增扩展"];
+        crxcheck [label="扩展审核",color=gold];
+        crxpub [label="扩展发布",color=gold];
         crxdown [label="扩展下架"];
         crxedit [label="扩展增补"];
 
     /*CRX flow*/
-    LBSAFF->crxinit->CRX [label="1.0 授权",color=gold];
+    crxinit->CRX [label="1.0 授权",color=gold];
+    
+    DEV->{uplist upteam} [label="2.0 登入",color=green];
+        uplist->upedit [label="2.1 修订",color=green];
+            upedit->crxcheck [label="2.2 评审",color=green];
 
-    DEV->upload [label="1.1 注册"];
-        upload->upedit [label="1.2"];
-        upload->upgrade [label="2.0 升级"];
-    DEV->uplist [label="3.0 登入"];
-        uplist->upedit [label="3.1 修订"];
+        uplist->upload [label="3.0 上传",color=green];
+            upload->upgrade [label="3.1 升级",color=green];
+            upgrade->crxcheck [label="3.2 和谐检验",color=green];
+        crxcheck->crxpub [color=gold];
+
     /*
             lbcrxo->crxstore [label="代理发布"];
         lbcrxo->{crxdev crxauthor} [label="聚集"];

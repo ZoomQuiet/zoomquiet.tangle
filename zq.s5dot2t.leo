@@ -210,8 +210,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20110317085545.11551" a="E"><vh>120501-ossf-freedom</vh>
-<v t="zoomq.20110317085545.11552" a="E"><vh>@nosent  index.rst</vh>
+<v t="zoomq.20110317085545.11551"><vh>120501-ossf-freedom</vh>
+<v t="zoomq.20110317085545.11552"><vh>@nosent  index.rst</vh>
 <v t="zoomq.20110317085545.11553"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11554"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20110317085545.11555"><vh>免责</vh></v>
@@ -731,7 +731,7 @@
 <v t="zoomq.20120507112353.12236"><vh>GPL加上LGPL</vh></v>
 <v t="zoomq.20120507112353.12239"><vh>其實就是</vh></v>
 </v>
-<v t="zoomq.20120504171245.11336" a="E"><vh>brief5</vh>
+<v t="zoomq.20120504171245.11336"><vh>brief5</vh>
 <v t="zoomq.20120507112353.12242"><vh>影響最深遠</vh></v>
 <v t="zoomq.20120507112353.12240"><vh>RMS</vh>
 <v t="zoomq.20120507112353.12244"><vh>RMS</vh></v>
@@ -751,7 +751,7 @@
 <v t="zoomq.20120507112353.12270"><vh>GPL</vh></v>
 </v>
 </v>
-<v t="zoomq.20120507112353.12272" a="E"><vh>GPL</vh>
+<v t="zoomq.20120507112353.12272"><vh>GPL</vh>
 <v t="zoomq.20120507112353.12274"><vh>條款</vh></v>
 <v t="zoomq.20120507112353.12276"><vh>提綱挈領</vh></v>
 <v t="zoomq.20120507112353.12282"><vh>濃縮成</vh></v>
@@ -1004,7 +1004,7 @@
 <v t="zoomq.20120507112353.14278"><vh>最後一個</vh></v>
 </v>
 </v>
-<v t="zoomq.20120507112353.14280" a="E"><vh>GPL~v3</vh>
+<v t="zoomq.20120507112353.14280"><vh>GPL~v3</vh>
 <v t="zoomq.20120507112353.14281"><vh>GPL3版</vh></v>
 <v t="zoomq.20120507112353.14282"><vh>擴張</vh>
 <v t="zoomq.20120507112353.14283"><vh>文字</vh></v>
@@ -1021,7 +1021,7 @@
 </v>
 <v t="zoomq.20120507112353.14294"><vh>明示使用原則</vh></v>
 </v>
-<v t="zoomq.20120507112353.14295" a="E"><vh>限縮</vh>
+<v t="zoomq.20120507112353.14295"><vh>限縮</vh>
 <v t="zoomq.20120507112353.14296"><vh>自動復權</vh></v>
 <v t="zoomq.20120507112353.14297"><vh>明示容許</vh></v>
 <v t="zoomq.20120507112353.14298"><vh>正當性</vh></v>
@@ -1091,12 +1091,12 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20120423093831.20420"><vh>120229-time2km</vh>
-<v t="zoomq.20120608161547.16864"><vh>@nosent index.rst</vh>
+<v t="zoomq.20120423093831.20420" a="E"><vh>120229-time2km</vh>
+<v t="zoomq.20120608161547.16864" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20120608161547.16865"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120608161547.16866"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20120608161547.16867"><vh>Randy Pausch</vh></v>
-<v t="zoomq.20120608161547.16868" a="E"><vh>免责</vh>
+<v t="zoomq.20120608161547.16868"><vh>免责</vh>
 <v t="zoomq.20120608161547.16869"><vh>Takahashi</vh>
 <v t="zoomq.20120608161547.16870"><vh>Takahashi</vh></v>
 <v t="zoomq.20120608161547.16871"><vh>Takahashi</vh></v>
@@ -1106,7 +1106,7 @@
 <v t="zoomq.20120608161547.16875"><vh>Takahashi</vh></v>
 </v>
 </v>
-<v t="zoomq.20120608161547.16876" a="E"><vh>brief0</vh>
+<v t="zoomq.20120608161547.16876"><vh>brief0</vh>
 <v t="zoomq.20120608161547.16877" a="E"><vh>abt.ZQ</vh>
 <v t="zoomq.20120608161547.16878"><vh>本命年</vh></v>
 <v t="zoomq.20120608161547.16879"><vh>ZQ1999</vh></v>
@@ -1129,7 +1129,7 @@
 <v t="zoomq.20120608161547.16894"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
 <v t="zoomq.20120608161547.16895" a="E"><vh>brief1</vh>
-<v t="zoomq.20120608161547.16896" a="E"><vh>TM?</vh>
+<v t="zoomq.20120608161547.16896"><vh>TM?</vh>
 <v t="zoomq.20120608161547.16897"><vh>时间?</vh>
 <v t="zoomq.20120608161547.16898"><vh>时</vh></v>
 <v t="zoomq.20120608161547.16899"><vh>间</vh></v>
@@ -1149,10 +1149,11 @@
 <v t="zoomq.20120608161547.16909" a="E"><vh>KM:SECI</vh>
 <v t="zoomq.20120608161547.16910"><vh>知识之轮</vh></v>
 <v t="zoomq.20120608161547.16911"><vh>EKM</vh></v>
+<v t="zoomq.20120727213305.13042"><vh>EKM原则</vh></v>
 </v>
 <v t="zoomq.20120608161547.16912"><vh>/KM</vh></v>
 </v>
-<v t="zoomq.20120608161547.16913" a="E"><vh>TM!</vh>
+<v t="zoomq.20120608161547.16913"><vh>TM!</vh>
 <v t="zoomq.20120608161547.16914"><vh>点解?!</vh>
 <v t="zoomq.20120608161547.16915"><vh>学生本质</vh></v>
 <v t="zoomq.20120608161547.16916"><vh>职员本质</vh></v>
@@ -1225,19 +1226,24 @@
 <v t="zoomq.20120608161547.16970"><vh>纸笔</vh></v>
 <v t="zoomq.20120608161547.16971"><vh>/TM...</vh></v>
 </v>
-<v t="zoomq.20120608161547.16972"><vh>&lt;share&gt;</vh>
-<v t="zoomq.20120608161547.16973" a="E"><vh>WeKnow:1</vh>
+<v t="zoomq.20120608161547.16972" a="E"><vh>&lt;share&gt;</vh>
+<v t="zoomq.20120608161547.16973"><vh>WeKnow:1</vh>
 <v t="zoomq.20120608161547.16974"><vh>WeKnow:2</vh></v>
 <v t="zoomq.20120608161547.16975"><vh>WeKnow:3</vh></v>
 <v t="zoomq.20120608161547.16976"><vh>WeKnow:0</vh></v>
 </v>
-<v t="zoomq.20120608161547.16977"><vh>写博客吧</vh></v>
+<v t="zoomq.20120608161547.16977" a="E"><vh>学习层级0</vh>
+<v t="zoomq.20120727213305.13044"><vh>学习层级1</vh></v>
+<v t="zoomq.20120727213305.13046"><vh>学习层级2</vh></v>
+<v t="zoomq.20120727213305.13048"><vh>学习层级3</vh></v>
+</v>
+<v t="zoomq.20120727213305.13040"><vh>写博客吧</vh></v>
 <v t="zoomq.20120608161547.16978"><vh>反刍</vh></v>
 <v t="zoomq.20120608161547.16979"><vh>宅点东西吧</vh></v>
 <v t="zoomq.20120608161547.16980"><vh>&lt;/share&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20120608161547.16981" a="E"><vh>brief3</vh>
+<v t="zoomq.20120608161547.16981"><vh>brief3</vh>
 <v t="zoomq.20120608161547.16982"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20120608161547.16983"><vh>总结7+-2</vh></v>
 <v t="zoomq.20120608161547.16984"><vh>暗时间</vh></v>
@@ -1913,8 +1919,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20111113005507.10794"><vh>110311-why-km</vh>
-<v t="zoomq.20111113005507.10795" a="O"><vh>@nosent index.rst</vh>
+<v t="zoomq.20111113005507.10794" a="E"><vh>110311-why-km</vh>
+<v t="zoomq.20111113005507.10795" a="EO"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111113005507.10796"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20111113005507.10797"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20111113005507.10798"><vh>免责</vh>
@@ -1952,7 +1958,7 @@
 <v t="zoomq.20111113005507.10825"><vh>识</vh></v>
 <v t="zoomq.20111113005507.10826"><vh>/知识</vh></v>
 </v>
-<v t="zoomq.20111113005507.10827" a="E"><vh>KM</vh>
+<v t="zoomq.20111113005507.10827"><vh>KM</vh>
 <v t="zoomq.20111113005507.10828" a="E"><vh>PKM</vh>
 <v t="zoomq.20111113005507.10829" a="E"><vh>KM:SECI</vh>
 <v t="zoomq.20111113005507.10830"><vh>知识之轮</vh></v>
@@ -1963,7 +1969,7 @@
 <v t="zoomq.20111113005507.10832"><vh>/KM</vh></v>
 </v>
 <v t="zoomq.20111113005507.10833"><vh>brief2</vh>
-<v t="zoomq.20111113005507.10834" a="E"><vh>&lt;tools&gt;</vh>
+<v t="zoomq.20111113005507.10834"><vh>&lt;tools&gt;</vh>
 <v t="zoomq.20111113005507.10835"><vh>LevelRedar</vh></v>
 <v t="zoomq.20111113005507.10836"><vh>&lt;think&gt;</vh>
 <v t="zoomq.20111113005507.10837"><vh>MindMap</vh></v>
@@ -1997,7 +2003,7 @@
 </v>
 <v t="zoomq.20111113005507.10861"><vh>宅点东西吧</vh></v>
 </v>
-<v t="zoomq.20111113005507.10862"><vh>brief3</vh>
+<v t="zoomq.20111113005507.10862" a="E"><vh>brief3</vh>
 <v t="zoomq.20111113005507.10863"><vh>总结7+-2</vh></v>
 <v t="zoomq.20111113005507.10864"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20111113005507.10865"><vh>小小鸟</vh></v>
@@ -101354,18 +101360,16 @@ __ http://www.websequencediagrams.com/
 
 
 </t>
-<t tx="zoomq.20120608161547.16977">Blogging 吧!
+<t tx="zoomq.20120608161547.16977">学习层级:0
 ==================
 
 .. container:: handout
 
-   - A:练习表述;B:进入知识圈
-   - `[编程杂谈]写写Blog吧-limodou的学习记录 &lt;http://blog.donews.com/limodou/archive/2004/12/14/202590.aspx&gt;`__
+   - Unknow Unknow |zqeye|
 
+.. class:: takahashi
 
-.. class:: takahashi9
-
-    入圏
+    不知己不知
 
 
 .. container:: notes
@@ -101590,6 +101594,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
+- 120728 增补学习阶层
 - 120529 調整图片大小
 - 120229 調整重点,追加好书,,
 - 111111 并入时间管理
@@ -102097,6 +102102,112 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 
+
+
+
+</t>
+<t tx="zoomq.20120727213305.13040">Blogging 吧!
+==================
+
+.. container:: handout
+
+   - A:练习表述;B:进入知识圈
+   - `[编程杂谈]写写Blog吧-limodou的学习记录 &lt;http://blog.donews.com/limodou/archive/2004/12/14/202590.aspx&gt;`__
+
+
+.. class:: takahashi9
+
+    入圏
+
+
+.. container:: notes
+
+   - 发表是最好的记忆!
+
+
+
+</t>
+<t tx="zoomq.20120727213305.13042">EKM目标
+=======================
+
+.. container:: handout
+
+    KM keep growing environment culture |zqeye|
+    
+    which promoting organization be learnning!
+
+
+.. class:: takahashi3
+
+::
+    
+    知识管理乃是
+        培育
+            可催生
+                自学习型组织
+        的文化氛围!
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20120727213305.13044">学习层级:1
+==================
+
+.. container:: handout
+
+   - Unknow know |zqeye|
+
+.. class:: takahashi
+
+    不知己知何
+
+
+.. container:: notes
+
+   - 发表是最好的记忆!
+
+
+
+</t>
+<t tx="zoomq.20120727213305.13046">学习层级:3
+==================
+
+.. container:: handout
+
+   - know knowed |zqeye|
+
+.. class:: takahashi
+
+    知己何已知
+
+
+.. container:: notes
+
+   - 发表是最好的记忆!
+
+
+
+</t>
+<t tx="zoomq.20120727213305.13048">学习层级:3
+==================
+
+.. container:: handout
+
+   - know unknow |zqeye|
+
+.. class:: takahashi
+
+    己知何不知
+
+
+.. container:: notes
+
+   - 发表是最好的记忆!
 
 
 

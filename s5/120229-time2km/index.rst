@@ -1057,6 +1057,33 @@ EKM
 
 
 
+EKM目标
+=======================
+
+.. container:: handout
+
+    KM keep growing environment culture |zqeye|
+    
+    which promoting organization be learnning!
+
+
+.. class:: takahashi3
+
+::
+    
+    知识管理乃是
+        培育
+            可催生
+                自学习型组织
+        的文化氛围!
+
+
+.. container:: notes
+
+   - 
+
+
+
 </KM>
 ==================
 
@@ -2389,6 +2416,78 @@ SNS学习原理:反証
 
 
 
+学习层级:0
+==================
+
+.. container:: handout
+
+   - Unknow Unknow |zqeye|
+
+.. class:: takahashi
+
+    不知己不知
+
+
+.. container:: notes
+
+   - 发表是最好的记忆!
+
+
+
+学习层级:1
+==================
+
+.. container:: handout
+
+   - Unknow know |zqeye|
+
+.. class:: takahashi
+
+    不知己知何
+
+
+.. container:: notes
+
+   - 发表是最好的记忆!
+
+
+
+学习层级:3
+==================
+
+.. container:: handout
+
+   - know knowed |zqeye|
+
+.. class:: takahashi
+
+    知己何已知
+
+
+.. container:: notes
+
+   - 发表是最好的记忆!
+
+
+
+学习层级:3
+==================
+
+.. container:: handout
+
+   - know unknow |zqeye|
+
+.. class:: takahashi
+
+    己知何不知
+
+
+.. container:: notes
+
+   - 发表是最好的记忆!
+
+
+
 Blogging 吧!
 ==================
 
@@ -2615,6 +2714,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
+- 120728 增补学习阶层
 - 120529 調整图片大小
 - 120229 調整重点,追加好书,,
 - 111111 并入时间管理
