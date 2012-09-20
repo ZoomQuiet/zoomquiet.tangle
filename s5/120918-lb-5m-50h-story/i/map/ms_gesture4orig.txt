@@ -1,0 +1,6 @@
+participant "用户" as user
+participant "手势说明" as sequence
+
+user->sequence: 阅读
+activate sequence
+sequence-->user: 参考

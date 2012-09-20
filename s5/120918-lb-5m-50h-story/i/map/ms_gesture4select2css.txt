@@ -1,0 +1,44 @@
+participant "用户" as user
+participant "手势" as gesture
+participant "选项" as LI
+participant "下拉" as UL
+participant "当前" as SPAN
+participant "选择" as select
+participant "页面" as option
+participant "内核" as core
+
+option->core: 事务
+core-->option: 加载
+
+option->select: 解析
+activate option
+
+alt DHTML~select2css 
+    select->SPAN: 注入
+    SPAN->UL 生成
+    activate SPAN
+    note over SPAN: <SPAN/>
+    UL->LI: 绑定
+    activate UL
+    note over UL: <UL/>
+    LI->gesture: 对应
+    activate LI
+    note over LI: <LI/>
+    SPAN->gesture: 徦代
+end
+
+gesture->user: 阅读
+user-->gesture: 点击
+
+alt DHTML~select2css 
+    gesture-->UL: 显示
+    UL-->LI: 模拟
+    LI-->option: 点击
+end
+
+core-->option: 回调
+
+option->select: 记录
+option->SPAN: 变更
+option->LI: 标记
+

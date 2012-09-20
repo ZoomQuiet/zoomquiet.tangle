@@ -1,0 +1,107 @@
+digraph G4ms_gesture4css {
+    /*全局设定
+$ dot -Tpng ms_gesture4css.dot -o ms_gesture4css.png
+$ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.map
+    */
+    graph [label="可定制手势 美化版实际程序处理 {关系图谱}"
+        ,fontsize=14.0,fontcolor=snow
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=TB
+        ,bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext 
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,fontname="WenQuanYi Micro Hei"
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+    /*图元声明
+    start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+    */
+    User [label="用户",shape=egg];
+    core [label="内核",shape=component,color="gold",style="setlinewidth(2)"];
+    
+    option [label="页面",shape=component];
+    
+    jsA [label="JavaScript",shape=box,color="gold",style="setlinewidth(2)"];
+    jsB [label="JavaScript",shape=box,color="gold",style="setlinewidth(2)"];
+    jsC [label="JavaScript",shape=box,color="gold",style="setlinewidth(2)"];
+
+    select [label="<select>",shape=note];
+    span [label="<span/>",shape=note];
+    ul [label="<ul/>",shape=note];
+    li [label="<li/>",shape=note];
+
+    /*图例关系
+    User->login->modify->mail[color="green"];
+    User->reset->mail [color="blue"];
+        reset->ldapsearch;
+        login->ldapwhoami;
+    mail->User->fixed->ldappasswd [color="red"];
+        fixed->timeout;
+
+    core->jsA->{select span ul li};
+
+    User->span [label="click()"];
+        span->jsB->{ul li} [label="显示"];
+
+    User->li  [label="click()"];
+        li->jsC->{core ul select};
+
+        */
+    ttag [label="时间轴",shape=box,];
+    ctag [label="",shape=plaintext,];
+    load [label="加载期"];
+    show [label="展示期"];
+    usage [label="使用期"];
+    update [label="变更期"];
+
+    load->show->usage->update [color=gray,style="setlinewidth(4)"];
+
+
+    option->core [label="onload()"];
+        option->jsA->{select span ul li};
+
+    User->span [label="click()",color=green,style="setlinewidth(3)"];
+        span->jsB [label="onclick()",color=green,style="setlinewidth(2)"];
+        jsB->{ul li} [label="显示",color=green,style="setlinewidth(1)"];
+
+    User->li  [label="click()",color=red,style="setlinewidth(3)"];
+
+        li->jsC [label="onclick()",color=red,style="setlinewidth(2)"];
+        core->jsC [label="回调",color=red,style="setlinewidth(1)"];
+        jsC->{ul select} [color=red];
+
+
+    { rank=same; ttag   option; }
+    { rank=same; ctag    core   ; }
+    { rank=same; load    User jsA; }
+    { rank=same; show     span ul li select; }
+    { rank=same; usage      jsB; }
+    { rank=same; update       jsC; }
+
+    edge [style=invis];
+        ttag->ctag->load;
+
+}
+

@@ -1,0 +1,23 @@
+participant "用户" as user
+participant "手势" as gesture
+participant "选择" as select
+participant "页面" as option
+participant "内核" as core
+
+option->core: 事务
+activate option
+core-->option: 加载
+
+alt HTML~ select 
+    option->select: 解析
+    select->gesture: 显示
+    activate select
+    note over select: <select/>
+
+end 
+gesture->user: 阅读
+user-->gesture: 点击
+gesture-->select: 转换
+select-->option: 发送
+core-->option: 回调
+option->select: 变更
