@@ -138,12 +138,12 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20120913101417.17411" a="E"><vh>1209-lb-5m-50h-story</vh>
+<v t="zoomq.20120913101417.17411" a="E"><vh>121020-how2make-tech-party</vh>
 <v t="zoomq.20120913101417.17412" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20120913101417.17413"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120913101417.17414"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20120913101417.17828"><vh>免责</vh>
-<v t="zoomq.20120913101417.17829"><vh>Takahashi</vh>
+<v t="zoomq.20120913101417.17829" a="E"><vh>Takahashi</vh>
 <v t="zoomq.20120913101417.17830"><vh>Takahashi</vh></v>
 <v t="zoomq.20120913101417.17831"><vh>Takahashi</vh></v>
 <v t="zoomq.20120913101417.17832"><vh>Takahashi</vh></v>
@@ -152,49 +152,119 @@
 <v t="zoomq.20120913101417.17835"><vh>Takahashi</vh></v>
 </v>
 </v>
-<v t="zoomq.20120913101417.17416" a="E"><vh>brief0</vh>
-<v t="zoomq.20120913101417.17417"><vh>手势</vh></v>
-<v t="zoomq.20120913101417.17419"><vh>snap</vh></v>
-<v t="zoomq.20120913101417.17421"><vh>定制</vh></v>
-<v t="zoomq.20120913101417.17422"><vh>产品设计</vh></v>
-<v t="zoomq.20120913101417.17837"><vh>当前</vh></v>
-<v t="zoomq.20120913101417.17839"><vh>JS</vh></v>
-<v t="zoomq.20120913101417.17841"><vh>原始交互关系</vh></v>
+<v t="zoomq.20120913101417.17416"><vh>为毛?</vh>
+<v t="zoomq.20120913101417.17419"><vh>需要?</vh></v>
+<v t="zoomq.20121019112704.14791"><vh>俺猜</vh></v>
+<v t="zoomq.20121019112704.14793"><vh>因为</vh></v>
+<v t="zoomq.20121019112704.14795"><vh>社区</vh></v>
 </v>
-<v t="zoomq.20120913101417.17425"><vh>brief1</vh>
-<v t="zoomq.20120913101417.17426"><vh>当然</vh></v>
-<v t="zoomq.20120913101417.17427"><vh>HTML</vh></v>
-<v t="zoomq.20120913101417.17861"><vh>当前交互</vh></v>
-<v t="zoomq.20120913101417.17843"><vh>原始交互关系</vh></v>
-<v t="zoomq.20120913101417.17845"><vh>还好</vh></v>
-<v t="zoomq.20120913101417.17430"><vh>唯一技巧</vh></v>
-<v t="zoomq.20120913101417.17431"><vh>lang</vh></v>
-<v t="zoomq.20120913101417.17855"><vh>重构时间</vh></v>
-<v t="zoomq.20120913101417.17857"><vh>丑!</vh></v>
-<v t="zoomq.20120913101417.17859"><vh>5分钟</vh></v>
-<v t="zoomq.20120913101417.17849"><vh>丑!</vh></v>
-<v t="zoomq.20120913101417.17851"><vh>snap</vh></v>
+<v t="zoomq.20121015120918.17125"><vh>标准!</vh>
+<v t="zoomq.20121015120918.17126"><vh>所有人</vh>
+<v t="zoomq.20121019112704.14798"><vh>分享者</vh></v>
+<v t="zoomq.20121019112704.14800"><vh>学习者</vh></v>
+<v t="zoomq.20121019112704.14802"><vh>支持者</vh></v>
+<v t="zoomq.20121019112704.14804"><vh>旁观者</vh></v>
 </v>
-<v t="zoomq.20120913101417.17437"><vh>brief2</vh>
-<v t="zoomq.20120913101417.17438"><vh>寻找</vh></v>
-<v t="zoomq.20120913101417.17439"><vh>原型</vh></v>
-<v t="zoomq.20120913101417.17853"><vh>DHTML</vh></v>
-<v t="zoomq.20120913101417.17428"><vh>模拟交互</vh></v>
-<v t="zoomq.20120913101417.17865"><vh>当前交互</vh></v>
-<v t="zoomq.20120913101417.17863"><vh>原始交互关系</vh></v>
-<v t="zoomq.20120913101417.17867"><vh>模拟交互</vh></v>
-<v t="zoomq.20120913101417.17869"><vh>程序行为</vh></v>
-<v t="zoomq.20120913101417.17871"><vh>JS代码管理</vh></v>
-<v t="zoomq.20120913101417.17440"><vh>重构时间</vh></v>
+<v t="zoomq.20121019112704.14810"><vh>都巴适</vh>
+<v t="zoomq.20121019112704.14811"><vh>分享者</vh></v>
+<v t="zoomq.20121019112704.14812"><vh>学习者</vh></v>
+<v t="zoomq.20121019112704.14813"><vh>支持者</vh></v>
+<v t="zoomq.20121019112704.14814"><vh>旁观者</vh></v>
 </v>
-<v t="zoomq.20120913101417.17447"><vh>brief3</vh>
-<v t="zoomq.20120913101417.17448"><vh>总结7+-2</vh></v>
-<v t="zoomq.20120913101417.17449"><vh>Q&amp;A</vh></v>
-<v t="zoomq.20120913101417.17451"><vh>讲演之禅</vh></v>
 </v>
-<v t="zoomq.20120913101417.17452" a="E"><vh>version</vh>
+<v t="zoomq.20121015120918.17129" a="E"><vh>乍整</vh>
+<v t="zoomq.20121015120918.17130"><vh>根本条件</vh></v>
+<v t="zoomq.20121019112704.16162"><vh>各种人</vh>
+<v t="zoomq.20121019112704.16163"><vh>参与者</vh></v>
+<v t="zoomq.20121019112704.16165"><vh>支持者</vh></v>
+<v t="zoomq.20121019112704.16167"><vh>贡献者</vh></v>
+<v t="zoomq.20121019112704.16169"><vh>扩散者</vh></v>
+</v>
+<v t="zoomq.20121019112704.16175"><vh>怎么获得</vh>
+<v t="zoomq.20121019112704.16176"><vh>参与者</vh></v>
+<v t="zoomq.20121019112704.16177"><vh>支持者</vh></v>
+<v t="zoomq.20121019112704.16178"><vh>贡献者</vh></v>
+<v t="zoomq.20121019112704.16179"><vh>扩散者</vh></v>
+</v>
+<v t="zoomq.20121019112704.16186"><vh>怎么组织?</vh>
+<v t="zoomq.20121019112704.16187"><vh>熟尔</vh></v>
+<v t="zoomq.20121019112704.16192"><vh>墨菲</vh></v>
+<v t="zoomq.20121019112704.16194"><vh>不怕</vh></v>
+<v t="zoomq.20121019112704.16196"><vh>乐于</vh></v>
+</v>
+<v t="zoomq.20121019112704.16202"><vh>经验点</vh>
+<v t="zoomq.20121019112704.16203"><vh>为他人</vh></v>
+<v t="zoomq.20121019112704.16208"><vh>授权</vh></v>
+<v t="zoomq.20121019112704.16210"><vh>检查</vh></v>
+<v t="zoomq.20121019112704.16212"><vh>替换</vh></v>
+<v t="zoomq.20121019112704.16214"><vh>AKA</vh></v>
+<v t="zoomq.20121019112704.16216"><vh>要回顾</vh></v>
+</v>
+<v t="zoomq.20121019112704.16220"><vh>总结7+-2</vh></v>
+</v>
+<v t="zoomq.20120913101417.17452"><vh>version</vh>
 <v t="zoomq.20120913101417.17453"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 <v t="zoomq.20120913101417.17454"><vh>abt.ZQ</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20121015120918.17068"><vh>1209-lb-5m-50h-story</vh>
+<v t="zoomq.20121015120918.17069" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20121015120918.17070"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
+<v t="zoomq.20121015120918.17071"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20121015120918.17072"><vh>免责</vh>
+<v t="zoomq.20121015120918.17073"><vh>Takahashi</vh>
+<v t="zoomq.20121015120918.17074"><vh>Takahashi</vh></v>
+<v t="zoomq.20121015120918.17075"><vh>Takahashi</vh></v>
+<v t="zoomq.20121015120918.17076"><vh>Takahashi</vh></v>
+<v t="zoomq.20121015120918.17077"><vh>Takahashi</vh></v>
+<v t="zoomq.20121015120918.17078"><vh>Takahashi</vh></v>
+<v t="zoomq.20121015120918.17079"><vh>Takahashi</vh></v>
+</v>
+</v>
+<v t="zoomq.20121015120918.17080" a="E"><vh>brief0</vh>
+<v t="zoomq.20121015120918.17081"><vh>手势</vh></v>
+<v t="zoomq.20121015120918.17082"><vh>snap</vh></v>
+<v t="zoomq.20121015120918.17083"><vh>定制</vh></v>
+<v t="zoomq.20121015120918.17084"><vh>产品设计</vh></v>
+<v t="zoomq.20121015120918.17085"><vh>当前</vh></v>
+<v t="zoomq.20121015120918.17086"><vh>JS</vh></v>
+<v t="zoomq.20121015120918.17087"><vh>原始交互关系</vh></v>
+</v>
+<v t="zoomq.20121015120918.17088"><vh>brief1</vh>
+<v t="zoomq.20121015120918.17089"><vh>当然</vh></v>
+<v t="zoomq.20121015120918.17090"><vh>HTML</vh></v>
+<v t="zoomq.20121015120918.17091"><vh>当前交互</vh></v>
+<v t="zoomq.20121015120918.17092"><vh>原始交互关系</vh></v>
+<v t="zoomq.20121015120918.17093"><vh>还好</vh></v>
+<v t="zoomq.20121015120918.17094"><vh>唯一技巧</vh></v>
+<v t="zoomq.20121015120918.17095"><vh>lang</vh></v>
+<v t="zoomq.20121015120918.17096"><vh>重构时间</vh></v>
+<v t="zoomq.20121015120918.17097"><vh>丑!</vh></v>
+<v t="zoomq.20121015120918.17098"><vh>5分钟</vh></v>
+<v t="zoomq.20121015120918.17099"><vh>丑!</vh></v>
+<v t="zoomq.20121015120918.17100"><vh>snap</vh></v>
+</v>
+<v t="zoomq.20121015120918.17101"><vh>brief2</vh>
+<v t="zoomq.20121015120918.17102"><vh>寻找</vh></v>
+<v t="zoomq.20121015120918.17103"><vh>原型</vh></v>
+<v t="zoomq.20121015120918.17104"><vh>DHTML</vh></v>
+<v t="zoomq.20121015120918.17105"><vh>模拟交互</vh></v>
+<v t="zoomq.20121015120918.17106"><vh>当前交互</vh></v>
+<v t="zoomq.20121015120918.17107"><vh>原始交互关系</vh></v>
+<v t="zoomq.20121015120918.17108"><vh>模拟交互</vh></v>
+<v t="zoomq.20121015120918.17109"><vh>程序行为</vh></v>
+<v t="zoomq.20121015120918.17110"><vh>JS代码管理</vh></v>
+<v t="zoomq.20121015120918.17111"><vh>重构时间</vh></v>
+</v>
+<v t="zoomq.20121015120918.17112"><vh>brief3</vh>
+<v t="zoomq.20121015120918.17113"><vh>总结7+-2</vh></v>
+<v t="zoomq.20121015120918.17114"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20121015120918.17115"><vh>讲演之禅</vh></v>
+</v>
+<v t="zoomq.20121015120918.17116" a="E"><vh>version</vh>
+<v t="zoomq.20121015120918.17117"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
+<v t="zoomq.20121015120918.17118"><vh>abt.ZQ</vh></v>
 </v>
 </v>
 </v>
@@ -265,7 +335,7 @@
 <v t="zoomq.20120423093831.20539"><vh>七周七语言</vh></v>
 <v t="zoomq.20120423093831.20541"><vh>讲演之禅</vh></v>
 </v>
-<v t="zoomq.20120423093831.20542"><vh>version</vh>
+<v t="zoomq.20120423093831.20542" a="E"><vh>version</vh>
 <v t="zoomq.20120423093831.20543"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 </v>
 </v>
@@ -102272,60 +102342,20 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 </t>
-<t tx="zoomq.20120913101417.17411">@path 120918-lb-5m-50h-story
-
-Name: Select to CSS
-Version: 0.2
-Author: Utom
-URL: http://utombox.com/
-
-上次? UL.lang
-
-
-cr.define('options', function() {
-  const OptionsPage = options.OptionsPage;
-
-  function MouseGestureOptions() 
-  {	
-	  
-	OptionsPage.call(this, 'mousegesture',
-                     '选项 - 鼠标手势',
-                     'mousegesturePage');
-		 
-  }	
-
-    MouseGestureOptions.prototype = {
-		// Inherit BrowserOptions from OptionsPage.
-		 __proto__: options.OptionsPage.prototype,
-		
-		initializePage: function()	
-		{
-			// Call base class implementation to start preference initialization.
-			//OptionsPage.prototype.initializePage.call(this);
-		},
-	};
-
-  cr.addSingletonGetter(MouseGestureOptions);
-  
-  // Export
-  return {
-    MouseGestureOptions: MouseGestureOptions
-  };
-});
-
+<t tx="zoomq.20120913101417.17411">@path 121020-how2make-tech-party
 </t>
 <t tx="zoomq.20120913101417.17412">@language rest
 @tabwidth -4
 .. include:: &lt;s5defs.txt&gt;
 
 ==================================================================
-5'-&gt;50h
+乍组织活动?
 ==================================================================
 
-～举例分析产品同技术的交流状态 (powered by rst2S5)
+～怎么折腾好一次欢乐的技术交流?! 
 
-:Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
-:URL:    http://zoomquiet.org/res/s5/120918-lb-5m-50h-story/
+:Authors: `Zoom.Quiet &lt;zoomquiet+s5@gmai.com&gt;`__
+:URL:    http://zoomquiet.org/res/s5/121020-how2make-tech-party/
 
 &lt;&lt;DOCDEFINE&gt;&gt;
 
@@ -102352,6 +102382,22 @@ cr.define('options', function() {
     http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
 .. 图片定义区
+.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+   :alt: 是也乎;-)
+   :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+.. |pycon| image:: i/logo/pycon2012china-lo​go-2-h80.png
+   :target: http://cn.pycon.org
+
+
+.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |lr_s5| image:: i/icon/levelradar_s5.png
+    :scale: 100 %
+
 .. |bullet| unicode:: U+02022
 .. |mode| unicode:: U+00D8 .. capital o with stroke
 
@@ -102363,94 +102409,22 @@ cr.define('options', function() {
     :align: top
     :scale: 100 %
     :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
-.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
-   :alt: (CC)by-nc-sa 许可证
-   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
-.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
-   :alt: (CC)by-nc-sa 许可证
-   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
-.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
-   :alt: 是也乎;-)
-   :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
-
-.. |lr_s5| image:: i/levelradar_s5.png
-    :scale: 100 %
 </t>
 <t tx="zoomq.20120913101417.17414">.. footer:: 
 
-   `Zoom.Quiet`_ v12.09.18 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v12.10.17 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 </t>
-<t tx="zoomq.20120913101417.17416">&lt;brief/&gt;
+<t tx="zoomq.20120913101417.17416">问题s
 =========
 
 .. container:: handout
 
-   简单想,简单试,简单用... |zqeye|
-
-
-.. class:: takahashi
-
-    - :orange:`5' 背景故事`
-    - :silver:`10' 演变和解决`
-    - :silver:`10' 再次革命`
-    - :silver:`5'回顾,沟通`
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17417">Mouse Gesture
-====================================
-
-.. container:: handout
-
-   誰在用?! |zqeye|
-
-
-.. class:: takahashi9
-
-    手势
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17419">原先
-=========
-
-.. container:: handout
-
-   静态图片呢 |zqeye|
+   |pycon|
 
 
 .. class:: takahashi8
 
-    .. image:: i/snap/lb_mg_orig.PNG
-        :align: center
-        :target: #
-
+    为毛?
 
 .. container:: notes
 
@@ -102466,45 +102440,19 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17421">改进!
-=========
+<t tx="zoomq.20120913101417.17419">我们需要:
+==================
 
 .. container:: handout
 
-   高级用户! |zqeye|
+   |pycon|
 
 
-.. class:: takahashi9
+.. class:: takahashi8
 
-    定制
+    线下
     
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17422">产品
-=========
-
-.. container:: handout
-
-   设计示意 |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/snap/lb_mg_design.png
-        :align: center
-        :target: #
+    活动
 
 
 .. container:: notes
@@ -102515,410 +102463,6 @@ cr.define('options', function() {
 
 
 
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17425">&lt;brief/&gt;
-=========
-
-.. container:: handout
-
-   简单想,简单试,简单用... |zqeye|
-
-
-.. class:: takahashi
-
-    - :gray:`5' 背景故事`
-    - :orange:`10' 演变和解决`
-    - :silver:`10' 再次革命`
-    - :silver:`5'回顾,沟通`
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17426">尝试
-=========
-
-.. container:: handout
-
-   &lt;select/&gt; |zqeye|
-
-
-.. class:: takahashi8
-
-    下拉
-    
-    菜单
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17427">HTML
-=========
-
-.. container:: handout
-
-   内置元素 |zqeye|
-
-
-.. code-block:: html
-
-    &lt;ul&gt;&lt;!-- 所有可配置手势 --&gt;
-        &lt;li&gt;
-            &lt;span/&gt; &lt;!-- 当然手势 --&gt;
-            &lt;select&gt; &lt;!-- 下拉手势选择 --&gt;
-                &lt;option&gt;
-                &lt;option&gt;
-                ...
-            &lt;/select&gt;
-        &lt;/li&gt;
-        ...
-    &lt;/ul&gt;
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17428">多层事务
-=========
-
-.. container:: handout
-
-   同内核以及html进行交互 |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/map/matter_sequence_css_wsd-omegapple.png
-        :align: center
-        :height: 620px
-        :target: http://www.websequencediagrams.com
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17430">唯一技巧
-=========
-
-.. container:: handout
-
-   怎么记忆住? |zqeye|
-
-
-.. class:: takahashi8
-
-    上次
-    
-    选项
-        
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17431">标准属性
-=========
-
-.. container:: handout
-
-   &lt;ul lang="zh"... |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/snap/std_opt_lang.png
-        :align: center
-        :height: 350px
-        :target: #
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17437">&lt;brief/&gt;
-=========
-
-.. container:: handout
-
-   简单想,简单试,简单用... |zqeye|
-
-
-.. class:: takahashi
-
-    - :gray:`5' 背景故事`
-    - :gray:`10' 演变和解决`
-    - :orange:`10' 再次革命`
-    - :silver:`5'回顾,沟通`
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17438">寻找
-==================
-
-.. container:: handout
-
-   美的下拉菜单! |zqeye|
-
-
-.. class:: takahashi9
-
-    寻找
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17439">Select to CSS
-==================
-.. |select2css_style1| image:: i/snap/select2css_style1.png
-.. |select2css_style2| image:: i/snap/select2css_style2.png
-.. |select2css_style3| image:: i/snap/select2css_style3.png
-
-.. container:: handout
-
-   http://utombox.com/ |zqeye|
-
-
-
-.. list-table:: `多种效果 &lt;http://www.onlyaa.com/examples/select2css/index.htm&gt;`_
-   :widths: 30 30 30
-   :header-rows: 1
-
-   * - U-Box 
-     - TM2008
-     - Mac 
-   * - |select2css_style1|
-     - |select2css_style2|
-     - |select2css_style3|
-   
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17440">时间消耗:重构
-==================
-
-.. container:: handout
-
-   集中力哪! |zqeye|
-
-
-.. class:: takahashi
-
-    .. class:: incremental
-
-    - 3次重构
-    - 平均每次 10H
-    - 平均每次中断 2次
-    - BUG修订 5H
-    - 样式重构 5H
-    - 总计 ~ 40H
-    - JS&gt; :orange:`1000` 行
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17447">&lt;brief/&gt;
-=========
-
-.. container:: handout
-
-   简单想,简单试,简单用... |zqeye|
-
-
-.. class:: takahashi
-
-    - :gray:`5' 背景故事`
-    - :gray:`10' 演变和解决`
-    - :gray:`10' 再次革命`
-    - :orange:`5'回顾,沟通`
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17448">总之
-=========
-
-.. container:: handout
-
-   期望记住的~单位时间能记住的只有7+-2 个 |zqeye|
-
-
-.. class:: incremental takahashi
-
-    - 能用后才能求美
-    - 能多美不是PS说了算的
-    - 要多美应该全盘考虑
-    - 技术可以作到一切,只是...
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17449">&lt;discuss/&gt;
-==========
-
-.. container:: handout
-
-   |zqeye|
-
-
-.. class:: takahashi8
-
-    Q&amp;A
-
-
-
-.. class:: takahashi0
-
-    ...
-
-    http://zoomquiet.org/res/s5/120918-lb-5m-50h-story/
-
-
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17451">最后的最后...
-==================
-
-.. container:: handout
-
-   好书推荐... |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/s4279952-zen4talk.jpg
-        :align: center
-        :scale: 100 %
-        :alt: 讲演之禅
-        :target: http://book.douban.com/subject/4760725/
-
-.. container:: notes
-
-   - 
 
 
 
@@ -102933,15 +102477,15 @@ cr.define('options', function() {
    |zqeye|
 
 
-- 120918 创建幻灯
-- 120828 准备思维图谱
-- 120818 动念
+- 121017 增补细节
+- 121010 结构决定
+- 121001 动念
 
 
 :反馈:
-    Zoom.Quiet@gmail.com
+    zoomquiet+s5@gmail.com
 :查阅:
-    http://zoomquiet.org/res/s5/120918-lb-5m-50h-story/
+    http://zoomquiet.org/res/s5/121020-how2make-tech-party/
 
 
 &lt;&lt;S5&gt;&gt;</t>
@@ -102979,15 +102523,14 @@ cr.define('options', function() {
 
 .. container:: handout
 
- 本命+1,有娃没车,长年大妈  |zqeye|
+ 本命+2,有娃有房,长年大妈  |zqeye|
 
 
 .. class:: takahashi
 
     .. image:: i/foto/120826_niuniu.png
         :align: center
-        :scale: 100 %
-        :alt: 是也乎,是也乎
+        :target: http://weibo.com/zoomquiet
 
 
 
@@ -103122,7 +102665,386 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17837">记住!
+<t tx="zoomq.20121015120918.17068">@path 120918-lb-5m-50h-story
+
+Name: Select to CSS
+Version: 0.2
+Author: Utom
+URL: http://utombox.com/
+
+上次? UL.lang
+
+
+cr.define('options', function() {
+  const OptionsPage = options.OptionsPage;
+
+  function MouseGestureOptions() 
+  {	
+	  
+	OptionsPage.call(this, 'mousegesture',
+                     '选项 - 鼠标手势',
+                     'mousegesturePage');
+		 
+  }	
+
+    MouseGestureOptions.prototype = {
+		// Inherit BrowserOptions from OptionsPage.
+		 __proto__: options.OptionsPage.prototype,
+		
+		initializePage: function()	
+		{
+			// Call base class implementation to start preference initialization.
+			//OptionsPage.prototype.initializePage.call(this);
+		},
+	};
+
+  cr.addSingletonGetter(MouseGestureOptions);
+  
+  // Export
+  return {
+    MouseGestureOptions: MouseGestureOptions
+  };
+});
+
+</t>
+<t tx="zoomq.20121015120918.17069">@language rest
+@tabwidth -4
+.. include:: &lt;s5defs.txt&gt;
+
+==================================================================
+5'-&gt;50h
+==================================================================
+
+～举例分析产品同技术的交流状态 (powered by rst2S5)
+
+:Authors: `Zoom.Quiet &lt;zoomquiet+sns@gmai.com&gt;`__
+:URL:    http://zoomquiet.org/res/s5/120918-lb-5m-50h-story/
+
+&lt;&lt;DOCDEFINE&gt;&gt;
+
+&lt;&lt;footer&gt;&gt;
+
+@others
+
+</t>
+<t tx="zoomq.20121015120918.17070">.. This document has been placed in the CC domain.
+.. _Docutils: http://docutils.sourceforge.net/
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+.. _S5: http://meyerweb.com/eric/tools/s5/
+.. _Firefox: http://www.mozilla.com/firefox/
+
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+.. _(CC)by-nc-sa:
+    http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. _FireFox:
+    http://www.mozilla.com/firefox/
+.. _S5介绍:
+    http://zoomquiet.org/res/s5/100826-PyTDD/s5.html
+.. _WYTIWYG:
+    http://wiki.woodpecker.org.cn/moin/WyTiWyG
+
+.. 图片定义区
+.. |bullet| unicode:: U+02022
+.. |mode| unicode:: U+00D8 .. capital o with stroke
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: top
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+.. |LeoProse| image:: pix/LeoProse.gif
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+   :alt: 是也乎;-)
+   :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+
+.. |lr_s5| image:: i/levelradar_s5.png
+    :scale: 100 %
+</t>
+<t tx="zoomq.20121015120918.17071">.. footer:: 
+
+   `Zoom.Quiet`_ v12.09.18 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+</t>
+<t tx="zoomq.20121015120918.17072">&lt;免责/&gt;
+=========
+
+.. container:: handout
+
+   山寨的，非业界公认的，个人体验为基础!
+   |zqeye|
+
+
+.. class:: takahashi1
+
+    参考所有同好行为总结而得
+        - 一切资料来自网络互动挖掘
+        - 一切想法来自日常学习工作
+        - 一切体悟来自各种沟通交流
+        - 一切知识来自社区分享印证
+        - 一切经验来自个人失败体验
+    
+
+
+</t>
+<t tx="zoomq.20121015120918.17073">高橋流!
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center
+
+    .. image:: pix/Takahashi-method.jpg
+        :scale: 150 %
+        :height: 300px
+        :alt: 高橋流
+        :align: center
+        :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
+
+</t>
+<t tx="zoomq.20121015120918.17074">文字
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    巨大
+
+
+</t>
+<t tx="zoomq.20121015120918.17075">幻灯
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    很多
+
+
+</t>
+<t tx="zoomq.20121015120918.17076">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    快!
+
+
+</t>
+<t tx="zoomq.20121015120918.17077">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi8
+
+    很快!
+
+
+</t>
+<t tx="zoomq.20121015120918.17078">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi7
+
+    非常快!
+
+
+</t>
+<t tx="zoomq.20121015120918.17079">所以:
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi10
+
+    :orange:`听`
+
+
+</t>
+<t tx="zoomq.20121015120918.17080">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   简单想,简单试,简单用... |zqeye|
+
+
+.. class:: takahashi
+
+    - :orange:`5' 背景故事`
+    - :silver:`10' 演变和解决`
+    - :silver:`10' 再次革命`
+    - :silver:`5'回顾,沟通`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17081">Mouse Gesture
+====================================
+
+.. container:: handout
+
+   誰在用?! |zqeye|
+
+
+.. class:: takahashi9
+
+    手势
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17082">原先
+=========
+
+.. container:: handout
+
+   静态图片呢 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/snap/lb_mg_orig.PNG
+        :align: center
+        :target: #
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17083">改进!
+=========
+
+.. container:: handout
+
+   高级用户! |zqeye|
+
+
+.. class:: takahashi9
+
+    定制
+    
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17084">产品
+=========
+
+.. container:: handout
+
+   设计示意 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/snap/lb_mg_design.png
+        :align: center
+        :target: #
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17085">记住!
 =========
 
 .. container:: handout
@@ -103148,7 +103070,7 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17839">JS代码
+<t tx="zoomq.20121015120918.17086">JS代码
 =========
 
 .. container:: handout
@@ -103190,7 +103112,7 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17841">原始交互
+<t tx="zoomq.20121015120918.17087">原始交互
 =========
 
 .. container:: handout
@@ -103220,7 +103142,133 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17843">原始交互
+<t tx="zoomq.20121015120918.17088">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   简单想,简单试,简单用... |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 背景故事`
+    - :orange:`10' 演变和解决`
+    - :silver:`10' 再次革命`
+    - :silver:`5'回顾,沟通`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17089">尝试
+=========
+
+.. container:: handout
+
+   &lt;select/&gt; |zqeye|
+
+
+.. class:: takahashi8
+
+    下拉
+    
+    菜单
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17090">HTML
+=========
+
+.. container:: handout
+
+   内置元素 |zqeye|
+
+
+.. code-block:: html
+
+    &lt;ul&gt;&lt;!-- 所有可配置手势 --&gt;
+        &lt;li&gt;
+            &lt;span/&gt; &lt;!-- 当然手势 --&gt;
+            &lt;select&gt; &lt;!-- 下拉手势选择 --&gt;
+                &lt;option&gt;
+                &lt;option&gt;
+                ...
+            &lt;/select&gt;
+        &lt;/li&gt;
+        ...
+    &lt;/ul&gt;
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17091">事务
+=========
+
+.. container:: handout
+
+   同内核进行交互 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/map/matter_sequence_select_wsd-omegapple.png
+        :align: center
+        :target: http://www.websequencediagrams.com
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17092">原始交互
 =========
 
 .. container:: handout
@@ -103250,7 +103298,7 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17845">还好
+<t tx="zoomq.20121015120918.17093">还好
 =========
 
 .. container:: handout
@@ -103279,7 +103327,139 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17849">设计
+<t tx="zoomq.20121015120918.17094">唯一技巧
+=========
+
+.. container:: handout
+
+   怎么记忆住? |zqeye|
+
+
+.. class:: takahashi8
+
+    上次
+    
+    选项
+        
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17095">标准属性
+=========
+
+.. container:: handout
+
+   &lt;ul lang="zh"... |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/snap/std_opt_lang.png
+        :align: center
+        :height: 350px
+        :target: #
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17096">时间消耗:重构
+==================
+
+.. container:: handout
+
+   集中力哪! |zqeye|
+
+
+.. class:: takahashi
+
+    .. class:: incremental
+
+    - 0.5h 静态尝试
+    - 2.5h 调试回调
+    - 2.5h 动态展示
+    - 4.5h 联调
+    - ~ 10H
+    - JS &gt; 240行
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17097">太丑!
+=========
+
+.. container:: handout
+
+   产品吼 |zqeye|
+
+
+.. class:: takahashi9
+
+    丑!
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17098">PS
+=========
+
+.. container:: handout
+
+   永远伟大的... |zqeye|
+
+
+.. class:: takahashi8
+
+    5分钟
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17099">设计
 =========
 
 .. container:: handout
@@ -103308,7 +103488,7 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17851">对比原先
+<t tx="zoomq.20121015120918.17100">对比原先
 =========
 
 .. container:: handout
@@ -103337,7 +103517,93 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17853">DHTML
+<t tx="zoomq.20121015120918.17101">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   简单想,简单试,简单用... |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 背景故事`
+    - :gray:`10' 演变和解决`
+    - :orange:`10' 再次革命`
+    - :silver:`5'回顾,沟通`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17102">寻找
+==================
+
+.. container:: handout
+
+   美的下拉菜单! |zqeye|
+
+
+.. class:: takahashi9
+
+    寻找
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17103">Select to CSS
+==================
+.. |select2css_style1| image:: i/snap/select2css_style1.png
+.. |select2css_style2| image:: i/snap/select2css_style2.png
+.. |select2css_style3| image:: i/snap/select2css_style3.png
+
+.. container:: handout
+
+   http://utombox.com/ |zqeye|
+
+
+
+.. list-table:: `多种效果 &lt;http://www.onlyaa.com/examples/select2css/index.htm&gt;`_
+   :widths: 30 30 30
+   :header-rows: 1
+
+   * - U-Box 
+     - TM2008
+     - Mac 
+   * - |select2css_style1|
+     - |select2css_style2|
+     - |select2css_style3|
+   
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17104">DHTML
 =========
 
 .. container:: handout
@@ -103349,10 +103615,10 @@ cr.define('options', function() {
 
     &lt;div&gt;
         &lt;div/&gt; &lt;!-- 当前选项模擬 --&gt;
-        &lt;ul&gt; &lt;!-- 选择器模擬 --&gt;
-            &lt;li&gt;
+        &lt; ul&gt; &lt;!-- 选择器模擬 --&gt;
+            &lt; li&gt;
             ...
-        &lt;/ul&gt;
+        &lt; /ul&gt;
     &lt;/div&gt;
     &lt;select&gt; &lt;!-- 原选择器 --&gt;
         &lt;option&gt;
@@ -103375,176 +103641,7 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17855">时间消耗:重构
-==================
-
-.. container:: handout
-
-   集中力哪! |zqeye|
-
-
-.. class:: takahashi
-
-    .. class:: incremental
-
-    - 0.5h 静态尝试
-    - 2.5h 调试回调
-    - 2.5h 动态展示
-    - 4.5h 联调
-    - ~ 10H
-    - JS &gt; 240行
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17857">太丑!
-=========
-
-.. container:: handout
-
-   产品吼 |zqeye|
-
-
-.. class:: takahashi9
-
-    丑!
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17859">PS
-=========
-
-.. container:: handout
-
-   永远伟大的... |zqeye|
-
-
-.. class:: takahashi8
-
-    5分钟
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17861">事务
-=========
-
-.. container:: handout
-
-   同内核进行交互 |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/map/matter_sequence_select_wsd-omegapple.png
-        :align: center
-        :target: http://www.websequencediagrams.com
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17863">原始交互
-=========
-
-.. container:: handout
-
-   纯静态 |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/map/matter_sequence_Orig_wsd-omegapple.png
-        :align: center
-        :height: 350px
-        :target: #
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17865">事务
-=========
-
-.. container:: handout
-
-   同内核进行交互 |zqeye|
-
-
-.. class:: takahashi8
-
-    .. image:: i/map/matter_sequence_select_wsd-omegapple.png
-        :align: center
-        :target: http://www.websequencediagrams.com
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
-
-
-</t>
-<t tx="zoomq.20120913101417.17867">多层事务
+<t tx="zoomq.20121015120918.17105">多层事务
 =========
 
 .. container:: handout
@@ -103574,7 +103671,96 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17869">程序行为
+<t tx="zoomq.20121015120918.17106">事务
+=========
+
+.. container:: handout
+
+   同内核进行交互 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/map/matter_sequence_select_wsd-omegapple.png
+        :align: center
+        :target: http://www.websequencediagrams.com
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17107">原始交互
+=========
+
+.. container:: handout
+
+   纯静态 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/map/matter_sequence_Orig_wsd-omegapple.png
+        :align: center
+        :height: 350px
+        :target: #
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17108">多层事务
+=========
+
+.. container:: handout
+
+   同内核以及html进行交互 |zqeye|
+
+
+.. class:: takahashi8
+
+    .. image:: i/map/matter_sequence_css_wsd-omegapple.png
+        :align: center
+        :height: 620px
+        :target: http://www.websequencediagrams.com
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17109">程序行为
 =========
 
 .. container:: handout
@@ -103604,7 +103790,7 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20120913101417.17871">文学化编程
+<t tx="zoomq.20121015120918.17110">文学化编程
 ===========================
 
 .. container:: handout
@@ -103624,6 +103810,1086 @@ cr.define('options', function() {
    - 
 
 
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17111">时间消耗:重构
+==================
+
+.. container:: handout
+
+   集中力哪! |zqeye|
+
+
+.. class:: takahashi
+
+    .. class:: incremental
+
+    - 3次重构
+    - 平均每次 10H
+    - 平均每次中断 2次
+    - BUG修订 5H
+    - 样式重构 5H
+    - 总计 ~ 40H
+    - JS&gt; :orange:`1000` 行
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17112">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   简单想,简单试,简单用... |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 背景故事`
+    - :gray:`10' 演变和解决`
+    - :gray:`10' 再次革命`
+    - :orange:`5'回顾,沟通`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17113">总之
+=========
+
+.. container:: handout
+
+   期望记住的~单位时间能记住的只有7+-2 个 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    - 能用后才能求美
+    - 能多美不是PS说了算的
+    - 要多美应该全盘考虑
+    - 技术可以作到一切,只是...
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17114">&lt;discuss/&gt;
+==========
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    Q&amp;A
+
+
+
+.. class:: takahashi0
+
+    ...
+
+    http://zoomquiet.org/res/s5/120918-lb-5m-50h-story/
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17115">最后的最后...
+==================
+
+.. container:: handout
+
+   好书推荐... |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/s4279952-zen4talk.jpg
+        :align: center
+        :scale: 100 %
+        :alt: 讲演之禅
+        :target: http://book.douban.com/subject/4760725/
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17116">&lt;版本/&gt;
+=========
+
+.. container:: handout
+
+   |zqeye|
+
+
+- 120918 创建幻灯
+- 120828 准备思维图谱
+- 120818 动念
+
+
+:反馈:
+    Zoom.Quiet@gmail.com
+:查阅:
+    http://zoomquiet.org/res/s5/120918-lb-5m-50h-story/
+
+
+&lt;&lt;S5&gt;&gt;</t>
+<t tx="zoomq.20121015120918.17117">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
+==============================================================================================
+
+.. container:: handout
+
+    纯HTML 幻灯撰写框架!... |lr_s5| 
+
+
+- S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-Based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
+
+ - 仅仅依靠 CSS+JS 的HTML格式幻灯演示框架
+
+- 我的编辑环境: |LeoProse| ~ `文学化编辑器 &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+
+
+.. image:: pix/2010-01-18-230729_605x421_leo.png
+    :align: center
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17118">&lt;Zoom.Quiet/&gt;
+==================
+
+.. container:: handout
+
+ 本命+1,有娃没车,长年大妈  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/foto/120826_niuniu.png
+        :align: center
+        :scale: 100 %
+        :alt: 是也乎,是也乎
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17125">怎么算欢乐?
+===========================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    巴适
+    
+    安宜
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17126">指标:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    所有人!
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121015120918.17129">TIPs
+=========
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    乍整?
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121015120918.17130">根本条件!
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    人
+
+.. container:: notes
+
+   - 
+
+
+重要条件!
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi9
+
+    人
+
+.. container:: notes
+
+   - 
+
+关键条件!
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi10
+
+    :orange:`人`
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121019112704.14791">原因俺猜:
+==================
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    求认同
+
+.. container:: notes
+
+   - 
+
+原因俺猜:
+==================
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    求印证
+
+.. container:: notes
+
+   - 
+
+原因俺猜:
+==================
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    求包养
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121019112704.14793">动力?
+==================
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    社会性
+    
+    生物
+
+.. container:: notes
+
+   - 
+
+动力?
+==================
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    表演欲
+
+.. container:: notes
+
+   - 
+
+动力?
+==================
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    知识
+    
+    快感
+
+.. container:: notes
+
+   - 
+
+
+
+动力?
+==================
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    及其它
+    
+    ...
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20121019112704.14795">社区动力!
+==================
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    扩大
+    
+    影响力
+
+.. container:: notes
+
+   - 
+
+社区动力!
+==================
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    制造
+    
+    BUZZ
+
+.. container:: notes
+
+   - 
+
+社区动力!
+==================
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    促进
+    
+    积累
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.14798">所有人:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    分享者
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20121019112704.14800">所有人:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    学习者
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20121019112704.14802">所有人:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    支持者
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20121019112704.14804">所有人:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    旁观者
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20121019112704.14810">都巴适!
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    所有人!
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.14811">对于分享者:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    尊重
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20121019112704.14812">对于学习者:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    支持
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20121019112704.14813">对于支持者:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    回报
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20121019112704.14814">对于旁观者:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    方便
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20121019112704.16162">哪些人?
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    组织者
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16163">哪些人?
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    参与者
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16165">哪些人?
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    支持者
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16167">哪些人?
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    贡献者
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16169">哪些人?
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    扩散者
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16175">组织者哪儿来?
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    生长
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16176">参与者哪儿来?
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    积累
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16177">支持者哪儿来?
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    吸引
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16178">贡献者哪儿来?
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    :orange:`抓!`
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16179">扩散者哪儿来?
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    联合
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16186">假设都有了..
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    乍组织?
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16187">无它
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi9
+
+    熟尔
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16192">注意!
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    墨菲
+    
+    定律
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16194">只要...
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    不怕
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16196">以及...
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    乐于
+    
+    尝试
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16202">具体说:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+.. class:: takahashi8
+
+    经验点
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16203">经验点:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    为他人
+    
+    着想
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16208">经验点:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    多授权
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16210">经验点:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    多检查
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16212">经验点:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    快替换
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16214">经验点:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    AKA
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16216">经验点:
+==================
+
+.. container:: handout
+
+   |pycon|
+
+
+.. class:: takahashi8
+
+    要回顾
+
+.. container:: notes
+
+   - 
+
+</t>
+<t tx="zoomq.20121019112704.16220">总之
+=========
+
+.. container:: handout
+
+   期望可以记住的~单位时间可以记住的只有7+-2 个 |zqeye|
+
+.. class:: incremental takahashi
+
+    * 线下活动很必要/重要/好玩
+    * 勇于承担就能折腾起来
+    * 多尝试就会熟练自在
+    * 兼顾所有人的感受
+    * 分享才能收获!
+
+.. container:: notes
+
+   - 
 
 
 
