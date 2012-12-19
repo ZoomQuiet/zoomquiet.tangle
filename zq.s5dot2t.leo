@@ -158,7 +158,7 @@
 <v t="zoomq.20121019112704.14793"><vh>因为</vh></v>
 <v t="zoomq.20121019112704.14795"><vh>社区</vh></v>
 </v>
-<v t="zoomq.20121015120918.17125"><vh>标准!</vh>
+<v t="zoomq.20121015120918.17125" a="E"><vh>标准!</vh>
 <v t="zoomq.20121015120918.17126"><vh>所有人</vh>
 <v t="zoomq.20121019112704.14798"><vh>分享者</vh></v>
 <v t="zoomq.20121019112704.14800"><vh>学习者</vh></v>
@@ -104036,9 +104036,9 @@ cr.define('options', function() {
 
 .. class:: takahashi8
 
-    巴适
+    :orange:`巴` 适
     
-    安宜
+    安 :orange:`宜`
 
 .. container:: notes
 

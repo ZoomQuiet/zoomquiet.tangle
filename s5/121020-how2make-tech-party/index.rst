@@ -417,9 +417,9 @@
 
 .. class:: takahashi8
 
-    巴适
+    :orange:`巴` 适
     
-    安宜
+    安 :orange:`宜`
 
 .. container:: notes
 

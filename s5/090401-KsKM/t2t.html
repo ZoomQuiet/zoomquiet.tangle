@@ -1,0 +1,1451 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META NAME="generator" CONTENT="http://txt2tags.sf.net">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<TITLE>金山知识管理(KsKM)思考</TITLE>
+
+<!-- Included ../zqliteash.css -->
+<STYLE TYPE="text/css">
+/* t2t --css-sugar support css
+version:
+    v0.7 2004;zoomq creat base deviantart.com
+    v0.8 070613;zoomq clean base gary,and support anchor ed Title
+*/
+body {
+  background-color : #fdfdfd;
+  font-family: Tahoma,SimSun,arial, helvetica, sans-serif; 
+  font-size: 92%;
+  /* line-height: 120%; */
+  margin: 0px;
+  padding: 0px;
+  color:#494D4A;
+}
+SUP,SUB{
+    font-size:11px;}
+a { color: #3B4A4A;
+    text-decoration:underline; 
+    }
+a:hover {color: #930;
+  text-decoration: none; 
+    }
+a:visited {color: #45544A;
+    }
+img {border: none;}
+/*"
+    "font-family: courier, monospace;
+*/
+
+pre{
+	border-left: 2px solid #AEBDCC;
+    background-color: #323232;
+    color:#9AEF3F;    
+	padding: 1em;
+	font-family: "Courier New",Georgia,helvetica, sans-serif;  
+    white-space: pre;
+/*" begin css 3 or browser specific rules - do not remove!
+	see: http://forums.techguy.org/archive/index.php/t-249849.html */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    /* end css 3 or browser specific rules */
+}
+UL,OL{
+    margin: 0em 0 0 .5em;
+	padding: 0 .25em 0em 1em;	
+    }
+/*定义声明组*/
+DL,DT{
+    margin: .25em 0 0 .25em;
+	padding: 0em 0em 0em .25em;	
+    }
+DT{font-weight:bold;
+   font-size:105%;}
+DD{
+    margin: .25em 0 0 .5em;
+	padding: 0 .25em .25em 1em;	
+    }
+ul.plain { list-style-type: none;
+           margin-left: 5px;
+           padding-left: 5px;
+         }
+H1,H2,H3,H4,H5,H6{
+ font-family: Verdana, arial, helvetica, sans-serif; 
+ text-align: left;
+ color:#5A695F;
+ margin-left : .5em;  
+ padding : 4px;
+ line-height: 1.2em;
+}
+H1 { 
+ background-color :transparent;
+ border-left : 5px solid #404E4E ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.5em;
+}
+h2 { 
+ border-left : 10px solid #526157 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.4em;
+}
+h3 {	
+ border-left : 15px solid #738278 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.3em;
+}
+
+h4 {
+ border-left : 20px solid #88938D ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.2em;
+}
+h5{	
+ border-left : 25px solid #B2B8B2 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1.1em;
+}
+h6{	
+ border-left : 30px solid #C4C8C4 ;
+ border-bottom : 1px dashed  #A9B3A9 ;
+ font-size: 1em;
+}
+
+H1 A{text-decoration:none;}
+H1 A:hover{text-decoration:overline;}
+
+H2 A{text-decoration:none;}
+H2 A:hover{text-decoration:overline;}
+
+H3 A{text-decoration:none;}
+H3 A:hover{text-decoration:overline;}
+
+H4 A{text-decoration:none;}
+H4 A:hover{text-decoration:overline;}
+
+H5 A{text-decoration:none;}
+H5 A:hover{text-decoration:overline;}
+
+/*padding:5px 15px 10px 15px;          */
+#banner {
+    font-family: "Courier New",Georgia,Verdana, arial, helvetica, sans-serif;
+    color:#CED8CE;
+    background:#25342A;
+	padding-left: 10px;
+    letter-spacing: .2em;
+    font-size:24px;
+    font-weight:bold ;
+    border-top:4px solid #738278;
+	border-bottom: 0px solid  #4A584A;
+    }
+#banner A{
+    color:#E0FFB8;
+    text-decoration:none; }
+#banner A:hover{
+    color:#DAF4DA;
+    text-decoration:overline ; }
+#banner SUP,SUB{
+    font-size:12px;
+    color:#DAE4DA;}
+#banner P#main{
+    margin: 4px;
+    padding: 4px; }
+#banner P#sub{
+    font-size:12px;letter-spacing: 5px;
+    margin: 4px;
+    padding: 4px 4px 10px 4px;}
+#banner DIV#recent {
+    border : 0px dotted #930;
+    color:#DAE4DA;
+    font-family: Georgia,arial, helvetica,sans-serif;
+    position : absolute ;
+    top: 2em;
+	left: 39%;
+    font-size:16px;
+    letter-spacing: 2px;
+    }
+/*text-transform:uppercase;*/
+#content { 
+	width: 69%;
+	position: absolute;	
+	background-color: transparence;
+	border-right: 0px dotted #4A584A;
+	margin: 0px;
+	padding: 10px 5px 10px 10px;
+    }    
+/*<h2>Mon, 23 Jan 2006</h2>*/
+h2.blosxomDate{
+    font-family: Georgia,Verdana, arial, helvetica, sans-serif;
+    text-align: right;
+    border:0px solid #2B3A3A;
+    margin: 0px 5px 5px 0px;
+    padding: 0px 15px 0px 0px;
+    border-bottom: 1px solid #2B3A3A;    }
+H3#blosxomTitle {
+    font-size: 90%;
+    border-left:4px solid #88938D;
+    border-bottom : 0px dashed  #A9B3A9 ;
+    background-color: #546359;
+    color:#A7AFA7;
+    padding: 4px;
+    margin: 5px 0px 0px 0px;
+    font-weight:normal;}
+    
+H3#blosxomTitle a { 
+    color: #DDDDD0;
+    }
+
+.blosxomStory{
+    padding: 4px; 
+    font-size: 92%;   
+    border-left:2px solid #88938D;    
+    background-color: #ECEEEC;}
+    
+.blosxomStory a { 
+    color:#835959;
+    }
+
+    /*    
+"font-family: "Courier New",Georgia,helvetica, sans-serif; 
+    */
+.blosxomStoryLinks{
+    font-size:90%;
+    padding: 2px;
+    margin: 0px;
+    border:0px dotted #2B3A3A;
+    background-color: #546359;
+    color:#A7AFA7;
+    }
+.blosxomStoryLinks a { color: #DDDDD0;
+    text-decoration:none; 
+    }
+.blosxomStoryLinks a:hover { color: #DDDDD0;
+  text-decoration: underline; 
+    }
+.blosxomStoryLinks a:visited { color: #BAC4BB;
+    }
+/*"margin: 1px 0px 2px 0px  */
+div.body {
+	margin: 0px 10px 0px 10px;
+}
+div#header {
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+	border-bottom: 0px dotted black;
+	margin: 0px;
+	padding: 0px;
+    background-color :#454545;
+}
+/*文章大标*/
+div#header H1{
+	float: left;
+	margin: 5px 5px 10px 15px;
+	padding: 5px;
+	font-size: 200%;
+    font-weight : normal;
+    color:#DAE4DA;
+    border:0px;
+}
+/*文章副标*/
+div#header H2 {
+	text-align: right;
+	margin: 0em;
+	padding: .5em .5em 0em 0em;
+	font-size: 130%;
+    font-weight : normal;
+    border:0px;
+    color:#DAE4DA;
+    border-right : 4px solid #A7AFA7;
+}
+/*文章说明*/
+div#header H3{
+	text-align: right;
+	margin: 0em;
+	padding: 0em .5em 0em 0em;
+	font-size: 13px;
+    font-weight : normal;
+    border:0px;
+    color:#D2D8D2;
+    border-bottom : 2px solid #A7AFA7;
+    border-right :   4px solid #A7AFA7;
+}
+
+div.toc {
+	float: right;	
+	background-color :#454545;
+    color:#BAC4BA;
+	border-bottom : 4px solid #A7AFA7;
+	border-left :   2px solid #A7AFA7;
+	border-right :   4px solid #A7AFA7;
+	padding: .5em 0em .5em .5em;
+	margin: -2px 0px 0px 0px;
+}
+div.toc ul {
+	padding-left: .75em;
+}
+div.toc li {
+	font-size: 12px;
+}
+div.toc a {
+	text-decoration: none;
+    color:#DAE4DA;
+}
+div.toc a:hover {
+	text-decoration: underline;
+}
+
+code{
+    font-family: "Courier New",Georgia,helvetica, sans-serif;
+    padding: .1em;
+    color:#835959;
+    font-size: 110%;
+    font-weight:bold ;
+    }
+</STYLE>
+
+</HEAD>
+<BODY>
+<A NAME="toptop"></A>
+<DIV CLASS="header" ID="header">
+<H1>金山知识管理(KsKM)思考</H1>
+<H2>-- 关于在金山推行知识管理的方案设计</H2>
+<H3>2009-04-01 22:28:28</H3>
+</DIV>
+
+<DIV CLASS="toc" ID="toc">
+  <OL>
+  <LI><A HREF="#toc1">简介</A>
+    <UL>
+    <LI><A HREF="#toc2">1.1. 概述</A>
+    </UL>
+  <LI><A HREF="#toc3">KM</A>
+    <UL>
+    <LI><A HREF="#toc4">2.1. 知识</A>
+    <LI><A HREF="#toc5">2.2. 知识管理</A>
+    <LI><A HREF="#toc6">2.3. 企业知识管理</A>
+      <UL>
+      <LI><A HREF="#toc7">2.3.1. 知识场强</A>
+      </UL>
+    </UL>
+  <LI><A HREF="#toc8">规划KM</A>
+    <UL>
+    <LI><A HREF="#toc9">3.1. 失败经验</A>
+    <LI><A HREF="#toc10">3.2. 战略思路</A>
+    <LI><A HREF="#toc11">3.3. 宏观方略</A>
+    <LI><A HREF="#toc12">3.4. 实施框架</A>
+      <UL>
+      <LI><A HREF="#toc13">3.4.1. 黄金法则</A>
+      </UL>
+    </UL>
+  <LI><A HREF="#toc14">实施KM</A>
+    <UL>
+    <LI><A HREF="#toc15">4.1. CKO 职能</A>
+    <LI><A HREF="#toc16">4.2. KM系统</A>
+      <UL>
+      <LI><A HREF="#toc17">4.2.1. CoP</A>
+      </UL>
+    <LI><A HREF="#toc18">4.3. 实施原则</A>
+      <UL>
+      <LI><A HREF="#toc19">4.3.1. 从小处作</A>
+      </UL>
+    <LI><A HREF="#toc20">4.4. 实施好点</A>
+      <UL>
+      <LI><A HREF="#toc21">4.4.1. 知识历程图</A>
+      <LI><A HREF="#toc22">4.4.2. 知识网络图</A>
+      <LI><A HREF="#toc23">4.4.3. 导师制</A>
+      <LI><A HREF="#toc24">4.4.4. 实践社团</A>
+      <LI><A HREF="#toc25">4.4.5. 事后总结</A>
+      <LI><A HREF="#toc26">4.4.6. 企业知识仓库</A>
+      <LI><A HREF="#toc27">4.4.7. 企业信息门户</A>
+      <LI><A HREF="#toc28">4.4.8. 企业Blog</A>
+      <LI><A HREF="#toc29">4.4.9. 软件过程资产库</A>
+      <LI><A HREF="#toc30">4.4.10. 专家黄页</A>
+      </UL>
+    </UL>
+  <LI><A HREF="#toc31">KM文化</A>
+    <UL>
+    <LI><A HREF="#toc32">5.1. 为什么胡萝卜加大棒不起作用</A>
+      <UL>
+      <LI><A HREF="#toc33">5.1.1. 高知员工的绩效分析</A>
+      </UL>
+    <LI><A HREF="#toc34">5.2. 学习型组织</A>
+    <LI><A HREF="#toc35">5.3. 企业文化!</A>
+    <LI><A HREF="#toc36">5.4. 评估</A>
+      <UL>
+      <LI><A HREF="#toc37">5.4.1. KMMM</A>
+      <LI><A HREF="#toc38">5.4.2. 细则</A>
+      </UL>
+    </UL>
+  <LI><A HREF="#toc39">关于</A>
+    <UL>
+    <LI><A HREF="#toc40">6.1. 参考</A>
+    </UL>
+  </OL>
+
+</DIV>
+<DIV CLASS="body" ID="body">
+<A NAME="toc1"></A>
+<H1><A href='#toptop'> 1. 简介 </A></H1>
+<UL>
+<LI>文档属主: <A HREF="http://wiki.rdev.kingsoft.net/moin/ZoomQuiet">ZoomQuiet</A>
+</UL>
+
+<DL>
+<DT>版本:</DT><DD>
+ <UL>
+ <LI>090329: ZQ 绘制关键图谱，形象的表述相关概念/策略;
+ <LI>090321: ZQ 增补正文提纲化,加入相关图书参考；
+ <LI>090314: ZQ 增补相关图片
+ <LI>090307: ZQ 创建,设定基本结构
+ </UL>
+</DL>
+
+<P>
+  本文包含知识管理的基本理论简介以及针对金山推行知识管理的简要分析以及草案,为金山CKO协同CIO推行知识管理,从个人知识管理体验提供了相关建议和参考;
+</P>
+<A NAME="toc2"></A>
+<H2><A href='#toptop'> 1.1. 概述 </A></H2>
+<P>
+本文根据最简原则,从以下几个方面快速阐述知识管理的实施:
+</P>
+ <OL>
+ <LI>概念: 从最通俗的角度,说明什么是企业知识管理;
+ <LI>规划: 从最直觉的方式,分析并指出在金山推行知识管理的策略;
+ <LI>实施: 从可行性角度,举出几种可靠的推行知识管理的思路;
+ <LI>文化: 从最终效果出发,分析长期坚持知识管理的理想成果
+ </OL>
+
+<A NAME="toc3"></A>
+<H1><A href='#toptop'> 2. KM </A></H1>
+<P>
+<CODE>Knowledge Management</CODE> ~ <B>知识管理</B>是新兴的领域,在知识经济时代,已经成为高科技企业的核心竞争力;
+</P>
+<A NAME="toc4"></A>
+<H2><A href='#toptop'> 2.1. 知识 </A></H2>
+<P>
+附图:认知识模型图谱
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/OsubillKnowMap.jpg" BORDER="0" ALT="">
+ <UL>
+ <LI>根据 <A HREF="http://www.12manage.com/methods_nonaka_seci_zh.html">SECI模型（野中郁次郎 &amp; 竹内弘高）</A> 得出的知识螺旋;
+ </UL>
+</UL>
+
+<UL>
+<LI>知识从来不是名词!
+<LI>知识只能是一系列复杂的社会和心理活动;
+<LI>表现出来的效果是:
+ <OL>
+ <LI>知晓已知
+ <LI>识别未知
+ </OL>
+</UL>
+
+<A NAME="toc5"></A>
+<H2><A href='#toptop'> 2.2. 知识管理 </A></H2>
+<P>
+<CODE>知识管理主要学派对的基点认识</CODE>:
+</P>
+<OL>
+<LI>技术学派: KM是对信息的管理;
+<LI>行为学派: KM是对人的管理;
+<LI>综合学派: KM是将信息处理能力和人的创造力结合,增强组织对环境的适应能力;
+<P></P>
+当前整个领域趋向于统一到<CODE>综合学派</CODE>的研究方向;
+<P></P>
+附图:知识流转循环图谱
+</OL>
+
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/kmtranfer2.gif" BORDER="0" ALT="">
+<LI>核心关注的问题域是:
+ <OL>
+ <LI>如何加速知识从显性知识到隐性知识的转化速度?!
+ <LI>如何加速知识从隐性知识到显性知识的输出速度?!
+ <LI>如何加速知识从积累到再创造的循环速度?!
+ </OL>
+</UL>
+
+<A NAME="toc6"></A>
+<H2><A href='#toptop'> 2.3. 企业知识管理 </A></H2>
+<P>
+<CODE>知识是用于生产的信息（有意义的信息）。</CODE>
+</P>
+ <UL>
+ <LI>－－1998年，世界银行《1998年世界发展报告－知识促进发展》
+ </UL>
+
+<P>
+企业内部的知识由于以下特性而难于被管理：
+</P>
+ <OL>
+ <LI>惊人的可有多次利用率和不断上升的回报。
+ <LI>散乱、遗漏和更新需要。
+ <LI>不确定的价值。
+ <LI>不确定的利益分成。
+ </OL>
+
+<P></P>
+<P>
+但是企业实施知识管理的收益是确切的::
+</P>
+<P>
+附图:企业知识管理的驱动因素
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/KMsys-pattern-want.png" BORDER="0" ALT="">
+</UL>
+
+<UL>
+<LI>和一般意义的知识管理类似,在企业内部实施知识管理也面临着同样的基础问题域;
+<LI>而且在企业,特别是高科技企业内部,<CODE>知识的价值决定于知识分享的速度！</CODE>
+</UL>
+
+<A NAME="toc7"></A>
+<H3><A href='#toptop'> 2.3.1. 知识场强 </A></H3>
+<P>
+在一个组织内部,各个成员掌握的知识领域和程度的不同,以及其它因素,导致每个知识节点有不同的<CODE>知识场强</CODE>;
+</P>
+<UL>
+<LI>其分析的基本公式是:
+<LI><CODE>EK(g,p,s)</CODE>
+ <UL>
+ <LI>物理距离 geography distance
+ <LI>心理距离 psychology distance
+ <LI>知识距离 knowlefge distance
+ </UL>
+<LI>企业知识管理,就是要尽量缩短每个知识节点间的各种<CODE>"距离"</CODE> 加速知识的流通!
+</UL>
+
+<A NAME="toc8"></A>
+<H1><A href='#toptop'> 3. 规划KM </A></H1>
+<P>
+附图:知识管理理解公式
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/KMap-0.8.png" BORDER="0" ALT="">
+</UL>
+
+<A NAME="toc9"></A>
+<H2><A href='#toptop'> 3.1. 失败经验 </A></H2>
+<P>
+<CODE>在世界范畴内的企业,实施知识管理失败的例子不在少数</CODE>,但是归结到底都是因为对KM的理解偏差:
+</P>
+<DL>
+<DT>常见KM误解:</DT><DD>
+    <OL>
+    <LI>知识管理是关于知识的
+     <UL>
+     <LI>知识管理系统应该把关注的焦点放在快速增长、改善运营和增加利润空间上。
+     </UL>
+    <LI>知识管理是关于技术的
+     <UL>
+     <LI>知识管理不是一个单纯技术项目，它必须能够适应快速变化的商业环境。
+     </UL>
+    <LI>知识管理是万能的
+     <UL>
+     <LI>知识管理不可能一天就解决所有的信息问题，应该从小处开始逐步取得成效。
+     </UL>
+    <LI>知识管理的目标是建立一个文档库
+     <UL>
+     <LI>知识管理不仅仅是为了保存信息，更重要的是要利用知识帮助企业做出更好的决策。
+     </UL>
+    <LI>能买到一个现成的系统
+     <UL>
+     <LI>知识管理的工具繁多，核心问题是怎样把这些工具和你的成长，运营和技术战略进行集成。
+     </UL>
+    <LI>知识管理就是控制知识
+     <UL>
+     <LI>知识管理不是为了控制知识，而是要努力培育一种分享知识的企业文化。
+     </UL>
+    <LI>做好之后，他们就会用的
+     <UL>
+     <LI>知识管理的成功应用，必须得到高层领导的坚定支持并配合鼓励知识共享的企业制度。 
+     </UL>
+    </OL>
+</DL>
+
+<DL>
+<DT>常见失败因素:</DT><DD>
+ <OL>
+ <LI>没有获得高层领导的支持
+ <LI>由上而下进行的项目，没有底层的参与
+ <LI>忽略在人事和技术上的后续支出
+ <LI>选择错误的技术解决方案
+ <LI>没有预先设定运营的目标
+ <LI>选择错误的顾问公司
+ <LI>错误的衡量过程
+ <LI>制定宽泛的策略，无法完全实现
+ <LI>忽略用户的因素
+ <LI>缺乏实施后的持续改进
+ </OL>
+</DL>
+
+<A NAME="toc10"></A>
+<H2><A href='#toptop'> 3.2. 战略思路 </A></H2>
+<P>
+<CODE>知识管理战略必须支持经营战略，并且超越经营战略。</CODE>--CKO Summit 2000
+</P>
+<P>
+附图:知识管理战略结构图谱
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/km-com-structure.png" BORDER="0" ALT="">
+<P></P>
+</UL>
+
+<DL>
+<DT>基本思路:</DT><DD>
+ <OL>
+ <LI>把知识管理作为组织经营战略
+ <LI>对<CODE>高知成员</CODE>实施针对性的管理政策
+ <LI>知识转移和最优实践活动
+ <LI>建立并实施以客户为重点的知识战略
+ <LI>建立组织成员对知识的责任感
+ <LI>建立并实施无形资产管理战略
+ <LI>建立并实施技术创新和知识创造战略
+ </OL>
+</DL>
+
+<P>
+<I>资料来源：美国生产力与质量研究中心</I>
+</P>
+<A NAME="toc11"></A>
+<H2><A href='#toptop'> 3.3. 宏观方略 </A></H2>
+<P>
+附图:以知识基础为基础的公司发展路线
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/KMsys-pattern-roadmap.png" BORDER="0" ALT="">
+<LI>企业实施KM是个长期的活动,要有明确的方向,并不断调整
+<LI>对于以高科技为核心的知识型企业需要对企业KM 的阶段有明确的认识
+</UL>
+
+<A NAME="toc12"></A>
+<H2><A href='#toptop'> 3.4. 实施框架 </A></H2>
+<P>
+附图:知识管理实施框架图谱
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/KMsys-pattern-design.png" BORDER="0" ALT="">
+</UL>
+
+<DL>
+<DT>0.定义目标:</DT><DD>
+ <UL>
+ <LI>启动KM,首先要根据公司战略识别出KM战略目标
+ <LI>问答以下核心问题:
+  <OL>
+  <LI>"我们希望达到的目的地是哪里?"
+  <LI>"我们目前所处的位置在哪里?"
+   <UL>
+   <LI>即,对企业KM现状的审视,包含:
+    <OL>
+    <LI>角色
+    <LI>文化
+    <LI>过程
+    <LI>内容
+    <LI>技术
+    </OL>
+   </UL>
+  </OL>
+ </UL>
+</DL>
+
+<DL>
+<DT>1. 确认组织的反应:</DT><DD>
+ <UL>
+ <LI>回答以下核心问题:
+  <UL>
+  <LI>"我们要如何才能从目前位置达到目标?"
+  </UL>
+ <LI>即,将KM战略正式化,给出计划;
+ <LI>关键任务是完成一个或是多个有针对性的业务案例,以便提供特定的基础,开展改进
+ </UL>
+</DL>
+
+<DL>
+<DT>2. 规划愿景:</DT><DD>
+ <UL>
+ <LI>集中于变革的5要素:
+  <OL>
+  <LI>领导
+  <LI>人员
+  <LI>流程
+  <LI>技术
+  <LI>信息
+  </OL>
+ <LI>认真考虑每一特定领域内的细节,集中关注每个领域内存在的问题与机会,建立一综合性的有效实施规划;
+ </UL>
+</DL>
+
+<DL>
+<DT>3. 实现愿景:</DT><DD>
+ <UL>
+ <LI>试点,总结经验,不断的宣传,在不同层级实施不同方式的KM;
+ <LI>修正日常工作行为
+ </UL>
+</DL>
+
+<DL>
+<DT>4. 永不停息:实现收益:</DT><DD>
+ <UL>
+ <LI>关注收益管理,加强每个成功案例,增补每个失败案例;
+ <LI>对愿景持续改进,坚持实施,形成文化!
+ </UL>
+</DL>
+
+<A NAME="toc13"></A>
+<H3><A href='#toptop'> 3.4.1. 黄金法则 </A></H3>
+<OL>
+<LI>对预期的收益有清醒的看法
+<LI>摒弃短期行为,关注长期目标
+<LI>缺乏领导,万事不成!
+<LI>流程变化会提高业绩
+<LI>组织学习带来组织成功!
+</OL>
+
+<A NAME="toc14"></A>
+<H1><A href='#toptop'> 4. 实施KM </A></H1>
+<P>
+<B>在<CODE>正确的时间</CODE>，将<CODE>正确的知识</CODE>，以<CODE>正确的方式</CODE>传递给<CODE>正确的人</CODE>，并且帮助接收者利用已获得的知识，取得<CODE>可衡量</CODE>的提高!</B>
+</P>
+<P>
+附图:ERP和EKP对比
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/ekp-erp.jpg" BORDER="0" ALT="">
+</UL>
+
+<A NAME="toc15"></A>
+<H2><A href='#toptop'> 4.1. CKO 职能 </A></H2>
+<P>
+<CODE>CKO 是引导者,CKO一定不是CIO</CODE>
+</P>
+<UL>
+<LI>核心任务是:
+ <OL>
+ <LI>帮助员工成长
+ <LI>为领导者提供决策支持
+ <LI>制定企业知识政策
+  <UL>
+  <LI>用KM技术/系统
+  <LI>组织专职人员引导
+  <LI>形成知识分享氛围和流程
+  </UL>
+ </OL>
+<LI>CKO 一定要熟悉IT技术,但是关注的领域远远超过CIO关注的领域,不应该合用一人 <I>(会太累)</I>
+</UL>
+
+<A NAME="toc16"></A>
+<H2><A href='#toptop'> 4.2. KM系统 </A></H2>
+<P>
+附图:知识管理平台流程结构图
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/KMsys-pattern-process.png" BORDER="0" ALT="">
+</UL>
+
+<P>
+应该具备以下几种技术要素:
+</P>
+<UL>
+<LI>门户技术
+<LI>搜索引擎动技术
+<LI>协作技术
+<LI>E-Learning技术
+<LI>商业智能技术
+<LI>内容管理技术
+<LI>集成技术
+</UL>
+
+<P>
+附图:知识管理平台功能结构图
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/KMsys-pattern-functions.png" BORDER="0" ALT="">
+<P></P>
+</UL>
+
+<DL>
+<DT>但是不一定要买:</DT><DD>
+ <UL>
+ <LI>因为没有企业是相同的
+ <LI>没有什么软件是可以通用到任何企业都契合的
+ <LI>只有靠谱的使用才能够形成价值
+ </UL>
+</DL>
+
+<P>
+附图:<A HREF="http://www.12manage.com/methods_nonaka_seci_zh.html">SECI模型</A>知识管理系统关系图谱
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/KMsys-pattern-mapping.png" BORDER="0" ALT="">
+</UL>
+
+<A NAME="toc17"></A>
+<H3><A href='#toptop'> 4.2.1. CoP </A></H3>
+<P>
+CoP (Community of Practise) -- 实践型社区 
+</P>
+<UL>
+<LI>是基于共同兴趣、爱好，按照对话和协作的方式自由组织和建立的专项社区。在社区中，人们的加入和工作都是基于对话和协商，并在每次知识性交流后及时开展行动。所以CoP首先是一个知识性的社区，人们通过贡献分享知识联系在一起，并通过共同创造达成快速和富有成效的产出
+<LI>企业内部基于任务形成"实践型社区" 是孵化面向知识共享的企业文化的杀手型措施!
+<LI>上节图谱中,标识出的 CoP ,是加速知识从隐性知识在组合应用/创新的同时,完成外化并传播开的核心;
+</UL>
+
+<A NAME="toc18"></A>
+<H2><A href='#toptop'> 4.3. 实施原则 </A></H2>
+<P>
+在企业内部实施KM,必须注意<CODE>平衡原则</CODE>
+</P>
+<UL>
+<LI><CODE>任何对公司有益的东西,都必然会有危害</CODE> ~ 知识管理也一样
+ <UL>
+ <LI>知识管理也是企业内部一个过程,可以使用过程改进的研究成果来辅助推动;
+ </UL>
+<LI>因为知识管理带来的是长期效应,在短期实施过程中,必然需要成员付出额外的工作,怎么补偿就成为实施KM成功与否的关键;
+<LI>如果能够抵消知识管理带来的多余负担, 实施就会成功!
+</UL>
+
+<A NAME="toc19"></A>
+<H3><A href='#toptop'> 4.3.1. 从小处作 </A></H3>
+<P>
+<CODE>先解决急需KM支持的领域工作</CODE>
+</P>
+<UL>
+<LI>实施过程中的每一步都应该力求解决实际的问题,带来可观的收益,从而成为KM实施的动力;而不能简单的使用行政手段强行推广;
+<LI>识别出各个关键业务部门的核心流程中需要KM支持的点,逐一改进并解决, 例如:
+ <OL>
+ <LI>客服部门的FAQ系统
+ <LI>产品部门的市场情报管理
+ <LI>开发部门的开发资料仓库
+ <LI>测试部门的测试用例仓库
+ <LI>管理部门的PAL(软件过程资产库)
+ <LI>...
+ </OL>
+</UL>
+
+<A NAME="toc20"></A>
+<H2><A href='#toptop'> 4.4. 实施好点 </A></H2>
+<P>
+<CODE>可以从解决实际问题出发,先用分散的专用的系统/流程将离散的知识先一点点收集/管理/流通起来</CODE>
+</P>
+<A NAME="toc21"></A>
+<H3><A href='#toptop'> 4.4.1. 知识历程图 </A></H3>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>知识历程图(Knowledge Storyboard)，是指在企业的业务循环中，支持流程所需的知识以及参与其中的人的图表。
+ <P></P>
+ </UL>
+<DT>优势:</DT><DD>
+ <UL>
+ <LI>将人、流程和知识有机地结合在一起。
+ <P></P>
+ </UL>
+<DT>实施步骤:</DT><DD>
+ <OL>
+ <LI>了解业务流程的运作
+ <LI>分解业务流程的关键事件点
+ <LI>找出每个事件点的相关人员
+ <LI>找出每个事件点的相关知识
+ </OL>
+</DL>
+
+<A NAME="toc22"></A>
+<H3><A href='#toptop'> 4.4.2. 知识网络图 </A></H3>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>知识网络图(Knowledge Network)，是将知识按照方便使用和管理的原则进行分类，建立中心知识和围绕中心知识的卫星知识。
+ <P></P>
+ </UL>
+<DT>优势:</DT><DD>
+ <UL>
+ <LI>将流程中的各个知识点联系在一起。
+ <P></P>
+ </UL>
+<DT>实施步骤:</DT><DD>
+ <OL>
+ <LI>确认中心知识内容
+ <LI>分解卫星知识内容
+ <LI>为每个卫星知识配备负责
+ </OL>
+</DL>
+
+<A NAME="toc23"></A>
+<H3><A href='#toptop'> 4.4.3. 导师制 </A></H3>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>导师制(Trainer-Trainee System, TTS)，是指为每一位新员工有针对性地指定一位导师，导师通过正式与非正式的途径将自己的知识传授给新员工，使新员工能够在新的工作岗位上更好的适应和发展。
+ <P></P>
+ </UL>
+<DT>优势:</DT><DD>
+ <OL>
+ <LI>为企业提供人才保障
+ <LI>增加同事亲和力和团队凝聚力
+ <LI>有助于隐形知识转化为显性知识
+ <P></P>
+ </OL>
+<DT>实施步骤:</DT><DD>
+ <OL>
+ <LI>确定导师和被培养对象的资格
+ <LI>确定培养方向、方法、内容和课题
+ <LI>考核和优化
+ </OL>
+</DL>
+
+<A NAME="toc24"></A>
+<H3><A href='#toptop'> 4.4.4. 实践社团 </A></H3>
+<P>
+<CODE>杀手级措施</CODE>
+</P>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>实践社团(Community of Parctice, Cop)，是指为分享知识和情感所组成的非正式团体。
+ <P></P>
+ </UL>
+<DT>优势:</DT><DD>
+ <OL>
+ <LI>有利于情感的交流
+ <LI>有利发掘个人的隐性知识
+ <LI>有利于知识的共享和创新
+ <LI>有利于提升凝聚力
+ <LI>有利于发现和吸引人才
+ <P></P>
+ </OL>
+<DT>实施步骤:</DT><DD>
+ <OL>
+ <LI>明确社团关注的领域
+ <LI>明确社团的核心价值
+ <LI>选择社团促进者协调社团的活动
+ <LI>吸引成员加入社团
+ <LI>通过实践分享知识
+ </OL>
+</DL>
+
+<A NAME="toc25"></A>
+<H3><A href='#toptop'> 4.4.5. 事后总结 </A></H3>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>事后总结(After Action Reviews, AAR)，是指通过总结过去成功和失败的经验教训，改进未来的表现。
+ </UL>
+</DL>
+
+<DL>
+<DT>优势:</DT><DD>
+ <OL>
+ <LI>有利于获取隐性知识并将其转化为显性知识
+ <LI>有利于诊断和评估个人及团队的表现
+ <LI>有利于提高发现和总结知识的能力
+ <LI>有利于培养团队的学习精神
+ </OL>
+</DL>
+
+<DL>
+<DT>实施步骤:</DT><DD>
+ <OL>
+ <LI>及时地召开总结会议
+ <LI>营造良好的讨论氛围
+ <LI>指定一个推动者
+ <LI>重新审视项目目标和交付物
+ <LI>寻找项目成功或失败的原因
+ <LI>确保所有参与会议者都充分发表了自己的意见
+ <LI>总结改进的措施
+ <LI>记录事后总结会议的内容
+ <LI>分享从事后总结会议中获得的知识
+ </OL>
+</DL>
+
+<A NAME="toc26"></A>
+<H3><A href='#toptop'> 4.4.6. 企业知识仓库 </A></H3>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>企业知识仓库(Enterprise Knowledge Repository, EKR)，是指将企业的所有显性知识集成到一个知识管理平台之上，并以统一的用户界面提供给用户，使企业可以快速地建立企业对企业和企业对内部员工的知识使用门户
+ </UL>
+</DL>
+
+<DL>
+<DT>优势:</DT><DD>
+ <OL>
+ <LI>提供统一的知识访问渠道
+ <LI>提供不间断的知识沟通平台
+ <LI>提供强大的内容管理能力
+ <LI>提供个性化的应用服务
+ <LI>提供协作创新的平台
+ <P></P>
+ </OL>
+<DT>实施步骤:</DT><DD>
+ <OL>
+ <LI>EKR的规划
+ <LI>EKR产品和供应商的选择
+ <LI>EKR的实施
+ <LI>EKR的持续改进
+ </OL>
+</DL>
+
+<A NAME="toc27"></A>
+<H3><A href='#toptop'> 4.4.7. 企业信息门户 </A></H3>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>企业信息门户(Enterprise Information Portal, EIP)，是指将企业的所有应用和数据集成到一个信息管理平台之上，并以统一的用户界面提供给用户，使企业可以快速地建立企业对企业和企业对内部员工的信息门户。
+ </UL>
+</DL>
+
+<DL>
+<DT>优势:</DT><DD>
+ <OL>
+ <LI>提供统一的信息访问渠道
+ <LI>提供不间断的服务
+ <LI>提供强大的内容管理能力
+ <LI>提供个性化的应用服务
+ <LI>提供协作工作的平台
+ </OL>
+</DL>
+
+<DL>
+<DT>实施步骤:</DT><DD>
+ <OL>
+ <LI>EIP的规划
+ <LI>EIP产品和供应商的选择
+ <LI>EIP的实施
+ <LI>EIP的持续改进
+ </OL>
+</DL>
+
+<A NAME="toc28"></A>
+<H3><A href='#toptop'> 4.4.8. 企业Blog </A></H3>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>企业Blog（Corporate Blogging），是企业创建和维护的Blog系统。既可以是面向内部的，也可以是面向外部的。由于操作简便，用户参与度高，可以用于知识分享和沟通交流。
+ </UL>
+</DL>
+
+<DL>
+<DT>优势:</DT><DD>
+ <OL>
+ <LI>使用方便
+ <LI>可以快速的发布信息
+ <LI>使用基于会话和主题的交流方式
+ <LI>可以及时地获得反馈和建议
+ <LI>能够提高客户满意度
+ </OL>
+</DL>
+
+<DL>
+<DT>实施步骤:</DT><DD>
+ <OL>
+ <LI>创建公开和透明的企业文化
+ <LI>部署Blog系统
+ <LI>积极回应从Blog反馈的信息
+ <LI>创建鼓励Blog的激励制度
+ <LI>将Blog变成日常工作的组成部分
+ </OL>
+</DL>
+
+<A NAME="toc29"></A>
+<H3><A href='#toptop'> 4.4.9. 软件过程资产库 </A></H3>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>PAL - Process Asset Library.为创建和维护工作产品和任务提供支持，这些工作产品和任务用于建立和维护过程资产。
+ </UL>
+</DL>
+
+<DL>
+<DT>实施:</DT><DD>
+ <OL>
+ <LI>为创建工作产品和任务提供赞助和资源，这些工作产品和任务用于建立和维护一组过程资产。
+  <UL>
+  <LI>→ 对建立和维护过程资产的支持通常包括创建一个负责这些任务的过程组。这个过程组的角色应该在组织中得到广泛传达，这样，员工就会对过程管理是如何执行的以及应该如何与过程组交互（例如，提交改进建议），有一个清晰的理解。
+  <LI>使利益相关者适当地参与到创建、改进、评审和批准工作产品和任务中。
+  <LI>适当地维护和改进工作产品和任务
+  </UL>
+ <LI>文档化工作产品和任务，这些工作产品和任务是建立和维护过程资产所需的。文档化包括如下活动：
+  <UL>
+  <LI>识别和建立所需的过程资产。
+   <UL>
+   <LI>a) 基于组织目标，识别需要建立和维护哪些过程资产。
+   <LI>b) 识别每一个过程资产的利益相关者。
+    <UL>
+    <LI>→利益相关者包括高级管理层、契约经理、过程所有者、过程使用者、过程消费者、客户、供应商和合作伙伴。
+    <LI>→ 管理层要做的事情包括：建立政策，赞助过程管理，以角色榜样的身份传达过程规则和改进对组织是重要的。供应商和合作伙伴可能通过执行过程中的任务、同过程进行交互或者支持过程，来对过程产生影响。过程消费者对过程是否可以完成战术目标提供非常重要的反馈。客户在更高的战略层就过程是否可以充分处理客户需要方面提供反馈。
+    </UL>
+   <LI>c) 识别对协调创建、维护和改进过程资产负责任的过程所有者。
+    <UL>
+    <LI>→ 过程所有者应该在定义和改进过程资产方面与过程使用者协调。一般性的建议是：从“原样（As is）”过程开始，通过与过程使用者协调，过渡到“应该是（Should be）”过程。
+    </UL>
+   <LI>d) 识别与已识别出的过程资产相关的知识产权所有权和约束。
+   <LI>e) 识别和获取建立和维护过程资产所需的工具。
+   <LI>f) 建立已识别出的过程资产。
+   </UL>
+  <LI>建立一个度量库来保存为过程资产收集来的数据。
+  <LI>使过程资产和数据对利益相关者是可用的。
+   <UL>
+   <LI>→ 培训和传达是部署过程资产和变更过程资产的重要方面。
+   </UL>
+  <LI>建立裁剪指南，为何时可以适当和允许对特定契约的过程资产进行裁剪建立参数。
+   <UL>
+   <LI>→ 裁剪指南为裁剪过程资产建立了约束条件：对一个文档化的过程哪些添加、删除、变更是被允许做的。
+   </UL>
+  <LI>适当地评审过程资产的裁剪。
+   <UL>
+   <LI>→ 区分“裁剪”和“改进”的概念是十分重要的。裁剪变更是为了解决某一组特定需要而进行的。例如，如果只有一个契约涉及合包，那么，为解决非雇员访问受限数据的问题，这个契约可能需要修改安全规程。这个变更只在一个契约中发生，因为这种情况对它是特殊的。相反，对组织过程资产的改进是基于组织的学习而进行的修改，它将对未来使用这个过程资产的任何组都有益。例如，为了解决以前没有跟踪的一类新威胁而修改一个安全规程。
+   </UL>
+  </UL>
+ <LI>使用文档化的工作产品和任务，创建和维护一套过程资产。
+  <UL>
+  <LI>向利益相关者传达任务以及工作产品的可用性和位置。
+  <LI>为有效执行工作提供资源。
+  <LI>向胜任的员工分配执行工作的责任、权力、义务。
+  <LI>向利益相关者传达计划好的行动及其结果。
+  <LI>验证工作是否跨组织得到一致而有效地执行。
+   <UL>
+   <LI>→ 应该评估过程的成效性和高效性。评估应该包括对照契约和组织目标进行度量。它可能也包括对照一个标准，例如质量模型，进行度量。
+   </UL>
+  </UL>
+ </OL>
+</DL>
+
+<A NAME="toc30"></A>
+<H3><A href='#toptop'> 4.4.10. 专家黄页 </A></H3>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>专家黄页（Experts Yellow Page），是将专家的详细资料和掌握的知识列示在黄页上，方便有需要的员工在适当的时间找到适当的人并获得适当的知识。
+ <P></P>
+ </UL>
+<DT>优势:</DT><DD>
+ <OL>
+ <LI>可以加强员工间的沟通与合作
+ <LI>发现和充分利用员工的知识
+ <LI>增强员工的成就感
+ </OL>
+</DL>
+
+<DL>
+<DT>实施步骤:</DT><DD>
+ <OL>
+ <LI>收集员工的信息
+ <LI>按知识领域对员工分类并识别出专家
+ <LI>创建具有强大分类和搜索功能的黄页系统
+ <LI>提供利于合作的技术和流程
+ <LI>对专家进行认证和激励
+ </OL>
+</DL>
+
+<A NAME="toc31"></A>
+<H1><A href='#toptop'> 5. KM文化 </A></H1>
+<P>
+<CODE>知识管理乃是培育可催生自学习型组织的企业文化!</CODE>
+</P>
+<A NAME="toc32"></A>
+<H2><A href='#toptop'> 5.1. 为什么胡萝卜加大棒不起作用 </A></H2>
+<P>
+<I>一般说,企业内部的奖罚政策都不能很好的调动成员的创造力:</I>
+</P>
+<P>
+附图:动力因素象限图谱
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/motivation.jpg" BORDER="0" ALT="">
+</UL>
+
+<DL>
+<DT>外来的激励不会起作用:</DT><DD>
+ <OL>
+ <LI>这种激励不能持续。一旦惩罚或者奖励没有了，动力也就没有了。
+ <LI>回报逐渐消减。要想得到始终如一的动力，必须不断加大惩罚或者奖励的力度。
+ <LI>对培养内在的激励有害。惩罚和奖励会磨去大家的主动性。再想让大家干什么，一定得逼着哄着。
+ <P></P>
+ </OL>
+<DT>负面的激励不会起作用:</DT><DD>
+ <OL>
+ <LI>心脏病人被告知：不许吃垃圾食品，不许抽烟喝酒，不许工作太累，否则就是死路一条。这算得上是绝对得负面激励了。两年以后，猜猜多少人接受了建议改变了生活方式？只有10%。
+ <LI>面对负面的激励，十个有九个不会改变。连死亡的威胁都不会起作用。
+ </OL>
+</DL>
+
+<DL>
+<DT>到底要怎样激励？:</DT><DD>
+ <UL>
+ <LI>外部激励和负面激励都不起作用，剩下只有一个选择，就是自我激励了。
+ <LI>如何才能形成自我激励？下面有一些创造和维持自我激励的因素：
+  <OL>
+  <LI>挑战－挑战自己，完成新工作。
+  <LI>控制权－对自己可以做什么工作有选择的权利。
+  <LI>合作－和别人一起工作，互相帮助。
+  <LI>认可－自己的工作得到有意义的正面的认可。
+  </OL>
+ <LI>另外还有：
+  <OL>
+  <LI>愉快的工作环境。
+  <LI>信任。
+  </OL>
+ </UL>
+</DL>
+
+<A NAME="toc33"></A>
+<H3><A href='#toptop'> 5.1.1. 高知员工的绩效分析 </A></H3>
+<P>
+附图:高知员工绩效体系
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/hkm-target-sys.png" BORDER="0" ALT="">
+</UL>
+
+<DL>
+<DT>高知员工定义:</DT><DD>
+ <UL>
+ <LI>高知识含量员工的基本特性:
+  <OL>
+  <LI>异质性: 主要工作内容是运用自身知识进行创造性工作;
+  <LI>风险性: 自身知识的积累和投资具有高风险性,即使公司稳定,但是由于策略的变化,可能导致员工本身含有的知识体系过时,而告成失业!
+  <LI>流动性: 高知员工的工作选择是自身人力资本最大化实现和最大化增长的主要动力;
+  <LI>自主性: 高知员工本身收入已经足够高到主要的追求是自我实现,而不是物质,所以,追求社会尊重和自身的技术发展是其高度自主的方面;
+  </OL>
+ </UL>
+</DL>
+
+<DL>
+<DT>管理高知员工:</DT><DD>
+ <UL>
+ <LI>高知员工在高科技公司是核心资产:
+  <UL>
+  <LI>高知员工是知识创新的源泉
+  <LI>高知员工决定了企业物理设备/正式规则和常规
+  <LI>模糊知识的传递依赖高知员工
+  <LI>组织知识获取决定于高知员工的知识存量
+  <LI>高知员工是组织记忆重要的知识存储器
+  </UL>
+ <LI>所以,对高知员工的有效管理,直接影响企业的知识管理成效
+ </UL>
+</DL>
+
+<A NAME="toc34"></A>
+<H2><A href='#toptop'> 5.2. 学习型组织 </A></H2>
+<DL>
+<DT>定义:</DT><DD>
+ <UL>
+ <LI>是一个能熟练创造/获取和传递知识的组织,同时也要善于修正自身的行为,以适应新的知识和见解
+ </UL>
+</DL>
+
+<DL>
+<DT>解析:</DT><DD>
+ <UL>
+ <LI>组织学习是指通过更加先进的知识和更加透彻的理解来改善活动的过程 ~ <I>Acadmeny of Management Review,Oct. 1985</I>
+ <LI>在处理信息的过程中,如果一个组织的潜在行为发生了文化,我们就说这个组织是在学习 ~ <I>Organization Science. Feb. 1991</I>
+ <LI>组织学习就是一个发现错误并修正错误的过程~<I>Haverd Business Review,Sep.-Oct. 1997</I>
+ <LI>组织学习是通过共享信息/知识和精神模式形成的...并建立在过去的知识和经验即记忆基础上 ~ <I>Sloan Management Revire, Spr.1989</I>
+ </UL>
+</DL>
+
+<DL>
+<DT>建立学习型组织:</DT><DD>
+ <UL>
+ <LI>3M 原则:
+  <OL>
+  <LI><CODE>M</CODE>eaning ~ 定义, 必须有令人信服的,可操作的易于应用的;
+  <LI><CODE>M</CODE>anagement ~ 管理, 为建立实践树,给出清晰的指导原则;
+  <LI><CODE>M</CODE>easurement ~ 评估,需要好的工具来确定组织的学习效率和水平,以确保组织真正在取得进步!
+  </OL>
+ </UL>
+</DL>
+
+<A NAME="toc35"></A>
+<H2><A href='#toptop'> 5.3. 企业文化! </A></H2>
+<P>
+附图:知识管理对象转化关系图谱
+</P>
+<UL>
+<LI><IMG ALIGN="middle" SRC="pic/kmzl2.jpg" BORDER="0" ALT="">
+</UL>
+
+<P>
+所以,在高科技企业内部,方面领域知识,可能就等于高工资,这种情况下如何激励成员勇于分享知识,进而加速企业内部的知识流通速度,加速创新成果的产生?!
+`` 只能是文化! ``
+</P>
+<DL>
+<DT>究竟什么是企业文化?:</DT><DD>
+ 可以从7个方面来定义:
+  <OL>
+  <LI>《辞源》对文化的解释是“文治和教化”，“文”是慢慢积累的意思，所以企业文化是无法一蹴而就的。  
+  <LI>企业文化是企业的个性：团体的共同信仰、价值观和行为。
+  <LI>企业文化是象征的、整体的、惟一的、稳定的、难于改变的。
+  <LI>企业文化既有有形的部分，也有无形的部分，是由有意识学习与无意识学习组成的，不是书面的理想、愿景和使命，而是日常的实务、沟通和信仰。
+  <LI>简单地说，它是在一个企业里事情如何做好。
+  <LI>企业文化还可以看做一个循环、哲学表达价值，价值体现于行为上、行为说明哲学。
+  <LI>企业文化也可以看作一个系统
+  </OL>
+</DL>
+
+<DL>
+<DT>企业文化现象有哪些:</DT><DD>
+ 同样有七个方面：
+ <OL>
+ <LI>风俗、习惯、舆论，不同地域的风俗、习惯、舆论，有可能成为这个地方的企业的文化现象。
+ <LI>思维方式;以一个事例来说东西方思维方式的不同：美国人和日本人一同遇到狮子时，日本人把鞋带系紧准备跑，美国人就嘲笑日本人：“你跑得过狮子吗？”日本人回答：“我只要跑得过你就行！”
+ <LI>行为准则。美国人在办企业时，利字当头，而日本人则更讲究忠诚。
+ <LI>价值观念。主要有利润价值观和服务价值观两个方面。
+ <LI>精神境界。
+ <LI>作风。有的企业推行强势管理，有的企业倡导“仁”字。
+ <LI>待人艺术
+ <P></P>
+ </OL>
+<DT>企业文化有哪些要素?:</DT><DD>
+ 企业文化包含五个要素：
+ <OL>
+ <LI>地域观, 不同的地方有可能产生不同的企业文化，正所谓“一方水土养一方人”。
+ <LI>价值观，这是企业文化的核心。
+ <LI>英雄人物，即企业的灵魂人物，“物以类聚、人以群分”，什么样的领导就可能带出什么样的一帮下属。
+ <LI>习俗与仪式;
+ <LI>文化网络。企业内部的信息是通过什么样的渠道在传送，这就形成了网络，而文化网络一旦形成，较难改变，除非继任者强行推翻它
+ <P></P>
+ </OL>
+<DT>如何识别企业文化?:</DT><DD>
+ 可以从十个方面进行识别：
+ <UL>
+ <LI>一是识别工作团队的态度、行为偏好和工作环境。
+ <LI>二是要同时观看有形的和无形的。
+ <LI>三是看建筑物、办公室、店面和公众形象、公众关系。
+ <LI>四是看真正的报酬结构。
+ <LI>五是看建筑和设计。
+ <LI>六是看服饰。
+ <LI>七是看组织过程和结构。
+ <LI>八是看仪式、象征和庆祝方式。
+ <LI>九是看常用语言和口头禅。
+ <LI>十是看标志、宣传文件和宣传标语等。  
+ </UL>
+</DL>
+
+<A NAME="toc36"></A>
+<H2><A href='#toptop'> 5.4. 评估 </A></H2>
+<A NAME="toc37"></A>
+<H3><A href='#toptop'> 5.4.1. KMMM </A></H3>
+<P>
+<CODE>KnowledgeManagementMaturityModel</CODE> ~ 知识管理成熟度模型:
+</P>
+<TABLE BORDER="1">
+<TR>
+<TH>层次</TH>
+<TH>内容</TH>
+</TR>
+<TR>
+<TD>5</TD>
+<TD>组织的知识/政策/实践和优化了的活动的不断改进</TD>
+</TR>
+<TR>
+<TD>4</TD>
+<TD>管理过程包含细化的KM质量措施;组织调整其员工实践活动来激励和支持社区知识竞争力的开发</TD>
+</TR>
+<TR>
+<TD>3</TD>
+<TD>对核心业务过程中规定地的知识要求进行整理/标准化,并为组织整合成为一个标准过程(找出差距)</TD>
+</TR>
+<TR>
+<TD>2</TD>
+<TD>有可重复的创造/利用和共享知识的机制,清晰的构成业务和开发计划</TD>
+</TR>
+<TR>
+<TD>1</TD>
+<TD>有专门措施来支持知识获得和再利用的过程</TD>
+</TR>
+</TABLE>
+
+<A NAME="toc38"></A>
+<H3><A href='#toptop'> 5.4.2. 细则 </A></H3>
+<P>
+最终KM实施效果可以从以下几个方面评估：
+</P>
+<OL>
+<LI>人力资本
+ <UL>
+ <LI>培训费用
+ <LI>组织学习
+ <LI>员工忠诚度
+ <LI>管理经验
+ </UL>
+<LI>创新资本
+ <UL>
+ <LI>研发费用
+ <LI>从事创新的员工比率
+ <LI>产品更新
+ <LI>知识产权
+ </UL>
+<LI>客户资本
+ <UL>
+ <LI>满意度
+ <LI>服务质量
+ <LI>合作的时间
+ <LI>重复购买
+ <LI>销售额
+ </UL>
+<LI>知识识别阶段
+ <UL>
+ <LI>知识库中联系的数目
+ <LI>知识库中主题的数目
+ <LI>点击率
+ <LI>生产力
+ </UL>
+<LI>知识诱导阶段
+ <UL>
+ <LI>来自于知识库的新需求
+ <LI>可达到的相关资源
+ <LI>知识分发阶段
+ <LI>推的方式分发
+ <LI>拉的方式分发
+ </UL>
+<LI>知识利用阶段
+ <UL>
+ <LI>知识聚集活动中的系统利用率
+ <LI>用户满意度
+ <LI>知识利用过程中产生的商业机会
+ </UL>
+</OL>
+
+<A NAME="toc39"></A>
+<H1><A href='#toptop'> 6. 关于 </A></H1>
+<P>
+<A HREF="s5.html">金山知识管理浅析</A>
+</P>
+<A NAME="toc40"></A>
+<H2><A href='#toptop'> 6.1. 参考 </A></H2>
+<UL>
+<LI>彼得.F.德鲁克（Peter F. Drucker）:知识管理——《哈佛商业评论》精粹译丛,中国人民大学出版社 2004
+<LI>[美]温格等:实践社团：学习型组织知识管理指南,机械工业出版社 2003
+<LI>[英]奈特（Knight,T.） ,豪斯（Howes,T.）:知识管理：有效实施的蓝图,清华大学出版社 2006
+<LI>[美]卢米赞:识管理-完全傻瓜IDIOT,辽宁教育出版社 2006
+<LI>陈娟 / 芮明杰:高技术企业知识体系的构建与管理,上海财经大学出版社 2006
+<LI>[英]布鲁金:企业记忆--知识管理战略,辽宁教育出版社 1999
+<LI>马国臣:基于企业团队和员工个体双重视角的知识管理,经济科学出版社 2007
+<LI>杨晨:用知识产权管理赢得竞争优势--知识产权管理理论与实务,科学出版社 2008
+<LI>[美]韦纳:共创未来(打造自由软件神话),上海科技教育出版社 2002
+<LI>周爱民:大道至简-软件工程实践者的思想,电子工业出版社 2007
+<LI>[德]盖伦:技术时代的人类心灵——哲人石丛书·当代科学思潮系列,上海科技教育出版社 2003
+<LI>[美]依柯诺米（Economy,P.）/纳尔逊（Nelson,B.）:管理管什么,机械工业出版社 2006
+<LI>yyq123 &amp; jhkzz:传递最佳实践的知与行 <A HREF="http://blog.vsharing.com/yyq123/">http://blog.vsharing.com/yyq123/</A>
+</UL>
+
+<HR NOSHADE SIZE=1>
+<TABLE BORDER="1">
+<TR>
+<TD>动力源自::<B><A HREF="http://txt2tags.sourceforge.net/">txt2tags</A></B></TD>
+<TD><A HREF="http://wiki.woodpecker.org.cn/moin/txt2tags">简介</A></TD>
+<TD><A HREF="kskm-think-idx.t2t">t2t原稿</A></TD>
+</TR>
+</TABLE>
+
+</DIV>
+
+<!-- html code generated by txt2tags 2.4 (http://txt2tags.sf.net) -->
+<!-- cmdline: txt2tags kskm-think-idx.t2t -->
+</BODY></HTML>
