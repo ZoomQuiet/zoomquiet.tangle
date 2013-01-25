@@ -5,7 +5,7 @@
 %! Target  : html
 %! Encoding: UTF-8
 %! postproc(html): @@ <BR>
-%! Style   : ../zqliteash.css
+%! Style   : zqliteash.css
 %! Options : --css-inside --css-sugar 
 %! Options : --toc --toc-level=5 --enum-title -o index.html
 
