@@ -1,0 +1,65 @@
+##在这里详述 SaJinshanReDeploy/MapIjinshanHg.
+##在这里详述 GraphVizForMoin/DotLegend/BaseElements.
+#$ dot -Tpng MapIjinshanHg.dot -o MapIjinshanHg.jpg -Tcmapx -o MapIjinshanHg.map
+
+{{{#!GraphViz dot
+digraph G4ijinshanHgSync {
+    /*全局设定*/
+    graph [label="Kavass社区 版本仓库同步图谱 {by Zoom.Quiet 110120}",fontsize=14.0,
+        labeljust="l",labelloc="t",center=1,
+        ranksep=0.2,center=1,ratio=compress,
+        rankdir=TB,
+        ];
+
+    node[fontsize=10.0,height=0.1,
+        style=filled,fillcolor=snow,
+        color=darkolivegreen,fontcolor=darkolivegreen,
+        shape=plaintext,
+        ];
+
+    edge [fontsize=9.0,fontcolor=yellowgreen,
+        fontcolor=gray25,
+        color=gray30,
+        arrowsize=0.5,arrowhead=vee,arrowtail=none,
+        ];
+
+    /*图元声明
+    user [label="外部成员",shape=egg];
+    
+    */
+    ijsA   [label="254.30\n主均衡",shape=component,style="setlinewidth(2)"];
+    ijsB   [label="254.49\n应用主服",shape=component,style="setlinewidth(2)"];
+    ijsC   [label="254.50\n认证主服",shape=component,style="setlinewidth(2)"];
+    HgM [label="Hg主服\n下载供给",shape=tab];
+        HgS [label="Hg备服\n在线查阅",shape=tab];
+        HgSs [label="Hg冗服\n冗灾备份",shape=tab];
+    
+    dev [label="开发者",shape=egg];
+    subgraph clusterIntra {
+    label="金山内网"; color=red4;fontcolor=dimgrey;style="setlinewidth(2)",
+    labeljust="l";labelloc="t";fontsize=11.0;
+        hgIntra [label="内部仓库",shape=box3d];
+        deIntra [label="内部程序员",shape=egg];
+        svnIntra [label="内部SVN",shape=box3d];
+    }
+    subgraph clusterTrunk {
+    label="bitbucket.org"; color=blue;fontcolor=dimgrey;style="setlinewidth(2)",
+    labeljust="l";labelloc="t";fontsize=11.0;
+        hgtrunk [label="激进仓库",shape=box3d];
+    }
+
+    /*图例关系
+    */
+    
+    deIntra->svnIntra->hgtrunk [label="写入"];
+    hgtrunk->hgIntra->{HgM HgS HgSs} [color=darkorange];
+    dev->hgtrunk   [label="克隆后写"];
+    dev->{ijsA ijsB}  [label="只读"];
+        ijsA->HgM [label=""];
+        ijsB->HgS [label=""];
+        HgSs->ijsC [label="纯冗备"];
+}
+
+}}}
+
+''参考'':[[GraphVizForMoin|在维基中使用 Graphviz]]

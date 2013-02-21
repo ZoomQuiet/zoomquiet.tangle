@@ -78,6 +78,7 @@ powered by:
     id="(cc)/by-sa/" alt="(cc)/by-sa/"/>
 </a>
 }
+<a href="https://plus.google.com/103356925231912846517" rel="publisher">Google+</a>
 
 
 </div><!-- cssstickyfooter::id="footer"-->
