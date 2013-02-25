@@ -477,7 +477,7 @@ HTML
 
     <ul><!-- 所有可配置手势 -->
         <li>
-            <span/> <!-- 当然手势 -->
+            <span/> <!-- 当前手势 -->
             <select> <!-- 下拉手势选择 -->
                 <option>
                 <option>
@@ -577,6 +577,37 @@ HTML
 .. container:: notes
 
    - 
+
+
+
+
+
+
+
+
+
+
+内核回调
+=========
+
+.. container:: handout
+
+   内置元素 |zqeye|
+
+
+.. code-block:: python
+
+    chrome.send('getCustomMouseGestureRules', []); 
+        <<< window.setCustomMouseGestureRules
+            map:[ {"操作名":ID}
+                ,"D":10002
+                ,,,]
+                无序...
+
+.. container:: notes
+
+   - 
+
 
 
 

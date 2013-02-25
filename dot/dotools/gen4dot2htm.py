@@ -49,12 +49,16 @@ TPLidxHTM='''<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://ww
 	</div><!-- cssstickyfooter::id="main" class="clearfix"-->
 </div><!-- cssstickyfooter::id="wrap"-->
 '''
-TPLidxHTM+='''
-<div id="footer" class="footbar">
+
+'''
         <img src="data:image/%(picType)s;base64,%(legendMapURI)s" 
             usemap="#%(legendMap)s"
             id="%(legendMap)s" alt="%(legendMap)s"/>
         %(legendImageMap)s
+'''
+
+TPLidxHTM+='''
+<div id="footer" class="footbar">
 
 <a href="http://browsehappy.com/why/">
 <img

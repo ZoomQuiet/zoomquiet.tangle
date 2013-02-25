@@ -138,7 +138,7 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20120913101417.17411" a="E"><vh>121020-how2make-tech-party</vh>
+<v t="zoomq.20120913101417.17411"><vh>121020-how2make-tech-party</vh>
 <v t="zoomq.20120913101417.17412" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20120913101417.17413"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120913101417.17414"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -208,7 +208,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20121015120918.17068"><vh>1209-lb-5m-50h-story</vh>
+<v t="zoomq.20121015120918.17068" a="E"><vh>1209-lb-5m-50h-story</vh>
 <v t="zoomq.20121015120918.17069" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20121015120918.17070"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20121015120918.17071"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -222,7 +222,7 @@
 <v t="zoomq.20121015120918.17079"><vh>Takahashi</vh></v>
 </v>
 </v>
-<v t="zoomq.20121015120918.17080" a="E"><vh>brief0</vh>
+<v t="zoomq.20121015120918.17080"><vh>brief0</vh>
 <v t="zoomq.20121015120918.17081"><vh>手势</vh></v>
 <v t="zoomq.20121015120918.17082"><vh>snap</vh></v>
 <v t="zoomq.20121015120918.17083"><vh>定制</vh></v>
@@ -231,12 +231,13 @@
 <v t="zoomq.20121015120918.17086"><vh>JS</vh></v>
 <v t="zoomq.20121015120918.17087"><vh>原始交互关系</vh></v>
 </v>
-<v t="zoomq.20121015120918.17088"><vh>brief1</vh>
+<v t="zoomq.20121015120918.17088" a="E"><vh>brief1</vh>
 <v t="zoomq.20121015120918.17089"><vh>当然</vh></v>
 <v t="zoomq.20121015120918.17090"><vh>HTML</vh></v>
 <v t="zoomq.20121015120918.17091"><vh>当前交互</vh></v>
 <v t="zoomq.20121015120918.17092"><vh>原始交互关系</vh></v>
 <v t="zoomq.20121015120918.17093"><vh>还好</vh></v>
+<v t="zoomq.20130223124004.13212"><vh>JS</vh></v>
 <v t="zoomq.20121015120918.17094"><vh>唯一技巧</vh></v>
 <v t="zoomq.20121015120918.17095"><vh>lang</vh></v>
 <v t="zoomq.20121015120918.17096"><vh>重构时间</vh></v>
@@ -103213,7 +103214,7 @@ cr.define('options', function() {
 
     &lt;ul&gt;&lt;!-- 所有可配置手势 --&gt;
         &lt;li&gt;
-            &lt;span/&gt; &lt;!-- 当然手势 --&gt;
+            &lt;span/&gt; &lt;!-- 当前手势 --&gt;
             &lt;select&gt; &lt;!-- 下拉手势选择 --&gt;
                 &lt;option&gt;
                 &lt;option&gt;
@@ -104890,6 +104891,38 @@ cr.define('options', function() {
 .. container:: notes
 
    - 
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20130223124004.13212">内核回调
+=========
+
+.. container:: handout
+
+   内置元素 |zqeye|
+
+
+.. code-block:: python
+
+    chrome.send('getCustomMouseGestureRules', []); 
+        &lt;&lt;&lt; window.setCustomMouseGestureRules
+            map:[ {"操作名":ID}
+                ,"D":10002
+                ,,,]
+                无序...
+
+.. container:: notes
+
+   - 
+
+
+
 
 
 

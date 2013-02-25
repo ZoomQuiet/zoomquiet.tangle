@@ -479,7 +479,7 @@ ul.auto-toc {
 </div>
 </div>
 <div class="slide" id="id12">
-<h1>不行!</h1>
+<h1>改进!</h1>
 <div class="handout container">
 高级用户! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi9">定制</p>
@@ -581,7 +581,7 @@ ul.auto-toc {
 内置元素 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #008000; font-weight: bold">&lt;ul&gt;</span><span style="color: #408080; font-style: italic">&lt;!-- 所有可配置手势 --&gt;</span>
     <span style="color: #008000; font-weight: bold">&lt;li&gt;</span>
-        <span style="color: #008000; font-weight: bold">&lt;span/&gt;</span> <span style="color: #408080; font-style: italic">&lt;!-- 当然手势 --&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt;span/&gt;</span> <span style="color: #408080; font-style: italic">&lt;!-- 当前手势 --&gt;</span>
         <span style="color: #008000; font-weight: bold">&lt;select&gt;</span> <span style="color: #408080; font-style: italic">&lt;!-- 下拉手势选择 --&gt;</span>
             <span style="color: #008000; font-weight: bold">&lt;option&gt;</span>
             <span style="color: #008000; font-weight: bold">&lt;option&gt;</span>
@@ -632,6 +632,23 @@ ul.auto-toc {
 </div>
 </div>
 <div class="slide" id="id21">
+<h1>内核回调</h1>
+<div class="handout container">
+内置元素 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">chrome<span style="color: #666666">.</span>send(<span style="color: #BA2121">&#39;getCustomMouseGestureRules&#39;</span>, []);
+    <span style="color: #666666">&lt;&lt;&lt;</span> window<span style="color: #666666">.</span>setCustomMouseGestureRules
+        <span style="color: #008000">map</span>:[ {<span style="color: #BA2121">&quot;操作名&quot;</span>:ID}
+            ,<span style="color: #BA2121">&quot;D&quot;</span>:<span style="color: #666666">10002</span>
+            ,,,]
+            <span style="border: 1px solid #FF0000">无序</span><span style="color: #666666">...</span>
+</pre></div>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id22">
 <h1>唯一技巧</h1>
 <div class="handout container">
 怎么记忆住? <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -643,7 +660,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id22">
+<div class="slide" id="id23">
 <h1>标准属性</h1>
 <div class="handout container">
 &lt;ul lang=&quot;zh&quot;... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -654,7 +671,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id23">
+<div class="slide" id="id24">
 <h1>时间消耗:重构</h1>
 <div class="handout container">
 集中力哪! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -672,7 +689,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id24">
+<div class="slide" id="id25">
 <h1>太丑!</h1>
 <div class="handout container">
 产品吼 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -694,7 +711,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id25">
+<div class="slide" id="id26">
 <h1>设计</h1>
 <div class="handout container">
 用户喜欢美的 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -705,7 +722,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id26">
+<div class="slide" id="id27">
 <h1>对比原先</h1>
 <div class="handout container">
 静态图片呢 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -716,7 +733,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id27">
+<div class="slide" id="id28">
 <h1>&lt;brief/&gt;</h1>
 <div class="handout container">
 简单想,简单试,简单用... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -732,7 +749,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id28">
+<div class="slide" id="id29">
 <h1>寻找</h1>
 <div class="handout container">
 美的下拉菜单! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -779,10 +796,10 @@ ul.auto-toc {
 原理... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #008000; font-weight: bold">&lt;div&gt;</span>
     <span style="color: #008000; font-weight: bold">&lt;div/&gt;</span> <span style="color: #408080; font-style: italic">&lt;!-- 当前选项模擬 --&gt;</span>
-    <span style="border: 1px solid #FF0000">&lt;</span>ul&gt; <span style="color: #408080; font-style: italic">&lt;!-- 选择器模擬 --&gt;</span>
-        <span style="border: 1px solid #FF0000">&lt;</span>li&gt;
+    <span style="color: #008000; font-weight: bold">&lt; ul&gt;</span> <span style="color: #408080; font-style: italic">&lt;!-- 选择器模擬 --&gt;</span>
+        <span style="color: #008000; font-weight: bold">&lt; li&gt;</span>
         ...
-    <span style="border: 1px solid #FF0000">&lt;</span>/ul&gt;
+    <span style="color: #008000; font-weight: bold">&lt; /ul&gt;</span>
 <span style="color: #008000; font-weight: bold">&lt;/div&gt;</span>
 <span style="color: #008000; font-weight: bold">&lt;select&gt;</span> <span style="color: #408080; font-style: italic">&lt;!-- 原选择器 --&gt;</span>
     <span style="color: #008000; font-weight: bold">&lt;option&gt;</span>
@@ -795,7 +812,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id30">
+<div class="slide" id="id31">
 <h1>多层事务</h1>
 <div class="handout container">
 同内核以及html进行交互 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -806,7 +823,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id31">
+<div class="slide" id="id32">
 <h1>事务</h1>
 <div class="handout container">
 同内核进行交互 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -817,7 +834,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id32">
+<div class="slide" id="id33">
 <h1>原始交互</h1>
 <div class="handout container">
 纯静态 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -828,7 +845,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id33">
+<div class="slide" id="id34">
 <h1>多层事务</h1>
 <div class="handout container">
 同内核以及html进行交互 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -839,7 +856,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id34">
+<div class="slide" id="id35">
 <h1>程序行为</h1>
 <div class="handout container">
 思维图谱 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -850,7 +867,7 @@ ul.auto-toc {
 </ul>
 </div>
 </div>
-<div class="slide" id="id35">
+<div class="slide" id="id36">
 <h1>文学化编程</h1>
 <div class="handout container">
 Leo. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -861,7 +878,7 @@ Leo. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/Zoom
 </ul>
 </div>
 </div>
-<div class="slide" id="id36">
+<div class="slide" id="id37">
 <h1>时间消耗:重构</h1>
 <div class="handout container">
 集中力哪! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -880,7 +897,7 @@ Leo. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/Zoom
 </ul>
 </div>
 </div>
-<div class="slide" id="id37">
+<div class="slide" id="id38">
 <h1>&lt;brief/&gt;</h1>
 <div class="handout container">
 简单想,简单试,简单用... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -896,7 +913,7 @@ Leo. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/Zoom
 </ul>
 </div>
 </div>
-<div class="slide" id="id38">
+<div class="slide" id="id39">
 <h1>总之</h1>
 <div class="handout container">
 期望记住的~单位时间能记住的只有7+-2 个 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -925,7 +942,7 @@ Leo. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/Zoom
 </ul>
 </div>
 </div>
-<div class="slide" id="id39">
+<div class="slide" id="id40">
 <h1>最后的最后...</h1>
 <div class="handout container">
 好书推荐... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -936,7 +953,7 @@ Leo. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/Zoom
 </ul>
 </div>
 </div>
-<div class="slide" id="id40">
+<div class="slide" id="id41">
 <h1>&lt;版本/&gt;</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
@@ -956,7 +973,7 @@ Leo. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/Zoom
 </tbody>
 </table>
 </div>
-<div class="slide" id="id41">
+<div class="slide" id="id42">
 <h1><a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/">S5</a></h1>
 <div class="handout container">
 纯HTML 幻灯撰写框架!... <img alt="lr_s5" src="i/levelradar_s5.png" /></div>
@@ -978,7 +995,7 @@ Leo. <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/Zoom
 </ul>
 </div>
 </div>
-<div class="slide" id="id42">
+<div class="slide" id="id43">
 <h1>&lt;Zoom.Quiet/&gt;</h1>
 <div class="handout container">
 本命+1,有娃没车,长年大妈  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>

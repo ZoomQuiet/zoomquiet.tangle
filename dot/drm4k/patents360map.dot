@@ -1,0 +1,137 @@
+digraph patents360map {
+    /*生成命令:
+$ dot -Tpng patents360map.dot -o patents360map.png -Tcmapx -o patents360map.map
+    全局设定
+    */
+    graph [label="360专利分析:业务流防护图谱\n点击专利数量进入对应专利列表"
+        ,fontsize=14.0
+        ,labeljust="r",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=BT
+        ];
+
+    node[fontsize=11.0,height=0.2
+        ,style="setlinewidth(0.5)"
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,arrowsize=0.5,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+
+    /*
+    title->mailme->ZQ;
+    start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+
+    */
+
+    user    [label="用户",shape=egg];
+    browser  [label="浏览器",shape=box];
+        browser->pbrowser [color=red,style="setlinewidth(4)"];
+        pbrowser [label="127 个",URL="b.html",shape=plaintext];
+
+        pbrowser->{h5 ui account crx comm core};
+            h5->ph5 [color=green,style="dotted"];
+            ui->pui [color=green,style="setlinewidth(1)"];
+            account->pacc [color=green,style="setlinewidth(1)"];
+            crx->pcrx [color=green];
+            comm->pcomm [color=green,style="setlinewidth(1)"];
+            core->pcore [color=green,style="setlinewidth(2)"];
+
+        h5  [label="html5",shape=component];
+            ph5 [label="2 个",URL="h5.html",shape=plaintext];
+        ui  [label="UI",shape=component];
+            pui [label="27 个",URL="ui.html",shape=plaintext];
+        account  [label="用户",shape=component];
+            pacc [label="23 个",URL="acc.html",shape=plaintext];
+        crx [label="扩展",shape=component];
+            pcrx [label="13 个",URL="crx.html",shape=plaintext];
+        comm [label="推荐",shape=component];
+            pcomm [label="21 个",URL="comm.html",shape=plaintext];
+        core [label="内核",shape=component];
+            pcore [label="42 个",URL="core.html",shape=plaintext];
+
+    IM [label="输入法",shape=box];
+        IM->pim [color=red,style="dotted"];
+        pim [label="4 个",URL="im.html",shape=plaintext];
+    OS [label="操作系统",shape=box];
+        OS->pos [color=red,style="setlinewidth(2.5)"];
+        pos [label="60 个",URL="os.html",shape=plaintext];
+    PC [label="PC",shape=box];
+    M [label="移动设备",shape=box];
+        M->pm [color=red,style="setlinewidth(2)"];
+        pm [label="46 个",URL="m.html",shape=plaintext];
+
+    C [label="压缩算法",shape=tab];
+        C->pc [color=red,style="dotted"];
+        pc [label="4 个",URL="c.html",shape=plaintext];
+    SNS [label="社交",shape=tab];
+        SNS->psns [color=red,style="dotted"];
+        psns [label="2 个",URL="sns.html",shape=plaintext];
+    S [label="安全相关",shape=tab];
+        S->ps [color=red,style="setlinewidth(3)"];
+        ps [label="88 个",URL="s.html",shape=plaintext];
+    SE [label="搜索服务",shape=tab];
+        SE->pse [color=red,style="setlinewidth(2)"];
+        pse [label="45 个",URL="se.html",shape=plaintext];
+    AI [label="智能算法",shape=tab];
+        AI->pai [color=red,style="dotted"];
+        pai [label="3 个",URL="ai.html",shape=plaintext];
+
+    FS [label="文件系统",shape=box];
+        FS->pfs [color=red,style="setlinewidth(1)"];
+        pfs [label="26 个",URL="fs.html",shape=plaintext];
+    NET [label="网络驱动",shape=box];
+        NET->pnet [color=red,style="setlinewidth(1)"];
+        pnet [label="29 个",URL="net.html",shape=plaintext];
+    
+    intranet [label="内网",shape=ellipse];
+    internet [label="互联网",shape=ellipse];
+
+    PaaS [label="云服务",shape=box];
+        PaaS->ppaas [color=red,style="setlinewidth(1)"];
+        ppaas [label="17 个",URL="paas.html",shape=plaintext];
+
+
+    user->IM->browser->OS->{PC M}->FS->C->NET->S->intranet->internet [style="setlinewidth(2)"];
+    internet->PaaS->{SNS SE}->AI->user [style="setlinewidth(2)"];
+
+    KS [label="KN云安全",shape=box3d
+        ,style="filled,setlinewidth(0.5)",fillcolor="#E5460E",color=gray,fontcolor=snow
+       ];
+    KC [label="KN云存储",shape=box3d
+        ,style="filled,setlinewidth(0.5)",fillcolor="#E5460E",color=gray,fontcolor=snow
+       ];
+    KM [label="KN移动",shape=box3d
+        ,style="filled,setlinewidth(0.5)",fillcolor="#E5460E",color=gray,fontcolor=snow
+       ];
+    KB [label="KN猎豹",shape=box3d
+        ,style="filled,setlinewidth(0.5)",fillcolor="#E5460E",color=gray,fontcolor=snow
+       ];
+
+    {pbrowser pai pse }->KB[label="对抗",color=blue];
+    {pm pbrowser}->KM[label="对抗",color=blue];
+    {ppaas ps }->KC[label="对抗",color=blue];
+    {pnet pfs ps pos}->KS[label="对抗",color=blue];
+
+    edge [style=invis];
+
+/*
+    PEOPLE->mailme;
+
+*/
+
+
+}
