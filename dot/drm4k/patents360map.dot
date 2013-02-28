@@ -3,7 +3,7 @@ digraph patents360map {
 $ dot -Tpng patents360map.dot -o patents360map.png -Tcmapx -o patents360map.map
     全局设定
     */
-    graph [label="360专利分析:业务流防护图谱\n点击专利数量进入对应专利列表"
+    graph [label="360专利分析:业务流防护图谱"
         ,fontsize=14.0
         ,labeljust="r",labelloc="t",center=1
         ,ranksep=0.1,center=1,ratio=compress
