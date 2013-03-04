@@ -2075,7 +2075,7 @@ GTD总流程
 
     .. image:: i/map/GTD_v2CN.JPG
         :align: center
-        :scale: 80%
+        :height: 600px
         :target: #
 
 
@@ -2097,7 +2097,7 @@ GMail
 
     .. image:: i/snap/zqtool-gmail_1014x497_scrot.png
         :align: center
-        :height: 700px
+        :height: 500px
         :target: #
 
 
@@ -2143,7 +2143,6 @@ GMail
 
     .. image:: i/levelradar_demo.png
         :align: center
-        :scale: 100 %
         :alt: 雷达图
         :target: #
 

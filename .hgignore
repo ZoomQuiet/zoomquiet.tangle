@@ -15,8 +15,7 @@
 .*\.zip
 .*\.7z
 .*\.xz
-.*\.jpg
-.*\.jpeg
+.*\.tiff
 .*\.map
 .*\.b64
 .*\.orig

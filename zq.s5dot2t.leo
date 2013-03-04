@@ -1340,7 +1340,7 @@
 </v>
 <v t="zoomq.20130302114851.14990"><vh>/时间帐单</vh></v>
 </v>
-<v t="zoomq.20120608161547.16949"><vh>GTD</vh>
+<v t="zoomq.20120608161547.16949" a="E"><vh>GTD</vh>
 <v t="zoomq.20120608161547.16950"><vh>GTD流程v2</vh></v>
 </v>
 <v t="zoomq.20120608161547.16951" a="E"><vh>GMail</vh>
@@ -100920,7 +100920,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/map/GTD_v2CN.JPG
         :align: center
-        :scale: 80%
+        :height: 600px
         :target: #
 
 
@@ -100943,7 +100943,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/snap/zqtool-gmail_1014x497_scrot.png
         :align: center
-        :height: 700px
+        :height: 500px
         :target: #
 
 
@@ -100991,7 +100991,6 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/levelradar_demo.png
         :align: center
-        :scale: 100 %
         :alt: 雷达图
         :target: #
 
