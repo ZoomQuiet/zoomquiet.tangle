@@ -100920,7 +100920,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/map/GTD_v2CN.JPG
         :align: center
-        :height: 600px
+        :height: 800px
         :target: #
 
 

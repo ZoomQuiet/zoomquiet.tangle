@@ -2075,7 +2075,7 @@ GTD总流程
 
     .. image:: i/map/GTD_v2CN.JPG
         :align: center
-        :height: 600px
+        :height: 800px
         :target: #
 
 
