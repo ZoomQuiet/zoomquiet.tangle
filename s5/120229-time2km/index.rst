@@ -1053,8 +1053,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/kmtranfer2.gif
         :align: center
-        :scale: 120 %
-        :height: 600px
+        :height: 500px
         :alt: ScrapBook
 
 
@@ -1082,7 +1081,7 @@ EKM
 
     .. image:: i/kmzl2.jpg
         :align: center
-        :height: 600px
+        :height: 500px
         :alt: ScrapBook
 
 
@@ -1858,9 +1857,9 @@ EKM目标
 
 
 .. |tlpie| image:: i/snap/zq-ti-month-pie-0902.png
-    :height: 400px
+    :height: 300px
 .. |tlradar| image:: i/snap/zq-ti-month-radar-0902.png
-    :height: 600px
+    :height: 400px
 
 .. container:: notes
 
