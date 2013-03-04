@@ -112,8 +112,7 @@ Randy Pausch
 .. class:: center
 
     .. image:: pix/Takahashi-method.jpg
-        :scale: 150 %
-        :height: 300px
+        :height: 500px
         :alt: 高橋流
         :align: center
         :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
@@ -314,25 +313,6 @@ Randy Pausch
 
 
 
-PI@北京
-==================
-
-.. container:: handout
-
-   混北京:SINA->CPyUG->SLL |zqeye|
-
-
-.. class:: takahashi8
-
-    ~2007
-
-
-.. container:: notes
-
-   - 
-
-
-
 `2003:CZUG.org <http://czug.org/>`__
 ======================================================
 
@@ -351,7 +331,6 @@ PI@北京
 
     .. image:: i/logo/logo-czug.png
         :align: center
-        :scale: 100 %
         :alt: http://czug.org
 
 
@@ -373,7 +352,6 @@ PI@北京
 
     .. image:: i/logo/logo-wpwww_banner.png
         :align: center
-        :scale: 100 %
         :alt: http://www.woodpecker.org.cn
 
     - |logo_wpwiki_banner| \ :sup:`MoinMoin 1.4.*`\    
@@ -384,12 +362,10 @@ PI@北京
 
 .. |logo_wpwiki_banner| image:: i/logo/logo_wpwiki_banner.gif
     :align: bottom
-    :scale: 100 %
     :alt: http://www.woodpecker.org.cn
 
 .. |wiki_banner| image:: i/logo/logo_wp-wiki_banner.png
     :align: bottom
-    :scale: 100 %
     :alt: http://wiki.woodpecker.org.cn
 
 .. |wp_zoomq_scrot| image:: i/logo/logo_wiki-wp_zoomq_scrot.png
@@ -397,6 +373,25 @@ PI@北京
     :scale: 100 %
     :alt: http://wiki,woodpecker.org.cn
 
+
+
+.. container:: notes
+
+   - 
+
+
+
+PI@北京
+==================
+
+.. container:: handout
+
+   混北京:SINA->CPyUG->SLL |zqeye|
+
+
+.. class:: takahashi8
+
+    ~2007
 
 
 .. container:: notes
@@ -419,7 +414,7 @@ __ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
 
     .. image:: i/logo/CPUGlogo.png
         :align: center
-        :scale: 100 %
+        :height: 600px
         :alt: CPyUG
         :target: http://wiki.woodpecker.org.cn/moin/CPUG
 
@@ -558,6 +553,7 @@ __ http://ecug.org/
 
     .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
         :align: center
+        :height: 700px
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
 
@@ -579,7 +575,7 @@ __ http://ecug.org/
 
     .. image:: i/snap/120326-python-cn-ml.png
         :align: center
-        :scale: 100 %
+        :height: 700px
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
 
@@ -626,7 +622,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. image:: i/foto/niuniu110105.jpeg
     :align: center
-    :scale: 110 %
+    :height: 700px
     :alt: 表情牛妞
 
 
@@ -648,7 +644,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. image:: i/foto/120426-niuniu-表情帝.jpg
     :align: center
-    :scale: 110 %
+    :height: 700px
     :alt: 表情牛妞
 
 
@@ -773,12 +769,32 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. container:: handout
 
-   行为而已...  |zqeye|
+   只是具体可记忆的...  |zqeye|
 
 
 .. class:: takahashi8
 
     :orange:`间` 隔
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+什么是时间？
+====================================
+
+.. container:: handout
+
+   行为而已...  |zqeye|
+
+
+.. class:: takahashi8
+
+    :orange:`行为`
 
 
 .. container:: notes
@@ -858,7 +874,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. class:: takahashi8
 
-    心态
+    :orange:`心` 态
 
 
 
@@ -910,6 +926,26 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 
+什么是管理?
+====================================
+
+.. container:: handout
+
+   进行沟通而已...  |zqeye|
+
+
+.. class:: takahashi8
+
+    :orange:`对话`
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
 </init.Time Management>
 ====================================
 
@@ -944,7 +980,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
     .. image:: i/s3778613-friendtime.jpg
         :align: center
-        :scale: 100 %
+        :height: 700px
         :alt: 李笑来
         :target: http://book.douban.com/subject/3609132
 
@@ -989,7 +1025,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
     .. image:: i/KMsys-Seci20m1.jpg
         :align: center
-        :scale: 100 %
+        :height: 600px
         :alt: ScrapBook
         :target: http://sociallearnlab.org/wiki/index.php?title=PKM&variant=zh-cn
 
@@ -1018,7 +1054,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
     .. image:: i/kmtranfer2.gif
         :align: center
         :scale: 120 %
-        :height: 500px
+        :height: 600px
         :alt: ScrapBook
 
 
@@ -1046,7 +1082,7 @@ EKM
 
     .. image:: i/kmzl2.jpg
         :align: center
-        :scale: 100 %
+        :height: 600px
         :alt: ScrapBook
 
 
@@ -1659,7 +1695,7 @@ EKM目标
 
     .. image:: i/PrioritizationMatrix.png
         :align: center
-        :scale: 100 %
+        :height: 600px
         :target: http://en.wikipedia.org/wiki/Seven_Management_and_Planning_Tools#Prioritization_Matrix
 
 
@@ -1703,7 +1739,7 @@ EKM目标
 
     .. image:: i/s1093496-stronglife.jpg
         :align: center
-        :scale: 100 %
+        :height: 600px
         :target: http://book.douban.com/subject/1115353
 
 
@@ -1793,9 +1829,9 @@ EKM目标
 
 
 .. |tilog| image:: i/snap/zq-tilog.jpg
-    :scale: 100 %
+    :height: 600px
 .. |talog| image:: i/snap/zq-talog.jpg
-    :scale: 100 %
+    :height: 600px
 
 .. container:: notes
 
@@ -1822,9 +1858,185 @@ EKM目标
 
 
 .. |tlpie| image:: i/snap/zq-ti-month-pie-0902.png
-    :scale: 100 %
+    :height: 400px
 .. |tlradar| image:: i/snap/zq-ti-month-radar-0902.png
-    :scale: 100 %
+    :height: 600px
+
+.. container:: notes
+
+   - ...
+
+
+
+
+aTimeLogger 2
+====================================
+
+.. container:: handout
+
+   iOS 上最好的!  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-atimelogger-1.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+aTimeLogger 2
+====================================
+
+.. container:: handout
+
+   iOS 上最好的!  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-atimelogger-3.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+aTimeLogger 2
+====================================
+
+.. container:: handout
+
+   iOS 上最好的!  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-atimelogger-2.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+aTimeLogger 2
+====================================
+
+.. container:: handout
+
+   iOS 上最好的!  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-atimelogger-0.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+Mr.Timer
+====================================
+
+.. container:: handout
+
+   跨平台原创最好的!..  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-mrtime-2.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+Mr.Timer
+====================================
+
+.. container:: handout
+
+   跨平台原创最好的!..  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-mrtime-1.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+Mr.Timer
+====================================
+
+.. container:: handout
+
+   跨平台原创最好的!..  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-mrtime-0.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+最神奇工具
+====================================
+
+.. container:: handout
+
+   坚持才有效果！  |zqeye|
+
+
+.. class:: takahashi8
+
+    时间
+    
+    账单
+
 
 .. container:: notes
 
@@ -1886,7 +2098,7 @@ GMail
 
     .. image:: i/snap/zqtool-gmail_1014x497_scrot.png
         :align: center
-        :scale: 100%
+        :height: 700px
         :target: #
 
 
@@ -2175,7 +2387,7 @@ __ http://www.websequencediagrams.com/
 
     .. image:: i/handarw-mindmap.gif
         :align: center
-        :height: 360px
+        :height: 500px
         :target: http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping
 
 
@@ -2714,14 +2926,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
+- 130303 增补移动应用
 - 120728 增补学习阶层
-- 120529 調整图片大小
 - 120229 調整重点,追加好书,,
 - 111111 并入时间管理
 - 110302 重构为知识管理重点
 - 101005 根据盛大讲演现场反馈修订错误!
-- 100926 增补EKM/工具关联图谱
-- 100917 增补软件评估雷图示
+- 100926 增补EKM/工具关联图谱,软件评估雷图示
 - 100915 迁移为 rST2S5 格式
 - 100728 增补髙桥流以及蕃茄时间说明 
 - 100724 为金山新人培训重构 
