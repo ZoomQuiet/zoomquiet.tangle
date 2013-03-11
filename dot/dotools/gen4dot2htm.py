@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 '''Changelog:
+
+    - 130326 append v2.ta.qq
     - 11.10.27 fixed gen path
     - 10.9.8 fixed for options judge
     - 10.9.7 fixed for zqlog
@@ -36,6 +38,7 @@ TPLidxHTM='''<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://ww
 <style type="text/css">
 %(styleData)s
 </style>
+<script type="text/javascript" src="http://tajs.qq.com/stats?sId=22415779" charset="UTF-8"></script>
 </head>
 <body>
 <!--Sticky Footer Solution  http://www.cssstickyfooter.com-->

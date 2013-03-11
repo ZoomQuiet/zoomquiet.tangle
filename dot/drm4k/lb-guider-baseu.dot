@@ -1,0 +1,87 @@
+    /*生成命令:
+$ dot -Tpng lb-guider-baseu.dot -o lb-guider-baseu.png
+ -Tcmapx -o lb-crx-roles.map
+    全局设定
+    plaintext
+{{{#!GraphViz dot
+    */
+
+digraph G4LBidxBaseU {
+    /*全局设定*/
+    graph [label="个性导航站-流程图"
+        ,fontsize=14.0
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.3,center=1,ratio=compress
+        ,rankdir=TB
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,shape=component 
+        ];
+
+    edge [fontsize=9.0,fontcolor="#333333"
+        ,fontname="WenQuanYi Micro Hei"
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+    /*图元声明
+    start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+  ,style="rounded,dotted"];
+*/
+
+    USER [label="用户",shape=egg];
+    browser [label="浏览器"];
+
+    srvUP [label="上报服务",shape=tab];
+        uriStore [label="网址仓库",shape=box3d];
+    srvAC [label="认证服务",shape=tab];
+
+    commander [label="推荐机"];
+        historic [label="浏览历史",shape=note];
+        bookmark [label="历史书签",shape=note];
+
+    srvIDX [label="导航站",shape=tab];
+        api [label="个性接口"];
+
+    /*图例关系
+    */
+    browser->srvAC->browser [label="1.0"];
+        browser->{historic bookmark}->srvUP [label="1.1"];
+        srvUP->uriStore [label="1.2"];
+
+    USER->browser->api->srvIDX  [label="2.0"];
+        srvIDX->commander [label="2.1"];
+        commander->uriStore [label="2.2"];
+        uriStore->srvIDX [label="2.3"];
+    srvIDX->browser->USER [label="3.0"];
+
+    { rank=same; AC    srvAC; }
+    { rank=same; COMM    commander; }
+    { rank=same; DONE   uriStore; }
+
+    AC[label="认证准备",shape=plaintext];
+    COMM[label="推荐阶段",shape=plaintext];
+    DONE[label="完成阶段",shape=plaintext];
+    AC->COMM->DONE;
+
+    edge [style=invis];
+
+}
+

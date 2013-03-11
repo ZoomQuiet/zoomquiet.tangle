@@ -1,0 +1,90 @@
+digraph lb_install_main {
+    /*生成命令:
+$ dot -Tpng lb-installer-mainup.dot -o lb-installer-mainup.png -Tcmapx -o lb-crx-roles.map
+    全局设定
+    plaintext
+    */
+    graph [label="组合安装器主程序升级 {流程图谱}"
+        ,fontsize=14.0
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.3,center=1,ratio=compress
+        ,rankdir=LR
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,style="filled,setlinewidth(0.5)",fontcolor="#333333"
+        ,shape=tab 
+        ];
+
+    edge [fontsize=9.0,fontcolor="#333333"
+        ,fontname="WenQuanYi Micro Hei"
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+    /*图元声明
+    start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+  ,style="rounded,dotted"];
+*/
+
+    srv [label="软件主站"];
+    upPacket [label="升级包"];
+
+        srv->upPacket [label="1.1"];
+        upPacket->installer [label="1.2"];
+    subgraph client {
+        label="用户本地";
+    
+        installer [label="组合安装器"];
+        usageFiles [label="已安装文件",shape=note];
+        bkStore [label="备份仓库"];
+        inScript [label="安装脚本",shape=note];
+
+            installer->inScript[label="2.1"];
+            inScript->installer[label="2.2"];
+
+            installer->usageFiles[label="3.1"];
+            usageFiles->bkStore[label="3.2"];
+
+            installer->upPacket[label="4.1"];
+            upPacket->usageFiles[label="4.2"];
+
+            installer->bkStore[label="5.1"];
+            bkStore->usageFiles[label="5.2"];
+
+    }
+
+
+    /*
+            lbcrxo->crxstore [label="代理发布"];
+        lbcrxo->{crxdev crxauthor} [label="聚集"];
+    {lbcrx lbcore}->lbcn [label="公告"];
+    {hr goal km what acteam EK}->etc [style="dotted"];
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+    lotsMon->existProg;
+        tonesOptions->existProg;
+    
+    */
+
+
+    edge [style=invis];
+
+}

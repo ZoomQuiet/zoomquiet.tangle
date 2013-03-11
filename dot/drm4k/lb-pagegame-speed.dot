@@ -1,0 +1,104 @@
+    /*生成命令:
+$ dot -Tpng lb-pagegame-speed.dot -o lb-pagegame-speed.png -Tcmapx -o lb-crx-roles.map
+    全局设定
+    plaintext
+{{{#!GraphViz dot
+    */
+
+digraph G4LBspeedPageGame {
+    /*全局设定*/
+    graph [label="页游加速器组件升级-流程图"
+        ,fontsize=14.0
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.3,center=1,ratio=compress
+        ,rankdir=TB
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,shape=component 
+        ];
+
+    edge [fontsize=9.0,fontcolor="#333333"
+        ,fontname="WenQuanYi Micro Hei"
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+    /*图元声明
+    start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+  ,style="rounded,dotted"];
+*/
+
+    srvA [label="游戏A服务网站",shape=tab];
+    srvB [label="游戏B服务网站",shape=tab];
+    srvN [label="..游戏N服务网站",shape=tab];
+        upPacket [label="升级包",shape=note];
+    srvPUB [label="广播服务",shape=tab];
+    srvAC [label="认证服务",shape=tab];
+
+        srvAC->{srvA srvB srvN} [label="1.0"];
+        {srvA srvB srvN}->srvPUB [label="1.1"];
+
+    aim [label="目标浏览器",shape=box];
+        usageFiles [label="已安装组件",shape=note];
+    
+    installer [label="加速器"];
+        dlagent [label="下载器"];
+        chker [label="检验器"];
+        inScript [label="安装脚本",shape=note];
+        runner [label="执行器"];
+        bkStore [label="备份仓库",shape=box3d];
+
+    srvPUB->installer [label="2.0",style="dotted"];
+
+    /*图例关系
+    */
+
+        installer->srvAC->installer [label="2.1"];
+        installer->dlagent [label="2.2"];
+        {srvA srvB srvN}->dlagent [label="2.3"];
+        dlagent->upPacket [label="2.4"];
+
+        installer->aim->usageFiles[label="3.1"];
+        usageFiles->bkStore[label="3.2"];
+
+        upPacket->chker[label="4.1"];
+        chker->installer[label="4.2"];
+        installer->inScript[label="4.3"];
+        inScript->runner[label="4.4"];
+
+        runner->aim [label="5.0"];
+        aim->bkStore [label="5.1"];
+
+    { rank=same; PUB    srvA srvB srvN; }
+    { rank=same; DL     installer; }
+    { rank=same; CHK    chker; }
+    { rank=same; DONE   bkStore; }
+
+    PUB[label="发布阶段",shape=plaintext];
+    DL[label="下载阶段",shape=plaintext];
+    CHK[label="检查阶段",shape=plaintext];
+    DONE[label="完成阶段",shape=plaintext];
+    PUB->DL->CHK->DONE;
+    edge [style=invis];
+        srvPUB->srvAC;
+        srvA->srvB->srvN;
+
+}
+
