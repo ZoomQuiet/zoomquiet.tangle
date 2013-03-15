@@ -1237,15 +1237,15 @@
 <v t="zoomq.20120608161547.16875"><vh>Takahashi</vh></v>
 </v>
 </v>
-<v t="zoomq.20120608161547.16876" a="E"><vh>brief0</vh>
-<v t="zoomq.20120608161547.16877" a="E"><vh>abt.ZQ</vh>
+<v t="zoomq.20120608161547.16876"><vh>brief0</vh>
+<v t="zoomq.20120608161547.16877"><vh>abt.ZQ</vh>
 <v t="zoomq.20120608161547.16878"><vh>本命年</vh></v>
 <v t="zoomq.20120608161547.16879"><vh>ZQ1999</vh></v>
-<v t="zoomq.20120608161547.16880" a="E"><vh>ZQsh</vh>
+<v t="zoomq.20120608161547.16880"><vh>ZQsh</vh>
 <v t="zoomq.20120608161547.16882"><vh>ZQ2003</vh></v>
 <v t="zoomq.20120608161547.16883"><vh>ZQ2004</vh></v>
 </v>
-<v t="zoomq.20120608161547.16881" a="E"><vh>ZQ社区</vh>
+<v t="zoomq.20120608161547.16881"><vh>ZQ社区</vh>
 <v t="zoomq.20120608161547.16884"><vh>ZQ2005</vh></v>
 <v t="zoomq.20120608161547.16885"><vh>ZQ2007</vh></v>
 <v t="zoomq.20120608161547.16886"><vh>ECUG</vh></v>
@@ -1254,14 +1254,16 @@
 <v t="zoomq.20120608161547.16889"><vh>CPUG2010</vh></v>
 <v t="zoomq.20120608161547.16890"><vh>CPUG2012</vh></v>
 </v>
-<v t="zoomq.20120608161547.16891"><vh>ZQ大妈</vh></v>
+<v t="zoomq.20120608161547.16891"><vh>ZQ大妈</vh>
+<v t="zoomq.20130315100200.15023"><vh>GDG</vh></v>
+</v>
 </v>
 <v t="zoomq.20120608161547.16892"><vh>牛妞</vh></v>
 <v t="zoomq.20120608161547.16893"><vh>牛妞2012</vh></v>
 <v t="zoomq.20120608161547.16894"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20120608161547.16895" a="E"><vh>brief1</vh>
-<v t="zoomq.20120608161547.16896" a="E"><vh>TM?</vh>
+<v t="zoomq.20120608161547.16895"><vh>brief1</vh>
+<v t="zoomq.20120608161547.16896"><vh>TM?</vh>
 <v t="zoomq.20120608161547.16897"><vh>时间?</vh>
 <v t="zoomq.20120608161547.16898"><vh>时</vh></v>
 <v t="zoomq.20120608161547.16899"><vh>间</vh></v>
@@ -1279,8 +1281,8 @@
 <v t="zoomq.20120608161547.16906"><vh>/TM?</vh></v>
 </v>
 <v t="zoomq.20120608161547.16907"><vh>把时间当作朋友</vh></v>
-<v t="zoomq.20120608161547.16908" a="E"><vh>PKM</vh>
-<v t="zoomq.20120608161547.16909" a="E"><vh>KM:SECI</vh>
+<v t="zoomq.20120608161547.16908"><vh>PKM</vh>
+<v t="zoomq.20120608161547.16909"><vh>KM:SECI</vh>
 <v t="zoomq.20120608161547.16910"><vh>知识之轮</vh></v>
 <v t="zoomq.20120608161547.16911"><vh>EKM</vh></v>
 <v t="zoomq.20120727213305.13042"><vh>EKM原则</vh></v>
@@ -1323,7 +1325,7 @@
 <v t="zoomq.20120608161547.16939" a="E"><vh>brief2</vh>
 <v t="zoomq.20120608161547.16940" a="E"><vh>冇最好</vh>
 <v t="zoomq.20120608161547.16941"><vh>矩阵</vh></v>
-<v t="zoomq.20120608161547.16942" a="E"><vh>时间帐单</vh>
+<v t="zoomq.20120608161547.16942"><vh>时间帐单</vh>
 <v t="zoomq.20120608161547.16943"><vh>奇特的一生</vh></v>
 <v t="zoomq.20120608161547.16944"><vh>帐单妙处0</vh></v>
 <v t="zoomq.20120608161547.16945"><vh>帐单妙处1</vh></v>
@@ -1340,14 +1342,15 @@
 </v>
 <v t="zoomq.20130302114851.14990"><vh>/时间帐单</vh></v>
 </v>
-<v t="zoomq.20120608161547.16949" a="E"><vh>GTD</vh>
+<v t="zoomq.20120608161547.16949"><vh>GTD</vh>
 <v t="zoomq.20120608161547.16950"><vh>GTD流程v2</vh></v>
 </v>
 <v t="zoomq.20120608161547.16951" a="E"><vh>GMail</vh>
 <v t="zoomq.20120608161547.16952"><vh>早上不收邮件</vh></v>
+<v t="zoomq.20130315100200.15025"><vh>真的会邮件?</vh></v>
 </v>
 <v t="zoomq.20120608161547.16953"><vh>LevelRedar</vh></v>
-<v t="zoomq.20120608161547.16954" a="E"><vh>&lt;think&gt;</vh>
+<v t="zoomq.20120608161547.16954"><vh>&lt;think&gt;</vh>
 <v t="zoomq.20120608161547.16955"><vh>MindMap</vh></v>
 <v t="zoomq.20120608161547.16956"><vh>xMind</vh></v>
 <v t="zoomq.20120608161547.16957"><vh>dot</vh></v>
@@ -1386,9 +1389,10 @@
 <v t="zoomq.20120608161547.16980"><vh>&lt;/share&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20120608161547.16981"><vh>brief3</vh>
+<v t="zoomq.20120608161547.16981" a="E"><vh>brief3</vh>
 <v t="zoomq.20120608161547.16982"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20120608161547.16983"><vh>总结7+-2</vh></v>
+<v t="zoomq.20130315100200.15023"></v>
 <v t="zoomq.20120608161547.16984"><vh>暗时间</vh></v>
 <v t="zoomq.20120608161547.16985"><vh>蕃茄时间</vh></v>
 <v t="zoomq.20120608161547.16986"><vh>讲演之禅</vh></v>
@@ -100845,9 +100849,9 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 
 .. |tilog| image:: i/snap/zq-tilog.jpg
-    :height: 600px
+    :height: 400px
 .. |talog| image:: i/snap/zq-talog.jpg
-    :height: 600px
+    :height: 400px
 
 .. container:: notes
 
@@ -100875,9 +100879,9 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 
 .. |tlpie| image:: i/snap/zq-ti-month-pie-0902.png
-    :height: 300px
+    :height: 200px
 .. |tlradar| image:: i/snap/zq-ti-month-radar-0902.png
-    :height: 400px
+    :height: 200px
 
 .. container:: notes
 
@@ -101732,6 +101736,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
+- 130315 增补GDG相关
 - 130303 增补移动应用
 - 120728 增补学习阶层
 - 120229 調整重点,追加好书,,
@@ -105159,6 +105164,54 @@ cr.define('options', function() {
 .. container:: notes
 
    - ...
+
+
+
+</t>
+<t tx="zoomq.20130315100200.15023">`珠海GDG &lt;http://www.chinagdg.com/thread-1329-1-1.html&gt;`_
+========================================================================
+
+.. container:: handout
+
+   Google Developer Group... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ZH_GDG_Logo_b_h100.png
+        :align: center
+        :height: 400px
+        :alt: ECUG
+        :target: http://code.google.com/p/ecug/wiki/FrontPage
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130315100200.15025">我们真的会正当使用邮件?
+====================================
+
+.. container:: handout
+
+    被QQ 败坏的一代哪.. |zqeye|
+
+
+* `程序员必知必会之Email篇 - 赖勇浩的编程私伙局 &lt;http://blog.csdn.net/lanphaday/article/details/850059&gt;`_
+* `程序员必知必会之maillist篇 - 赖勇浩的编程私伙局 &lt;http://blog.csdn.net/lanphaday/article/details/1669326&gt;`_ 
+* `邮件列表的文化礼仪与使用指引 &lt;http://skm.zoomquiet.org/data/20110417134205/index.html&gt;`_
+    * `「你会写电邮吗？」系列之一：引文在上 vs. 引文在下 &lt;http://apple4us.com/2010/05/email-etiquette-1-top-posting-bottom-posting.html&gt;`_
+    * `回帖风格 - 维基百科，自由的百科全书 &lt;http://zh.wikipedia.org/zh-cn/%E5%9B%9E%E5%B8%96%E9%A3%8E%E6%A0%BC&gt;`_
+    * `Why is Bottom-posting better than Top-posting &lt;http://www.caliburn.nl/topposting.html&gt;`_
+    
+        
+.. container:: notes
+
+   - 为什么起床后不能收邮件？ - 阮一峰的网络日志
 
 
 

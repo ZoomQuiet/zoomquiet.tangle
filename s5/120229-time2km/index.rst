@@ -611,6 +611,30 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 
+`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
+========================================================================
+
+.. container:: handout
+
+   Google Developer Group... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ZH_GDG_Logo_b_h100.png
+        :align: center
+        :height: 400px
+        :alt: ECUG
+        :target: http://code.google.com/p/ecug/wiki/FrontPage
+
+
+
+.. container:: notes
+
+   - 
+
+
+
 牛妞
 ==================
 
@@ -1828,9 +1852,9 @@ EKM目标
 
 
 .. |tilog| image:: i/snap/zq-tilog.jpg
-    :height: 600px
+    :height: 400px
 .. |talog| image:: i/snap/zq-talog.jpg
-    :height: 600px
+    :height: 400px
 
 .. container:: notes
 
@@ -1857,9 +1881,9 @@ EKM目标
 
 
 .. |tlpie| image:: i/snap/zq-ti-month-pie-0902.png
-    :height: 300px
+    :height: 200px
 .. |tlradar| image:: i/snap/zq-ti-month-radar-0902.png
-    :height: 400px
+    :height: 200px
 
 .. container:: notes
 
@@ -2121,6 +2145,28 @@ GMail
 
     不收邮件
 
+.. container:: notes
+
+   - 为什么起床后不能收邮件？ - 阮一峰的网络日志
+
+
+
+我们真的会正当使用邮件?
+====================================
+
+.. container:: handout
+
+    被QQ 败坏的一代哪.. |zqeye|
+
+
+* `程序员必知必会之Email篇 - 赖勇浩的编程私伙局 <http://blog.csdn.net/lanphaday/article/details/850059>`_
+* `程序员必知必会之maillist篇 - 赖勇浩的编程私伙局 <http://blog.csdn.net/lanphaday/article/details/1669326>`_ 
+* `邮件列表的文化礼仪与使用指引 <http://skm.zoomquiet.org/data/20110417134205/index.html>`_
+    * `「你会写电邮吗？」系列之一：引文在上 vs. 引文在下 <http://apple4us.com/2010/05/email-etiquette-1-top-posting-bottom-posting.html>`_
+    * `回帖风格 - 维基百科，自由的百科全书 <http://zh.wikipedia.org/zh-cn/%E5%9B%9E%E5%B8%96%E9%A3%8E%E6%A0%BC>`_
+    * `Why is Bottom-posting better than Top-posting <http://www.caliburn.nl/topposting.html>`_
+    
+        
 .. container:: notes
 
    - 为什么起床后不能收邮件？ - 阮一峰的网络日志
@@ -2924,6 +2970,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
+- 130315 增补GDG相关
 - 130303 增补移动应用
 - 120728 增补学习阶层
 - 120229 調整重点,追加好书,,

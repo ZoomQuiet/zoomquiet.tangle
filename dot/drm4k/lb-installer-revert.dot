@@ -52,6 +52,7 @@ digraph G4LBmultiResRevert {
     srvPUB [label="广播服务",shape=tab];
     srvAC [label="认证服务",shape=tab];
 
+        srvAC->srvX [label="1.0"];
         {srvX}->srvPUB [label="1.1"];
 
     aim [label="目标软件",shape=box];
@@ -60,29 +61,29 @@ digraph G4LBmultiResRevert {
     installer [label="组合安装器"];
         dlagent [label="下载器"];
         chker [label="检验器"];
-        inScript [label="安装脚本",shape=note];
+        inScript [label="恢复脚本",shape=note];
         runner [label="执行器"];
         bkStore [label="备份仓库",shape=box3d];
 
-    srvPUB->installer [label="2.0",style="dotted"];
 
     /*图例关系
     */
 
+    srvPUB->installer [label="2.0",style="dotted"];
         installer->srvAC->installer [label="2.1"];
         installer->dlagent [label="2.2"];
         {srvX}->dlagent [label="2.3"];
         dlagent->upPacket [label="2.4"];
 
-        installer->aim->usageFiles[label="3.1"];
-        usageFiles->bkStore[label="3.2"];
+    installer->aim->usageFiles[label="3.0"];
+        usageFiles->bkStore[label="3.1"];
 
-        upPacket->chker[label="4.1"];
-        chker->installer[label="4.2"];
-        installer->inScript[label="4.3"];
-        inScript->runner[label="4.4"];
+    upPacket->chker[label="4.0"];
+        chker->installer[label="4.1"];
+        installer->inScript[label="4.2"];
+        inScript->runner[label="4.3"];
 
-        runner->bkStore [label="5.0"];
+    runner->bkStore [label="5.0"];
         bkStore->aim [label="5.1"];
 
     { rank=same; PUB    srvX; }
