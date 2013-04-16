@@ -13,7 +13,7 @@ digraph G4Lmultitab2cloud {
         ,fontname="WenQuanYi Micro Hei"
         ,labeljust="l",labelloc="t",center=1
         ,ranksep=0.3,center=1,ratio=compress
-        ,rankdir=BT
+        ,rankdir=LR
         ];
 
     node[fontsize=11.0,height=0.3
@@ -73,6 +73,8 @@ subgraph cluster_loc {
     browser->doTAB [label="4.1"];
         {grpStore tabStore}->doTAB [label="4.2"];
         doTAB->acts [label="4.3 \n关闭\n隐藏\n恢复\n迁移"];
+        acts->TAB [label="4.4"];
+        doTAB->tabStore[label="4.5"];
 
 
 }
@@ -87,14 +89,15 @@ subgraph cluster_LBC {
     tagDB [label="特征仓库",shape=box3d];
     reTAB [label="分类挖掘机",shape=component];
         groups [label="分组数据",shape=note];
+    commTAB [label="标签推荐器",shape=component];
 
-    usrTAB  [label="用户标签库",shape=note];
-    LBCsrv->{grasper usrTAB} [label="2.0"];
-        grasper->analyser->tagDB [label="2.1"];
-        reTAB->groups->tagDB [label="2.2"];
-        reTAB->usrTAB [label="2.3"];
+    usrTAB  [label="用户标签库",shape=box3d];
 
-    usrTAB->sender->grpStore [label="3.0"];
+    {grasper usrTAB}->LBCsrv [label="2.0",arrowhead=none,arrowtail=vee];
+        tagDB->analyser->grasper [label="2.1",arrowhead=none,arrowtail=vee];
+        tagDB->groups->reTAB->usrTAB [label="2.2",arrowhead=none,arrowtail=vee];
+
+    {usrTAB tagDB}->commTAB->sender->grpStore [label="3.0"];
 
 }
 
@@ -104,13 +107,11 @@ subgraph cluster_LBC {
 
 /*
     { rank=same; AC    srvAC; }
-    { rank=same; COMM    commander; }
-    { rank=same; DONE   uriStore; }
-
     AC[label="认证准备",shape=plaintext];
     COMM[label="推荐阶段",shape=plaintext];
     DONE[label="完成阶段",shape=plaintext];
     AC->COMM->DONE;
+
 */
     edge [style=invis];
 

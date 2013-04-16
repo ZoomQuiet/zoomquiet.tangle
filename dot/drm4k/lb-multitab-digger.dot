@@ -59,6 +59,7 @@ digraph G4Lmultitabdigger {
 
     tabStore [label="标签仓库",shape=box3d];
     bmStore [label="书签仓库",shape=box3d];
+    hisStore [label="访问历史",shape=box3d];
     tagStore [label="特征仓库",shape=box3d];
 
     reTAB [label="分类挖掘机",shape=component];
@@ -72,7 +73,7 @@ digraph G4Lmultitabdigger {
     browser->TAB   [label="1.1"];
         TAB->reTAB->groups [label="1.2"];
         groups->tabStore [label="1.3"];
-        {tabStore bmStore}->reTAB [label="1.4"];
+        {tabStore bmStore hisStore}->reTAB [label="1.4"];
         reTAB->tagStore [label="1.5"];
         
     USER->browser [label="2.0\n操作请求",style="dotted"];
@@ -80,6 +81,7 @@ digraph G4Lmultitabdigger {
         doTAB->tagStore [label="2.2"];
         tagStore->browser [label="2.3"];
         browser->{close revert hide} [label="2.4"];
+        {close revert hide}->doTAB->tabStore [label="2.5"];
 
 /*
     { rank=same; AC    srvAC; }

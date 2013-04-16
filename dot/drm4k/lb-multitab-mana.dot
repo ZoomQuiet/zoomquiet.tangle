@@ -71,9 +71,10 @@ digraph G4Lmultitab {
         groups->tabStore [label="1.3"];
     USER->browser [label="2.0\n操作请求",style="dotted"];
     browser->doTAB [label="2.1"];
-        doTAB->tabStore [label="2.2"];
-        tabStore->doTAB->browser [label="2.3"];
+        tabStore->doTAB [label="2.2"];
+        doTAB->browser [label="2.3"];
         browser->{close revert hide} [label="2.4"];
+        {close revert hide}->doTAB->tabStore [label="2.5"];
 
 /*
     { rank=same; AC    srvAC; }
