@@ -50,17 +50,17 @@ digraph G4LBuuidLevels {
     TEAM [label="团队",shape=egg];
     USER [label="用户",shape=egg];
 
-    codeSrv [label="特征码\n管理服务",shape=component];
-        codeDB [label="特征码\n数据库",shape=box3d];
+    codeSrv [label="推广码\n管理服务",shape=component];
+        codeDB [label="推广码\n数据库",shape=box3d];
         srvPUB [label="发布服务",shape=component];
         srvAC [label="认证服务",shape=component];
         srvLOG [label="统计服务",shape=component];
 
-    GEN [label="特征码\n生成器",shape=component];
+    GEN [label="推广码\n生成器",shape=component];
         rootID [label="根节点ID",shape=note];
         parentID [label="父节点ID",shape=note];
         selfID [label="成员ID",shape=note];
-        urlID [label="应用\n特征码",shape=note];
+        urlID [label="应用\n推广码",shape=note];
 
     /*图例关系
     browser->srvAC->browser [label="1.0"];
