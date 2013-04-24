@@ -8,7 +8,7 @@ $ fdp -Tpng lb-uuid-levels.dot -o lb-uuid-levels.png
 
 digraph G4LBuuidLevels {
     /*全局设定*/
-    graph [label="分层式特征码-流程图"
+    graph [label="分层式推广码 技术方案{流程图}"
         ,fontsize=14.0
         ,fontname="WenQuanYi Micro Hei"
         ,labeljust="l",labelloc="t",center=1
@@ -70,7 +70,7 @@ digraph G4LBuuidLevels {
     codeSrv->codeDB [label="1.2"];
 
     TEAM->parentID->codeSrv [label="2.0"];
-        {codeSrv rootID}->GEN    [label="2.0"];
+        codeSrv->GEN    [label="2.0"];
         GEN->selfID->codeDB [label="2.1"];
         selfID->srvPUB->urlID [label="2.2"];
         codeDB->srvLOG [label="2.2"];
