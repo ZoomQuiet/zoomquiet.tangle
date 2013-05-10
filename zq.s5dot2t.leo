@@ -143,8 +143,8 @@
 <v t="zoomq.20120913101417.17413"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120913101417.17414"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14225"><vh>abt.ZQ</vh></v>
-<v t="zoomq.20130426172531.13409"><vh>brief0</vh>
-<v t="zoomq.20130426172531.15395" a="E"><vh>人口</vh>
+<v t="zoomq.20130426172531.13409" a="E"><vh>brief0</vh>
+<v t="zoomq.20130426172531.15395"><vh>人口</vh>
 <v t="zoomq.20130510094724.14249"><vh>大学</vh></v>
 <v t="zoomq.20130510094724.14251"><vh>IT</vh></v>
 </v>
@@ -153,7 +153,7 @@
 <v t="zoomq.20130510094724.14259"><vh>忒少</vh></v>
 <v t="zoomq.20130510094724.14253"><vh>为毛?!</vh></v>
 </v>
-<v t="zoomq.20130510094724.14261"><vh>为毛?!</vh>
+<v t="zoomq.20130510094724.14261" a="E"><vh>为毛?!</vh>
 <v t="zoomq.20130510094724.14263"><vh>困难</vh>
 <v t="zoomq.20130510094724.14265"><vh>youtube</vh></v>
 <v t="zoomq.20130510094724.14269"><vh>sites.google</vh></v>
@@ -172,7 +172,7 @@
 <v t="zoomq.20130510094724.15641"><vh>死循环</vh></v>
 </v>
 </v>
-<v t="zoomq.20130426172531.13411" a="E"><vh>brief1</vh>
+<v t="zoomq.20130426172531.13411"><vh>brief1</vh>
 <v t="zoomq.20130510094724.15645"><vh>Henry Ford</vh></v>
 <v t="zoomq.20130510094724.15647"><vh>GDG</vh>
 <v t="zoomq.20130510094724.15649"><vh>GDG</vh></v>
@@ -102534,7 +102534,8 @@ Combination
     http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
 .. _ZPyUG:
     http://wiki.woodpecker.org.cn/moin/ZPyUG
-
+.. _GFW: 
+    http://en.wikipedia.org/wiki/GFW
 .. _L10N:
     http://en.wikipedia.org/wiki/Internationalization_and_localization
     
@@ -109855,7 +109856,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. class:: takahashi9
 
-    GWF
+    `GFW`_
 
 .. container:: notes
 

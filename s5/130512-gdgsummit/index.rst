@@ -31,7 +31,8 @@ Combination
     http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
 .. _ZPyUG:
     http://wiki.woodpecker.org.cn/moin/ZPyUG
-
+.. _GFW: 
+    http://en.wikipedia.org/wiki/GFW
 .. _L10N:
     http://en.wikipedia.org/wiki/Internationalization_and_localization
     
@@ -281,7 +282,7 @@ difficulty in China
 
 .. class:: takahashi9
 
-    GWF
+    `GFW`_
 
 .. container:: notes
 
