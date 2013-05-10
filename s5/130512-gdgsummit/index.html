@@ -1,0 +1,1418 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
+<meta name="version" content="S5 1.1" />
+<title>Combination</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7056 2011-06-17 10:50:48Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+<!-- configuration parameters -->
+<meta name="defaultView" content="slideshow" />
+<meta name="controlVis" content="hidden" />
+<!-- style sheet links -->
+<script src="ui/freedom/slides.js" type="text/javascript"></script>
+<link rel="stylesheet" href="ui/freedom/slides.css"
+      type="text/css" media="projection" id="slideProj" />
+<link rel="stylesheet" href="ui/freedom/outline.css"
+      type="text/css" media="screen" id="outlineStyle" />
+<link rel="stylesheet" href="ui/freedom/print.css"
+      type="text/css" media="print" id="slidePrint" />
+<link rel="stylesheet" href="ui/freedom/opera.css"
+      type="text/css" media="projection" id="operaFix" />
+</head>
+<body>
+<div class="layout">
+<div id="controls"></div>
+<div id="currentSlide"></div>
+<div id="header">
+
+</div>
+<div id="footer">
+<h1>Combination</h1>
+<h2><a class="reference external" href="http://code.google.com/p/openbookproject/wiki/ZoomQuiet">Zoom.Quiet</a> <a class="reference external" href="http://creativecommons.org/licenses/by-nc-sa/2.5/cn/"><img alt="(CC)by-nc-sa 许可证" src="i/icon/cc-byncnd-80x15.png" /></a> recommend <a class="reference external" href="http://www.mozilla.com/firefox/">Firefox</a> / <a class="reference external" href="http://www.google.com/intl/zh-CN/chrome/browser/">Chrome</a> for best experience!</h2>
+</div>
+</div>
+<div class="presentation">
+<div class="slide" id="slide0">
+<h1 class="title">Combination</h1>
+
+<!-- Definitions of interpreted text roles (classes) for S5/HTML data. -->
+<!-- This data file has been placed in the public domain. -->
+<!-- Colours
+======= -->
+<!-- Text Sizes
+========== -->
+<!-- Display in Slides (Presentation Mode) Only
+========================================== -->
+<!-- Display in Outline Mode Only
+============================ -->
+<!-- Display in Print Only
+===================== -->
+<!-- Display in Handout Mode Only
+============================ -->
+<!-- Incremental Display
+=================== -->
+<p>～base <span class="orange">L10N</span> make DGD Chapters hangout together!-)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Authors:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+s5&#64;gmai.com">Zoom.Quiet</a></td>
+</tr>
+<tr class="field"><th class="field-name">URL:</th><td class="field-body"><a class="reference external" href="http://zoomquiet.org/res/s5/130512-gdgsummit/">http://zoomquiet.org/res/s5/130512-gdgsummit/</a></td>
+</tr>
+</tbody>
+</table>
+<!-- This document has been placed in the CC domain. -->
+<!-- 图片定义区 -->
+
+</div>
+<div class="slide" id="organizer-of-gdg-zhuhai">
+<h1>organizer of GDG ZhuHai</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="是也乎,是也乎" class="takahashi align-center" src="i/id/100514-zq-eye.png" />
+<a class="takahashi reference external image-reference" href="http://zoomquiet.org"><img alt="Zoom.Quiet" class="align-center" src="i/map/50ren-ZoomQuiet-s5-v800.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="brief">
+<h1>&lt;brief/&gt;</h1>
+<div class="handout container">
+... <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<ul class="takahashi simple">
+<li><span class="gray">3' Problem is</span></li>
+<li><span class="gray">4' How 2do</span></li>
+<li><span class="orange">3' Discuss</span></li>
+<li><span class="silver">~ abt. me</span></li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="china-population">
+<h1>China population</h1>
+<div class="handout container">
+1,344,130,000 - 2011 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9"><span class="orange">1.3</span></p>
+<div class="notes container">
+<ul class="simple">
+<li>1.3 billion just in 2011</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="means">
+<h1>Means...</h1>
+<div class="handout container">
+<span class="orange">every year</span> appended 6,000,000 University student <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9"><span class="orange">6</span></p>
+<div class="notes container">
+<ul class="simple">
+<li>1.3 billion just in 2011</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id3">
+<h1>Means...</h1>
+<div class="handout container">
+<span class="orange">every year</span> graduation 600,000 student as developer <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9"><span class="orange">0.6</span></p>
+<div class="notes container">
+<ul class="simple">
+<li>1.3 billion just in 2011</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="gdg-in-china">
+<h1>GDG in China</h1>
+<div class="handout container">
+14 Chapters.. <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<img alt="GDG ZhuHai" class="takahashi1 align-center" src="i/snap/snap4ZQMBP_chinaGDGs.png" />
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="member-as">
+<h1>Member as</h1>
+<div class="handout container">
+<span class="orange">in total</span> 10,000 join GDG <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9"><span class="orange">0.01</span></p>
+<div class="notes container">
+<ul class="simple">
+<li>1.3 billion just in 2011</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id4">
+<h1>GDG in China</h1>
+<div class="handout container">
+comparison <span class="orange">every year</span> 600,000 graduation as developer <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8"><span class="orange">so</span></p>
+<p class="takahashi8">few</p>
+<div class="notes container">
+<ul class="simple">
+<li>1.3 billion just in 2011</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id5">
+<h1>GDG in China</h1>
+<div class="handout container">
+comparison <span class="orange">every year</span> 600,000 as developer <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9">Why<span class="orange">!</span></p>
+<div class="notes container">
+<ul class="simple">
+<li>1.3 billion just in 2011</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="i-guess">
+<h1>i guess</h1>
+<div class="handout container">
+NOT fun enough! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8"><span class="orange">not</span></p>
+<p class="takahashi8">fun</p>
+<div class="notes container">
+<ul class="simple">
+<li>1.3 billion just in 2011</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="difficulty-in-china">
+<h1>difficulty in China</h1>
+<div class="handout container">
+make GDG event?! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9">GWF</p>
+<div class="notes container">
+<ul class="simple">
+<li>there is always can not visit</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="invalidation">
+<h1>invalidation</h1>
+<div class="handout container">
+GDL is non-existent for Chinese <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7">youtube</p>
+<div class="notes container">
+<ul class="simple">
+<li>there is always can not visit</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id6">
+<h1>invalidation</h1>
+<div class="handout container">
+gdgorganizersummit is non-existent for Chinese <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7">sites</p>
+<p class="takahashi7">.google</p>
+<div class="notes container">
+<ul class="simple">
+<li>there is always can not visit</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id7">
+<h1>invalidation</h1>
+<div class="handout container">
+G+ is non-existent for Chinese <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7">plus</p>
+<p class="takahashi7">.google</p>
+<div class="notes container">
+<ul class="simple">
+<li>there is always can not visit</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id8">
+<h1>invalidation</h1>
+<div class="handout container">
+GDA is non-existent for Chinese <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi5">developer</p>
+<p class="takahashi5">.google</p>
+<div class="notes container">
+<ul class="simple">
+<li>there is always can not visit</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id9">
+<h1>difficulty in China</h1>
+<div class="handout container">
+囧rz <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9">and</p>
+<div class="notes container">
+<ul class="simple">
+<li>there is always can not visit</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="youtube">
+<h1>youtube</h1>
+<div class="handout container">
+all contents is... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7"><span class="orange">En</span>glish</p>
+<div class="notes container">
+<ul class="simple">
+<li>we r Cnglish!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="sites-google">
+<h1>sites.google</h1>
+<div class="handout container">
+all contents is... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7"><span class="orange">En</span>glish</p>
+<div class="notes container">
+<ul class="simple">
+<li>we r Cnglish!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="developer-google">
+<h1>developer.google</h1>
+<div class="handout container">
+all contents is... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7"><span class="orange">En</span>glish</p>
+<div class="notes container">
+<ul class="simple">
+<li>we r Cnglish!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="for-chinese">
+<h1>for Chinese</h1>
+<div class="handout container">
+most pople just only can... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7"><span class="orange">Cn</span>glish</p>
+<div class="notes container">
+<ul class="simple">
+<li>we r Cnglish!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id10">
+<h1>for Chinese</h1>
+<div class="handout container">
+in same time most pople just a litter... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9">Shy</p>
+<div class="notes container">
+<ul class="simple">
+<li>we r Cnglish!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="so">
+<h1>So..</h1>
+<div class="handout container">
+most pople shy ask others... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">no</p>
+<p class="takahashi8">ask</p>
+<div class="notes container">
+<ul class="simple">
+<li>we r Cnglish!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id11">
+<h1>So..</h1>
+<div class="handout container">
+shy-&gt;not know-&gt;not fun-&gt;leaved... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7">bad</p>
+<p class="takahashi7">loop</p>
+<div class="notes container">
+<ul class="simple">
+<li>we r Cnglish!</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id12">
+<h1>&lt;brief/&gt;</h1>
+<div class="handout container">
+... <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<ul class="takahashi simple">
+<li><span class="gray">3' Problem is</span></li>
+<li><span class="gray">4' How 2do</span></li>
+<li><span class="orange">3' Discuss</span></li>
+<li><span class="silver">~ abt. me</span></li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="henry-ford">
+<h1><a class="reference external" href="http://www.brainyquote.com/quotes/quotes/h/henryford121997.html">Henry Ford</a></h1>
+<div class="handout container">
+together make difficulty easy <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="incremental takahashi simple">
+<li>Coming together is a beginning;</li>
+<li>keeping together is progress;</li>
+<li>working together is success.</li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="gdg-in-global">
+<h1>GDG in global</h1>
+<div class="handout container">
+<span class="orange">Countries</span> with GDG chapters <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9"><span class="orange">102</span></p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id14">
+<h1>GDG in global</h1>
+<div class="handout container">
+<span class="orange">Citys</span>  have GDG chapter <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9"><span class="orange">390</span></p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id15">
+<h1>GDG in global</h1>
+<div class="handout container">
+<span class="orange">non-English</span>  chapter is <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8"><span class="orange">not</span></p>
+<p class="takahashi8">few</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="what-kinds-of-task">
+<h1>what kinds of task</h1>
+<div class="handout container">
+can make Chapters working together? <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9">so...</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="just-is">
+<h1>just is</h1>
+<div class="handout container">
+every chapter need it! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9"><a class="reference external" href="http://en.wikipedia.org/wiki/Internationalization_and_localization">L10N</a></p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="e-g">
+<h1>e.g ;-)</h1>
+<div class="handout container">
+<a class="reference external" href="http://www.chinagdg.com/thread-1495-1-1.html">[3.30]#ZhuHaiGDG#founded!</a> <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://www.chinagdg.com/forum-94-1.html"><img alt="GDG ZhuHai" class="align-center" src="i/logo/ZH_YiLaBao2_noICONs.jpg" style="height: 300px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>ZH_YiLaBao2_noICONs.jpg</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="mailling-list">
+<h1>mailling list</h1>
+<div class="handout container">
+for open Discuss <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="https://groups.google.com/forum/#%21forum/gdg-zhuhai"><img alt="gdg-zhuhai&#64;googlegroups.com" class="align-center" src="i/snap/snap4ZQMBP_groups.png" style="height: 500px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="g-pages">
+<h1>G+ pages</h1>
+<div class="handout container">
+announce <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://gplus.to/gdgzh"><img alt="GDG ZhuHai" class="align-center" src="i/snap/snap4ZQMBP_GDG-zhuhai.png" style="height: 500px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="g-commuinity">
+<h1>G+ commuinity</h1>
+<div class="handout container">
+real-time discuss <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://gplus.to/zhGDG"><img alt="GDG ZhuHai" class="align-center" src="i/snap/snap4ZQMBP_ZhuHai-GDG.png" style="height: 500px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="weibo">
+<h1>weibo</h1>
+<div class="handout container">
+twitter in China <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://weibo.com/gdgzh"><img alt="GDG ZhuHai" class="align-center" src="i/snap/snap4ZQMBP_weibo.png" style="height: 500px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>qrcode_for_gh_5e32c47b5b23_430.jpg</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="wechat">
+<h1>微信 ~ WeChat</h1>
+<div class="handout container">
+Whatsapp/KIK in China <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<img alt="GDG珠海" class="takahashi1 align-center" src="i/snap/qrcode_for_gh_5e32c47b5b23_430.jpg" />
+<div class="notes container">
+<ul class="simple">
+<li>qrcode_for_gh_5e32c47b5b23_430.jpg</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="bbs">
+<h1>BBS</h1>
+<div class="handout container">
+Chinese habit communication <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://www.chinagdg.com/forum-94-1.html"><img alt="GDG ZhuHai" class="align-center" src="i/snap/snap4ZQMBP_bbs.png" style="height: 500px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>qrcode_for_gh_5e32c47b5b23_430.jpg</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="trello">
+<h1>Trello</h1>
+<div class="handout container">
+as Kanban, coordination community matters  <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="https://trello.com/board/gdg/51231b62a1f34342720041e2"><img alt="GDG ZhuHai" class="align-center" src="i/snap/snap4ZQMBP_trello.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="where-need">
+<h1>where need</h1>
+<div class="handout container">
+almost everywhere! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi9"><a class="reference external" href="http://en.wikipedia.org/wiki/Internationalization_and_localization">L10N</a></p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="gdg-s-core">
+<h1>GDG 's core ...</h1>
+<div class="handout container">
+base Event make people start learnning/codeing... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">Events</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="events-just-beginning">
+<h1>Events just beginning</h1>
+<div class="handout container">
+after begin, how to make people hold on... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">Start</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="continual-commonuication-with-people">
+<h1>continual commonuication with people</h1>
+<div class="handout container">
+heart to heart <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8"><span class="orange">H</span>2<span class="orange">H</span></p>
+<p class="takahashi8">(^.^)</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="as-standard-gdg">
+<h1>as standard GDG</h1>
+<div class="handout container">
+includ hundreds local people <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<ul class="incremental takahashi simple">
+<li>as organizer</li>
+<li>as learnner</li>
+<li>as developer</li>
+<li>as volunteer</li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li>Mentor</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="l10n-organizer">
+<h1><a class="reference external" href="http://en.wikipedia.org/wiki/Internationalization_and_localization">L10N</a> : organizer</h1>
+<div class="handout container">
+exchange Events organizing skill/source <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">Pair</p>
+<p class="takahashi8">Events</p>
+<div class="notes container">
+<ul class="simple">
+<li>like Pair Programming</li>
+<li>make great event into loal chapter</li>
+<li><a class="reference external" href="http://en.wikipedia.org/wiki/Internationalization_and_localization">L10N</a> event flow/game/words ...</li>
+<li>make series Brand events</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="l10n-learnner">
+<h1><a class="reference external" href="http://en.wikipedia.org/wiki/Internationalization_and_localization">L10N</a> : learnner</h1>
+<div class="handout container">
+base YouTube API, sharing leanning process... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7">Pair</p>
+<p class="takahashi7"><a class="reference external" href="http://support.google.com/youtube/bin/answer.py?hl=en&amp;answer=2734796">Caption</a></p>
+<div class="notes container">
+<ul class="simple">
+<li>for GDL great video</li>
+<li>non-English Chapter Union <a class="reference external" href="http://support.google.com/youtube/bin/answer.py?hl=en&amp;answer=2734796">Caption</a> it</li>
+<li>chinese Shy in realy-world, BUT NOT Internet ;-)</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="l10n-developer">
+<h1><a class="reference external" href="http://en.wikipedia.org/wiki/Internationalization_and_localization">L10N</a> : developer</h1>
+<div class="handout container">
+base code.google, coding together... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi5">Pair</p>
+<p class="takahashi5">Program</p>
+<div class="notes container">
+<ul class="simple">
+<li>base sdk from developers.google.com</li>
+<li>there is soooo many cool things wait us make it</li>
+<li>through code, non-English Chapter can fun together</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="l10n-volunteer">
+<h1><a class="reference external" href="http://en.wikipedia.org/wiki/Internationalization_and_localization">L10N</a> : volunteer</h1>
+<div class="handout container">
+as sister Chapters, volunteers support each other ... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi5">Pair</p>
+<p class="takahashi5">Volunteer</p>
+<div class="notes container">
+<ul class="simple">
+<li>spread each other events</li>
+<li>spread each other design</li>
+<li>spread each other gifts</li>
+<li>spread each other storys</li>
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="l10n-key-is">
+<h1><a class="reference external" href="http://en.wikipedia.org/wiki/Internationalization_and_localization">L10N</a> : Key is</h1>
+<div class="handout container">
+GDGer is all good people,we must came into... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7"><span class="orange">new</span></p>
+<p class="takahashi7">Friends</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id16">
+<h1>So...</h1>
+<div class="handout container">
+GDGer is all good people,we must came into... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi7"><span class="orange">Let's</span></p>
+<p class="takahashi7">try it!</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+<li>...</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id17">
+<h1>&lt;brief/&gt;</h1>
+<div class="handout container">
+... <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<ul class="takahashi simple">
+<li><span class="gray">3' Problem is</span></li>
+<li><span class="gray">4' How 2do</span></li>
+<li><span class="orange">3' Discuss</span></li>
+<li><span class="silver">~ abt. me</span></li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="summary">
+<h1>summary</h1>
+<div class="handout container">
+always can remember things in meet: 7+-2 ;-) <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="incremental takahashi simple">
+<li>English not fun in Chinese</li>
+<li><a class="reference external" href="http://en.wikipedia.org/wiki/Internationalization_and_localization">L10N</a> is always need in GDG</li>
+<li>Pair someting make fun</li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="discuss">
+<h1>&lt;discuss/&gt;</h1>
+<div class="handout container">
+<a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<p class="takahashi8">Q&amp;A</p>
+<p class="takahashi0">.</p>
+<!--  -->
+<p class="takahashi0"><a class="reference external" href="http://zoomquiet.org/res/s5/130512-gdgsummit/">http://zoomquiet.org/res/s5/130512-gdgsummit/</a></p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="end-of-end">
+<h1>end of end ...</h1>
+<div class="handout container">
+Good Book... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi reference external image-reference" href="http://book.douban.com/subject/4760725/"><img alt="讲演之禅" class="align-center" src="i/s4279952-zen4talk.jpg" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id18">
+<h1><a class="reference external" href="http://www.chinagdg.com/thread-1329-1-1.html">珠海GDG</a></h1>
+<div class="handout container">
+Google Developer Group... <a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://www.chinagdg.com/forum-94-1.html"><img alt="ZHGDG" class="align-center" src="i/logo/ZH_GDG_Logo_SQ3-130405.png" style="height: 400px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id19">
+<h1>&lt;brief/&gt;</h1>
+<div class="handout container">
+... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="takahashi simple">
+<li><span class="gray">3' Problem is</span></li>
+<li><span class="gray">4' How 2do</span></li>
+<li><span class="gray">3' Discuss</span></li>
+<li><span class="orange">~ abt. me</span></li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id20">
+<h1>&lt;Zoom.Quiet&gt;</h1>
+<div class="handout container">
+<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="是也乎,是也乎" class="takahashi align-center" src="i/id/100514-zq-eye.png" />
+<a class="takahashi reference external image-reference" href="http://zoomquiet.org"><img alt="Zoom.Quiet" class="align-center" src="i/map/50ren-ZoomQuiet-s5-v800.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="old-man">
+<h1>old man</h1>
+<div class="handout container">
+本命年+3 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">~40</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="advertisement">
+<h1>advertisement</h1>
+<div class="handout container">
+as Designer in ZhangHou ;-{ <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">1999</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="developer-shanghai">
+<h1>Developer &#64;ShangHai</h1>
+<div class="handout container">
+fighting: HTML-&gt;JS-&gt;PHP-&gt;XSL-&gt;Py <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">~2004</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="czug-org">
+<h1><a class="reference external" href="http://czug.org/">2003:CZUG.org</a></h1>
+<div class="handout container">
+learnning Zope/Plone... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<ul class="takahashi1 simple">
+<li><strong>C</strong> hina</li>
+<li><strong>Z</strong> ope</li>
+<li><strong>U</strong> ser</li>
+<li><strong>G</strong> roup</li>
+</ul>
+<img alt="http://czug.org" class="takahashi1 align-center" src="i/logo/logo-czug.png" />
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="woodpecker-org">
+<h1><a class="reference external" href="http://www.woodpecker.org.cn/">2004:woodpecker.org</a></h1>
+<div class="handout container">
+admin. MoinMoin 1.2.4... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<img alt="http://www.woodpecker.org.cn" class="center align-center" src="i/logo/logo-wpwww_banner.png" />
+<ul class="center simple">
+<li><img alt="http://www.woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wpwiki_banner.gif" /> <sup>MoinMoin 1.4.*</sup></li>
+<li><img alt="http://wiki.woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wp-wiki_banner.png" /> <sup>MoinMoin 1.7.*</sup></li>
+<li><img alt="http://wiki,woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wiki-wp_zoomq_scrot.png" /> <sup>MoinMoin 1.9.*</sup></li>
+</ul>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="process-improve-beijing">
+<h1>Process Improve &#64;Beijing</h1>
+<div class="handout container">
+learnning: SINA-&gt;CPyUG-&gt;SLL <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi8">~2007</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="cpyug-bpyug">
+<h1>2005: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30">CPyUG</a> -&gt; BPyUG</h1>
+<div class="handout container">
+working with Python,in SINA.com <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/CPUG"><img alt="CPyUG" class="align-center" src="i/logo/120201-CPyUG-logo-v2.png" style="height: 500px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>BPUG-logo-v1.3.png</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id21">
+<h1>2005: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30">CPyUG</a> -&gt; BPyUG</h1>
+<div class="handout container">
+working with Python,in SINA.com <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/BPUG"><img alt="BPUG" class="align-center" src="i/logo/BPUG-logo-v1.2.png" style="height: 400px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>BPUG-logo-v1.3.png</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id22">
+<h1>2007: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZPyUG">ZPyUG</a></h1>
+<div class="handout container">
+<ul class="simple">
+<li>spreading Python everywhere to everyone...</li>
+</ul>
+</div>
+<ul class="takahashi1 simple">
+<li><strong>珠</strong> 三角</li>
+<li><strong>P</strong> ython</li>
+<li><strong>U</strong> ser</li>
+<li><strong>G</strong> roup</li>
+</ul>
+<img alt="i/logo/logo_163_game.gif" class="takahashi1 align-center" src="i/logo/logo_163_game.gif" />
+<img alt="i/logo/logo_sina_home.gif" class="takahashi1 align-center" src="i/logo/logo_sina_home.gif" />
+<img alt="i/logo/logo-ks.jpg" class="takahashi1 align-center" src="i/logo/logo-ks.jpg" />
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id23">
+<h1><a class="reference external" href="http://ecug.org/">ECUG.org</a></h1>
+<div class="handout container">
+spreading Python everywhere to everyone... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://code.google.com/p/ecug/wiki/FrontPage"><img alt="ECUG" class="align-center" src="i/logo/ecug-logo_67bw.jpg" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="sll-org-sll-org">
+<h1>2008:<a class="reference external" href="http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&amp;variant=zh-cn"><img alt="SLL" src="i/logo/2018-gz-sll.png" /></a> &quot;SLL.org&quot;</h1>
+<div class="handout container">
+spreading Pythonic everywhere to everyone... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi3">SocialLearnLab</p>
+<p class="takahashi2 center"><a class="reference external" href="http://sociallearnlab.org/">http://sociallearnlab.org/</a></p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="publish">
+<h1>2009-09-01 publish</h1>
+<div class="handout container">
+<ul class="simple">
+<li>the OpenBookProject &quot;Lovely Python&quot; <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></li>
+</ul>
+</div>
+<a class="takahashi1 reference external image-reference" href="http://book.douban.com/subject/3884108/"><img alt="可愛的Python" class="align-center" src="i/090902-lovpy.jpg" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>snap4ZQMBP_apac2010.png</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id24">
+<h1>2010~</h1>
+<div class="handout container">
+CPyUG growning up and up... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://groups-beta.google.com/group/python-cn"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png" style="height: 700px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>snap4ZQMBP_apac2010.png</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="pycon-asia-pacific-2010">
+<h1>PyCon Asia Pacific 2010</h1>
+<div class="handout container">
+1st out door... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/PyCon2010"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/snap4ZQMBP_apac2010.png" style="height: 600px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>snap4ZQMBP_apac2010.png</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="pycon2011china">
+<h1>PyCon2011China</h1>
+<div class="handout container">
+1st PyCon go in China... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://cn.pycon.org/2011"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/snap4ZQMBP_pycon2011cn.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>snap4ZQMBP_pycon2011cn.png</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id25">
+<h1>~2012</h1>
+<div class="handout container">
+CPyUG growning up and up... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://groups-beta.google.com/group/python-cn"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/121023-python-cn-1kmailer.png" style="height: 600px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>snap4ZQMBP_pycon2011cn.png</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="pycon2012china">
+<h1>PyCon2012ChinA</h1>
+<div class="handout container">
+1st PyCon China Double City Party... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://cn.pycon.org/2011"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/snap4ZQMBP_pycon2012cn.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>snap4ZQMBP_pycon2011cn.png</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="subscription">
+<h1>10,000 subscription!</h1>
+<div class="handout container">
+121024 1st Pythonic Hackathon ! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://groups-beta.google.com/group/python-cn"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/121024-python-cn-10000.png" style="height: 600px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li>snap4ZQMBP_pycon2011cn.png</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id26">
+<h1>~2013</h1>
+<div class="handout container">
+... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://groups-beta.google.com/group/python-cn"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/snap4ZQMBP_130426_17.24.35.png" style="height: 500px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id27">
+<h1>~2013</h1>
+<div class="handout container">
+bad count!... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://groups-beta.google.com/group/python-cn"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/snap4ZQMBP_130426_17.24.45.png" style="height: 500px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="so-in-fact">
+<h1>so in fact ...</h1>
+<div class="handout container">
+community grandma ;-} <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<p class="takahashi">i'm</p>
+<p class="takahashi"><a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet">社区大妈</a></p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id29">
+<h1><a class="reference external" href="http://www.chinagdg.com/thread-1329-1-1.html">GDG ZhuHai</a></h1>
+<div class="handout container">
+Google Developer Group... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi1 reference external image-reference" href="http://www.chinagdg.com/forum-94-1.html"><img alt="ZHGDG" class="align-center" src="i/logo/ZH_YiLaBao2_noICONs.jpg" style="height: 300px;" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="niuniu">
+<h1>牛妞 ~ NiuNiu</h1>
+<div class="handout container">
+\ (^o^) / 596d</div>
+<img alt="表情牛妞" class="align-center" src="i/foto/niuniu110105.jpeg" style="height: 700px;" />
+<div class="notes container">
+<ul class="simple">
+<li>我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...</li>
+<li>120426-niuniu-表情帝</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id30">
+<h1>牛妞 ~ NiuNiu</h1>
+<div class="handout container">
+\ (^o^) / 1096d</div>
+<img alt="表情牛妞" class="align-center" src="i/foto/120426-niuniu-表情帝.jpg" style="height: 700px;" />
+<div class="notes container">
+<ul class="simple">
+<li>我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...</li>
+<li>120426-niuniu-表情帝</li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id31">
+<h1>&lt;/Zoom.Quiet&gt;</h1>
+<div class="handout container">
+<ul class="simple">
+<li>Pure Pythoner，FreeSoftware Fundamentalists!</li>
+<li>focus Social Edu.,knowledge manage,enjoy SiFi/photograph</li>
+<li>try base Pythonic, make Chinese jump into OSS, enjoy learnning/invention/coding/sharing...</li>
+</ul>
+</div>
+<p class="takahashi8">(^.^)</p>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="vertion">
+<h1>&lt;Vertion/&gt;</h1>
+<div class="handout container">
+<a class="reference external" href="http://www.chinagdg.com/thread-1650-1-1.html"><img alt="zhgdg" src="i/id/ZH_GDG_Logo_SQ3-130405_50.png" /></a></div>
+<ul class="simple">
+<li>130509 appended points</li>
+<li>130501 prototype</li>
+<li>130429 desided</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">feedback:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+s5&#64;gmail.com">zoomquiet+s5&#64;gmail.com</a></td>
+</tr>
+<tr class="field"><th class="field-name">URI:</th><td class="field-body"><a class="reference external" href="http://zoomquiet.org/res/s5/130512-gdgsummit/">http://zoomquiet.org/res/s5/130512-gdgsummit/</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="slide" id="id32">
+<h1><a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/">S5</a></h1>
+<div class="handout container">
+纯HTML 幻灯撰写框架!... <img alt="lr_s5" src="i/icon/levelradar_s5.png" /></div>
+<ul class="simple">
+<li>S<sup>5</sup>== a <span class="orange">S</span> imple <span class="orange">S</span> tandards-Based <span class="orange">S</span> lide <span class="orange">S</span> how <span class="orange">S</span> ystem</li>
+</ul>
+<blockquote>
+<ul class="simple">
+<li>仅仅依靠 CSS+JS 的HTML格式幻灯演示框架</li>
+</ul>
+</blockquote>
+<ul class="simple">
+<li>我的编辑环境: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="LeoProse" class="align-top" src="pix/LeoProse.gif" /></a> ~ <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">文学化编辑器</a></li>
+</ul>
+<a class="reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="pix/2010-01-18-230729_605x421_leo.png" class="align-center" src="pix/2010-01-18-230729_605x421_leo.png" /></a>
+<div class="notes container">
+<ul class="simple">
+<li></li>
+</ul>
+</div>
+</div>
+<div class="slide" id="id33">
+<h1>&lt;Zoom.Quiet/&gt;</h1>
+<div class="handout container">
+本命+3,有娃有房,专业大妈  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
+<a class="takahashi reference external image-reference" href="http://weibo.com/zoomquiet"><img alt="i/foto/120826_niuniu.png" class="align-center" src="i/foto/120826_niuniu.png" /></a>
+</div>
+</div>
+</body>
+</html>
