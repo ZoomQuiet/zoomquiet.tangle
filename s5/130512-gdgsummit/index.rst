@@ -99,6 +99,32 @@ organizer of GDG ZhuHai
 
 
 
+<Disclaimer/>
+===========================
+
+.. container:: handout
+
+   Shanzhai, personal, unprofessional |zqeye|
+
+
+.. class:: takahashi1
+
+    - all infomation come from internet
+    - all idea come from dialy learnning
+    - all theory come from communication
+    - all knowledge come from community
+    - all experience come from fail 
+
+
+.. container:: notes
+
+    - 参考所有同好行为总结而得
+        - 一切资料来自网络互动挖掘
+        - 一切想法来自日常学习工作
+        - 一切体悟来自各种沟通交流
+        - 一切知识来自社区分享印证
+        - 一切经验来自个人失败体验
+    
 <brief/>
 =========
 
@@ -109,9 +135,9 @@ organizer of GDG ZhuHai
 
 .. class:: takahashi
 
-    - :gray:`3' Problem is`
-    - :gray:`4' How 2do`
-    - :orange:`3' Discuss`
+    - :orange:`3' Problem is`
+    - :silver:`4' How 2do`
+    - :silver:`3' Discuss`
     - :silver:`~ abt. me`
 
 .. container:: notes
@@ -378,7 +404,7 @@ difficulty in China
 
 .. class:: takahashi9
 
-    and
+    plus
 
 .. container:: notes
 
@@ -526,10 +552,9 @@ So..
 
 .. class:: takahashi
 
-
     - :gray:`3' Problem is`
-    - :gray:`4' How 2do`
-    - :orange:`3' Discuss`
+    - :orange:`4' How 2do`
+    - :silver:`3' Discuss`
     - :silver:`~ abt. me`
 
 
@@ -843,7 +868,7 @@ Trello
 
 
 
-where need
+where need ?
 ====================================
 
 .. container:: handout
@@ -1129,36 +1154,6 @@ summary
 
 
 
-
-
-
-<discuss/>
-==========
-
-.. container:: handout
-
-   |zhgdg|
-
-
-.. class:: takahashi8
-
-    Q&A
-
-
-
-.. class:: takahashi0
-
-    .
-    
-    ..
-
-    http://zoomquiet.org/res/s5/130512-gdgsummit/
-
-
-
-.. container:: notes
-
-   - 
 
 
 

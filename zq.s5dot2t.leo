@@ -143,12 +143,13 @@
 <v t="zoomq.20120913101417.17413"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120913101417.17414"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14225"><vh>abt.ZQ</vh></v>
+<v t="zoomq.20130510094724.15681"><vh>Disclaimer</vh></v>
 <v t="zoomq.20130426172531.13409" a="E"><vh>brief0</vh>
 <v t="zoomq.20130426172531.15395"><vh>人口</vh>
 <v t="zoomq.20130510094724.14249"><vh>大学</vh></v>
 <v t="zoomq.20130510094724.14251"><vh>IT</vh></v>
 </v>
-<v t="zoomq.20130510094724.14255" a="E"><vh>GDG中国</vh>
+<v t="zoomq.20130510094724.14255"><vh>GDG中国</vh>
 <v t="zoomq.20130510094724.14257"><vh>人数</vh></v>
 <v t="zoomq.20130510094724.14259"><vh>忒少</vh></v>
 <v t="zoomq.20130510094724.14253"><vh>为毛?!</vh></v>
@@ -195,7 +196,7 @@
 <v t="zoomq.20130510094724.15661"><vh>Start</vh></v>
 <v t="zoomq.20130510094724.15663"><vh>交流</vh></v>
 </v>
-<v t="zoomq.20130427091809.24935" a="E"><vh>GDG peoples</vh>
+<v t="zoomq.20130427091809.24935"><vh>GDG peoples</vh>
 <v t="zoomq.20130510094724.15665"><vh>organizer</vh></v>
 <v t="zoomq.20130510094724.15667"><vh>learnner</vh></v>
 <v t="zoomq.20130510094724.15669"><vh>developer</vh></v>
@@ -206,7 +207,6 @@
 </v>
 <v t="zoomq.20130426172531.13435" a="E"><vh>brief2</vh>
 <v t="zoomq.20130426172531.13437"><vh>总结7+-2</vh></v>
-<v t="zoomq.20130426172531.13436"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20130426172531.13441"><vh>讲演之禅</vh></v>
 <v t="zoomq.20130426172531.13438"><vh>GDG</vh></v>
 </v>
@@ -259,7 +259,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20130510094724.14073" a="E"><vh>130427-zhgdg2zhbit</vh>
+<v t="zoomq.20130510094724.14073"><vh>130427-zhgdg2zhbit</vh>
 <v t="zoomq.20130510094724.14074" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130510094724.14075"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14076"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -415,6 +415,7 @@
 </v>
 </v>
 </v>
+<v t="zoomq.20130510094724.15679"><vh>ZQ:2012</vh>
 <v t="zoomq.20130426100228.15153"><vh>121020-how2make-tech-party</vh>
 <v t="zoomq.20130426100228.15154" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130426100228.15155"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -1679,6 +1680,8 @@
 </v>
 </v>
 </v>
+</v>
+<v t="zoomq.20130510094724.15677"><vh>ZQ:2011</vh>
 <v t="zoomq.20111013085658.9846"><vh>111111-pyconchina-mq-taste</vh>
 <v t="zoomq.20111111090027.11917" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111111090027.11918"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -2563,6 +2566,8 @@
 </v>
 </v>
 </v>
+</v>
+<v t="zoomq.20130510094724.15676"><vh>ZQ:2010</vh>
 <v t="zoomq.20101214094417.7839"><vh>101217-TimeMana</vh>
 <v t="zoomq.20101215104953.9379"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101215104953.9380"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -3395,6 +3400,7 @@
 <v t="zoomq.20100602201453.5847"><vh>小小鸟</vh></v>
 <v t="zoomq.20100602201453.5848"><vh>Z.Q</vh></v>
 <v t="zoomq.20100602201453.5849"><vh>version</vh></v>
+</v>
 </v>
 </v>
 <v t="zoomq.20080807095120.28"><vh>ZEUUX:ZPyUG</vh>
@@ -4376,7 +4382,7 @@
 </v>
 </v>
 <v t="zoomq.20091204150544.7910"><vh>4BPyUG</vh>
-<v t="zoomq.20091204150544.11135"><vh>会课记录</vh>
+<v t="zoomq.20091204150544.11135" a="E"><vh>会课记录</vh>
 <v t="zoomq.20091204150544.11136"><vh>060528-talking</vh>
 <v t="zoomq.20091204150544.11137"><vh>会课</vh></v>
 <v t="zoomq.20091204150544.11138"><vh>@nosent index.html</vh>
@@ -5025,7 +5031,8 @@
 </v>
 <v t="zoomq.20100329224802.5547"><vh>PyCon</vh>
 <v t="zoomq.20100527142434.6470"><vh>100610-pycon-pythonicamp@ZqLib</vh>
-<v t="zoomq.20101118103232.9986"><vh>@shadow index.html</vh></v>
+<v t="zoomq.20101118103232.9986" a="E"
+expanded="zoomq.20101118103232.10067,"><vh>@shadow index.html</vh></v>
 </v>
 <v t="zoomq.20100603095331.5850"><vh>100610-pycon-pythonicamp@OBP</vh>
 <v t="zoomq.20110225221457.9672"><vh>index.html</vh>
@@ -5147,7 +5154,7 @@
 <v t="zoomq.20100312132537.10639"><vh>不要使用维基!</vh></v>
 <v t="zoomq.20100312132537.5536"><vh>共享的阻碍</vh></v>
 </v>
-<v t="zoomq.20091204150544.8545" a="E"><vh>QuickInKM</vh>
+<v t="zoomq.20091204150544.8545"><vh>QuickInKM</vh>
 <v t="zoomq.20091204150544.8546"><vh>@nosent index.html</vh>
 <v t="zoomq.20091204150544.8547"><vh>S5head</vh></v>
 <v t="zoomq.20091204150544.8548"><vh>S5foot</vh></v>
@@ -5527,8 +5534,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20100819213607.6364" a="E"><vh>Recovered Nodes</vh>
-<v t="zoomq.20100819213607.6365"><vh>Recovered node "page0 from @shadow index.html</vh>
+<v t="zoomq.20100819213607.6364"><vh>Recovered Nodes</vh>
+<v t="zoomq.20100819213607.6365" a="E"><vh>Recovered node "page0 from @shadow index.html</vh>
 <v t="zoomq.20100819213607.6366"><vh>old:page0</vh></v>
 <v t="zoomq.20100819213607.6367"><vh>new:page0</vh></v>
 </v>
@@ -102491,6 +102498,8 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 </t>
 <t tx="zoomq.20120913101417.17411">@path 130512-gdgsummit
+
+
 </t>
 <t tx="zoomq.20120913101417.17412">@language rest
 @tabwidth -4
@@ -106198,9 +106207,9 @@ cr.define('options', function() {
 
 .. class:: takahashi
 
-    - :gray:`3' Problem is`
-    - :gray:`4' How 2do`
-    - :orange:`3' Discuss`
+    - :orange:`3' Problem is`
+    - :silver:`4' How 2do`
+    - :silver:`3' Discuss`
     - :silver:`~ abt. me`
 
 .. container:: notes
@@ -106222,10 +106231,9 @@ cr.define('options', function() {
 
 .. class:: takahashi
 
-
     - :gray:`3' Problem is`
-    - :gray:`4' How 2do`
-    - :orange:`3' Discuss`
+    - :orange:`4' How 2do`
+    - :silver:`3' Discuss`
     - :silver:`~ abt. me`
 
 
@@ -106259,37 +106267,6 @@ cr.define('options', function() {
    - 
 
 
-
-
-
-</t>
-<t tx="zoomq.20130426172531.13436">&lt;discuss/&gt;
-==========
-
-.. container:: handout
-
-   |zhgdg|
-
-
-.. class:: takahashi8
-
-    Q&amp;A
-
-
-
-.. class:: takahashi0
-
-    .
-    
-    ..
-
-    http://zoomquiet.org/res/s5/130512-gdgsummit/
-
-
-
-.. container:: notes
-
-   - 
 
 
 
@@ -109957,7 +109934,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. class:: takahashi9
 
-    and
+    plus
 
 .. container:: notes
 
@@ -110230,7 +110207,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 </t>
-<t tx="zoomq.20130510094724.15657">where need
+<t tx="zoomq.20130510094724.15657">where need ?
 ====================================
 
 .. container:: handout
@@ -110458,6 +110435,36 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 
+</t>
+<t tx="zoomq.20130510094724.15676"></t>
+<t tx="zoomq.20130510094724.15677"></t>
+<t tx="zoomq.20130510094724.15679"></t>
+<t tx="zoomq.20130510094724.15681">&lt;Disclaimer/&gt;
+===========================
+
+.. container:: handout
+
+   Shanzhai, personal, unprofessional |zqeye|
+
+
+.. class:: takahashi1
+
+    - all infomation come from internet
+    - all idea come from dialy learnning
+    - all theory come from communication
+    - all knowledge come from community
+    - all experience come from fail 
+
+
+.. container:: notes
+
+    - 参考所有同好行为总结而得
+        - 一切资料来自网络互动挖掘
+        - 一切想法来自日常学习工作
+        - 一切体悟来自各种沟通交流
+        - 一切知识来自社区分享印证
+        - 一切经验来自个人失败体验
+    
 </t>
 </tnodes>
 </leo_file>
