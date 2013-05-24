@@ -138,8 +138,8 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20120913101417.17411" a="E"><vh>130512-gdgsummit</vh>
-<v t="zoomq.20120913101417.17412" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20120913101417.17411"><vh>130512-gdgsummit</vh>
+<v t="zoomq.20120913101417.17412"><vh>@nosent index.rst</vh>
 <v t="zoomq.20120913101417.17413"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120913101417.17414"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14225"><vh>abt.ZQ</vh></v>
@@ -173,7 +173,7 @@
 <v t="zoomq.20130510094724.15641"><vh>死循环</vh></v>
 </v>
 </v>
-<v t="zoomq.20130426172531.13411" a="E"><vh>brief1</vh>
+<v t="zoomq.20130426172531.13411"><vh>brief1</vh>
 <v t="zoomq.20130510094724.15645"><vh>Henry Ford</vh></v>
 <v t="zoomq.20130510094724.15647"><vh>GDG</vh>
 <v t="zoomq.20130510094724.15649"><vh>GDG</vh></v>
@@ -196,7 +196,7 @@
 <v t="zoomq.20130510094724.15663"><vh>交流</vh></v>
 <v t="zoomq.20130510094724.17537"><vh>L10N</vh></v>
 </v>
-<v t="zoomq.20130427091809.24935" a="E"><vh>GDG peoples</vh>
+<v t="zoomq.20130427091809.24935"><vh>GDG peoples</vh>
 <v t="zoomq.20130510094724.15665"><vh>organizer</vh></v>
 <v t="zoomq.20130510094724.15667"><vh>learnner</vh></v>
 <v t="zoomq.20130510094724.15669"><vh>developer</vh></v>
@@ -205,7 +205,7 @@
 </v>
 <v t="zoomq.20130510094724.15675"><vh>Try</vh></v>
 </v>
-<v t="zoomq.20130426172531.13435" a="E"><vh>brief2</vh>
+<v t="zoomq.20130426172531.13435"><vh>brief2</vh>
 <v t="zoomq.20130426172531.13437"><vh>总结7+-2</vh></v>
 <v t="zoomq.20130426172531.13441"><vh>讲演之禅</vh></v>
 <v t="zoomq.20130426172531.13438"><vh>GDG</vh></v>
@@ -259,10 +259,11 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20130510094724.14073"><vh>130427-zhgdg2zhbit</vh>
+<v t="zoomq.20130510094724.14073" a="E"><vh>130427-zhgdg2zhbit</vh>
 <v t="zoomq.20130510094724.14074" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130510094724.14075"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14076"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20130524101435.15087"><vh>ZHGDG</vh></v>
 <v t="zoomq.20130510094724.14077"><vh>免责</vh>
 <v t="zoomq.20130510094724.14078"><vh>Takahashi</vh>
 <v t="zoomq.20130510094724.14079"><vh>Takahashi</vh></v>
@@ -342,6 +343,7 @@
 <v t="zoomq.20130510094724.14139"><vh>问对</vh></v>
 </v>
 <v t="zoomq.20130510094724.14140"><vh>brief2</vh>
+<v t="zoomq.20130524101435.15084"><vh>如何画马</vh></v>
 <v t="zoomq.20130510094724.14141"><vh>蠎营</vh></v>
 <v t="zoomq.20130510094724.14142"><vh>&lt;Goal&gt;</vh>
 <v t="zoomq.20130510094724.14143"><vh>学生</vh></v>
@@ -369,7 +371,7 @@
 <v t="zoomq.20130510094724.14162"><vh>时限</vh></v>
 <v t="zoomq.20130510094724.14163"><vh>简单的说</vh></v>
 </v>
-<v t="zoomq.20130510094724.14164" a="E"><vh>brief3</vh>
+<v t="zoomq.20130510094724.14164"><vh>brief3</vh>
 <v t="zoomq.20130510094724.14165"><vh>zhgdg</vh>
 <v t="zoomq.20130510094724.14166"><vh>Groups</vh></v>
 <v t="zoomq.20130510094724.14167"><vh>G+</vh></v>
@@ -407,12 +409,13 @@
 <v t="zoomq.20130510094724.14194"><vh>小小鸟</vh></v>
 <v t="zoomq.20130510094724.14195"><vh>讲演之禅</vh></v>
 <v t="zoomq.20130510094724.14196"><vh>Q&amp;A</vh></v>
-<v t="zoomq.20130510094724.14197"><vh>GDG</vh></v>
+<v t="zoomq.20130524101435.15087"></v>
 </v>
 <v t="zoomq.20130510094724.14198"><vh>version</vh>
 <v t="zoomq.20130510094724.14199"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14200"><vh>abt.ZQ</vh></v>
 </v>
+<v t="zoomq.20130510094724.14197"><vh>GDG</vh></v>
 </v>
 </v>
 <v t="zoomq.20130510094724.15679"><vh>ZQ:2012</vh>
@@ -107677,7 +107680,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. container:: notes
 
    - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
-   - 120426-niuniu-表情帝
+   - 130419-zhgdg-Tshirt_w780.png
 
 
 
@@ -110462,6 +110465,48 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. container:: notes
 
    - 
+
+
+
+</t>
+<t tx="zoomq.20130524101435.15084">如何画马?
+====================================
+
+.. container:: handout
+
+     其实编程也一样.. |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/how2draw1horse.jpg
+        :align: center
+        :alt: GDG ZhuHai
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130524101435.15087">`珠海GDG &lt;http://www.chinagdg.com/thread-1329-1-1.html&gt;`_
+========================================================================
+
+.. container:: handout
+
+   Google Developer Group... |zhgdg|
+
+
+.. image:: i/logo/130419-zhgdg-Tshirt_w780.png
+    :align: center
+    :target: http://www.chinagdg.com/forum-94-1.html
+    :alt: 珠海GDG
+
+
+.. container:: notes
+
+   - 是也乎
 
 
 

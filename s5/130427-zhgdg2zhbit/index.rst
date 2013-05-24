@@ -62,6 +62,26 @@
 
    `Zoom.Quiet`_ v12.10.17 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 
+`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
+========================================================================
+
+.. container:: handout
+
+   Google Developer Group... |zhgdg|
+
+
+.. image:: i/logo/130419-zhgdg-Tshirt_w780.png
+    :align: center
+    :target: http://www.chinagdg.com/forum-94-1.html
+    :alt: 珠海GDG
+
+
+.. container:: notes
+
+   - 是也乎
+
+
+
 <免责/>
 =========
 
@@ -795,7 +815,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. container:: notes
 
    - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
-   - 120426-niuniu-表情帝
+   - 130419-zhgdg-Tshirt_w780.png
 
 
 
@@ -1429,6 +1449,26 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    - 
 
 
+
+
+
+如何画马?
+====================================
+
+.. container:: handout
+
+     其实编程也一样.. |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/how2draw1horse.jpg
+        :align: center
+        :alt: GDG ZhuHai
+
+.. container:: notes
+
+   - 
 
 
 
@@ -2593,30 +2633,6 @@ C2F4
 
 
 
-`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
-========================================================================
-
-.. container:: handout
-
-   Google Developer Group... |zhgdg|
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/ZH_GDG_Logo_SQ3-130405.png
-        :align: center
-        :height: 400px
-        :alt: ZHGDG
-        :target: http://www.chinagdg.com/forum-94-1.html
-
-
-
-.. container:: notes
-
-   - 
-
-
-
 <版本/>
 =========
 
@@ -2677,6 +2693,30 @@ C2F4
     .. image:: i/foto/120826_niuniu.png
         :align: center
         :target: http://weibo.com/zoomquiet
+
+
+
+`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
+========================================================================
+
+.. container:: handout
+
+   Google Developer Group... |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ZH_GDG_Logo_SQ3-130405.png
+        :align: center
+        :height: 400px
+        :alt: ZHGDG
+        :target: http://www.chinagdg.com/forum-94-1.html
+
+
+
+.. container:: notes
+
+   - 
 
 
 
