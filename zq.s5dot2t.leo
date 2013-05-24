@@ -144,7 +144,7 @@
 <v t="zoomq.20120913101417.17414"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14225"><vh>abt.ZQ</vh></v>
 <v t="zoomq.20130510094724.15681"><vh>Disclaimer</vh></v>
-<v t="zoomq.20130426172531.13409" a="E"><vh>brief0</vh>
+<v t="zoomq.20130426172531.13409"><vh>brief0</vh>
 <v t="zoomq.20130426172531.15395"><vh>人口</vh>
 <v t="zoomq.20130510094724.14249"><vh>大学</vh></v>
 <v t="zoomq.20130510094724.14251"><vh>IT</vh></v>
@@ -167,13 +167,13 @@
 <v t="zoomq.20130510094724.15633"><vh>developer.google</vh></v>
 </v>
 </v>
-<v t="zoomq.20130510094724.15635"><vh>Cnglish</vh>
+<v t="zoomq.20130510094724.15635" a="E"><vh>Cnglish</vh>
 <v t="zoomq.20130510094724.15637"><vh>害羞</vh></v>
 <v t="zoomq.20130510094724.15639"><vh>害羞</vh></v>
 <v t="zoomq.20130510094724.15641"><vh>死循环</vh></v>
 </v>
 </v>
-<v t="zoomq.20130426172531.13411"><vh>brief1</vh>
+<v t="zoomq.20130426172531.13411" a="E"><vh>brief1</vh>
 <v t="zoomq.20130510094724.15645"><vh>Henry Ford</vh></v>
 <v t="zoomq.20130510094724.15647"><vh>GDG</vh>
 <v t="zoomq.20130510094724.15649"><vh>GDG</vh></v>
@@ -191,19 +191,19 @@
 <v t="zoomq.20130426172531.15411"><vh>BBS</vh></v>
 <v t="zoomq.20130426172531.15413"><vh>Trello</vh></v>
 </v>
-<v t="zoomq.20130510094724.15657"><vh>L10N</vh>
-<v t="zoomq.20130510094724.15659"><vh>Events</vh></v>
+<v t="zoomq.20130510094724.15659"><vh>Events</vh>
 <v t="zoomq.20130510094724.15661"><vh>Start</vh></v>
 <v t="zoomq.20130510094724.15663"><vh>交流</vh></v>
+<v t="zoomq.20130510094724.17537"><vh>L10N</vh></v>
 </v>
-<v t="zoomq.20130427091809.24935"><vh>GDG peoples</vh>
+<v t="zoomq.20130427091809.24935" a="E"><vh>GDG peoples</vh>
 <v t="zoomq.20130510094724.15665"><vh>organizer</vh></v>
 <v t="zoomq.20130510094724.15667"><vh>learnner</vh></v>
 <v t="zoomq.20130510094724.15669"><vh>developer</vh></v>
 <v t="zoomq.20130510094724.15671"><vh>volunteer</vh></v>
 <v t="zoomq.20130510094724.15673"><vh>Key</vh></v>
 </v>
-<v t="zoomq.20130510094724.15675"><vh>Key</vh></v>
+<v t="zoomq.20130510094724.15675"><vh>Try</vh></v>
 </v>
 <v t="zoomq.20130426172531.13435" a="E"><vh>brief2</vh>
 <v t="zoomq.20130426172531.13437"><vh>总结7+-2</vh></v>
@@ -249,7 +249,7 @@
 </v>
 </v>
 <v t="zoomq.20120913101417.17828"><vh>免责</vh>
-<v t="zoomq.20120913101417.17829" a="E"><vh>Takahashi</vh>
+<v t="zoomq.20120913101417.17829"><vh>Takahashi</vh>
 <v t="zoomq.20120913101417.17830"><vh>Takahashi</vh></v>
 <v t="zoomq.20120913101417.17831"><vh>Takahashi</vh></v>
 <v t="zoomq.20120913101417.17832"><vh>Takahashi</vh></v>
@@ -102509,7 +102509,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 Combination
 ==================================================================
 
-～base :orange:`L10N` make DGD Chapters hangout together!-)
+～base :orange:`L10N` make DGD Chapters working together!-)
 
 :Authors: `Zoom.Quiet &lt;zoomquiet+s5@gmai.com&gt;`__
 :URL:    http://zoomquiet.org/res/s5/130512-gdgsummit/
@@ -109908,7 +109908,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. container:: handout
 
-    GDA is non-existent for Chinese |zqeye|
+    GDA(Academy) is non-existent for Chinese |zqeye|
 
 
 .. class:: takahashi5
@@ -110064,7 +110064,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. container:: handout
 
-    shy-&gt;not know-&gt;not fun-&gt;leaved... |zqeye|
+    not understand-&gt;shy-&gt;no ask-&gt;more not understand-&gt;got zeor fun-&gt;leaved GDG |zqeye|
 
 
 .. class:: takahashi7
@@ -110193,26 +110193,6 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. container:: handout
 
     every chapter need it! |zqeye|
-
-
-.. class:: takahashi9
-
-    `L10N`_
-    
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20130510094724.15657">where need ?
-====================================
-
-.. container:: handout
-
-    almost everywhere! |zqeye|
 
 
 .. class:: takahashi9
@@ -110388,7 +110368,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 </t>
-<t tx="zoomq.20130510094724.15673">`L10N`_ : Key is
+<t tx="zoomq.20130510094724.15673">KEY of "Zoomation" `L10N`_ :
 =======================================
 
 .. container:: handout
@@ -110465,6 +110445,26 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
         - 一切知识来自社区分享印证
         - 一切经验来自个人失败体验
     
+</t>
+<t tx="zoomq.20130510094724.17537">where need ?
+====================================
+
+.. container:: handout
+
+    almost everywhere! |zqeye|
+
+
+.. class:: takahashi9
+
+    `L10N`_
+    
+
+.. container:: notes
+
+   - 
+
+
+
 </t>
 </tnodes>
 </leo_file>

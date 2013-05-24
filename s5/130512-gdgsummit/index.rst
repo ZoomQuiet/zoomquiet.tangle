@@ -4,7 +4,7 @@
 Combination
 ==================================================================
 
-～base :orange:`L10N` make DGD Chapters hangout together!-)
+～base :orange:`L10N` make DGD Chapters working together!-)
 
 :Authors: `Zoom.Quiet <zoomquiet+s5@gmai.com>`__
 :URL:    http://zoomquiet.org/res/s5/130512-gdgsummit/
@@ -379,7 +379,7 @@ invalidation
 
 .. container:: handout
 
-    GDA is non-existent for Chinese |zqeye|
+    GDA(Academy) is non-existent for Chinese |zqeye|
 
 
 .. class:: takahashi5
@@ -527,7 +527,7 @@ So..
 
 .. container:: handout
 
-    shy->not know->not fun->leaved... |zqeye|
+    not understand->shy->no ask->more not understand->got zeor fun->leaved GDG |zqeye|
 
 
 .. class:: takahashi7
@@ -868,25 +868,6 @@ Trello
 
 
 
-where need ?
-====================================
-
-.. container:: handout
-
-    almost everywhere! |zqeye|
-
-
-.. class:: takahashi9
-
-    `L10N`_
-    
-
-.. container:: notes
-
-   - 
-
-
-
 GDG 's core ...
 ====================================
 
@@ -938,6 +919,25 @@ continual commonuication with people
     :orange:`H`\ 2\ :orange:`H`
     
     (^.^)
+
+.. container:: notes
+
+   - 
+
+
+
+where need ?
+====================================
+
+.. container:: handout
+
+    almost everywhere! |zqeye|
+
+
+.. class:: takahashi9
+
+    `L10N`_
+    
 
 .. container:: notes
 
@@ -1062,7 +1062,7 @@ as standard GDG
 
 
 
-`L10N`_ : Key is
+KEY of "Zoomation" `L10N`_ :
 =======================================
 
 .. container:: handout
