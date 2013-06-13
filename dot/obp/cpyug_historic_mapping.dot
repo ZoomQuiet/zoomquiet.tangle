@@ -6,17 +6,20 @@ $ dot -Tpng cpyug_historic_mapping.dot -o cpyug_historic_mapping.png
     color:dimgrey white whitesmoke snow azure yellowgreen darkolivegreen skyblue navy orange indigo khaki
     */
     graph [label="CPyUG 资源关系图谱\n {by Zoom.Quiet}",
+        fontname="WenQuanYi Micro Hei",
         labeljust="r",labelloc="b",center=1,
         ranksep=0.2,ratio=compress,
         rankdir=TB,
         ];
     node[fontsize=10.5,
+        fontname="WenQuanYi Micro Hei",
         height=0.1,
         style=filled,fillcolor=snow,
         color=gray70,fontcolor=grey13,
         shape=plaintext,
         ];
     edge [fontsize=9.0,fontcolor=dimgrey,
+        fontname="WenQuanYi Micro Hei",
         color=dimgrey,arrowsize=0.5,arrowhead=vee,arrowtail=none,
         ];
 
