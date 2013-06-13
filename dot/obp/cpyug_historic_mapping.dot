@@ -64,7 +64,7 @@ $ dot -Tpng cpyug_historic_mapping.dot -o cpyug_historic_mapping.png
     czug [label="老潘发布\nczug.org" ];
     py_chinese [label="exoweb发布\npython-chinese@lists.python.cn" ];
     
-    woodpecker  [label="HG发布\n啄木鸟社区" ];
+    woodpecker  [label="HD发布\n啄木鸟社区" ];
         cpug  [label="050730\nCPUG成立" ];
         bpug  [label="同时\nBPUG成立" ];
         zpug  [label="ZQ发起\nZPyUG" ];
