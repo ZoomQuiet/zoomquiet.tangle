@@ -1,0 +1,125 @@
+digraph G4cpyug_historic_mapping {
+    /*生成命令:
+$ dot -Tpng cpyug_historic_mapping.dot -o cpyug_historic_mapping.png 
+-Tcmapx -o cpyug_historic_mapping.map
+    全局设定
+    color:dimgrey white whitesmoke snow azure yellowgreen darkolivegreen skyblue navy orange indigo khaki
+    */
+    graph [label="CPyUG 资源关系图谱\n {by Zoom.Quiet}",
+        labeljust="r",labelloc="b",center=1,
+        ranksep=0.2,ratio=compress,
+        rankdir=TB,
+        ];
+    node[fontsize=10.5,
+        height=0.1,
+        style=filled,fillcolor=snow,
+        color=gray70,fontcolor=grey13,
+        shape=plaintext,
+        ];
+    edge [fontsize=9.0,fontcolor=dimgrey,
+        color=dimgrey,arrowsize=0.5,arrowhead=vee,arrowtail=none,
+        ];
+
+    /*图元声明
+        start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+    ttag [label="时间轴",shape=box];
+    */
+    DEV [label="",shape=plaintext];
+    SAFF [label="",shape=plaintext];
+    SRV [label="",shape=plaintext];
+    SYS [label="",shape=plaintext];
+        DEV->SAFF [label="传承",color=skyblue];
+        SAFF->SRV [label="衍生",color=gold];
+        SRV->SYS [label="促发",color=green];
+
+    1991 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2001 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2003 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2004 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2005 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2006 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2007 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2008 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2009 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2011 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2012 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+    2013 [fillcolor=none,shape=box,fontcolor=snow,fillcolor=dimgray];
+
+    1991->2001->2003->2004->2005->2006->2007->2008->2009->2011->2012->2013 [color=gray,style="setlinewidth(4)"];
+
+    python [label="Guido发布\nPython0.1" ,];
+
+    bbs [label="Limode开辟Python专栏\nlinuxforum.net" ];
+    czug [label="老潘发布\nczug.org" ];
+    py_chinese [label="exoweb发布\npython-chinese@lists.python.cn" ];
+    
+    woodpecker  [label="HG发布\n啄木鸟社区" ];
+        cpug  [label="050730\nCPUG成立" ];
+        bpug  [label="同时\nBPUG成立" ];
+        zpug  [label="ZQ发起\nZPyUG" ];
+        techparty [label="珠三角技术沙龙" ];
+        zhgdg [label="ZQ发起\n珠海GDG" ];
+    py_cn [label="Limodou创建\npython-cn@googlegroups.com" ];
+
+    ulipad [label="Limodou创建\nUliPad" ];
+        uliweb [label="Limodou创建\nUliWeb" ];
+            pycon [label="Sting发起 PyCon中国\ncn.pycon.org" ];
+    june  [label="lepture发布\njune" ];
+        py_china [label="聚焦到\npython-china.org" ];
+
+    obp [label="O.B.P\n开放图书工程" ];
+    corepy [label="2008-6\nPython核心编程" ];
+    lovpy [label="2009-3\n可爱的Python" ];
+    rwiwpy [label="2013-2\n可真实世界的Python仪器监控" ];
+
+    python->bbs [label="进入中国",color=skyblue];
+    bbs->czug [label="第一个技术社区",color=skyblue];
+    czug->py_chinese [label="行者汇集",color=skyblue,style="setlinewidth(2)"];
+    
+        py_chinese->py_cn [label="无奈转移",color=skyblue]
+            py_chinese->woodpecker [label="",color=gold,style="setlinewidth(4)"];
+    
+    py_cn->ulipad [label="",color=green,style="dotted"];
+        ulipad->uliweb [label="编辑器",color=green];
+        uliweb->pycon [label="架构",color=green];
+    py_cn->june [label="",color=green,style="dotted"];
+        june->py_china [label="自主发布",color=green];
+
+    py_cn->woodpecker [label="08年成为主要列表\n向啄木鸟维基积累文章" ,color=gold,style="setlinewidth(4)"];
+        woodpecker->obp [label="",color=green,style="setlinewidth(3)"];
+        obp->corepy [label="第一本社区原创\n引发侵占事件",color=green,style="setlinewidth(2)"];
+        corepy->lovpy [label="第二本社区原创",color=green,style="setlinewidth(1)"];
+        lovpy->rwiwpy[label="第三本社区原创",color=green];
+        
+    cpug->woodpecker [label="场所",color=gold,style="setlinewidth(3)"];
+        woodpecker->{bpug zpug} [label="",color=skyblue,style="setlinewidth(2)"];
+            zpug->techparty->zhgdg [label="",color=gold];
+
+    { rank=same; 1991   python; }
+    { rank=same; 2001   bbs; }
+    { rank=same; 2003   czug; }
+    { rank=same; 2004   py_chinese py_cn; }
+    { rank=same; 2005   cpug woodpecker  bpug; }
+    { rank=same; 2006   obp; }
+    { rank=same; 2007   ulipad zpug; }
+    { rank=same; 2008   corepy; }
+    { rank=same; 2009   lovpy techparty; }
+    { rank=same; 2011   uliweb pycon; }
+    { rank=same; 2012   june; }
+    { rank=same; 2013   zhgdg py_china rwiwpy; }
+
+    edge [style=invis];
+
+
+}
