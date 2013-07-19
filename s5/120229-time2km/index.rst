@@ -400,6 +400,7 @@ PI@北京
 
 
 
+
 2005:`CPyUG`__-> BPyUG
 ======================================================
 
@@ -412,16 +413,41 @@ __ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
 
 .. class:: takahashi1
 
-    .. image:: i/logo/CPUGlogo.png
+    .. image:: i/logo/120201-CPyUG-logo-v2.png
         :align: center
-        :height: 600px
+        :height: 500px
         :alt: CPyUG
         :target: http://wiki.woodpecker.org.cn/moin/CPUG
 
 
 .. container:: notes
 
-   - 
+   - BPUG-logo-v1.3.png
+
+
+
+2005:`CPyUG`__-> BPyUG
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
+.. container:: handout
+
+   working with Python,in SINA.com |zqeye|
+
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/BPUG-logo-v1.2.png
+        :align: center
+        :height: 400px
+        :alt: BPUG
+        :target: http://wiki.woodpecker.org.cn/moin/BPUG
+
+
+.. container:: notes
+
+   - BPUG-logo-v1.3.png
 
 
 
@@ -530,14 +556,13 @@ __ http://ecug.org/
 
     .. image:: i/090902-lovpy.jpg
         :align: center
-        :scale: 100 %
         :alt: 可愛的Python
         :target: http://book.douban.com/subject/3884108/
 
 
 .. container:: notes
 
-   - 
+   - snap4ZQMBP_apac2010.png
 
 
 
@@ -560,7 +585,51 @@ __ http://ecug.org/
 
 .. container:: notes
 
-   - 
+   - snap4ZQMBP_apac2010.png
+
+
+亚太PyCon
+======================================================
+
+.. container:: handout
+
+   首次出国... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_apac2010.png
+        :align: center
+        :height: 600px
+        :alt: python-cn@googlegroups.com
+        :target: http://wiki.woodpecker.org.cn/moin/PyCon2010
+
+
+.. container:: notes
+
+   - snap4ZQMBP_apac2010.png
+
+
+PyCon2011China
+======================================================
+
+.. container:: handout
+
+   首次PyCon 落地中国... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2011cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2011
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
 
 
 ~2012
@@ -573,9 +642,100 @@ __ http://ecug.org/
 
 .. class:: takahashi1
 
-    .. image:: i/snap/120326-python-cn-ml.png
+    .. image:: i/snap/121023-python-cn-1kmailer.png
         :align: center
-        :height: 700px
+        :height: 600px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+PyCon2012ChinA
+======================================================
+
+.. container:: handout
+
+   首次 PyCon中国双城市联办... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2012cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2011
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+过一万人!
+======================================================
+
+.. container:: handout
+
+   121024首次 Hackathon 前! |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/121024-python-cn-10000.png
+        :align: center
+        :height: 600px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+~2013
+======================================================
+
+.. container:: handout
+
+   Groups也是... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_130426_17.24.35.png
+        :align: center
+        :height: 500px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - 
+
+
+
+~2013
+======================================================
+
+.. container:: handout
+
+   不准的统计!... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_130426_17.24.45.png
+        :align: center
+        :height: 500px
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
 
@@ -1358,7 +1518,7 @@ EKM目标
 
 .. container:: notes
 
-   - ... 
+   - 邮件了事儿
 
 
 800元/月
@@ -1375,7 +1535,7 @@ EKM目标
 
 .. container:: notes
 
-   - ... 
+   - 电话通知
 
 
 1000元/月
@@ -1392,7 +1552,7 @@ EKM目标
 
 .. container:: notes
 
-   - ... 
+   - 合理提醒
 
 
 1500元/月
@@ -1409,7 +1569,7 @@ EKM目标
 
 .. container:: notes
 
-   - ... 
+   - 电气设备,人员变动
 
 
 2000元/月
@@ -1426,7 +1586,7 @@ EKM目标
 
 .. container:: notes
 
-   - ... 
+   - 个性化资料!
 
 
 3000元/月
@@ -1443,7 +1603,7 @@ EKM目标
 
 .. container:: notes
 
-   - ... 
+   - 理解内容
 
 
 5000元/月
@@ -1460,7 +1620,7 @@ EKM目标
 
 .. container:: notes
 
-   - ... 
+   - 理解职责边界
 
 
 10000元/月
@@ -1477,7 +1637,7 @@ EKM目标
 
 .. container:: notes
 
-   - ... 
+   - 理解能力边界
 
 
 30000元/月
@@ -1494,7 +1654,7 @@ EKM目标
 
 .. container:: notes
 
-   - ... 
+   - 固化经验
 
 
 工作的层级
@@ -1892,94 +2052,6 @@ EKM目标
 
 
 
-aTimeLogger 2
-====================================
-
-.. container:: handout
-
-   iOS 上最好的!  |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/snap/zTM-atimelogger-1.jpg
-        :align: center
-        :height: 600px
-        :target: #
-
-
-.. container:: notes
-
-   - ...
-
-
-
-aTimeLogger 2
-====================================
-
-.. container:: handout
-
-   iOS 上最好的!  |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/snap/zTM-atimelogger-3.jpg
-        :align: center
-        :height: 600px
-        :target: #
-
-
-.. container:: notes
-
-   - ...
-
-
-
-aTimeLogger 2
-====================================
-
-.. container:: handout
-
-   iOS 上最好的!  |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/snap/zTM-atimelogger-2.jpg
-        :align: center
-        :height: 600px
-        :target: #
-
-
-.. container:: notes
-
-   - ...
-
-
-
-aTimeLogger 2
-====================================
-
-.. container:: handout
-
-   iOS 上最好的!  |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/snap/zTM-atimelogger-0.jpg
-        :align: center
-        :height: 600px
-        :target: #
-
-
-.. container:: notes
-
-   - ...
-
-
-
 Mr.Timer
 ====================================
 
@@ -2035,6 +2107,117 @@ Mr.Timer
 .. class:: takahashi
 
     .. image:: i/snap/zTM-mrtime-0.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+aTimeLogger 2:face
+====================================
+
+.. container:: handout
+
+   iOS 上最好的!  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-atimelogger-1.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+
+aTimeLogger 2:cfg
+====================================
+
+.. container:: handout
+
+   自然的细节配置,可购买专用icon  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-atimelogger-3.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+aTimeLogger 2:summit
+====================================
+
+.. container:: handout
+
+   能按周/月/年统计  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-atimelogger-0.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+aTimeLogger 2:total
+====================================
+
+.. container:: handout
+
+   能按周/月/年总计  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-atimelogger-4.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+aTimeLogger 2:more
+====================================
+
+.. container:: handout
+
+   能导出csv 数据!  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-atimelogger-2.jpg
         :align: center
         :height: 600px
         :target: #
@@ -2679,7 +2862,7 @@ SNS学习原理:反証
 
    - Unknow Unknow |zqeye|
 
-.. class:: takahashi
+.. class:: takahashi5
 
     不知己不知
 
@@ -2697,7 +2880,7 @@ SNS学习原理:反証
 
    - Unknow know |zqeye|
 
-.. class:: takahashi
+.. class:: takahashi5
 
     不知己知何
 
@@ -2715,7 +2898,7 @@ SNS学习原理:反証
 
    - know knowed |zqeye|
 
-.. class:: takahashi
+.. class:: takahashi5
 
     知己何已知
 
@@ -2733,9 +2916,9 @@ SNS学习原理:反証
 
    - know unknow |zqeye|
 
-.. class:: takahashi
+.. class:: takahashi5
 
-    己知何不知
+    知己何不知
 
 
 .. container:: notes
@@ -2833,6 +3016,33 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 
+总之
+=========
+
+.. container:: handout
+
+   期望可以记住的~单位时间可以记住的只有7+-2 个 |zqeye|
+
+
+.. class:: incremental takahashi
+
+    * 时间是行为的记忆
+    * 知识是流动的行为
+    * KM就是改进集体行为!
+    * 纸笔永不过时 ;-)
+    * 分享才能收获!
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
 <discuss/>
 ==========
 
@@ -2860,33 +3070,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 .. container:: notes
 
    - 
-
-
-
-总之
-=========
-
-.. container:: handout
-
-   期望可以记住的~单位时间可以记住的只有7+-2 个 |zqeye|
-
-
-.. class:: incremental takahashi
-
-    * 时间是行为的记忆
-    * 知识是流动的行为
-    * KM就是改进集体行为!
-    * 纸笔永不过时 ;-)
-    * 分享才能收获!
-
-.. container:: notes
-
-   - 
-
-
-
-
-
 
 
 
@@ -2970,7 +3153,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
-- 130315 增补GDG相关
+- 130715 增补Timterloger2相关
 - 130303 增补移动应用
 - 120728 增补学习阶层
 - 120229 調整重点,追加好书,,
@@ -2979,7 +3162,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 - 101005 根据盛大讲演现场反馈修订错误!
 - 100926 增补EKM/工具关联图谱,软件评估雷图示
 - 100915 迁移为 rST2S5 格式
-- 100728 增补髙桥流以及蕃茄时间说明 
 - 100724 为金山新人培训重构 
 - 100331 为珠三角技术沙龙创建
 

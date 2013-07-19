@@ -154,7 +154,7 @@
 <v t="zoomq.20130510094724.14259"><vh>忒少</vh></v>
 <v t="zoomq.20130510094724.14253"><vh>为毛?!</vh></v>
 </v>
-<v t="zoomq.20130510094724.14261" a="E"><vh>为毛?!</vh>
+<v t="zoomq.20130510094724.14261"><vh>为毛?!</vh>
 <v t="zoomq.20130510094724.14263"><vh>困难</vh>
 <v t="zoomq.20130510094724.14265"><vh>youtube</vh></v>
 <v t="zoomq.20130510094724.14269"><vh>sites.google</vh></v>
@@ -167,7 +167,7 @@
 <v t="zoomq.20130510094724.15633"><vh>developer.google</vh></v>
 </v>
 </v>
-<v t="zoomq.20130510094724.15635" a="E"><vh>Cnglish</vh>
+<v t="zoomq.20130510094724.15635"><vh>Cnglish</vh>
 <v t="zoomq.20130510094724.15637"><vh>害羞</vh></v>
 <v t="zoomq.20130510094724.15639"><vh>害羞</vh></v>
 <v t="zoomq.20130510094724.15641"><vh>死循环</vh></v>
@@ -260,7 +260,7 @@
 </v>
 </v>
 <v t="zoomq.20130510094724.14073" a="E"><vh>130427-zhgdg2zhbit</vh>
-<v t="zoomq.20130510094724.14074" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20130510094724.14074"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130510094724.14075"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14076"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20130524101435.15087"><vh>ZHGDG</vh></v>
@@ -418,7 +418,7 @@
 <v t="zoomq.20130510094724.14197"><vh>GDG</vh></v>
 </v>
 </v>
-<v t="zoomq.20130510094724.15679"><vh>ZQ:2012</vh>
+<v t="zoomq.20130510094724.15679" a="E"><vh>ZQ:2012</vh>
 <v t="zoomq.20130426100228.15153"><vh>121020-how2make-tech-party</vh>
 <v t="zoomq.20130426100228.15154" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130426100228.15155"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -1503,7 +1503,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20120423093831.20420"><vh>120229-time2km</vh>
+<v t="zoomq.20120423093831.20420" a="E"><vh>120229-time2km</vh>
 <v t="zoomq.20120608161547.16864" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20120608161547.16865"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120608161547.16866"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -1526,14 +1526,21 @@
 <v t="zoomq.20120608161547.16882"><vh>ZQ2003</vh></v>
 <v t="zoomq.20120608161547.16883"><vh>ZQ2004</vh></v>
 </v>
-<v t="zoomq.20120608161547.16881"><vh>ZQ社区</vh>
-<v t="zoomq.20120608161547.16884"><vh>ZQ2005</vh></v>
-<v t="zoomq.20120608161547.16885"><vh>ZQ2007</vh></v>
-<v t="zoomq.20120608161547.16886"><vh>ECUG</vh></v>
-<v t="zoomq.20120608161547.16887"><vh>ZQ2008</vh></v>
-<v t="zoomq.20120608161547.16888"><vh>ZQ2009</vh></v>
-<v t="zoomq.20120608161547.16889"><vh>CPUG2010</vh></v>
-<v t="zoomq.20120608161547.16890"><vh>CPUG2012</vh></v>
+<v t="zoomq.20130719144008.13248"><vh>ZQ社区</vh>
+<v t="zoomq.20130719144008.13249"><vh>ZQ2005</vh></v>
+<v t="zoomq.20130719144008.13250"><vh>ZQ2005:BPUG</vh></v>
+<v t="zoomq.20130719144008.13251"><vh>ZQ2007</vh></v>
+<v t="zoomq.20130719144008.13252"><vh>ECUG</vh></v>
+<v t="zoomq.20130719144008.13253"><vh>ZQ2008</vh></v>
+<v t="zoomq.20130719144008.13254"><vh>ZQ2009</vh></v>
+<v t="zoomq.20130719144008.13255"><vh>CPUG2010</vh></v>
+<v t="zoomq.20130719144008.13256"><vh>APAC2010</vh></v>
+<v t="zoomq.20130719144008.13257"><vh>PyCon2011CN</vh></v>
+<v t="zoomq.20130719144008.13258"><vh>CPUG2012</vh></v>
+<v t="zoomq.20130719144008.13259"><vh>PyCon2012CN</vh></v>
+<v t="zoomq.20130719144008.13260"><vh>CPUG10000人</vh></v>
+<v t="zoomq.20130719144008.13261"><vh>CPUG2013</vh></v>
+<v t="zoomq.20130719144008.13262"><vh>CPUG2013</vh></v>
 </v>
 <v t="zoomq.20120608161547.16891"><vh>ZQ大妈</vh>
 <v t="zoomq.20130315100200.15023"><vh>GDG</vh></v>
@@ -1543,7 +1550,7 @@
 <v t="zoomq.20120608161547.16893"><vh>牛妞2012</vh></v>
 <v t="zoomq.20120608161547.16894"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20120608161547.16895"><vh>brief1</vh>
+<v t="zoomq.20120608161547.16895" a="E"><vh>brief1</vh>
 <v t="zoomq.20120608161547.16896"><vh>TM?</vh>
 <v t="zoomq.20120608161547.16897"><vh>时间?</vh>
 <v t="zoomq.20120608161547.16898"><vh>时</vh></v>
@@ -1570,7 +1577,7 @@
 </v>
 <v t="zoomq.20120608161547.16912"><vh>/KM</vh></v>
 </v>
-<v t="zoomq.20120608161547.16913"><vh>TM!</vh>
+<v t="zoomq.20120608161547.16913" a="E"><vh>TM!</vh>
 <v t="zoomq.20120608161547.16914"><vh>点解?!</vh>
 <v t="zoomq.20120608161547.16915"><vh>学生本质</vh></v>
 <v t="zoomq.20120608161547.16916"><vh>职员本质</vh></v>
@@ -1603,8 +1610,8 @@
 <v t="zoomq.20120608161547.16938"><vh>/TM!</vh></v>
 </v>
 </v>
-<v t="zoomq.20120608161547.16939"><vh>brief2</vh>
-<v t="zoomq.20120608161547.16940" a="E"><vh>冇最好</vh>
+<v t="zoomq.20120608161547.16939" a="E"><vh>brief2</vh>
+<v t="zoomq.20120608161547.16940"><vh>冇最好</vh>
 <v t="zoomq.20120608161547.16941"><vh>矩阵</vh></v>
 <v t="zoomq.20120608161547.16942"><vh>时间帐单</vh>
 <v t="zoomq.20120608161547.16943"><vh>奇特的一生</vh></v>
@@ -1613,20 +1620,22 @@
 <v t="zoomq.20120608161547.16946"><vh>帐单妙处2</vh></v>
 <v t="zoomq.20120608161547.16947"><vh>ZQ帐单</vh></v>
 <v t="zoomq.20120608161547.16948"><vh>ZQ帐单分析</vh></v>
-<v t="zoomq.20130302114851.14973"><vh>TimeLogger</vh>
-<v t="zoomq.20130302114851.14979"><vh>TimeLogger</vh></v>
-<v t="zoomq.20130302114851.14981"><vh>TimeLogger</vh></v>
-<v t="zoomq.20130302114851.14983"><vh>TimeLogger</vh></v>
-<v t="zoomq.20130302114851.14985"><vh>MrTimer</vh></v>
+<v t="zoomq.20130302114851.14985"><vh>MrTimer</vh>
 <v t="zoomq.20130302114851.14987"><vh>MrTimer</vh></v>
 <v t="zoomq.20130302114851.14989"><vh>MrTimer</vh></v>
+<v t="zoomq.20130302114851.14973"><vh>TimeLogger</vh>
+<v t="zoomq.20130302114851.14979"><vh>TimeLogger</vh></v>
+<v t="zoomq.20130302114851.14983"><vh>TimeLogger</vh></v>
+<v t="zoomq.20130719144008.13232"><vh>TimeLogger</vh></v>
+<v t="zoomq.20130302114851.14981"><vh>TimeLogger</vh></v>
+</v>
 </v>
 <v t="zoomq.20130302114851.14990"><vh>/时间帐单</vh></v>
 </v>
 <v t="zoomq.20120608161547.16949"><vh>GTD</vh>
 <v t="zoomq.20120608161547.16950"><vh>GTD流程v2</vh></v>
 </v>
-<v t="zoomq.20120608161547.16951" a="E"><vh>GMail</vh>
+<v t="zoomq.20120608161547.16951"><vh>GMail</vh>
 <v t="zoomq.20120608161547.16952"><vh>早上不收邮件</vh></v>
 <v t="zoomq.20130315100200.15025"><vh>真的会邮件?</vh></v>
 </v>
@@ -1670,10 +1679,9 @@
 <v t="zoomq.20120608161547.16980"><vh>&lt;/share&gt;</vh></v>
 </v>
 </v>
-<v t="zoomq.20120608161547.16981"><vh>brief3</vh>
-<v t="zoomq.20120608161547.16982"><vh>Q&amp;A</vh></v>
+<v t="zoomq.20120608161547.16981" a="E"><vh>brief3</vh>
 <v t="zoomq.20120608161547.16983"><vh>总结7+-2</vh></v>
-<v t="zoomq.20130315100200.15023"></v>
+<v t="zoomq.20120608161547.16982"><vh>Q&amp;A</vh></v>
 <v t="zoomq.20120608161547.16984"><vh>暗时间</vh></v>
 <v t="zoomq.20120608161547.16985"><vh>蕃茄时间</vh></v>
 <v t="zoomq.20120608161547.16986"><vh>讲演之禅</vh></v>
@@ -99481,26 +99489,6 @@ GPL
 
 
 </t>
-<t tx="zoomq.20120608161547.16881">PI@北京
-==================
-
-.. container:: handout
-
-   混北京:SINA-&gt;CPyUG-&gt;SLL |zqeye|
-
-
-.. class:: takahashi8
-
-    ~2007
-
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
 <t tx="zoomq.20120608161547.16882">`2003:CZUG.org &lt;http://czug.org/&gt;`__
 ======================================================
 
@@ -99562,199 +99550,6 @@ GPL
     :scale: 100 %
     :alt: http://wiki,woodpecker.org.cn
 
-
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20120608161547.16884">2005:`CPyUG`__-&gt; BPyUG
-======================================================
-
-__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
-.. container:: handout
-
-   working with Python,in SINA.com |zqeye|
-
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/CPUGlogo.png
-        :align: center
-        :height: 600px
-        :alt: CPyUG
-        :target: http://wiki.woodpecker.org.cn/moin/CPUG
-
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20120608161547.16885">2007:`ZPyUG`__
-======================================================
-
-__ http://wiki.woodpecker.org.cn/moin/ZPyUG
-
-.. container:: handout
-
-    - 在北京,主持完成了25次技术分享
-    - 进入金山,使用Python 进行了各种平台的构建~ `KTRAC`__
-    - spreading Python everywhere to everyone... 
-
-
-__ http://py.kingsoft.net/ktrac
-
-.. class:: takahashi1
-
-    - **珠** 三角
-    - **P** ython
-    - **U** ser
-    - **G** roup
-
-
-    .. image:: i/logo/logo_163_game.gif
-        :align: center
-    .. image:: i/logo/logo_sina_home.gif
-        :align: center
-    .. image:: i/logo/logo-ks.jpg
-        :align: center
-
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20120608161547.16886">`ECUG.org`__
-======================================================
-
-__ http://ecug.org/
-.. container:: handout
-
-   spreading Python everywhere to everyone... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/ecug-logo_67bw.jpg
-        :align: center
-        :scale: 100 %
-        :alt: ECUG
-        :target: http://code.google.com/p/ecug/wiki/FrontPage
-
-
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20120608161547.16887">2008:|SLL.org| "SLL.org"
-======================================================
-
-.. container:: handout
-
-   spreading Pythonic everywhere to everyone... |zqeye|
-
-
-.. class:: takahashi4
-
-    教育大发现
-
-
-.. class:: takahashi2 center
-
-    http://sociallearnlab.org/
-
-
-.. |SLL.org| image:: i/logo/2018-gz-sll.png
-    :scale: 100 %
-    :alt: SLL
-    :target: http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&amp;variant=zh-cn
-
-
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20120608161547.16888">2009-09-01 出版
-======================================================
-
-.. container:: handout
-
-   - 将多年的体验,集中到一本入门图书 "可爱的Python"
-   - 并主持ZPyUG 近10次技术分享  |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/090902-lovpy.jpg
-        :align: center
-        :scale: 100 %
-        :alt: 可愛的Python
-        :target: http://book.douban.com/subject/3884108/
-
-
-.. container:: notes
-
-   - 
-
-
-
-</t>
-<t tx="zoomq.20120608161547.16889">2010~
-======================================================
-
-.. container:: handout
-
-   社区在不断发展... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
-        :align: center
-        :height: 700px
-        :alt: python-cn@googlegroups.com
-        :target: http://groups-beta.google.com/group/python-cn
-
-
-.. container:: notes
-
-   - 
-
-
-</t>
-<t tx="zoomq.20120608161547.16890">~2012
-======================================================
-
-.. container:: handout
-
-   社区在不断发展... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/120326-python-cn-ml.png
-        :align: center
-        :height: 700px
-        :alt: python-cn@googlegroups.com
-        :target: http://groups-beta.google.com/group/python-cn
 
 
 .. container:: notes
@@ -100476,7 +100271,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 .. container:: notes
 
-   - ... 
+   - 邮件了事儿
 
 
 </t>
@@ -100494,7 +100289,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 .. container:: notes
 
-   - ... 
+   - 电话通知
 
 
 </t>
@@ -100512,7 +100307,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 .. container:: notes
 
-   - ... 
+   - 合理提醒
 
 
 </t>
@@ -100530,7 +100325,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 .. container:: notes
 
-   - ... 
+   - 电气设备,人员变动
 
 
 </t>
@@ -100548,7 +100343,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 .. container:: notes
 
-   - ... 
+   - 个性化资料!
 
 
 </t>
@@ -100566,7 +100361,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 .. container:: notes
 
-   - ... 
+   - 理解内容
 
 
 </t>
@@ -100584,7 +100379,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 .. container:: notes
 
-   - ... 
+   - 理解职责边界
 
 
 </t>
@@ -100602,7 +100397,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 .. container:: notes
 
-   - ... 
+   - 理解能力边界
 
 
 </t>
@@ -100620,7 +100415,7 @@ __ http://www.12manage.com/methods_nonaka_seci_zh.html
 
 .. container:: notes
 
-   - ... 
+   - 固化经验
 
 
 </t>
@@ -101655,7 +101450,7 @@ __ http://www.websequencediagrams.com/
 
    - Unknow Unknow |zqeye|
 
-.. class:: takahashi
+.. class:: takahashi5
 
     不知己不知
 
@@ -101882,7 +101677,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
-- 130315 增补GDG相关
+- 130715 增补Timterloger2相关
 - 130303 增补移动应用
 - 120728 增补学习阶层
 - 120229 調整重点,追加好书,,
@@ -101891,7 +101686,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 - 101005 根据盛大讲演现场反馈修订错误!
 - 100926 增补EKM/工具关联图谱,软件评估雷图示
 - 100915 迁移为 rST2S5 格式
-- 100728 增补髙桥流以及蕃茄时间说明 
 - 100724 为金山新人培训重构 
 - 100331 为珠三角技术沙龙创建
 
@@ -102450,7 +102244,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
    - Unknow know |zqeye|
 
-.. class:: takahashi
+.. class:: takahashi5
 
     不知己知何
 
@@ -102469,7 +102263,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
    - know knowed |zqeye|
 
-.. class:: takahashi
+.. class:: takahashi5
 
     知己何已知
 
@@ -102488,9 +102282,9 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
    - know unknow |zqeye|
 
-.. class:: takahashi
+.. class:: takahashi5
 
-    己知何不知
+    知己何不知
 
 
 .. container:: notes
@@ -104174,7 +103968,7 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20130302114851.14973">aTimeLogger 2
+<t tx="zoomq.20130302114851.14973">aTimeLogger 2:face
 ====================================
 
 .. container:: handout
@@ -104193,6 +103987,7 @@ cr.define('options', function() {
 .. container:: notes
 
    - ...
+
 
 
 
@@ -104239,12 +104034,12 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20130302114851.14979">aTimeLogger 2
+<t tx="zoomq.20130302114851.14979">aTimeLogger 2:cfg
 ====================================
 
 .. container:: handout
 
-   iOS 上最好的!  |zqeye|
+   自然的细节配置,可购买专用icon  |zqeye|
 
 
 .. class:: takahashi
@@ -104262,12 +104057,12 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20130302114851.14981">aTimeLogger 2
+<t tx="zoomq.20130302114851.14981">aTimeLogger 2:more
 ====================================
 
 .. container:: handout
 
-   iOS 上最好的!  |zqeye|
+   能导出csv 数据!  |zqeye|
 
 
 .. class:: takahashi
@@ -104285,12 +104080,12 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20130302114851.14983">aTimeLogger 2
+<t tx="zoomq.20130302114851.14983">aTimeLogger 2:summit
 ====================================
 
 .. container:: handout
 
-   iOS 上最好的!  |zqeye|
+   能按周/月/年统计  |zqeye|
 
 
 .. class:: takahashi
@@ -110508,6 +110303,409 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. container:: notes
 
    - 是也乎
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13232">aTimeLogger 2:total
+====================================
+
+.. container:: handout
+
+   能按周/月/年总计  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/snap/zTM-atimelogger-4.jpg
+        :align: center
+        :height: 600px
+        :target: #
+
+
+.. container:: notes
+
+   - ...
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13248">PI@北京
+==================
+
+.. container:: handout
+
+   混北京:SINA-&gt;CPyUG-&gt;SLL |zqeye|
+
+
+.. class:: takahashi8
+
+    ~2007
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13249">2005:`CPyUG`__-&gt; BPyUG
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
+.. container:: handout
+
+   working with Python,in SINA.com |zqeye|
+
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/120201-CPyUG-logo-v2.png
+        :align: center
+        :height: 500px
+        :alt: CPyUG
+        :target: http://wiki.woodpecker.org.cn/moin/CPUG
+
+
+.. container:: notes
+
+   - BPUG-logo-v1.3.png
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13250">2005:`CPyUG`__-&gt; BPyUG
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
+.. container:: handout
+
+   working with Python,in SINA.com |zqeye|
+
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/BPUG-logo-v1.2.png
+        :align: center
+        :height: 400px
+        :alt: BPUG
+        :target: http://wiki.woodpecker.org.cn/moin/BPUG
+
+
+.. container:: notes
+
+   - BPUG-logo-v1.3.png
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13251">2007:`ZPyUG`__
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/ZPyUG
+
+.. container:: handout
+
+    - 在北京,主持完成了25次技术分享
+    - 进入金山,使用Python 进行了各种平台的构建~ `KTRAC`__
+    - spreading Python everywhere to everyone... 
+
+
+__ http://py.kingsoft.net/ktrac
+
+.. class:: takahashi1
+
+    - **珠** 三角
+    - **P** ython
+    - **U** ser
+    - **G** roup
+
+
+    .. image:: i/logo/logo_163_game.gif
+        :align: center
+    .. image:: i/logo/logo_sina_home.gif
+        :align: center
+    .. image:: i/logo/logo-ks.jpg
+        :align: center
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13252">`ECUG.org`__
+======================================================
+
+__ http://ecug.org/
+.. container:: handout
+
+   spreading Python everywhere to everyone... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ecug-logo_67bw.jpg
+        :align: center
+        :scale: 100 %
+        :alt: ECUG
+        :target: http://code.google.com/p/ecug/wiki/FrontPage
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13253">2008:|SLL.org| "SLL.org"
+======================================================
+
+.. container:: handout
+
+   spreading Pythonic everywhere to everyone... |zqeye|
+
+
+.. class:: takahashi4
+
+    教育大发现
+
+
+.. class:: takahashi2 center
+
+    http://sociallearnlab.org/
+
+
+.. |SLL.org| image:: i/logo/2018-gz-sll.png
+    :scale: 100 %
+    :alt: SLL
+    :target: http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&amp;variant=zh-cn
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13254">2009-09-01 出版
+======================================================
+
+.. container:: handout
+
+   - 将多年的体验,集中到一本入门图书 "可爱的Python"
+   - 并主持ZPyUG 近10次技术分享  |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/090902-lovpy.jpg
+        :align: center
+        :alt: 可愛的Python
+        :target: http://book.douban.com/subject/3884108/
+
+
+.. container:: notes
+
+   - snap4ZQMBP_apac2010.png
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13255">2010~
+======================================================
+
+.. container:: handout
+
+   社区在不断发展... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
+        :align: center
+        :height: 700px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_apac2010.png
+
+
+</t>
+<t tx="zoomq.20130719144008.13256">亚太PyCon
+======================================================
+
+.. container:: handout
+
+   首次出国... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_apac2010.png
+        :align: center
+        :height: 600px
+        :alt: python-cn@googlegroups.com
+        :target: http://wiki.woodpecker.org.cn/moin/PyCon2010
+
+
+.. container:: notes
+
+   - snap4ZQMBP_apac2010.png
+
+
+</t>
+<t tx="zoomq.20130719144008.13257">PyCon2011China
+======================================================
+
+.. container:: handout
+
+   首次PyCon 落地中国... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2011cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2011
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13258">~2012
+======================================================
+
+.. container:: handout
+
+   社区在不断发展... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/121023-python-cn-1kmailer.png
+        :align: center
+        :height: 600px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13259">PyCon2012ChinA
+======================================================
+
+.. container:: handout
+
+   首次 PyCon中国双城市联办... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2012cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2011
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13260">过一万人!
+======================================================
+
+.. container:: handout
+
+   121024首次 Hackathon 前! |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/121024-python-cn-10000.png
+        :align: center
+        :height: 600px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13261">~2013
+======================================================
+
+.. container:: handout
+
+   Groups也是... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_130426_17.24.35.png
+        :align: center
+        :height: 500px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130719144008.13262">~2013
+======================================================
+
+.. container:: handout
+
+   不准的统计!... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_130426_17.24.45.png
+        :align: center
+        :height: 500px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - 
 
 
 
