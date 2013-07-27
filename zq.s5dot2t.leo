@@ -159,14 +159,15 @@
 <v t="zoomq.20130510094724.14175"><vh>DevFest</vh></v>
 <v t="zoomq.20130510094724.14174"><vh>PyCon2013CHina</vh></v>
 </v>
-<v t="zoomq.20130726110041.14989"><vh>G+</vh>
+<v t="zoomq.20130726110041.14989" a="E"><vh>G+</vh>
 <v t="zoomq.20130726110041.14990"><vh>G+</vh></v>
 <v t="zoomq.20130726110041.16876"><vh>Cycle</vh></v>
 <v t="zoomq.20130726110041.16872"><vh>/status</vh></v>
+<v t="zoomq.20130727112224.13318"><vh>进入</vh></v>
 <v t="zoomq.20130726110041.16874"><vh>成员</vh></v>
 <v t="zoomq.20130726110041.16878"><vh>加力</vh></v>
 </v>
-<v t="zoomq.20130510094724.14191" a="E"><vh>折腾</vh>
+<v t="zoomq.20130510094724.14191"><vh>折腾</vh>
 <v t="zoomq.20130726110041.16880"><vh>志愿者</vh></v>
 <v t="zoomq.20130726110041.16882"><vh>宣传</vh></v>
 <v t="zoomq.20130726110041.16884"><vh>设计</vh></v>
@@ -111313,7 +111314,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. container:: notes
 
-   - .png
+   - snap4ZQMBP_130727_devsite-dir.png
 
 
 
@@ -111489,6 +111490,28 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. container:: notes
 
    - Mentor
+
+
+</t>
+<t tx="zoomq.20130727112224.13318">合法爱国: `GDG ZHuhai &lt;https://developers.google.com/groups/chapter/113382777332300419074/&gt;`_
+============================================================================================================
+
+.. container:: handout
+
+     从全球GDG 索引进入 .. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130727_devsite-dir.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - snap4ZQMBP_130727_devsite-dir.png
+
 
 
 </t>

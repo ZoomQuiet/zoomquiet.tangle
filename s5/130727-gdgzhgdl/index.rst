@@ -445,7 +445,28 @@ DevSite: Pluse
 
 .. container:: notes
 
-   - .png
+   - snap4ZQMBP_130727_devsite-dir.png
+
+
+
+合法爱国: `GDG ZHuhai <https://developers.google.com/groups/chapter/113382777332300419074/>`_
+============================================================================================================
+
+.. container:: handout
+
+     从全球GDG 索引进入 .. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130727_devsite-dir.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - snap4ZQMBP_130727_devsite-dir.png
 
 
 
