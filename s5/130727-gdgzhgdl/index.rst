@@ -60,7 +60,7 @@
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v12.10.17 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v13.7.27 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 
 `珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
 ========================================================================
@@ -570,6 +570,23 @@ Volunteer: matter
 .. class:: takahashi7
 
     :orange:`会务`\ 组
+
+.. container:: notes
+
+   - Mentor
+
+
+Volunteer: Sharer
+====================================
+
+.. container:: handout
+
+    以及永远渴求的... |zhgdg|
+
+
+.. class:: takahashi8
+
+    :orange:`分享`\ 者
 
 .. container:: notes
 

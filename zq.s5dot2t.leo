@@ -171,6 +171,7 @@
 <v t="zoomq.20130726110041.16882"><vh>宣传</vh></v>
 <v t="zoomq.20130726110041.16884"><vh>设计</vh></v>
 <v t="zoomq.20130726110041.16886"><vh>会务</vh></v>
+<v t="zoomq.20130727112224.13316"><vh>讲师</vh></v>
 <v t="zoomq.20130726110041.16888"><vh>会务</vh></v>
 </v>
 <v t="zoomq.20130510094724.14198"><vh>version</vh>
@@ -105413,7 +105414,7 @@ cr.define('options', function() {
 </t>
 <t tx="zoomq.20130510094724.14076">.. footer:: 
 
-   `Zoom.Quiet`_ v12.10.17 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v13.7.27 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 </t>
 <t tx="zoomq.20130510094724.14165">珠海GDG ;-)
 ====================================
@@ -111466,6 +111467,24 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. class:: takahashi7
 
     不\ :orange:`折腾`\ 要死星人
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20130727112224.13316">Volunteer: Sharer
+====================================
+
+.. container:: handout
+
+    以及永远渴求的... |zhgdg|
+
+
+.. class:: takahashi8
+
+    :orange:`分享`\ 者
 
 .. container:: notes
 
