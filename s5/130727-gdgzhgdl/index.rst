@@ -428,6 +428,48 @@ DevSite: Pluse
 
 
 
+合法爱国: 圈上 DGD ZhuHai
+====================================
+
+.. container:: handout
+
+     没有登录时.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_gplus-unlogin.png
+        :align: center
+        :height: 280px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+合法爱国: 圈上 DGD ZhuHai
+====================================
+
+.. container:: handout
+
+     cycled 时,,, |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_gplus-cycle.png
+        :align: center
+        :height: 380px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
 合法爱国: DevSite/status
 ====================================
 
@@ -502,6 +544,48 @@ DevSite: Pluse
 .. class:: takahashi0
 
     .. image:: i/snap/snap4ZQMBP_130726_devsite-plus_3.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+合法爱国: 为中国加油
+====================================
+
+.. container:: handout
+
+     今天的China.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_devsite-plus-lasted.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+合法爱国: 为中国加油
+====================================
+
+.. container:: handout
+
+     China 内部.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_devsite-plus-china.png
         :align: center
         :height: 480px
         :target: #
@@ -639,6 +723,7 @@ Volunteer: Sharer
    |zhgdg|
 
 
+- 130811 追加最新 G+ 国际排名
 - 130726 基于 130522 对北理的幻灯简化而成
 
 

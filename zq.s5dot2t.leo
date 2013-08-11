@@ -159,13 +159,19 @@
 <v t="zoomq.20130510094724.14175"><vh>DevFest</vh></v>
 <v t="zoomq.20130510094724.14174"><vh>PyCon2013CHina</vh></v>
 </v>
-<v t="zoomq.20130726110041.14989" a="E"><vh>G+</vh>
+<v t="zoomq.20130726110041.14989"><vh>G+</vh>
 <v t="zoomq.20130726110041.14990"><vh>G+</vh></v>
-<v t="zoomq.20130726110041.16876"><vh>Cycle</vh></v>
+<v t="zoomq.20130726110041.16876"><vh>Cycle</vh>
+<v t="zoomq.20130811112946.13320"><vh>Cycle</vh></v>
+<v t="zoomq.20130811112946.13322"><vh>Cycle</vh></v>
+</v>
 <v t="zoomq.20130726110041.16872"><vh>/status</vh></v>
 <v t="zoomq.20130727112224.13318"><vh>进入</vh></v>
 <v t="zoomq.20130726110041.16874"><vh>成员</vh></v>
-<v t="zoomq.20130726110041.16878"><vh>加力</vh></v>
+<v t="zoomq.20130726110041.16878"><vh>加力</vh>
+<v t="zoomq.20130811112946.13324"><vh>加力</vh></v>
+<v t="zoomq.20130811112946.13326"><vh>加力</vh></v>
+</v>
 </v>
 <v t="zoomq.20130510094724.14191"><vh>折腾</vh>
 <v t="zoomq.20130726110041.16880"><vh>志愿者</vh></v>
@@ -105763,6 +105769,7 @@ cr.define('options', function() {
    |zhgdg|
 
 
+- 130811 追加最新 G+ 国际排名
 - 130726 基于 130522 对北理的幻灯简化而成
 
 
@@ -111511,6 +111518,94 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. container:: notes
 
    - snap4ZQMBP_130727_devsite-dir.png
+
+
+
+</t>
+<t tx="zoomq.20130811112946.13320">合法爱国: 圈上 DGD ZhuHai
+====================================
+
+.. container:: handout
+
+     没有登录时.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_gplus-unlogin.png
+        :align: center
+        :height: 280px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130811112946.13322">合法爱国: 圈上 DGD ZhuHai
+====================================
+
+.. container:: handout
+
+     cycled 时,,, |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_gplus-cycle.png
+        :align: center
+        :height: 380px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130811112946.13324">合法爱国: 为中国加油
+====================================
+
+.. container:: handout
+
+     今天的China.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_devsite-plus-lasted.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130811112946.13326">合法爱国: 为中国加油
+====================================
+
+.. container:: handout
+
+     China 内部.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_devsite-plus-china.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - .png
 
 
 
