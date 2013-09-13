@@ -109,7 +109,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
             ,URL="http://zoomquiet.github.com/leo-doc-zh/leo_toc.html"];
         pyblosxom   [label="PyBlosxom手册\nv1.5-rc1",shape=note
             ,URL="http://pyblosxom-doc-zh.readthedocs.org"];
-        sphnix   [label="Sphnix手册",shape=note
+        sphnix   [label="Sphinx手册",shape=note
             ,URL="http://sphinx-doc-zh.readthedocs.org"];
             
 

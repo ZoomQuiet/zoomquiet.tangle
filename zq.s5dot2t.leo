@@ -138,7 +138,7 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20130510094724.14073" a="E"><vh>130727-gdgzhgdl</vh>
+<v t="zoomq.20130510094724.14073" a="E"><vh>130914-devfest-zh</vh>
 <v t="zoomq.20130510094724.14074" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130510094724.14075"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14076"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -155,10 +155,32 @@
 <v t="zoomq.20130510094724.14178"><vh>GDL</vh>
 <v t="zoomq.20130510094724.14179"><vh>inCollege</vh></v>
 </v>
-<v t="zoomq.20130510094724.14176"><vh>DevFestW</vh>
+<v t="zoomq.20130510094724.14176" a="E"><vh>DevFestW</vh>
 <v t="zoomq.20130510094724.14175"><vh>DevFest</vh></v>
+<v t="zoomq.20130913091547.15186"><vh>DevFest</vh></v>
 <v t="zoomq.20130510094724.14174"><vh>PyCon2013CHina</vh></v>
 </v>
+<v t="zoomq.20130913091547.15184"><vh>折腾</vh></v>
+<v t="zoomq.20130913091547.15152"><vh>这半年</vh>
+<v t="zoomq.20130913091547.15154"><vh>成员</vh>
+<v t="zoomq.20130913091547.15160"><vh>组委</vh></v>
+<v t="zoomq.20130913091547.15162"><vh>志愿者</vh></v>
+<v t="zoomq.20130913091547.15156"><vh>G+好友</vh></v>
+<v t="zoomq.20130913091547.15158"><vh>G+社团</vh></v>
+</v>
+<v t="zoomq.20130913091547.15164"><vh>活动</vh>
+<v t="zoomq.20130913091547.15166"><vh>参加</vh></v>
+<v t="zoomq.20130913091547.15168"><vh>录音</vh></v>
+<v t="zoomq.20130913091547.15170"><vh>录像</vh></v>
+</v>
+<v t="zoomq.20130913091547.15175"><vh>活动</vh>
+<v t="zoomq.20130913091547.15176"><vh>BBS</vh></v>
+<v t="zoomq.20130913091547.15177"><vh>Blog</vh></v>
+<v t="zoomq.20130913091547.15178"><vh>微信</vh></v>
+<v t="zoomq.20130913091547.15180"><vh>代码</vh></v>
+</v>
+</v>
+<v t="zoomq.20130913091547.15182"><vh>折腾</vh></v>
 <v t="zoomq.20130726110041.14989"><vh>G+</vh>
 <v t="zoomq.20130726110041.14990"><vh>G+</vh></v>
 <v t="zoomq.20130726110041.16876"><vh>Cycle</vh>
@@ -186,6 +208,56 @@
 <v t="zoomq.20130510094724.14200"><vh>abt.ZQ</vh></v>
 </v>
 <v t="zoomq.20130510094724.14197"><vh>GDG</vh></v>
+</v>
+</v>
+<v t="zoomq.20130913091547.15112"><vh>130727-gdgzhgdl</vh>
+<v t="zoomq.20130913091547.15113"><vh>@nosent index.rst</vh>
+<v t="zoomq.20130913091547.15114"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
+<v t="zoomq.20130913091547.15115"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
+<v t="zoomq.20130913091547.15116"><vh>ZHGDG</vh></v>
+<v t="zoomq.20130913091547.15117"><vh>zhgdg</vh>
+<v t="zoomq.20130913091547.15118"><vh>Groups</vh></v>
+<v t="zoomq.20130913091547.15119"><vh>G+</vh></v>
+<v t="zoomq.20130913091547.15120"><vh>G+</vh></v>
+<v t="zoomq.20130913091547.15121"><vh>weibo</vh></v>
+<v t="zoomq.20130913091547.15122"><vh>wechat</vh></v>
+<v t="zoomq.20130913091547.15123"><vh>BBS</vh></v>
+<v t="zoomq.20130913091547.15124"><vh>Trello</vh></v>
+</v>
+<v t="zoomq.20130913091547.15125"><vh>GDL</vh>
+<v t="zoomq.20130913091547.15126"><vh>inCollege</vh></v>
+</v>
+<v t="zoomq.20130913091547.15127"><vh>DevFestW</vh>
+<v t="zoomq.20130913091547.15128"><vh>DevFest</vh></v>
+<v t="zoomq.20130913091547.15129"><vh>PyCon2013CHina</vh></v>
+</v>
+<v t="zoomq.20130913091547.15130"><vh>G+</vh>
+<v t="zoomq.20130913091547.15131"><vh>G+</vh></v>
+<v t="zoomq.20130913091547.15132"><vh>Cycle</vh>
+<v t="zoomq.20130913091547.15133"><vh>Cycle</vh></v>
+<v t="zoomq.20130913091547.15134"><vh>Cycle</vh></v>
+</v>
+<v t="zoomq.20130913091547.15135"><vh>/status</vh></v>
+<v t="zoomq.20130913091547.15136"><vh>进入</vh></v>
+<v t="zoomq.20130913091547.15137"><vh>成员</vh></v>
+<v t="zoomq.20130913091547.15138"><vh>加力</vh>
+<v t="zoomq.20130913091547.15139"><vh>加力</vh></v>
+<v t="zoomq.20130913091547.15140"><vh>加力</vh></v>
+</v>
+</v>
+<v t="zoomq.20130913091547.15141"><vh>折腾</vh>
+<v t="zoomq.20130913091547.15142"><vh>志愿者</vh></v>
+<v t="zoomq.20130913091547.15143"><vh>宣传</vh></v>
+<v t="zoomq.20130913091547.15144"><vh>设计</vh></v>
+<v t="zoomq.20130913091547.15145"><vh>会务</vh></v>
+<v t="zoomq.20130913091547.15146"><vh>讲师</vh></v>
+<v t="zoomq.20130913091547.15147"><vh>会务</vh></v>
+</v>
+<v t="zoomq.20130913091547.15148"><vh>version</vh>
+<v t="zoomq.20130913091547.15149"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
+<v t="zoomq.20130913091547.15150"><vh>abt.ZQ</vh></v>
+</v>
+<v t="zoomq.20130913091547.15151"><vh>GDG</vh></v>
 </v>
 </v>
 <v t="zoomq.20130726110041.14629"><vh>130512-gdgsummit</vh>
@@ -468,7 +540,7 @@
 <v t="zoomq.20130726110041.14985"><vh>GDG</vh></v>
 </v>
 </v>
-<v t="zoomq.20130510094724.15679" a="E"><vh>ZQ:2012</vh>
+<v t="zoomq.20130510094724.15679"><vh>ZQ:2012</vh>
 <v t="zoomq.20130426100228.15153"><vh>121020-how2make-tech-party</vh>
 <v t="zoomq.20130426100228.15154" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130426100228.15155"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -1553,7 +1625,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20120423093831.20420" a="E"><vh>120229-time2km</vh>
+<v t="zoomq.20120423093831.20420"><vh>120229-time2km</vh>
 <v t="zoomq.20120608161547.16864" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20120608161547.16865"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120608161547.16866"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -105348,17 +105420,17 @@ cr.define('options', function() {
 
 
 </t>
-<t tx="zoomq.20130510094724.14073">@path 130727-gdgzhgdl
+<t tx="zoomq.20130510094724.14073">@path 130914-devfest-zh
 </t>
 <t tx="zoomq.20130510094724.14074">@language rest
 @tabwidth -4
 .. include:: &lt;s5defs.txt&gt;
 
 ==================================================================
-进击的\ :orange:`G+`
+珠海GDG
 ==================================================================
 
-～如何成为珠海GDG合法居民... 
+～这半年 
 
 :Authors: `Zoom.Quiet &lt;zoomquiet+s5@gmai.com&gt;`__
 :URL:    http://zoomquiet.org/res/s5/130727-gdgzhgdl/
@@ -105393,7 +105465,7 @@ cr.define('options', function() {
 .. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
    :alt: 是也乎;-)
    :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
-.. |zhgdg| image:: i/id/ZH_GDG_Logo_SQ3-130405_50.png
+.. |zhgdg| image:: i/id/gdgzh_icon_v2_80x80.png
    :target: http://www.chinagdg.com/thread-1650-1-1.html
 .. |pycon| image:: i/logo/pycon2012china-lo​go-2-h80.png
    :target: http://cn.pycon.org
@@ -105421,7 +105493,7 @@ cr.define('options', function() {
 </t>
 <t tx="zoomq.20130510094724.14076">.. footer:: 
 
-   `Zoom.Quiet`_ v13.7.27 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v13.9.13 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
 </t>
 <t tx="zoomq.20130510094724.14165">珠海GDG ;-)
 ====================================
@@ -105644,15 +105716,15 @@ cr.define('options', function() {
 
 .. class:: takahashi1
 
-    .. image:: i/logo/devfest-GDG_ZhuHai_h500.png
+    .. image:: i/logo/DevFest_zh_slides_logo.png
         :align: center
         :alt: devfest
-        :height: 500px
+        :height: 200px
         :target: #
 
 .. container:: notes
 
-   - pyconchina.png
+   - snap4ZQMBP_130913_devfest-map
 
 
 
@@ -105732,7 +105804,7 @@ cr.define('options', function() {
 
 .. container:: notes
 
-   - Mentor
+   - 
 
 
 </t>
@@ -105746,7 +105818,7 @@ cr.define('options', function() {
 
 .. class:: takahashi1
 
-    .. image:: i/logo/ZH_GDG_Logo_SQ3-130405.png
+    .. image:: i/logo/gdgzh_icon_shadow_500x500.png
         :align: center
         :height: 400px
         :alt: ZHGDG
@@ -105769,6 +105841,7 @@ cr.define('options', function() {
    |zhgdg|
 
 
+- 130913 增补回顾
 - 130811 追加最新 G+ 国际排名
 - 130726 基于 130522 对北理的幻灯简化而成
 
@@ -111606,6 +111679,1187 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. container:: notes
 
    - .png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15112">@path 130727-gdgzhgdl
+</t>
+<t tx="zoomq.20130913091547.15113">@language rest
+@tabwidth -4
+.. include:: &lt;s5defs.txt&gt;
+
+==================================================================
+进击的\ :orange:`G+`
+==================================================================
+
+～如何成为珠海GDG合法居民... 
+
+:Authors: `Zoom.Quiet &lt;zoomquiet+s5@gmai.com&gt;`__
+:URL:    http://zoomquiet.org/res/s5/130727-gdgzhgdl/
+
+&lt;&lt;DOCDEFINE&gt;&gt;
+
+&lt;&lt;footer&gt;&gt;
+
+@others
+
+</t>
+<t tx="zoomq.20130913091547.15114">.. This document has been placed in the CC domain.
+.. _Docutils: http://docutils.sourceforge.net/
+.. _reStructuredText: http://docutils.sourceforge.net/rst.html
+.. _S5: http://meyerweb.com/eric/tools/s5/
+.. _Firefox: http://www.mozilla.com/firefox/
+
+.. _Zoom.Quiet:
+    http://code.google.com/p/openbookproject/wiki/ZoomQuiet
+.. _(CC)by-nc-sa:
+    http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. _FireFox:
+    http://www.mozilla.com/firefox/
+.. _S5介绍:
+    http://zoomquiet.org/res/s5/100826-PyTDD/s5.html
+.. _WYTIWYG:
+    http://wiki.woodpecker.org.cn/moin/WyTiWyG
+.. _GSoC:
+    http://www.google-melange.com/gsoc/homepage/google/gsoc2013
+
+.. 图片定义区
+.. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
+   :alt: 是也乎;-)
+   :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+.. |zhgdg| image:: i/id/ZH_GDG_Logo_SQ3-130405_50.png
+   :target: http://www.chinagdg.com/thread-1650-1-1.html
+.. |pycon| image:: i/logo/pycon2012china-lo​go-2-h80.png
+   :target: http://cn.pycon.org
+
+.. |cc-byncsa31| image:: i/icon/cc-byncnd-88x31.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
+   :alt: (CC)by-nc-sa 许可证
+   :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+.. |lr_s5| image:: i/icon/levelradar_s5.png
+    :scale: 100 %
+
+.. |bullet| unicode:: U+02022
+.. |mode| unicode:: U+00D8 .. capital o with stroke
+
+.. |S5icon| image:: pix/S5icon.GIF
+    :align: top
+    :scale: 100 %
+    :target: http://www.meyerweb.com/eric/tools/s5/
+.. |LeoProse| image:: pix/LeoProse.gif
+    :align: top
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+</t>
+<t tx="zoomq.20130913091547.15115">.. footer:: 
+
+   `Zoom.Quiet`_ v13.7.27 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+</t>
+<t tx="zoomq.20130913091547.15116">`珠海GDG &lt;http://www.chinagdg.com/thread-1329-1-1.html&gt;`_
+========================================================================
+
+.. container:: handout
+
+   Google Developer Group... |zhgdg|
+
+
+.. image:: i/logo/130419-zhgdg-Tshirt_w780.png
+    :align: center
+    :height: 300px
+    :target: http://www.chinagdg.com/forum-94-1.html
+    :alt: 珠海GDG
+
+
+.. container:: notes
+
+   - 是也乎
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15117">珠海GDG ;-)
+====================================
+
+.. container:: handout
+
+    `[3.30]#珠海GDG#成立大会胜利闭幕! &lt;http://www.chinagdg.com/thread-1495-1-1.html&gt;`_ |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ZH_YiLaBao2_noICONs.jpg
+        :align: center
+        :height: 300px
+        :alt: GDG ZhuHai
+        :target: http://www.chinagdg.com/forum-94-1.html
+
+
+.. container:: notes
+
+   - ZH_YiLaBao2_noICONs.jpg
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15118">邮件列表
+====================================
+
+.. container:: handout
+
+     自由交流 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_groups.png
+        :align: center
+        :height: 500px
+        :alt: gdg-zhuhai@googlegroups.com
+        :target: https://groups.google.com/forum/#%21forum/gdg-zhuhai
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15119">G+ 信息页
+====================================
+
+.. container:: handout
+
+     动态通告 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_GDG-zhuhai.png
+        :align: center
+        :height: 500px
+        :alt: GDG ZhuHai
+        :target: http://gplus.to/gdgzh
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15120">G+ 社群
+====================================
+
+.. container:: handout
+
+     动态交互 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_ZhuHai-GDG.png
+        :align: center
+        :height: 500px
+        :alt: GDG ZhuHai
+        :target: http://gplus.to/zhGDG
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15121">weibo
+====================================
+
+.. container:: handout
+
+     中国交互 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_weibo.png
+        :align: center
+        :height: 500px
+        :alt: GDG ZhuHai
+        :target: http://weibo.com/gdgzh
+
+
+.. container:: notes
+
+   - qrcode_for_gh_5e32c47b5b23_430.jpg
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15122">微信
+====================================
+
+.. container:: handout
+
+     自制电刊 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/qrcode_for_gh_5e32c47b5b23_430.jpg
+        :align: center
+        :alt: GDG珠海
+        
+
+.. container:: notes
+
+   - qrcode_for_gh_5e32c47b5b23_430.jpg
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15123">论坛
+====================================
+
+.. container:: handout
+
+     中国交互 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_bbs.png
+        :align: center
+        :height: 500px
+        :alt: GDG ZhuHai
+        :target: http://www.chinagdg.com/forum-94-1.html
+
+
+.. container:: notes
+
+   - qrcode_for_gh_5e32c47b5b23_430.jpg
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15124">Trello
+====================================
+
+.. container:: handout
+
+     Kanban |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_trello.png
+        :align: center
+        :alt: GDG ZhuHai
+        :target: https://trello.com/board/gdg/51231b62a1f34342720041e2
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15125">直播课程
+==================
+
+.. container:: handout
+
+    原创中文课程 |zhgdg|
+
+
+.. class:: takahashi7
+
+    `GDL &lt;https://developers.google.com/live/&gt;`_
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15126">校园行
+==================
+
+.. container:: handout
+
+    大学生自个儿的组织 |zhgdg|
+
+
+.. class:: takahashi
+
+    GDG\ :orange:`in`
+    
+    College
+
+.. container:: notes
+
+   - Py-super-black-v0.9.1-500.png
+
+
+</t>
+<t tx="zoomq.20130913091547.15127">DevFest\ :orange:`W`
+====================================
+
+.. container:: handout
+
+     程序媛节日.. |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/devfestw_logo.png
+        :align: center
+        :alt: devfest
+        :height: 220px
+        :target: #
+
+.. container:: notes
+
+   - pyconchina.png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15128">[9.14] 0xFFFF 节日!
+====================================
+
+.. container:: handout
+
+     程序猿节日.. |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/devfest-GDG_ZhuHai_h500.png
+        :align: center
+        :alt: devfest
+        :height: 500px
+        :target: #
+
+.. container:: notes
+
+   - pyconchina.png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15129">PyCon2013CHina ~ [11.17]
+====================================
+
+.. container:: handout
+
+     Python年会.. |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/pyconchina.png
+        :align: center
+        :alt: PyCon2013CHina
+        :target: https://cn.pycon.org
+
+.. container:: notes
+
+   - pyconchina.png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15130">DevSite: Pluse
+====================================
+
+.. container:: handout
+
+     国际GDG 在G+ 上的活跃度! |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130726_devsite-plus-2.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15131">合法爱国: G+ 帐号
+====================================
+
+.. container:: handout
+
+     拥有自个儿的G+ 领地.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130726_gplus-self.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15132">合法爱国: 圈上 DGD ZhuHai
+====================================
+
+.. container:: handout
+
+     加入人脉.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130727_cycel-zhgdg.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15133">合法爱国: 圈上 DGD ZhuHai
+====================================
+
+.. container:: handout
+
+     没有登录时.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_gplus-unlogin.png
+        :align: center
+        :height: 280px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15134">合法爱国: 圈上 DGD ZhuHai
+====================================
+
+.. container:: handout
+
+     cycled 时,,, |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_gplus-cycle.png
+        :align: center
+        :height: 380px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15135">合法爱国: DevSite/status
+====================================
+
+.. container:: handout
+
+     激活 DevSite 帐号 .. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap130328_devsite-status.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - snap4ZQMBP_130727_devsite-dir.png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15136">合法爱国: `GDG ZHuhai &lt;https://developers.google.com/groups/chapter/113382777332300419074/&gt;`_
+============================================================================================================
+
+.. container:: handout
+
+     从全球GDG 索引进入 .. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130727_devsite-dir.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - snap4ZQMBP_130727_devsite-dir.png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15137">合法爱国: Member
+====================================
+
+.. container:: handout
+
+     成为珠海GDG成员 .. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap130328_devsite-member.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15138">合法爱国: 为中国加油
+====================================
+
+.. container:: handout
+
+     国际GDG 在G+ 上的活跃度!.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130726_devsite-plus_3.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15139">合法爱国: 为中国加油
+====================================
+
+.. container:: handout
+
+     今天的China.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_devsite-plus-lasted.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15140">合法爱国: 为中国加油
+====================================
+
+.. container:: handout
+
+     China 内部.. |zhgdg|
+
+
+.. class:: takahashi0
+
+    .. image:: i/snap/snap4ZQMBP_130811_devsite-plus-china.png
+        :align: center
+        :height: 480px
+        :target: #
+
+.. container:: notes
+
+   - .png
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15141">我们都是
+==================
+
+.. container:: handout
+
+    是也乎 |zhgdg|
+
+
+.. class:: takahashi7
+
+    不\ :orange:`折腾`\ 要死星人
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20130913091547.15142">Volunteer
+==================
+
+.. container:: handout
+
+    社区的肉体! |zhgdg|
+
+
+.. class:: takahashi7
+
+    :orange:`志愿`\ 者
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20130913091547.15143">Volunteer: spreader
+====================================
+
+.. container:: handout
+
+    线上/下 传播 |zhgdg|
+
+
+.. class:: takahashi7
+
+    :orange:`宣传`\ 组
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20130913091547.15144">Volunteer: designer
+====================================
+
+.. container:: handout
+
+    各种图片/文案... |zhgdg|
+
+
+.. class:: takahashi7
+
+    :orange:`设计`\ 组
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20130913091547.15145">Volunteer: matter
+====================================
+
+.. container:: handout
+
+    礼品/物料/现场... |zhgdg|
+
+
+.. class:: takahashi7
+
+    :orange:`会务`\ 组
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20130913091547.15146">Volunteer: Sharer
+====================================
+
+.. container:: handout
+
+    以及永远渴求的... |zhgdg|
+
+
+.. class:: takahashi8
+
+    :orange:`分享`\ 者
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20130913091547.15147">我们都是
+==================
+
+.. container:: handout
+
+    来吧! |zhgdg|
+
+
+.. class:: takahashi7
+
+    不\ :orange:`折腾`\ 要死星人
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20130913091547.15148">&lt;版本/&gt;
+=========
+
+.. container:: handout
+
+   |zhgdg|
+
+
+- 130811 追加最新 G+ 国际排名
+- 130726 基于 130522 对北理的幻灯简化而成
+
+
+:反馈:
+    zoomquiet+s5@gmail.com
+:查阅:
+    http://zoomquiet.org/res/s5/130727-gdgzhgdl
+
+
+&lt;&lt;S5&gt;&gt;</t>
+<t tx="zoomq.20130913091547.15149">`S5 &lt;http://www.meyerweb.com/eric/tools/s5/&gt;`__
+==============================================================================================
+
+.. container:: handout
+
+    纯HTML 幻灯撰写框架!... |lr_s5| 
+
+
+- S\ :sup:`5`\ == a :orange:`S` imple :orange:`S` tandards-Based :orange:`S` lide :orange:`S` how :orange:`S` ystem 
+
+ - 仅仅依靠 CSS+JS 的HTML格式幻灯演示框架
+
+- 我的编辑环境: |LeoProse| ~ `文学化编辑器 &lt;http://en.wikipedia.org/wiki/Literate_programming&gt;`__
+
+
+.. image:: pix/2010-01-18-230729_605x421_leo.png
+    :align: center
+    :scale: 100 %
+    :target: http://wiki.woodpecker.org.cn/moin/LeoEnvironment
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15150">&lt;Zoom.Quiet/&gt;
+==================
+
+.. container:: handout
+
+ 本命+4,有娃有房,专业大妈  |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/foto/120826_niuniu.png
+        :align: center
+        :target: http://weibo.com/zoomquiet
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15151">`珠海GDG &lt;http://www.chinagdg.com/thread-1329-1-1.html&gt;`_
+========================================================================
+
+.. container:: handout
+
+   Google Developer Group... |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ZH_GDG_Logo_SQ3-130405.png
+        :align: center
+        :height: 400px
+        :alt: ZHGDG
+        :target: http://www.chinagdg.com/forum-94-1.html
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15152">这半年
+====================================
+
+.. container:: handout
+
+    我们的折腾 |zhgdg|
+
+
+.. class:: takahashi7
+
+    200
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15154">成员
+====================================
+
+.. container:: handout
+
+    从0~ |zhgdg|
+
+
+.. class:: takahashi7
+
+    :orange:`431`
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15156">G+ 圈友
+====================================
+
+.. container:: handout
+
+    从0~ |zhgdg|
+
+
+.. class:: takahashi7
+
+    :orange:`230`
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15158">G+ 社群
+====================================
+
+.. container:: handout
+
+    从0~ |zhgdg|
+
+
+.. class:: takahashi7
+
+    :orange:`225`
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15160">组委
+====================================
+
+.. container:: handout
+
+    从4~ |zhgdg|
+
+
+.. class:: takahashi8
+
+    :orange:`8`
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15162">志愿者
+====================================
+
+.. container:: handout
+
+    从0~ |zhgdg|
+
+
+.. class:: takahashi8
+
+    :orange:`4`
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15164">Events
+====================================
+
+.. container:: handout
+
+    失败1次 |zhgdg|
+
+
+.. class:: takahashi8
+
+    :orange:`10`
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15166">参与
+====================================
+
+.. container:: handout
+
+    失败1次 |zhgdg|
+
+
+.. class:: takahashi7
+
+    &gt; 830
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15168">录音
+====================================
+
+.. container:: handout
+
+    发布总长..分钟! |zhgdg|
+
+
+.. class:: takahashi7
+
+    &gt; 2000
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15170">录像
+====================================
+
+.. container:: handout
+
+    发布总长..分钟! |zhgdg|
+
+
+.. class:: takahashi7
+
+    &gt; 800
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15175">发表
+====================================
+
+.. container:: handout
+
+    各种渠道 |zhgdg|
+
+
+.. class:: takahashi8
+
+    :orange:`内容`
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15176">论坛
+====================================
+
+.. container:: handout
+
+    回复 &gt; 300 |zhgdg|
+
+
+.. class:: takahashi7
+
+    &gt; 70
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15177">Blog
+====================================
+
+.. container:: handout
+
+    回复... |zhgdg|
+
+
+.. class:: takahashi7
+
+    &gt; 40
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15178">微信
+====================================
+
+.. container:: handout
+
+    获得 &gt; 150 位订阅 |zhgdg|
+
+
+.. class:: takahashi7
+
+    &gt; 35
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15180">代码
+====================================
+
+.. container:: handout
+
+    github 上挖坑 |zhgdg|
+
+
+.. class:: takahashi9
+
+    2
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15182">我们都是
+==================
+
+.. container:: handout
+
+    是也乎 |zhgdg|
+
+
+.. class:: takahashi7
+
+    不\ :orange:`折腾`\ 要死星人
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20130913091547.15184">我们都是
+==================
+
+.. container:: handout
+
+    是也乎 |zhgdg|
+
+
+.. class:: takahashi7
+
+    不\ :orange:`折腾`\ 要死星人
+
+.. container:: notes
+
+   -
+
+
+
+ </t>
+<t tx="zoomq.20130913091547.15186">DevFest 全球
+====================================
+
+.. container:: handout
+
+     mapping.. |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_130913_devfest-map.png
+        :align: center
+        :alt: devfest
+        :height: 500px
+        :target: #
+
+.. container:: notes
+
+   - snap4ZQMBP_130913_devfest-map
 
 
 
