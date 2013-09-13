@@ -155,13 +155,13 @@
 <v t="zoomq.20130510094724.14178"><vh>GDL</vh>
 <v t="zoomq.20130510094724.14179"><vh>inCollege</vh></v>
 </v>
-<v t="zoomq.20130510094724.14176" a="E"><vh>DevFestW</vh>
+<v t="zoomq.20130510094724.14176"><vh>DevFestW</vh>
 <v t="zoomq.20130510094724.14175"><vh>DevFest</vh></v>
 <v t="zoomq.20130913091547.15186"><vh>DevFest</vh></v>
 <v t="zoomq.20130510094724.14174"><vh>PyCon2013CHina</vh></v>
 </v>
 <v t="zoomq.20130913091547.15184"><vh>折腾</vh></v>
-<v t="zoomq.20130913091547.15152"><vh>这半年</vh>
+<v t="zoomq.20130913091547.15152" a="E"><vh>这半年</vh>
 <v t="zoomq.20130913091547.15154"><vh>成员</vh>
 <v t="zoomq.20130913091547.15160"><vh>组委</vh></v>
 <v t="zoomq.20130913091547.15162"><vh>志愿者</vh></v>
@@ -173,11 +173,16 @@
 <v t="zoomq.20130913091547.15168"><vh>录音</vh></v>
 <v t="zoomq.20130913091547.15170"><vh>录像</vh></v>
 </v>
-<v t="zoomq.20130913091547.15175"><vh>活动</vh>
+<v t="zoomq.20130913091547.15175"><vh>发表</vh>
 <v t="zoomq.20130913091547.15176"><vh>BBS</vh></v>
 <v t="zoomq.20130913091547.15177"><vh>Blog</vh></v>
 <v t="zoomq.20130913091547.15178"><vh>微信</vh></v>
 <v t="zoomq.20130913091547.15180"><vh>代码</vh></v>
+</v>
+<v t="zoomq.20130913091547.15192" a="E"><vh>设计</vh>
+<v t="zoomq.20130913091547.15193"><vh>re Logo</vh></v>
+<v t="zoomq.20130913091547.15194"><vh>思路</vh></v>
+<v t="zoomq.20130913091547.15195"><vh>应用</vh></v>
 </v>
 </v>
 <v t="zoomq.20130913091547.15182"><vh>折腾</vh></v>
@@ -112861,6 +112866,93 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
    - snap4ZQMBP_130913_devfest-map
 
+
+
+</t>
+<t tx="zoomq.20130913091547.15192">设计师
+====================================
+
+.. container:: handout
+
+    嗯嗯嗯 |zhgdg|
+
+.. class:: takahashi1
+
+    .. image:: i/snap4ZQMBP_130913_designer.png
+        :align: center
+        :alt: devfest
+        :height: 500px
+        :target: #
+
+
+.. container:: notes
+
+   - snap4ZQMBP_130913_designer
+
+
+</t>
+<t tx="zoomq.20130913091547.15193">re Logo
+====================================
+
+.. container:: handout
+
+    新标志 |zhgdg|
+
+.. class:: takahashi1
+
+    .. image:: i/snap4ZQMBP_130913_new_logo.png
+        :align: center
+        :alt: devfest
+        :height: 400px
+        :target: #
+        
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15194">Blog
+====================================
+
+.. container:: handout
+
+    回复... |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap4ZQMBP_130913_new_design.png
+        :align: center
+        :alt: devfest
+        :height: 400px
+        :target: #
+        
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20130913091547.15195">应用
+====================================
+
+.. container:: handout
+
+    变化之一 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap4ZQMBP_130913_new_usage.png
+        :align: center
+        :alt: devfest
+        :height: 400px
+        :target: #
+        
+.. container:: notes
+
+   - 
 
 
 </t>

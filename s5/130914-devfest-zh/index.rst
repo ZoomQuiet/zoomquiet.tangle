@@ -661,6 +661,89 @@ Blog
    - 
 
 
+设计师
+====================================
+
+.. container:: handout
+
+    嗯嗯嗯 |zhgdg|
+
+.. class:: takahashi1
+
+    .. image:: i/snap4ZQMBP_130913_designer.png
+        :align: center
+        :alt: devfest
+        :height: 500px
+        :target: #
+
+
+.. container:: notes
+
+   - snap4ZQMBP_130913_designer
+
+
+re Logo
+====================================
+
+.. container:: handout
+
+    新标志 |zhgdg|
+
+.. class:: takahashi1
+
+    .. image:: i/snap4ZQMBP_130913_new_logo.png
+        :align: center
+        :alt: devfest
+        :height: 400px
+        :target: #
+        
+.. container:: notes
+
+   - 
+
+
+Blog
+====================================
+
+.. container:: handout
+
+    回复... |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap4ZQMBP_130913_new_design.png
+        :align: center
+        :alt: devfest
+        :height: 400px
+        :target: #
+        
+.. container:: notes
+
+   - 
+
+
+应用
+====================================
+
+.. container:: handout
+
+    变化之一 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap4ZQMBP_130913_new_usage.png
+        :align: center
+        :alt: devfest
+        :height: 400px
+        :target: #
+        
+.. container:: notes
+
+   - 
+
+
 我们都是
 ==================
 
