@@ -6,7 +6,7 @@
 
 ～怎么折腾好一次欢乐的技术交流?! 
 
-:Authors: `Zoom.Quiet <zoomquiet+s5@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+s5@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/121020-how2make-tech-party/
 
 .. This document has been placed in the CC domain.

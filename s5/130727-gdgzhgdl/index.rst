@@ -6,7 +6,7 @@
 
 ～如何成为珠海GDG合法居民... 
 
-:Authors: `Zoom.Quiet <zoomquiet+s5@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+s5@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/130727-gdgzhgdl/
 
 .. This document has been placed in the CC domain.

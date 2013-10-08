@@ -6,7 +6,7 @@ Combination
 
 ～base :orange:`L10N` make DGD Chapters working together!-)
 
-:Authors: `Zoom.Quiet <zoomquiet+s5@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+s5@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/130512-gdgsummit/
 
 .. This document has been placed in the CC domain.

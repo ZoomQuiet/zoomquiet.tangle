@@ -6,7 +6,7 @@
 
 ～ 记一个移动产品的胎死腹中 (powered by rst2S5)
 
-:Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/111023-demo-story
 
 .. This document has been placed in the CC domain.
@@ -958,7 +958,7 @@ Share My Playlists:发现对味的音乐
 - 111022 创建
 
 :反馈:
-    `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+    `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :查阅:
     http://zoomquiet.org/res/s5/111023-demo-story
 

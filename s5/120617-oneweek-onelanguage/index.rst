@@ -6,7 +6,7 @@
 
 ～如何在一周之内上手一门新语言?
 
-:Authors: `Zoom.Quiet <zoomquiet+km@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+km@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/120617-oneweek-onelanguage/
 
 .. This document has been placed in the CC domain.

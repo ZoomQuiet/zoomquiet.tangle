@@ -6,7 +6,7 @@
 
 ～如何分享快乐成一本图书?
 
-:作者: `周琦 <zoomquiet+sns@gmai.com>`__ (Zoom.Quiet)
+:作者: `周琦 <zoomquiet+sns@gmail.com>`__ (Zoom.Quiet)
 :URL:   http://zoomquiet.org/res/s5/101121-TEDx1Kg/
 
 .. This document has been placed in the CC domain.
@@ -1188,7 +1188,7 @@ T裇设计人
 
 
 :反馈:
-    `Zoom.Quiet@gmail.com <zoomquiet+sns@gmai.com>`__
+    `Zoom.Quiet@gmail.com <zoomquiet+sns@gmail.com>`__
 :查阅:
     http://zoomquiet.org/res/s5/101121-TEDx1Kg/
 

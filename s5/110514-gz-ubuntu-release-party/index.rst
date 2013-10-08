@@ -6,7 +6,7 @@
 
 ～俺的自由之旅 (powered by rst2S5)
 
-:Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/110514-gz-ubuntu-release-party/
 
 .. This document has been placed in the CC domain.
@@ -1394,7 +1394,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 - 110507 為中大Ubuntu Release Party 创建
 
 :反馈:
-    `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+    `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :查阅:
     http://zoomquiet.org/res/s5/110320-mq-first-taste/
 

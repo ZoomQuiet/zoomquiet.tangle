@@ -48,7 +48,7 @@ FLOSS授权
 ～軟體授權法制與自由軟體授權模式介紹
 
 :Authors: `林誠夏 <lucien@iis.sinica.edu.tw>`__
-:Authors: `Zoom.Quiet <zoomquiet+floss@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+floss@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/120501-ossf-freedom/
 
 

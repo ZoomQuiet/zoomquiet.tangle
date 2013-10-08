@@ -6,7 +6,7 @@
 
 ～ 吐糟大刘 (powered by rst2S5)
 
-:Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/110522-anti-3-body
 
 .. This document has been placed in the CC domain.
@@ -924,7 +924,7 @@ Blame!
 - 110511 创建
 
 :反馈:
-    `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+    `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :查阅:
     http://zoomquiet.org/res/s5/110522-anti-3-body
 

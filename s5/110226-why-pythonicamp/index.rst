@@ -6,7 +6,7 @@
 
 ～PythoniCamp 简介
 
-:作者: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:作者: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :URL:   http://zoomquiet.org/res/s5/110226-why-pythonicamp
 
 .. This document has been placed in the CC domain.
@@ -839,7 +839,7 @@
 
 
 :反馈:
-    `Zoom.Quiet@gmail.com <zoomquiet+sns@gmai.com>`__
+    `Zoom.Quiet@gmail.com <zoomquiet+sns@gmail.com>`__
 :查阅:
     http://zoomquiet.org/res/s5/110226-why-pythonicamp
 

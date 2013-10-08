@@ -6,7 +6,7 @@
 
 ～持续的效率进化之旅 (powered by rst2S5)
 
-:Authors: `Zoom.Quiet <zoomquiet+km@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+km@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/120229-time2km/
 
 .. This document has been placed in the CC domain.

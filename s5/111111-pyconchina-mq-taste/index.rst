@@ -6,7 +6,7 @@ MQ解耦应用
 
 ～ 为偷懒而艰苦思考ing (powered by rst2S5)
 
-:Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste
 
 .. This document has been placed in the CC domain.
@@ -2004,7 +2004,7 @@ KISS
 - 111111 创建幻灯
 
 :反馈:
-    `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+    `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 
 http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste
 

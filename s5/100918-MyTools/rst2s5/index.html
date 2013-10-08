@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="Docutils 0.6: http://docutils.sourceforge.net/" />
+<meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
 <meta name="version" content="S5 1.1" />
 <title>我的工具箱</title>
 <style type="text/css">
 
 /*
 :Author: David Goodger (goodger@python.org)
-:Id: $Id: html4css1.css 5951 2009-05-18 18:03:10Z milde $
+:Id: $Id: html4css1.css 7056 2011-06-17 10:50:48Z milde $
 :Copyright: This stylesheet has been placed in the public domain.
 
 Default cascading style sheet for the HTML output of Docutils.
@@ -47,6 +47,10 @@ blockquote.epigraph {
 
 dl.docutils dd {
   margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
 
 /* Uncomment (and remove this text!) to get bold-faced definition list terms
 dl.docutils dt {
@@ -158,15 +162,21 @@ h2.subtitle {
 hr.docutils {
   width: 75% }
 
-img.align-left, .figure.align-left{
+img.align-left, .figure.align-left, object.align-left {
   clear: left ;
   float: left ;
   margin-right: 1em }
 
-img.align-right, .figure.align-right {
+img.align-right, .figure.align-right, object.align-right {
   clear: right ;
   float: right ;
   margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .align-left {
   text-align: left }
@@ -180,7 +190,7 @@ img.align-right, .figure.align-right {
 
 /* reset inner alignment in figures */
 div.align-right {
-  text-align: left }
+  text-align: inherit }
 
 /* div.align-center * { */
 /*   text-align: left } */
@@ -240,7 +250,7 @@ pre.address {
   margin-top: 0 ;
   font: inherit }
 
-pre.literal-block, pre.doctest-block {
+pre.literal-block, pre.doctest-block, pre.math {
   margin-left: 2em ;
   margin-right: 2em }
 
@@ -368,7 +378,7 @@ ul.auto-toc {
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field"><th class="field-name">Authors:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+sns&#64;gmai.com">Zoom.Quiet</a></td>
+<tr class="field"><th class="field-name">Authors:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+sns&#64;gmail.com">Zoom.Quiet</a></td>
 </tr>
 <tr class="field"><th class="field-name">Date:</th><td class="field-body"><a class="reference external" href="http://wiki.szlug.org/w/Software_Freedom_Day_2010">2010-09-18</a></td>
 </tr>
@@ -399,8 +409,7 @@ ul.auto-toc {
 <div class="handout container">
 <a class="reference external" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/">Takahashi-method 幻灯风格</a>
 源自 Ruby 创始人高橋征義(Masayoshi Takahashi)</div>
-<a class="center reference external image-reference" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/"><div align="center" class="align-center"><img alt="高橋流" class="align-center" src="pix/Takahashi-method.jpg" style="width: 537.0px; height: 415.5px;" /></div>
-</a>
+<a class="center reference external image-reference" href="http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/"><img alt="高橋流" class="align-center" src="pix/Takahashi-method.jpg" style="width: 537.0px; height: 415.5px;" /></a>
 </div>
 <div class="slide" id="id6">
 <h1>文字</h1>
@@ -458,9 +467,8 @@ ul.auto-toc {
 <h1>&lt;Zoom.Quiet&gt;</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<div align="center" class="align-center"><img alt="是也乎,是也乎" class="takahashi align-center" src="i/id/100514-zq-eye.png" style="width: 258.4px; height: 240.0px;" /></div>
-<a class="takahashi reference external image-reference" href="http://zoomquiet.org"><div align="center" class="align-center"><img alt="Zoom.Quiet" class="align-center" src="i/map/50ren-ZoomQuiet-s5-v800.png" style="width: 801.0px; height: 182.0px;" /></div>
-</a>
+<img alt="是也乎,是也乎" class="takahashi align-center" src="i/id/100514-zq-eye.png" style="width: 258.4px; height: 240.0px;" />
+<a class="takahashi reference external image-reference" href="http://zoomquiet.org"><img alt="Zoom.Quiet" class="align-center" src="i/map/50ren-ZoomQuiet-s5-v800.png" style="width: 801.0px; height: 182.0px;" /></a>
 </div>
 <div class="slide" id="id13">
 <h1>本命年</h1>
@@ -496,25 +504,24 @@ learnning Zope/Plone... <a class="reference external" href="http://wiki.woodpeck
 <li><strong>U</strong> ser</li>
 <li><strong>G</strong> roup</li>
 </ul>
-<div align="center" class="align-center"><img alt="http://czug.org" class="takahashi1 align-center" src="i/logo/logo-czug.png" style="width: 236.0px; height: 61.0px;" /></div>
+<img alt="http://czug.org" class="takahashi1 align-center" src="i/logo/logo-czug.png" style="width: 236.0px; height: 61.0px;" />
 </div>
 <div class="slide" id="id16">
 <h1><a class="reference external" href="http://www.woodpecker.org.cn/">2004:啄木鸟</a></h1>
 <div class="handout container">
 admin. MoinMoin 1.2.4... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<div align="center" class="align-center"><img alt="http://www.woodpecker.org.cn" class="center align-center" src="i/logo/logo-wpwww_banner.png" style="width: 217.0px; height: 67.0px;" /></div>
+<img alt="http://www.woodpecker.org.cn" class="center align-center" src="i/logo/logo-wpwww_banner.png" style="width: 217.0px; height: 67.0px;" />
 <ul class="center simple">
-<li><img align="bottom" alt="http://www.woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wpwiki_banner.gif" style="width: 217.0px; height: 67.0px;" /> <sup>MoinMoin 1.4.*</sup></li>
-<li><img align="bottom" alt="http://wiki.woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wp-wiki_banner.png" style="width: 217.0px; height: 90.0px;" /> <sup>MoinMoin 1.7.*</sup></li>
-<li><img align="bottom" alt="http://wiki,woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wiki-wp_zoomq_scrot.png" style="width: 229.0px; height: 77.0px;" /> <sup>MoinMoin 1.9.*</sup></li>
+<li><img alt="http://www.woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wpwiki_banner.gif" style="width: 217.0px; height: 67.0px;" /> <sup>MoinMoin 1.4.*</sup></li>
+<li><img alt="http://wiki.woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wp-wiki_banner.png" style="width: 217.0px; height: 90.0px;" /> <sup>MoinMoin 1.7.*</sup></li>
+<li><img alt="http://wiki,woodpecker.org.cn" class="align-bottom" src="i/logo/logo_wiki-wp_zoomq_scrot.png" style="width: 229.0px; height: 77.0px;" /> <sup>MoinMoin 1.9.*</sup></li>
 </ul>
 </div>
 <div class="slide" id="cpyug-bpyug">
 <h1>2005:<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30">CPyUG</a>-&gt; BPyUG</h1>
 <div class="handout container">
 working with Python,in SINA.com <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi1 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/CPUG"><div align="center" class="align-center"><img alt="CPyUG" class="align-center" src="i/logo/CPUGlogo.png" style="width: 600.0px; height: 287.0px;" /></div>
-</a>
+<a class="takahashi1 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/CPUG"><img alt="CPyUG" class="align-center" src="i/logo/CPUGlogo.png" style="width: 600.0px; height: 287.0px;" /></a>
 </div>
 <div class="slide" id="zpyug">
 <h1>2007:<a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZPyUG">ZPyUG</a></h1>
@@ -531,16 +538,15 @@ working with Python,in SINA.com <a class="reference external" href="http://wiki.
 <li><strong>U</strong> ser</li>
 <li><strong>G</strong> roup</li>
 </ul>
-<div align="center" class="align-center"><img alt="i/logo/logo_163_game.gif" class="takahashi1 align-center" src="i/logo/logo_163_game.gif" /></div>
-<div align="center" class="align-center"><img alt="i/logo/logo_sina_home.gif" class="takahashi1 align-center" src="i/logo/logo_sina_home.gif" /></div>
-<div align="center" class="align-center"><img alt="i/logo/logo-ks.jpg" class="takahashi1 align-center" src="i/logo/logo-ks.jpg" /></div>
+<img alt="i/logo/logo_163_game.gif" class="takahashi1 align-center" src="i/logo/logo_163_game.gif" />
+<img alt="i/logo/logo_sina_home.gif" class="takahashi1 align-center" src="i/logo/logo_sina_home.gif" />
+<img alt="i/logo/logo-ks.jpg" class="takahashi1 align-center" src="i/logo/logo-ks.jpg" />
 </div>
 <div class="slide" id="ecug-org">
 <h1><a class="reference external" href="http://ecug.org/">ECUG.org</a></h1>
 <div class="handout container">
 spreading Python everywhere to everyone... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi1 reference external image-reference" href="http://code.google.com/p/ecug/wiki/FrontPage"><div align="center" class="align-center"><img alt="ECUG" class="align-center" src="i/logo/ecug-logo_67bw.jpg" style="width: 890.0px; height: 208.0px;" /></div>
-</a>
+<a class="takahashi1 reference external image-reference" href="http://code.google.com/p/ecug/wiki/FrontPage"><img alt="ECUG" class="align-center" src="i/logo/ecug-logo_67bw.jpg" style="width: 890.0px; height: 208.0px;" /></a>
 </div>
 <div class="slide" id="sll-org-sll-org">
 <h1>2008:<a class="reference external" href="http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&amp;variant=zh-cn"><img alt="SLL" src="i/logo/2018-gz-sll.png" style="width: 170.0px; height: 55.0px;" /></a> &quot;SLL.org&quot;</h1>
@@ -558,15 +564,13 @@ spreading Pythonic everywhere to everyone... <a class="reference external" href=
 <li>并主持ZPyUG 近10次技术分享  <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></li>
 </ul>
 </div>
-<a class="takahashi1 reference external image-reference" href="http://book.douban.com/subject/3884108/"><div align="center" class="align-center"><img alt="可愛的Python" class="align-center" src="i/090902-lovpy.jpg" style="width: 493.0px; height: 550.0px;" /></div>
-</a>
+<a class="takahashi1 reference external image-reference" href="http://book.douban.com/subject/3884108/"><img alt="可愛的Python" class="align-center" src="i/090902-lovpy.jpg" style="width: 493.0px; height: 550.0px;" /></a>
 </div>
 <div class="slide" id="id22">
 <h1>2010~</h1>
 <div class="handout container">
 社区在不断发展... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi1 reference external image-reference" href="http://groups-beta.google.com/group/python-cn"><div align="center" class="align-center"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png" style="width: 628.0px; height: 701.0px;" /></div>
-</a>
+<a class="takahashi1 reference external image-reference" href="http://groups-beta.google.com/group/python-cn"><img alt="python-cn&#64;googlegroups.com" class="align-center" src="i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png" style="width: 628.0px; height: 701.0px;" /></a>
 </div>
 <div class="slide" id="id23">
 <h1>综上...</h1>
@@ -620,8 +624,7 @@ spreading Pythonic everywhere to everyone... <a class="reference external" href=
 <li>社区活跃度</li>
 </ul>
 </div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="雷达图" class="align-center" src="i/levelradar_demo.png" style="width: 600.0px; height: 500.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="雷达图" class="align-center" src="i/levelradar_demo.png" style="width: 600.0px; height: 500.0px;" /></a>
 </div>
 <div class="slide" id="id29">
 <h1>有关输入...</h1>
@@ -632,44 +635,38 @@ spreading Pythonic everywhere to everyone... <a class="reference external" href=
 <div class="slide" id="scrapbook">
 <h1><a class="reference external" href="https://addons.mozilla.org/firefox/addon/427">ScrapBook</a></h1>
 <div class="handout container">
-易用离线网页抓取管理插件 <img align="middle" alt="lr_scrapbook" class="align-middle" src="i/levelradar_scrapbook.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="https://addons.mozilla.org/firefox/addon/427"><div align="center" class="align-center"><img alt="ScrapBook" class="align-center" src="i/snap/zqtool_scrapbook_716x332_scrot.png" style="width: 716.0px; height: 332.0px;" /></div>
-</a>
+易用离线网页抓取管理插件 <img alt="lr_scrapbook" class="align-middle" src="i/levelradar_scrapbook.png" style="width: 200.0px; height: 180.0px;" /></div>
+<a class="takahashi7 reference external image-reference" href="https://addons.mozilla.org/firefox/addon/427"><img alt="ScrapBook" class="align-center" src="i/snap/zqtool_scrapbook_716x332_scrot.png" style="width: 716.0px; height: 332.0px;" /></a>
 </div>
 <div class="slide" id="logo-zim-zim">
-<h1><a class="reference external" href="http://zim-wiki.org/"><img align="top" alt="Zim" class="align-top" src="i/logo/logo-zim-h90.gif" style="width: 90.0px; height: 90.0px;" /></a> <a class="reference external" href="http://zim-wiki.org/">Zim</a></h1>
+<h1><a class="reference external" href="http://zim-wiki.org/"><img alt="Zim" class="align-top" src="i/logo/logo-zim-h90.gif" style="width: 90.0px; height: 90.0px;" /></a> <a class="reference external" href="http://zim-wiki.org/">Zim</a></h1>
 <div class="handout container">
-桌面维基,perl 实现,易用信息速记平台... <img align="middle" alt="lr_zim" class="align-middle" src="i/levelradar_zim.png" style="width: 220.0px; height: 200.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="Zim" class="align-center" src="i/snap/zqtool-zim_1065x398_scrot.png" style="width: 1065.0px; height: 398.0px;" /></div>
-</a>
+桌面维基,perl 实现,易用信息速记平台... <img alt="lr_zim" class="align-middle" src="i/levelradar_zim.png" style="width: 220.0px; height: 200.0px;" /></div>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="Zim" class="align-center" src="i/snap/zqtool-zim_1065x398_scrot.png" style="width: 1065.0px; height: 398.0px;" /></a>
 </div>
 <div class="slide" id="swiftfox">
 <h1><a class="reference external" href="http://getswiftfox.org/">SwiftFox</a></h1>
 <div class="handout container">
-Linux 平台专用加速火狐!... <img align="middle" alt="lr_swiftfox" class="align-middle" src="i/levelradar_swiftfox.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="敏捷狐" class="align-center" src="i/snap/zqtool-swiftfox_986x483_scrot.png" style="width: 986.0px; height: 483.0px;" /></div>
-</a>
+Linux 平台专用加速火狐!... <img alt="lr_swiftfox" class="align-middle" src="i/levelradar_swiftfox.png" style="width: 200.0px; height: 180.0px;" /></div>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="敏捷狐" class="align-center" src="i/snap/zqtool-swiftfox_986x483_scrot.png" style="width: 986.0px; height: 483.0px;" /></a>
 </div>
 <div class="slide" id="logo-autopager-autopage">
-<h1><a class="reference external" href="http://zim-wiki.org/"><img align="top" alt="Zim" class="align-top" src="i/logo/logo-autopager.png" style="width: 32.0px; height: 32.0px;" /></a> <a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/4925/">AutoPage</a></h1>
+<h1><a class="reference external" href="http://zim-wiki.org/"><img alt="Zim" class="align-top" src="i/logo/logo-autopager.png" style="width: 32.0px; height: 32.0px;" /></a> <a class="reference external" href="https://addons.mozilla.org/en-US/firefox/addon/4925/">AutoPage</a></h1>
 <div class="handout container">
-省时杀器~自动翻页机!... <img align="middle" alt="lr_autopage" class="align-middle" src="i/levelradar_autopage.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zqtool-autopager_1027x406_scrot.png" class="align-center" src="i/snap/zqtool-autopager_1027x406_scrot.png" style="width: 1027.0px; height: 406.0px;" /></div>
-</a>
+省时杀器~自动翻页机!... <img alt="lr_autopage" class="align-middle" src="i/levelradar_autopage.png" style="width: 200.0px; height: 180.0px;" /></div>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zqtool-autopager_1027x406_scrot.png" class="align-center" src="i/snap/zqtool-autopager_1027x406_scrot.png" style="width: 1027.0px; height: 406.0px;" /></a>
 </div>
 <div class="slide" id="chm-reader">
 <h1><a class="reference external" href="https://sourceforge.net/projects/chmreader/">CHM Reader</a></h1>
 <div class="handout container">
-.chm帮助查阅最爱插件!... <img align="middle" alt="lr_chmreader" class="align-middle" src="i/levelradar_chmreader.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zqtool-chmreader_973x433_scrot.png" class="align-center" src="i/snap/zqtool-chmreader_973x433_scrot.png" style="width: 973.0px; height: 433.0px;" /></div>
-</a>
+.chm帮助查阅最爱插件!... <img alt="lr_chmreader" class="align-middle" src="i/levelradar_chmreader.png" style="width: 200.0px; height: 180.0px;" /></div>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zqtool-chmreader_973x433_scrot.png" class="align-center" src="i/snap/zqtool-chmreader_973x433_scrot.png" style="width: 973.0px; height: 433.0px;" /></a>
 </div>
 <div class="slide" id="logo-gmail">
-<h1><a class="reference external" href="http://mail.google.com/support/?hl=cn"><img align="top" alt="logo-gmail" class="align-top" src="i/logo/logo-gmail.gif" style="width: 143.0px; height: 59.0px;" /></a></h1>
+<h1><a class="reference external" href="http://mail.google.com/support/?hl=cn"><img alt="logo-gmail" class="align-top" src="i/logo/logo-gmail.gif" style="width: 143.0px; height: 59.0px;" /></a></h1>
 <div class="handout container">
-核心的核心沟通平台! <img align="middle" alt="lr_gmail" class="align-middle" src="i/levelradar_gmail.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zqtool-gmail_1014x497_scrot.png" class="align-center" src="i/snap/zqtool-gmail_1014x497_scrot.png" style="width: 1014.0px; height: 497.0px;" /></div>
-</a>
+核心的核心沟通平台! <img alt="lr_gmail" class="align-middle" src="i/levelradar_gmail.png" style="width: 200.0px; height: 180.0px;" /></div>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zqtool-gmail_1014x497_scrot.png" class="align-center" src="i/snap/zqtool-gmail_1014x497_scrot.png" style="width: 1014.0px; height: 497.0px;" /></a>
 </div>
 <div class="slide" id="id30">
 <h1>面对复杂</h1>
@@ -681,8 +678,7 @@ Linux 平台专用加速火狐!... <img align="middle" alt="lr_swiftfox" class="
 <h1>GTD总流程</h1>
 <div class="handout container">
 Get Things Done 是种生活态度... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi7 reference external image-reference" href="http://bit.ly/cA0jBu"><div align="center" class="align-center"><img alt="i/map/GTD_v2CN.JPG" class="align-center" src="i/map/GTD_v2CN.JPG" style="width: 840.8px; height: 1304.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://bit.ly/cA0jBu"><img alt="i/map/GTD_v2CN.JPG" class="align-center" src="i/map/GTD_v2CN.JPG" style="width: 840.8px; height: 1304.0px;" /></a>
 </div>
 <div class="slide" id="id31">
 <h1>工作邮件态度:收件箱...</h1>
@@ -695,7 +691,7 @@ GTD分类配合定期处置／回顾，以及固化的处理行为！... <a clas
 </colgroup>
 <tbody valign="top">
 <tr><td>空!</td>
-<td><a class="reference external" href="#"><img align="top" alt="tb" class="align-top" src="i/snap/zqtool-thunderbird_583x444_scrot.png" style="width: 583.0px; height: 444.0px;" /></a></td>
+<td><a class="reference external" href="#"><img alt="tb" class="align-top" src="i/snap/zqtool-thunderbird_583x444_scrot.png" style="width: 583.0px; height: 444.0px;" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -704,30 +700,26 @@ GTD分类配合定期处置／回顾，以及固化的处理行为！... <a clas
 <div class="slide" id="lightning">
 <h1><a class="reference external" href="http://www.mozilla.org/projects/calendar/releases/lightning1.0b2.html">Lightning</a></h1>
 <div class="handout container">
-独立的日历/事务/行程 综合管理中心! <img align="middle" alt="lr_lightning" class="align-middle" src="i/levelradar_lightning.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/2010-09-17-lighting_scrot.png" class="align-center" src="i/snap/2010-09-17-lighting_scrot.png" style="width: 779.4px; height: 406.8px;" /></div>
-</a>
+独立的日历/事务/行程 综合管理中心! <img alt="lr_lightning" class="align-middle" src="i/levelradar_lightning.png" style="width: 200.0px; height: 180.0px;" /></div>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/2010-09-17-lighting_scrot.png" class="align-center" src="i/snap/2010-09-17-lighting_scrot.png" style="width: 779.4px; height: 406.8px;" /></a>
 </div>
 <div class="slide" id="moc">
 <h1><a class="reference external" href="http://moc.daper.net/">moc</a></h1>
 <div class="handout container">
-命令行中的音乐播放器 <img align="middle" alt="lr_moc" class="align-middle" src="i/levelradar_moc.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zqtool-moc_931x489_scrot.png" class="align-center" src="i/snap/zqtool-moc_931x489_scrot.png" style="width: 931.0px; height: 489.0px;" /></div>
-</a>
+命令行中的音乐播放器 <img alt="lr_moc" class="align-middle" src="i/levelradar_moc.png" style="width: 200.0px; height: 180.0px;" /></div>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zqtool-moc_931x489_scrot.png" class="align-center" src="i/snap/zqtool-moc_931x489_scrot.png" style="width: 931.0px; height: 489.0px;" /></a>
 </div>
 <div class="slide" id="mplayer">
 <h1><a class="reference external" href="http://www.mplayerhq.hu/">mplayer</a></h1>
 <div class="handout container">
-无敌强力播放平台! <img align="middle" alt="lr_mplayer" class="align-middle" src="i/levelradar_mplayer.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zqtool-mplayer-xgl-compiz-01.jpg" class="align-center" src="i/snap/zqtool-mplayer-xgl-compiz-01.jpg" style="width: 1024.0px; height: 768.0px;" /></div>
-</a>
+无敌强力播放平台! <img alt="lr_mplayer" class="align-middle" src="i/levelradar_mplayer.png" style="width: 200.0px; height: 180.0px;" /></div>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zqtool-mplayer-xgl-compiz-01.jpg" class="align-center" src="i/snap/zqtool-mplayer-xgl-compiz-01.jpg" style="width: 1024.0px; height: 768.0px;" /></a>
 </div>
 <div class="slide" id="comix">
 <h1><a class="reference external" href="http://comix.sourceforge.net/">Comix</a></h1>
 <div class="handout container">
-越用越好的轻便漫画浏览器! <img align="middle" alt="lr_comix" class="align-middle" src="i/levelradar_comix.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zqtool-comix_809x419_scrot.png" class="align-center" src="i/snap/zqtool-comix_809x419_scrot.png" style="width: 809.0px; height: 419.0px;" /></div>
-</a>
+越用越好的轻便漫画浏览器! <img alt="lr_comix" class="align-middle" src="i/levelradar_comix.png" style="width: 200.0px; height: 180.0px;" /></div>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zqtool-comix_809x419_scrot.png" class="align-center" src="i/snap/zqtool-comix_809x419_scrot.png" style="width: 809.0px; height: 419.0px;" /></a>
 </div>
 <div class="slide" id="id32">
 <h1>有关输入...</h1>
@@ -748,25 +740,22 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <p class="takahashi"><a class="reference external" href="http://en.wikipedia.org/wiki/Mind_map">Mind map</a></p>
 </div>
 <div class="slide" id="logo-xmind">
-<h1><a class="reference external" href="http://www.xmind.net"><img align="top" alt="logo-xmind" class="align-top" src="i/logo/logo-xmind.png" style="width: 318.0px; height: 105.0px;" /></a></h1>
+<h1><a class="reference external" href="http://www.xmind.net"><img alt="logo-xmind" class="align-top" src="i/logo/logo-xmind.png" style="width: 318.0px; height: 105.0px;" /></a></h1>
 <div class="handout container">
 最新开源跨平台思維导图工具,支持快速分享空间!! <img alt="lr_xmind" src="i/levelradar_xmind.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="http://www.xmind.net/share/zoomquiet/"><div align="center" class="align-center"><img alt="i/snap/zqtool-xmind_809x494_scrot.png" class="align-center" src="i/snap/zqtool-xmind_809x494_scrot.png" style="width: 809.0px; height: 494.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://www.xmind.net/share/zoomquiet/"><img alt="i/snap/zqtool-xmind_809x494_scrot.png" class="align-center" src="i/snap/zqtool-xmind_809x494_scrot.png" style="width: 809.0px; height: 494.0px;" /></a>
 </div>
 <div class="slide" id="graphviz">
 <h1><a class="reference external" href="http://www.graphviz.org/About.php">Graphviz</a></h1>
 <div class="handout container">
 来自AT&amp;T 的绝佳图形脚本工具! <img alt="lr_graphviz" src="i/levelradar_graphviz.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zqtool-dot-moin_761x433_scrot.png" class="align-center" src="i/snap/zqtool-dot-moin_761x433_scrot.png" style="width: 761.0px; height: 433.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zqtool-dot-moin_761x433_scrot.png" class="align-center" src="i/snap/zqtool-dot-moin_761x433_scrot.png" style="width: 761.0px; height: 433.0px;" /></a>
 </div>
 <div class="slide" id="logo-doxygen">
-<h1><a class="reference external" href="http://www.doxygen.org"><img align="top" alt="logo-doxygen" class="align-top" src="i/logo/logo-doxygen.png" style="width: 100.0px; height: 45.0px;" /></a></h1>
+<h1><a class="reference external" href="http://www.doxygen.org"><img alt="logo-doxygen" class="align-top" src="i/logo/logo-doxygen.png" style="width: 100.0px; height: 45.0px;" /></a></h1>
 <div class="handout container">
 通用文档化注释工具... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi7 reference external image-reference" href="http://www.graphviz.org/pub/graphviz/development/doxygen/html/dot_8c.html"><div align="center" class="align-center"><img alt="i/snap/dot_8c__incl.png" class="align-center" src="i/snap/dot_8c__incl.png" style="width: 907.2px; height: 341.6px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://www.graphviz.org/pub/graphviz/development/doxygen/html/dot_8c.html"><img alt="i/snap/dot_8c__incl.png" class="align-center" src="i/snap/dot_8c__incl.png" style="width: 907.2px; height: 341.6px;" /></a>
 </div>
 <div class="slide" id="websequencediagrams-com">
 <h1><a class="reference external" href="http://www.websequencediagrams.com/">WebSequenceDiagrams.com</a></h1>
@@ -792,43 +781,37 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <h1><a class="reference external" href="http://www.websequencediagrams.com/">WebSequenceDiagrams.com</a> 默认风格</h1>
 <div class="handout container">
 云端序列图谱生成服务... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="reference external image-reference" href="http://www.websequencediagrams.com/"><div align="center" class="align-center"><img alt="i/wsd_flow-default.png" class="align-center" src="i/wsd_flow-default.png" style="width: 620.4px; height: 388.8px;" /></div>
-</a>
+<a class="reference external image-reference" href="http://www.websequencediagrams.com/"><img alt="i/wsd_flow-default.png" class="align-center" src="i/wsd_flow-default.png" style="width: 620.4px; height: 388.8px;" /></a>
 </div>
 <div class="slide" id="websequencediagrams-com-qsd">
 <h1><a class="reference external" href="http://www.websequencediagrams.com/">WebSequenceDiagrams.com</a> 风格:qsd</h1>
 <div class="handout container">
 云端序列图谱生成服务... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="reference external image-reference" href="http://www.websequencediagrams.com/"><div align="center" class="align-center"><img alt="i/wsd_flow-qsd.png" class="align-center" src="i/wsd_flow-qsd.png" style="width: 463.2px; height: 343.2px;" /></div>
-</a>
+<a class="reference external image-reference" href="http://www.websequencediagrams.com/"><img alt="i/wsd_flow-qsd.png" class="align-center" src="i/wsd_flow-qsd.png" style="width: 463.2px; height: 343.2px;" /></a>
 </div>
 <div class="slide" id="websequencediagrams-com-modern-blue">
 <h1><a class="reference external" href="http://www.websequencediagrams.com/">WebSequenceDiagrams.com</a> 风格:modern-blue</h1>
 <div class="handout container">
 云端序列图谱生成服务... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="reference external image-reference" href="http://www.websequencediagrams.com/"><div align="center" class="align-center"><img alt="i/wsd_flow-modern-blue.png" class="align-center" src="i/wsd_flow-modern-blue.png" style="width: 586.8px; height: 370.8px;" /></div>
-</a>
+<a class="reference external image-reference" href="http://www.websequencediagrams.com/"><img alt="i/wsd_flow-modern-blue.png" class="align-center" src="i/wsd_flow-modern-blue.png" style="width: 586.8px; height: 370.8px;" /></a>
 </div>
 <div class="slide" id="websequencediagrams-com-omegapple">
 <h1><a class="reference external" href="http://www.websequencediagrams.com/">WebSequenceDiagrams.com</a> 风格:omegapple</h1>
 <div class="handout container">
 云端序列图谱生成服务... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="reference external image-reference" href="http://www.websequencediagrams.com/"><div align="center" class="align-center"><img alt="i/wsd_flow-omegapple.png" class="align-center" src="i/wsd_flow-omegapple.png" style="width: 585.6px; height: 370.8px;" /></div>
-</a>
+<a class="reference external image-reference" href="http://www.websequencediagrams.com/"><img alt="i/wsd_flow-omegapple.png" class="align-center" src="i/wsd_flow-omegapple.png" style="width: 585.6px; height: 370.8px;" /></a>
 </div>
 <div class="slide" id="websequencediagrams-com-napkin">
 <h1><a class="reference external" href="http://www.websequencediagrams.com/">WebSequenceDiagrams.com</a> 风格:napkin</h1>
 <div class="handout container">
 云端序列图谱生成服务... <img alt="lr_WSD" src="i/levelradar_WSD.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="reference external image-reference" href="http://www.websequencediagrams.com/"><div align="center" class="align-center"><img alt="i/wsd_flow-napkin.png" class="align-center" src="i/wsd_flow-napkin.png" style="width: 550.8px; height: 374.4px;" /></div>
-</a>
+<a class="reference external image-reference" href="http://www.websequencediagrams.com/"><img alt="i/wsd_flow-napkin.png" class="align-center" src="i/wsd_flow-napkin.png" style="width: 550.8px; height: 374.4px;" /></a>
 </div>
 <div class="slide" id="id42">
 <h1>手绘</h1>
 <div class="handout container">
 直觉的记录思維!... <img alt="lr_handraw" src="i/levelradar_handraw.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping"><div align="center" class="align-center"><img alt="i/handarw-mindmap.gif" class="align-center" src="i/handarw-mindmap.gif" style="width: 640.0px; height: 480.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/ZoomqMindMapping"><img alt="i/handarw-mindmap.gif" class="align-center" src="i/handarw-mindmap.gif" style="width: 640.0px; height: 480.0px;" /></a>
 </div>
 <div class="slide" id="id43">
 <h1>有关思考...</h1>
@@ -843,7 +826,7 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <p class="takahashi">&lt;export&gt;</p>
 </div>
 <div class="slide" id="logo-bxm">
-<h1><a class="reference external" href="http://zh.wikipedia.org/zh/%E8%A1%A8%E5%BD%A2%E7%A0%81"><img align="top" alt="logo-bxm" class="align-top" src="i/logo/logo_bxm.gif" style="width: 47.0px; height: 44.0px;" /></a> <strong>表形码</strong></h1>
+<h1><a class="reference external" href="http://zh.wikipedia.org/zh/%E8%A1%A8%E5%BD%A2%E7%A0%81"><img alt="logo-bxm" class="align-top" src="i/logo/logo_bxm.gif" style="width: 47.0px; height: 44.0px;" /></a> <strong>表形码</strong></h1>
 <div class="handout container">
 消失在历史中的优秀输入法!... <img alt="lr_bxm" src="i/levelradar_bxm.png" style="width: 200.0px; height: 180.0px;" /></div>
 <table border="1" class="borderless docutils">
@@ -852,8 +835,8 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <col width="44%" />
 </colgroup>
 <tbody valign="top">
-<tr><td><a class="reference external" href="#"><img align="top" alt="denobxm" class="align-top" src="i/snap/bxm-3.gif" style="width: 532.8px; height: 532.8px;" /></a></td>
-<td><a class="reference external" href="http://blog.zoomquiet.org/pyblosxom/Zen/Chinese/winbx-IMEstory-2006-05-15-12-00.html"><img align="top" alt="zqbxm" class="align-top" src="i/snap/zqtool-bxm-selfdesine_463x380_scrot.png" style="width: 463.0px; height: 380.0px;" /></a></td>
+<tr><td><a class="reference external" href="#"><img alt="denobxm" class="align-top" src="i/snap/bxm-3.gif" style="width: 532.8px; height: 532.8px;" /></a></td>
+<td><a class="reference external" href="http://blog.zoomquiet.org/pyblosxom/Zen/Chinese/winbx-IMEstory-2006-05-15-12-00.html"><img alt="zqbxm" class="align-top" src="i/snap/zqtool-bxm-selfdesine_463x380_scrot.png" style="width: 463.0px; height: 380.0px;" /></a></td>
 </tr>
 </tbody>
 </table>
@@ -869,18 +852,16 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <h1><a class="reference external" href="http://txt2tags.sourceforge.net/">txt2tags</a></h1>
 <div class="handout container">
 撰写一次,任意格式输出的轻快结构化文本单脚本工具!... <img alt="lr_t2t" src="i/levelradar_t2t.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="http://txt2tags.sourceforge.net/"><div align="center" class="align-center"><img alt="i/snap/zqtool-t2t-octus.gif" class="align-center" src="i/snap/zqtool-t2t-octus.gif" style="width: 494.0px; height: 361.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://txt2tags.sourceforge.net/"><img alt="i/snap/zqtool-t2t-octus.gif" class="align-center" src="i/snap/zqtool-t2t-octus.gif" style="width: 494.0px; height: 361.0px;" /></a>
 </div>
 <div class="slide" id="logo-rst">
-<h1><a class="reference external" href="http://docutils.sourceforge.net/rst.html"><img align="top" alt="logo-rst" class="align-top" src="i/logo/rst.png" style="width: 516.0px; height: 49.0px;" /></a></h1>
+<h1><a class="reference external" href="http://docutils.sourceforge.net/rst.html"><img alt="logo-rst" class="align-top" src="i/logo/rst.png" style="width: 516.0px; height: 49.0px;" /></a></h1>
 <div class="handout container">
 最标准和强大的结构化文本协议!... <img alt="lr_rst" src="i/levelradar_rst.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zqtool-rst_853x423_scrot.png" class="align-center" src="i/snap/zqtool-rst_853x423_scrot.png" style="width: 853.0px; height: 423.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zqtool-rst_853x423_scrot.png" class="align-center" src="i/snap/zqtool-rst_853x423_scrot.png" style="width: 853.0px; height: 423.0px;" /></a>
 </div>
 <div class="slide" id="logo-rst2a">
-<h1><a class="reference external" href="http://rst2a.com/api/"><img align="top" alt="logo_rst2a" class="align-top" src="i/logo/rst2a.gif" style="width: 196.0px; height: 58.0px;" /></a></h1>
+<h1><a class="reference external" href="http://rst2a.com/api/"><img alt="logo_rst2a" class="align-top" src="i/logo/rst2a.gif" style="width: 196.0px; height: 58.0px;" /></a></h1>
 <div class="handout container">
 最标准和强大的结构化文本协议!... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi7">在线</p>
@@ -899,40 +880,34 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 </ul>
 </blockquote>
 <ul class="simple">
-<li>我的编辑环境: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img align="top" alt="LeoProse" class="align-top" src="pix/LeoProse.gif" style="width: 81.0px; height: 42.0px;" /></a> ~ <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">文学化编辑器</a></li>
+<li>我的编辑环境: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="LeoProse" class="align-top" src="pix/LeoProse.gif" style="width: 81.0px; height: 42.0px;" /></a> ~ <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">文学化编辑器</a></li>
 </ul>
-<a class="reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><div align="center" class="align-center"><img alt="pix/2010-01-18-230729_605x421_leo.png" class="align-center" src="pix/2010-01-18-230729_605x421_leo.png" style="width: 605.0px; height: 421.0px;" /></div>
-</a>
+<a class="reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="pix/2010-01-18-230729_605x421_leo.png" class="align-center" src="pix/2010-01-18-230729_605x421_leo.png" style="width: 605.0px; height: 421.0px;" /></a>
 </div>
 <div class="slide" id="s5icon">
-<h1>手工 <a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/"><img align="top" alt="S5icon" class="align-top" src="pix/S5icon.GIF" style="width: 16.0px; height: 16.0px;" /></a></h1>
+<h1>手工 <a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/"><img alt="S5icon" class="align-top" src="pix/S5icon.GIF" style="width: 16.0px; height: 16.0px;" /></a></h1>
 <div class="handout container">
 简洁的幻灯解决方案... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zq_s5html_scrot.png" class="align-center" src="i/snap/zq_s5html_scrot.png" style="width: 715.0px; height: 460.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zq_s5html_scrot.png" class="align-center" src="i/snap/zq_s5html_scrot.png" style="width: 715.0px; height: 460.0px;" /></a>
 </div>
 <div class="slide" id="logo-rst-rst2s5">
-<h1><a class="reference external" href="http://docutils.sourceforge.net/rst.html"><img align="top" alt="logo-rst" class="align-top" src="i/logo/rst.png" style="width: 516.0px; height: 49.0px;" /></a> 之 <a class="reference external" href="http://docutils.sourceforge.net/docs/user/slide-shows.html">rst2s5</a></h1>
+<h1><a class="reference external" href="http://docutils.sourceforge.net/rst.html"><img alt="logo-rst" class="align-top" src="i/logo/rst.png" style="width: 516.0px; height: 49.0px;" /></a> 之 <a class="reference external" href="http://docutils.sourceforge.net/docs/user/slide-shows.html">rst2s5</a></h1>
 <div class="handout container">
 禅样的幻灯解决方案... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zq_s5rst_scrot.png" class="align-center" src="i/snap/zq_s5rst_scrot.png" style="width: 448.0px; height: 433.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zq_s5rst_scrot.png" class="align-center" src="i/snap/zq_s5rst_scrot.png" style="width: 448.0px; height: 433.0px;" /></a>
 </div>
 <div class="slide" id="logo-sphinx">
-<h1><a class="reference external" href="http://sphinx.pocoo.org"><img align="top" alt="logo_sphinx" class="align-top" src="i/logo/sphinx_barnner.png" style="width: 658.0px; height: 115.0px;" /></a></h1>
+<h1><a class="reference external" href="http://sphinx.pocoo.org"><img alt="logo_sphinx" class="align-top" src="i/logo/sphinx_barnner.png" style="width: 658.0px; height: 115.0px;" /></a></h1>
 <div class="handout container">
 图书/帮助/网站，rST组织/管理/发布工具集... <img alt="lr_sphinx" src="i/levelradar_sphinx.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="http://zoomquiet.org/w2py_manual_zh/"><div align="center" class="align-center"><img alt="i/snap/zqtool-sphinx_942x520_scrot.png" class="align-center" src="i/snap/zqtool-sphinx_942x520_scrot.png" style="width: 942.0px; height: 520.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://zoomquiet.org/w2py_manual_zh/"><img alt="i/snap/zqtool-sphinx_942x520_scrot.png" class="align-center" src="i/snap/zqtool-sphinx_942x520_scrot.png" style="width: 942.0px; height: 520.0px;" /></a>
 </div>
 <div class="slide" id="pysuper">
-<h1><a class="reference external" href="http://docutils.sourceforge.net/rst.html"><img align="top" alt="pysuper" class="align-top" src="i/Py-super-black-v0.9.1-h90.png" style="width: 109.0px; height: 90.0px;" /></a></h1>
+<h1><a class="reference external" href="http://docutils.sourceforge.net/rst.html"><img alt="pysuper" class="align-top" src="i/Py-super-black-v0.9.1-h90.png" style="width: 109.0px; height: 90.0px;" /></a></h1>
 <div class="handout container">
 高级通用脚本语言...随身的军刀!... <img alt="lr_px" src="i/levelradar_py.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="http://python.org"><div align="center" class="align-center"><img alt="i/snap/zqtool-pythonic_647x184_scrot.png" class="align-center" src="i/snap/zqtool-pythonic_647x184_scrot.png" style="width: 647.0px; height: 184.0px;" /></div>
-</a>
-<a class="takahashi7 reference external image-reference" href="http://python.org"><div align="center" class="align-center"><img alt="i/logo/python-logo_200x700.png" class="align-center" src="i/logo/python-logo_200x700.png" style="width: 698.0px; height: 205.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://python.org"><img alt="i/snap/zqtool-pythonic_647x184_scrot.png" class="align-center" src="i/snap/zqtool-pythonic_647x184_scrot.png" style="width: 647.0px; height: 184.0px;" /></a>
+<a class="takahashi7 reference external image-reference" href="http://python.org"><img alt="i/logo/python-logo_200x700.png" class="align-center" src="i/logo/python-logo_200x700.png" style="width: 698.0px; height: 205.0px;" /></a>
 </div>
 <div class="slide" id="leo">
 <h1><a class="reference external" href="http://webpages.charter.net/edreamleo/front.html">Leo</a></h1>
@@ -943,30 +918,27 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 </ul>
 </div>
 <ul class="takahashi0 simple">
-<li><a class="reference external" href="http://www-cs-faculty.stanford.edu/~knuth/index.html"><img align="top" alt="knuthzh" class="align-top" src="i/foto/chop-knuth.jpeg" style="width: 58.0px; height: 65.0px;" /></a> <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">Literate programming</a></li>
-<li><a class="reference external" href="http://www-cs-faculty.stanford.edu/~knuth/index.html"><img align="top" alt="knuth" class="align-top" src="i/foto/head-knuth-don.gif" style="width: 140.0px; height: 192.0px;" /></a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img align="top" alt="leoeditor" class="align-top" src="i/snap/zqtool-leo_890x237_scrot.png" style="width: 890.0px; height: 237.0px;" /></a></li>
+<li><a class="reference external" href="http://www-cs-faculty.stanford.edu/~knuth/index.html"><img alt="knuthzh" class="align-top" src="i/foto/chop-knuth.jpeg" style="width: 58.0px; height: 65.0px;" /></a> <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">Literate programming</a></li>
+<li><a class="reference external" href="http://www-cs-faculty.stanford.edu/~knuth/index.html"><img alt="knuth" class="align-top" src="i/foto/head-knuth-don.gif" style="width: 140.0px; height: 192.0px;" /></a> <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="leoeditor" class="align-top" src="i/snap/zqtool-leo_890x237_scrot.png" style="width: 890.0px; height: 237.0px;" /></a></li>
 </ul>
 </div>
 <div class="slide" id="moin-moinmoin">
-<h1><a class="reference external" href="http://moinmoin.in"><img align="top" alt="moin" class="align-top" src="i/logo/logo-moinmoin.png" style="width: 64.0px; height: 64.0px;" /></a> <a class="reference external" href="http://moinmoin.in">MoinMoin</a></h1>
+<h1><a class="reference external" href="http://moinmoin.in"><img alt="moin" class="align-top" src="i/logo/logo-moinmoin.png" style="width: 64.0px; height: 64.0px;" /></a> <a class="reference external" href="http://moinmoin.in">MoinMoin</a></h1>
 <div class="handout container">
 主流维基引擎，无DB，纯Py 扩展丰富... <img alt="lr_moin" src="i/levelradar_moin.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="http://wiki.s.kingsoft.net/moin"><div align="center" class="align-center"><img alt="i/snap/zqtool-moinmoin_930x404_scrot.png" class="align-center" src="i/snap/zqtool-moinmoin_930x404_scrot.png" style="width: 930.0px; height: 404.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://wiki.s.kingsoft.net/moin"><img alt="i/snap/zqtool-moinmoin_930x404_scrot.png" class="align-center" src="i/snap/zqtool-moinmoin_930x404_scrot.png" style="width: 930.0px; height: 404.0px;" /></a>
 </div>
 <div class="slide" id="it-s-all-text">
 <h1><a class="reference external" href="http://addons.mozilla.org/firefox/4125">It's All Text!</a></h1>
 <div class="handout container">
 超给力的FF编辑辅助插件..... <img alt="lr_italltxt" src="i/levelradar_italltxt.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="#"><div align="center" class="align-center"><img alt="i/snap/zqtool-isalltext_953x507_scrot.png" class="align-center" src="i/snap/zqtool-isalltext_953x507_scrot.png" style="width: 953.0px; height: 507.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="#"><img alt="i/snap/zqtool-isalltext_953x507_scrot.png" class="align-center" src="i/snap/zqtool-isalltext_953x507_scrot.png" style="width: 953.0px; height: 507.0px;" /></a>
 </div>
 <div class="slide" id="pyb">
-<h1><a class="reference external" href="http://pyblosxom.sourceforge.net/"><img align="top" alt="pyb" class="align-top" src="i/logo/pyblosxom.png" style="width: 95.0px; height: 29.0px;" /></a></h1>
+<h1><a class="reference external" href="http://pyblosxom.sourceforge.net/"><img alt="pyb" class="align-top" src="i/logo/pyblosxom.png" style="width: 95.0px; height: 29.0px;" /></a></h1>
 <div class="handout container">
 纯geek 的blogging 系統.. <img alt="lr_pyb" src="i/levelradar_pyb.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="http://blog.zoomquiet.org/pyblosxom/"><div align="center" class="align-center"><img alt="i/snap/zqtool-t2t_1114x533_scrot.png" class="align-center" src="i/snap/zqtool-t2t_1114x533_scrot.png" style="width: 1114.0px; height: 533.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://blog.zoomquiet.org/pyblosxom/"><img alt="i/snap/zqtool-t2t_1114x533_scrot.png" class="align-center" src="i/snap/zqtool-t2t_1114x533_scrot.png" style="width: 1114.0px; height: 533.0px;" /></a>
 </div>
 <div class="slide" id="id49">
 <h1>有关输出...</h1>
@@ -981,27 +953,25 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <p class="takahashi7">&lt;misc&gt;</p>
 </div>
 <div class="slide" id="workrave">
-<h1><a class="reference external" href="http://www.workrave.org/"><img align="top" alt="workrave" class="align-top" src="i/logo/logo-workrave.png" style="width: 391.0px; height: 70.0px;" /></a></h1>
+<h1><a class="reference external" href="http://www.workrave.org/"><img alt="workrave" class="align-top" src="i/logo/logo-workrave.png" style="width: 391.0px; height: 70.0px;" /></a></h1>
 <div class="handout container">
 预防::重复性压力伤害 (Repetitive Strain Injury RSI) ... <img alt="lr_workrave" src="i/levelradar_workrave.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi7 reference external image-reference" href="http://www.workrave.org/"><div align="center" class="align-center"><img alt="i/snap/workrave-exercises.gif" class="align-center" src="i/snap/workrave-exercises.gif" style="width: 574.0px; height: 358.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://www.workrave.org/"><img alt="i/snap/workrave-exercises.gif" class="align-center" src="i/snap/workrave-exercises.gif" style="width: 574.0px; height: 358.0px;" /></a>
 </div>
 <div class="slide" id="pomodoro">
-<h1><a class="reference external" href="http://www.infoq.com/cn/articles/pomodoro-practices"><img align="top" alt="pomodoro" class="align-top" src="i/logo/PomodoroTimer.png" style="width: 90.0px; height: 88.0px;" /></a></h1>
+<h1><a class="reference external" href="http://www.infoq.com/cn/articles/pomodoro-practices"><img alt="pomodoro" class="align-top" src="i/logo/PomodoroTimer.png" style="width: 90.0px; height: 88.0px;" /></a></h1>
 <div class="handout container">
 转变时间使用观点和习惯... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi7 reference external image-reference" href="http://www.pomodorotechnique.com/"><div align="center" class="align-center"><img alt="i/snap/zqtool-pomodorotechnique_665x540_scrot.png" class="align-center" src="i/snap/zqtool-pomodorotechnique_665x540_scrot.png" style="width: 665.0px; height: 540.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://www.pomodorotechnique.com/"><img alt="i/snap/zqtool-pomodorotechnique_665x540_scrot.png" class="align-center" src="i/snap/zqtool-pomodorotechnique_665x540_scrot.png" style="width: 665.0px; height: 540.0px;" /></a>
 </div>
 <div class="slide" id="id51">
-<h1><a class="reference external" href="http://www.infoq.com/cn/articles/pomodoro-practices"><img align="top" alt="pomodoro" class="align-top" src="i/logo/PomodoroTimer.png" style="width: 90.0px; height: 88.0px;" /></a></h1>
+<h1><a class="reference external" href="http://www.infoq.com/cn/articles/pomodoro-practices"><img alt="pomodoro" class="align-top" src="i/logo/PomodoroTimer.png" style="width: 90.0px; height: 88.0px;" /></a></h1>
 <div class="handout container">
 挤出来的时间怎么用?... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi7">小时间?</p>
 </div>
 <div class="slide" id="id52">
-<h1><a class="reference external" href="http://www.infoq.com/cn/articles/pomodoro-practices"><img align="top" alt="pomodoro" class="align-top" src="i/logo/PomodoroTimer.png" style="width: 90.0px; height: 88.0px;" /></a></h1>
+<h1><a class="reference external" href="http://www.infoq.com/cn/articles/pomodoro-practices"><img alt="pomodoro" class="align-top" src="i/logo/PomodoroTimer.png" style="width: 90.0px; height: 88.0px;" /></a></h1>
 <div class="handout container">
 小时间发现后,怎么产出?... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
 <p class="takahashi8">精神</p>
@@ -1011,8 +981,7 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <h1>纸+笔</h1>
 <div class="handout container">
 永远无法替代的记录工具！... <img alt="lr_pen" src="i/levelradar_pen.png" style="width: 200.0px; height: 180.0px;" /></div>
-<a class="takahashi8 reference external image-reference" href="http://www.moleskineasia.com/"><div align="center" class="align-center"><img alt="i/snap/Moleskine_barnner.jpg" class="align-center" src="i/snap/Moleskine_barnner.jpg" style="width: 710.0px; height: 1850.0px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://www.moleskineasia.com/"><img alt="i/snap/Moleskine_barnner.jpg" class="align-center" src="i/snap/Moleskine_barnner.jpg" style="width: 710.0px; height: 1850.0px;" /></a>
 </div>
 <div class="slide" id="id54">
 <h1>其它...</h1>
@@ -1034,7 +1003,7 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <h1>&lt;/MyToolBox&gt;</h1>
 <div class="handout container">
 持续改进才有效果！ <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<div align="center" class="align-center"><img alt="dot图谱" class="align-center" src="i/map/zqtools_mapping.jpg" style="width: 877.0px; height: 608.0px;" /></div>
+<img alt="dot图谱" class="align-center" src="i/map/zqtools_mapping.jpg" style="width: 877.0px; height: 608.0px;" />
 </div>
 <div class="slide" id="hope">
 <h1>&lt;Hope&gt;</h1>
@@ -1053,29 +1022,25 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <h1>SNS学习原理:0</h1>
 <div class="handout container">
 小时的我... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi7 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/WeKnow"><div align="center" class="align-center"><img alt="ScrapBook" class="align-center" src="i/_know-me.gif" style="width: 450.0px; height: 450.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/WeKnow"><img alt="ScrapBook" class="align-center" src="i/_know-me.gif" style="width: 450.0px; height: 450.0px;" /></a>
 </div>
 <div class="slide" id="sns-1">
 <h1>SNS学习原理:1</h1>
 <div class="handout container">
 成长的我... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi7 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/WeKnow"><div align="center" class="align-center"><img alt="ScrapBook" class="align-center" src="i/_know-me1.gif" style="width: 450.0px; height: 450.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/WeKnow"><img alt="ScrapBook" class="align-center" src="i/_know-me1.gif" style="width: 450.0px; height: 450.0px;" /></a>
 </div>
 <div class="slide" id="sns-2">
 <h1>SNS学习原理:2</h1>
 <div class="handout container">
 成为一体的大家... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi7 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/WeKnow"><div align="center" class="align-center"><img alt="ScrapBook" class="align-center" src="i/_know-we.gif" style="width: 450.0px; height: 450.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/WeKnow"><img alt="ScrapBook" class="align-center" src="i/_know-we.gif" style="width: 450.0px; height: 450.0px;" /></a>
 </div>
 <div class="slide" id="sns">
 <h1>SNS学习原理:反証</h1>
 <div class="handout container">
 向反方向... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi7 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/WeKnow"><div align="center" class="align-center"><img alt="ScrapBook" class="align-center" src="i/_know-dot.gif" style="width: 450.0px; height: 450.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/WeKnow"><img alt="ScrapBook" class="align-center" src="i/_know-dot.gif" style="width: 450.0px; height: 450.0px;" /></a>
 </div>
 <div class="slide" id="seci">
 <h1><a class="reference external" href="http://www.12manage.com/methods_nonaka_seci_zh.html">SECI模型</a></h1>
@@ -1085,14 +1050,13 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <li>野中郁次郎（Ikujiro Nonaka）和竹内弘高（Hirotaka Takeuchi）认为...</li>
 </ul>
 </div>
-<a class="takahashi7 reference external image-reference" href="http://sociallearnlab.org/wiki/index.php?title=PKM&amp;variant=zh-cn"><div align="center" class="align-center"><img alt="ScrapBook" class="align-center" src="i/KMsys-Seci20m1.jpg" style="width: 444.0px; height: 454.0px;" /></div>
-</a>
+<a class="takahashi7 reference external image-reference" href="http://sociallearnlab.org/wiki/index.php?title=PKM&amp;variant=zh-cn"><img alt="ScrapBook" class="align-center" src="i/KMsys-Seci20m1.jpg" style="width: 444.0px; height: 454.0px;" /></a>
 </div>
 <div class="slide" id="id59">
 <h1>知识之轮</h1>
 <div class="handout container">
 知识是种动态的流动状态! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<div align="center" class="align-center"><img alt="ScrapBook" class="takahashi7 align-center" src="i/kmtranfer2.gif" style="width: 480.0px; height: 484.8px;" /></div>
+<img alt="ScrapBook" class="takahashi7 align-center" src="i/kmtranfer2.gif" style="width: 480.0px; height: 484.8px;" />
 </div>
 <div class="slide" id="ekm">
 <h1>EKM</h1>
@@ -1102,7 +1066,7 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <p># 行为学派: KM是对人的管理;</p>
 <p># 综合学派: KM是将信息处理能力和人的创造力结合,增强组织对环境的适应能力;</p>
 </div>
-<div align="center" class="align-center"><img alt="ScrapBook" class="takahashi7 align-center" src="i/kmzl2.jpg" style="width: 500.0px; height: 403.0px;" /></div>
+<img alt="ScrapBook" class="takahashi7 align-center" src="i/kmzl2.jpg" style="width: 500.0px; height: 403.0px;" />
 </div>
 <div class="slide" id="blogging">
 <h1>Blogging 吧!</h1>
@@ -1169,15 +1133,13 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 <h1>最后...</h1>
 <div class="handout container">
 好书推荐... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi reference external image-reference" href="http://book.douban.com/subject/4006425/"><div align="center" class="align-center"><img alt="IT小小鸟" class="align-center" src="i/s3958139-itbird.jpg" style="width: 312.0px; height: 426.0px;" /></div>
-</a>
+<a class="takahashi reference external image-reference" href="http://book.douban.com/subject/4006425/"><img alt="IT小小鸟" class="align-center" src="i/s3958139-itbird.jpg" style="width: 312.0px; height: 426.0px;" /></a>
 </div>
 <div class="slide" id="id66">
 <h1>最后的最后...</h1>
 <div class="handout container">
 好书推荐... <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/zoomquiet_1-1_outline.png" /></a></div>
-<a class="takahashi reference external image-reference" href="http://book.douban.com/subject/4760725/"><div align="center" class="align-center"><img alt="讲演之禅" class="align-center" src="i/s4279952-zen4talk.jpg" style="width: 315.0px; height: 423.0px;" /></div>
-</a>
+<a class="takahashi reference external image-reference" href="http://book.douban.com/subject/4760725/"><img alt="讲演之禅" class="align-center" src="i/s4279952-zen4talk.jpg" style="width: 315.0px; height: 423.0px;" /></a>
 </div>
 <div class="slide" id="id67">
 <h1>&lt;版本/&gt;</h1>
@@ -1218,10 +1180,9 @@ TONY.BUZAN发明的思維工具,极靠谱的风行全球...... <a class="referen
 </ul>
 </blockquote>
 <ul class="simple">
-<li>我的编辑环境: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img align="top" alt="LeoProse" class="align-top" src="pix/LeoProse.gif" style="width: 81.0px; height: 42.0px;" /></a> ~ <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">文学化编辑器</a></li>
+<li>我的编辑环境: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="LeoProse" class="align-top" src="pix/LeoProse.gif" style="width: 81.0px; height: 42.0px;" /></a> ~ <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">文学化编辑器</a></li>
 </ul>
-<a class="reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><div align="center" class="align-center"><img alt="pix/2010-01-18-230729_605x421_leo.png" class="align-center" src="pix/2010-01-18-230729_605x421_leo.png" style="width: 605.0px; height: 421.0px;" /></div>
-</a>
+<a class="reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="pix/2010-01-18-230729_605x421_leo.png" class="align-center" src="pix/2010-01-18-230729_605x421_leo.png" style="width: 605.0px; height: 421.0px;" /></a>
 </div>
 </div>
 </body>

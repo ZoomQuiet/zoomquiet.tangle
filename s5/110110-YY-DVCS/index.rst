@@ -6,7 +6,7 @@
 
 ～开发者平台详解 之 DVCS体验
 
-:讲者: `Zoom.Quiet <zoomquiet+knoss@gmai.com>`__
+:讲者: `Zoom.Quiet <zoomquiet+knoss@gmail.com>`__
 :URL:   http://code.ijinshan.com/res/s5/110110-YY-DVCS
 
 .. This document has been placed in the CC domain.
@@ -1113,7 +1113,7 @@ TiCSmtC!
 
 
 :反馈:
-    `Zoom.Quiet@gmail.com <zoomquiet+sns@gmai.com>`__
+    `Zoom.Quiet@gmail.com <zoomquiet+sns@gmail.com>`__
 :查阅:
     http://code.ijinshan.com/res/s5/110110-YY-DVCS
 

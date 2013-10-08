@@ -6,7 +6,7 @@
 
 ～点解技术图书分布式团队的建立和管理 (powered by rst2S5)
 
-:Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/110515-sz-techparty-booking/
 
 .. This document has been placed in the CC domain.
@@ -2378,7 +2378,7 @@ SNS学习原理:反証
 - 110503 博文侠少为 110515 珠三角技术沙龙深圳场 倡议
 
 :反馈:
-    `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+    `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :查阅:
     http://zoomquiet.org/res/s5/110515-sz-techparty-booking/
 

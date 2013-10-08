@@ -6,7 +6,7 @@
 
 ～持续的效率进化之旅 (powered by rst2S5)
 
-:Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :Date:    `2010-09-18 <http://wiki.szlug.org/w/Software_Freedom_Day_2010>`__
 :URL:    http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/
 

@@ -6,7 +6,7 @@
 
 ～举例分析产品同技术的交流状态 (powered by rst2S5)
 
-:Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/120918-lb-5m-50h-story/
 
 .. This document has been placed in the CC domain.

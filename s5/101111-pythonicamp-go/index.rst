@@ -6,7 +6,7 @@ go!蟒营
 
 ～PythoniCamp 是什么和怎么玩
 
-:作者: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:作者: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :URL:   http://zoomquiet.org/res/s5/101111-pythonicamp-go
 
 .. This document has been placed in the CC domain.
@@ -704,7 +704,7 @@ go!蟒营
 
 
 :反馈:
-    `Zoom.Quiet@gmail.com <zoomquiet+sns@gmai.com>`__
+    `Zoom.Quiet@gmail.com <zoomquiet+sns@gmail.com>`__
 :查阅:
     http://zoomquiet.org/res/s5/101111-pythonicamp-go
 

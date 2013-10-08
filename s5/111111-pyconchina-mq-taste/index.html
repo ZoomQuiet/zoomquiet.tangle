@@ -3,14 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="Docutils 0.6: http://docutils.sourceforge.net/" />
+<meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
 <meta name="version" content="S5 1.1" />
 <title>MQ解耦应用</title>
 <style type="text/css">
 
 /*
 :Author: David Goodger (goodger@python.org)
-:Id: $Id: html4css1.css 5951 2009-05-18 18:03:10Z milde $
+:Id: $Id: html4css1.css 7056 2011-06-17 10:50:48Z milde $
 :Copyright: This stylesheet has been placed in the public domain.
 
 Default cascading style sheet for the HTML output of Docutils.
@@ -47,6 +47,10 @@ blockquote.epigraph {
 
 dl.docutils dd {
   margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
 
 /* Uncomment (and remove this text!) to get bold-faced definition list terms
 dl.docutils dt {
@@ -158,15 +162,21 @@ h2.subtitle {
 hr.docutils {
   width: 75% }
 
-img.align-left, .figure.align-left{
+img.align-left, .figure.align-left, object.align-left {
   clear: left ;
   float: left ;
   margin-right: 1em }
 
-img.align-right, .figure.align-right {
+img.align-right, .figure.align-right, object.align-right {
   clear: right ;
   float: right ;
   margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .align-left {
   text-align: left }
@@ -180,7 +190,7 @@ img.align-right, .figure.align-right {
 
 /* reset inner alignment in figures */
 div.align-right {
-  text-align: left }
+  text-align: inherit }
 
 /* div.align-center * { */
 /*   text-align: left } */
@@ -240,7 +250,7 @@ pre.address {
   margin-top: 0 ;
   font: inherit }
 
-pre.literal-block, pre.doctest-block {
+pre.literal-block, pre.doctest-block, pre.math {
   margin-left: 2em ;
   margin-right: 2em }
 
@@ -354,7 +364,7 @@ ul.auto-toc {
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field"><th class="field-name">Authors:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+sns&#64;gmai.com">Zoom.Quiet</a></td>
+<tr class="field"><th class="field-name">Authors:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+sns&#64;gmail.com">Zoom.Quiet</a></td>
 </tr>
 <tr class="field"><th class="field-name">URL:</th><td class="field-body"><a class="reference external" href="http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste">http://zoomquiet.org/res/s5/111111-pyconchina-mq-taste</a></td>
 </tr>
@@ -368,9 +378,8 @@ ul.auto-toc {
 <h1>&lt;Zoom.Quiet/&gt;</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<div align="center" class="align-center"><img alt="是也乎,是也乎" class="takahashi align-center" src="i/id/100514-zq-eye.png" style="width: 258.4px; height: 240.0px;" /></div>
-<a class="takahashi reference external image-reference" href="http://zoomquiet.org"><div align="center" class="align-center"><img alt="Zoom.Quiet" class="align-center" src="i/map/50ren-ZoomQuiet-s5-v800.png" style="width: 801.0px; height: 182.0px;" /></div>
-</a>
+<img alt="是也乎,是也乎" class="takahashi align-center" src="i/id/100514-zq-eye.png" style="width: 258.4px; height: 240.0px;" />
+<a class="takahashi reference external image-reference" href="http://zoomquiet.org"><img alt="Zoom.Quiet" class="align-center" src="i/map/50ren-ZoomQuiet-s5-v800.png" style="width: 801.0px; height: 182.0px;" /></a>
 </div>
 <div class="slide" id="id5">
 <h1>&lt;免责/&gt;</h1>
@@ -394,7 +403,7 @@ ul.auto-toc {
 <h1>牛妞</h1>
 <div class="handout container">
 \ (^o^) / 928d</div>
-<div align="center" class="align-center"><img alt="表情牛妞" class="align-center" src="i/foto/niuniu110105.jpeg" style="width: 539.0px; height: 539.0px;" /></div>
+<img alt="表情牛妞" class="align-center" src="i/foto/niuniu110105.jpeg" style="width: 539.0px; height: 539.0px;" />
 <div class="notes container">
 <ul class="simple">
 <li>我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...</li>
@@ -777,8 +786,7 @@ At-Least-Once 模式 <a class="reference external" href="http://wiki.woodpecker.
 <h1>通常系统</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-nomor.txt"><div align="center" class="align-center"><img alt="i/map/flow-nomor_wsd-napkin.png" class="align-center" src="i/map/flow-nomor_wsd-napkin.png" style="width: 487.2px; height: 397.2px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-nomor.txt"><img alt="i/map/flow-nomor_wsd-napkin.png" class="align-center" src="i/map/flow-nomor_wsd-napkin.png" style="width: 487.2px; height: 397.2px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li>是也乎?</li>
@@ -789,8 +797,7 @@ At-Least-Once 模式 <a class="reference external" href="http://wiki.woodpecker.
 <h1>MOP系统</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-mq.txt"><div align="center" class="align-center"><img alt="i/map/flow-mq_wsd-napkin.png" class="align-center" src="i/map/flow-mq_wsd-napkin.png" style="width: 499.4px; height: 504.9px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/flow-mq.txt"><img alt="i/map/flow-mq_wsd-napkin.png" class="align-center" src="i/map/flow-mq_wsd-napkin.png" style="width: 499.4px; height: 504.9px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li>是也乎?</li>
@@ -801,8 +808,7 @@ At-Least-Once 模式 <a class="reference external" href="http://wiki.woodpecker.
 <h1>常见邮件提醒</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-nomor.txt"><div align="center" class="align-center"><img alt="i/map/mailr-flow-nomor_wsd-napkin.png" class="align-center" src="i/map/mailr-flow-nomor_wsd-napkin.png" style="width: 361.5px; height: 496.5px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-nomor.txt"><img alt="i/map/mailr-flow-nomor_wsd-napkin.png" class="align-center" src="i/map/mailr-flow-nomor_wsd-napkin.png" style="width: 361.5px; height: 496.5px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li>是也乎?</li>
@@ -813,8 +819,7 @@ At-Least-Once 模式 <a class="reference external" href="http://wiki.woodpecker.
 <h1>MOP邮件提醒</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-mq.txt"><div align="center" class="align-center"><img alt="i/map/mailr-flow-mq_wsd-napkin.png" class="align-center" src="i/map/mailr-flow-mq_wsd-napkin.png" style="width: 409.2px; height: 492.8px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/mailr-flow-mq.txt"><img alt="i/map/mailr-flow-mq_wsd-napkin.png" class="align-center" src="i/map/mailr-flow-mq_wsd-napkin.png" style="width: 409.2px; height: 492.8px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li>是也乎?</li>
@@ -825,8 +830,7 @@ At-Least-Once 模式 <a class="reference external" href="http://wiki.woodpecker.
 <h1>通常业务日志</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-nomor.txt"><div align="center" class="align-center"><img alt="i/map/log-flow-nomor_wsd-napkin.png" class="align-center" src="i/map/log-flow-nomor_wsd-napkin.png" style="width: 406.5px; height: 496.5px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-nomor.txt"><img alt="i/map/log-flow-nomor_wsd-napkin.png" class="align-center" src="i/map/log-flow-nomor_wsd-napkin.png" style="width: 406.5px; height: 496.5px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li>是也乎?</li>
@@ -837,8 +841,7 @@ At-Least-Once 模式 <a class="reference external" href="http://wiki.woodpecker.
 <h1>MOP业务日志</h1>
 <div class="handout container">
 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-mq.txt"><div align="center" class="align-center"><img alt="i/map/log-flow-mq_wsd-napkin.png" class="align-center" src="i/map/log-flow-mq_wsd-napkin.png" style="width: 476.3px; height: 469.7px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://tangle.zoomquiet.googlecode.com/hg/s5/111111-pyconchina-mq-taste/i/map/log-flow-mq.txt"><img alt="i/map/log-flow-mq_wsd-napkin.png" class="align-center" src="i/map/log-flow-mq_wsd-napkin.png" style="width: 476.3px; height: 469.7px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li>是也乎?</li>
@@ -998,8 +1001,7 @@ Atomic Transactions <a class="reference external" href="http://wiki.woodpecker.o
 <h1>Celery</h1>
 <div class="handout container">
 分布式任务/工作 队列 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://celeryproject.org/"><div align="center" class="align-center"><img alt="i/snap/Celery-Overview-v4.jpg" class="align-center" src="i/snap/Celery-Overview-v4.jpg" style="width: 631.2px; height: 469.2px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://celeryproject.org/"><img alt="i/snap/Celery-Overview-v4.jpg" class="align-center" src="i/snap/Celery-Overview-v4.jpg" style="width: 631.2px; height: 469.2px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li></li>
@@ -1010,8 +1012,7 @@ Atomic Transactions <a class="reference external" href="http://wiki.woodpecker.o
 <h1>Djnago-celery</h1>
 <div class="handout container">
 有Django扩展 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://pypi.python.org/pypi/django-celery"><div align="center" class="align-center"><img alt="i/snap/celery_2011-11-23-174734_1021x526_scrot.png" class="align-center" src="i/snap/celery_2011-11-23-174734_1021x526_scrot.png" style="width: 1032.0px; height: 537.0px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://pypi.python.org/pypi/django-celery"><img alt="i/snap/celery_2011-11-23-174734_1021x526_scrot.png" class="align-center" src="i/snap/celery_2011-11-23-174734_1021x526_scrot.png" style="width: 1032.0px; height: 537.0px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li></li>
@@ -1019,11 +1020,10 @@ Atomic Transactions <a class="reference external" href="http://wiki.woodpecker.o
 </div>
 </div>
 <div class="slide" id="gearman">
-<h1><a class="reference external" href="http://gearman.org"><img align="top" alt="gearman" class="align-top" src="i/logo/gearman80_title.gif" style="width: 480.0px; height: 80.0px;" /></a></h1>
+<h1><a class="reference external" href="http://gearman.org"><img alt="gearman" class="align-top" src="i/logo/gearman80_title.gif" style="width: 480.0px; height: 80.0px;" /></a></h1>
 <div class="handout container">
 类似的知名作品 <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://gearman.org"><div align="center" class="align-center"><img alt="i/snap/gearman_2011-11-23-175608_620x561_scrot.png" class="align-center" src="i/snap/gearman_2011-11-23-175608_620x561_scrot.png" style="width: 631.0px; height: 572.0px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://gearman.org"><img alt="i/snap/gearman_2011-11-23-175608_620x561_scrot.png" class="align-center" src="i/snap/gearman_2011-11-23-175608_620x561_scrot.png" style="width: 631.0px; height: 572.0px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li>基于 Perl/RPC...</li>
@@ -1034,8 +1034,7 @@ Atomic Transactions <a class="reference external" href="http://wiki.woodpecker.o
 <h1>面向文档(document-oriented)的NoSQL 数据库</h1>
 <div class="handout container">
 10gen 团队的魔幻作品! <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"><img alt="是也乎;-)" src="i/id/logo-PyCon2011China-h50.png" /></a></div>
-<a class="takahashi8 reference external image-reference" href="http://www.mongodb.org/"><div align="center" class="align-center"><img alt="i/logo/logo-mongodb-ondark_h300.png" class="align-center" src="i/logo/logo-mongodb-ondark_h300.png" style="width: 900.0px; height: 300.0px;" /></div>
-</a>
+<a class="takahashi8 reference external image-reference" href="http://www.mongodb.org/"><img alt="i/logo/logo-mongodb-ondark_h300.png" class="align-center" src="i/logo/logo-mongodb-ondark_h300.png" style="width: 900.0px; height: 300.0px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li>这个词是从humongous中截取出来的，其野心不言而明，直指海量数据存储</li>
@@ -1353,7 +1352,7 @@ message<span style="color: #666666">.</span>delete
 <col class="field-name" />
 <col class="field-body" />
 <tbody valign="top">
-<tr class="field"><th class="field-name">反馈:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+sns&#64;gmai.com">Zoom.Quiet</a></td>
+<tr class="field"><th class="field-name">反馈:</th><td class="field-body"><a class="reference external" href="mailto:zoomquiet+sns&#64;gmail.com">Zoom.Quiet</a></td>
 </tr>
 </tbody>
 </table>
@@ -1362,7 +1361,7 @@ message<span style="color: #666666">.</span>delete
 <div class="slide" id="id56">
 <h1><a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/">S5</a></h1>
 <div class="handout container">
-纯HTML 幻灯撰写框架!... <a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/"><img align="top" alt="S5icon" class="align-top" src="pix/S5icon.GIF" style="width: 16.0px; height: 16.0px;" /></a></div>
+纯HTML 幻灯撰写框架!... <a class="reference external" href="http://www.meyerweb.com/eric/tools/s5/"><img alt="S5icon" class="align-top" src="pix/S5icon.GIF" style="width: 16.0px; height: 16.0px;" /></a></div>
 <ul class="simple">
 <li>S<sup>5</sup>== a <span class="orange">S</span> imple <span class="orange">S</span> tandards-Based <span class="orange">S</span> lide <span class="orange">S</span> how <span class="orange">S</span> ystem</li>
 </ul>
@@ -1372,10 +1371,9 @@ message<span style="color: #666666">.</span>delete
 </ul>
 </blockquote>
 <ul class="simple">
-<li>我的编辑环境: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img align="top" alt="LeoProse" class="align-top" src="pix/LeoProse.gif" style="width: 81.0px; height: 42.0px;" /></a> ~ <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">文学化编辑器</a></li>
+<li>我的编辑环境: <a class="reference external" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="LeoProse" class="align-top" src="pix/LeoProse.gif" style="width: 81.0px; height: 42.0px;" /></a> ~ <a class="reference external" href="http://en.wikipedia.org/wiki/Literate_programming">文学化编辑器</a></li>
 </ul>
-<a class="reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><div align="center" class="align-center"><img alt="pix/2010-01-18-230729_605x421_leo.png" class="align-center" src="pix/2010-01-18-230729_605x421_leo.png" style="width: 605.0px; height: 421.0px;" /></div>
-</a>
+<a class="reference external image-reference" href="http://wiki.woodpecker.org.cn/moin/LeoEnvironment"><img alt="pix/2010-01-18-230729_605x421_leo.png" class="align-center" src="pix/2010-01-18-230729_605x421_leo.png" style="width: 605.0px; height: 421.0px;" /></a>
 <div class="notes container">
 <ul class="simple">
 <li>虽然有很多其它替代方案，至今用得最爽的还是 S5</li>

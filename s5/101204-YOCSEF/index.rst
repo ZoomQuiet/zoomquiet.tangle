@@ -6,7 +6,7 @@
 
 ～云计算时代的安全对抗
 
-:讲者: `Zoom.Quiet <zoomquiet+knoss@gmai.com>`__
+:讲者: `Zoom.Quiet <zoomquiet+knoss@gmail.com>`__
 :URL:   http://zoomquiet.org/res/s5/101204-YOCSEF
 
 .. This document has been placed in the CC domain.

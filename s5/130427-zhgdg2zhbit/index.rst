@@ -6,7 +6,7 @@
 
 ～如何在珠海GDG里自在的折腾... 
 
-:Authors: `Zoom.Quiet <zoomquiet+s5@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+s5@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/130427-zhgdg2zhbit/
 
 .. This document has been placed in the CC domain.

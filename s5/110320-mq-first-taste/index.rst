@@ -6,7 +6,7 @@ MQ初品
 
 ～用消息来解耦I/O延迟 (powered by rst2S5)
 
-:Authors: `Zoom.Quiet <zoomquiet+sns@gmai.com>`__
+:Authors: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/110320-mq-first-taste/
 
 .. This document has been placed in the CC domain.
