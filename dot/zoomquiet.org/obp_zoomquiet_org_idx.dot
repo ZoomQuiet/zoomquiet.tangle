@@ -9,7 +9,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         ,labeljust="l",labelloc="b",center=1
         ,ranksep=0.1,center=1,ratio=compress
         ,rankdir=BT
-        ,truecolor bgcolor="#333333"
+        ,bgcolor="#333333"
         ];
 
     node[fontsize=11.0,height=0.3
@@ -83,6 +83,9 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
             ,URL="http://chaos2openresty.readthedocs.org"];
         chaos2sae   [label="SAE",shape=note
             ,URL="http://chaos2sae.readthedocs.org"];
+        chaos2wechat   [label="wechat",shape=note
+            ,URL="http://chaos2wechat.readthedocs.org"];
+
 
     translate  [label="翻译",shape=tab];
 
@@ -103,6 +106,10 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
             ,URL="http://web2pybookzh.readthedocs.org"];
         crxdoczh   [label="crx手册",shape=note
             ,URL="http://crxdoczh.readthedocs.org"];
+        pycoders   [label="PyCoders周刊",shape=note
+            ,URL="http://pyconchina.github.io/pycoders-weekly-zh/"];
+
+
 
     tools  [label="工具",shape=folder];
         leodoc   [label="Leo手册\nv4.9rc1",shape=note
@@ -115,7 +122,7 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
 
     OBP->{original translate};
 
-        chaosbook->{chaos2go chaos2node chaos2openresty chaos2sae} [style="setlinewidth(1)",color=green];
+        chaosbook->{chaos2go chaos2node chaos2openresty chaos2sae chaos2wechat} [style="setlinewidth(1)",color=green];
         chaosbook->chaos2crx [label="100%",style="setlinewidth(3)",color=green];
 
     original->{chaosbook lpybook};
@@ -136,6 +143,8 @@ $ neato -Tpng idx-zoomquiet.dot -o idx-zoomquiet.png -Tcmapx -o idx-zoomquiet.ma
         pydocs->docspy3 [label="80/424",style="setlinewidth(1)"]
 
         pydocs->crxdoczh [label="2%",style="setlinewidth(3)",color=red]
+
+        pydocs->pycoders [label="5%",style="setlinewidth(3)",color=green]
 
 
         tools->sphnix [label="2%",style="setlinewidth(0.5)"]

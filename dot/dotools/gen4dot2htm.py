@@ -275,6 +275,7 @@ def gen2html(ov,log):
         DOTORDER = DODOT
     #DODOT = "dot %s.dot -Tpng -o %s.png -Tcmapx -o %s.map"
     #log.info(DOTORDER%(DOTXT,EXPAS,EXPAS))
+    print DOTORDER%(DOTXT,EXPAS,EXPAS)
     try:
         #,universal_newlines=True,close_fds=True
         p =  subprocess.Popen(DOTORDER%(DOTXT,EXPAS,EXPAS)

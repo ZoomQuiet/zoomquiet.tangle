@@ -142,10 +142,196 @@
 <v t="zoomq.20130510094724.14074" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130510094724.14075"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14076"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
-<v t="zoomq.20130510094724.14191"><vh>折腾</vh>
-<v t="zoomq.20130726110041.16880"><vh>志愿者</vh></v>
-<v t="zoomq.20130726110041.16882"><vh>宣传</vh></v>
-<v t="zoomq.20130726110041.16884"><vh>设计</vh></v>
+<v t="zoomq.20131007093121.27727"><vh>免责</vh>
+<v t="zoomq.20131007093121.27728"><vh>Takahashi</vh>
+<v t="zoomq.20131007093121.27729"><vh>Takahashi</vh></v>
+<v t="zoomq.20131007093121.27730"><vh>Takahashi</vh></v>
+<v t="zoomq.20131007093121.27731"><vh>Takahashi</vh></v>
+<v t="zoomq.20131007093121.27732"><vh>Takahashi</vh></v>
+<v t="zoomq.20131007093121.27733"><vh>Takahashi</vh></v>
+<v t="zoomq.20131007093121.27734"><vh>Takahashi</vh></v>
+</v>
+</v>
+<v t="zoomq.20131007093121.27762" a="E"><vh>brief0</vh>
+<v t="zoomq.20131007093121.27763"><vh>abt.ZQ</vh>
+<v t="zoomq.20131007093121.27764"><vh>本命年</vh></v>
+<v t="zoomq.20131007093121.27765"><vh>ZQ1999</vh></v>
+<v t="zoomq.20131007093121.27766"><vh>ZQsh</vh>
+<v t="zoomq.20131007093121.27767"><vh>ZQ2003</vh></v>
+<v t="zoomq.20131007093121.27768"><vh>ZQ2004</vh></v>
+</v>
+<v t="zoomq.20131007093121.27769"><vh>ZQ社区</vh>
+<v t="zoomq.20131007093121.27770"><vh>ZQ2005</vh></v>
+<v t="zoomq.20131007093121.27771"><vh>ZQ2005:BPUG</vh></v>
+<v t="zoomq.20131007093121.27772"><vh>ZQ2007</vh></v>
+<v t="zoomq.20131007093121.27773"><vh>ECUG</vh></v>
+<v t="zoomq.20131007093121.27774"><vh>ZQ2008</vh></v>
+<v t="zoomq.20131007093121.27775"><vh>ZQ2009</vh></v>
+<v t="zoomq.20131007093121.27776"><vh>CPUG2010</vh></v>
+<v t="zoomq.20131007093121.27777"><vh>APAC2010</vh></v>
+<v t="zoomq.20131007093121.27778"><vh>PyCon2011CN</vh></v>
+<v t="zoomq.20131007093121.27779"><vh>CPUG2012</vh></v>
+<v t="zoomq.20131007093121.27780"><vh>PyCon2012CN</vh></v>
+<v t="zoomq.20131007093121.27781"><vh>CPUG10000人</vh></v>
+<v t="zoomq.20131007093121.27782"><vh>CPUG2013</vh></v>
+<v t="zoomq.20131007093121.27783"><vh>CPUG2013</vh></v>
+</v>
+<v t="zoomq.20131007093121.27785"><vh>GDG</vh>
+<v t="zoomq.20131011103836.15933"><vh>DevFest</vh></v>
+</v>
+<v t="zoomq.20131007093121.27784"><vh>ZQ大妈</vh>
+<v t="zoomq.20131011103836.15934"><vh>成就</vh></v>
+<v t="zoomq.20131007093121.27786"><vh>牛妞</vh>
+<v t="zoomq.20131007093121.27787"><vh>牛妞2012</vh></v>
+<v t="zoomq.20131011103836.15936"><vh>牛妞2013</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20131007093121.27788"><vh>&lt;/ZQ&gt;</vh></v>
+</v>
+<v t="zoomq.20131007093121.27718"><vh>brief1</vh>
+<v t="zoomq.20131007093121.27790"><vh>什么是浏览器</vh></v>
+<v t="zoomq.20131007093121.27791"><vh>浏览器之战</vh></v>
+<v t="zoomq.20131007093121.27793"><vh>preBWar</vh>
+<v t="zoomq.20131007093121.27795"><vh>Lynx</vh></v>
+<v t="zoomq.20131007093121.27797"><vh>NCSA Mosaic</vh></v>
+<v t="zoomq.20131013112738.15651"><vh>IE 1</vh></v>
+</v>
+<v t="zoomq.20131007093121.27799"><vh>BWar I</vh>
+<v t="zoomq.20131013112738.15671"><vh>NCSA Mosaic</vh></v>
+<v t="zoomq.20131013112738.15669"><vh>Netscape_Navigator</vh></v>
+<v t="zoomq.20131007093121.27803"><vh>IE 3</vh></v>
+<v t="zoomq.20131013112738.15633"><vh>BWar 时间线1</vh></v>
+<v t="zoomq.20131013112738.15653"><vh>IE 4</vh></v>
+<v t="zoomq.20131007093121.27807"><vh>AOL</vh></v>
+<v t="zoomq.20131007093121.27805"><vh>Mozilla</vh>
+<v t="zoomq.20131013112738.15647"><vh>Mozilla 之书</vh></v>
+<v t="zoomq.20131013112738.15649"><vh>Mozilla 之书zh</vh></v>
+</v>
+</v>
+<v t="zoomq.20131007093121.27813"><vh>BWar II</vh>
+<v t="zoomq.20131013112738.15680"><vh>Bwar00-04</vh></v>
+<v t="zoomq.20131013112738.15686"><vh>Bwar2006</vh></v>
+<v t="zoomq.20131007093121.27814"><vh>Firefox 1</vh>
+<v t="zoomq.20131013112738.15679"><vh>Firefox 2</vh></v>
+<v t="zoomq.20131013112738.15667"><vh>Firefox 3.5</vh></v>
+<v t="zoomq.20131013112738.15673"><vh>Firefox 4</vh></v>
+</v>
+<v t="zoomq.20131013112738.15677"><vh>Firefox logo</vh></v>
+<v t="zoomq.20131013112738.15655"><vh>IE 7</vh></v>
+<v t="zoomq.20131013112738.15688"><vh>Bwar05-08</vh></v>
+<v t="zoomq.20131013112738.15682"><vh>Bwar2008</vh></v>
+</v>
+<v t="zoomq.20131007093121.27822"><vh>BWar III</vh>
+<v t="zoomq.20131007093121.27823"><vh>Chrome 08</vh></v>
+<v t="zoomq.20131013112738.15659"><vh>Chrome 09</vh>
+<v t="zoomq.20131013112738.15661"><vh>Chrome 10</vh></v>
+<v t="zoomq.20131013112738.15663"><vh>Chrome 11</vh></v>
+<v t="zoomq.20131013112738.15665"><vh>Chrome 12</vh></v>
+</v>
+<v t="zoomq.20131013112738.15675"><vh>Firefox 24</vh></v>
+<v t="zoomq.20131013112738.15684"><vh>Bwar2012</vh></v>
+<v t="zoomq.20131013112738.15694"><vh>Bwar2013</vh></v>
+<v t="zoomq.20131013112738.15657"><vh>IE 9</vh></v>
+<v t="zoomq.20131013112738.15696"><vh>IE 中国</vh></v>
+</v>
+<v t="zoomq.20131007093121.27827"><vh>内核之战</vh>
+<v t="zoomq.20131007093121.27829"><vh>Trident</vh></v>
+<v t="zoomq.20131007093121.27831"><vh>Presto</vh></v>
+<v t="zoomq.20131007093121.27833"><vh>Gecko</vh></v>
+<v t="zoomq.20131007093121.27835"><vh>WebKit</vh></v>
+<v t="zoomq.20131007093121.27837"><vh>Blink</vh></v>
+</v>
+<v t="zoomq.20131007093121.29741"><vh>双核</vh></v>
+<v t="zoomq.20131007093121.27844"><vh>JS之战</vh>
+<v t="zoomq.20131007093121.27845"><vh>Mozilla</vh></v>
+<v t="zoomq.20131007093121.27846"><vh>查克拉</vh></v>
+<v t="zoomq.20131007093121.27847"><vh>Opera</vh></v>
+<v t="zoomq.20131007093121.27848"><vh>V8</vh></v>
+</v>
+</v>
+<v t="zoomq.20131011103836.15907" a="E"><vh>brief2</vh>
+<v t="zoomq.20131011103836.15909"><vh>什么是浏览器</vh></v>
+<v t="zoomq.20131007093121.29747" a="E"><vh>Web-&gt;App</vh>
+<v t="zoomq.20131007093121.29748"><vh>Ajax</vh></v>
+<v t="zoomq.20131007093121.29753"><vh>Ajax之前</vh>
+<v t="zoomq.20131007093121.29755"><vh>web</vh></v>
+<v t="zoomq.20131007093121.29757"><vh>web</vh></v>
+<v t="zoomq.20131007093121.29759"><vh>文章</vh></v>
+<v t="zoomq.20131007093121.29763"><vh>图片</vh></v>
+<v t="zoomq.20131007093121.29761"><vh>BBS</vh></v>
+<v t="zoomq.20131007093121.29777"><vh>JavaApplet</vh></v>
+<v t="zoomq.20131007093121.29779"><vh>Flash</vh></v>
+<v t="zoomq.20131007093121.29781"><vh>Flash动画</vh></v>
+<v t="zoomq.20131007093121.29783"><vh>Flash游戏</vh></v>
+<v t="zoomq.20131007093121.29785"><vh>Flash交互</vh></v>
+<v t="zoomq.20131007093121.29787"><vh>慢</vh></v>
+</v>
+<v t="zoomq.20131007093121.29770"><vh>Ajax之后</vh>
+<v t="zoomq.20131007093121.29771"><vh>SaaS</vh></v>
+<v t="zoomq.20131007093121.29772"><vh>邮件</vh></v>
+<v t="zoomq.20131007093121.29789"><vh>PS</vh></v>
+<v t="zoomq.20131007093121.29791"><vh>Office</vh></v>
+<v t="zoomq.20131007093121.29793"><vh>购物</vh></v>
+<v t="zoomq.20131007093121.29795"><vh>游戏</vh></v>
+<v t="zoomq.20131007093121.29797"><vh>视频</vh></v>
+<v t="zoomq.20131007093121.29799"><vh>etc</vh></v>
+</v>
+<v t="zoomq.20131007093121.29809"><vh>软件化</vh>
+<v t="zoomq.20131007093121.29810"><vh>web app.</vh></v>
+<v t="zoomq.20131007093121.29819"><vh>app优势</vh></v>
+<v t="zoomq.20131007093121.29821"><vh>app问题</vh></v>
+<v t="zoomq.20131007093121.29823"><vh>web优势</vh></v>
+<v t="zoomq.20131007093121.29825"><vh>web问题</vh></v>
+<v t="zoomq.20131007093121.29827"><vh>混合问题</vh></v>
+</v>
+<v t="zoomq.20131007093121.29829"><vh>所以</vh>
+<v t="zoomq.20131013112738.15692"><vh>Chrome 12</vh></v>
+<v t="zoomq.20131007093121.29835"><vh>CheomeBook</vh></v>
+<v t="zoomq.20131007093121.29831"><vh>FirefoxOS</vh></v>
+<v t="zoomq.20131007093121.29837"><vh>FirefoxOS 手机</vh></v>
+</v>
+</v>
+<v t="zoomq.20131007093121.29839"><vh>什么是浏览器</vh></v>
+<v t="zoomq.20131007093121.29875"><vh>未来是浏览器</vh></v>
+</v>
+<v t="zoomq.20131011103836.15910" a="E"><vh>brief3</vh>
+<v t="zoomq.20130510094724.14191"><vh>折腾</vh></v>
+<v t="zoomq.20131007093121.29855"><vh>chrome扩展</vh>
+<v t="zoomq.20131007093121.29857"><vh>Plugin</vh></v>
+<v t="zoomq.20131007093121.29861"><vh>script</vh></v>
+<v t="zoomq.20131007093121.29859"><vh>Extensions</vh></v>
+<v t="zoomq.20131007093121.29863"><vh>Themes</vh></v>
+</v>
+<v t="zoomq.20131007093121.29865"><vh>Extensions形式</vh>
+<v t="zoomq.20131007093121.29867"><vh>POP</vh></v>
+<v t="zoomq.20131007093121.29869"><vh>Page action</vh></v>
+<v t="zoomq.20131007093121.29871"><vh>Page action POP</vh></v>
+<v t="zoomq.20131007093121.29873"><vh>Content script</vh></v>
+</v>
+<v t="zoomq.20130726110041.16880" a="E"><vh>猎豹浏览器</vh>
+<v t="zoomq.20131007093121.29849"><vh>猎豹浏览器</vh></v>
+<v t="zoomq.20131007093121.29851"><vh>猎豹浏览器</vh></v>
+<v t="zoomq.20131007093121.29853"><vh>猎豹浏览器</vh></v>
+</v>
+<v t="zoomq.20131011103836.15912"><vh>猎豹皮肤</vh>
+<v t="zoomq.20131011103836.15914"><vh>细节截屏1</vh></v>
+<v t="zoomq.20131011103836.15916"><vh>细节截屏2</vh></v>
+<v t="zoomq.20131011103836.15918"><vh>细节截屏3</vh></v>
+</v>
+<v t="zoomq.20131011103836.15923"><vh>皮肤大赛</vh>
+<v t="zoomq.20131011103836.15924"><vh>大赛细节1</vh></v>
+<v t="zoomq.20131011103836.15925"><vh>大赛细节2</vh></v>
+<v t="zoomq.20131011103836.15926"><vh>大赛细节3</vh></v>
+</v>
+</v>
+<v t="zoomq.20131011103836.15927" a="E"><vh>brief4</vh>
+<v t="zoomq.20131007093121.29844"><vh>折腾</vh>
+<v t="zoomq.20131007093121.29845"><vh>志愿者</vh></v>
+<v t="zoomq.20131007093121.29846"><vh>宣传</vh></v>
+<v t="zoomq.20131007093121.29847"><vh>设计</vh></v>
+</v>
+<v t="zoomq.20131011103836.15931"><vh>总结7+-2</vh></v>
 </v>
 <v t="zoomq.20130510094724.14198"><vh>version</vh>
 <v t="zoomq.20130510094724.14199"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
@@ -153,7 +339,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20131007093121.17605" a="E"><vh>130914-devfest-zh</vh>
+<v t="zoomq.20131007093121.17605"><vh>130914-devfest-zh</vh>
 <v t="zoomq.20131007093121.17606"><vh>@nosent index.rst</vh>
 <v t="zoomq.20131007093121.17607"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20131007093121.17608"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -230,7 +416,7 @@
 <v t="zoomq.20131007093121.17666"><vh>GDG</vh></v>
 </v>
 </v>
-<v t="zoomq.20130913091547.15112" a="E"><vh>130727-gdgzhgdl</vh>
+<v t="zoomq.20130913091547.15112"><vh>130727-gdgzhgdl</vh>
 <v t="zoomq.20130913091547.15113"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130913091547.15114"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130913091547.15115"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -280,7 +466,7 @@
 <v t="zoomq.20130913091547.15151"><vh>GDG</vh></v>
 </v>
 </v>
-<v t="zoomq.20130726110041.14629" a="E"><vh>130512-gdgsummit</vh>
+<v t="zoomq.20130726110041.14629"><vh>130512-gdgsummit</vh>
 <v t="zoomq.20130726110041.14630"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130726110041.14631"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130726110041.14632"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -401,8 +587,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20130726110041.14855" a="E"><vh>130427-zhgdg2zhbit</vh>
-<v t="zoomq.20130726110041.14856"><vh>@nosent index.rst</vh>
+<v t="zoomq.20130726110041.14855"><vh>130427-zhgdg2zhbit</vh>
+<v t="zoomq.20130726110041.14856" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130726110041.14857"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130726110041.14858"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20130726110041.14981"><vh>ZHGDG</vh></v>
@@ -560,8 +746,8 @@
 <v t="zoomq.20130726110041.14985"><vh>GDG</vh></v>
 </v>
 </v>
-<v t="zoomq.20130510094724.15679" a="E"><vh>ZQ:2012</vh>
-<v t="zoomq.20130426100228.15153" a="E"><vh>121020-how2make-tech-party</vh>
+<v t="zoomq.20130510094724.15679"><vh>ZQ:2012</vh>
+<v t="zoomq.20130426100228.15153"><vh>121020-how2make-tech-party</vh>
 <v t="zoomq.20130426100228.15154"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130426100228.15155"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130426100228.15156"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -623,16 +809,16 @@
 <v t="zoomq.20130426100228.15203"><vh>AKA</vh></v>
 <v t="zoomq.20130426100228.15204"><vh>要回顾</vh></v>
 </v>
-<v t="zoomq.20130426100228.15205"><vh>总结7+-2</vh></v>
 </v>
+<v t="zoomq.20130426100228.15205"><vh>总结7+-2</vh></v>
 <v t="zoomq.20130426100228.15206"><vh>version</vh>
 <v t="zoomq.20130426100228.15207"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 <v t="zoomq.20130426100228.15208"><vh>abt.ZQ</vh></v>
 </v>
 </v>
 </v>
-<v t="zoomq.20121015120918.17068" a="E"><vh>1209-lb-5m-50h-story</vh>
-<v t="zoomq.20121015120918.17069"><vh>@nosent index.rst</vh>
+<v t="zoomq.20121015120918.17068"><vh>1209-lb-5m-50h-story</vh>
+<v t="zoomq.20121015120918.17069" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20121015120918.17070"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20121015120918.17071"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20121015120918.17072"><vh>免责</vh>
@@ -1645,8 +1831,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20120423093831.20420" a="E"><vh>120229-time2km</vh>
-<v t="zoomq.20120608161547.16864"><vh>@nosent index.rst</vh>
+<v t="zoomq.20120423093831.20420"><vh>120229-time2km</vh>
+<v t="zoomq.20120608161547.16864" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20120608161547.16865"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120608161547.16866"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20120608161547.16867"><vh>Randy Pausch</vh></v>
@@ -105447,10 +105633,10 @@ cr.define('options', function() {
 .. include:: &lt;s5defs.txt&gt;
 
 ==================================================================
-珠海GDG
+浏览器战争
 ==================================================================
 
-～这半年 
+～浏览器是什么以及为什么...
 
 :Authors: `Zoom.Quiet &lt;zoomquiet+s5@gmail.com&gt;`__
 :URL:    http://zoomquiet.org/res/s5/130727-gdgzhgdl/
@@ -105485,6 +105671,12 @@ cr.define('options', function() {
 .. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
    :alt: 是也乎;-)
    :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+
+.. |lbtc| image:: i/id/lb-logo.png
+   :alt: 猎豹浏览器
+   :target: http://skin.liebao.cn/
+
+
 .. |zhgdg| image:: i/id/gdgzh_icon_v2_80x80.png
    :target: http://www.chinagdg.com/thread-1650-1-1.html
 .. |pycon| image:: i/logo/pycon2012china-lo​go-2-h80.png
@@ -105496,15 +105688,16 @@ cr.define('options', function() {
 .. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
    :alt: (CC)by-nc-sa 许可证
    :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
-.. |lr_s5| image:: i/icon/levelradar_s5.png
-    :scale: 100 %
+
+.. |lr_s5| image:: pix/levelradar_s5.png
+    :scale: 100%
 
 .. |bullet| unicode:: U+02022
 .. |mode| unicode:: U+00D8 .. capital o with stroke
 
 .. |S5icon| image:: pix/S5icon.GIF
     :align: top
-    :scale: 100 %
+    :scale: 100%
     :target: http://www.meyerweb.com/eric/tools/s5/
 .. |LeoProse| image:: pix/LeoProse.gif
     :align: top
@@ -105520,7 +105713,7 @@ cr.define('options', function() {
 
 .. container:: handout
 
-    是也乎 |zhgdg|
+    是也乎 |lbtc|
 
 
 .. class:: takahashi7
@@ -105538,12 +105731,10 @@ cr.define('options', function() {
 
 .. container:: handout
 
-   |zhgdg|
+   |lbtc|
 
 
-- 130913 增补回顾
-- 130811 追加最新 G+ 国际排名
-- 130726 基于 130522 对北理的幻灯简化而成
+- 131001 构思
 
 
 :反馈:
@@ -111011,53 +111202,17 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 </t>
-<t tx="zoomq.20130726110041.16880">Volunteer
+<t tx="zoomq.20130726110041.16880">猎豹浏览器
 ==================
 
 .. container:: handout
 
-    社区的肉体! |zhgdg|
+    我们的布局! |lbtc|
 
 
 .. class:: takahashi7
 
-    :orange:`志愿`\ 者
-
-.. container:: notes
-
-   - Mentor
-
-
-</t>
-<t tx="zoomq.20130726110041.16882">Volunteer: spreader
-====================================
-
-.. container:: handout
-
-    线上/下 传播 |zhgdg|
-
-
-.. class:: takahashi7
-
-    :orange:`宣传`\ 组
-
-.. container:: notes
-
-   - Mentor
-
-
-</t>
-<t tx="zoomq.20130726110041.16884">Volunteer: designer
-====================================
-
-.. container:: handout
-
-    各种图片/文案... |zhgdg|
-
-
-.. class:: takahashi7
-
-    :orange:`设计`\ 组
+    截屏
 
 .. container:: notes
 
@@ -113181,6 +113336,3305 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
    - 
 
+
+
+</t>
+<t tx="zoomq.20131007093121.27718">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+    最想跟同学们吼的... |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 有关ZQ`
+    - :orange:`15' 浏览器的过去`
+    - :silver:`15' 浏览器的现在`
+    - :silver:`15' 未来的浏览器`
+    - :silver:`15' 自由吐糟`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27727">&lt;免责/&gt;
+=========
+
+.. container:: handout
+
+   山寨的，非业界公认的，个人体验为基础!
+   |zqeye|
+
+
+.. class:: takahashi1
+
+    参考所有同好行为总结而得
+        - 一切资料来自网络互动挖掘
+        - 一切想法来自日常学习工作
+        - 一切体悟来自各种沟通交流
+        - 一切知识来自社区分享印证
+        - 一切经验来自个人失败体验
+    
+
+
+</t>
+<t tx="zoomq.20131007093121.27728">高橋流!
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center
+
+    .. image:: pix/Takahashi-method.jpg
+        :scale: 150 %
+        :height: 300px
+        :alt: 高橋流
+        :align: center
+        :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
+
+</t>
+<t tx="zoomq.20131007093121.27729">文字
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    巨大
+
+
+</t>
+<t tx="zoomq.20131007093121.27730">幻灯
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    很多
+
+
+</t>
+<t tx="zoomq.20131007093121.27731">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi9
+
+    快!
+
+
+</t>
+<t tx="zoomq.20131007093121.27732">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi8
+
+    很快!
+
+
+</t>
+<t tx="zoomq.20131007093121.27733">播放
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi7
+
+    非常快!
+
+
+</t>
+<t tx="zoomq.20131007093121.27734">所以:
+=========
+
+.. container:: handout
+
+   `Takahashi-method 幻灯风格 &lt;http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/&gt;`__ 
+   源自 Ruby 创始人高橋征義(Masayoshi Takahashi)
+
+
+.. class:: center takahashi10
+
+    :orange:`听`
+
+
+</t>
+<t tx="zoomq.20131007093121.27762">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+   最想跟同学们吼的... |zqeye|
+
+
+.. class:: takahashi
+
+    - :orange:`5' 有关ZQ`
+    - :silver:`15' 浏览器的过去`
+    - :silver:`15' 浏览器的现在`
+    - :silver:`15' 未来的浏览器`
+    - :silver:`15' 自由吐糟`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27763">&lt;Zoom.Quiet&gt;
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/id/100514-zq-eye.png
+        :align: center
+        :scale: 80 %
+        :alt: 是也乎,是也乎
+
+    .. image:: i/map/50ren-ZoomQuiet-s5-v800.png
+        :align: center
+        :scale: 100 %
+        :alt: Zoom.Quiet
+        :target: http://zoomquiet.org
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27764">是也乎
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    奔四
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27765">广告@常州
+==================
+
+.. container:: handout
+
+   大学时代入错行，浪费两年;-{ |zqeye|
+
+
+
+.. class:: takahashi8
+
+    1999
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27766">开发@上海
+==================
+
+.. container:: handout
+
+   战上海:HTML-&gt;JS-&gt;PHP-&gt;XSL-&gt;Py |zqeye|
+
+
+
+.. class:: takahashi8
+
+    ~2004
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27767">`2003:CZUG.org &lt;http://czug.org/&gt;`__
+======================================================
+
+.. container:: handout
+
+   learnning Zope/Plone... |zqeye|
+
+
+
+.. class:: takahashi1
+
+    - **C** hina
+    - **Z** ope
+    - **U** ser
+    - **G** roup
+
+    .. image:: i/logo/logo-czug.png
+        :align: center
+        :alt: http://czug.org
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27768">`2004:啄木鸟 &lt;http://www.woodpecker.org.cn/&gt;`__
+=================================================
+
+.. container:: handout
+
+   admin. MoinMoin 1.2.4... |zqeye|
+
+
+.. class:: center
+
+    .. image:: i/logo/logo-wpwww_banner.png
+        :align: center
+        :alt: http://www.woodpecker.org.cn
+
+    - |logo_wpwiki_banner| \ :sup:`MoinMoin 1.4.*`\    
+    - |wiki_banner| \ :sup:`MoinMoin 1.7.*`\    
+    - |wp_zoomq_scrot| \ :sup:`MoinMoin 1.9.*`\
+
+
+
+.. |logo_wpwiki_banner| image:: i/logo/logo_wpwiki_banner.gif
+    :align: bottom
+    :alt: http://www.woodpecker.org.cn
+
+.. |wiki_banner| image:: i/logo/logo_wp-wiki_banner.png
+    :align: bottom
+    :alt: http://wiki.woodpecker.org.cn
+
+.. |wp_zoomq_scrot| image:: i/logo/logo_wiki-wp_zoomq_scrot.png
+    :align: bottom
+    :scale: 100 %
+    :alt: http://wiki,woodpecker.org.cn
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27769">PI@北京
+==================
+
+.. container:: handout
+
+   混北京:SINA-&gt;CPyUG-&gt;SLL |zqeye|
+
+
+.. class:: takahashi8
+
+    ~2007
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27770">2005:`CPyUG`__-&gt; BPyUG
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
+.. container:: handout
+
+   working with Python,in SINA.com |zqeye|
+
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/120201-CPyUG-logo-v2.png
+        :align: center
+        :height: 500px
+        :alt: CPyUG
+        :target: http://wiki.woodpecker.org.cn/moin/CPUG
+
+
+.. container:: notes
+
+   - BPUG-logo-v1.3.png
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27771">2005:`CPyUG`__-&gt; BPyUG
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
+.. container:: handout
+
+   working with Python,in SINA.com |zqeye|
+
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/BPUG-logo-v1.2.png
+        :align: center
+        :height: 400px
+        :alt: BPUG
+        :target: http://wiki.woodpecker.org.cn/moin/BPUG
+
+
+.. container:: notes
+
+   - BPUG-logo-v1.3.png
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27772">2007:`ZPyUG`__
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/ZPyUG
+
+.. container:: handout
+
+    - 在北京,主持完成了25次技术分享
+    - 进入金山,使用Python 进行了各种平台的构建~ `KTRAC`__
+    - spreading Python everywhere to everyone... 
+
+
+__ http://py.kingsoft.net/ktrac
+
+.. class:: takahashi1
+
+    - **珠** 三角
+    - **P** ython
+    - **U** ser
+    - **G** roup
+
+
+    .. image:: i/logo/logo_163_game.gif
+        :align: center
+    .. image:: i/logo/logo_sina_home.gif
+        :align: center
+    .. image:: i/logo/logo-ks.jpg
+        :align: center
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27773">`ECUG.org`__
+======================================================
+
+__ http://ecug.org/
+.. container:: handout
+
+   spreading Python everywhere to everyone... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ecug-logo_67bw.jpg
+        :align: center
+        :scale: 100 %
+        :alt: ECUG
+        :target: http://code.google.com/p/ecug/wiki/FrontPage
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27774">2008:|SLL.org| "SLL.org"
+======================================================
+
+.. container:: handout
+
+   spreading Pythonic everywhere to everyone... |zqeye|
+
+
+.. class:: takahashi4
+
+    教育大发现
+
+
+.. class:: takahashi2 center
+
+    http://sociallearnlab.org/
+
+
+.. |SLL.org| image:: i/logo/2018-gz-sll.png
+    :scale: 100 %
+    :alt: SLL
+    :target: http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&amp;variant=zh-cn
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27775">2009-09-01 出版
+======================================================
+
+.. container:: handout
+
+   - 将多年的体验,集中到一本入门图书 "可爱的Python"
+   - 并主持ZPyUG 近10次技术分享  |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/090902-lovpy.jpg
+        :align: center
+        :alt: 可愛的Python
+        :target: http://book.douban.com/subject/3884108/
+
+
+.. container:: notes
+
+   - snap4ZQMBP_apac2010.png
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27776">2010~
+======================================================
+
+.. container:: handout
+
+   社区在不断发展... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
+        :align: center
+        :height: 700px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_apac2010.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27777">亚太PyCon
+======================================================
+
+.. container:: handout
+
+   首次出国... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_apac2010.png
+        :align: center
+        :height: 600px
+        :alt: python-cn@googlegroups.com
+        :target: http://wiki.woodpecker.org.cn/moin/PyCon2010
+
+
+.. container:: notes
+
+   - snap4ZQMBP_apac2010.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27778">PyCon2011China
+======================================================
+
+.. container:: handout
+
+   首次PyCon 落地中国... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2011cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2011
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27779">~2012
+======================================================
+
+.. container:: handout
+
+   社区在不断发展... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/121023-python-cn-1kmailer.png
+        :align: center
+        :height: 600px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27780">PyCon2012ChinA
+======================================================
+
+.. container:: handout
+
+   首次 PyCon中国双城市联办... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2012cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2011
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27781">过一万人!
+======================================================
+
+.. container:: handout
+
+   121024首次 Hackathon 前! |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/121024-python-cn-10000.png
+        :align: center
+        :height: 600px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27782">~2013
+======================================================
+
+.. container:: handout
+
+   Groups也是... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_130426_17.24.35.png
+        :align: center
+        :height: 500px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27783">~2013
+======================================================
+
+.. container:: handout
+
+   不准的统计!... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_130426_17.24.45.png
+        :align: center
+        :height: 500px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27784">综上...
+==================
+
+.. container:: handout
+
+   基调是分享交流;-} |zqeye|
+
+
+.. class:: takahashi
+
+    俺就一
+
+    `社区大妈`__
+
+__ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27785">`珠海GDG &lt;http://www.chinagdg.com/thread-1329-1-1.html&gt;`_
+========================================================================
+
+.. container:: handout
+
+   Google Developer Group... |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ZH_GDG_Logo_b_h100.png
+        :align: center
+        :height: 200px
+        :alt: ECUG
+        :target: http://code.google.com/p/ecug/wiki/FrontPage
+
+
+
+.. container:: notes
+
+   - 2013-09-14 13-03-12-MOTION.gif
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27786">牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 596d
+
+
+
+.. image:: i/foto/110105nn596d.jpg
+    :align: center
+    :height: 600px
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 120426-niuniu-表情帝
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27787">牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 1096d
+
+
+
+.. image:: i/foto/120426nn1096d-表情帝.jpg
+    :align: center
+    :height: 600px
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 131011_nn1595d-princess.jpg
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27788">&lt;/Zoom.Quiet&gt;
+==================
+
+.. container:: handout
+
+    - 纯种Pythoner，自由软件原教旨主义者 
+    - 关注社会化教育及知识管理；喜爱SF和摄影。 
+    - 尝试使用Pythonic体验感化国人主动进入自由软件世界体验/学习/再创作
+
+
+.. class:: takahashi8
+
+   (^.^)
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27790">什么是浏览器?
+==================
+
+.. container:: handout
+
+   `What Browser? – Google &lt;http://www.whatbrowser.org/&gt;`_  |lbtc|
+
+
+
+.. image:: i/snap/snap4ZQMBP_131009_whatbrowser.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
+
+
+.. container:: notes
+
+   - Google 注意到大众已经完全不知道什么是浏览器了
+
+
+
+</t>
+<t tx="zoomq.20131007093121.27791">`Browser wars`_
+==================
+
+.. _Browser wars: http://en.wikipedia.org/wiki/Browser_wars
+
+.. container:: handout
+
+    一切都不祥合... |lbtc|
+
+
+.. class:: takahashi7
+
+    浏览器
+    
+    战争
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27793">战争之前
+==================
+
+.. container:: handout
+
+    WorldWideWeb-&gt;Nexus 是的就是Jobs 领导下的 NeXTSTEP... |lbtc|
+
+
+.. class:: takahashi7
+
+.. image:: i/snap/WorldWideWeb_FSF_GNU.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27795">战争之前
+==================
+
+.. container:: handout
+
+    Lynx 猞猁 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Lynx-wikipedia.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+    Foteos Macrides and members of the lynx-dev list have developed and supported Lynx since release of v2.3 in May 1994.
+    The Lynx2-3FM code set was released as v2.4 in June 1995.
+    The Lynx2-4FM code set was released as v2.5 in May 1996.
+    The Lynx2-5FM code set was released as v2.6 in September 1996.
+    The Lynx2-6FM code set was released as v2.7 in February 1997.
+    The v2-7FM code set was released as v2.7.1 in April 1997.
+    The v2-7-1FM code set was released as v2.7.2 in January 1998.
+    The 2.7.1 development set was released as v2.8 in March 1998.
+    The 2.8 development set was released as v2.8.1 in October 1998.
+    The 2.8.1 development set was released as v2.8.2 in June 1999.
+    The 2.8.2 development set was released as v2.8.3 in April 2000.
+    The 2.8.3 development set was released as v2.8.4 in July 2001.
+    The 2.8.4 development set was released as v2.8.5 in February 2004.
+    The 2.8.5 development set was released as v2.8.6 in October 2006.
+    The 2.8.6 development set was released as v2.8.7 in July 2009.
+    
+</t>
+<t tx="zoomq.20131007093121.27797">战争之前
+==================
+
+.. container:: handout
+
+    Mosaic-&gt;Netscape Navigator |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/NCSA_Mosaic.PNG
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27799">Browser war I
+==================
+
+.. container:: handout
+
+    1995~1998 |lbtc|
+
+
+.. class:: takahashi7
+
+.. image:: i/snap/bwar-timeline-0.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27803">IE 3.0
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Internet_Explorer_3_on_Windows_95.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27805">Mozilla
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Mozilla_Application_Suite_for_Mac_OS_9_Startup_Screen.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27807">AOL收购Netscape
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/bwar-timeline-2.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27813">Browser war II
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/bwar-timeline-3.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27814">Firefox 1.0
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Mozilla_Firefox_1.0_front_page_screenshot.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27822">Browser war III
+==================
+
+.. container:: handout
+
+    进入 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/bwar-timeline-2008-11.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27823">Chrome 2008
+==================
+
+.. container:: handout
+
+    `Chrome Time Machine &lt;http://www.google.com/intl/en/chrome/timemachine/&gt;`_ |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/chrome_2008.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27827">内核之战
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+    渲染引擎
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27829">IE及其小伙伴
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+    Trident
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27831">Opera 自个儿
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+    Presto
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27833">Firefox及其小伙伴
+====================================
+
+.. container:: handout
+
+    - SeaMonkey
+    - Galeon
+    - Vimperator
+    - ...
+
+
+.. class:: takahashi7
+
+    Gecko
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27835">WebKit及其大波小伙伴
+====================================
+
+.. container:: handout
+
+    - Safari
+    - Konqueror
+    - Epiphany
+    - OmniWeb
+    - Midori
+    - ..
+
+
+.. class:: takahashi7
+
+    WebKit
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27837">Chrome及其小伙伴
+====================================
+
+.. container:: handout
+
+    - RockMelt
+    - Opera
+    - Comodo Dragon
+    - ...
+
+
+.. class:: takahashi7
+
+    Blink
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27844">JS之战
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+    JavaScript
+    
+    引擎
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27845">Mozilla 的改名游戏
+==================
+
+.. container:: handout
+
+    - TraceMonkey 
+    - JaegerMonkey
+    - IonMonkey
+    - OdinMonkey
+
+
+.. class:: takahashi
+
+    SpiderMonkey
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27846">IE 自个儿
+==================
+
+.. container:: handout
+
+    Chakra  |lbtc|
+
+
+.. class:: takahashi7
+
+    查克拉
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27847">Opera 自个儿
+====================================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+    Carakan
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131007093121.27848">Google 及其大波小伙伴
+====================================
+
+.. container:: handout
+
+    催生出了 Node.js |lbtc|
+
+
+.. class:: takahashi7
+
+    :orange:`V8`
+    
+.. container:: notes
+
+   - Chrome的成功也离不开它背后的天才——Lars Bak。Lars Bak的工作履历里绝大部分都是虚拟机相关的工作，在开发V8之前，他曾经在Sun公司工作，担任HotSpot团队的技术领导，主要致力开发高性能的Java虚拟机。再之前，他也曾为Self、Smalltalk语言开发过高性能虚拟机。这些无与伦比的经历让V8一出世就超越了当时的所有JavaScript虚拟机。
+
+</t>
+<t tx="zoomq.20131007093121.29741">双核
+=========
+
+.. container:: handout
+
+   只有中国... |lbtc|
+
+.. class:: incremental
+
+    * 2004.11      Netscape0.56发布，这是首款支持双内核的浏览器
+    * 2005  日本的Fenrir公司发布了Sleipnir2，以外挂型式支持双核
+    * 2007           Firefox发布了IE Tab扩展（作者：洪任谕）
+    * 2008           傲游率先提出双核浏览器概念
+    * 2009.12      Google发布Chrome IE Tab扩展
+    * 2010.4.8     搜狐公司发布了搜狗高速浏览器2.0正式版
+    * 2010.4.23   傲游公司发布了Maxthon3.0.9.10 Beta
+    * 2010.5.25   腾讯公司发布QQ浏览器5 preview1
+    * 2010.9.15   奇虎360公司发布了360极速浏览器（4.0.1.500）
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20131007093121.29747">为毛
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+    战为何?!
+    
+.. container:: notes
+
+   - ..
+
+
+</t>
+<t tx="zoomq.20131007093121.29748">改变一切的技术
+====================================
+
+.. container:: handout
+
+    Asynchronous JavaScript and XML（以及 DHTML 等）的缩写 |lbtc|
+
+
+.. class:: takahashi7
+
+    Ajax
+    
+.. container:: notes
+
+   - 老技术，新技巧
+
+
+</t>
+<t tx="zoomq.20131007093121.29753">网络世界
+====================================
+
+.. container:: handout
+
+    原先很纯朴 |lbtc|
+
+
+.. class:: takahashi7
+
+    Ajax之前
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29755">WWW一点也不万维
+====================================
+
+.. container:: handout
+
+    网页 |lbtc|
+
+
+.. class:: takahashi7
+
+    web
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29757">WWW一点也不万维
+====================================
+
+.. container:: handout
+
+    网页只能 |lbtc|
+
+
+.. class:: takahashi7
+
+    截屏
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29759">WWW一点也不万维
+====================================
+
+.. container:: handout
+
+    网页只能 |lbtc|
+
+
+.. class:: takahashi7
+
+    文章
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29761">WWW一点也不万维
+====================================
+
+.. container:: handout
+
+    网页只能 |lbtc|
+
+
+.. class:: takahashi7
+
+    BBS
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29763">WWW一点也不万维
+====================================
+
+.. container:: handout
+
+    网页只能 |lbtc|
+
+
+.. class:: takahashi7
+
+    图片?
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29770">网络世界
+====================================
+
+.. container:: handout
+
+    复杂起来 |lbtc|
+
+
+.. class:: takahashi7
+
+    Ajax之后
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29771">WWW开始万维
+====================================
+
+.. container:: handout
+
+    网页应用化 |lbtc|
+
+
+.. class:: takahashi7
+
+    :orange:`S`\ aa\ :orange:`S`
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29772">WWW开始万维
+====================================
+
+.. container:: handout
+
+    网页可以 |lbtc|
+
+
+.. class:: takahashi7
+
+    邮件
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29777">曾经的尝试
+====================================
+
+.. container:: handout
+
+    网页只能 |lbtc|
+
+
+.. class:: takahashi
+
+    JavaApplet
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29779">曾经的尝试
+====================================
+
+.. container:: handout
+
+    网页只能 |lbtc|
+
+
+.. class:: takahashi7
+
+    Flash
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29781">Flash
+====================================
+
+.. container:: handout
+
+    网页有限丰富 |lbtc|
+
+
+.. class:: takahashi7
+
+    小动画
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29783">Flash
+====================================
+
+.. container:: handout
+
+    网页有限丰富 |lbtc|
+
+
+.. class:: takahashi7
+
+    小游戏
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29785">Flash
+====================================
+
+.. container:: handout
+
+    尝试过全站Flash 的高度交互式网站 |lbtc|
+
+
+.. class:: takahashi7
+
+    交互式
+    
+    截屏
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29787">Flash灭!
+====================================
+
+.. container:: handout
+
+    当然,还有你懂的原因... |lbtc|
+
+
+.. class:: takahashi7
+
+    慢!
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29789">WWW开始万维
+====================================
+
+.. container:: handout
+
+    网页可以 |lbtc|
+
+
+.. class:: takahashi7
+
+    PS
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29791">WWW开始万维
+====================================
+
+.. container:: handout
+
+    网页可以 |lbtc|
+
+
+.. class:: takahashi7
+
+    Office
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29793">WWW开始万维
+====================================
+
+.. container:: handout
+
+    网页可以 |lbtc|
+
+
+.. class:: takahashi7
+
+    购物
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29795">WWW开始万维
+====================================
+
+.. container:: handout
+
+    网页可以 |lbtc|
+
+
+.. class:: takahashi7
+
+    游戏
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29797">WWW开始万维
+====================================
+
+.. container:: handout
+
+    网页可以 |lbtc|
+
+
+.. class:: takahashi7
+
+    视频
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29799">WWW开始万维
+====================================
+
+.. container:: handout
+
+    网页可以 |lbtc|
+
+
+.. class:: takahashi7
+
+    etc\ :orange:`.`
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29809">大趋势
+====================================
+
+.. container:: handout
+
+    网页/站 |lbtc|
+
+
+.. class:: takahashi7
+
+    软件化
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29810">Browser War III
+====================================
+
+.. container:: handout
+
+    在移动端 |lbtc|
+
+
+.. class:: takahashi7
+
+    web\ :orange:`vs`\ app
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29819">app优势
+====================================
+
+.. container:: handout
+
+    原生 |lbtc|
+
+
+.. class:: takahashi7
+
+    快
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29821">app问题
+====================================
+
+.. container:: handout
+
+    复杂/兼容 |lbtc|
+
+
+.. class:: takahashi7
+
+    慢
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29823">web优势
+====================================
+
+.. container:: handout
+
+    跨平台/无升级 |lbtc|
+
+
+.. class:: takahashi7
+
+    快
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29825">web问题
+====================================
+
+.. container:: handout
+
+    平台兼容/网络 |lbtc|
+
+
+.. class:: takahashi7
+
+    慢
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29827">兼顾?!
+====================================
+
+.. container:: handout
+
+    so Naive |lbtc|
+
+
+.. class:: takahashi7
+
+    混合
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29829">兼顾?!
+====================================
+
+.. container:: handout
+
+    so Naive |lbtc|
+
+
+.. class:: takahashi7
+
+    所以
+    
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29831">兼顾?!
+====================================
+
+.. container:: handout
+
+    2012.7.2 正式发布 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/FirefoxOS_Screenshot_Development_Build.jpg
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+                
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29835">硬件!
+====================================
+
+.. container:: handout
+
+    Chrome 的布局 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/chrome_book.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+        
+.. container:: notes
+
+   - chrome_book.png
+
+
+</t>
+<t tx="zoomq.20131007093121.29837">硬件
+====================================
+
+.. container:: handout
+
+    第一个Firefox OS设备将由TCL、Alcatal One Touch和中兴制造，使用高通的Snapdragon处理器 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/firefox-phones1.jpg
+    :align: center
+    :height: 400px
+    :alt: WorldWideWeb
+
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29839">什么是浏览器?
+==================
+
+.. container:: handout
+
+   `What Browser? – Google &lt;http://www.whatbrowser.org/&gt;`_  |lbtc|
+
+
+
+.. image:: i/snap/snap4ZQMBP_131009_whatbrowser.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
+
+
+.. container:: notes
+
+   - Google 注意到大众已经完全不知道什么是浏览器了
+
+
+
+</t>
+<t tx="zoomq.20131007093121.29844">我们都是
+==================
+
+.. container:: handout
+
+    是也乎 |lbtc|
+
+
+.. class:: takahashi7
+
+    不\ :orange:`折腾`\ 要死星人
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131007093121.29845">Volunteer
+==================
+
+.. container:: handout
+
+    社区的肉体! |lbtc|
+
+
+.. class:: takahashi7
+
+    :orange:`志愿`
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29846">Volunteer: spreader
+====================================
+
+.. container:: handout
+
+    线上/下 传播 |lbtc|
+
+
+.. class:: takahashi7
+
+    :orange:`宣传!`
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29847">Volunteer: designer
+====================================
+
+.. container:: handout
+
+    各种创意... |lbtc|
+
+
+.. class:: takahashi7
+
+    :orange:`设计!`
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29849">猎豹浏览器
+==================
+
+.. container:: handout
+
+    我们的布局! |lbtc|
+
+
+.. class:: takahashi7
+
+    手机截屏
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29851">猎豹浏览器
+==================
+
+.. container:: handout
+
+    我们的布局! |lbtc|
+
+
+.. class:: takahashi7
+
+    平板截屏
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29853">是Chrome的伙伴
+==================
+
+.. container:: handout
+
+    v26核 |lbtc|
+
+
+.. class:: takahashi7
+
+    Chromium
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29855">可扩展
+==================
+
+.. container:: handout
+
+    Chrome的扩展架构 |lbtc|
+
+
+
+.. image:: i/snap/crx_working_flow.png
+    :align: center
+    :height: 400px
+    :alt: whatbrowser
+    
+    
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29857">可扩展
+==================
+
+.. container:: handout
+
+    Chrome的扩展形态 |lbtc|
+
+
+.. class:: takahashi7
+
+    Plugin
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29859">可扩展
+==================
+
+.. container:: handout
+
+    也叫 Add-on |lbtc|
+
+
+.. class:: takahashi7
+
+    Extensions
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29861">可扩展
+==================
+
+.. container:: handout
+
+    Chrome的扩展形态 |lbtc|
+
+
+.. class:: takahashi7
+
+    script
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29863">可扩展
+==================
+
+.. container:: handout
+
+    Chrome的扩展形态 |lbtc|
+
+
+.. class:: takahashi7
+
+    Themes
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29865">Extensions形式
+==================
+
+.. container:: handout
+
+    Browser action |lbtc|
+
+
+
+.. image:: i/snap/crx_browser_act.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
+    
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29867">Extensions形式
+==================
+
+.. container:: handout
+
+    POP |lbtc|
+
+
+
+.. image:: i/snap/crx_browser_act_pop.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
+    
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29869">Extensions形式
+==================
+
+.. container:: handout
+
+    Page action |lbtc|
+
+
+.. image:: i/snap/crx_page_act.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
+    
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29871">Extensions形式
+==================
+
+.. container:: handout
+
+    Page action POP |lbtc|
+
+
+.. image:: i/snap/crx_page_act_pop.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
+    
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29873">Extensions形式
+==================
+
+.. container:: handout
+
+    Content script |lbtc|
+
+
+.. image:: i/snap/crx_content_script.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
+    
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131007093121.29875">未来是浏览器的!
+==================
+
+.. container:: handout
+
+   `What Browser? – Google &lt;http://www.whatbrowser.org/&gt;`_  |lbtc|
+
+
+.. class:: incremental
+
+    * ①新设备和操作界面层出不穷，为每个系统单独开发一个APP，越来越不现实
+    * ②大多数应用没必要调用系统API，比如天气预报
+    * ③不必安装，升级瞬间完成
+    * ④不断增加的各种功能，使得HTML5已接近原生软件的体验
+
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131011103836.15907">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+    最想跟同学们吼的... |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 有关ZQ`
+    - :gray:`15' 浏览器的过去`
+    - :orange:`15' 浏览器的现在`
+    - :silver:`15' 未来的浏览器`
+    - :silver:`15' 自由吐糟`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20131011103836.15909">什么是浏览器?
+==================
+
+.. container:: handout
+
+   `What Browser? – Google &lt;http://www.whatbrowser.org/&gt;`_  |lbtc|
+
+
+
+.. image:: i/snap/snap4ZQMBP_131009_whatbrowser.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
+
+
+.. container:: notes
+
+   - Google 注意到大众已经完全不知道什么是浏览器了
+
+
+
+</t>
+<t tx="zoomq.20131011103836.15910">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+    最想跟同学们吼的... |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 有关ZQ`
+    - :gray:`15' 浏览器的过去`
+    - :gray:`15' 浏览器的现在`
+    - :orange:`15' 未来的浏览器`
+    - :silver:`15' 自由吐糟`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20131011103836.15912">猎豹浏览器皮肤
+==================
+
+.. container:: handout
+
+    丰富的定制 |lbtc|
+
+
+.. class:: takahashi7
+
+    配置截屏
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131011103836.15914">猎豹浏览器皮肤
+==================
+
+.. container:: handout
+
+    丰富的定制 |lbtc|
+
+
+.. class:: takahashi7
+
+    细节截屏
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131011103836.15916">猎豹浏览器皮肤
+==================
+
+.. container:: handout
+
+    丰富的定制 |lbtc|
+
+
+.. class:: takahashi7
+
+    细节截屏2
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131011103836.15918">猎豹浏览器皮肤
+==================
+
+.. container:: handout
+
+    丰富的定制 |lbtc|
+
+
+.. class:: takahashi7
+
+    细节截屏3
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131011103836.15923">Show出你的猎豹范儿
+====================================
+
+.. container:: handout
+
+    丰富的定制 |lbtc|
+
+
+.. class:: takahashi7
+
+    皮肤大赛
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131011103836.15924">Show出你的猎豹范儿
+====================================
+
+.. container:: handout
+
+    你的范儿! |lbtc|
+
+
+.. class:: takahashi7
+
+    求创意
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131011103836.15925">Show出你的猎豹范儿
+====================================
+
+.. container:: handout
+
+    大奖励 |lbtc|
+
+
+.. class:: takahashi7
+
+    Smart照片
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131011103836.15926">Show出你的猎豹范儿
+====================================
+
+.. container:: handout
+
+    专项奖品 |lbtc|
+
+
+.. class:: takahashi7
+
+    重学生
+
+.. container:: notes
+
+   - Mentor
+
+
+</t>
+<t tx="zoomq.20131011103836.15927">&lt;brief/&gt;
+=========
+
+.. container:: handout
+
+    最想跟同学们吼的... |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`5' 有关ZQ`
+    - :gray:`15' 浏览器的过去`
+    - :gray:`15' 浏览器的现在`
+    - :gray:`15' 未来的浏览器`
+    - :orange:`15' 自由吐糟`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20131011103836.15931">总之
+=========
+
+.. container:: handout
+
+   期望可以记住的~单位时间可以记住的只有7+-2 个 |zqeye|
+
+.. class:: incremental takahashi
+
+    * 浏览器由来久矣
+    * 浏览器已经是互联网核心入口
+    * 浏览器是移动应用的未来平台
+    * 从皮肤扩展人手体验现代浏览器技术
+    * 猎豹皮肤大赛你值得掺合!
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+
+
+
+</t>
+<t tx="zoomq.20131011103836.15933">`珠海GDG &lt;http://www.chinagdg.com/thread-1329-1-1.html&gt;`_
+========================================================================
+
+.. container:: handout
+
+   DevFest2013 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/2013-09-14_13-03-12-MOTION.gif
+        :align: center
+        :height: 500px
+        :alt: GDG
+        :target: http://gplus.to/gdgzh
+
+
+
+.. container:: notes
+
+   - 2013-09-14 13-03-12-MOTION.gif
+
+
+
+</t>
+<t tx="zoomq.20131011103836.15934">综上...
+==================
+
+.. container:: handout
+
+   ;-} |zqeye|
+
+
+.. class:: takahashi8
+
+    最大
+
+    成就
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+</t>
+<t tx="zoomq.20131011103836.15936">牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 1595d
+
+
+
+.. image:: i/foto/131011_nn1595d-princess.jpg
+    :align: center
+    :height: 700px
+    :alt: 公主牛
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 131011_nn1595d-princess.jpg
+
+
+
+</t>
+<t tx="zoomq.20131013112738.15633">浏览器战争
+==================
+
+.. container:: handout
+
+    时间线 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/bwar-timeline-1.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15647">Mozilla 之书
+==================
+
+.. container:: handout
+
+    1994年12月10日 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/19941210-mozilla-book.png
+    :align: center
+    :height: 300px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15649">Mozilla 之书
+==================
+
+.. container:: handout
+
+    1994年12月10日 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/19941210-mozilla-book_zh.png
+    :align: center
+    :height: 300px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15651">IE 3.0
+==================
+
+.. container:: handout
+
+    v1.0 完全上不了台 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Internet_Explorer_1.0.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15653">IE 4.0
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Internet_Explorer_4.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15655">IE 7.0
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Internet_Explorer_7.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15657">IE 9.0
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Internet_Explorer_9_zh-hk.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - ie_june_2013-730x528-665x480
+
+
+</t>
+<t tx="zoomq.20131013112738.15659">Chrome 2009
+==================
+
+.. container:: handout
+
+    `Chrome Time Machine &lt;http://www.google.com/intl/en/chrome/timemachine/&gt;`_ |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/chrome_2009.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15661">Chrome 2010
+==================
+
+.. container:: handout
+
+    `Chrome Time Machine &lt;http://www.google.com/intl/en/chrome/timemachine/&gt;`_ |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/chrome_2010.png
+    :align: center
+    :height: 300px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15663">Chrome 2011
+==================
+
+.. container:: handout
+
+    `Chrome Time Machine &lt;http://www.google.com/intl/en/chrome/timemachine/&gt;`_ |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/chrome_2011.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15665">Chrome 2012
+==================
+
+.. container:: handout
+
+    `Chrome Time Machine &lt;http://www.google.com/intl/en/chrome/timemachine/&gt;`_ |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/chrome_2012.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15667">Firefox 3.5
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Mozilla_Firefox_3.5.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15669">Netscape Navigator
+====================================
+
+.. container:: handout
+
+    Mosaic-&gt;伊利诺伊大学-&gt;Netscape Navigator |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Netscape_Navigator.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - Mosaic公司成立后，由于伊利诺伊大学拥有Mosaic的商标版权，开发团队必须彻底重新撰写浏览器代码，且浏览器名称更改为Netscape Navigator
+
+
+</t>
+<t tx="zoomq.20131013112738.15671">Mosaic 3
+==================
+
+.. container:: handout
+
+    Mosaic-&gt;Netscape Navigator |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Mosaic-v3-screenshot.PNG
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15673">Firefox 4
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Firefox_4.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15675">Firefox 24
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Firefox_24_mac_2013.PNG
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15677">Firefox Logo
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/firefox_logo_historic.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15679">Firefox 1.0
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Firefox_2.0.0.12.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15680">Browser war 2006
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/bwar-timeline-2000-04.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15682">Browser war 2008
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/browser2008.jpg
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15684">Browser war 2012
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/browser2012.jpg
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - browser_war_usage_tlines.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15686">Browser war 2006
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/browser2006.jpg
+    :align: center
+    :height: 400px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15688">Browser war 2006
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/bwar-timeline-2005-08.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15692">兼顾?!
+==================
+
+.. container:: handout
+
+    `Chrome Time Machine &lt;http://www.google.com/intl/en/chrome/timemachine/&gt;`_ |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/chrome_os_2012.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15694">Browser war 2013
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/browser_war_usage_tlines.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - browser_war_usage_tlines.png
+
+
+</t>
+<t tx="zoomq.20131013112738.15696">IE 中国
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/ie_june_2013-730x528-665x480.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - ie_june_2013-730x528-665x480
 
 
 </t>
