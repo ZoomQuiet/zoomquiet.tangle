@@ -7,13 +7,14 @@
 ～浏览器是什么以及为什么...
 
 :Authors: `Zoom.Quiet <zoomquiet+s5@gmail.com>`__
-:URL:    http://zoomquiet.org/res/s5/130727-gdgzhgdl/
+:URL:    http://zoomquiet.org/res/s5/131001-war-of-browser/
 
 .. This document has been placed in the CC domain.
 .. _Docutils: http://docutils.sourceforge.net/
 .. _reStructuredText: http://docutils.sourceforge.net/rst.html
 .. _S5: http://meyerweb.com/eric/tools/s5/
 .. _Firefox: http://www.mozilla.com/firefox/
+.. _猎豹: http://liebao.cn
 
 .. _Zoom.Quiet:
     http://code.google.com/p/openbookproject/wiki/ZoomQuiet
@@ -37,6 +38,10 @@
    :alt: 猎豹浏览器
    :target: http://skin.liebao.cn/
 
+.. |lbicon| image:: i/id/lb-logo.png
+   :alt: 猎豹浏览器
+   :height: 36px
+   :target: http://liebao.cn/
 
 .. |zhgdg| image:: i/id/gdgzh_icon_v2_80x80.png
    :target: http://www.chinagdg.com/thread-1650-1-1.html
@@ -67,7 +72,7 @@
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v13.10.01 |cc-byncsa15| 推荐用 `FireFox`_ 获得最佳游览效果
+   `Zoom.Quiet`_ v13.10.14 |cc-byncsa15| 推荐用 |lbicon| 获得最佳游览效果
 
 <免责/>
 =========
@@ -557,50 +562,6 @@ __ http://ecug.org/
 
 
 
-2010~
-======================================================
-
-.. container:: handout
-
-   社区在不断发展... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
-        :align: center
-        :height: 700px
-        :alt: python-cn@googlegroups.com
-        :target: http://groups-beta.google.com/group/python-cn
-
-
-.. container:: notes
-
-   - snap4ZQMBP_apac2010.png
-
-
-亚太PyCon
-======================================================
-
-.. container:: handout
-
-   首次出国... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/snap4ZQMBP_apac2010.png
-        :align: center
-        :height: 600px
-        :alt: python-cn@googlegroups.com
-        :target: http://wiki.woodpecker.org.cn/moin/PyCon2010
-
-
-.. container:: notes
-
-   - snap4ZQMBP_apac2010.png
-
-
 PyCon2011China
 ======================================================
 
@@ -615,29 +576,6 @@ PyCon2011China
         :align: center
         :alt: python-cn@googlegroups.com
         :target: http://cn.pycon.org/2011
-
-
-.. container:: notes
-
-   - snap4ZQMBP_pycon2011cn.png
-
-
-
-~2012
-======================================================
-
-.. container:: handout
-
-   社区在不断发展... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/121023-python-cn-1kmailer.png
-        :align: center
-        :height: 600px
-        :alt: python-cn@googlegroups.com
-        :target: http://groups-beta.google.com/group/python-cn
 
 
 .. container:: notes
@@ -688,52 +626,6 @@ PyCon2012ChinA
 .. container:: notes
 
    - snap4ZQMBP_pycon2011cn.png
-
-
-
-~2013
-======================================================
-
-.. container:: handout
-
-   Groups也是... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/snap4ZQMBP_130426_17.24.35.png
-        :align: center
-        :height: 500px
-        :alt: python-cn@googlegroups.com
-        :target: http://groups-beta.google.com/group/python-cn
-
-
-.. container:: notes
-
-   - 
-
-
-
-~2013
-======================================================
-
-.. container:: handout
-
-   不准的统计!... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/snap4ZQMBP_130426_17.24.45.png
-        :align: center
-        :height: 500px
-        :alt: python-cn@googlegroups.com
-        :target: http://groups-beta.google.com/group/python-cn
-
-
-.. container:: notes
-
-   - 
 
 
 
@@ -956,7 +848,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. image:: i/snap/snap4ZQMBP_131009_whatbrowser.png
     :align: center
-    :height: 300px
+    :height: 400px
     :alt: whatbrowser
 
 
@@ -973,14 +865,16 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. container:: handout
 
-    一切都不祥合... |lbtc|
+    一切没那么祥合... |lbtc|
 
 
 .. class:: takahashi7
 
-    浏览器
-    
-    战争
+
+.. image:: i/snap/bwar-timeline-0.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
 
 .. container:: notes
 
@@ -992,8 +886,9 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. container:: handout
 
-    WorldWideWeb->Nexus 是的就是Jobs 领导下的 NeXTSTEP... |lbtc|
-
+    - 1990 Tim Berners-Lee
+    - WorldWideWeb->Nexus 
+    - 1994 终止,是的就是Jobs 领导下的 NeXTSTEP...!
 
 .. class:: takahashi7
 
@@ -1007,7 +902,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    - WorldWideWeb_FSF_GNU.png
 
 
-战争之前
+平和的Geek 世界
 ==================
 
 .. container:: handout
@@ -1046,7 +941,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. container:: handout
 
-    Mosaic->Netscape Navigator |lbtc|
+    - 1993 Mosaic 1.0  |lbtc|
 
 
 .. class:: takahashi7
@@ -1063,12 +958,13 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    - WorldWideWeb_FSF_GNU.png
 
 
-IE 3.0
+IE 1.0
 ==================
 
 .. container:: handout
 
-    v1.0 完全上不了台 |lbtc|
+    - 1994 M$ 购入 Spyglass
+    - 发布 IE v1.0 完全上不了台面
 
 
 .. class:: takahashi7
@@ -1094,7 +990,8 @@ Browser war I
 
 .. class:: takahashi7
 
-.. image:: i/snap/bwar-timeline-0.png
+
+.. image:: i/snap/bwar-timeline-1.png
     :align: center
     :height: 500px
     :alt: WorldWideWeb
@@ -1109,7 +1006,8 @@ Mosaic 3
 
 .. container:: handout
 
-    Mosaic->Netscape Navigator |lbtc|
+    - 1994 Mosaic成立公司 
+    - 伊利诺伊大学的商标问题 |lbtc|
 
 
 .. class:: takahashi7
@@ -1126,12 +1024,12 @@ Mosaic 3
    - WorldWideWeb_FSF_GNU.png
 
 
-Netscape Navigator
+Navigator
 ====================================
 
 .. container:: handout
 
-    Mosaic->伊利诺伊大学->Netscape Navigator |lbtc|
+    - 1994.11 改名为 Netscape 网景 |lbtc|
 
 
 .. class:: takahashi7
@@ -1153,7 +1051,7 @@ IE 3.0
 
 .. container:: handout
 
-    ... |lbtc|
+    1995.8 |lbtc|
 
 
 .. class:: takahashi7
@@ -1169,33 +1067,12 @@ IE 3.0
    - WorldWideWeb_FSF_GNU.png
 
 
-浏览器战争
-==================
-
-.. container:: handout
-
-    时间线 |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/bwar-timeline-1.png
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
 IE 4.0
 ==================
 
 .. container:: handout
 
-    ... |lbtc|
+    1997.4 |lbtc|
 
 
 .. class:: takahashi7
@@ -1211,33 +1088,12 @@ IE 4.0
    - WorldWideWeb_FSF_GNU.png
 
 
-AOL收购Netscape
-==================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/bwar-timeline-2.png
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
 Mozilla
 ==================
 
 .. container:: handout
 
-    ... |lbtc|
+    1994 |lbtc|
 
 
 .. class:: takahashi7
@@ -1266,7 +1122,7 @@ Mozilla 之书
 
 .. image:: i/snap/19941210-mozilla-book.png
     :align: center
-    :height: 300px
+    :height: 200px
     :alt: WorldWideWeb
     
 .. container:: notes
@@ -1287,9 +1143,52 @@ Mozilla 之书
 
 .. image:: i/snap/19941210-mozilla-book_zh.png
     :align: center
-    :height: 300px
+    :height: 200px
     :alt: WorldWideWeb
     
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+AOL收购Netscape
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/bwar-timeline-2.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+Browser war I 后
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/bwar-timeline-2000-04.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
 .. container:: notes
 
    - WorldWideWeb_FSF_GNU.png
@@ -1322,29 +1221,7 @@ Browser war 2006
 
 .. container:: handout
 
-    ... |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/bwar-timeline-2000-04.png
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Browser war 2006
-==================
-
-.. container:: handout
-
-    ... |lbtc|
+    Fred Wilson从自己网站AVC的访问量分析 |lbtc|
 
 
 .. class:: takahashi7
@@ -1356,90 +1233,6 @@ Browser war 2006
     :alt: WorldWideWeb
     
 
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Firefox 1.0
-==================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/Mozilla_Firefox_1.0_front_page_screenshot.png
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Firefox 1.0
-==================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/Firefox_2.0.0.12.png
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Firefox 3.5
-==================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/Mozilla_Firefox_3.5.png
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Firefox 4
-==================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/Firefox_4.png
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
 .. container:: notes
 
    - WorldWideWeb_FSF_GNU.png
@@ -1466,18 +1259,18 @@ Firefox Logo
    - WorldWideWeb_FSF_GNU.png
 
 
-IE 7.0
+Firefox 1.0
 ==================
 
 .. container:: handout
 
-    ... |lbtc|
+    2004.11.9 |lbtc|
 
 
 .. class:: takahashi7
 
 
-.. image:: i/snap/Internet_Explorer_7.png
+.. image:: i/snap/Mozilla_Firefox_1.0_front_page_screenshot.png
     :align: center
     :height: 500px
     :alt: WorldWideWeb
@@ -1487,15 +1280,34 @@ IE 7.0
    - WorldWideWeb_FSF_GNU.png
 
 
-Browser war 2006
+Firefox 2.0
+==================
+
+.. container:: handout
+
+    2006 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Firefox_2.0.0.12.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+Browser war II
 ==================
 
 .. container:: handout
 
     ... |lbtc|
 
-
-.. class:: takahashi7
 
 
 .. image:: i/snap/bwar-timeline-2005-08.png
@@ -1509,12 +1321,30 @@ Browser war 2006
    - WorldWideWeb_FSF_GNU.png
 
 
+IE 7.0
+==================
+
+.. container:: handout
+
+    2005 Vista |lbtc|
+
+
+.. image:: i/snap/Internet_Explorer_7.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
 Browser war 2008
 ==================
 
 .. container:: handout
 
-    ... |lbtc|
+    Fred Wilson从自己网站AVC的访问量分析 |lbtc|
 
 
 .. class:: takahashi7
@@ -1526,6 +1356,44 @@ Browser war 2008
     :alt: WorldWideWeb
     
 
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+Firefox 3.5
+==================
+
+.. container:: handout
+
+    2008 |lbtc|
+
+.. image:: i/snap/Mozilla_Firefox_3.5.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
+Firefox 4
+==================
+
+.. container:: handout
+
+    2010年1月欧洲市场超过IE, 2011发布4.0 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Firefox_4.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
 .. container:: notes
 
    - WorldWideWeb_FSF_GNU.png
@@ -1558,7 +1426,8 @@ Chrome 2008
 
 .. container:: handout
 
-    `Chrome Time Machine <http://www.google.com/intl/en/chrome/timemachine/>`_ |lbtc|
+    - `Chrome Time Machine <http://www.google.com/intl/en/chrome/timemachine/>`_ 
+    - 2008.9.3正式, 但是,9.1 漫画书已经发布 
 
 
 .. class:: takahashi7
@@ -1621,7 +1490,8 @@ Chrome 2011
 
 .. container:: handout
 
-    `Chrome Time Machine <http://www.google.com/intl/en/chrome/timemachine/>`_ |lbtc|
+    - `Chrome Time Machine <http://www.google.com/intl/en/chrome/timemachine/>`_ 
+    - 2011年7月11 超过FireFox|lbtc|
 
 
 .. class:: takahashi7
@@ -1679,34 +1549,12 @@ Firefox 24
    - WorldWideWeb_FSF_GNU.png
 
 
-Browser war 2012
-==================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/browser2012.jpg
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-
-.. container:: notes
-
-   - browser_war_usage_tlines.png
-
-
 Browser war 2013
 ==================
 
 .. container:: handout
 
-    ... |lbtc|
+    2012年5月21, Chrome 正式成为世界一! |lbtc|
 
 
 .. class:: takahashi7
@@ -1770,7 +1618,8 @@ IE 中国
 
 .. container:: handout
 
-    ... |lbtc|
+    - 排版引擎（Layout Engine或Rendering Engine）
+    - 也被称为浏览器内核、页面渲染引擎或样版引擎 |lbtc|
 
 
 .. class:: takahashi7
@@ -1779,7 +1628,7 @@ IE 中国
     
 .. container:: notes
 
-   - WorldWideWeb_FSF_GNU.png
+   - timeline_of_web_browsers.svg.png
 
 
 IE及其小伙伴
@@ -1878,6 +1727,27 @@ Chrome及其小伙伴
    - WorldWideWeb_FSF_GNU.png
 
 
+浏览器时间线
+==================
+
+.. container:: handout
+
+   `Timeline of web browsers <http://en.wikipedia.org/wiki/Timeline_of_web_browsers>`_  |lbtc|
+
+
+
+.. image:: i/snap/timeline_of_web_browsers.svg.png
+    :align: center
+    :height: 550px
+    :alt: whatbrowser
+
+
+.. container:: notes
+
+   - 
+
+
+
 双核
 =========
 
@@ -1919,7 +1789,7 @@ JS之战
 
 .. class:: takahashi7
 
-    JavaScript
+    JS
     
     引擎
     
@@ -1941,7 +1811,9 @@ Mozilla 的改名游戏
 
 .. class:: takahashi
 
-    SpiderMonkey
+    Spider
+    
+    Monkey
     
 .. container:: notes
 
@@ -1953,7 +1825,7 @@ IE 自个儿
 
 .. container:: handout
 
-    Chakra  |lbtc|
+    Chakra ~ 是的火眼中的能力单位!  |lbtc|
 
 
 .. class:: takahashi7
@@ -1962,7 +1834,7 @@ IE 自个儿
     
 .. container:: notes
 
-   - WorldWideWeb_FSF_GNU.png
+   - 
 
 
 Opera 自个儿
@@ -1973,7 +1845,7 @@ Opera 自个儿
     ... |lbtc|
 
 
-.. class:: takahashi7
+.. class:: takahashi
 
     Carakan
     
@@ -1990,7 +1862,7 @@ Google 及其大波小伙伴
     催生出了 Node.js |lbtc|
 
 
-.. class:: takahashi7
+.. class:: takahashi9
 
     :orange:`V8`
     
@@ -2034,7 +1906,7 @@ Google 及其大波小伙伴
 
 .. image:: i/snap/snap4ZQMBP_131009_whatbrowser.png
     :align: center
-    :height: 300px
+    :height: 400px
     :alt: whatbrowser
 
 
@@ -2044,8 +1916,8 @@ Google 及其大波小伙伴
 
 
 
-为毛
-==================
+战争是政治的沿续
+====================================
 
 .. container:: handout
 
@@ -2122,8 +1994,11 @@ WWW一点也不万维
 
 .. class:: takahashi7
 
-    截屏
-    
+.. image:: i/snap/Mozilla_Firefox_1.0_front_page_screenshot.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+        
 .. container:: notes
 
    - 
@@ -2185,12 +2060,14 @@ WWW一点也不万维
 
 .. container:: handout
 
-    网页只能 |lbtc|
+    - 1990 "小应用程序" 
+    - 1997 Sun vs Microsoft
+    - 2010 Oracle vs Google
 
 
 .. class:: takahashi
 
-    JavaApplet
+    `Java applet <http://en.wikipedia.org/wiki/Java_applet>`_
     
 .. container:: notes
 
@@ -2202,19 +2079,25 @@ WWW一点也不万维
 
 .. container:: handout
 
-    网页只能 |lbtc|
+    - 1998 Macromedia Flash 3.0
+    - 全新的可能 |lbtc|
 
 
 .. class:: takahashi7
 
-    Flash
+
+.. image:: i/snap/Flash_Screenshot.JPG
+    :align: center
+    :height: 400px
+
+    
     
 .. container:: notes
 
    - 
 
 
-Flash
+Flash 动画
 ====================================
 
 .. container:: handout
@@ -2224,28 +2107,36 @@ Flash
 
 .. class:: takahashi7
 
-    小动画
+
+.. image:: i/snap/flash_xiaoxiao.png
+    :align: center
+    :height: 400px
+
+    
     
 .. container:: notes
 
    - 
 
 
-Flash
+Flash 游戏
 ====================================
 
 .. container:: handout
 
-    网页有限丰富 |lbtc|
+    开创页游时代 |lbtc|
 
 
 .. class:: takahashi7
 
-    小游戏
+.. image:: i/snap/flash_game.png
+    :align: center
+    :height: 400px
+
     
 .. container:: notes
 
-   - 
+   - flash_game.png
 
 
 Flash
@@ -2258,16 +2149,18 @@ Flash
 
 .. class:: takahashi7
 
-    交互式
-    
-    截屏
+
+.. image:: i/snap/flash_site.png
+    :align: center
+    :height: 500px
+    :target: http://www.liliaplanet.com/
     
 .. container:: notes
 
-   - 
+   - ...
 
 
-Flash灭!
+Flash 未灭!
 ====================================
 
 .. container:: handout
@@ -2275,9 +2168,9 @@ Flash灭!
     当然,还有你懂的原因... |lbtc|
 
 
-.. class:: takahashi7
+.. class:: takahashi8
 
-    慢!
+    慢
     
 .. container:: notes
 
@@ -2328,7 +2221,13 @@ WWW开始万维
 
 .. class:: takahashi7
 
-    邮件
+.. image:: i/snap/zqtool-gmail_1014x497_scrot.png
+    :align: center
+    :height: 400px
+    :alt: whatbrowser
+    :target: #
+
+    
     
 .. container:: notes
 
@@ -2340,12 +2239,24 @@ WWW开始万维
 
 .. container:: handout
 
-    网页可以 |lbtc|
+    - `Aviary <http://www.aviary.com/web>`_
+    - `Muro <http://muro.deviantart.com/>`_
+    - `DarkRoom <http://mugtug.com/darkroom/>`_
+    - `Sketchpad <http://mugtug.com/sketchpad/>`_
+    - `Pixastic <http://editor.pixastic.com/>`_
+    - `Bomomo <http://bomomo.com/>`_
+    - `Harmony <http://mrdoob.com/projects/harmony/>`_
 
 
 .. class:: takahashi7
 
-    PS
+
+.. image:: i/snap/SketchPad.jpg
+    :align: center
+    :height: 200px
+    :alt: whatbrowser
+    :target: http://mudcu.be/sketchpad/
+
     
 .. container:: notes
 
@@ -2380,23 +2291,6 @@ WWW开始万维
 .. class:: takahashi7
 
     购物
-    
-.. container:: notes
-
-   - 
-
-
-WWW开始万维
-====================================
-
-.. container:: handout
-
-    网页可以 |lbtc|
-
-
-.. class:: takahashi7
-
-    游戏
     
 .. container:: notes
 
@@ -2464,7 +2358,9 @@ Browser War III
 
 .. class:: takahashi7
 
-    web\ :orange:`vs`\ app
+    web\ :orange:`vs`
+    
+    app
     
 .. container:: notes
 
@@ -2479,7 +2375,7 @@ app优势
     原生 |lbtc|
 
 
-.. class:: takahashi7
+.. class:: takahashi9
 
     快
     
@@ -2513,7 +2409,7 @@ web优势
     跨平台/无升级 |lbtc|
 
 
-.. class:: takahashi7
+.. class:: takahashi9
 
     快
     
@@ -2556,7 +2452,7 @@ web问题
    - 
 
 
-兼顾?!
+所以
 ====================================
 
 .. container:: handout
@@ -2566,14 +2462,14 @@ web问题
 
 .. class:: takahashi7
 
-    所以
+    统一
     
 .. container:: notes
 
    - 
 
 
-兼顾?!
+Chrome OS
 ==================
 
 .. container:: handout
@@ -2594,7 +2490,7 @@ web问题
    - WorldWideWeb_FSF_GNU.png
 
 
-硬件!
+ChromeBook
 ====================================
 
 .. container:: handout
@@ -2615,7 +2511,7 @@ web问题
    - chrome_book.png
 
 
-兼顾?!
+Firefox OS
 ====================================
 
 .. container:: handout
@@ -2636,7 +2532,7 @@ web问题
    - 
 
 
-硬件
+Firefox OS 手机
 ====================================
 
 .. container:: handout
@@ -2667,9 +2563,9 @@ web问题
 
 
 
-.. image:: i/snap/snap4ZQMBP_131009_whatbrowser.png
+.. image:: i/logo/browser-logos.jpeg
     :align: center
-    :height: 300px
+    :height: 200px
     :alt: whatbrowser
 
 
@@ -2789,7 +2685,9 @@ web问题
 
 .. class:: takahashi7
 
-    script
+    User
+    
+    Script
 
 .. container:: notes
 
@@ -2804,7 +2702,7 @@ web问题
     也叫 Add-on |lbtc|
 
 
-.. class:: takahashi7
+.. class:: takahashi
 
     Extensions
 
@@ -2836,8 +2734,6 @@ Extensions形式
 .. container:: handout
 
     Browser action |lbtc|
-
-
 
 .. image:: i/snap/crx_browser_act.png
     :align: center
@@ -2928,16 +2824,18 @@ Extensions形式
 
 .. container:: handout
 
-    我们的布局! |lbtc|
-
+    金山网络出品! |lbtc|
 
 .. class:: takahashi7
 
-    截屏
+.. image:: i/snap/liebao_cn.png
+    :align: center
+    :height: 500px
+    :alt: whatbrowser
 
 .. container:: notes
 
-   - Mentor
+   - liebao_cn.png
 
 
 猎豹浏览器
@@ -2950,11 +2848,14 @@ Extensions形式
 
 .. class:: takahashi7
 
-    手机截屏
+.. image:: i/snap/liebao_mobile.png
+    :align: center
+    :height: 400px
+    :alt: whatbrowser
 
 .. container:: notes
 
-   - Mentor
+   - liebao_cool liebao_design.jpg
 
 
 猎豹浏览器
@@ -2962,29 +2863,135 @@ Extensions形式
 
 .. container:: handout
 
-    我们的布局! |lbtc|
+    炫酷! |lbtc|
 
 
 .. class:: takahashi7
 
-    平板截屏
+.. image:: i/snap/liebao_cool.png
+    :align: center
+    :height: 400px
+    :alt: whatbrowser
+
+.. container:: notes
+
+   - liebao_cool liebao_design.jpg
+
+
+猎豹浏览器
+==================
+
+.. container:: handout
+
+    设计感! |lbtc|
+
+
+.. class:: takahashi7
+
+.. image:: i/snap/liebao_design.jpg
+    :align: center
+    :height: 320px
+    :alt: whatbrowser
+
+.. container:: notes
+
+   - liebao_cool liebao_design.jpg
+
+
+Chrome 的配置界面
+====================================
+
+.. container:: handout
+
+    丰富的定制 |lbtc|
+
+
+.. class:: takahashi7
+
+.. image:: i/snap/chrome_opt.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
 
 .. container:: notes
 
    - Mentor
 
 
-是Chrome的伙伴
-==================
+猎豹 的配置界面
+====================================
 
 .. container:: handout
 
-    v26核 |lbtc|
+    丰富的定制 |lbtc|
 
 
 .. class:: takahashi7
 
-    Chromium
+.. image:: i/snap/liebao_opt.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
+
+.. container:: notes
+
+   - Mentor
+
+
+Chrome 的配置界面
+====================================
+
+.. container:: handout
+
+    丰富的定制 |lbtc|
+
+
+.. class:: takahashi7
+
+.. image:: i/snap/chrome_opt_pop.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
+
+.. container:: notes
+
+   - Mentor
+
+
+猎豹 的配置界面
+====================================
+
+.. container:: handout
+
+    丰富的定制 |lbtc|
+
+
+.. class:: takahashi7
+
+.. image:: i/snap/liebao_opt_pop.png
+    :align: center
+    :height: 400px
+    :alt: whatbrowser
+
+.. container:: notes
+
+   - chrome_opt_pop
+
+
+猎豹 的配置界面
+====================================
+
+.. container:: handout
+
+    丰富的定制 |lbtc|
+
+
+.. class:: takahashi7
+
+.. image:: i/snap/liebao_opt_menu.png
+    :align: center
+    :height: 400px
+    :alt: whatbrowser
 
 .. container:: notes
 
@@ -3001,7 +3008,10 @@ Extensions形式
 
 .. class:: takahashi7
 
-    配置截屏
+.. image:: i/snap/liebao_top-left.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
 
 .. container:: notes
 
@@ -3018,41 +3028,10 @@ Extensions形式
 
 .. class:: takahashi7
 
-    细节截屏
-
-.. container:: notes
-
-   - Mentor
-
-
-猎豹浏览器皮肤
-==================
-
-.. container:: handout
-
-    丰富的定制 |lbtc|
-
-
-.. class:: takahashi7
-
-    细节截屏2
-
-.. container:: notes
-
-   - Mentor
-
-
-猎豹浏览器皮肤
-==================
-
-.. container:: handout
-
-    丰富的定制 |lbtc|
-
-
-.. class:: takahashi7
-
-    细节截屏3
+.. image:: i/snap/liebao_top-left-full.png
+    :align: center
+    :height: 300px
+    :alt: whatbrowser
 
 .. container:: notes
 
@@ -3069,11 +3048,14 @@ Show出你的猎豹范儿
 
 .. class:: takahashi7
 
-    皮肤大赛
+.. image:: i/snap/liebao_skin_game.png
+    :align: center
+    :height: 400px
+    :alt: whatbrowser
 
 .. container:: notes
 
-   - Mentor
+   - 
 
 
 Show出你的猎豹范儿
@@ -3098,23 +3080,6 @@ Show出你的猎豹范儿
 
 .. container:: handout
 
-    大奖励 |lbtc|
-
-
-.. class:: takahashi7
-
-    Smart照片
-
-.. container:: notes
-
-   - Mentor
-
-
-Show出你的猎豹范儿
-====================================
-
-.. container:: handout
-
     专项奖品 |lbtc|
 
 
@@ -3125,6 +3090,27 @@ Show出你的猎豹范儿
 .. container:: notes
 
    - Mentor
+
+
+大赛大奖!
+====================================
+
+.. container:: handout
+
+    100,000元 or |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/smart_car.png
+    :align: center
+    :height: 400px
+    :alt: whatbrowser
+
+.. container:: notes
+
+   - smart_car
 
 
 <brief/>
@@ -3147,6 +3133,31 @@ Show出你的猎豹范儿
 .. container:: notes
 
    - 
+
+
+
+
+
+总之
+=========
+
+.. container:: handout
+
+   期望可以记住的~单位时间可以记住的只有7+-2 个 |zqeye|
+
+.. class:: incremental takahashi
+
+    * 浏览器战争就是抢夺入口
+    * 浏览器已是互联网核心入口
+    * 浏览器是未来移动应用的必然平台
+    * 猎豹皮肤大赛你值得掺合!
+
+.. container:: notes
+
+   - 
+
+
+
 
 
 
@@ -3220,32 +3231,6 @@ Volunteer: designer
    - Mentor
 
 
-总之
-=========
-
-.. container:: handout
-
-   期望可以记住的~单位时间可以记住的只有7+-2 个 |zqeye|
-
-.. class:: incremental takahashi
-
-    * 浏览器由来久矣
-    * 浏览器已经是互联网核心入口
-    * 浏览器是移动应用的未来平台
-    * 从皮肤扩展人手体验现代浏览器技术
-    * 猎豹皮肤大赛你值得掺合!
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
 <版本/>
 =========
 
@@ -3254,13 +3239,15 @@ Volunteer: designer
    |lbtc|
 
 
+- 131013 完成主要图片收集
+- 131010 完成内容框架
 - 131001 构思
 
 
 :反馈:
     zoomquiet+s5@gmail.com
 :查阅:
-    http://zoomquiet.org/res/s5/130727-gdgzhgdl
+    http://zoomquiet.org/res/s5/131001-war-of-browser
 
 
 `S5 <http://www.meyerweb.com/eric/tools/s5/>`__
