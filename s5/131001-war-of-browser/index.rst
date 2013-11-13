@@ -72,7 +72,7 @@
 
 .. footer:: 
 
-   `Zoom.Quiet`_ v13.10.14 |cc-byncsa15| 推荐用 |lbicon| 获得最佳游览效果
+   `Zoom.Quiet`_ v13.11.13 |cc-byncsa15| 推荐用 |lbicon| 获得最佳游览效果
 
 <免责/>
 =========
@@ -508,37 +508,6 @@ __ http://ecug.org/
 
 
 
-2008:|SLL.org| "SLL.org"
-======================================================
-
-.. container:: handout
-
-   spreading Pythonic everywhere to everyone... |zqeye|
-
-
-.. class:: takahashi4
-
-    教育大发现
-
-
-.. class:: takahashi2 center
-
-    http://sociallearnlab.org/
-
-
-.. |SLL.org| image:: i/logo/2018-gz-sll.png
-    :scale: 100 %
-    :alt: SLL
-    :target: http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&variant=zh-cn
-
-
-
-.. container:: notes
-
-   - 
-
-
-
 2009-09-01 出版
 ======================================================
 
@@ -597,7 +566,7 @@ PyCon2012ChinA
     .. image:: i/snap/snap4ZQMBP_pycon2012cn.png
         :align: center
         :alt: python-cn@googlegroups.com
-        :target: http://cn.pycon.org/2011
+        :target: http://cn.pycon.org/2012
 
 
 .. container:: notes
@@ -621,6 +590,28 @@ PyCon2012ChinA
         :height: 600px
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+PyCon2013ChinA
+======================================================
+
+.. container:: handout
+
+   今年3城联联办... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2013cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2013
 
 
 .. container:: notes
@@ -1088,69 +1079,6 @@ IE 4.0
    - WorldWideWeb_FSF_GNU.png
 
 
-Mozilla
-==================
-
-.. container:: handout
-
-    1994 |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/Mozilla_Application_Suite_for_Mac_OS_9_Startup_Screen.png
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Mozilla 之书
-==================
-
-.. container:: handout
-
-    1994年12月10日 |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/19941210-mozilla-book.png
-    :align: center
-    :height: 200px
-    :alt: WorldWideWeb
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Mozilla 之书
-==================
-
-.. container:: handout
-
-    1994年12月10日 |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/19941210-mozilla-book_zh.png
-    :align: center
-    :height: 200px
-    :alt: WorldWideWeb
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
 AOL收购Netscape
 ==================
 
@@ -1208,28 +1136,6 @@ Browser war II
 .. image:: i/snap/bwar-timeline-3.png
     :align: center
     :height: 500px
-    :alt: WorldWideWeb
-    
-
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Browser war 2006
-==================
-
-.. container:: handout
-
-    Fred Wilson从自己网站AVC的访问量分析 |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/browser2006.jpg
-    :align: center
-    :height: 400px
     :alt: WorldWideWeb
     
 
@@ -1301,26 +1207,6 @@ Firefox 2.0
    - WorldWideWeb_FSF_GNU.png
 
 
-Browser war II
-==================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-
-.. image:: i/snap/bwar-timeline-2005-08.png
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
 IE 7.0
 ==================
 
@@ -1334,28 +1220,6 @@ IE 7.0
     :height: 500px
     :alt: WorldWideWeb
     
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Browser war 2008
-==================
-
-.. container:: handout
-
-    Fred Wilson从自己网站AVC的访问量分析 |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/browser2008.jpg
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-
 .. container:: notes
 
    - WorldWideWeb_FSF_GNU.png
@@ -1399,18 +1263,16 @@ Firefox 4
    - WorldWideWeb_FSF_GNU.png
 
 
-Browser war III
+Browser war II
 ==================
 
 .. container:: handout
 
-    进入 |lbtc|
+    ... |lbtc|
 
 
-.. class:: takahashi7
 
-
-.. image:: i/snap/bwar-timeline-2008-11.png
+.. image:: i/snap/bwar-timeline-2005-08.png
     :align: center
     :height: 500px
     :alt: WorldWideWeb
@@ -1419,6 +1281,8 @@ Browser war III
 .. container:: notes
 
    - WorldWideWeb_FSF_GNU.png
+
+
 
 
 Chrome 2008
@@ -1528,27 +1392,6 @@ Chrome 2012
    - WorldWideWeb_FSF_GNU.png
 
 
-Firefox 24
-==================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-.. class:: takahashi7
-
-
-.. image:: i/snap/Firefox_24_mac_2013.PNG
-    :align: center
-    :height: 500px
-    :alt: WorldWideWeb
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
 Browser war 2013
 ==================
 
@@ -1571,6 +1414,27 @@ Browser war 2013
    - browser_war_usage_tlines.png
 
 
+Firefox 24
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/Firefox_24_mac_2013.PNG
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
+
 IE 9.0
 ==================
 
@@ -1583,6 +1447,61 @@ IE 9.0
 
 
 .. image:: i/snap/Internet_Explorer_9_zh-hk.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - ie_june_2013-730x528-665x480
+
+
+黒IE
+==================
+
+.. container:: handout
+
+    成为时尚 |lbtc|
+
+
+.. class:: incremental takahashi
+
+ * 如何评价IE这款浏览器？
+ * 没有它，你下载不了其他浏览器！
+
+    
+.. container:: notes
+
+   - timeline_of_web_browsers.svg.png
+
+
+IE 的勇气
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. image:: i/IE_勇气.jpg
+    :align: center
+    :height: 400px
+    :alt: WorldWideWeb
+    
+.. container:: notes
+
+   - ie_june_2013-730x528-665x480
+
+
+IE 的响应
+==================
+
+.. container:: handout
+
+    ... |lbtc|
+
+
+.. image:: i/IE_速度.jpg
     :align: center
     :height: 500px
     :alt: WorldWideWeb
@@ -1613,13 +1532,34 @@ IE 中国
    - ie_june_2013-730x528-665x480
 
 
+Browser war III
+==================
+
+.. container:: handout
+
+    进入 |lbtc|
+
+
+.. class:: takahashi7
+
+
+.. image:: i/snap/bwar-timeline-2008-11.png
+    :align: center
+    :height: 500px
+    :alt: WorldWideWeb
+    
+
+.. container:: notes
+
+   - WorldWideWeb_FSF_GNU.png
+
 内核之战
 ==================
 
 .. container:: handout
 
     - 排版引擎（Layout Engine或Rendering Engine）
-    - 也被称为浏览器内核、页面渲染引擎或样版引擎 |lbtc|
+    - 也被称为浏览器内核、页面渲染引擎或样版引擎 
 
 
 .. class:: takahashi7
@@ -1629,60 +1569,6 @@ IE 中国
 .. container:: notes
 
    - timeline_of_web_browsers.svg.png
-
-
-IE及其小伙伴
-==================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-.. class:: takahashi7
-
-    Trident
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Opera 自个儿
-==================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-.. class:: takahashi7
-
-    Presto
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Firefox及其小伙伴
-====================================
-
-.. container:: handout
-
-    - SeaMonkey
-    - Galeon
-    - Vimperator
-    - ...
-
-
-.. class:: takahashi7
-
-    Gecko
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
 
 
 WebKit及其大波小伙伴
@@ -1748,37 +1634,6 @@ Chrome及其小伙伴
 
 
 
-双核
-=========
-
-.. container:: handout
-
-   只有中国... |lbtc|
-
-.. class:: incremental
-
-    * 2004.11      Netscape0.56发布，这是首款支持双内核的浏览器
-    * 2005  日本的Fenrir公司发布了Sleipnir2，以外挂型式支持双核
-    * 2007           Firefox发布了IE Tab扩展（作者：洪任谕）
-    * 2008           傲游率先提出双核浏览器概念
-    * 2009.12      Google发布Chrome IE Tab扩展
-    * 2010.4.8     搜狐公司发布了搜狗高速浏览器2.0正式版
-    * 2010.4.23   傲游公司发布了Maxthon3.0.9.10 Beta
-    * 2010.5.25   腾讯公司发布QQ浏览器5 preview1
-    * 2010.9.15   奇虎360公司发布了360极速浏览器（4.0.1.500）
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-
-
-
 JS之战
 ==================
 
@@ -1792,28 +1647,6 @@ JS之战
     JS
     
     引擎
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
-
-
-Mozilla 的改名游戏
-==================
-
-.. container:: handout
-
-    - TraceMonkey 
-    - JaegerMonkey
-    - IonMonkey
-    - OdinMonkey
-
-
-.. class:: takahashi
-
-    Spider
-    
-    Monkey
     
 .. container:: notes
 
@@ -1835,23 +1668,6 @@ IE 自个儿
 .. container:: notes
 
    - 
-
-
-Opera 自个儿
-====================================
-
-.. container:: handout
-
-    ... |lbtc|
-
-
-.. class:: takahashi
-
-    Carakan
-    
-.. container:: notes
-
-   - WorldWideWeb_FSF_GNU.png
 
 
 Google 及其大波小伙伴
@@ -1926,14 +1742,14 @@ Google 及其大波小伙伴
 
 .. class:: takahashi7
 
-    战为何?!
+    战为何
     
 .. container:: notes
 
    - ..
 
 
-改变一切的技术
+改变Web 的组合技
 ====================================
 
 .. container:: handout
@@ -2248,14 +2064,9 @@ WWW开始万维
     - `Harmony <http://mrdoob.com/projects/harmony/>`_
 
 
-.. class:: takahashi7
+.. class:: takahashi9
 
-
-.. image:: i/snap/SketchPad.jpg
-    :align: center
-    :height: 200px
-    :alt: whatbrowser
-    :target: http://mudcu.be/sketchpad/
+    :orange:`Ps`
 
     
 .. container:: notes
@@ -2573,27 +2384,10 @@ Firefox OS 手机
 
    - Google 注意到大众已经完全不知道什么是浏览器了
 
-
-
-未来是浏览器的!
-==================
-
-.. container:: handout
-
-   `What Browser? – Google <http://www.whatbrowser.org/>`_  |lbtc|
-
-
-.. class:: incremental
-
     * ①新设备和操作界面层出不穷，为每个系统单独开发一个APP，越来越不现实
     * ②大多数应用没必要调用系统API，比如天气预报
     * ③不必安装，升级瞬间完成
     * ④不断增加的各种功能，使得HTML5已接近原生软件的体验
-
-
-.. container:: notes
-
-   - 
 
 
 <brief/>
@@ -2722,97 +2516,6 @@ Firefox OS 手机
 .. class:: takahashi7
 
     Themes
-
-.. container:: notes
-
-   - Mentor
-
-
-Extensions形式
-==================
-
-.. container:: handout
-
-    Browser action |lbtc|
-
-.. image:: i/snap/crx_browser_act.png
-    :align: center
-    :height: 300px
-    :alt: whatbrowser
-    
-.. container:: notes
-
-   - Mentor
-
-
-Extensions形式
-==================
-
-.. container:: handout
-
-    POP |lbtc|
-
-
-
-.. image:: i/snap/crx_browser_act_pop.png
-    :align: center
-    :height: 300px
-    :alt: whatbrowser
-    
-.. container:: notes
-
-   - Mentor
-
-
-Extensions形式
-==================
-
-.. container:: handout
-
-    Page action |lbtc|
-
-
-.. image:: i/snap/crx_page_act.png
-    :align: center
-    :height: 300px
-    :alt: whatbrowser
-    
-.. container:: notes
-
-   - Mentor
-
-
-Extensions形式
-==================
-
-.. container:: handout
-
-    Page action POP |lbtc|
-
-
-.. image:: i/snap/crx_page_act_pop.png
-    :align: center
-    :height: 300px
-    :alt: whatbrowser
-    
-.. container:: notes
-
-   - Mentor
-
-
-Extensions形式
-==================
-
-.. container:: handout
-
-    Content script |lbtc|
-
-
-.. image:: i/snap/crx_content_script.png
-    :align: center
-    :height: 300px
-    :alt: whatbrowser
-    
 
 .. container:: notes
 
@@ -3063,7 +2766,7 @@ Show出你的猎豹范儿
 
 .. container:: handout
 
-    你的范儿! |lbtc|
+    非专业才可期待 |lbtc|
 
 
 .. class:: takahashi7
@@ -3080,7 +2783,7 @@ Show出你的猎豹范儿
 
 .. container:: handout
 
-    专项奖品 |lbtc|
+    专项奖品,真实案例,积累社会资本! |lbtc|
 
 
 .. class:: takahashi7
@@ -3105,7 +2808,7 @@ Show出你的猎豹范儿
 
 .. image:: i/snap/smart_car.png
     :align: center
-    :height: 400px
+    :height: 500px
     :alt: whatbrowser
 
 .. container:: notes
@@ -3163,74 +2866,6 @@ Show出你的猎豹范儿
 
 
 
-我们都是
-==================
-
-.. container:: handout
-
-    是也乎 |lbtc|
-
-
-.. class:: takahashi7
-
-    不\ :orange:`折腾`\ 要死星人
-
-.. container:: notes
-
-   - 
-
-
-Volunteer
-==================
-
-.. container:: handout
-
-    社区的肉体! |lbtc|
-
-
-.. class:: takahashi7
-
-    :orange:`志愿`
-
-.. container:: notes
-
-   - Mentor
-
-
-Volunteer: spreader
-====================================
-
-.. container:: handout
-
-    线上/下 传播 |lbtc|
-
-
-.. class:: takahashi7
-
-    :orange:`宣传!`
-
-.. container:: notes
-
-   - Mentor
-
-
-Volunteer: designer
-====================================
-
-.. container:: handout
-
-    各种创意... |lbtc|
-
-
-.. class:: takahashi7
-
-    :orange:`设计!`
-
-.. container:: notes
-
-   - Mentor
-
-
 <版本/>
 =========
 
@@ -3239,6 +2874,7 @@ Volunteer: designer
    |lbtc|
 
 
+- 131113 精简! 为澳门 IT.汇
 - 131013 完成主要图片收集
 - 131010 完成内容框架
 - 131001 构思

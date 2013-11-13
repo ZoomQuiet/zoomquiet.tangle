@@ -1,0 +1,10 @@
+130924 Guido
+http://weibo.com/1854260585/AaU0C7lVg?mod=weibotime
+gvanrossum在twitter上回复我了！！！@ZoomQuiet @蒋涛CSDN @developerWorks 突然觉得自己回复的好屌丝！
+
+
+131025
+
+PEP 453 -- Explicit bootstrapping of pip in Python installations 
+    http://www.python.org/dev/peps/pep-0453/
+

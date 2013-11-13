@@ -70,7 +70,7 @@ TPLidxHTM+='''
 </a>
 powered by:
     <a href="http://www.python.org/">Python</a>
-    ,<a href="http://webpages.charter.net/edreamleo/front.html">Leo</a>
+    ,<a href="http://leoeditor.com/">Leo</a>
     ,<a href="http://www.graphviz.org/About.php">graphviz</a>
     ,<a href="http://www.inkscape.org/">Inkscape</a>
     ,<a href="http://www.catb.org/hacker-emblem/">Hacker</a>

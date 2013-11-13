@@ -1,0 +1,94 @@
+##在这里详述 SaJinshanReDeploy/MapIjinshanHg.
+##在这里详述 GraphVizForMoin/DotLegend/BaseElements.
+    /*生成命令:
+$ dot -Tpng theme_gen4psd.dot -o theme_gen4psd.png 
+-Tcmapx -o lb-crx-roles.map
+    全局设定
+    plaintext
+{{{#!GraphViz dot
+    */
+
+digraph G4theme_gen4psd {
+    /*全局设定*/
+    graph [label="软件样式自然生成-流程图"
+        ,fontsize=14.0
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.3,center=1,ratio=compress
+        ,rankdir=TB
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,shape=component 
+        ];
+
+    edge [fontsize=9.0,fontcolor="#333333"
+        ,fontname="WenQuanYi Micro Hei"
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+    /*图元声明
+    start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+  ,style="rounded,dotted"];
+*/
+
+
+    designer [label="设计师",shape=egg];
+        PSD [label=".psd",shape=note];
+    designer->PSD [label="0.0\n设计"];
+
+    PSDparser [label="图层解析器",shape=component];
+    PSDexport [label="图元输出器",shape=component];
+        CRXprototype [label="扩展原型",shape=note];
+
+    THEMER [label="样式组合器",shape=component];
+
+    CRXparser [label="扩展解析器",shape=component];
+    CRXgenerater [label="扩展生成器",shape=component];
+        CRX [label=".crx",shape=note];
+
+    /*图例关系
+    */
+
+    PSD->PSDparser [label="1.0"];
+    PSDparser->PSDexport [label="1.1"];
+
+    CRXprototype->CRXparser [label="2.0"];
+
+    {PSDexport CRXparser}->THEMER[label="2.1"];
+        THEMER->CRXgenerater [label="2.2"];
+    
+    CRXgenerater->CRX [label="3.0"];
+
+    { rank=same; DESIGN PSD; }
+    { rank=same; PARSE  PSDparser; }
+    { rank=same; CHK    THEMER; }
+    { rank=same; DONE   CRX; }
+
+    DESIGN[label="设计阶段",shape=plaintext];
+    PARSE[label="解析阶段",shape=plaintext];
+    CHK[label="匹配组合",shape=plaintext];
+    DONE[label="完成阶段",shape=plaintext];
+    DESIGN->PARSE->CHK->DONE;
+
+    edge [style=invis];
+
+
+}
+

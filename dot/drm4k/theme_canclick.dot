@@ -1,0 +1,77 @@
+/*生成命令:
+$ dot -Tpng theme_canclick.dot -o theme_canclick.png 
+-Tcmapx -o lb-crx-roles.map
+    全局设定
+    plaintext
+{{{#!GraphViz dot
+    */
+
+digraph G4theme_canclick {
+    /*全局设定*/
+    graph [label="软件可点击样式-流程图"
+        ,fontsize=14.0
+        ,fontname="WenQuanYi Micro Hei"
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.3,center=1,ratio=compress
+        ,rankdir=TB
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,fontname="WenQuanYi Micro Hei"
+        ,shape=component 
+        ];
+
+    edge [fontsize=9.0,fontcolor="#333333"
+        ,fontname="WenQuanYi Micro Hei"
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+/*
+    src [label="源码",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="http://code.google.com/p/zoomquiet/source/browse/dot/obp/csdndr1-km.dot?repo=tangle"];
+    /*图元声明
+    start       [label="流程开始/结束",shape=point];
+    end         [label="",shape=doublecircle,fillcolor=red];
+
+    box         [label="实体/对象",shape=box];
+    ellipse     [label="行动/节点",shape=ellipse];
+    egg         [label="用户/人物",shape=egg];
+    plaintext   [label="状态/属性",shape=plaintext,fillcolor=whitesmoke];
+    diamond     [label="判别",shape=diamond];
+    note        [label="注释",shape=note];
+    tab         [label="目录/模块",shape=tab];
+    db          [label="数据库",shape=box3d];
+    component   [label="主机/组件",shape=component];
+  ,style="rounded,dotted"];
+*/
+
+    CORE [label="核心软件",shape=component];
+        COREapiTHEME [label="核心样式接口",shape=component];
+        CLICKaction [label="点击事件",shape=tab];
+
+    THEMER [label="样式",shape=component];
+        EMBEDscript [label="嵌入脚本",shape=note];
+
+    EMBEDparser [label="嵌入解析",shape=component];
+
+    OUTSITES [label="外部资源",shape=ellipse];
+    /*图例关系
+    PSDparser->PSDexport [label="1.1"];
+    */
+
+    CORE->COREapiTHEME [label="0.0"];
+
+    THEMER->EMBEDscript [label="1.0"];
+    EMBEDscript->EMBEDparser [label="1.1"];
+
+    EMBEDparser->COREapiTHEME [label="2.0"];
+    COREapiTHEME->CORE [label="2.1"];
+
+    CORE->CLICKaction [label="3.0"];
+    CLICKaction->OUTSITES [label="3.1"];
+
+    edge [style=invis];
+
+}
+
