@@ -138,8 +138,8 @@
 <v t="zoomq.20100726130819.6001"><vh>KM:持续改进</vh></v>
 </v>
 </v>
-<v t="zoomq.20130510094724.14073" a="E"><vh>131001-war-of-browser</vh>
-<v t="zoomq.20130510094724.14074" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20130510094724.14073"><vh>131001-war-of-browser</vh>
+<v t="zoomq.20130510094724.14074"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130510094724.14075"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14076"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20131007093121.27727"><vh>免责</vh>
@@ -184,7 +184,7 @@
 </v>
 <v t="zoomq.20131007093121.27788"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20131007093121.27718" a="E"><vh>brief1</vh>
+<v t="zoomq.20131007093121.27718"><vh>brief1</vh>
 <v t="zoomq.20131007093121.27790"><vh>什么是浏览器</vh></v>
 <v t="zoomq.20131007093121.27791"><vh>浏览器之战</vh></v>
 <v t="zoomq.20131007093121.27793"><vh>preBWar</vh>
@@ -237,7 +237,7 @@
 <v t="zoomq.20131007093121.27848"><vh>V8</vh></v>
 </v>
 </v>
-<v t="zoomq.20131011103836.15907" a="E"><vh>brief2</vh>
+<v t="zoomq.20131011103836.15907"><vh>brief2</vh>
 <v t="zoomq.20131011103836.15909"><vh>什么是浏览器</vh></v>
 <v t="zoomq.20131007093121.29747"><vh>Web-&gt;App</vh>
 <v t="zoomq.20131007093121.29748"><vh>Ajax</vh></v>
@@ -281,7 +281,7 @@
 </v>
 <v t="zoomq.20131007093121.29839"><vh>什么是浏览器</vh></v>
 </v>
-<v t="zoomq.20131011103836.15910" a="E"><vh>brief3</vh>
+<v t="zoomq.20131011103836.15910"><vh>brief3</vh>
 <v t="zoomq.20130510094724.14191"><vh>折腾</vh></v>
 <v t="zoomq.20131007093121.29855"><vh>chrome扩展</vh>
 <v t="zoomq.20131007093121.29857"><vh>Plugin</vh></v>
@@ -304,7 +304,7 @@
 <v t="zoomq.20131011103836.15914"><vh>细节截屏 tl</vh></v>
 <v t="zoomq.20131013112738.15704"><vh>细节截屏 tl</vh></v>
 </v>
-<v t="zoomq.20131011103836.15923" a="E"><vh>皮肤大赛</vh>
+<v t="zoomq.20131011103836.15923"><vh>皮肤大赛</vh>
 <v t="zoomq.20131011103836.15924"><vh>求创意</vh></v>
 <v t="zoomq.20131011103836.15926"><vh>重学生</vh></v>
 <v t="zoomq.20131011103836.15925"><vh>大赛大奖</vh></v>
@@ -747,7 +747,7 @@
 <v t="zoomq.20130726110041.14985"><vh>GDG</vh></v>
 </v>
 </v>
-<v t="zoomq.20130510094724.15679"><vh>ZQ:2012</vh>
+<v t="zoomq.20130510094724.15679" a="E"><vh>ZQ:2012</vh>
 <v t="zoomq.20130426100228.15153"><vh>121020-how2make-tech-party</vh>
 <v t="zoomq.20130426100228.15154"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130426100228.15155"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -1832,7 +1832,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20120423093831.20420"><vh>120229-time2km</vh>
+<v t="zoomq.20120423093831.20420" a="E"><vh>120229-time2km</vh>
 <v t="zoomq.20120608161547.16864" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20120608161547.16865"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120608161547.16866"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -2021,7 +2021,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20130510094724.15677" a="E"><vh>ZQ:2011</vh>
+<v t="zoomq.20130510094724.15677"><vh>ZQ:2011</vh>
 <v t="zoomq.20111013085658.9846" a="E"><vh>111111-pyconchina-mq-taste</vh>
 <v t="zoomq.20111111090027.11917"><vh>@nosent index.rst</vh>
 <v t="zoomq.20111111090027.11918"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -2907,7 +2907,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20130510094724.15676" a="E"><vh>ZQ:2010</vh>
+<v t="zoomq.20130510094724.15676"><vh>ZQ:2010</vh>
 <v t="zoomq.20101214094417.7839"><vh>101217-TimeMana</vh>
 <v t="zoomq.20101215104953.9379"><vh>@nosent index.rst</vh>
 <v t="zoomq.20101215104953.9380"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -99485,7 +99485,7 @@ GPL
 .. include:: &lt;s5defs.txt&gt;
 
 ==================================================================
-时.识\ :sup:`'管理`
+知.时\ :sup:`管理`
 ==================================================================
 
 ～持续的效率进化之旅 (powered by rst2S5)
