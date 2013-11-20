@@ -877,7 +877,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. container:: handout
 
-    - 1990 Tim Berners-Lee
+    - 1990 `Tim Berners-Lee <http://chinagdg.com/thread-3220-1-1.html>`_
     - WorldWideWeb->Nexus 
     - 1994 终止,是的就是Jobs 领导下的 NeXTSTEP...!
 
@@ -890,7 +890,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
     
 .. container:: notes
 
-   - WorldWideWeb_FSF_GNU.png
+   - [万维网发明人Tim Berners Lee谈“开放”(Open)的8重含义 - 自由讨论和其它各种话题论坛 (Free Discussions) - 中国谷歌开发者社区论坛(China Google Developer Group Forum) -](http://chinagdg.com/thread-3220-1-1.html)
 
 
 平和的Geek 世界
@@ -1355,7 +1355,7 @@ Chrome 2011
 .. container:: handout
 
     - `Chrome Time Machine <http://www.google.com/intl/en/chrome/timemachine/>`_ 
-    - 2011年7月11 超过FireFox|lbtc|
+    - 2011年7月11 超过FireFox |lbtc|
 
 
 .. class:: takahashi7
