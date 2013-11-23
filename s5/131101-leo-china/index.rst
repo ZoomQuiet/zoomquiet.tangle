@@ -216,6 +216,613 @@ Leo
 
 .. container:: handout
 
+   最想跟同学们吼的... |zqeye|
+
+
+.. class:: takahashi
+
+    - :orange:`3' 有关`
+    - :silver:`7'   Leo 不是什么`
+    - :silver:`3'   Leo 内什么的`
+    - :silver:`15'  Leo 享受到的`
+    - :silver:`7' 自由吐糟`
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+<Zoom.Quiet>
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi
+
+    .. image:: i/id/100514-zq-eye.png
+        :align: center
+        :scale: 80 %
+        :alt: 是也乎,是也乎
+
+    .. image:: i/map/50ren-ZoomQuiet-s5-v800.png
+        :align: center
+        :scale: 100 %
+        :alt: Zoom.Quiet
+        :target: http://zoomquiet.org
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+是也乎
+==================
+
+.. container:: handout
+
+   |zqeye|
+
+
+.. class:: takahashi8
+
+    奔四
+
+
+.. container:: notes
+
+   - 
+
+
+
+广告@常州
+==================
+
+.. container:: handout
+
+   大学时代入错行，浪费两年;-{ |zqeye|
+
+
+
+.. class:: takahashi8
+
+    1999
+
+
+.. container:: notes
+
+   - 
+
+
+
+开发@上海
+==================
+
+.. container:: handout
+
+   战上海:HTML->JS->PHP->XSL->Py |zqeye|
+
+
+
+.. class:: takahashi8
+
+    ~2004
+
+
+.. container:: notes
+
+   - 
+
+
+
+`2003:CZUG.org <http://czug.org/>`__
+======================================================
+
+.. container:: handout
+
+   learnning Zope/Plone... |zqeye|
+
+
+
+.. class:: takahashi1
+
+    - **C** hina
+    - **Z** ope
+    - **U** ser
+    - **G** roup
+
+    .. image:: i/logo/logo-czug.png
+        :align: center
+        :alt: http://czug.org
+
+
+.. container:: notes
+
+   - 
+
+
+
+`2004:啄木鸟 <http://www.woodpecker.org.cn/>`__
+=================================================
+
+.. container:: handout
+
+   admin. MoinMoin 1.2.4... |zqeye|
+
+
+.. class:: center
+
+    .. image:: i/logo/logo-wpwww_banner.png
+        :align: center
+        :alt: http://www.woodpecker.org.cn
+
+    - |logo_wpwiki_banner| \ :sup:`MoinMoin 1.4.*`\    
+    - |wiki_banner| \ :sup:`MoinMoin 1.7.*`\    
+    - |wp_zoomq_scrot| \ :sup:`MoinMoin 1.9.*`\
+
+
+
+.. |logo_wpwiki_banner| image:: i/logo/logo_wpwiki_banner.gif
+    :align: bottom
+    :alt: http://www.woodpecker.org.cn
+
+.. |wiki_banner| image:: i/logo/logo_wp-wiki_banner.png
+    :align: bottom
+    :alt: http://wiki.woodpecker.org.cn
+
+.. |wp_zoomq_scrot| image:: i/logo/logo_wiki-wp_zoomq_scrot.png
+    :align: bottom
+    :scale: 100 %
+    :alt: http://wiki,woodpecker.org.cn
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+PI@北京
+==================
+
+.. container:: handout
+
+   混北京:SINA->CPyUG->SLL |zqeye|
+
+
+.. class:: takahashi8
+
+    ~2007
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+2005:`CPyUG`__-> BPyUG
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
+.. container:: handout
+
+   working with Python,in SINA.com |zqeye|
+
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/120201-CPyUG-logo-v2.png
+        :align: center
+        :height: 500px
+        :alt: CPyUG
+        :target: http://wiki.woodpecker.org.cn/moin/CPUG
+
+
+.. container:: notes
+
+   - BPUG-logo-v1.3.png
+
+
+
+2005:`CPyUG`__-> BPyUG
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
+.. container:: handout
+
+   working with Python,in SINA.com |zqeye|
+
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/BPUG-logo-v1.2.png
+        :align: center
+        :height: 400px
+        :alt: BPUG
+        :target: http://wiki.woodpecker.org.cn/moin/BPUG
+
+
+.. container:: notes
+
+   - BPUG-logo-v1.3.png
+
+
+
+2007:`ZPyUG`__
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/ZPyUG
+
+.. container:: handout
+
+    - 在北京,主持完成了25次技术分享
+    - 进入金山,使用Python 进行了各种平台的构建~ `KTRAC`__
+    - spreading Python everywhere to everyone... 
+
+
+__ http://py.kingsoft.net/ktrac
+
+.. class:: takahashi1
+
+    - **珠** 三角
+    - **P** ython
+    - **U** ser
+    - **G** roup
+
+
+    .. image:: i/logo/logo_163_game.gif
+        :align: center
+    .. image:: i/logo/logo_sina_home.gif
+        :align: center
+    .. image:: i/logo/logo-ks.jpg
+        :align: center
+
+
+.. container:: notes
+
+   - 
+
+
+
+`ECUG.org`__
+======================================================
+
+__ http://ecug.org/
+.. container:: handout
+
+   spreading Python everywhere to everyone... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ecug-logo_67bw.jpg
+        :align: center
+        :scale: 100 %
+        :alt: ECUG
+        :target: http://code.google.com/p/ecug/wiki/FrontPage
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+2009-09-01 出版
+======================================================
+
+.. container:: handout
+
+   - 将多年的体验,集中到一本入门图书 "可爱的Python"
+   - 并主持ZPyUG 近10次技术分享  |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/090902-lovpy.jpg
+        :align: center
+        :alt: 可愛的Python
+        :target: http://book.douban.com/subject/3884108/
+
+
+.. container:: notes
+
+   - snap4ZQMBP_apac2010.png
+
+
+
+PyCon2011China
+======================================================
+
+.. container:: handout
+
+   首次PyCon 落地中国... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2011cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2011
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+PyCon2012ChinA
+======================================================
+
+.. container:: handout
+
+   首次 PyCon中国双城市联办... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2012cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2012
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+过一万人!
+======================================================
+
+.. container:: handout
+
+   121024首次 Hackathon 前! |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/121024-python-cn-10000.png
+        :align: center
+        :height: 600px
+        :alt: python-cn@googlegroups.com
+        :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+PyCon2013ChinA
+======================================================
+
+.. container:: handout
+
+   今年3城联联办... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2013cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2013
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
+========================================================================
+
+.. container:: handout
+
+   Google Developer Group... |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ZH_GDG_Logo_b_h100.png
+        :align: center
+        :height: 200px
+        :alt: ECUG
+        :target: http://code.google.com/p/ecug/wiki/FrontPage
+
+
+
+.. container:: notes
+
+   - 2013-09-14 13-03-12-MOTION.gif
+
+
+
+`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
+========================================================================
+
+.. container:: handout
+
+   DevFest2013 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/2013-09-14_13-03-12-MOTION.gif
+        :align: center
+        :height: 500px
+        :alt: GDG
+        :target: http://gplus.to/gdgzh
+
+
+
+.. container:: notes
+
+   - 2013-09-14 13-03-12-MOTION.gif
+
+
+
+综上...
+==================
+
+.. container:: handout
+
+   基调是分享交流;-} |zqeye|
+
+
+.. class:: takahashi
+
+    俺就一
+
+    `社区大妈`__
+
+__ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+综上...
+==================
+
+.. container:: handout
+
+   ;-} |zqeye|
+
+
+.. class:: takahashi8
+
+    最大
+
+    成就
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 596d
+
+
+
+.. image:: i/foto/110105nn596d.jpg
+    :align: center
+    :height: 600px
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 120426-niuniu-表情帝
+
+
+
+牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 1096d
+
+
+
+.. image:: i/foto/120426nn1096d-表情帝.jpg
+    :align: center
+    :height: 600px
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 131011_nn1595d-princess.jpg
+
+
+
+牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 1595d
+
+
+
+.. image:: i/foto/131011_nn1595d-princess.jpg
+    :align: center
+    :height: 700px
+    :alt: 公主牛
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 131011_nn1595d-princess.jpg
+
+
+
+</Zoom.Quiet>
+==================
+
+.. container:: handout
+
+    - 纯种Pythoner，自由软件原教旨主义者 
+    - 关注社会化教育及知识管理；喜爱SF和摄影。 
+    - 尝试使用Pythonic体验感化国人主动进入自由软件世界体验/学习/再创作
+
+
+.. class:: takahashi8
+
+   (^.^)
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+<brief/>
+=========
+
+.. container:: handout
+
     最想跟同学们吼的... |zqeye|
 
 
@@ -2066,6 +2673,273 @@ Donald E.Knuth
 
 
 
+扩用 `Leo`_ 
+====================================
+
+.. container:: handout
+
+  其实...  |zqeye|
+
+.. class:: takahashi7
+
+    `Emacs <http://leoeditor.com/emacs.html>`_
+
+.. container:: notes
+
+   - ...
+
+
+扩用 `Leo`_ 
+====================================
+
+.. container:: handout
+
+  其实...  |zqeye|
+
+.. class:: takahashi7
+
+    `Vim <http://leoeditor.com/vimBindings.html>`_
+
+.. container:: notes
+
+   - ...
+
+
+扩用 `Leo`_ 
+====================================
+
+.. container:: handout
+
+  其实...  |zqeye|
+
+.. class:: takahashi7
+
+    `ZODB <http://leoeditor.com/zodb.html>`_
+
+.. container:: notes
+
+   - ...
+
+
+扩用 `Leo`_ 
+====================================
+
+.. container:: handout
+
+  ILeo...  |zqeye|
+
+.. class:: takahashi7
+
+    `IP[y]: <http://leoeditor.com/IPythonBridge.html>`_
+
+.. container:: notes
+
+   - ...
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  其实很自然...  |zqeye|
+
+.. class:: takahashi7
+
+    :orange:`.`\ leo
+
+.. container:: notes
+
+   - 
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  如果...只有自个儿  |zqeye|
+
+.. class:: takahashi7
+
+    @nosent
+
+.. container:: notes
+
+   - 
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  进入VCS...  |zqeye|
+
+.. class:: takahashi7
+
+    干净
+
+.. container:: notes
+
+   - 
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  如果...有愿意配合的..  |zqeye|
+
+.. class:: takahashi7
+
+    @file
+
+.. container:: notes
+
+   - 
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  进入VCS...  |zqeye|
+
+.. class:: takahashi7
+
+    注释
+
+.. container:: notes
+
+   - 
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  如果...其它成员...  |zqeye|
+
+.. class:: takahashi7
+
+    @shadow
+
+.. container:: notes
+
+   - 
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  进入VCS...  |zqeye|
+
+.. class:: takahashi7
+
+    干净
+
+.. container:: notes
+
+   - 
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  进入VCS...  |zqeye|
+
+.. class:: takahashi4
+
+    :orange:`.`\ leo_shadow
+
+.. container:: notes
+
+   - 
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  `EKR`_ 有曰...  |zqeye|
+
+.. class:: takahashi8
+
+    总之
+
+.. container:: notes
+
+   - 
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  `Leonine`_ 狮样的...  |zqeye|
+
+.. class:: takahashi7
+
+    Leonard
+
+.. container:: notes
+
+   - 
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  IDE 去吧...  |zqeye|
+
+.. class:: takahashi7
+
+    Penny
+
+.. container:: notes
+
+   - 
+
+
+
+`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  因为...  |zqeye|
+
+.. class:: takahashi
+
+::
+
+      思维
+        `->.leo
+            ^ `-> 混出 
+            ^   `-> 运行
+            ^     `-> 观察
+            |           |
+            +-----------/
+           
+
+.. container:: notes
+
+   - 
+
+
+
 <brief/>
 =========
 
@@ -2101,7 +2975,7 @@ Donald E.Knuth
 .. class:: incremental takahashi
 
     * `Leo`_ 不是任何已知环境
-    * `Leo`_ 解放的是代码的\ :orange:`生长过程`
+    * `Leo`_ 解放了代码 **生长过程**
     * `Leonine`_ 具有成瘾性!
     * `Leonine`_ 你值得体验;-)
 
@@ -2124,7 +2998,7 @@ Donald E.Knuth
    |zqeye|
 
 
-- 131113 精简! 为澳门 IT.汇
+- 131113 精简! 珠海GDG
 - 131101 重构为 rst2s5 格式
 - 100611 首次亚太PyCon上LightTalk
 - 060730 首次分享
@@ -2180,610 +3054,7 @@ Donald E.Knuth
 
 
 
-<brief/>
-=========
 
-.. container:: handout
-
-   最想跟同学们吼的... |zqeye|
-
-
-.. class:: takahashi
-
-    - :orange:`3' 有关`
-    - :silver:`7'   Leo 不是什么`
-    - :silver:`3'   Leo 内什么的`
-    - :silver:`15'  Leo 享受到的`
-    - :silver:`7' 自由吐糟`
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-<Zoom.Quiet>
-==================
-
-.. container:: handout
-
-   |zqeye|
-
-
-.. class:: takahashi
-
-    .. image:: i/id/100514-zq-eye.png
-        :align: center
-        :scale: 80 %
-        :alt: 是也乎,是也乎
-
-    .. image:: i/map/50ren-ZoomQuiet-s5-v800.png
-        :align: center
-        :scale: 100 %
-        :alt: Zoom.Quiet
-        :target: http://zoomquiet.org
-
-
-
-.. container:: notes
-
-   - 
-
-
-
-是也乎
-==================
-
-.. container:: handout
-
-   |zqeye|
-
-
-.. class:: takahashi8
-
-    奔四
-
-
-.. container:: notes
-
-   - 
-
-
-
-广告@常州
-==================
-
-.. container:: handout
-
-   大学时代入错行，浪费两年;-{ |zqeye|
-
-
-
-.. class:: takahashi8
-
-    1999
-
-
-.. container:: notes
-
-   - 
-
-
-
-开发@上海
-==================
-
-.. container:: handout
-
-   战上海:HTML->JS->PHP->XSL->Py |zqeye|
-
-
-
-.. class:: takahashi8
-
-    ~2004
-
-
-.. container:: notes
-
-   - 
-
-
-
-`2003:CZUG.org <http://czug.org/>`__
-======================================================
-
-.. container:: handout
-
-   learnning Zope/Plone... |zqeye|
-
-
-
-.. class:: takahashi1
-
-    - **C** hina
-    - **Z** ope
-    - **U** ser
-    - **G** roup
-
-    .. image:: i/logo/logo-czug.png
-        :align: center
-        :alt: http://czug.org
-
-
-.. container:: notes
-
-   - 
-
-
-
-`2004:啄木鸟 <http://www.woodpecker.org.cn/>`__
-=================================================
-
-.. container:: handout
-
-   admin. MoinMoin 1.2.4... |zqeye|
-
-
-.. class:: center
-
-    .. image:: i/logo/logo-wpwww_banner.png
-        :align: center
-        :alt: http://www.woodpecker.org.cn
-
-    - |logo_wpwiki_banner| \ :sup:`MoinMoin 1.4.*`\    
-    - |wiki_banner| \ :sup:`MoinMoin 1.7.*`\    
-    - |wp_zoomq_scrot| \ :sup:`MoinMoin 1.9.*`\
-
-
-
-.. |logo_wpwiki_banner| image:: i/logo/logo_wpwiki_banner.gif
-    :align: bottom
-    :alt: http://www.woodpecker.org.cn
-
-.. |wiki_banner| image:: i/logo/logo_wp-wiki_banner.png
-    :align: bottom
-    :alt: http://wiki.woodpecker.org.cn
-
-.. |wp_zoomq_scrot| image:: i/logo/logo_wiki-wp_zoomq_scrot.png
-    :align: bottom
-    :scale: 100 %
-    :alt: http://wiki,woodpecker.org.cn
-
-
-
-.. container:: notes
-
-   - 
-
-
-
-PI@北京
-==================
-
-.. container:: handout
-
-   混北京:SINA->CPyUG->SLL |zqeye|
-
-
-.. class:: takahashi8
-
-    ~2007
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-2005:`CPyUG`__-> BPyUG
-======================================================
-
-__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
-.. container:: handout
-
-   working with Python,in SINA.com |zqeye|
-
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/120201-CPyUG-logo-v2.png
-        :align: center
-        :height: 500px
-        :alt: CPyUG
-        :target: http://wiki.woodpecker.org.cn/moin/CPUG
-
-
-.. container:: notes
-
-   - BPUG-logo-v1.3.png
-
-
-
-2005:`CPyUG`__-> BPyUG
-======================================================
-
-__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
-.. container:: handout
-
-   working with Python,in SINA.com |zqeye|
-
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/BPUG-logo-v1.2.png
-        :align: center
-        :height: 400px
-        :alt: BPUG
-        :target: http://wiki.woodpecker.org.cn/moin/BPUG
-
-
-.. container:: notes
-
-   - BPUG-logo-v1.3.png
-
-
-
-2007:`ZPyUG`__
-======================================================
-
-__ http://wiki.woodpecker.org.cn/moin/ZPyUG
-
-.. container:: handout
-
-    - 在北京,主持完成了25次技术分享
-    - 进入金山,使用Python 进行了各种平台的构建~ `KTRAC`__
-    - spreading Python everywhere to everyone... 
-
-
-__ http://py.kingsoft.net/ktrac
-
-.. class:: takahashi1
-
-    - **珠** 三角
-    - **P** ython
-    - **U** ser
-    - **G** roup
-
-
-    .. image:: i/logo/logo_163_game.gif
-        :align: center
-    .. image:: i/logo/logo_sina_home.gif
-        :align: center
-    .. image:: i/logo/logo-ks.jpg
-        :align: center
-
-
-.. container:: notes
-
-   - 
-
-
-
-`ECUG.org`__
-======================================================
-
-__ http://ecug.org/
-.. container:: handout
-
-   spreading Python everywhere to everyone... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/ecug-logo_67bw.jpg
-        :align: center
-        :scale: 100 %
-        :alt: ECUG
-        :target: http://code.google.com/p/ecug/wiki/FrontPage
-
-
-
-.. container:: notes
-
-   - 
-
-
-
-2009-09-01 出版
-======================================================
-
-.. container:: handout
-
-   - 将多年的体验,集中到一本入门图书 "可爱的Python"
-   - 并主持ZPyUG 近10次技术分享  |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/090902-lovpy.jpg
-        :align: center
-        :alt: 可愛的Python
-        :target: http://book.douban.com/subject/3884108/
-
-
-.. container:: notes
-
-   - snap4ZQMBP_apac2010.png
-
-
-
-PyCon2011China
-======================================================
-
-.. container:: handout
-
-   首次PyCon 落地中国... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/snap4ZQMBP_pycon2011cn.png
-        :align: center
-        :alt: python-cn@googlegroups.com
-        :target: http://cn.pycon.org/2011
-
-
-.. container:: notes
-
-   - snap4ZQMBP_pycon2011cn.png
-
-
-
-PyCon2012ChinA
-======================================================
-
-.. container:: handout
-
-   首次 PyCon中国双城市联办... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/snap4ZQMBP_pycon2012cn.png
-        :align: center
-        :alt: python-cn@googlegroups.com
-        :target: http://cn.pycon.org/2012
-
-
-.. container:: notes
-
-   - snap4ZQMBP_pycon2011cn.png
-
-
-
-过一万人!
-======================================================
-
-.. container:: handout
-
-   121024首次 Hackathon 前! |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/121024-python-cn-10000.png
-        :align: center
-        :height: 600px
-        :alt: python-cn@googlegroups.com
-        :target: http://groups-beta.google.com/group/python-cn
-
-
-.. container:: notes
-
-   - snap4ZQMBP_pycon2011cn.png
-
-
-
-PyCon2013ChinA
-======================================================
-
-.. container:: handout
-
-   今年3城联联办... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/snap4ZQMBP_pycon2013cn.png
-        :align: center
-        :alt: python-cn@googlegroups.com
-        :target: http://cn.pycon.org/2013
-
-
-.. container:: notes
-
-   - snap4ZQMBP_pycon2011cn.png
-
-
-
-`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
-========================================================================
-
-.. container:: handout
-
-   Google Developer Group... |zhgdg|
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/ZH_GDG_Logo_b_h100.png
-        :align: center
-        :height: 200px
-        :alt: ECUG
-        :target: http://code.google.com/p/ecug/wiki/FrontPage
-
-
-
-.. container:: notes
-
-   - 2013-09-14 13-03-12-MOTION.gif
-
-
-
-`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
-========================================================================
-
-.. container:: handout
-
-   DevFest2013 |zhgdg|
-
-
-.. class:: takahashi1
-
-    .. image:: i/2013-09-14_13-03-12-MOTION.gif
-        :align: center
-        :height: 500px
-        :alt: GDG
-        :target: http://gplus.to/gdgzh
-
-
-
-.. container:: notes
-
-   - 2013-09-14 13-03-12-MOTION.gif
-
-
-
-综上...
-==================
-
-.. container:: handout
-
-   基调是分享交流;-} |zqeye|
-
-
-.. class:: takahashi
-
-    俺就一
-
-    `社区大妈`__
-
-__ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-综上...
-==================
-
-.. container:: handout
-
-   ;-} |zqeye|
-
-
-.. class:: takahashi8
-
-    最大
-
-    成就
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-牛妞
-==================
-
-.. container:: handout
-
-   \\ (^o^) / 596d
-
-
-
-.. image:: i/foto/110105nn596d.jpg
-    :align: center
-    :height: 600px
-    :alt: 表情牛妞
-
-
-.. container:: notes
-
-   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
-   - 120426-niuniu-表情帝
-
-
-
-牛妞
-==================
-
-.. container:: handout
-
-   \\ (^o^) / 1096d
-
-
-
-.. image:: i/foto/120426nn1096d-表情帝.jpg
-    :align: center
-    :height: 600px
-    :alt: 表情牛妞
-
-
-.. container:: notes
-
-   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
-   - 131011_nn1595d-princess.jpg
-
-
-
-牛妞
-==================
-
-.. container:: handout
-
-   \\ (^o^) / 1595d
-
-
-
-.. image:: i/foto/131011_nn1595d-princess.jpg
-    :align: center
-    :height: 700px
-    :alt: 公主牛
-
-
-.. container:: notes
-
-   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
-   - 131011_nn1595d-princess.jpg
-
-
-
-</Zoom.Quiet>
-==================
-
-.. container:: handout
-
-    - 纯种Pythoner，自由软件原教旨主义者 
-    - 关注社会化教育及知识管理；喜爱SF和摄影。 
-    - 尝试使用Pythonic体验感化国人主动进入自由软件世界体验/学习/再创作
-
-
-.. class:: takahashi8
-
-   (^.^)
-
-
-
-.. container:: notes
-
-   - 
 
 
 

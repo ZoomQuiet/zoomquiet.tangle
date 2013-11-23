@@ -273,6 +273,38 @@
 <v t="zoomq.20131121174756.14321"><vh>Takahashi</vh></v>
 </v>
 </v>
+<v t="zoomq.20131121174756.14322"><vh>brief0</vh>
+<v t="zoomq.20131121174756.14323"><vh>abt.ZQ</vh>
+<v t="zoomq.20131121174756.14324"><vh>本命年</vh></v>
+<v t="zoomq.20131121174756.14325"><vh>ZQ1999</vh></v>
+<v t="zoomq.20131121174756.14326"><vh>ZQsh</vh>
+<v t="zoomq.20131121174756.14327"><vh>ZQ2003</vh></v>
+<v t="zoomq.20131121174756.14328"><vh>ZQ2004</vh></v>
+</v>
+<v t="zoomq.20131121174756.14329"><vh>ZQ社区</vh>
+<v t="zoomq.20131121174756.14330"><vh>ZQ2005</vh></v>
+<v t="zoomq.20131121174756.14331"><vh>ZQ2005:BPUG</vh></v>
+<v t="zoomq.20131121174756.14332"><vh>ZQ2007</vh></v>
+<v t="zoomq.20131121174756.14333"><vh>ECUG</vh></v>
+<v t="zoomq.20131121174756.14334"><vh>ZQ2009</vh></v>
+<v t="zoomq.20131121174756.14335"><vh>PyCon2011CN</vh></v>
+<v t="zoomq.20131121174756.14336"><vh>PyCon2012CN</vh></v>
+<v t="zoomq.20131121174756.14337"><vh>CPUG10000人</vh></v>
+<v t="zoomq.20131121174756.14338"><vh>PyCon2013CN</vh></v>
+</v>
+<v t="zoomq.20131121174756.14339"><vh>GDG</vh>
+<v t="zoomq.20131121174756.14340"><vh>DevFest</vh></v>
+</v>
+<v t="zoomq.20131121174756.14341"><vh>ZQ大妈</vh>
+<v t="zoomq.20131121174756.14342"><vh>成就</vh></v>
+<v t="zoomq.20131121174756.14343" a="E"><vh>牛妞</vh>
+<v t="zoomq.20131121174756.14344"><vh>牛妞2012</vh></v>
+<v t="zoomq.20131121174756.14345"><vh>牛妞2013</vh></v>
+</v>
+</v>
+</v>
+<v t="zoomq.20131121174756.14346"><vh>&lt;/ZQ&gt;</vh></v>
+</v>
 <v t="zoomq.20131121174756.14456"><vh>brief1</vh>
 <v t="zoomq.20131122113650.38075"><vh>编辑器?</vh>
 <v t="zoomq.20131122113650.38079"><vh>theme</vh></v>
@@ -331,7 +363,7 @@
 <v t="zoomq.20131122113650.48850"><vh>半年</vh></v>
 <v t="zoomq.20131122113650.48852"><vh>编程</vh></v>
 </v>
-<v t="zoomq.20131122113650.48854" a="E"><vh>Literate</vh>
+<v t="zoomq.20131122113650.48854"><vh>Literate</vh>
 <v t="zoomq.20131122113650.48856"><vh>最重要?</vh></v>
 <v t="zoomq.20131122113650.48857"><vh>代码</vh></v>
 <v t="zoomq.20131122113650.48859"><vh>语法</vh></v>
@@ -359,7 +391,7 @@
 <v t="zoomq.20131122113650.48903"><vh>实用化</vh></v>
 </v>
 </v>
-<v t="zoomq.20131122113650.48943"><vh>Leo</vh>
+<v t="zoomq.20131122113650.48943" a="E"><vh>Leo</vh>
 <v t="zoomq.20131122113650.48944"><vh>Leo 含义</vh></v>
 <v t="zoomq.20131122113650.48905"><vh>漫生</vh>
 <v t="zoomq.20131122113650.48907"><vh>文学化</vh></v>
@@ -384,51 +416,41 @@
 <v t="zoomq.20131122113650.48935"><vh>@others</vh></v>
 <v t="zoomq.20131122113650.48937"><vh>section</vh></v>
 </v>
+<v t="zoomq.20131122113650.48950"><vh>运用所有</vh>
+<v t="zoomq.20131123101121.14441"><vh>Emacs</vh></v>
+<v t="zoomq.20131123101121.14443"><vh>Vim</vh></v>
+<v t="zoomq.20131123101121.14445"><vh>ZODB</vh></v>
+<v t="zoomq.20131123101121.14447"><vh>IPython</vh></v>
 </v>
-<v t="zoomq.20131122113650.48950"><vh>运用所有</vh></v>
+<v t="zoomq.20131123101121.14457" a="E"><vh>团队协同</vh>
+<v t="zoomq.20131123101121.14470"><vh>@nosent</vh>
+<v t="zoomq.20131123101121.14471"><vh>干净</vh></v>
 </v>
-<v t="zoomq.20131121174756.14460"><vh>brief4</vh>
+<v t="zoomq.20131123101121.14458"><vh>@file</vh>
+<v t="zoomq.20131123101121.14467"><vh>注释</vh></v>
+</v>
+<v t="zoomq.20131123101121.14474" a="E"><vh>@shadow</vh>
+<v t="zoomq.20131123101121.14475"><vh>干净</vh></v>
+<v t="zoomq.20131123101121.14485"><vh>leo_shadow</vh></v>
+</v>
+<v t="zoomq.20131123101121.14478" a="E"><vh>总之</vh>
+<v t="zoomq.20131123101121.14479"><vh>Leonard</vh></v>
+<v t="zoomq.20131123101121.14481"><vh>Penny</vh></v>
+<v t="zoomq.20131123101121.14483"><vh>因为</vh></v>
+</v>
+</v>
+</v>
+</v>
+<v t="zoomq.20131121174756.14460" a="E"><vh>brief4</vh>
 <v t="zoomq.20131121174756.14461"><vh>总结7+-2</vh></v>
 </v>
 <v t="zoomq.20131121174756.14451"><vh>version</vh>
 <v t="zoomq.20131121174756.14452"><vh>&lt;&lt;S5&gt;&gt;</vh></v>
 <v t="zoomq.20131121174756.14453"><vh>abt.ZQ</vh></v>
 </v>
-<v t="zoomq.20131121174756.14322"><vh>brief0</vh>
-<v t="zoomq.20131121174756.14323"><vh>abt.ZQ</vh>
-<v t="zoomq.20131121174756.14324"><vh>本命年</vh></v>
-<v t="zoomq.20131121174756.14325"><vh>ZQ1999</vh></v>
-<v t="zoomq.20131121174756.14326"><vh>ZQsh</vh>
-<v t="zoomq.20131121174756.14327"><vh>ZQ2003</vh></v>
-<v t="zoomq.20131121174756.14328"><vh>ZQ2004</vh></v>
-</v>
-<v t="zoomq.20131121174756.14329"><vh>ZQ社区</vh>
-<v t="zoomq.20131121174756.14330"><vh>ZQ2005</vh></v>
-<v t="zoomq.20131121174756.14331"><vh>ZQ2005:BPUG</vh></v>
-<v t="zoomq.20131121174756.14332"><vh>ZQ2007</vh></v>
-<v t="zoomq.20131121174756.14333"><vh>ECUG</vh></v>
-<v t="zoomq.20131121174756.14334"><vh>ZQ2009</vh></v>
-<v t="zoomq.20131121174756.14335"><vh>PyCon2011CN</vh></v>
-<v t="zoomq.20131121174756.14336"><vh>PyCon2012CN</vh></v>
-<v t="zoomq.20131121174756.14337"><vh>CPUG10000人</vh></v>
-<v t="zoomq.20131121174756.14338"><vh>PyCon2013CN</vh></v>
-</v>
-<v t="zoomq.20131121174756.14339"><vh>GDG</vh>
-<v t="zoomq.20131121174756.14340"><vh>DevFest</vh></v>
-</v>
-<v t="zoomq.20131121174756.14341"><vh>ZQ大妈</vh>
-<v t="zoomq.20131121174756.14342"><vh>成就</vh></v>
-<v t="zoomq.20131121174756.14343" a="E"><vh>牛妞</vh>
-<v t="zoomq.20131121174756.14344"><vh>牛妞2012</vh></v>
-<v t="zoomq.20131121174756.14345"><vh>牛妞2013</vh></v>
 </v>
 </v>
-</v>
-<v t="zoomq.20131121174756.14346"><vh>&lt;/ZQ&gt;</vh></v>
-</v>
-</v>
-</v>
-<v t="zoomq.20130510094724.14073" a="E"><vh>131001-war-of-browser</vh>
+<v t="zoomq.20130510094724.14073"><vh>131001-war-of-browser</vh>
 <v t="zoomq.20130510094724.14074"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130510094724.14075"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20130510094724.14076"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -1039,7 +1061,7 @@
 <v t="zoomq.20130726110041.14985"><vh>GDG</vh></v>
 </v>
 </v>
-<v t="zoomq.20130510094724.15679"><vh>ZQ:2012</vh>
+<v t="zoomq.20130510094724.15679" a="E"><vh>ZQ:2012</vh>
 <v t="zoomq.20130426100228.15153"><vh>121020-how2make-tech-party</vh>
 <v t="zoomq.20130426100228.15154"><vh>@nosent index.rst</vh>
 <v t="zoomq.20130426100228.15155"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
@@ -1110,8 +1132,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20121015120918.17068"><vh>1209-lb-5m-50h-story</vh>
-<v t="zoomq.20121015120918.17069" a="E"><vh>@nosent index.rst</vh>
+<v t="zoomq.20121015120918.17068" a="E"><vh>1209-lb-5m-50h-story</vh>
+<v t="zoomq.20121015120918.17069"><vh>@nosent index.rst</vh>
 <v t="zoomq.20121015120918.17070"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20121015120918.17071"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20121015120918.17072"><vh>免责</vh>
@@ -1171,8 +1193,8 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20120608161547.16738"><vh>120617-oneweek-onelanguage</vh>
-<v t="zoomq.20120423093831.20421"><vh>@nosent index.rst</vh>
+<v t="zoomq.20120608161547.16738" a="E"><vh>120617-oneweek-onelanguage</vh>
+<v t="zoomq.20120423093831.20421" a="E"><vh>@nosent index.rst</vh>
 <v t="zoomq.20120423093831.20422"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120423093831.20423"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
 <v t="zoomq.20120423093831.20425"><vh>免责</vh>
@@ -1207,22 +1229,22 @@
 <v t="zoomq.20120527002608.14399"><vh>牛妞2012</vh></v>
 <v t="zoomq.20120423093831.20449"><vh>&lt;/ZQ&gt;</vh></v>
 </v>
-<v t="zoomq.20120423093831.20450"><vh>brief1</vh>
+<v t="zoomq.20120423093831.20450" a="E"><vh>brief1</vh>
 <v t="zoomq.20120423093831.20451"><vh>可能嘛</vh></v>
 <v t="zoomq.20120608161547.16990"><vh>背景</vh></v>
-<v t="zoomq.20120608161547.16992"><vh>云安全</vh>
+<v t="zoomq.20120608161547.16992" a="E"><vh>云安全</vh>
 <v t="zoomq.20120608161547.16994"><vh>2SAE</vh></v>
 <v t="zoomq.20120608161547.16996"><vh>crx</vh></v>
 <v t="zoomq.20120608161547.16998"><vh>2node</vh></v>
 <v t="zoomq.20120608161547.17000"><vh>2openresty</vh></v>
 <v t="zoomq.20120608161547.17002"><vh>2go1</vh></v>
 </v>
-<v t="zoomq.20120608161547.17009"><vh>新语言</vh>
+<v t="zoomq.20120608161547.17009" a="E"><vh>新语言</vh>
 <v t="zoomq.20120608161547.17010"><vh>node.js</vh></v>
 <v t="zoomq.20120608161547.17011"><vh>lua</vh></v>
 <v t="zoomq.20120608161547.17012"><vh>Go</vh></v>
 </v>
-<v t="zoomq.20120608161547.17019"><vh>学习</vh>
+<v t="zoomq.20120608161547.17019" a="E"><vh>学习</vh>
 <v t="zoomq.20120608161547.17020"><vh>tmux</vh></v>
 <v t="zoomq.20120608161547.17021"><vh>cURL</vh></v>
 <v t="zoomq.20120608161547.17022"><vh>GNU</vh></v>
@@ -2124,7 +2146,7 @@
 </v>
 </v>
 </v>
-<v t="zoomq.20120423093831.20420"><vh>120229-time2km</vh>
+<v t="zoomq.20120423093831.20420" a="E"><vh>120229-time2km</vh>
 <v t="zoomq.20120608161547.16864"><vh>@nosent index.rst</vh>
 <v t="zoomq.20120608161547.16865"><vh>&lt;&lt;DOCDEFINE&gt;&gt;</vh></v>
 <v t="zoomq.20120608161547.16866"><vh>&lt;&lt;footer&gt;&gt;</vh></v>
@@ -2198,7 +2220,7 @@
 </v>
 <v t="zoomq.20120608161547.16912"><vh>/KM</vh></v>
 </v>
-<v t="zoomq.20120608161547.16913" a="E"><vh>TM!</vh>
+<v t="zoomq.20120608161547.16913"><vh>TM!</vh>
 <v t="zoomq.20120608161547.16914"><vh>点解?!</vh>
 <v t="zoomq.20120608161547.16915"><vh>学生本质</vh></v>
 <v t="zoomq.20120608161547.16916"><vh>职员本质</vh></v>
@@ -2232,7 +2254,7 @@
 </v>
 </v>
 <v t="zoomq.20120608161547.16939"><vh>brief2</vh>
-<v t="zoomq.20120608161547.16940"><vh>冇最好</vh>
+<v t="zoomq.20120608161547.16940" a="E"><vh>冇最好</vh>
 <v t="zoomq.20120608161547.16941"><vh>矩阵</vh></v>
 <v t="zoomq.20120608161547.16942"><vh>时间帐单</vh>
 <v t="zoomq.20120608161547.16943"><vh>奇特的一生</vh></v>
@@ -2283,7 +2305,7 @@
 <v t="zoomq.20120608161547.16970"><vh>纸笔</vh></v>
 <v t="zoomq.20120608161547.16971"><vh>/TM...</vh></v>
 </v>
-<v t="zoomq.20120608161547.16972"><vh>&lt;share&gt;</vh>
+<v t="zoomq.20120608161547.16972" a="E"><vh>&lt;share&gt;</vh>
 <v t="zoomq.20120608161547.16973"><vh>WeKnow:1</vh>
 <v t="zoomq.20120608161547.16974"><vh>WeKnow:2</vh></v>
 <v t="zoomq.20120608161547.16975"><vh>WeKnow:3</vh></v>
@@ -119026,6 +119048,10 @@ Leo
 
 @others
 
+
+
+
+
 </t>
 <t tx="zoomq.20131121174756.14312">.. This document has been placed in the CC domain.
 .. _Docutils: http://docutils.sourceforge.net/
@@ -119877,7 +119903,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    |zqeye|
 
 
-- 131113 精简! 为澳门 IT.汇
+- 131113 精简! 珠海GDG
 - 131101 重构为 rst2s5 格式
 - 100611 首次亚太PyCon上LightTalk
 - 060730 首次分享
@@ -119998,7 +120024,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 .. class:: incremental takahashi
 
     * `Leo`_ 不是任何已知环境
-    * `Leo`_ 解放的是代码的\ :orange:`生长过程`
+    * `Leo`_ 解放了代码 **生长过程**
     * `Leonine`_ 具有成瘾性!
     * `Leonine`_ 你值得体验;-)
 
@@ -121935,6 +121961,289 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
 
+
+
+</t>
+<t tx="zoomq.20131123101121.14441">扩用 `Leo`_ 
+====================================
+
+.. container:: handout
+
+  其实...  |zqeye|
+
+.. class:: takahashi7
+
+    `Emacs &lt;http://leoeditor.com/emacs.html&gt;`_
+
+.. container:: notes
+
+   - ...
+
+
+</t>
+<t tx="zoomq.20131123101121.14443">扩用 `Leo`_ 
+====================================
+
+.. container:: handout
+
+  其实...  |zqeye|
+
+.. class:: takahashi7
+
+    `Vim &lt;http://leoeditor.com/vimBindings.html&gt;`_
+
+.. container:: notes
+
+   - ...
+
+
+</t>
+<t tx="zoomq.20131123101121.14445">扩用 `Leo`_ 
+====================================
+
+.. container:: handout
+
+  其实...  |zqeye|
+
+.. class:: takahashi7
+
+    `ZODB &lt;http://leoeditor.com/zodb.html&gt;`_
+
+.. container:: notes
+
+   - ...
+
+
+</t>
+<t tx="zoomq.20131123101121.14447">扩用 `Leo`_ 
+====================================
+
+.. container:: handout
+
+  ILeo...  |zqeye|
+
+.. class:: takahashi7
+
+    `IP[y]: &lt;http://leoeditor.com/IPythonBridge.html&gt;`_
+
+.. container:: notes
+
+   - ...
+
+
+</t>
+<t tx="zoomq.20131123101121.14457">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  其实很自然...  |zqeye|
+
+.. class:: takahashi7
+
+    :orange:`.`\ leo
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131123101121.14458">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  如果...有愿意配合的..  |zqeye|
+
+.. class:: takahashi7
+
+    @file
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131123101121.14467">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  进入VCS...  |zqeye|
+
+.. class:: takahashi7
+
+    注释
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131123101121.14470">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  如果...只有自个儿  |zqeye|
+
+.. class:: takahashi7
+
+    @nosent
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131123101121.14471">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  进入VCS...  |zqeye|
+
+.. class:: takahashi7
+
+    干净
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131123101121.14474">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  如果...其它成员...  |zqeye|
+
+.. class:: takahashi7
+
+    @shadow
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131123101121.14475">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  进入VCS...  |zqeye|
+
+.. class:: takahashi7
+
+    干净
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131123101121.14478">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  `EKR`_ 有曰...  |zqeye|
+
+.. class:: takahashi8
+
+    总之
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131123101121.14479">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  `Leonine`_ 狮样的...  |zqeye|
+
+.. class:: takahashi7
+
+    Leonard
+
+.. container:: notes
+
+   - 
+
+
+</t>
+<t tx="zoomq.20131123101121.14481">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  IDE 去吧...  |zqeye|
+
+.. class:: takahashi7
+
+    Penny
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131123101121.14483">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  因为...  |zqeye|
+
+.. class:: takahashi
+
+::
+
+      思维
+        `-&gt;.leo
+            ^ `-&gt; 混出 
+            ^   `-&gt; 运行
+            ^     `-&gt; 观察
+            |           |
+            +-----------/
+           
+
+.. container:: notes
+
+   - 
+
+
+
+</t>
+<t tx="zoomq.20131123101121.14485">`Leo`_ 的团队协同
+====================================
+
+.. container:: handout
+
+  进入VCS...  |zqeye|
+
+.. class:: takahashi4
+
+    :orange:`.`\ leo_shadow
+
+.. container:: notes
+
+   - 
 
 
 </t>
