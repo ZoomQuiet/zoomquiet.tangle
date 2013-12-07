@@ -4,11 +4,10 @@
 我的工具箱
 ==================================================================
 
-～持续的效率进化之旅 (powered by rst2S5)
+～持续的效率进化之旅 for MAC (powered by rst2S5)
 
 :Authors: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
-:Date:    `2010-09-18 <http://wiki.szlug.org/w/Software_Freedom_Day_2010>`__
-:URL:    http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/
+:URL:    http://zoomquiet.org/res/s5/131113-MyTools
 
 .. This document has been placed in the CC domain.
 .. _Docutils: http://docutils.sourceforge.net/
@@ -45,6 +44,7 @@
 .. |cc-byncsa15| image:: i/icon/cc-byncnd-80x15.png
    :alt: (CC)by-nc-sa 许可证
    :target: http://creativecommons.org/licenses/by-nc-sa/2.5/cn/
+
 .. |zqeye| image:: i/id/zoomquiet_1-1_outline.png
    :alt: 是也乎;-)
    :target: http://wiki.woodpecker.org.cn/moin/ZoomQuiet
@@ -53,13 +53,11 @@
     :scale: 100 %
 
 .. footer:: 
-   .. class:: borderless
 
-   =============  ====================================
-   `Zoom.Quiet`_  |cc-byncsa15|
-   -------------  ------------------------------------
-   v10.09.16      推荐用 `FireFox`_ 获得最佳游览效果
-   =============  ====================================
+   `Zoom.Quiet`_ v13.11.25 |cc-byncsa15| 推荐用 |lbicon| 获得最佳游览效果
+
+
+
 
 <免责/>
 =========
@@ -73,15 +71,13 @@
 .. class:: takahashi1
 
     参考所有同好行为总结而得
+        - 一切资料来自网络互动挖掘
+        - 一切想法来自日常学习工作
+        - 一切体悟来自各种沟通交流
+        - 一切知识来自社区分享印证
+        - 一切经验来自个人失败体验
+    
 
-
-    .. class:: incremental
-
-    - 一切资料来自网络互动挖掘
-    - 一切想法来自日常学习工作
-    - 一切体悟来自各种沟通交流
-    - 一切知识来自社区分享印证
-    - 一切经验来自个人失败体验
 
 
 
@@ -98,6 +94,7 @@
 
     .. image:: pix/Takahashi-method.jpg
         :scale: 150 %
+        :height: 300px
         :alt: 高橋流
         :align: center
         :target: http://blog.derjohng.com/2006/04/12/takahashi-method-%E7%B0%A1%E5%A0%B1/
@@ -191,14 +188,22 @@
 
 .. container:: handout
 
-   俺->工具->持续完善 |zqeye|
+   最想跟同学们吼的... |zqeye|
 
 
 .. class:: takahashi
 
-    - :orange:`5' 有关ZQ`
-    - :silver:`45' 效能工具箱`
-    - :silver:`10'自由沟通`
+    - :orange:`3' 有关`
+    - :silver:`5'   工具准则`
+    - :silver:`45'   工具集`
+    - :silver:`7' 自由吐糟`
+
+
+.. container:: notes
+
+   - 
+
+
 
 
 
@@ -224,7 +229,14 @@
         :target: http://zoomquiet.org
 
 
-本命年
+
+.. container:: notes
+
+   - 
+
+
+
+是也乎
 ==================
 
 .. container:: handout
@@ -234,7 +246,14 @@
 
 .. class:: takahashi8
 
-    36
+    奔四
+
+
+.. container:: notes
+
+   - 
+
+
 
 广告@常州
 ==================
@@ -249,6 +268,13 @@
 
     1999
 
+
+.. container:: notes
+
+   - 
+
+
+
 开发@上海
 ==================
 
@@ -262,17 +288,12 @@
 
     ~2004
 
-PI@北京
-==================
 
-.. container:: handout
+.. container:: notes
 
-   混北京:SINA->CPyUG->SLL |zqeye|
+   - 
 
 
-.. class:: takahashi8
-
-    ~2007
 
 `2003:CZUG.org <http://czug.org/>`__
 ======================================================
@@ -292,8 +313,14 @@ PI@北京
 
     .. image:: i/logo/logo-czug.png
         :align: center
-        :scale: 100 %
         :alt: http://czug.org
+
+
+.. container:: notes
+
+   - 
+
+
 
 `2004:啄木鸟 <http://www.woodpecker.org.cn/>`__
 =================================================
@@ -307,7 +334,6 @@ PI@北京
 
     .. image:: i/logo/logo-wpwww_banner.png
         :align: center
-        :scale: 100 %
         :alt: http://www.woodpecker.org.cn
 
     - |logo_wpwiki_banner| \ :sup:`MoinMoin 1.4.*`\    
@@ -318,18 +344,43 @@ PI@北京
 
 .. |logo_wpwiki_banner| image:: i/logo/logo_wpwiki_banner.gif
     :align: bottom
-    :scale: 100 %
     :alt: http://www.woodpecker.org.cn
 
 .. |wiki_banner| image:: i/logo/logo_wp-wiki_banner.png
     :align: bottom
-    :scale: 100 %
     :alt: http://wiki.woodpecker.org.cn
 
 .. |wp_zoomq_scrot| image:: i/logo/logo_wiki-wp_zoomq_scrot.png
     :align: bottom
     :scale: 100 %
     :alt: http://wiki,woodpecker.org.cn
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+PI@北京
+==================
+
+.. container:: handout
+
+   混北京:SINA->CPyUG->SLL |zqeye|
+
+
+.. class:: takahashi8
+
+    ~2007
+
+
+.. container:: notes
+
+   - 
+
+
 
 
 2005:`CPyUG`__-> BPyUG
@@ -344,11 +395,43 @@ __ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
 
 .. class:: takahashi1
 
-    .. image:: i/logo/CPUGlogo.png
+    .. image:: i/logo/120201-CPyUG-logo-v2.png
         :align: center
-        :scale: 100 %
+        :height: 500px
         :alt: CPyUG
         :target: http://wiki.woodpecker.org.cn/moin/CPUG
+
+
+.. container:: notes
+
+   - BPUG-logo-v1.3.png
+
+
+
+2005:`CPyUG`__-> BPyUG
+======================================================
+
+__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
+.. container:: handout
+
+   working with Python,in SINA.com |zqeye|
+
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/BPUG-logo-v1.2.png
+        :align: center
+        :height: 400px
+        :alt: BPUG
+        :target: http://wiki.woodpecker.org.cn/moin/BPUG
+
+
+.. container:: notes
+
+   - BPUG-logo-v1.3.png
+
+
 
 2007:`ZPyUG`__
 ======================================================
@@ -379,6 +462,13 @@ __ http://py.kingsoft.net/ktrac
     .. image:: i/logo/logo-ks.jpg
         :align: center
 
+
+.. container:: notes
+
+   - 
+
+
+
 `ECUG.org`__
 ======================================================
 
@@ -397,30 +487,11 @@ __ http://ecug.org/
         :target: http://code.google.com/p/ecug/wiki/FrontPage
 
 
-2008:|SLL.org| "SLL.org"
-======================================================
 
-.. container:: handout
+.. container:: notes
 
-   spreading Pythonic everywhere to everyone... |zqeye|
+   - 
 
-
-.. class:: takahashi7
-
-    教育大
-
-    发现
-
-
-.. class:: takahashi2 center
-
-    http://sociallearnlab.org/
-
-
-.. |SLL.org| image:: i/logo/2018-gz-sll.png
-    :scale: 100 %
-    :alt: SLL
-    :target: http://sociallearnlab.org/wiki/index.php?title=EduAnn2018&variant=zh-cn
 
 
 2009-09-01 出版
@@ -436,25 +507,152 @@ __ http://ecug.org/
 
     .. image:: i/090902-lovpy.jpg
         :align: center
-        :scale: 100 %
         :alt: 可愛的Python
         :target: http://book.douban.com/subject/3884108/
 
-2010~
+
+.. container:: notes
+
+   - snap4ZQMBP_apac2010.png
+
+
+
+PyCon2011China
 ======================================================
 
 .. container:: handout
 
-   社区在不断发展... |zqeye|
+   首次PyCon 落地中国... |zqeye|
 
 
 .. class:: takahashi1
 
-    .. image:: i/snap/cpug-ml-zoomq-2010-06-04-111017_628x701_scrot.png
+    .. image:: i/snap/snap4ZQMBP_pycon2011cn.png
         :align: center
-        :scale: 100 %
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2011
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+PyCon2012ChinA
+======================================================
+
+.. container:: handout
+
+   首次 PyCon中国双城市联办... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2012cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2012
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+过一万人!
+======================================================
+
+.. container:: handout
+
+   121024首次 Hackathon 前! |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/121024-python-cn-10000.png
+        :align: center
+        :height: 600px
         :alt: python-cn@googlegroups.com
         :target: http://groups-beta.google.com/group/python-cn
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+PyCon2013ChinA
+======================================================
+
+.. container:: handout
+
+   今年3城联联办... |zqeye|
+
+
+.. class:: takahashi1
+
+    .. image:: i/snap/snap4ZQMBP_pycon2013cn.png
+        :align: center
+        :alt: python-cn@googlegroups.com
+        :target: http://cn.pycon.org/2013
+
+
+.. container:: notes
+
+   - snap4ZQMBP_pycon2011cn.png
+
+
+
+`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
+========================================================================
+
+.. container:: handout
+
+   Google Developer Group... |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/logo/ZH_GDG_Logo_b_h100.png
+        :align: center
+        :height: 200px
+        :alt: ECUG
+        :target: http://code.google.com/p/ecug/wiki/FrontPage
+
+
+
+.. container:: notes
+
+   - 2013-09-14 13-03-12-MOTION.gif
+
+
+
+`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
+========================================================================
+
+.. container:: handout
+
+   DevFest2013 |zhgdg|
+
+
+.. class:: takahashi1
+
+    .. image:: i/2013-09-14_13-03-12-MOTION.gif
+        :align: center
+        :height: 500px
+        :alt: GDG
+        :target: http://gplus.to/gdgzh
+
+
+
+.. container:: notes
+
+   - 2013-09-14 13-03-12-MOTION.gif
+
+
 
 综上...
 ==================
@@ -473,19 +671,101 @@ __ http://ecug.org/
 __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 
-帮吼！
+.. container:: notes
+
+   - 
+
+
+
+
+
+综上...
 ==================
 
 .. container:: handout
 
-   基调练习... |zqeye|
+   ;-} |zqeye|
 
 
-.. class:: takahashi
+.. class:: takahashi8
 
-    大妈！
+    最大
 
-    你错了！
+    成就
+
+.. container:: notes
+
+   - 
+
+
+
+
+
+牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 596d
+
+
+
+.. image:: i/foto/110105nn596d.jpg
+    :align: center
+    :height: 600px
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 120426-niuniu-表情帝
+
+
+
+牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 1096d
+
+
+
+.. image:: i/foto/120426nn1096d-表情帝.jpg
+    :align: center
+    :height: 600px
+    :alt: 表情牛妞
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 131011_nn1595d-princess.jpg
+
+
+
+牛妞
+==================
+
+.. container:: handout
+
+   \\ (^o^) / 1595d
+
+
+
+.. image:: i/foto/131011_nn1595d-princess.jpg
+    :align: center
+    :height: 700px
+    :alt: 公主牛
+
+
+.. container:: notes
+
+   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
+   - 131011_nn1595d-princess.jpg
+
+
 
 </Zoom.Quiet>
 ==================
@@ -502,6 +782,13 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    (^.^)
 
 
+
+.. container:: notes
+
+   - 
+
+
+
 <brief/>
 =========
 
@@ -512,23 +799,26 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. class:: takahashi
 
-    - :gray:`5' 有关ZQ`
-    - :orange:`45' 效能工具箱`
-    - :silver:`10'自由沟通`
+    - :gray:`3' 有关`
+    - :orange:`5'   工具准则`
+    - :silver:`45'   工具集`
+    - :silver:`7' 自由吐糟`
 
 
-
-<MyToolBox>
-==================
+原则: **面向肌肉的操作**
+====================================
 
 .. container:: handout
 
    持续改进才有效果！ |zqeye|
 
 
-.. class:: takahashi7
+.. class:: takahashi4
 
-    ~14年
+    -  **M** uscle
+    -  **O** riented
+    -  **O** perating
+
 
 评估雷达
 ========================================================================
@@ -550,6 +840,35 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
         :alt: 雷达图
         :target: #
 
+
+<brief/>
+=========
+
+.. container:: handout
+
+   俺->工具->持续完善 |zqeye|
+
+
+.. class:: takahashi
+
+    - :gray:`3' 有关`
+    - :gray:`5'   工具准则`
+    - :orange:`45'   工具集`
+    - :silver:`7' 自由吐糟`
+
+
+
+<MyToolBox>
+==================
+
+.. container:: handout
+
+   持续改进才有效果！ |zqeye|
+
+
+.. class:: takahashi7
+
+    ~14年
 
 有关输入...
 ==================
@@ -1585,21 +1904,6 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
     </misc>
 
-原则: **面向肌肉的操作**
-====================================
-
-.. container:: handout
-
-   持续改进才有效果！ |zqeye|
-
-
-.. class:: takahashi4
-
-    -  **M** uscle
-    -  **O** riented
-    -  **O** perating
-
-
 </MyToolBox>
 ==================
 
@@ -1684,9 +1988,11 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 .. class:: takahashi
 
-    - :gray:`5' 有关ZQ`
-    - :gray:`45' 效能工具箱`
-    - :orange:`10'自由沟通`
+    - :gray:`3' 有关`
+    - :gray:`5'   工具准则`
+    - :gray:`45'   工具集`
+    - :orange:`7' 自由吐糟`
+
 
 
 
@@ -1705,6 +2011,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
     * 坚持 `WYTIWYG`_ 终身受益!
     * 纸笔永不过时...
     * 用各种渠道分享吧!
+
 
 
 
@@ -1771,13 +2078,13 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
    |zqeye|
 
 
+- 131113 为北理分享增补
 - 101005 根据盛大讲演现场反馈修订错误!
 - 100926 增补EKM/工具关联图谱
 - 100918 根据SFD2010深圳讲演现场反馈修订!
 - 100917 增补软件评估雷图示
 - 100915 迁移为 rST2S5 格式
 - 100817 为SFD2010zs 重构... 
-- 100728 增补髙桥流以及蕃茄时间说明 
 - 100724 为金山新人培训重构 
 - 100331 为珠三角技术沙龙创建
 
@@ -1785,7 +2092,7 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 :反馈:
     Zoom.Quiet@gmail.com
 :查阅:
-    http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/
+    http://zoomquiet.org/res/s5/131113-MyTools
 
 
 `S5 <http://www.meyerweb.com/eric/tools/s5/>`__

@@ -1181,7 +1181,7 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. class:: takahashi
 
-    .. image:: i/logo/leo4-80-border.jpg
+    .. image:: i/snap/render-svg-sources.png
         :align: center
         :height: 400px
         :target: http://leoeditor.com
