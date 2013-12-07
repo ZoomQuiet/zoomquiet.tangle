@@ -310,7 +310,7 @@
 <v t="zoomq.20131207230133.16763"><vh>Weekly</vh></v>
 <v t="zoomq.20131207230133.16765"><vh>翻译</vh></v>
 <v t="zoomq.20131207230133.16767"><vh>RWIPy</vh></v>
-<v t="zoomq.20131207230133.16782"><vh>RWIPy</vh></v>
+<v t="zoomq.20131207230133.16782"><vh>机器学习实战</vh></v>
 <v t="zoomq.20131207230133.16769"><vh>Py3</vh></v>
 <v t="zoomq.20131207230133.16771"><vh>Guido</vh></v>
 <v t="zoomq.20131207230133.16773"><vh>Stéphanie</vh></v>
@@ -123423,7 +123423,7 @@ Py2013CN
 
     .. image:: i/s25684151.jpg
         :align: center
-        :height: 300px
+        :height: 400px
 
 
 
@@ -123601,7 +123601,7 @@ Py2013CN
 
     .. image:: i/s26696371.jpg
         :align: center
-        :height: 300px
+        :height: 400px
 
 
 

@@ -690,7 +690,7 @@ RWIPy
 
     .. image:: i/s25684151.jpg
         :align: center
-        :height: 300px
+        :height: 400px
 
 
 
@@ -712,7 +712,7 @@ RWIPy
 
     .. image:: i/s26696371.jpg
         :align: center
-        :height: 300px
+        :height: 400px
 
 
 
