@@ -43,6 +43,7 @@ takahashi ~ 高桥流 大字演示
     font-size: 500%;font-weight :  bolder;
     line-height : 100%;
     word-spacing: 0px;letter-spacing: -4px;
+    text-align: center;
     margin: 30px 0 0 0;
     padding: 0;
     }
@@ -50,8 +51,7 @@ takahashi ~ 高桥流 大字演示
 .takahashi {
     font-size: 600%;font-weight :  bolder;
     line-height : 100%;
-    word-spacing: 0px;letter-spacing: -4px;
-    color: #fff;
+    word-spacing: 0px;letter-spacing: -4px;    
     margin: 40px 0 0 0;
     padding: 0;
     }
@@ -61,7 +61,7 @@ takahashi ~ 高桥流 大字演示
     line-height : 100%;
     word-spacing: 0px;letter-spacing: -4px;
     text-align: center;
-    color: #fff;
+    
     margin: 40px 0 0 0;
     padding: 0;
     }
@@ -70,7 +70,7 @@ takahashi ~ 高桥流 大字演示
     line-height : 90%;
     word-spacing: 0px;letter-spacing: -4px;
     text-align: center;
-    color: #fff;
+    
     margin: 40px 0 0 0;
     padding: 0;
     }
@@ -79,7 +79,7 @@ takahashi ~ 高桥流 大字演示
     line-height : 80%;
     word-spacing: 0px;letter-spacing: -4px;
     text-align: center;
-    color: #fff;
+    
     margin: 40px 0 0 0;
     padding: 0;
     }
@@ -89,7 +89,7 @@ takahashi ~ 高桥流 大字演示
     line-height : 80%;
     word-spacing: 0px;letter-spacing: -4px;
     text-align: center;
-    color: #fff;
+    
     margin: 40px 0 0 0;
     padding: 0;
     }
@@ -124,10 +124,10 @@ div.handout{
     margin-top: -85px;
     margin-right: -30px;
     font-size: 16px; font-style : italic ;
-    color: #385775;
+    color: #7A7A3E;
 }
 div.handout a{
-    color: #385775;
+    color: #D3D3A7;
 }
 
 div.handout a:hover{

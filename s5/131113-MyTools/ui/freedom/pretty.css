@@ -1,13 +1,13 @@
 /* Following are the presentation styles -- edit away! 
-  Zoomq::090331 hack theme for CPyUG
-body {background: #FFF url(bodybg.gif) -16px 0 no-repeat; color: #000; font-size: 2em;}
-:link, :visited {text-decoration: none; color: #00C;}
+Changelog::
+    101109 for TEDx1Kg as simple white!
+    Zoomq::090331 hack theme for CPyUG
 */
 
-body {background: #2E2E5A url(freedombottom.gif); 
-    color: #fff; font-size: 1.8em;}
+body {background: #ffffff; 
+    color: #121212; font-size: 1.8em;}
 
-:link, :visited {text-decoration: none; color: #F8B73E;}
+:link, :visited {text-decoration: none;}
 
 #controls :active {color: #88A !important;}
 #controls :focus {outline: 1px dotted #227;}
@@ -25,7 +25,8 @@ blockquote b i {font-style: italic;}
 kbd {font-weight: bold; font-size: 1em;}
 sup {font-size: smaller; line-height: 1px;}
 
-.slide code {padding: 2px 0.25em; font-weight: bold; color: #533;}
+.slide code {padding: 2px 0.25em; font-weight: bold; 
+    color: #121212;}
 .slide code.bad, code del {color: red;}
 .slide code.old {color: silver;}
 /*.slide pre {padding: 0; 
@@ -71,15 +72,19 @@ ol ol li {font-size: 85%; list-style: square;}
 div#footer {font-size: 0.5em; font-weight: bold; padding: 1em 0;}
 background: #005 url(bodybg.gif) -16px 0 no-repeat;
 */
-div#header, div#footer {background: #005; color: #9183BF;
-  font-family: Verdana, Helvetica, sans-serif;}
+div#header, div#footer {
+    font-family: Verdana, Helvetica, sans-serif;}
+div#footer { color: #969696; }
 div#header {
-  line-height: 1px;}
+    line-height: 1px;}
 
 div#footer {font-size: 12px; font-weight: lighter; 
-    padding: .5em 0; height: 36px; 
-    border-top: 1px solid #08093F; 
-    background: #17172F url(bluefooter.jpg) top right no-repeat; }
+    padding: .5em 0;
+    height: 20px; 
+    border-top: 0px solid #08093F; 
+    background: #17172F ; }
+div#footer a{color:#fef;} 
+
 /*Zoomq:100916 for rst2s5 auto include Title as footer H1
 #footer h2 {font-style: italic;}
 */
@@ -94,23 +99,24 @@ div.long {font-size: 0.75em;}
   font: bold 150%/1em Helvetica, sans-serif; text-transform: capitalize;
   color: #DDE; background: #005;}
 text-align: center;
+ url(bluebg.gif) repeat-x
 */
 .slide {
 	font-family: georgia, Times, 'Times New Roman', serif;
-    background: transparent url(bluebg.gif) repeat-x;
+    background: transparent;
     padding: 0px;
     width: 100%;
 }
 .slide h1 {position: absolute; left: 10px; z-index: 1;
- white-space: nowrap;
- text-transform: capitalize;
- top: .5em; width: 100%;
- margin: 0 0 0.5em 0;  
- padding: 0px;
- font: 120%/1em georgia, Times, 'Times New Roman', serif;
- color: #fff; 
- background: transparent; 
- }
+    white-space: nowrap;
+    text-transform: capitalize;
+    top: .5em; width: 100%;
+    margin: 0 0 0.5em 0;  
+    padding: 0px;
+    font: 120%/1em georgia, Times, 'Times New Roman', serif;
+    color: #828282; 
+    background: transparent; 
+    }
  
 .slide h3 {font-size: 130%;}
 h1 abbr {font-variant: small-caps;}
@@ -125,14 +131,15 @@ div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
 
 /*Zoomq::090331 fixed deep-blue 
 #controls {font-size: 12px;}
+  background: #005; border: none; color: #9183BF; 
 #779*/
 #controls #navLinks a {padding: 0; margin: 0 0.5em; 
-  background: #005; border: none; color: #9183BF; 
   cursor: pointer;
-  font-size: 12px;}
+  font-size: 24px;}
 #controls #navList {height: 1em;font-size: 12px;}
-#controls #navList #jumplist {position: absolute; bottom: 0; right: 0; background: #DDD; color: #227;}
-
+#controls #navList #jumplist {position: absolute; bottom: 0; right: 0; 
+    background: #DDD; color: #227;
+    }
 
 #currentSlide {text-align: center; font-size: 0.5em; color: #449;}
 
@@ -151,11 +158,11 @@ div#controls form {position: absolute; bottom: 0; right: 0; width: 100%;
     margin: 0 auto; width: 90%; height: 281px;
     text-align: center;
     font-size: 5em;
-    color: #fff;}
+    color: #131313;}
 
 #slide0 h3 {margin-top: 1.5em; font-size: 1.5em;}
 #slide0 h4 {margin-top: 0; font-size: 1em;}
-#slide0 h3, #slide0 h4, #slide0 p {margin: 0; text-align: center; color: #fff;}
+#slide0 h3, #slide0 h4, #slide0 p {margin: 0; text-align: center; }
 #slide0 p {margin-top: 0.7em;}
 
 ul.urls {list-style: none; display: inline; margin: 0;}
@@ -168,14 +175,12 @@ html>body .external {border-bottom: none;}
 
 .incremental, .incremental *, .incremental *:after {color: #DDE; visibility: visible;}
 .slide .current {color: #B02;}
+light grey blue: #385775
 */
-
-.incremental, .incremental *, .incremental *:after {color: #385775; visibility: visible;}
+.incremental, .incremental *, .incremental *:after {color: #B3C6DB; visibility: visible;}
 img.incremental {visibility: hidden;}
-.slide .current {color: orange;}
-
+.slide .current {color: darkorange;}
 
 /* diagnostics
-
 li:after {content: " [" attr(class) "]"; color: #F88;}
  */

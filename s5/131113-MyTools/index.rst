@@ -4,7 +4,7 @@
 我的工具箱
 ==================================================================
 
-～持续的效率进化之旅 for MAC (powered by rst2S5)
+～ `持续的效率进化之旅 <http://blog.zoomquiet.org/pyblosxom/techic/Mac/ubuntu2mac-mytoolbox-2012-02-14-23-23.html>`_ for MAC (powered by rst2S5)
 
 :Authors: `Zoom.Quiet <zoomquiet+sns@gmail.com>`__
 :URL:    http://zoomquiet.org/res/s5/131113-MyTools
@@ -30,6 +30,11 @@
 .. |bullet| unicode:: U+02022
 .. |mode| unicode:: U+00D8 .. capital o with stroke
 
+.. |lbicon| image:: i/id/lb-logo.png
+   :alt: 猎豹浏览器
+   :height: 36px
+   :target: http://liebao.cn/
+   
 .. |S5icon| image:: pix/S5icon.GIF
     :align: top
     :scale: 100 %
@@ -236,17 +241,18 @@
 
 
 
-是也乎
+#图样儿图森破
 ==================
 
 .. container:: handout
 
-   |zqeye|
+    |zqeye|
 
 
 .. class:: takahashi8
 
-    奔四
+   私心
+
 
 
 .. container:: notes
@@ -255,18 +261,18 @@
 
 
 
-广告@常州
+逼自个儿
 ==================
 
 .. container:: handout
 
-   大学时代入错行，浪费两年;-{ |zqeye|
-
+    |zqeye|
 
 
 .. class:: takahashi8
 
-    1999
+   反刍
+
 
 
 .. container:: notes
@@ -275,216 +281,23 @@
 
 
 
-开发@上海
+顺便
 ==================
 
 .. container:: handout
 
-   战上海:HTML->JS->PHP->XSL->Py |zqeye|
-
-
-
-.. class:: takahashi8
-
-    ~2004
-
-
-.. container:: notes
-
-   - 
-
-
-
-`2003:CZUG.org <http://czug.org/>`__
-======================================================
-
-.. container:: handout
-
-   learnning Zope/Plone... |zqeye|
-
-
-
-.. class:: takahashi1
-
-    - **C** hina
-    - **Z** ope
-    - **U** ser
-    - **G** roup
-
-    .. image:: i/logo/logo-czug.png
-        :align: center
-        :alt: http://czug.org
-
-
-.. container:: notes
-
-   - 
-
-
-
-`2004:啄木鸟 <http://www.woodpecker.org.cn/>`__
-=================================================
-
-.. container:: handout
-
-   admin. MoinMoin 1.2.4... |zqeye|
-
-
-.. class:: center
-
-    .. image:: i/logo/logo-wpwww_banner.png
-        :align: center
-        :alt: http://www.woodpecker.org.cn
-
-    - |logo_wpwiki_banner| \ :sup:`MoinMoin 1.4.*`\    
-    - |wiki_banner| \ :sup:`MoinMoin 1.7.*`\    
-    - |wp_zoomq_scrot| \ :sup:`MoinMoin 1.9.*`\
-
-
-
-.. |logo_wpwiki_banner| image:: i/logo/logo_wpwiki_banner.gif
-    :align: bottom
-    :alt: http://www.woodpecker.org.cn
-
-.. |wiki_banner| image:: i/logo/logo_wp-wiki_banner.png
-    :align: bottom
-    :alt: http://wiki.woodpecker.org.cn
-
-.. |wp_zoomq_scrot| image:: i/logo/logo_wiki-wp_zoomq_scrot.png
-    :align: bottom
-    :scale: 100 %
-    :alt: http://wiki,woodpecker.org.cn
-
-
-
-.. container:: notes
-
-   - 
-
-
-
-PI@北京
-==================
-
-.. container:: handout
-
-   混北京:SINA->CPyUG->SLL |zqeye|
+    |zqeye|
 
 
 .. class:: takahashi8
 
-    ~2007
 
-
-.. container:: notes
-
-   - 
-
-
-
-
-2005:`CPyUG`__-> BPyUG
-======================================================
-
-__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
-.. container:: handout
-
-   working with Python,in SINA.com |zqeye|
-
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/120201-CPyUG-logo-v2.png
+    .. image:: i/id/Scorpio.gif
         :align: center
         :height: 500px
-        :alt: CPyUG
-        :target: http://wiki.woodpecker.org.cn/moin/CPUG
 
 
-.. container:: notes
-
-   - BPUG-logo-v1.3.png
-
-
-
-2005:`CPyUG`__-> BPyUG
-======================================================
-
-__ http://wiki.woodpecker.org.cn/moin/BPUG/2005-07-30
-.. container:: handout
-
-   working with Python,in SINA.com |zqeye|
-
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/BPUG-logo-v1.2.png
-        :align: center
-        :height: 400px
-        :alt: BPUG
-        :target: http://wiki.woodpecker.org.cn/moin/BPUG
-
-
-.. container:: notes
-
-   - BPUG-logo-v1.3.png
-
-
-
-2007:`ZPyUG`__
-======================================================
-
-__ http://wiki.woodpecker.org.cn/moin/ZPyUG
-
-.. container:: handout
-
-    - 在北京,主持完成了25次技术分享
-    - 进入金山,使用Python 进行了各种平台的构建~ `KTRAC`__
-    - spreading Python everywhere to everyone... 
-
-
-__ http://py.kingsoft.net/ktrac
-
-.. class:: takahashi1
-
-    - **珠** 三角
-    - **P** ython
-    - **U** ser
-    - **G** roup
-
-
-    .. image:: i/logo/logo_163_game.gif
-        :align: center
-    .. image:: i/logo/logo_sina_home.gif
-        :align: center
-    .. image:: i/logo/logo-ks.jpg
-        :align: center
-
-
-.. container:: notes
-
-   - 
-
-
-
-`ECUG.org`__
-======================================================
-
-__ http://ecug.org/
-.. container:: handout
-
-   spreading Python everywhere to everyone... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/ecug-logo_67bw.jpg
-        :align: center
-        :scale: 100 %
-        :alt: ECUG
-        :target: http://code.google.com/p/ecug/wiki/FrontPage
+   
 
 
 
@@ -494,276 +307,27 @@ __ http://ecug.org/
 
 
 
-2009-09-01 出版
-======================================================
-
-.. container:: handout
-
-   - 将多年的体验,集中到一本入门图书 "可爱的Python"
-   - 并主持ZPyUG 近10次技术分享  |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/090902-lovpy.jpg
-        :align: center
-        :alt: 可愛的Python
-        :target: http://book.douban.com/subject/3884108/
-
-
-.. container:: notes
-
-   - snap4ZQMBP_apac2010.png
-
-
-
-PyCon2011China
-======================================================
-
-.. container:: handout
-
-   首次PyCon 落地中国... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/snap4ZQMBP_pycon2011cn.png
-        :align: center
-        :alt: python-cn@googlegroups.com
-        :target: http://cn.pycon.org/2011
-
-
-.. container:: notes
-
-   - snap4ZQMBP_pycon2011cn.png
-
-
-
-PyCon2012ChinA
-======================================================
-
-.. container:: handout
-
-   首次 PyCon中国双城市联办... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/snap4ZQMBP_pycon2012cn.png
-        :align: center
-        :alt: python-cn@googlegroups.com
-        :target: http://cn.pycon.org/2012
-
-
-.. container:: notes
-
-   - snap4ZQMBP_pycon2011cn.png
-
-
-
-过一万人!
-======================================================
-
-.. container:: handout
-
-   121024首次 Hackathon 前! |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/121024-python-cn-10000.png
-        :align: center
-        :height: 600px
-        :alt: python-cn@googlegroups.com
-        :target: http://groups-beta.google.com/group/python-cn
-
-
-.. container:: notes
-
-   - snap4ZQMBP_pycon2011cn.png
-
-
-
-PyCon2013ChinA
-======================================================
-
-.. container:: handout
-
-   今年3城联联办... |zqeye|
-
-
-.. class:: takahashi1
-
-    .. image:: i/snap/snap4ZQMBP_pycon2013cn.png
-        :align: center
-        :alt: python-cn@googlegroups.com
-        :target: http://cn.pycon.org/2013
-
-
-.. container:: notes
-
-   - snap4ZQMBP_pycon2011cn.png
-
-
-
-`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
-========================================================================
-
-.. container:: handout
-
-   Google Developer Group... |zhgdg|
-
-
-.. class:: takahashi1
-
-    .. image:: i/logo/ZH_GDG_Logo_b_h100.png
-        :align: center
-        :height: 200px
-        :alt: ECUG
-        :target: http://code.google.com/p/ecug/wiki/FrontPage
-
-
-
-.. container:: notes
-
-   - 2013-09-14 13-03-12-MOTION.gif
-
-
-
-`珠海GDG <http://www.chinagdg.com/thread-1329-1-1.html>`_
-========================================================================
-
-.. container:: handout
-
-   DevFest2013 |zhgdg|
-
-
-.. class:: takahashi1
-
-    .. image:: i/2013-09-14_13-03-12-MOTION.gif
-        :align: center
-        :height: 500px
-        :alt: GDG
-        :target: http://gplus.to/gdgzh
-
-
-
-.. container:: notes
-
-   - 2013-09-14 13-03-12-MOTION.gif
-
-
-
-综上...
+所以
 ==================
 
 .. container:: handout
 
-   基调是分享交流;-} |zqeye|
-
-
-.. class:: takahashi
-
-    俺就一
-
-    `社区大妈`__
-
-__ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
-
-
-.. container:: notes
-
-   - 
-
-
-
-
-
-综上...
-==================
-
-.. container:: handout
-
-   ;-} |zqeye|
+    很难说...    |zqeye|
 
 
 .. class:: takahashi8
 
-    最大
 
-    成就
+    态度
+
+
+   
+
+
 
 .. container:: notes
 
    - 
-
-
-
-
-
-牛妞
-==================
-
-.. container:: handout
-
-   \\ (^o^) / 596d
-
-
-
-.. image:: i/foto/110105nn596d.jpg
-    :align: center
-    :height: 600px
-    :alt: 表情牛妞
-
-
-.. container:: notes
-
-   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
-   - 120426-niuniu-表情帝
-
-
-
-牛妞
-==================
-
-.. container:: handout
-
-   \\ (^o^) / 1096d
-
-
-
-.. image:: i/foto/120426nn1096d-表情帝.jpg
-    :align: center
-    :height: 600px
-    :alt: 表情牛妞
-
-
-.. container:: notes
-
-   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
-   - 131011_nn1595d-princess.jpg
-
-
-
-牛妞
-==================
-
-.. container:: handout
-
-   \\ (^o^) / 1595d
-
-
-
-.. image:: i/foto/131011_nn1595d-princess.jpg
-    :align: center
-    :height: 700px
-    :alt: 公主牛
-
-
-.. container:: notes
-
-   - 我的女儿刚刚一岁半,非常牛,,,脾气牛,头脑牛,虽然不会说话,但是已经能指挥我们干活了...
-   - 131011_nn1595d-princess.jpg
 
 
 
@@ -805,7 +369,32 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
     - :silver:`7' 自由吐糟`
 
 
-原则: **面向肌肉的操作**
+.. container:: notes
+
+   - 
+
+
+
+工具选择原则
+====================================
+
+.. container:: handout
+
+   ... |zqeye|
+
+
+.. class:: takahashi8
+
+    :orange:`MOO`
+
+.. container:: notes
+
+   - 
+
+
+
+
+**面向肌肉的操作**
 ====================================
 
 .. container:: handout
@@ -813,11 +402,59 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
    持续改进才有效果！ |zqeye|
 
 
-.. class:: takahashi4
+.. class:: incremental takahashi4
 
     -  **M** uscle
     -  **O** riented
     -  **O** perating
+
+
+.. container:: notes
+
+   - 
+
+
+
+Edsger Dijkstra
+====================================
+
+.. container:: handout
+
+   - 曰过:
+   - 我们所使用的工具深刻地影响我们的思考习惯
+   - 从而也影响了我们的思考能力
+
+.. class:: takahashi8
+
+    工具
+
+
+
+.. container:: notes
+
+   - 
+
+
+
+
+2001:A.Space.Odyssey
+========================================================================
+
+.. container:: handout
+
+   ... |zqeye|
+
+.. class:: takahashi7
+
+    .. image:: i/foto/2001Space.Odyssey_220px-MatchCut.JPG
+        :align: center
+        :height: 500px
+
+
+.. container:: notes
+
+   - 
+
 
 
 评估雷达
@@ -839,6 +476,12 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
         :scale: 100 %
         :alt: 雷达图
         :target: #
+
+
+.. container:: notes
+
+   - 
+
 
 
 <brief/>
@@ -868,7 +511,43 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
 
 .. class:: takahashi7
 
-    ~14年
+    ~16年
+
+~2006
+==================
+
+.. container:: handout
+
+   我NB我用D版 |zqeye|
+
+
+.. class:: takahashi8
+
+    M$
+
+~2012
+==================
+
+.. container:: handout
+
+   不折腾会死星人 |zqeye|
+
+
+.. class:: takahashi7
+
+    Ubuntu
+
+2012~
+==================
+
+.. container:: handout
+
+   愿意付钱... |zqeye|
+
+
+.. class:: takahashi10
+
+    :orange:`X`
 
 有关输入...
 ==================
@@ -933,6 +612,18 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
     :target: http://zim-wiki.org/
 
 
+Notational Velocity
+======================================================
+
+.. container:: handout
+
+   兼容! |zqeye|
+
+
+.. class:: takahashi8
+
+    nvALT
+
 `SwiftFox <http://getswiftfox.org/>`__
 ========================================================================
 
@@ -954,6 +645,30 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
         :alt: 敏捷狐
         :target: #
 
+
+主力
+======================================================
+
+.. container:: handout
+
+   原厂! |zqeye|
+
+
+.. class:: takahashi7
+
+    FireFox
+
+翻越
+======================================================
+
+.. container:: handout
+
+   原厂! |zqeye|
+
+
+.. class:: takahashi7
+
+    Chrome
 
 |logo-autopager| `AutoPage <https://addons.mozilla.org/en-US/firefox/addon/4925/>`__
 ==============================================================================================
@@ -1041,22 +756,6 @@ __ http://wiki.woodpecker.org.cn/moin/ZoomQuiet
     `GTD <http://www.gtdstudy.com/?p=828>`__
 
 
-GTD总流程
-==============================================================================================
-
-.. container:: handout
-
-    Get Things Done 是种生活态度... |zqeye|
-
-
-.. class:: takahashi7
-
-    .. image:: i/map/GTD_v2CN.JPG
-        :align: center
-        :scale: 80 %
-        :target: http://bit.ly/cA0jBu
-
-
 工作邮件态度:收件箱...
 ==============================================================================================
 
@@ -1106,6 +805,18 @@ GTD总流程
 
 
 
+手机
+======================================================
+
+.. container:: handout
+
+   Google |zqeye|
+
+
+.. class:: takahashi7
+
+    Calendar
+
 `moc <http://moc.daper.net/>`__
 ==============================================================================================
 
@@ -1129,13 +840,25 @@ GTD总流程
 
 
 
+iTunes
+======================================================
+
+.. container:: handout
+
+   不折腾:网络电台... |zqeye|
+
+
+.. class:: takahashi7
+
+    Ambient
+
 `mplayer <http://www.mplayerhq.hu/>`__
 ==============================================================================================
 
 
 .. container:: handout
 
-    无敌强力播放平台! |lr_mplayer|
+    神器! |lr_mplayer|
 
 
 .. |lr_mplayer| image:: i/levelradar_mplayer.png
@@ -1167,6 +890,21 @@ GTD总流程
     .. image:: i/snap/zqtool-comix_809x419_scrot.png
         :align: center
         :scale: 100 %
+        :target: #
+
+
+Simple Comic
+==============================================================================================
+
+.. container:: handout
+
+    更多是 布卡! |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/snap/simple_comic.png
+        :align: center
         :target: #
 
 有关输入...
@@ -1476,6 +1214,30 @@ __ http://www.websequencediagrams.com/
     :target: http://blog.zoomquiet.org/pyblosxom/Zen/Chinese/winbx-IMEstory-2006-05-15-12-00.html
 
 
+苏哲
+======================================================
+
+.. container:: handout
+
+   去了Google 之后... |zqeye|
+
+
+.. class:: takahashi7
+
+    :orange:`SCIM`
+
+台湾:佛振
+======================================================
+
+.. container:: handout
+
+   `中州韻 <http://code.google.com/p/rimeime>`_ ! .. Squirrel for MAC |zqeye|
+
+
+.. class:: takahashi7
+
+    :orange:`鼠鬚管`
+
 `WYSIWYG`_
 ==============================================================================================
 
@@ -1512,6 +1274,32 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
         :align: center
         :scale: 100 %
         :target: http://txt2tags.sourceforge.net/
+
+|pyb|
+============================================================================================================
+
+.. |pyb| image:: i/logo/pyblosxom.png
+    :align: top
+    :scale: 100 %
+    :target: http://pyblosxom.sourceforge.net/
+
+
+.. container:: handout
+
+    纯geek 的blogging 系統.. |lr_pyb|
+
+
+.. |lr_pyb| image:: i/levelradar_pyb.png
+    :scale: 100 %
+
+
+.. class:: takahashi7
+
+    .. image:: i/snap/zqtool-t2t_1114x533_scrot.png
+        :align: center
+        :scale: 100 %
+        :target: http://blog.zoomquiet.org/pyblosxom/
+
 
 |logo-rst|
 ==============================================================================================
@@ -1636,6 +1424,45 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
         :target: http://zoomquiet.org/w2py_manual_zh/
 
 
+readthedocs.org
+======================================================
+
+.. container:: handout
+
+   文档的CI 服务 |zqeye|
+
+
+.. class:: takahashi7
+
+    :orange:`RTFD`
+
+Markdown
+======================================================
+
+.. container:: handout
+
+   John Gruber,Aaron Swartz |zqeye|
+
+
+.. class:: takahashi9
+
+    :orange:`Md`
+
+Mu
+======================================================
+
+.. container:: handout
+
+    国人诚品 |zqeye|
+
+
+.. class:: takahashi7
+
+    .. image:: i/logo/Mou_512.png
+        :align: center
+        :target: http://mouapp.com/
+
+
 |pysuper|
 ==============================================================================================
 
@@ -1750,31 +1577,56 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
         :scale: 100 %
         :target: #
 
-|pyb|
-============================================================================================================
-
-.. |pyb| image:: i/logo/pyblosxom.png
-    :align: top
-    :scale: 100 %
-    :target: http://pyblosxom.sourceforge.net/
-
+神的编辑器
+======================================================
 
 .. container:: handout
 
-    纯geek 的blogging 系統.. |lr_pyb|
-
-
-.. |lr_pyb| image:: i/levelradar_pyb.png
-    :scale: 100 %
+   内置编辑器的操作系统... |zqeye|
 
 
 .. class:: takahashi7
 
-    .. image:: i/snap/zqtool-t2t_1114x533_scrot.png
-        :align: center
-        :scale: 100 %
-        :target: http://blog.zoomquiet.org/pyblosxom/
+    Emacs
 
+编辑器之神
+======================================================
+
+.. container:: handout
+
+   全键盘操作，充满速度感... |zqeye|
+
+
+.. class:: takahashi7
+
+    Vim
+
+Sublime Text 2
+======================================================
+
+.. container:: handout
+
+   TextMate 的后续神作 ... |zqeye|
+
+
+
+.. class:: takahashi7
+
+    .. image:: i/snap/subl_rename2_packed.png
+        :align: center
+        :target: http://www.sublimetext.com
+
+性感编辑器
+======================================================
+
+.. container:: handout
+
+   不悔... |zqeye|
+
+
+.. class:: takahashi7
+
+    70\ :orange:`$`
 
 有关输出...
 ==================
@@ -1932,33 +1784,6 @@ __ http://wiki.woodpecker.org.cn/moin/WyTiWyG
 
     改进
 
-Blogging 吧!
-==================
-
-.. container:: handout
-
-   - A:练习表述;B:进入知识圈
-   - `[编程杂谈]写写Blog吧-limodou的学习记录 <http://blog.donews.com/limodou/archive/2004/12/14/202590.aspx>`__
-
-
-.. class:: takahashi7
-
-    入圏
-
-`OTAKU`__ 些什么吧!
-====================================
-
-__ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
-
-.. container:: handout
-
-   功夫在诗外！拓展有益的社会关系，有利于... |zqeye|
-
-
-.. class:: takahashi10
-
-    宅
-
 </Hope>
 ==================
 
@@ -2015,25 +1840,6 @@ __ http://zh.wikipedia.org/wiki/%E5%BE%A1%E5%AE%85%E6%97%8F
 
 
 
-
-
-<discuss/>
-==========
-
-.. container:: handout
-
-   |zqeye|
-
-
-.. class:: takahashi8
-
-    Q&A
-
-
-
-.. class:: takahashi0
-
-    http://zoomquiet.org/res/s5/100918-MyTools/rst2s5/
 
 
 最后...

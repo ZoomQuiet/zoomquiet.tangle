@@ -809,6 +809,27 @@ Guido被HR..
 
 
 
+不折腾会死星人
+====================================
+
+.. container:: handout
+
+   PySonar... |zqeye|
+
+
+.. class:: takahashi8
+
+    王珢
+
+
+
+
+.. container:: notes
+
+   - 
+
+
+
 Python..
 ====================================
 
