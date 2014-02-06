@@ -72,7 +72,7 @@ powered by:
     <a href="http://www.python.org/">Python</a>
     ,<a href="http://leoeditor.com/">Leo</a>
     ,<a href="http://www.graphviz.org/About.php">graphviz</a>
-    ,<a href="http://www.inkscape.org/">Inkscape</a>
+    ,<a href="http://developer.qiniu.com/">七牛</a>
     ,<a href="http://www.catb.org/hacker-emblem/">Hacker</a>
     ,<a href="http://wenq.org/" title="文泉驿">
     <img src="http://wenq.org/images/powered_by_wqy_14px.png" alt="文泉驿提供动力"/>

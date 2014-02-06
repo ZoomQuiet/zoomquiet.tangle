@@ -1,0 +1,132 @@
+digraph zoomquiet_io_idx {
+    /*生成命令:
+$ dot -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_io_idx.map
+$ neato -Tpng zoomquiet_io_idx.dot -o zoomquiet_io_idx.png -Tcmapx -o zoomquiet_io_idx.map
+    全局设定
+    */
+    graph [label=""
+        ,fontsize=12.0,fontcolor=snow
+        ,labeljust="l",labelloc="b",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=plaintext
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.6,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+    ZQ [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="4">  
+            <TR><TD><IMG src="zoomquiet-dot-110629_h85.png"/></TD></TR></TABLE>>
+            ,URL="https://plus.google.com/+ZoomQuiet/about"
+            ];
+    title [label="zoomquiet.io 资源图谱\nTime is unimportant,only life important!"
+        URL="http://tangle.zoomquiet.googlecode.com/hg/dot/zoomquiet.org/zoomquiet_org_idx.dot"];
+
+    mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
+        ,color="#333333",fillcolor=dimgray
+        ,URL="mailto:i@zoomquiet.io?subject=zoomquiet.io mapping feedback"];
+
+    share [label="Sharing",shape=folder];
+        wiki [label="维基"
+            ,URL="http://wiki.woodpecker.org.cn/moin/ZoomQuiet"];
+        douban [label="豆瓣"
+            ,URL="http://www.douban.com/group/zoomquiet/"];
+        github [label="github"
+            ,URL="https://github.com/ZoomQuiet"];
+
+        bloging [label="bloging",shape=tab
+            ,URL="#"];
+            gb [label="@blogger"
+                ,URL="http://zoomquiet.blogspot.com/"];
+            lj [label="@livejournal"
+                ,URL="http://zoomq.livejournal.com/"];
+            pelican [label="Pelican"
+                ,URL="http://blog.zoomquiet.io/"];
+            pyb [label="PyBlosxom"
+                ,URL="http://blog.zoomquiet.org/pyblosxom/"];
+
+        sb [label="ScrapBook",shape=tab
+            ,URL="https://addons.mozilla.org/zh-CN/firefox/addon/427/"];
+            oss [label="FLOSS"
+                ,URL="http://floss.zoomquiet.io/"];
+            skm [label="SKM"
+                ,URL="http://skm.zoomquiet.io/"];
+    doing [label="Making",shape=folder
+        ,URL="http://code.google.com/u/Zoom.Quiet/"];
+        OBP [label="OBP",shape=box3d
+            ,URL="http://obp.zoomquiet.io/"];
+        PiC [label="蟒营",shape=box3d
+            ,URL="http://code.google.com/p/kcpycamp/"];
+        trac [label="KTRAC",shape=box3d
+            ,URL="https://bitbucket.org/ZoomQuiet/trachinese/overview"];
+        WK [label="WeKnow",shape=box3d,style="dashed",height=0.5
+            ,URL="http://wiki.woodpecker.org.cn/moin/WeKnow"];
+
+    learn [label="Doing",shape=folder];
+        cpug [label="CPyUG"
+            ,URL="http://wiki.woodpecker.org.cn/moin/CPUG"];
+            zpug [label="ZPyUG"
+                ,URL="http://wiki.woodpecker.org.cn/moin/ZPyUG"];
+            pyc [label="PyChina"
+                ,URL="http://pychina.org"];
+        tparty [label="TechParty"
+            ,URL="http://techparty.org/"];
+        zhgdg [label="GDG"
+            ,URL="http://blog.zhgdg.org/about.html"];
+
+        zeuux [label="哲思"
+            ,URL="http://www.zeuux.org/community/zeuux-activist.cn.html"];
+        ecug [label="ECUG"
+            ,URL="http://code.google.com/p/ecug/wiki/FrontPage"];
+            erlb [label="恶狼战役"
+                ,URL="http://code.google.com/p/erlbattle/"];
+        sll [label="教育大发现"
+            ,URL="http://code.google.com/p/sociallearnlab/wiki/SllPrjZQ"];
+    link [label="关注",shape=folder,URL="people-idx.html"];
+
+    /*
+    nodeA->nodeB [label="日常",color=azure,style="setlinewidth(1)"];
+    nodeA->nodeB [label="活跃",color=azure,style="setlinewidth(2)"];
+    nodeA->nodeB [label="兴奋",color=azure,style="setlinewidth(3)"];
+        flickr [label="Flickr"
+            ,URL="http://www.flickr.com/photos/zoomq/"];
+
+    */
+    ZQ->{share learn doing link};
+    share->{sb douban github};
+    share->wiki [style="setlinewidth(2)"];
+
+    share->bloging [style="setlinewidth(1)"];
+        bloging->pelican [style="setlinewidth(2)"];
+        bloging->pyb [label="遗迹中"];
+        bloging->lj [label="荒凉中",style="dotted"];
+        bloging->gb [label="河蟹了",style="dotted"];
+
+        sb->{oss skm} [label="已恢复",style="setlinewidth(1)"];
+
+    doing->trac [label="团队散了",style="dotted"];
+        doing->WK [label="构思ing"];
+        doing->{PiC OBP}[style="setlinewidth(4)"];
+
+    learn->{ecug zeuux};
+        learn->zhgdg [style="setlinewidth(4)"];
+        learn->tparty [style="setlinewidth(3)"];
+        learn->sll [style="setlinewidth(1)"];
+        learn->cpug [style="setlinewidth(2)"];
+            cpug->{pyc zpug} [style="setlinewidth(1)"];
+        ecug->erlb [style="dotted"];
+
+
+    edge [style=invis];
+    title->share;
+    mailme->learn;
+
+
+}

@@ -8,7 +8,7 @@ $ dot -Tjpeg people_idx.dot -o people_idx.jpg -Tcmapx -o people_idx.map
         ,labeljust="l",labelloc="b",center=1
         ,ranksep=0.1,center=1,ratio=compress
         ,rankdir=BT
-        ,truecolor bgcolor="#333333"
+        ,bgcolor="#333333"
         ];
 
     node[fontsize=11.0,height=0.3
@@ -22,14 +22,14 @@ $ dot -Tjpeg people_idx.dot -o people_idx.jpg -Tcmapx -o people_idx.map
         ,style="setlinewidth(0.5)"
         ];
 
-    ZQ  [label="返回\nzoomquiet.org",shape=ellipse,style="dotted"
-        ,URL="http://zoomquiet.org"];
-    title [label="Zoom.Quiet关注索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
+    ZQ  [label="返回\nzoomquiet.io",shape=ellipse,style="dotted"
+        ,URL="http://zoomquiet.io"];
+    title [label="Zoom.Quiet 关注索引 \n{gen. by Graphviz}\nTime is unimprtant,only life important!"
         URL="tangle.zoomquiet.googlecode.com/hg/dot/zoomquiet.org/zoomquiet_org_idx.dot"];
 
     mailme [label="电俺",shape=ellipse,style="filled,dashed,setlinewidth(5)"
         ,color="#333333",fillcolor=dimgray
-        ,URL="mailto:zoomquiet+sns@gmail.com?subject=obp.zoomquiet.org mapping feedback"];
+        ,URL="mailto:i@zoomquiet.io?subject=zoomquiet.io/people mapping feedback"];
 
     PEOPLE [label="人物\n~关注互联开放心智",shape=box3d
         ,URL="http://code.google.com/p/openbookproject/"];
@@ -64,7 +64,7 @@ $ dot -Tjpeg people_idx.dot -o people_idx.jpg -Tcmapx -o people_idx.map
 
     floss  [label="FLOSS",shape=tab];
         shredderyin   [label="王垠",shape=note
-            ,URL="http://docs.huihoo.com/homepage/shredderyin/"];
+            ,URL="http://yinwang0.wordpress.com/"];
         netkiller   [label="Netkiller手札s",shape=note
             ,URL="http://netkiller.github.com/"];
 
